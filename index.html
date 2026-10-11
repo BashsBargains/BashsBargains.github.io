@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bash's Bargains</title>
+<meta name="description" content="Free clearance and grocery deals, updated daily. No sign-up, no paying to unlock anything.">
+<meta property="og:title" content="Bash's Bargains">
+<meta property="og:description" content="Free clearance and grocery deals, updated daily. No sign-up, no paywall.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --good:#1c7a46;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:640px;margin:0 auto;padding:28px 16px 48px;display:flex;flex-direction:column;gap:20px}
+.sticker{display:inline-block;background:var(--tag);color:var(--tag-ink);font-family:var(--mono);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;transform:rotate(-2deg);margin-bottom:8px}
+h1{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;margin:0;text-wrap:balance}
+header p{margin:10px 0 0;color:var(--muted);font-size:1.02rem;max-width:34em}
+.sections{display:flex;flex-direction:column;gap:12px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;text-decoration:none;color:inherit;position:relative}
+a.card:hover{border-color:var(--accent)}
+a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card h2{font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1.1;margin:0 0 6px}
+.card p{margin:0;color:var(--muted)}
+.card .go{display:inline-block;margin-top:12px;font-weight:600;color:var(--accent)}
+.stat{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:.8rem;background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:4px}
+.stat:empty{display:none}
+.card.soon{opacity:.75}
+.badge{position:absolute;top:14px;right:14px;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);color:var(--muted);padding:2px 7px;border-radius:999px}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="sticker">Bash those prices</span>
+    <h1>Bash's Bargains</h1>
+    <p>Free deals, rounded up for you. No sign-up, no paying to unlock anything.</p>
+  </header>
+
+  <nav class="sections" aria-label="Deal sections">
+    <a class="card" href="/deals/">
+      <h2>Clearance Deals</h2>
+      <p>Online clearance, hidden markdowns and price drops from Home Depot, Lowe's, Walmart, Target, Amazon, Costco, BJ's, Sam's Club and more. Updated every morning.</p>
+      <span class="stat" id="dealStat"></span><br>
+      <span class="go">See today's deals →</span>
+    </a>
+
+    <div class="card soon" aria-disabled="true">
+      <span class="badge">Coming soon</span>
+      <h2>Grocery Deals &amp; Meals</h2>
+      <p>The best prices from this week's Delaware grocery ads, plus easy meal ideas built around what's on sale.</p>
+    </div>
+  </nav>
+
+  <p class="foot">Prices change fast and can differ by ZIP code. Always open the source and confirm the price before you buy.<br>Deals gathered daily with help from AI.</p>
+</div>
+<script>
+function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const d=Math.round(h/24);return d+(d===1?" day ago":" days ago");}
+fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!Array.isArray(j.deals))return;
+  const now=Date.now(),cut=now-48*3600*1000;
+  const n=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now)).length;
+  if(n)document.getElementById("dealStat").textContent=n+" fresh deals"+(j.updated?" · updated "+ago(j.updated):"");
+}).catch(()=>{});
+</script>
+</body>
+</html>
