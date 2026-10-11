@@ -72,6 +72,9 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .cost b{background:var(--tag);color:var(--tag-ink);padding:1px 6px;border-radius:4px}
 .meal ul{margin:0;padding-left:18px;font-size:.9rem}
 .meal p{margin:0;font-size:.9rem}
+.meal .lab{font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:2px}
+.meal .pantry{color:var(--ink)}
+.meal .steps{margin:0;padding-left:20px;font-size:.9rem;display:flex;flex-direction:column;gap:6px}
 .btn{align-self:flex-start;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;padding:7px 12px;font-weight:600;font-size:.85rem;cursor:pointer}
 .btn.solid{background:var(--accent);color:var(--on-accent)}
 .list-store{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 14px}
@@ -214,7 +217,7 @@ function renderStock(){
 
 function renderMeals(){
   const P=$("p-meals");P.innerHTML="";
-  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Costs are rough estimates for the whole meal; pantry basics like oil, salt and rice aren't counted.";P.appendChild(intro);
+  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples.";P.appendChild(intro);
   const idx={};for(const s of dealStores())for(const d of s.deals||[])idx[d.id]={...d,store:s.name,storeObj:s,st:status(s)};
   const meals=(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k!=="ended"));
   if(!meals.length){P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
@@ -223,12 +226,18 @@ function renderMeals(){
     const h=document.createElement("h2");h.textContent=m.name;
     const cost=document.createElement("div");cost.className="cost";
     cost.innerHTML=`<b>about ${money(m.cost)}</b> · serves ${m.serves} · ~${money(m.cost/m.serves)} each`;
+    const lab=t=>{const s=document.createElement("div");s.className="lab";s.textContent=t;return s};
     const ul=document.createElement("ul");
     m.uses.forEach(u=>{const d=idx[u];const li=document.createElement("li");li.textContent=d.item+" ("+d.store+(d.st.k==="soon"?", from "+fmt(d.storeObj.adStart):"")+")";ul.appendChild(li)});
-    const p=document.createElement("p");p.textContent=m.how;
+    const extra=document.createDocumentFragment();
+    if(m.pantry&&m.pantry.length){const p=document.createElement("p");p.className="pantry";p.textContent=m.pantry.join(" · ");extra.append(lab("From your pantry"),p)}
+    if(m.buy&&m.buy.length){const p=document.createElement("p");p.className="pantry";p.textContent=m.buy.join(" · ");extra.append(lab("Also grab"),p)}
+    let p;
+    if(m.steps&&m.steps.length){p=document.createElement("ol");p.className="steps";m.steps.forEach(s=>{const li=document.createElement("li");li.textContent=s;p.appendChild(li)})}
+    else{p=document.createElement("p");p.textContent=m.how||""}
     const b=document.createElement("button");b.type="button";b.className="btn";b.textContent="+ Add sale items to my list";
     b.onclick=()=>{let n=0;m.uses.forEach(u=>{if(!inList(u)){const d=idx[u];list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});n++}});save();toast(n?`Added ${n} item${n>1?"s":""} to your list`:"Already on your list")};
-    c.append(h,cost,ul,p,b);P.appendChild(c);
+    c.append(h,cost,lab("On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
   }
 }
 

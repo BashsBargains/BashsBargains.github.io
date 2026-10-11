@@ -392,77 +392,202 @@
  ],
  "meals": [
   {
-   "id": "meal-sausage-apples",
-   "name": "Sheet-pan sausage, apples & onions",
+   "id": "meal-honey-garlic-chicken",
+   "name": "Sticky honey-garlic chicken over rice",
    "serves": 4,
-   "cost": 7.25,
+   "cost": 5.5,
    "uses": [
-    "aldi-italian-sausage",
-    "aldi-granny-smith",
-    "lidl-red-onions"
+    "aldi-chicken-tenderloins"
    ],
-   "how": "Slice sausage, apples, onions and a few potatoes. Toss with oil and salt, roast at 425\u00b0F for about 30 minutes."
+   "pantry": [
+    "soy sauce",
+    "honey",
+    "garlic",
+    "ginger (fresh or ground)",
+    "cornstarch",
+    "rice",
+    "sriracha (optional)"
+   ],
+   "buy": [
+    "green onions"
+   ],
+   "steps": [
+    "Toss 1.5 lb chicken tenders with 1 Tbsp cornstarch and a pinch of salt.",
+    "Sear in a hot oiled skillet until golden, 3\u20134 minutes a side.",
+    "Stir together \u2153 cup honey, \u00bc cup soy sauce, 4 minced garlic cloves, \u00bd tsp ginger and a squeeze of sriracha. Pour it in and simmer 2\u20133 minutes until glossy and the chicken hits 165\u00b0F.",
+    "Serve over rice and top with sliced green onions."
+   ]
   },
   {
-   "id": "meal-chicken-tacos",
-   "name": "Chicken tender tacos with avocado",
+   "id": "meal-chipotle-tacos",
+   "name": "Smoky chicken tacos with quick-pickled onions",
    "serves": 4,
-   "cost": 9.4,
+   "cost": 10.5,
    "uses": [
     "aldi-chicken-tenderloins",
-    "aldi-taco-cheese",
-    "aldi-mini-avocados"
+    "lidl-red-onions",
+    "aldi-mini-avocados",
+    "aldi-taco-cheese"
    ],
-   "how": "Season and pan-sear the tenders, slice, and pile into warm tortillas with cheese and sliced avocado."
+   "pantry": [
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "garlic powder",
+    "vinegar",
+    "sugar",
+    "sour cream or mayo"
+   ],
+   "buy": [
+    "tortillas",
+    "1 lime"
+   ],
+   "steps": [
+    "Thinly slice a red onion and cover with \u00bd cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
+    "Rub 1.5 lb chicken tenders with 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, plus salt.",
+    "Sear 3\u20134 minutes a side until 165\u00b0F, then slice.",
+    "Mash 2 mini avocados with lime juice, salt and a spoon of sour cream for a quick crema.",
+    "Pile into warm tortillas with cheese, pickled onions and the avocado crema."
+   ]
   },
   {
-   "id": "meal-pork-pears",
-   "name": "Roast pork loin with pears",
+   "id": "meal-cider-dijon-pork",
+   "name": "Brown-sugar Dijon pork loin with roasted pears",
    "serves": 6,
-   "cost": 9.5,
+   "cost": 10.0,
    "uses": [
     "lidl-pork-loin",
     "lidl-pears",
     "lidl-red-onions"
    ],
-   "how": "Brown a 3 lb piece of pork loin, then roast at 375\u00b0F on a bed of sliced pears and onions until it reaches 145\u00b0F inside. Rest 10 minutes before slicing."
+   "pantry": [
+    "Dijon or yellow mustard",
+    "brown sugar",
+    "garlic",
+    "dried thyme",
+    "apple cider vinegar"
+   ],
+   "buy": [],
+   "steps": [
+    "Heat oven to 400\u00b0F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
+    "Brown a 3 lb piece of pork loin on all sides in an oven-safe pan, then spread the mustard glaze over the top.",
+    "Scatter quartered pears and onion wedges around it and roast 35\u201345 minutes, until the pork reads 145\u00b0F.",
+    "Rest 10 minutes. Splash a little cider vinegar into the pan juices, stir, and spoon over the sliced pork and pears."
+   ]
   },
   {
-   "id": "meal-creamy-cavatappi",
-   "name": "Creamy tomato cavatappi with chicken",
-   "serves": 4,
-   "cost": 7.5,
+   "id": "meal-tuscan-cavatappi",
+   "name": "Creamy garlic-tomato chicken cavatappi",
+   "serves": 5,
+   "cost": 9.0,
    "uses": [
     "aldi-cavatappi",
     "aldi-chicken-tenderloins",
     "lidl-tomatoes",
-    "lidl-heavy-cream"
-   ],
-   "how": "Cook pasta. Sear bite-size chicken, add chopped tomatoes and garlic, simmer, then stir in a cup of cream and the pasta."
-  },
-  {
-   "id": "meal-beef-bake",
-   "name": "Cheesy beef & pumpkin chipotle pasta bake",
-   "serves": 5,
-   "cost": 11.3,
-   "uses": [
-    "lidl-ground-beef",
-    "aldi-cavatappi",
-    "aldi-pumpkin-sauce",
+    "lidl-heavy-cream",
     "lidl-shredded-cheese"
    ],
-   "how": "Brown 1 lb beef with onion, mix with cooked pasta and the sauce, top with cheese and bake at 375\u00b0F for 20 minutes. Freeze the second pound of beef."
+   "pantry": [
+    "garlic",
+    "Italian seasoning",
+    "red pepper flakes",
+    "chicken broth or bouillon",
+    "butter"
+   ],
+   "buy": [
+    "a bag of spinach (optional)"
+   ],
+   "steps": [
+    "Cook the pasta; save a cup of pasta water.",
+    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165\u00b0F. Set aside.",
+    "In the same pan, cook 5 minced garlic cloves and a pinch of red pepper flakes for 30 seconds, then add 3 chopped tomatoes and cook until they slump.",
+    "Add 1 cup cream and \u00bd cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
+    "Toss in the pasta, chicken and a handful of spinach. Loosen with pasta water as needed."
+   ]
   },
   {
-   "id": "meal-butter-chicken",
-   "name": "Butter chicken night with garlic naan",
-   "serves": 6,
-   "cost": 15.4,
+   "id": "meal-korean-beef-bowls",
+   "name": "Korean-style ground beef rice bowls",
+   "serves": 5,
+   "cost": 8.5,
    "uses": [
-    "costco-sukhis",
-    "aldi-garlic-naan"
+    "lidl-ground-beef",
+    "lidl-red-onions"
    ],
-   "how": "Heat the butter chicken, serve over rice with warmed naan. Easy busy-night dinner."
+   "pantry": [
+    "soy sauce",
+    "brown sugar",
+    "garlic",
+    "ginger",
+    "sesame oil",
+    "red pepper flakes",
+    "rice",
+    "eggs (optional)"
+   ],
+   "buy": [
+    "green onions",
+    "cucumber (optional)"
+   ],
+   "steps": [
+    "Brown 2 lb ground beef with a chopped red onion; drain the fat.",
+    "Stir in 4 minced garlic cloves and 1 tsp ginger and cook 1 minute.",
+    "Add \u2153 cup soy sauce, \u00bc cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2\u20133 minutes.",
+    "Serve over rice with green onions, sliced cucumber and a fried egg on top if you like."
+   ]
+  },
+  {
+   "id": "meal-sausage-apple-skillet",
+   "name": "Sausage & apple skillet with cider-mustard sauce",
+   "serves": 4,
+   "cost": 7.0,
+   "uses": [
+    "aldi-italian-sausage",
+    "aldi-granny-smith",
+    "lidl-red-onions"
+   ],
+   "pantry": [
+    "mustard",
+    "apple cider vinegar",
+    "brown sugar",
+    "dried thyme",
+    "butter",
+    "potatoes or rice"
+   ],
+   "buy": [],
+   "steps": [
+    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160\u00b0F).",
+    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6\u20138 minutes.",
+    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, \u00bd tsp thyme and a splash of water to make a glossy sauce.",
+    "Serve with roasted potatoes or over rice."
+   ]
+  },
+  {
+   "id": "meal-crispy-tofu",
+   "name": "Crispy sesame tofu fried rice",
+   "serves": 4,
+   "cost": 5.0,
+   "uses": [
+    "aldi-tofu"
+   ],
+   "pantry": [
+    "cornstarch",
+    "soy sauce",
+    "honey",
+    "garlic",
+    "sesame oil",
+    "eggs",
+    "day-old rice",
+    "frozen mixed vegetables"
+   ],
+   "buy": [
+    "green onions"
+   ],
+   "steps": [
+    "Press the tofu for 10 minutes, cube it, toss with 2 Tbsp cornstarch and a pinch of salt.",
+    "Pan-fry in oil until crispy on all sides, then toss with 1 Tbsp soy sauce and 1 Tbsp honey. Set aside.",
+    "In the same pan, scramble 2 eggs, then add frozen veggies, garlic and 3 cups cold rice. Fry until hot.",
+    "Season with soy sauce and a drizzle of sesame oil, fold the tofu back in, and top with green onions."
+   ]
   }
  ]
 }
