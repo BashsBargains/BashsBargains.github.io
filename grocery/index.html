@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Grocery Deals &amp; Meals · Bash's Bargains</title>
+<meta name="description" content="This week's best grocery prices around Delaware, stock-up prices, meal ideas and a shopping list. Free.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: one narrow column; sticky tab bar (Deals / Stock-up / Meals / My list); store sections of price-tag rows */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --on-accent:#ffffff; --good:#1c7a46; --soon:#8a4b00; --soon-bg:#fdecd2;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+button{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:14px}
+.home{color:var(--accent);text-decoration:none;font-size:.9rem;font-weight:500}
+.home:hover{text-decoration:underline}
+.sticker{display:inline-block;background:var(--tag);color:var(--tag-ink);font-family:var(--mono);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;transform:rotate(-2deg);margin:10px 0 8px}
+h1{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1.05;margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted)}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--bg);padding-block:8px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tab{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 4px;font-size:.88rem;font-weight:600;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab .n{font-family:var(--mono);font-size:.75rem;margin-left:3px}
+.tab:focus-visible,.chip:focus-visible,.add:focus-visible,a:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.panel{display:flex;flex-direction:column;gap:14px}
+.store{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.store-head{padding:14px 14px 10px;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 10px;border-bottom:1px solid var(--line)}
+.store-head h2{font-family:var(--display);font-weight:800;font-size:1.25rem;margin:0}
+.dates{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.pill{display:inline-block;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:999px;margin-right:6px}
+.pill.live{background:var(--tag);color:var(--tag-ink)}
+.pill.soon{background:var(--soon-bg);color:var(--soon)}
+.pill.ended{border:1px solid var(--line);color:var(--muted)}
+.row{display:grid;grid-template-columns:1fr auto auto;gap:4px 10px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line)}
+.row:last-of-type{border-bottom:0}
+.row .name{min-width:0;overflow-wrap:anywhere}
+.row .sub{display:block;font-size:.8rem;color:var(--muted)}
+.price{text-align:right;font-family:var(--mono);white-space:nowrap}
+.now{display:inline-block;background:var(--tag);color:var(--tag-ink);font-weight:600;padding:1px 7px;border-radius:4px}
+.was{display:block;color:var(--muted);text-decoration:line-through;font-size:.75rem}
+.add{border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:8px;padding:5px 9px;font-size:.8rem;font-weight:600;cursor:pointer;min-width:58px}
+.add[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.store-foot{padding:10px 14px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
+.store-foot a,.links a{color:var(--accent)}
+.note{font-size:.9rem;color:var(--muted);margin:0}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lnk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:2px;min-width:0}
+.lnk:hover{border-color:var(--accent)}
+.lnk b{font-weight:600}
+.lnk span{font-size:.78rem;color:var(--muted)}
+.lnk em{font-style:normal;font-size:.8rem;color:var(--accent);font-weight:600;margin-top:4px}
+h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
+.meal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.meal h2{font-family:var(--display);font-weight:800;font-size:1.15rem;line-height:1.15;margin:0}
+.cost{font-family:var(--mono);font-size:.8rem}
+.cost b{background:var(--tag);color:var(--tag-ink);padding:1px 6px;border-radius:4px}
+.meal ul{margin:0;padding-left:18px;font-size:.9rem}
+.meal p{margin:0;font-size:.9rem}
+.btn{align-self:flex-start;border:1px solid var(--accent);background:transparent;color:var(--accent);border-radius:8px;padding:7px 12px;font-weight:600;font-size:.85rem;cursor:pointer}
+.btn.solid{background:var(--accent);color:var(--on-accent)}
+.list-store{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 14px}
+.list-store h2{font-family:var(--display);font-weight:800;font-size:1.05rem;margin:8px 0 4px}
+.li{display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.li:first-of-type{border-top:0}
+.li input{width:20px;height:20px;accent-color:var(--accent);flex:none}
+.li label{flex:1;min-width:0;overflow-wrap:anywhere}
+.li.done label{text-decoration:line-through;color:var(--muted)}
+.li .p{font-family:var(--mono);font-size:.85rem;color:var(--muted)}
+.total{font-family:var(--mono);font-size:.9rem}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.empty{text-align:center;color:var(--muted);padding:28px 12px;border:1px dashed var(--line);border-radius:12px}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:.85rem;z-index:5}
+@media (max-width:380px){.links{grid-template-columns:1fr}.tab{font-size:.8rem}}
+@media (prefers-reduced-motion:no-preference){.add,.tab,.chip{transition:background .15s,color .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="home" href="/">← Bash's Bargains home</a><br>
+    <span class="sticker">Bash those prices</span>
+    <h1>Grocery Deals &amp; Meals</h1>
+    <p>This week's best grocery prices around Delaware, what's worth stocking up on, and cheap meals built from the sales. Updated twice a week.</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab" role="tab" id="t-deals" data-tab="deals">Deals</button>
+    <button class="tab" role="tab" id="t-stockup" data-tab="stockup">Stock-up</button>
+    <button class="tab" role="tab" id="t-meals" data-tab="meals">Meals</button>
+    <button class="tab" role="tab" id="t-list" data-tab="list">My list<span class="n" id="listN"></span></button>
+  </div>
+
+  <section class="panel" id="p-deals" role="tabpanel" aria-labelledby="t-deals"><div class="empty">Loading this week's deals…</div></section>
+  <section class="panel" id="p-stockup" role="tabpanel" aria-labelledby="t-stockup" hidden></section>
+  <section class="panel" id="p-meals" role="tabpanel" aria-labelledby="t-meals" hidden></section>
+  <section class="panel" id="p-list" role="tabpanel" aria-labelledby="t-list" hidden></section>
+
+  <p class="foot">Prices can differ by store and ZIP code, and some need the store's free loyalty card or app. Check the store's ad before you shop.<br>Deals gathered with help from AI. <span id="upd"></span></p>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+let data={stores:[],meals:[]},storeFilter="All",tab="deals";
+let list=load();
+
+function load(){try{return JSON.parse(localStorage.getItem("bb-grocery-list")||"[]")}catch(e){return[]}}
+function save(){try{localStorage.setItem("bb-grocery-list",JSON.stringify(list))}catch(e){}$("listN").textContent=list.length?String(list.length):""}
+function money(n){return "$"+Number(n).toFixed(2)}
+function todayStr(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function fmt(s){const [y,m,d]=s.split("-").map(Number);const dt=new Date(y,m-1,d);return DAY[dt.getDay()]+" "+m+"/"+d}
+function status(s){
+  const t=todayStr();
+  if(s.adEnd&&s.adEnd<t)return{k:"ended",label:"Ad ended",text:"New ad coming soon"};
+  if(s.adStart&&s.adStart>t)return{k:"soon",label:"Coming",text:"Starts "+fmt(s.adStart)+(s.adEnd?" · thru "+fmt(s.adEnd):"")};
+  if(s.adEnd)return{k:"live",label:"On now",text:(s.adStart?fmt(s.adStart)+" – ":"")+"thru "+fmt(s.adEnd)};
+  return{k:"live",label:"On now",text:s.adNote||""};
+}
+function toast(msg){const t=$("toast");t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)}
+function dealStores(){return data.stores.filter(s=>s.kind==="deals")}
+function allDeals(){const out=[];for(const s of dealStores()){const st=status(s);if(st.k==="ended")continue;for(const d of s.deals||[])out.push({...d,store:s.name,storeObj:s,st})}return out}
+function priceHtml(d){
+  if(d.price>0)return `<span class="now">${money(d.price)}${d.unit||""}</span>`+(d.was>d.price?`<span class="was">${money(d.was)}</span>`:"");
+  if(d.off)return `<span class="now">${money(d.off)} off</span>`;
+  return "";
+}
+function inList(id){return list.some(x=>x.id===id)}
+function toggle(d){
+  if(inList(d.id)){list=list.filter(x=>x.id!==d.id);toast("Removed from your list")}
+  else{list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});toast("Added to your list")}
+  save();
+}
+function addBtn(d){
+  const b=document.createElement("button");b.type="button";b.className="add";
+  const sync=()=>{const on=inList(d.id);b.setAttribute("aria-pressed",on);b.textContent=on?"✓ Listed":"+ List";b.setAttribute("aria-label",(on?"Remove ":"Add ")+d.item+(on?" from":" to")+" your list")};
+  sync();b.onclick=()=>{toggle(d);sync()};return b;
+}
+function row(d,showStore){
+  const r=document.createElement("div");r.className="row";
+  const n=document.createElement("div");n.className="name";n.textContent=d.item;
+  const sub=[];if(showStore)sub.push(d.store);if(d.notes)sub.push(d.notes);if(d.st&&d.st.k==="soon")sub.push("Starts "+fmt(d.storeObj.adStart));
+  if(sub.length){const s=document.createElement("span");s.className="sub";s.textContent=sub.join(" · ");n.appendChild(s)}
+  const p=document.createElement("div");p.className="price";p.innerHTML=priceHtml(d);
+  r.append(n,p,addBtn(d));return r;
+}
+
+function renderDeals(){
+  const P=$("p-deals");P.innerHTML="";
+  const stores=dealStores();
+  const chips=document.createElement("div");chips.className="chips";chips.setAttribute("role","group");chips.setAttribute("aria-label","Filter by store");
+  ["All",...stores.map(s=>s.name)].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderDeals()};chips.appendChild(b)});
+  P.appendChild(chips);
+  for(const s of stores){
+    if(storeFilter!=="All"&&s.name!==storeFilter)continue;
+    const st=status(s);
+    const box=document.createElement("article");box.className="store";
+    box.innerHTML=`<div class="store-head"><h2></h2><div class="dates"><span class="pill ${st.k}">${st.label}</span><span class="dt"></span></div></div>`;
+    box.querySelector("h2").textContent=s.name;box.querySelector(".dt").textContent=st.text;
+    if(st.k==="ended"){const e=document.createElement("p");e.className="note";e.style.padding="12px 14px";e.textContent="This ad has ended. The new one will be added at the next update.";box.appendChild(e)}
+    else for(const d of s.deals||[])box.appendChild(row({...d,store:s.name,storeObj:s,st},false));
+    const f=document.createElement("div");f.className="store-foot";
+    const parts=[];if(s.adNote)parts.push(document.createTextNode(s.adNote));
+    if(s.checked)parts.push(document.createTextNode("Prices checked "+fmt(s.checked)));
+    const a1=document.createElement("a");a1.href=s.adUrl;a1.target="_blank";a1.rel="noopener";a1.textContent=s.name+" website";parts.push(a1);
+    if(s.srcUrl){const a2=document.createElement("a");a2.href=s.srcUrl;a2.target="_blank";a2.rel="noopener";a2.textContent="Source: "+(s.src||"deal post");parts.push(a2)}
+    parts.forEach(x=>{const sp=document.createElement("span");sp.appendChild(x);f.appendChild(sp)});
+    box.appendChild(f);P.appendChild(box);
+  }
+  if(storeFilter==="All"){
+    const links=data.stores.filter(s=>s.kind==="link");
+    if(links.length){
+      const h=document.createElement("h3");h.textContent="More store ads to check";P.appendChild(h);
+      const p=document.createElement("p");p.className="note";p.textContent="These stores post their ads as pictures or only in their apps, so check them directly.";P.appendChild(p);
+      const g=document.createElement("div");g.className="links";
+      for(const s of links){const st=status(s);const a=document.createElement("a");a.className="lnk";a.href=s.adUrl;a.target="_blank";a.rel="noopener";
+        const b=document.createElement("b");b.textContent=s.name;const sp=document.createElement("span");sp.textContent=(s.adEnd&&st.k!=="ended")?st.text:(s.adNote||"");
+        const em=document.createElement("em");em.textContent="Open site →";a.append(b,sp,em);g.appendChild(a)}
+      P.appendChild(g);
+    }
+  }
+}
+
+function renderStock(){
+  const P=$("p-stockup");P.innerHTML="";
+  const intro=document.createElement("p");intro.className="note";intro.textContent="Staples at prices worth buying extra of. Meat freezes well; butter and shredded cheese do too.";P.appendChild(intro);
+  const items=allDeals().filter(d=>d.stockup);
+  if(!items.length){P.insertAdjacentHTML("beforeend",'<div class="empty">No stock-up prices this week yet. Check back after the next update.</div>');return}
+  const cats=[...new Set(items.map(d=>d.cat||"Other"))];
+  for(const c of cats){
+    const box=document.createElement("article");box.className="store";
+    box.innerHTML='<div class="store-head"><h2></h2></div>';box.querySelector("h2").textContent=c;
+    items.filter(d=>(d.cat||"Other")===c).sort((a,b)=>(a.price||0)-(b.price||0)).forEach(d=>box.appendChild(row(d,true)));
+    P.appendChild(box);
+  }
+}
+
+function renderMeals(){
+  const P=$("p-meals");P.innerHTML="";
+  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Costs are rough estimates for the whole meal; pantry basics like oil, salt and rice aren't counted.";P.appendChild(intro);
+  const idx={};for(const s of dealStores())for(const d of s.deals||[])idx[d.id]={...d,store:s.name,storeObj:s,st:status(s)};
+  const meals=(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k!=="ended"));
+  if(!meals.length){P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
+  for(const m of meals){
+    const c=document.createElement("article");c.className="meal";
+    const h=document.createElement("h2");h.textContent=m.name;
+    const cost=document.createElement("div");cost.className="cost";
+    cost.innerHTML=`<b>about ${money(m.cost)}</b> · serves ${m.serves} · ~${money(m.cost/m.serves)} each`;
+    const ul=document.createElement("ul");
+    m.uses.forEach(u=>{const d=idx[u];const li=document.createElement("li");li.textContent=d.item+" ("+d.store+(d.st.k==="soon"?", from "+fmt(d.storeObj.adStart):"")+")";ul.appendChild(li)});
+    const p=document.createElement("p");p.textContent=m.how;
+    const b=document.createElement("button");b.type="button";b.className="btn";b.textContent="+ Add sale items to my list";
+    b.onclick=()=>{let n=0;m.uses.forEach(u=>{if(!inList(u)){const d=idx[u];list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});n++}});save();toast(n?`Added ${n} item${n>1?"s":""} to your list`:"Already on your list")};
+    c.append(h,cost,ul,p,b);P.appendChild(c);
+  }
+}
+
+function renderList(){
+  const P=$("p-list");P.innerHTML="";
+  if(!list.length){P.innerHTML='<div class="empty">Your list is empty. Tap “+ List” on any deal, or add a whole meal from the Meals tab.</div>';return}
+  const stores=[...new Set(list.map(x=>x.store))];
+  for(const s of stores){
+    const box=document.createElement("article");box.className="list-store";
+    const h=document.createElement("h2");h.textContent=s;box.appendChild(h);
+    list.filter(x=>x.store===s).forEach(x=>{
+      const r=document.createElement("div");r.className="li"+(x.done?" done":"");
+      const cb=document.createElement("input");cb.type="checkbox";cb.id="li-"+x.id;cb.checked=!!x.done;
+      cb.onchange=()=>{x.done=cb.checked;save();r.classList.toggle("done",x.done)};
+      const l=document.createElement("label");l.htmlFor=cb.id;l.textContent=x.item;
+      const p=document.createElement("span");p.className="p";p.textContent=x.price?money(x.price)+(x.unit||""):"";
+      r.append(cb,l,p);box.appendChild(r);
+    });
+    P.appendChild(box);
+  }
+  const fixed=list.filter(x=>x.price&&!x.unit).reduce((a,x)=>a+x.price,0);
+  const t=document.createElement("div");t.className="total";t.textContent="Sale items total about "+money(fixed)+(list.some(x=>x.unit)?" plus items priced per pound":"");P.appendChild(t);
+  const act=document.createElement("div");act.className="actions";
+  const copy=document.createElement("button");copy.type="button";copy.className="btn solid";copy.textContent="Copy list";
+  copy.onclick=()=>{const txt=stores.map(s=>s+":\n"+list.filter(x=>x.store===s).map(x=>"- "+x.item+(x.price?" ("+money(x.price)+(x.unit||"")+")":"")).join("\n")).join("\n\n");
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(()=>toast("List copied"),()=>toast("Couldn't copy. Try a screenshot instead."))}else toast("Couldn't copy. Try a screenshot instead.")};
+  const clr=document.createElement("button");clr.type="button";clr.className="btn";clr.textContent="Remove checked items";
+  clr.onclick=()=>{const n=list.filter(x=>x.done).length;list=list.filter(x=>!x.done);save();renderList();toast(n?`Removed ${n} item${n>1?"s":""}`:"Nothing checked yet")};
+  const all=document.createElement("button");all.type="button";all.className="btn";all.textContent="Clear list";
+  all.onclick=()=>{if(all.dataset.sure){list=[];save();renderList();toast("List cleared")}else{all.dataset.sure="1";all.textContent="Tap again to clear"}};
+  act.append(copy,clr,all);P.appendChild(act);
+}
+
+function show(t){
+  tab=t;
+  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
+  ["deals","stockup","meals","list"].forEach(k=>$("p-"+k).hidden=k!==t);
+  ({deals:renderDeals,stockup:renderStock,meals:renderMeals,list:renderList})[t]();
+}
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{show(b.dataset.tab);try{history.replaceState(null,"","#"+b.dataset.tab)}catch(e){}});
+save();
+const start=(location.hash||"").slice(1);
+fetch("grocery.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{
+  data=j;if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
+  show(["deals","stockup","meals","list"].includes(start)?start:"deals");
+}).catch(()=>{$("p-deals").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';document.querySelector('[data-tab="deals"]').setAttribute("aria-selected","true");if(start==="list")show("list")});
+</script>
+</body>
+</html>

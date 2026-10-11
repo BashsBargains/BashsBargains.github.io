@@ -1,0 +1,468 @@
+{
+ "updated": 1791762600000,
+ "stores": [
+  {
+   "id": "aldi",
+   "name": "Aldi",
+   "kind": "deals",
+   "adStart": "2026-10-07",
+   "adEnd": "2026-10-13",
+   "adNote": "New ad every Wednesday",
+   "adUrl": "https://www.aldi.us/store/aldi/pages/weekly-specials",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/aldi-weekly-ads",
+   "deals": [
+    {
+     "id": "aldi-chicken-tenderloins",
+     "item": "Chicken tenderloins",
+     "price": 2.09,
+     "unit": "/lb",
+     "cat": "Meat",
+     "stockup": true
+    },
+    {
+     "id": "aldi-pork-belly",
+     "item": "Pork belly for burnt ends",
+     "price": 2.99,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-italian-sausage",
+     "item": "Mild Italian sausage links, 19 oz",
+     "price": 2.95,
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-raspberries",
+     "item": "Raspberries, 6 oz",
+     "price": 1.49,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-granny-smith",
+     "item": "Granny Smith apples, 3 lb bag",
+     "price": 2.99,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-peaches",
+     "item": "Peaches, 2 lb bag",
+     "price": 2.98,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-mini-avocados",
+     "item": "Mini avocados, 6 ct",
+     "price": 2.89,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-taco-cheese",
+     "item": "Shredded taco cheese, 12 oz",
+     "price": 2.79,
+     "cat": "Dairy"
+    },
+    {
+     "id": "aldi-tofu",
+     "item": "Organic extra firm tofu, 14 oz",
+     "price": 1.49,
+     "cat": "Pantry"
+    },
+    {
+     "id": "aldi-cavatappi",
+     "item": "Cavatappi pasta, 16 oz",
+     "price": 1.29,
+     "cat": "Pantry"
+    },
+    {
+     "id": "aldi-pumpkin-sauce",
+     "item": "Pumpkin chipotle pasta sauce, 24 oz",
+     "price": 3.99,
+     "cat": "Pantry"
+    },
+    {
+     "id": "aldi-garlic-naan",
+     "item": "Garlic naan, 4 ct",
+     "price": 3.39,
+     "cat": "Bakery"
+    }
+   ]
+  },
+  {
+   "id": "lidl",
+   "name": "Lidl",
+   "kind": "deals",
+   "adStart": "2026-10-14",
+   "adEnd": "2026-10-20",
+   "adNote": "New ad every Wednesday",
+   "adUrl": "https://www.lidl.com/c/offers-leaflets/s10092873",
+   "src": "Weekly Ad Hunters",
+   "srcUrl": "https://weeklyadhunters.com/lidl-weekly-ad/",
+   "deals": [
+    {
+     "id": "lidl-chicken-breast",
+     "item": "Boneless skinless chicken breast, family size",
+     "price": 1.99,
+     "unit": "/lb",
+     "cat": "Meat",
+     "stockup": true
+    },
+    {
+     "id": "lidl-ground-beef",
+     "item": "80% lean ground beef, 2 lb",
+     "price": 7.99,
+     "cat": "Meat",
+     "stockup": true,
+     "notes": "Works out to about $4.00/lb"
+    },
+    {
+     "id": "lidl-pork-loin",
+     "item": "Smithfield half boneless pork loin",
+     "price": 1.79,
+     "unit": "/lb",
+     "cat": "Meat",
+     "stockup": true
+    },
+    {
+     "id": "lidl-skirt-steak",
+     "item": "Beef skirt steak",
+     "price": 9.99,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "lidl-pears",
+     "item": "Bartlett pears, 3 lb",
+     "price": 3.29,
+     "cat": "Produce"
+    },
+    {
+     "id": "lidl-tomatoes",
+     "item": "Tomatoes on the vine",
+     "price": 1.49,
+     "unit": "/lb",
+     "cat": "Produce"
+    },
+    {
+     "id": "lidl-red-onions",
+     "item": "Red onions, 2 lb",
+     "price": 1.59,
+     "cat": "Produce"
+    },
+    {
+     "id": "lidl-iceberg",
+     "item": "Organic iceberg lettuce",
+     "price": 2.49,
+     "cat": "Produce"
+    },
+    {
+     "id": "lidl-heavy-cream",
+     "item": "Heavy whipping cream, 32 oz",
+     "price": 3.49,
+     "cat": "Dairy",
+     "stockup": true
+    },
+    {
+     "id": "lidl-irish-butter",
+     "item": "Irish butter, 8 oz",
+     "price": 2.49,
+     "cat": "Dairy",
+     "stockup": true
+    },
+    {
+     "id": "lidl-shredded-cheese",
+     "item": "Shredded cheese, family size 32 oz",
+     "price": 4.99,
+     "cat": "Dairy",
+     "stockup": true
+    },
+    {
+     "id": "lidl-brioche",
+     "item": "Sliced brioche loaf",
+     "price": 3.49,
+     "cat": "Bakery"
+    },
+    {
+     "id": "lidl-canola",
+     "item": "Canola oil, 48 oz",
+     "price": 2.99,
+     "cat": "Pantry",
+     "stockup": true
+    }
+   ]
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "kind": "deals",
+   "adStart": "2026-09-21",
+   "adEnd": "2026-10-18",
+   "adNote": "Monthly coupon book \u00b7 no clipping needed",
+   "adUrl": "https://www.costco.com/",
+   "src": "Costco97",
+   "srcUrl": "https://costco97.com/coupon-book/october-2026/",
+   "deals": [
+    {
+     "id": "costco-sukhis",
+     "item": "Sukhi's Butter Chicken, 36 oz (frozen)",
+     "price": 11.99,
+     "was": 15.99,
+     "cat": "Frozen"
+    },
+    {
+     "id": "costco-tasters-choice",
+     "item": "Nescaf\u00e9 Taster's Choice instant coffee, 14 oz",
+     "price": 15.99,
+     "was": 21.99,
+     "cat": "Pantry"
+    },
+    {
+     "id": "costco-cereal",
+     "item": "Morning Summit Maple Berry cereal, 38 oz",
+     "price": 9.69,
+     "was": 13.49,
+     "cat": "Pantry"
+    },
+    {
+     "id": "costco-kcups",
+     "item": "Keurig K-Cups, 80 ct (Caribou, Donut Shop, Peet's or Lavazza)",
+     "price": 0,
+     "off": 9,
+     "cat": "Pantry"
+    },
+    {
+     "id": "costco-peets",
+     "item": "Peet's Organic French Roast ground coffee, 32 oz",
+     "price": 0,
+     "off": 6.5,
+     "cat": "Pantry"
+    },
+    {
+     "id": "costco-campbells",
+     "item": "Campbell's Simply Chicken Noodle soup, 8 pack",
+     "price": 0,
+     "off": 6,
+     "cat": "Pantry"
+    },
+    {
+     "id": "costco-rkt",
+     "item": "Rice Krispies Treats, 60 ct",
+     "price": 0,
+     "off": 4,
+     "cat": "Snacks"
+    },
+    {
+     "id": "costco-hersheys",
+     "item": "Hershey's chocolate variety pack, 30 ct",
+     "price": 0,
+     "off": 6.8,
+     "cat": "Snacks",
+     "notes": "Full-size bars for trick-or-treaters"
+    }
+   ]
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "kind": "deals",
+   "adStart": null,
+   "adEnd": null,
+   "adNote": "Price cuts, no set end date",
+   "adUrl": "https://www.walmart.com/",
+   "src": "Mashed",
+   "srcUrl": "https://www.mashed.com/2281754/walmart-must-have-items-with-price-cuts-october-2026/",
+   "checked": "2026-10-09",
+   "deals": [
+    {
+     "id": "walmart-chicken-8lb",
+     "item": "Great Value boneless skinless chicken breasts, 8 lb",
+     "price": 19.97,
+     "was": 23.76,
+     "cat": "Meat",
+     "stockup": true,
+     "notes": "About $2.50/lb"
+    },
+    {
+     "id": "walmart-hamburger-helper",
+     "item": "Hamburger Helper Cheesy Ranch Burger",
+     "price": 1.48,
+     "cat": "Pantry"
+    },
+    {
+     "id": "walmart-toasted-os",
+     "item": "Great Value Toasted O's cereal, 6 pack",
+     "price": 9.38,
+     "cat": "Pantry"
+    },
+    {
+     "id": "walmart-pizza-rolls",
+     "item": "Totino's pepperoni pizza rolls",
+     "price": 10.67,
+     "was": 11.87,
+     "cat": "Frozen"
+    },
+    {
+     "id": "walmart-pumpkin-cookies",
+     "item": "Pillsbury pumpkin sugar cookie dough",
+     "price": 3.47,
+     "cat": "Bakery"
+    }
+   ]
+  },
+  {
+   "id": "shoprite",
+   "name": "ShopRite",
+   "kind": "link",
+   "adStart": "2026-10-11",
+   "adEnd": "2026-10-17",
+   "adNote": "New ad every Sunday",
+   "adUrl": "https://www.shoprite.com/"
+  },
+  {
+   "id": "acme",
+   "name": "Acme",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://www.acmemarkets.com/"
+  },
+  {
+   "id": "giant",
+   "name": "Giant",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://giantfood.com/"
+  },
+  {
+   "id": "safeway",
+   "name": "Safeway",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://www.safeway.com/"
+  },
+  {
+   "id": "weis",
+   "name": "Weis",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://www.weismarkets.com/"
+  },
+  {
+   "id": "food-lion",
+   "name": "Food Lion",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://www.foodlion.com/"
+  },
+  {
+   "id": "save-a-lot",
+   "name": "Save A Lot",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://savealot.com/"
+  },
+  {
+   "id": "sprouts",
+   "name": "Sprouts",
+   "kind": "link",
+   "adNote": "Weekly ad on their site and app",
+   "adUrl": "https://www.sprouts.com/"
+  },
+  {
+   "id": "wegmans",
+   "name": "Wegmans",
+   "kind": "link",
+   "adNote": "Philly-area stores",
+   "adUrl": "https://www.wegmans.com/"
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "kind": "link",
+   "adNote": "Grocery deals in the Target Circle app",
+   "adUrl": "https://www.target.com/"
+  },
+  {
+   "id": "bjs",
+   "name": "BJ's",
+   "kind": "link",
+   "adNote": "Coupons in the BJ's app",
+   "adUrl": "https://www.bjs.com/"
+  }
+ ],
+ "meals": [
+  {
+   "id": "meal-sausage-apples",
+   "name": "Sheet-pan sausage, apples & onions",
+   "serves": 4,
+   "cost": 7.25,
+   "uses": [
+    "aldi-italian-sausage",
+    "aldi-granny-smith",
+    "lidl-red-onions"
+   ],
+   "how": "Slice sausage, apples, onions and a few potatoes. Toss with oil and salt, roast at 425\u00b0F for about 30 minutes."
+  },
+  {
+   "id": "meal-chicken-tacos",
+   "name": "Chicken tender tacos with avocado",
+   "serves": 4,
+   "cost": 9.4,
+   "uses": [
+    "aldi-chicken-tenderloins",
+    "aldi-taco-cheese",
+    "aldi-mini-avocados"
+   ],
+   "how": "Season and pan-sear the tenders, slice, and pile into warm tortillas with cheese and sliced avocado."
+  },
+  {
+   "id": "meal-pork-pears",
+   "name": "Roast pork loin with pears",
+   "serves": 6,
+   "cost": 9.5,
+   "uses": [
+    "lidl-pork-loin",
+    "lidl-pears",
+    "lidl-red-onions"
+   ],
+   "how": "Brown a 3 lb piece of pork loin, then roast at 375\u00b0F on a bed of sliced pears and onions until it reaches 145\u00b0F inside. Rest 10 minutes before slicing."
+  },
+  {
+   "id": "meal-creamy-cavatappi",
+   "name": "Creamy tomato cavatappi with chicken",
+   "serves": 4,
+   "cost": 7.5,
+   "uses": [
+    "aldi-cavatappi",
+    "aldi-chicken-tenderloins",
+    "lidl-tomatoes",
+    "lidl-heavy-cream"
+   ],
+   "how": "Cook pasta. Sear bite-size chicken, add chopped tomatoes and garlic, simmer, then stir in a cup of cream and the pasta."
+  },
+  {
+   "id": "meal-beef-bake",
+   "name": "Cheesy beef & pumpkin chipotle pasta bake",
+   "serves": 5,
+   "cost": 11.3,
+   "uses": [
+    "lidl-ground-beef",
+    "aldi-cavatappi",
+    "aldi-pumpkin-sauce",
+    "lidl-shredded-cheese"
+   ],
+   "how": "Brown 1 lb beef with onion, mix with cooked pasta and the sauce, top with cheese and bake at 375\u00b0F for 20 minutes. Freeze the second pound of beef."
+  },
+  {
+   "id": "meal-butter-chicken",
+   "name": "Butter chicken night with garlic naan",
+   "serves": 6,
+   "cost": 15.4,
+   "uses": [
+    "costco-sukhis",
+    "aldi-garlic-naan"
+   ],
+   "how": "Heat the butter chicken, serve over rice with warmed naan. Easy busy-night dinner."
+  }
+ ]
+}
