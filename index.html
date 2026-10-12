@@ -23,18 +23,19 @@
 /* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, then a till receipt of what's free */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
-  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8; --panel:#18213a; --panel-ink:#f3f4f7;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; color-scheme:dark}}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; --panel:#232a3b; --panel-ink:#f3f4f7; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; color-scheme:dark}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; --panel:#232a3b; --panel-ink:#f3f4f7; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
 a{color:inherit}
 .wrap{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:24px 56px;display:flex;flex-direction:column;gap:32px}
@@ -95,6 +96,19 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .stat strong{display:block;font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1.1;font-variant-numeric:tabular-nums}
 .stat span{font-size:.78rem;color:var(--muted)}
 
+
+/* doorbuster (Black Friday) */
+.wide{grid-column:1 / -1}
+.doorbuster{background:var(--panel);color:var(--panel-ink);border-radius:16px;padding:18px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.db-l{display:flex;flex-direction:column;gap:6px;flex:1 1 260px;min-width:0}
+.db-eyebrow{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--tag)}
+.doorbuster h2{font-family:var(--display);font-weight:800;font-size:1.65rem;line-height:1.05;margin:0}
+.doorbuster p{margin:0;opacity:.8;font-size:.95rem}
+.doorbuster .cta{color:var(--tag)}
+.db-r{background:var(--tag);color:var(--tag-ink);border-radius:50%;width:112px;aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);flex:none}
+.db-r strong{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;font-variant-numeric:tabular-nums}
+.db-r span{font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+
 /* receipt */
 .receipt{align-self:center;width:100%;max-width:420px;background:var(--receipt);color:var(--ink);font-family:var(--mono);font-size:.82rem;padding:20px 18px 26px;box-shadow:0 1px 0 var(--line),0 12px 28px -18px rgba(24,33,58,.5);
   -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 10px) no-repeat,conic-gradient(from 135deg at 50% 0,#000 90deg,#0000 0) bottom/16px 10px repeat-x;
@@ -117,7 +131,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 <div class="wrap">
   <div class="bar">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
-    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a></nav>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/holiday/">Black Friday</a></nav>
   </div>
 
   <header class="hero">
@@ -132,6 +146,18 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
   </header>
 
   <section class="sections" aria-label="Deal sections">
+    <a class="go wide" href="/holiday/">
+      <article class="doorbuster">
+        <div class="db-l">
+          <span class="db-eyebrow">Holiday deal hub</span>
+          <h2>Black Friday 2026</h2>
+          <p>Sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more.</p>
+          <span class="cta">Plan your Black Friday →</span>
+        </div>
+        <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
+      </article>
+    </a>
+
     <a class="go" href="/deals/">
       <article class="tagcard">
         <div class="band"><span>Clearance · updated daily</span><span class="hole" aria-hidden="true"></span></div>
@@ -169,6 +195,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
     <div class="ln"><span>Clearance deals</span><span class="dots"></span><span class="v">every morning</span></div>
     <div class="ln"><span>Grocery ads</span><span class="dots"></span><span class="v">Sun + Wed</span></div>
     <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
+    <div class="ln"><span>Black Friday hub</span><span class="dots"></span><span class="v">thru Cyber Mon</span></div>
     <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
     <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
     <hr>
@@ -179,6 +206,9 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
   <p class="foot">Prices change fast and can differ by store and ZIP code. Always open the source and confirm the price before you buy. Deals gathered daily with help from AI.</p>
 </div>
 <script>
+(function(){const bf=new Date(2026,10,27),t=new Date();t.setHours(0,0,0,0);const n=Math.round((bf-t)/864e5);
+  if(n>0){document.getElementById("bfDays").textContent=n;document.getElementById("bfLabel").textContent=n===1?"day to go":"days to go"}
+  else{document.getElementById("bfDays").textContent="Now";document.getElementById("bfLabel").textContent="deals are live"}})();
 function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const d=Math.round(h/24);return d+(d===1?" day ago":" days ago");}
 fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(!j||!Array.isArray(j.deals))return;

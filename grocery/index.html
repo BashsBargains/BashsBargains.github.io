@@ -22,18 +22,19 @@
 /* Layout: one narrow column; sticky tab bar (Deals / Stock-up / Meals / My list); store sections of price-tag rows */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
-  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --on-accent:#ffffff; --good:#1c7a46; --soon:#8a4b00; --soon-bg:#fdecd2;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --on-accent:#ffffff; --good:#1c7a46; --soon:#8a4b00; --soon-bg:#fdecd2; --hot:#c4321d;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; color-scheme:dark}}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; --hot:#ff7a63; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; color-scheme:dark}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --soon:#ffc27a; --soon-bg:#3a2a12; --hot:#ff7a63; color-scheme:dark}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
 button{font:inherit;color:inherit}
 .wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:14px}
@@ -68,6 +69,9 @@ header p{margin:6px 0 0;color:var(--muted)}
 .was{display:block;color:var(--muted);text-decoration:line-through;font-size:.75rem}
 .add{border:1px solid var(--accent);color:var(--accent);background:transparent;border-radius:8px;padding:5px 9px;font-size:.8rem;font-weight:600;cursor:pointer;min-width:58px}
 .add[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}
+.cpn{display:inline-block;margin-top:3px;font-family:var(--mono);font-size:.72rem;font-weight:600;color:var(--hot);border:1px dashed currentColor;border-radius:4px;padding:0 5px}
+.tip{margin:0;padding:10px 14px;font-size:.85rem;background:var(--bg);border-top:1px solid var(--line)}
+.lnk .ltip{color:var(--ink);font-size:.78rem;margin-top:4px}
 .store-foot{padding:10px 14px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 14px}
 .store-foot a,.links a{color:var(--accent)}
 .note{font-size:.9rem;color:var(--muted);margin:0}
@@ -117,7 +121,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 <body>
 <div class="wrap">
   <header>
-    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/" aria-current="page">Grocery</a></nav></div>
+    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/" aria-current="page">Grocery</a><a href="/holiday/">Black Friday</a></nav></div>
     <h1>Grocery Deals &amp; Meals</h1>
     <p>This week's best grocery prices around Delaware, what's worth stocking up on, and cheap meals built from the sales. Updated twice a week.</p>
   </header>
@@ -179,6 +183,7 @@ function row(d,showStore){
   const r=document.createElement("div");r.className="row";
   const n=document.createElement("div");n.className="name";n.textContent=d.item;
   const sub=[];if(showStore)sub.push(d.store);if(d.notes)sub.push(d.notes);if(d.st&&d.st.k==="soon")sub.push("Starts "+fmt(d.storeObj.adStart));
+  if(d.coupon){const c=document.createElement("span");c.className="cpn";c.textContent="✂ "+d.coupon;n.appendChild(c)}
   if(sub.length){const s=document.createElement("span");s.className="sub";s.textContent=sub.join(" · ");n.appendChild(s)}
   const p=document.createElement("div");p.className="price";p.innerHTML=priceHtml(d);
   r.append(n,p,addBtn(d));return r;
@@ -198,6 +203,7 @@ function renderDeals(){
     box.querySelector("h2").textContent=s.name;box.querySelector(".dt").textContent=st.text;
     if(st.k==="ended"){const e=document.createElement("p");e.className="note";e.style.padding="12px 14px";e.textContent="This ad has ended. The new one will be added at the next update.";box.appendChild(e)}
     else for(const d of s.deals||[])box.appendChild(row({...d,store:s.name,storeObj:s,st},false));
+    if(s.couponTip&&st.k!=="ended"){const t=document.createElement("p");t.className="tip";t.textContent="✂ "+s.couponTip;box.appendChild(t)}
     const f=document.createElement("div");f.className="store-foot";
     const parts=[];if(s.adNote)parts.push(document.createTextNode(s.adNote));
     if(s.checked)parts.push(document.createTextNode("Prices checked "+fmt(s.checked)));
@@ -210,11 +216,13 @@ function renderDeals(){
     const links=data.stores.filter(s=>s.kind==="link");
     if(links.length){
       const h=document.createElement("h3");h.textContent="More store ads to check";P.appendChild(h);
-      const p=document.createElement("p");p.className="note";p.textContent="These stores post their ads as pictures or only in their apps, so check them directly.";P.appendChild(p);
+      const p=document.createElement("p");p.className="note";p.textContent="These stores post their ads as pictures or only in their apps, so check them directly. Clip their digital coupons first; that's often where the best prices are.";P.appendChild(p);
       const g=document.createElement("div");g.className="links";
       for(const s of links){const st=status(s);const a=document.createElement("a");a.className="lnk";a.href=s.adUrl;a.target="_blank";a.rel="noopener";
         const b=document.createElement("b");b.textContent=s.name;const sp=document.createElement("span");sp.textContent=(s.adEnd&&st.k!=="ended")?st.text:(s.adNote||"");
-        const em=document.createElement("em");em.textContent="Open site →";a.append(b,sp,em);g.appendChild(a)}
+        const em=document.createElement("em");em.textContent="Open site →";a.append(b,sp);
+        if(s.couponTip){const c=document.createElement("span");c.className="ltip";c.textContent="✂ "+s.couponTip;a.appendChild(c)}
+        a.appendChild(em);g.appendChild(a)}
       P.appendChild(g);
     }
   }

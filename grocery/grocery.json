@@ -198,7 +198,7 @@
    "kind": "deals",
    "adStart": "2026-09-21",
    "adEnd": "2026-10-18",
-   "adNote": "Monthly coupon book \u00b7 no clipping needed",
+   "adNote": "Monthly coupon book · no clipping needed",
    "adUrl": "https://www.costco.com/",
    "src": "Costco97",
    "srcUrl": "https://costco97.com/coupon-book/october-2026/",
@@ -212,7 +212,7 @@
     },
     {
      "id": "costco-tasters-choice",
-     "item": "Nescaf\u00e9 Taster's Choice instant coffee, 14 oz",
+     "item": "Nescafé Taster's Choice instant coffee, 14 oz",
      "price": 15.99,
      "was": 21.99,
      "cat": "Pantry"
@@ -313,46 +313,155 @@
   {
    "id": "shoprite",
    "name": "ShopRite",
-   "kind": "link",
+   "kind": "deals",
    "adStart": "2026-10-11",
    "adEnd": "2026-10-17",
-   "adNote": "New ad every Sunday",
-   "adUrl": "https://www.shoprite.com/"
+   "adNote": "New ad every Sunday · prices below include digital coupons",
+   "adUrl": "https://www.shoprite.com/",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html",
+   "couponTip": "Clip the digital coupons in the ShopRite app or on shoprite.com before you check out, and have your Price Plus card.",
+   "deals": [
+    {
+     "id": "shoprite-bacon",
+     "item": "Hormel Black Label bacon, 16 oz (Original or Thick Cut)",
+     "price": 2.99,
+     "was": 5.99,
+     "cat": "Meat",
+     "coupon": "$1 digital coupon",
+     "notes": "Sale $3.99, limit 4"
+    },
+    {
+     "id": "shoprite-wings",
+     "item": "Perdue chicken wing sections, 48 oz",
+     "price": 5.99,
+     "was": 9.99,
+     "cat": "Meat",
+     "coupon": "$4 digital coupon",
+     "stockup": true,
+     "notes": "Limit 1"
+    },
+    {
+     "id": "shoprite-salmon",
+     "item": "Fresh Atlantic salmon fillet",
+     "price": 7.99,
+     "unit": "/lb",
+     "cat": "Meat",
+     "coupon": "$1 digital coupon",
+     "notes": "Sale $8.99/lb, limit 4 lb"
+    },
+    {
+     "id": "shoprite-eggs",
+     "item": "Eggland's Best large eggs, 18 ct",
+     "price": 2.99,
+     "was": 5.29,
+     "cat": "Dairy",
+     "coupon": "$2.30 digital coupon",
+     "stockup": true,
+     "notes": "Limit 4"
+    },
+    {
+     "id": "shoprite-honeycrisp",
+     "item": "Honeycrisp apples",
+     "price": 0.99,
+     "unit": "/lb",
+     "cat": "Produce",
+     "coupon": "$1 digital coupon",
+     "notes": "Sale $1.99/lb, limit 4 lb"
+    },
+    {
+     "id": "shoprite-broccoli",
+     "item": "Broccoli crowns",
+     "price": 0.88,
+     "unit": "/lb",
+     "cat": "Produce",
+     "coupon": "91¢ digital coupon",
+     "notes": "Sale $1.79/lb, limit 4 lb"
+    },
+    {
+     "id": "shoprite-avocados",
+     "item": "Hass avocados",
+     "price": 0.75,
+     "cat": "Produce",
+     "coupon": "$1.36 off 4",
+     "notes": "Each when you buy 4"
+    },
+    {
+     "id": "shoprite-shredded",
+     "item": "Land O'Lakes Farmstyle shredded cheese, 6 oz",
+     "price": 1.67,
+     "was": 3.29,
+     "cat": "Dairy",
+     "coupon": "$4.87 off 3",
+     "notes": "Each when you buy 3"
+    },
+    {
+     "id": "shoprite-deli-cheese",
+     "item": "Land O'Lakes American deli cheese",
+     "price": 3.99,
+     "unit": "/lb",
+     "cat": "Dairy",
+     "coupon": "$1 digital coupon",
+     "notes": "Sale $4.99/lb"
+    },
+    {
+     "id": "shoprite-broth",
+     "item": "Progresso broth, 32 oz",
+     "price": 1.16,
+     "cat": "Pantry",
+     "coupon": "$1 off 3",
+     "stockup": true,
+     "notes": "Each when you buy 3 (3 for $6 sale)"
+    },
+    {
+     "id": "shoprite-bread",
+     "item": "Nature's Own Crafted bread or buns",
+     "price": 2.5,
+     "cat": "Bakery",
+     "coupon": "$1 off 2",
+     "notes": "Each when you buy 2"
+    }
+   ]
   },
   {
    "id": "acme",
    "name": "Acme",
    "kind": "link",
    "adNote": "Weekly ad on their site and app",
-   "adUrl": "https://www.acmemarkets.com/"
+   "adUrl": "https://www.acmemarkets.com/weeklyad",
+   "couponTip": "Clip digital coupons in the Acme app (for U) before you shop."
   },
   {
    "id": "giant",
    "name": "Giant",
    "kind": "link",
    "adNote": "Weekly ad on their site and app",
-   "adUrl": "https://giantfood.com/"
+   "adUrl": "https://giantfood.com/savings/coupons/browse",
+   "couponTip": "Load digital coupons to your Giant card in the app or online."
   },
   {
    "id": "safeway",
    "name": "Safeway",
    "kind": "link",
    "adNote": "Weekly ad on their site and app",
-   "adUrl": "https://www.safeway.com/"
+   "adUrl": "https://www.safeway.com/",
+   "couponTip": "Clip digital coupons in the Safeway app (for U) before you shop."
   },
   {
    "id": "weis",
    "name": "Weis",
    "kind": "link",
    "adNote": "Weekly ad on their site and app",
-   "adUrl": "https://www.weismarkets.com/"
+   "adUrl": "https://www.weismarkets.com/",
+   "couponTip": "Load digital coupons to your Weis Club card in the app."
   },
   {
    "id": "food-lion",
    "name": "Food Lion",
    "kind": "link",
    "adNote": "Weekly ad on their site and app",
-   "adUrl": "https://www.foodlion.com/"
+   "adUrl": "https://www.foodlion.com/",
+   "couponTip": "Load digital coupons to your MVP card in the Food Lion app."
   },
   {
    "id": "save-a-lot",
@@ -380,14 +489,16 @@
    "name": "Target",
    "kind": "link",
    "adNote": "Grocery deals in the Target Circle app",
-   "adUrl": "https://www.target.com/"
+   "adUrl": "https://www.target.com/",
+   "couponTip": "Target Circle deals are in the Target app; add them before you check out."
   },
   {
    "id": "bjs",
    "name": "BJ's",
    "kind": "link",
    "adNote": "Coupons in the BJ's app",
-   "adUrl": "https://www.bjs.com/"
+   "adUrl": "https://www.bjs.com/",
+   "couponTip": "Clip BJ's coupons in the app; they apply at checkout."
   }
  ],
  "meals": [
@@ -413,8 +524,8 @@
    ],
    "steps": [
     "Toss 1.5 lb chicken tenders with 1 Tbsp cornstarch and a pinch of salt.",
-    "Sear in a hot oiled skillet until golden, 3\u20134 minutes a side.",
-    "Stir together \u2153 cup honey, \u00bc cup soy sauce, 4 minced garlic cloves, \u00bd tsp ginger and a squeeze of sriracha. Pour it in and simmer 2\u20133 minutes until glossy and the chicken hits 165\u00b0F.",
+    "Sear in a hot oiled skillet until golden, 3–4 minutes a side.",
+    "Stir together ⅓ cup honey, ¼ cup soy sauce, 4 minced garlic cloves, ½ tsp ginger and a squeeze of sriracha. Pour it in and simmer 2–3 minutes until glossy and the chicken hits 165°F.",
     "Serve over rice and top with sliced green onions."
    ]
   },
@@ -443,11 +554,39 @@
     "1 lime"
    ],
    "steps": [
-    "Thinly slice a red onion and cover with \u00bd cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
+    "Thinly slice a red onion and cover with ½ cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
     "Rub 1.5 lb chicken tenders with 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, plus salt.",
-    "Sear 3\u20134 minutes a side until 165\u00b0F, then slice.",
+    "Sear 3–4 minutes a side until 165°F, then slice.",
     "Mash 2 mini avocados with lime juice, salt and a spoon of sour cream for a quick crema.",
     "Pile into warm tortillas with cheese, pickled onions and the avocado crema."
+   ]
+  },
+  {
+   "id": "meal-salmon-broccoli",
+   "name": "Lemon-garlic butter salmon with roasted broccoli",
+   "serves": 4,
+   "cost": 17.5,
+   "uses": [
+    "shoprite-salmon",
+    "shoprite-broccoli"
+   ],
+   "pantry": [
+    "butter",
+    "garlic",
+    "lemon juice",
+    "smoked paprika",
+    "garlic powder",
+    "red pepper flakes",
+    "rice or potatoes"
+   ],
+   "buy": [
+    "1 lemon (optional)"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Toss 1.5 lb broccoli florets with oil, garlic powder, salt and a pinch of pepper flakes; roast 15 minutes.",
+    "Season 1.5 lb salmon with salt, pepper and ½ tsp smoked paprika. Push the broccoli to the side and add the salmon to the pan.",
+    "Melt 3 Tbsp butter with 3 minced garlic cloves and 1 Tbsp lemon juice; spoon over the salmon.",
+    "Roast 10–12 minutes, until the salmon flakes easily and reaches 145°F. Serve with rice or potatoes."
    ]
   },
   {
@@ -469,9 +608,9 @@
    ],
    "buy": [],
    "steps": [
-    "Heat oven to 400\u00b0F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
+    "Heat oven to 400°F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
     "Brown a 3 lb piece of pork loin on all sides in an oven-safe pan, then spread the mustard glaze over the top.",
-    "Scatter quartered pears and onion wedges around it and roast 35\u201345 minutes, until the pork reads 145\u00b0F.",
+    "Scatter quartered pears and onion wedges around it and roast 35–45 minutes, until the pork reads 145°F.",
     "Rest 10 minutes. Splash a little cider vinegar into the pan juices, stir, and spoon over the sliced pork and pears."
    ]
   },
@@ -499,9 +638,9 @@
    ],
    "steps": [
     "Cook the pasta; save a cup of pasta water.",
-    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165\u00b0F. Set aside.",
+    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165°F. Set aside.",
     "In the same pan, cook 5 minced garlic cloves and a pinch of red pepper flakes for 30 seconds, then add 3 chopped tomatoes and cook until they slump.",
-    "Add 1 cup cream and \u00bd cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
+    "Add 1 cup cream and ½ cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
     "Toss in the pasta, chicken and a handful of spinach. Loosen with pasta water as needed."
    ]
   },
@@ -531,7 +670,7 @@
    "steps": [
     "Brown 2 lb ground beef with a chopped red onion; drain the fat.",
     "Stir in 4 minced garlic cloves and 1 tsp ginger and cook 1 minute.",
-    "Add \u2153 cup soy sauce, \u00bc cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2\u20133 minutes.",
+    "Add ⅓ cup soy sauce, ¼ cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2–3 minutes.",
     "Serve over rice with green onions, sliced cucumber and a fried egg on top if you like."
    ]
   },
@@ -555,9 +694,9 @@
    ],
    "buy": [],
    "steps": [
-    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160\u00b0F).",
-    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6\u20138 minutes.",
-    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, \u00bd tsp thyme and a splash of water to make a glossy sauce.",
+    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160°F).",
+    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6–8 minutes.",
+    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, ½ tsp thyme and a splash of water to make a glossy sauce.",
     "Serve with roasted potatoes or over rice."
    ]
   },

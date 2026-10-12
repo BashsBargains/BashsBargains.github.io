@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Black Friday 2026 · Bash's Bargains</title>
+<meta name="description" content="Black Friday 2026 sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more. Free, updated through Cyber Monday.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
+<meta property="og:title" content="Black Friday 2026 · Bash's Bargains">
+<meta property="og:description" content="Sale dates, ad leaks and early Black Friday deals, updated through Cyber Monday. Free.">
+<meta property="og:url" content="https://bashsbargains.github.io/holiday/">
+<meta property="og:image" content="https://bashsbargains.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: countdown hero on an ink "doorbuster" panel, key-date strip, early deals feed, then a store-by-store schedule */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --good:#1c7a46; --hot:#c4321d; --panel:#18213a; --panel-ink:#f3f4f7; --panel-muted:#aab2c8;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; --hot:#ff7a63; --panel:#232a3b; --panel-ink:#f3f4f7; --panel-muted:#aab2c8; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; --hot:#ff7a63; --panel:#232a3b; --panel-ink:#f3f4f7; --panel-muted:#aab2c8; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+button{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
+
+.panel{background:var(--panel);color:var(--panel-ink);border-radius:18px;padding:20px 18px;display:flex;flex-direction:column;gap:14px;position:relative;overflow:hidden}
+.eyebrow{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--tag);margin:0}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.6rem,12vw,4rem);line-height:.9;letter-spacing:-.03em;margin:0}
+.panel p{margin:0;color:var(--panel-muted)}
+.count{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.count strong{font-family:var(--display);font-weight:800;font-size:clamp(3.4rem,18vw,5rem);line-height:.9;color:var(--tag);font-variant-numeric:tabular-nums}
+.count span{font-family:var(--mono);font-size:.85rem;color:var(--panel-ink)}
+.dates{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.date{border:1.5px dashed rgba(255,255,255,.28);border-radius:10px;padding:8px;text-align:center;min-width:0}
+.date b{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--panel-muted);font-weight:600}
+.date span{display:block;font-family:var(--display);font-weight:800;font-size:1.15rem}
+.date.on{background:var(--tag);color:var(--tag-ink);border-color:var(--tag)}
+.date.on b{color:var(--tag-ink)}
+
+h2.sec{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:8px 0 0}
+.note{margin:0;color:var(--muted);font-size:.9rem}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.feed{display:flex;flex-direction:column;gap:10px}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.deal h3{margin:0;font-size:1rem;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.where{color:var(--muted);font-size:.85rem;grid-column:1}
+.price{grid-column:2;grid-row:1 / span 2;text-align:right;font-family:var(--mono)}
+.now{display:block;background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:1.05rem;padding:2px 8px;border-radius:4px}
+.was{display:block;color:var(--muted);text-decoration:line-through;font-size:.8rem;margin-top:3px}
+.off{display:block;color:var(--good);font-weight:600;font-size:.8rem}
+.notes{grid-column:1 / -1;font-size:.9rem;margin-top:4px;overflow-wrap:anywhere}
+.meta{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.78rem;color:var(--muted);margin-top:6px}
+.meta a{color:var(--accent)}
+.empty{text-align:center;color:var(--muted);padding:26px 14px;border:1px dashed var(--line);border-radius:12px}
+
+.stores{display:flex;flex-direction:column;gap:10px}
+.store{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.store .top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.store h3{margin:0;font-family:var(--display);font-weight:800;font-size:1.1rem}
+.pill{font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.expected{border:1px solid var(--line);color:var(--muted)}
+.pill.confirmed{background:var(--ink);color:var(--bg)}
+.pill.live{background:var(--tag);color:var(--tag-ink)}
+.pill.ended,.pill.tbd{border:1px dashed var(--line);color:var(--muted)}
+.kv{display:grid;grid-template-columns:4.6rem 1fr;gap:2px 10px;font-size:.88rem}
+.kv dt{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.kv a{color:var(--accent)}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/holiday/" aria-current="page">Black Friday</a></nav></div>
+
+  <section class="panel" aria-label="Countdown">
+    <p class="eyebrow">Holiday deal hub</p>
+    <h1>Black Friday 2026</h1>
+    <div class="count"><strong id="days">–</strong><span id="daysLabel">days to Black Friday</span></div>
+    <div class="dates" id="dates"></div>
+    <p>Sale dates, ad leaks and the best early deals from the big stores, gathered here and updated through Cyber Monday.</p>
+  </section>
+
+  <h2 class="sec">Early Black Friday deals</h2>
+  <div class="chips" id="chips" role="group" aria-label="Filter by store" hidden></div>
+  <div class="feed" id="feed"><div class="empty">Loading deals…</div></div>
+
+  <h2 class="sec">Store by store</h2>
+  <p class="note"><b>Expected</b> dates follow each store's pattern from last year. They switch to <b>Confirmed</b> once the store announces them.</p>
+  <div class="stores" id="stores"></div>
+
+  <p class="foot">Prices change fast and can differ by ZIP code. Always open the source and confirm the price before you buy. Gathered with help from AI. <span id="upd"></span></p>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+let data={events:[],stores:[],deals:[]},store="All";
+const money=n=>"$"+Number(n).toFixed(2);
+const pct=d=>d.was>0&&d.price<d.was?Math.round((1-d.price/d.was)*100):0;
+function local(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
+function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const dd=Math.round(h/24);return dd+(dd===1?" day ago":" days ago");}
+const LABEL={expected:"Expected",confirmed:"Confirmed",live:"On now",ended:"Over",tbd:"Not announced"};
+function hero(){
+  const t=new Date();t.setHours(0,0,0,0);
+  const bf=data.events.find(e=>e.name==="Black Friday"),cm=data.events.find(e=>e.name==="Cyber Monday");
+  if(bf){const n=Math.round((local(bf.date)-t)/864e5);
+    if(n>1){$("days").textContent=n;$("daysLabel").textContent="days to Black Friday"}
+    else if(n===1){$("days").textContent="1";$("daysLabel").textContent="day to Black Friday"}
+    else if(n===0){$("days").textContent="Today";$("daysLabel").textContent="is Black Friday"}
+    else if(cm&&local(cm.date)>=t){$("days").textContent=Math.round((local(cm.date)-t)/864e5)||"Today";$("daysLabel").textContent=local(cm.date).getTime()===t.getTime()?"is Cyber Monday":"days to Cyber Monday"}
+    else{$("days").textContent="See you";$("daysLabel").textContent="next year"}}
+  const box=$("dates");box.innerHTML="";
+  for(const e of data.events){const d=local(e.date);const el=document.createElement("div");el.className="date"+(d.getTime()===t.getTime()?" on":"");
+    const b=document.createElement("b");b.textContent=e.name;const s=document.createElement("span");s.textContent=DAY[d.getDay()]+" "+MON[d.getMonth()]+" "+d.getDate();el.append(b,s);box.appendChild(el)}
+}
+function deals(){
+  const now=Date.now(),live=(data.deals||[]).filter(d=>!(d.expires&&d.expires<=now));
+  const stores=["All",...new Set(live.map(d=>d.store).sort())];
+  const ch=$("chips");ch.innerHTML="";ch.hidden=live.length<2;
+  stores.forEach(s=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=s;b.setAttribute("aria-pressed",s===store);b.onclick=()=>{store=s;deals()};ch.appendChild(b)});
+  const list=live.filter(d=>store==="All"||d.store===store).sort((a,b)=>(b.at||0)-(a.at||0));
+  const feed=$("feed");feed.innerHTML="";
+  if(!list.length){const e=document.createElement("div");e.className="empty";e.textContent="Early Black Friday deals will show up here as stores start them. Best Buy and Costco usually go first, around Halloween.";feed.appendChild(e);return}
+  for(const d of list){
+    const el=document.createElement("article");el.className="deal";
+    const h=document.createElement("h3");h.textContent=d.item;
+    const w=document.createElement("div");w.className="where";w.textContent=d.store+(d.where?" · "+d.where:"");
+    const p=document.createElement("div");p.className="price";
+    p.innerHTML=`<span class="now">${money(d.price)}</span>`+(d.was>0?`<span class="was">${money(d.was)}</span>`:"")+(pct(d)?`<span class="off">${pct(d)}% off</span>`:"");
+    el.append(h,p,w);
+    if(d.notes){const n=document.createElement("div");n.className="notes";n.textContent=d.notes;el.appendChild(n)}
+    const m=document.createElement("div");m.className="meta";
+    if(d.at){const t=document.createElement("span");t.textContent="Posted "+ago(d.at);m.appendChild(t)}
+    if(d.expires){const x=document.createElement("span");const e=new Date(d.expires);x.textContent="Ends "+DAY[e.getDay()]+" "+(e.getMonth()+1)+"/"+e.getDate();m.appendChild(x)}
+    if(typeof d.srcUrl==="string"&&/^https:\/\//.test(d.srcUrl)){const a=document.createElement("a");a.href=d.srcUrl;a.target="_blank";a.rel="noopener";a.textContent="View deal"+(d.src?" on "+d.src:"");m.appendChild(a)}
+    el.appendChild(m);feed.appendChild(el);
+  }
+}
+function storesList(){
+  const box=$("stores");box.innerHTML="";
+  for(const s of data.stores){
+    const el=document.createElement("article");el.className="store";
+    const top=document.createElement("div");top.className="top";
+    const h=document.createElement("h3");h.textContent=s.name;
+    const p=document.createElement("span");p.className="pill "+(s.status||"expected");p.textContent=LABEL[s.status]||"Expected";
+    top.append(h,p);
+    const dl=document.createElement("dl");dl.className="kv";
+    const row=(k,v,href)=>{if(!v)return;const dt=document.createElement("dt");dt.textContent=k;const dd=document.createElement("dd");
+      if(href&&/^https:\/\//.test(href)){const a=document.createElement("a");a.href=href;a.target="_blank";a.rel="noopener";a.textContent=v;dd.appendChild(a)}else dd.textContent=v;dl.append(dt,dd)};
+    row("Early",s.early);row("Main sale",s.main);row("Ad",s.ad,s.adUrl);
+    if(s.srcUrl)row("Source",s.src||"link",s.srcUrl);
+    el.append(top,dl);box.appendChild(el);
+  }
+}
+fetch("holiday.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{
+  data=j;hero();deals();storesList();
+  if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
+}).catch(()=>{$("feed").innerHTML='<div class="empty">This page couldn\'t load. Reload to try again.</div>'});
+</script>
+</body>
+</html>
