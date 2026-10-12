@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Bash's Bargains</title>
-<meta name="description" content="Free clearance finds, price drops and Delaware-area grocery deals, rounded up every day. No sign-up, no paywall.">
+<meta name="description" content="Free clearance finds, price drops, Delaware-area grocery deals and CVS/Walgreens coupon matchups, rounded up every day. No sign-up, no paywall.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#f7d64a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Bash's Bargains">
 <meta property="og:title" content="Bash's Bargains">
-<meta property="og:description" content="Free clearance finds, price drops and Delaware-area grocery deals, rounded up every day. No sign-up, no paywall.">
+<meta property="og:description" content="Free clearance finds, price drops, Delaware-area grocery deals and CVS/Walgreens coupon matchups, rounded up every day. No sign-up, no paywall.">
 <meta property="og:url" content="https://bashsbargains.github.io/">
 <meta property="og:image" content="https://bashsbargains.github.io/og.png">
 <meta property="og:image:width" content="1200">
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
-/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, the Black Friday panel below them, then a till receipt of what's included */
+/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, a dashed-red coupon clipper and the Black Friday panel below them, then a till receipt of what's included */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
   --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8; --panel:#18213a; --panel-ink:#f3f4f7;
@@ -98,6 +98,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .stat strong{display:block;font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1.1;font-variant-numeric:tabular-nums}
 .stat span{font-size:.78rem;color:var(--muted)}
 
+/* clipper (coupons) */
+.clipper{position:relative;background:var(--card);border:2px dashed var(--hot);border-radius:16px;display:flex;flex-direction:column}
+.clipper .scissors{position:absolute;top:-14px;right:22px;background:var(--bg);padding:0 6px;font-size:1.1rem;line-height:1;color:var(--hot)}
+.clipper .band{padding:14px 16px 0;display:flex;justify-content:space-between;align-items:center;gap:8px;font-family:var(--mono);font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--hot)}
+.clipper .stamp{color:var(--tag-ink);background:var(--tag);border-radius:4px;padding:1px 6px;transform:rotate(3deg);letter-spacing:.08em}
 
 /* doorbuster (Black Friday) */
 .wide{grid-column:1 / -1}
@@ -133,7 +138,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 <div class="wrap">
   <div class="bar">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
-    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/holiday/">Black Friday</a></nav>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a></nav>
   </div>
 
   <header class="hero">
@@ -144,7 +149,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
       <span class="now" id="stNum">Deals</span>
       <span class="tiny" id="stBot">updated daily</span>
     </a>
-    <p class="lede">Clearance finds and price drops from the big stores, plus this week's <b>Delaware-area grocery deals</b>, rounded up for you every day. No sign-up. No paywall.</p>
+    <p class="lede">Clearance finds and price drops from the big stores, plus this week's <b>Delaware-area grocery deals</b> and <b>drugstore coupon matchups</b>, rounded up for you every day. No sign-up. No paywall.</p>
   </header>
 
   <section class="sections" aria-label="Deal sections">
@@ -177,6 +182,23 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
       </article>
     </a>
 
+    <a class="go wide" href="/coupons/">
+      <article class="clipper">
+        <span class="scissors" aria-hidden="true">✂</span>
+        <div class="band"><span>Coupons · Drugstore + grocery</span><span class="stamp">New</span></div>
+        <div class="inner">
+          <h2>Coupon Matchups</h2>
+          <div class="stats">
+            <div class="stat"><strong id="cUnder">–</strong><span>finds under $1 each</span></div>
+            <div class="stat"><strong id="cBest">–</strong><span>best find this week</span></div>
+          </div>
+          <p>CVS and Walgreens drugstore deals plus grocery matchups. Toothpaste, laundry detergent, paper towels and snacks for pennies once you stack the sale, coupon, rewards and rebate.</p>
+          <div class="chips"><span>CVS</span><span>Walgreens</span><span>Laundry</span><span>Toothpaste</span><span>Paper towels</span><span>Walmart</span><span>Target</span></div>
+          <span class="cta">Start the coupon hunt →</span>
+        </div>
+      </article>
+    </a>
+
     <a class="go wide" href="/holiday/">
       <article class="doorbuster">
         <div class="db-l">
@@ -196,6 +218,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
     <hr>
     <div class="ln"><span>Clearance deals</span><span class="dots"></span><span class="v">every morning</span></div>
     <div class="ln"><span>Grocery ads</span><span class="dots"></span><span class="v">Sun + Wed</span></div>
+    <div class="ln"><span>Coupon matchups</span><span class="dots"></span><span class="v">CVS + Walgreens</span></div>
     <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
     <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
     <div class="ln"><span>Black Friday hub</span><span class="dots"></span><span class="v">thru Cyber Mon</span></div>
@@ -227,6 +250,13 @@ fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).th
   const live=j.stores.filter(s=>s.kind==="deals"&&!(s.adEnd&&s.adEnd<today));
   document.getElementById("gStores").textContent=live.length;
   document.getElementById("gMeals").textContent=(j.meals||[]).length;
+}).catch(()=>{});
+fetch("/coupons/coupons.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!Array.isArray(j.matchups))return;
+  const t=new Date();t.setHours(0,0,0,0);const loc=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+  const live=j.matchups.filter(m=>m.ends?loc(m.ends)>=t:(m.checked?(t-loc(m.checked))/864e5<=14:true));
+  document.getElementById("cUnder").textContent=live.filter(m=>m.final<1).length;
+  if(live.length){const b=Math.min(...live.map(m=>m.final));document.getElementById("cBest").textContent=b===0?"FREE":"$"+b.toFixed(2)}
 }).catch(()=>{});
 </script>
 </body>

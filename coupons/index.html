@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Coupon Matchups · Bash's Bargains</title>
+<meta name="description" content="Free and under-$1 coupon matchups at CVS, Walgreens, Walmart, Target and Delaware-area grocery stores. Sale + coupon + rewards + rebates, worked out for you.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
+<meta property="og:title" content="Coupon Matchups · Bash's Bargains">
+<meta property="og:description" content="Stack the sale, the coupon, the rewards and the rebate. This week's best drugstore and grocery matchups, free.">
+<meta property="og:url" content="https://bashsbargains.github.io/coupons/">
+<meta property="og:image" content="https://bashsbargains.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: clipped-coupon hero with the week's tally, sticky All/Drugstore/Grocery tabs, matchup cards cheapest-first (each card shows the stack line by line), then where to clip and Coupon 101 */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --on-accent:#ffffff; --good:#1c7a46; --hot:#c4321d;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --hot:#ff7a63; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --on-accent:#0d1220; --good:#5ccc8c; --hot:#ff7a63; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+button{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:16px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
+
+/* hero coupon */
+.hero{position:relative;background:var(--card);border:2px dashed var(--ink);border-radius:18px;padding:22px 18px 18px;display:flex;flex-direction:column;gap:12px;margin-top:8px}
+.hero .scissors{position:absolute;top:-14px;left:22px;background:var(--bg);padding:0 6px;font-size:1.15rem;line-height:1}
+.eyebrow{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--hot);margin:0}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.5rem,12vw,3.8rem);line-height:.9;letter-spacing:-.03em;margin:0}
+.hero p{margin:0;color:var(--muted)}
+.tally{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.t{background:var(--bg);border-radius:10px;padding:8px 10px;min-width:0}
+.t strong{display:block;font-family:var(--display);font-weight:800;font-size:1.6rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.t span{font-size:.78rem;color:var(--muted)}
+.t.best{background:var(--tag);color:var(--tag-ink)}
+.t.best span{color:var(--tag-ink)}
+.stamp{position:absolute;right:14px;top:14px;font-family:var(--mono);font-weight:600;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--hot);border:1.5px solid currentColor;border-radius:4px;padding:1px 6px;transform:rotate(6deg)}
+
+/* tabs + chips */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:var(--bg);padding-block:8px;display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.tab{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 4px;font-size:.9rem;font-weight:600;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.tab .n{font-family:var(--mono);font-size:.75rem;margin-left:3px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* matchup cards */
+.feed{display:flex;flex-direction:column;gap:12px}
+.m{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.m-top{padding:14px 14px 10px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:start}
+.m h3{margin:0;font-size:1rem;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.where{grid-column:1;font-size:.82rem;color:var(--muted)}
+.fin{grid-column:2;grid-row:1 / span 2;text-align:right;font-family:var(--mono)}
+.fin b{display:block;background:var(--tag);color:var(--tag-ink);font-size:1.15rem;font-weight:600;padding:2px 8px;border-radius:4px;white-space:nowrap}
+.fin small{display:block;font-size:.7rem;color:var(--muted);margin-top:3px}
+.flag{display:inline-block;font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--hot);border:1.5px solid currentColor;border-radius:4px;padding:0 5px;margin-top:6px;transform:rotate(-3deg)}
+.stack{list-style:none;margin:0;padding:8px 14px 10px;border-top:1px dashed var(--line);display:flex;flex-direction:column;gap:5px}
+.stack li{display:grid;grid-template-columns:5.2rem 1fr;gap:8px;font-size:.9rem;align-items:baseline}
+.k{font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:1px 6px;text-align:center}
+.k.sale{background:var(--bg);color:var(--ink)}
+.k.coupon{color:var(--hot);border:1px dashed currentColor}
+.k.rewards{background:var(--ink);color:var(--bg)}
+.k.rebate{color:var(--good);border:1px solid currentColor}
+.m-foot{padding:9px 14px 11px;background:var(--bg);font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:3px 12px}
+.m-foot b{color:var(--ink);font-weight:600}
+.m-foot a{color:var(--accent)}
+.empty{text-align:center;color:var(--muted);padding:26px 14px;border:1px dashed var(--line);border-radius:12px}
+
+h2.sec{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:12px 0 0}
+.note{margin:0;color:var(--muted);font-size:.9rem}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.lnk{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:3px;min-width:0}
+.lnk:hover{border-color:var(--accent)}
+.lnk b{font-weight:600}
+.lnk span{font-size:.78rem;color:var(--muted)}
+.lnk em{font-style:normal;font-size:.8rem;color:var(--accent);font-weight:600;margin-top:auto;padding-top:4px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:0 14px}
+details+details{margin-top:-8px}
+summary{cursor:pointer;padding:12px 0;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--mono);color:var(--muted)}
+details[open] summary::after{content:"–"}
+details p,details ul{margin:0 0 12px;font-size:.92rem}
+details ul{padding-left:18px}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
+@media (max-width:380px){.links{grid-template-columns:1fr}.stack li{grid-template-columns:4.6rem 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/" aria-current="page">Coupons</a><a href="/holiday/">Black Friday</a></nav></div>
+
+  <section class="hero" aria-label="This week's coupon hunt">
+    <span class="scissors" aria-hidden="true">✂</span>
+    <span class="stamp">Stack it</span>
+    <p class="eyebrow">The coupon hunt</p>
+    <h1>Coupon Matchups</h1>
+    <p>CVS and Walgreens drugstore deals plus grocery store matchups. Toothpaste, laundry detergent, paper towels, snacks: sale + coupon + rewards + rebate apps, all worked out for you.</p>
+    <div class="tally">
+      <div class="t best"><strong id="best">–</strong><span id="bestLbl">best find this week</span></div>
+      <div class="t"><strong id="under1">–</strong><span>under $1 each</span></div>
+    </div>
+  </section>
+
+  <div class="tabs" role="tablist" aria-label="Kind of store">
+    <button class="tab" role="tab" data-k="all" aria-selected="true">All<span class="n" id="nAll"></span></button>
+    <button class="tab" role="tab" data-k="drugstore" aria-selected="false">Drugstore<span class="n" id="nDrug"></span></button>
+    <button class="tab" role="tab" data-k="grocery" aria-selected="false">Grocery<span class="n" id="nGro"></span></button>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+  <div class="feed" id="feed"><div class="empty">Loading matchups…</div></div>
+
+  <h2 class="sec">Where to clip</h2>
+  <p class="note">Clip store coupons before you check out. They won't apply after.</p>
+  <div class="links" id="clip"></div>
+
+  <h2 class="sec">Coupon 101</h2>
+  <details><summary>How stacking works</summary>
+    <p>Most stores let you use one store coupon and one manufacturer coupon on the same item, on top of the sale price. Rebate apps like Ibotta and Fetch pay you back after you shop, so they stack with everything.</p></details>
+  <details><summary>ExtraBucks & Register Rewards</summary>
+    <p>These are store credit, not cash. CVS ExtraBucks and Walgreens Register Rewards print on your receipt and come off your next purchase. "Pay" on each card is what you hand the cashier; the big yellow price is what it costs after the rewards come back.</p></details>
+  <details><summary>Roll your rewards</summary>
+    <p>The pro move: use the rewards from deal #1 to pay for deal #2, then those rewards on deal #3. Start with the deal that pays back the most so you're spending store credit instead of cash.</p></details>
+  <details><summary>Before you go</summary>
+    <ul>
+      <li>Scan your store card or app first. Most sale prices need it.</li>
+      <li>Check the limit. Many rewards deals are once per week per card.</li>
+      <li>Grab the exact size listed. A different size usually won't trigger the deal.</li>
+      <li>Keep your receipt until the rebate app pays out.</li>
+    </ul></details>
+
+  <p class="foot">Matchups are worked out from public couponing write-ups and can change or sell out. Always check the price in the store app before you buy. Gathered with help from AI. <span id="upd"></span></p>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const LBL={sale:"Sale",coupon:"Coupon",rewards:"Rewards",rebate:"Rebate"};
+let data={matchups:[],clip:[]},kind="all",cat="All";
+const CATS=["Laundry & cleaning","Paper & kitchen","Personal care","Beauty","Food"];
+const money=n=>n===0?"FREE":"$"+Number(n).toFixed(2);
+function local(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
+function today(){const t=new Date();t.setHours(0,0,0,0);return t}
+function live(){const t=today();return (data.matchups||[]).filter(m=>{
+  if(m.ends)return local(m.ends)>=t;
+  if(m.checked)return (t-local(m.checked))/864e5<=14;return true})}
+function safe(u){return typeof u==="string"&&/^https:\/\//.test(u)}
+function tally(list){
+  const best=[...list].sort((a,b)=>a.final-b.final)[0];
+  if(best){$("best").textContent=money(best.final);$("bestLbl").textContent=best.item.split(",")[0]+" at "+best.store}
+  else{$("best").textContent="–";$("bestLbl").textContent="new matchups coming soon"}
+  $("under1").textContent=list.filter(m=>m.final<1).length;
+  $("nAll").textContent=list.length;$("nDrug").textContent=list.filter(m=>m.kind==="drugstore").length;$("nGro").textContent=list.filter(m=>m.kind==="grocery").length;
+}
+function render(){
+  const all=live();tally(all);
+  const byKind=all.filter(m=>kind==="all"||m.kind===kind);
+  const have=new Set(byKind.map(m=>m.cat));
+  const cats=["All",...CATS.filter(c=>have.has(c)),...[...have].filter(c=>c&&!CATS.includes(c))];
+  if(!cats.includes(cat))cat="All";
+  const ch=$("chips");ch.innerHTML="";ch.hidden=cats.length<3;
+  cats.forEach(s=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=s==="All"?"Everything":s;b.setAttribute("aria-pressed",s===cat);b.onclick=()=>{cat=s;render()};ch.appendChild(b)});
+  const list=byKind.filter(m=>cat==="All"||m.cat===cat).sort((a,b)=>a.final-b.final||a.store.localeCompare(b.store));
+  const feed=$("feed");feed.innerHTML="";
+  if(!list.length){const e=document.createElement("div");e.className="empty";e.textContent="No matchups here right now. New ones post Sunday and Wednesday mornings.";feed.appendChild(e);return}
+  for(const m of list){
+    const el=document.createElement("article");el.className="m";
+    const top=document.createElement("div");top.className="m-top";
+    const h=document.createElement("h3");h.textContent=m.item;
+    const w=document.createElement("div");w.className="where";w.textContent=m.store+(m.buy>1?" · buy "+m.buy:"");
+    const f=document.createElement("div");f.className="fin";
+    const b=document.createElement("b");b.textContent=money(m.final);const sm=document.createElement("small");sm.textContent=(m.buy>1?"each, after it all":"final price")+(m.per?" · "+m.per:"");
+    f.append(b,sm);
+    if(m.final<1){const fl=document.createElement("span");fl.className="flag";fl.textContent=m.final===0?"Free!":"Under $1";f.appendChild(fl)}
+    top.append(h,f,w);el.appendChild(top);
+    if(m.steps&&m.steps.length){const ul=document.createElement("ul");ul.className="stack";
+      for(const s of m.steps){const li=document.createElement("li");const k=document.createElement("span");k.className="k "+s.t;k.textContent=LBL[s.t]||s.t;const x=document.createElement("span");x.textContent=s.x;li.append(k,x);ul.appendChild(li)}
+      el.appendChild(ul)}
+    const ft=document.createElement("div");ft.className="m-foot";
+    const p=document.createElement("span");p.innerHTML="Pay <b></b> at the register";p.querySelector("b").textContent=money(m.pay);ft.appendChild(p);
+    if(m.ends){const e=local(m.ends);const x=document.createElement("span");x.textContent="Ends "+DAY[e.getDay()]+" "+(e.getMonth()+1)+"/"+e.getDate();ft.appendChild(x)}
+    else if(m.checked){const e=local(m.checked);const x=document.createElement("span");x.textContent="No end date listed · checked "+(e.getMonth()+1)+"/"+e.getDate();ft.appendChild(x)}
+    if(m.limit){const x=document.createElement("span");x.textContent=m.limit;ft.appendChild(x)}
+    if(safe(m.srcUrl)){const a=document.createElement("a");a.href=m.srcUrl;a.target="_blank";a.rel="noopener";a.textContent="Source"+(m.src?": "+m.src:"");ft.appendChild(a)}
+    el.appendChild(ft);feed.appendChild(el);
+  }
+}
+function clip(){
+  const box=$("clip");box.innerHTML="";
+  for(const c of data.clip||[]){if(!safe(c.url))continue;
+    const a=document.createElement("a");a.className="lnk";a.href=c.url;a.target="_blank";a.rel="noopener";
+    const b=document.createElement("b");b.textContent=c.name;const s=document.createElement("span");s.textContent=c.tip||"";const e=document.createElement("em");e.textContent="Open →";
+    a.append(b,s,e);box.appendChild(a)}
+}
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{kind=t.dataset.k;cat="All";document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===t));render()});
+fetch("coupons.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{
+  data=j;render();clip();
+  if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
+}).catch(()=>{$("feed").innerHTML='<div class="empty">This page couldn\'t load. Reload to try again.</div>'});
+</script>
+</body>
+</html>
