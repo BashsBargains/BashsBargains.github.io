@@ -234,5 +234,6 @@ fetch("coupons.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json
 }).catch(()=>{$("feed").innerHTML='<div class="empty">This page couldn\'t load. Reload to try again.</div>'});
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
+<script src="/season.js" defer></script>
 </body>
 </html>

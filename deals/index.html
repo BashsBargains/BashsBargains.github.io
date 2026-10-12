@@ -150,5 +150,6 @@ fetch("deals.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()
 }).catch(()=>{$("feed").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';});
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
+<script src="/season.js" defer></script>
 </body>
 </html>

@@ -144,5 +144,6 @@ function update(){const n=Object.keys(joined).length;document.getElementById("co
 update();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));
 </script>
+<script src="/season.js" defer></script>
 </body>
 </html>
