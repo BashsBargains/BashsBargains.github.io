@@ -117,7 +117,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:18px}
 .mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
 .mark img{width:26px;height:26px}
-.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
 .bar nav a{text-decoration:none;color:var(--muted)}
 .bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
 .bar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -127,7 +127,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 <body>
 <div class="wrap">
   <header>
-    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/" aria-current="page">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a></nav></div>
+    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/" aria-current="page">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/about/">About</a></nav></div>
     <h1>Grocery Deals &amp; Meals</h1>
     <p>This week's best grocery prices around Delaware, what's worth stocking up on, and cheap meals built from the sales. Updated twice a week.</p>
   </header>

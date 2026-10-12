@@ -50,7 +50,7 @@ a{color:inherit}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .mark{display:flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.05rem}
 .mark img{width:30px;height:30px}
-.bar nav{display:flex;gap:16px;font-size:.9rem;font-weight:500}
+.bar nav{display:flex;gap:16px;font-size:.9rem;font-weight:500;flex-wrap:wrap}
 .bar nav a{text-decoration:none;color:var(--muted)}
 .bar nav a:hover{color:var(--ink)}
 
@@ -144,6 +144,15 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .ln.total .v{background:var(--tag);color:var(--tag-ink);padding:0 6px}
 .thanks{text-align:center;color:var(--muted);margin:14px 0 0;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}
 
+/* community */
+.crew{background:var(--card);border:1.5px solid var(--ink);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.crew .eyebrow{margin:0}
+.crew h2{font-family:var(--display);font-weight:800;font-size:1.65rem;line-height:1.05;margin:0}
+.crew p{margin:0;color:var(--muted)}
+.crew-btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.crew-btns a{text-decoration:none;font-weight:600;border-radius:999px;padding:10px 16px}
+.crew-fb{background:var(--tag);color:var(--tag-ink)}
+.crew-about{border:1.5px solid var(--line);color:var(--ink)}
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
 @media (max-width:420px){.sticker{right:-2px;top:-4px}}
 .foot a{color:var(--accent)}
@@ -153,7 +162,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 <div class="wrap">
   <div class="bar">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
-    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a></nav>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/about/">About</a></nav>
   </div>
 
   <aside class="install" id="install" hidden aria-label="Add to home screen">
@@ -232,6 +241,16 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
         <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
       </article>
     </a>
+  </section>
+
+  <section class="crew" aria-label="Join the community">
+    <p class="eyebrow">Join the crew</p>
+    <h2>Spotted a deal? Send it my way!</h2>
+    <p>Join the Bash's Bargains Facebook group to share your finds, ask questions and catch the best deals as they drop. More socials are coming soon.</p>
+    <div class="crew-btns">
+      <a class="crew-fb" href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Join the Facebook group →</a>
+      <a class="crew-about" href="/about/">Meet Bash →</a>
+    </div>
   </section>
 
   <section class="receipt" aria-label="What you get">

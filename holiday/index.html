@@ -47,7 +47,7 @@ button{font:inherit;color:inherit}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
 .mark img{width:26px;height:26px}
-.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
 .bar nav a{text-decoration:none;color:var(--muted)}
 .bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
 
@@ -102,7 +102,7 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:8px 0
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/" aria-current="page">Black Friday</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/" aria-current="page">Black Friday</a><a href="/about/">About</a></nav></div>
 
   <section class="panel" aria-label="Countdown">
     <p class="eyebrow">Holiday deal hub</p>
