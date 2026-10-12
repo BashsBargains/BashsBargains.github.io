@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Near Me · Bash's Bargains</title>
+<meta name="description" content="Local deals around Delaware and Philly sorted by your ZIP: in-store clearance finds from the Price Bashers, happy hours near you, and this week's best in-store grocery and drugstore deals.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --ok:#1f8a4c; --ok-bg:#e3f4ea;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button,input{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+h2{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:0}
+.intro{background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:16px;margin:0}
+.lab{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.finder{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.zipRow{display:flex;gap:8px;flex-wrap:wrap}
+.zipRow input{flex:1 1 120px;min-width:0;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;font-size:1.05rem;font-family:var(--mono);letter-spacing:.06em}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.status{margin:0;font-size:.88rem;color:var(--muted);min-height:1.3em}
+.sec{display:flex;flex-direction:column;gap:10px}
+.sec-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.sec-h a{color:var(--accent);font-weight:600;font-size:.9rem;white-space:nowrap}
+.sub{margin:0;color:var(--muted);font-size:.9rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:4px}
+.card.now{border-color:var(--ok)}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card h3{margin:0;font-size:1.02rem;line-height:1.3}
+.meta{margin:0;color:var(--muted);font-size:.85rem}
+.price{font-family:var(--mono);font-weight:600;background:var(--tag);color:var(--tag-ink);border-radius:6px;padding:2px 7px;white-space:nowrap;flex:none}
+.was{font-family:var(--mono);font-size:.8rem;color:var(--muted);text-decoration:line-through;text-align:right}
+.badge{flex:none;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:3px 8px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.badge.on{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.note{margin:0;font-size:.88rem}
+.card a{color:var(--accent);font-weight:600;font-size:.88rem}
+.pill{font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
+.empty a{color:var(--accent);font-weight:600}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
+.foot a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/" aria-current="page">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/about/">About</a></nav></div>
+
+  <h1>Near Me 📍</h1>
+  <p class="intro">Deals you can walk into around Delaware and Philly: in-store clearance spotted by the Price Bashers, happy hours closest to you, and this week's best in-store grocery and drugstore prices. Online-only deals live on the <a href="/deals/" style="color:inherit;font-weight:600">Clearance</a> page.</p>
+
+  <section class="finder" aria-label="Your ZIP code">
+    <p class="lab">Your ZIP</p>
+    <form class="zipRow" id="zipForm">
+      <input id="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="ZIP code" aria-label="ZIP code">
+      <button class="btn" type="submit">Show near me</button>
+      <button class="btn ghost" type="button" id="locBtn">Use my location</button>
+    </form>
+    <p class="status" id="status" aria-live="polite">Your ZIP stays on your phone and is remembered across the site.</p>
+  </section>
+
+  <section class="sec" aria-labelledby="h-finds">
+    <div class="sec-h"><h2 id="h-finds">In-store clearance finds</h2></div>
+    <p class="sub">Spotted on shelves by Price Bashers and local deal posts. Stock and prices vary by store, so grab it fast.</p>
+    <div id="finds"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-hh">
+    <div class="sec-h"><h2 id="h-hh">Happy hours near you</h2><a href="/happy-hour/">See all →</a></div>
+    <div id="hh"></div>
+  </section>
+
+  <section class="sec" aria-labelledby="h-store">
+    <div class="sec-h"><h2 id="h-store">In-store deals this week</h2></div>
+    <p class="sub">The best prices in Delaware and Philly-area stores right now.</p>
+    <div id="instore"></div>
+  </section>
+
+  <p class="foot">Distances are straight-line from the center of your ZIP, so they're approximate. Your ZIP and location never leave your phone. Spotted a deal in a store near you? Post it in the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers Facebook group</a> with the store, town and price. <a href="/about/">About Bash's Bargains</a>.</p>
+</div>
+<script>
+(function(){
+var ZIPS=null,CITY=null,origin=null,FINDS=[],SPOTS=[],GROC=null,CPN=null;
+var $=function(id){return document.getElementById(id)};
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+function store(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function money(n){return "$"+Number(n).toFixed(2)}
+function dist(a,b){var R=3958.8,r=Math.PI/180,dLat=(b[0]-a[0])*r,dLon=(b[1]-a[1])*r,x=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dLon/2)*Math.sin(dLon/2);return 2*R*Math.asin(Math.sqrt(x))}
+function miles(d){return d<1?"under 1 mi":(d<10?d.toFixed(1):Math.round(d))+" mi"}
+function ago(t){var h=(Date.now()-t)/36e5;return h<1?"just now":h<24?Math.round(h)+" hr ago":Math.round(h/24)+" days ago"}
+function loadZips(){if(ZIPS)return Promise.resolve();return fetch("/happy-hour/zips.json").then(function(r){return r.json()}).then(function(j){ZIPS=j;var acc={};for(var z in j){var k=j[z][2].toLowerCase();var a=acc[k]||(acc[k]=[0,0,0]);a[0]+=j[z][0];a[1]+=j[z][1];a[2]++}CITY={};for(var c in acc)CITY[c]=[acc[c][0]/acc[c][2],acc[c][1]/acc[c][2]]})}
+function cityPt(loc){if(!CITY||!loc)return null;var s=String(loc).toLowerCase().trim();if(CITY[s])return CITY[s];
+  var m=s.match(/^(.+?),?\s+(de|pa|nj|md)$/);if(m&&CITY[m[1].trim()+", "+m[2]])return CITY[m[1].trim()+", "+m[2]];
+  var st=["de","pa","nj","md"];for(var i=0;i<st.length;i++)if(CITY[s+", "+st[i]])return CITY[s+", "+st[i]];return null}
+// happy hour status
+function mins(t){var p=t.split(":");return (+p[0])*60+(+p[1])}
+function fmt(t){if(t==="23:59")return "close";var m=mins(t),h=Math.floor(m/60),mm=m%60,ap=h>=12?"pm":"am";h=h%12||12;return h+(mm?":"+String(mm).padStart(2,"0"):"")+" "+ap}
+function hhStatus(s){var d=new Date(),day=d.getDay(),m=d.getHours()*60+d.getMinutes(),t=s.when.filter(function(w){return w.d.indexOf(day)>=0});
+  for(var i=0;i<t.length;i++)if(m>=mins(t[i].s)&&m<mins(t[i].e))return {on:true,rank:0,text:"On now · until "+fmt(t[i].e)};
+  for(i=0;i<t.length;i++)if(m<mins(t[i].s))return {on:false,rank:1,text:"Today "+fmt(t[i].s)+"–"+fmt(t[i].e)};
+  return {on:false,rank:2,text:t.length?"Done today":"Not today"}}
+
+function renderFinds(){
+  var box=$("finds");box.textContent="";
+  var weekAgo=Date.now()-7*864e5;
+  var rows=FINDS.filter(function(f){return f.at>=weekAgo}).map(function(f){var p=cityPt(f.loc);return Object.assign({},f,{_d:(origin&&p)?dist(origin,p):null})});
+  if(origin)rows.sort(function(a,b){return (a._d==null?999:a._d)-(b._d==null?999:b._d)||b.at-a.at});else rows.sort(function(a,b){return b.at-a.at});
+  if(!rows.length){var e=el("p","empty");e.appendChild(document.createTextNode("No in-store finds posted this week yet. Be the first! Snap the shelf tag and post it in the "));var a=el("a",null,"Price Bashers group");a.href="https://www.facebook.com/share/g/1HJanBf4zM/";a.target="_blank";a.rel="noopener";e.appendChild(a);e.appendChild(document.createTextNode(" with the store, town and price."));box.appendChild(e);return}
+  rows.slice(0,30).forEach(function(f){
+    var c=el("article","card"),top=el("div","top"),l=el("div");
+    l.appendChild(el("h3",null,f.item));
+    l.appendChild(el("p","meta",[f.store,f.loc,f._d!=null?miles(f._d):null].filter(Boolean).join(" · ")));
+    top.appendChild(l);var pr=el("div");if(f.price>0)pr.appendChild(el("div","price",money(f.price)));if(f.was>0)pr.appendChild(el("div","was",money(f.was)));top.appendChild(pr);c.appendChild(top);
+    if(f.notes)c.appendChild(el("p","note",f.notes));
+    var m=el("p","meta","In-store · posted "+ago(f.at)+(f.sku?" · SKU "+f.sku:""));c.appendChild(m);
+    if(f.srcUrl&&/^https:\/\//.test(f.srcUrl)){var a=el("a",null,"Source"+(f.src?": "+f.src:""));a.href=f.srcUrl;a.target="_blank";a.rel="noopener";c.appendChild(a)}
+    box.appendChild(c)});
+}
+function renderHH(){
+  var box=$("hh");box.textContent="";
+  if(!SPOTS.length){box.appendChild(el("p","empty","Loading happy hours…"));return}
+  var rows=SPOTS.map(function(s){var p=ZIPS&&ZIPS[s.zip];return Object.assign({},s,{_d:(origin&&p)?dist(origin,p):null,_st:hhStatus(s)})});
+  rows.sort(function(a,b){if(origin)return a._d-b._d;return a._st.rank-b._st.rank||a.name.localeCompare(b.name)});
+  if(!origin)rows=rows.filter(function(s){return s._st.rank<2});
+  if(!rows.length){box.appendChild(el("p","empty","Add your ZIP above to see the happy hours closest to you."));return}
+  rows.slice(0,4).forEach(function(s){
+    var c=el("article","card"+(s._st.on?" now":"")),top=el("div","top"),l=el("div");
+    l.appendChild(el("h3",null,s.name));l.appendChild(el("p","meta",(s.area==="Philadelphia"?"Philly":s.area)+(s._d!=null?" · "+miles(s._d):"")));
+    top.appendChild(l);top.appendChild(el("span","badge"+(s._st.on?" on":""),s._st.text));c.appendChild(top);
+    c.appendChild(el("p","note",s.whenText+" · "+s.deals.slice(0,2).join(" · ")));box.appendChild(c)});
+}
+function renderInstore(){
+  var box=$("instore");box.textContent="";var out=[];
+  if(GROC){var t=new Date().toISOString().slice(0,10);
+    GROC.stores.filter(function(s){return s.kind==="deals"&&!(s.adEnd&&s.adEnd<t)&&!(s.adStart&&s.adStart>t)&&s.name!=="Walmart"}).forEach(function(s){(s.deals||[]).filter(function(d){return d.stockup&&d.price>0}).forEach(function(d){out.push({kind:"Grocery",store:s.name,item:d.item,price:money(d.price)+(d.unit||""),note:d.coupon?"✂ "+d.coupon:"",href:"/grocery/"})})})}
+  if(CPN){var t2=new Date().toISOString().slice(0,10);
+    CPN.matchups.filter(function(m){return m.kind==="drugstore"&&(!m.ends||m.ends>=t2)}).sort(function(a,b){return a.final-b.final}).slice(0,4).forEach(function(m){out.push({kind:"Drugstore",store:m.store,item:m.item,price:m.final===0?"FREE":money(m.final)+" each",note:m.per||"after coupons and rewards",href:"/coupons/"})})}
+  if(!out.length){box.appendChild(el("p","empty","This week's in-store deals are loading…"));return}
+  out.slice(0,10).forEach(function(d){
+    var c=el("a","card");c.href=d.href;c.style.textDecoration="none";c.style.color="inherit";
+    var top=el("div","top"),l=el("div");l.appendChild(el("span","pill",d.kind));l.appendChild(el("h3",null,d.item));l.appendChild(el("p","meta",d.store+(d.note?" · "+d.note:"")));
+    top.appendChild(l);top.appendChild(el("div","price",d.price));c.appendChild(top);box.appendChild(c)});
+}
+function renderAll(){renderFinds();renderHH();renderInstore()}
+function useZip(z){
+  if(!/^\d{5}$/.test(z)){$("status").textContent="Please enter a 5-digit ZIP.";return}
+  loadZips().then(function(){var p=ZIPS[z];if(!p){$("status").textContent="I don't have that ZIP. This covers Delaware, Pennsylvania, New Jersey and Maryland.";return}
+    origin=[p[0],p[1]];store("bb-zip",z);$("status").textContent="Showing what's near "+z+" ("+p[2]+").";renderAll()}).catch(function(){$("status").textContent="Couldn't load the ZIP list. Try again."})}
+$("zipForm").addEventListener("submit",function(e){e.preventDefault();useZip($("zip").value.trim())});
+$("locBtn").addEventListener("click",function(){if(!navigator.geolocation){$("status").textContent="Your browser can't share location. Type your ZIP instead.";return}
+  $("status").textContent="Getting your location…";navigator.geolocation.getCurrentPosition(function(p){origin=[p.coords.latitude,p.coords.longitude];$("status").textContent="Showing what's near you.";loadZips().then(renderAll,renderAll)},function(){$("status").textContent="Location is off. Type your ZIP instead."},{maximumAge:600000,timeout:10000})});
+function j(u){return fetch(u+"?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
+Promise.all([j("/local/finds.json"),j("/happy-hour/happyhour.json"),j("/grocery/grocery.json"),j("/coupons/coupons.json"),loadZips().catch(function(){})]).then(function(r){
+  FINDS=(r[0]&&r[0].finds)||[];SPOTS=(r[1]&&r[1].spots)||[];GROC=r[2];CPN=r[3];
+  var z=load("bb-zip")||load("bb-hh-zip");if(z){$("zip").value=z;useZip(z)}else renderAll()});
+setInterval(renderHH,60000);
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
+})();
+</script>
+<script src="/season.js" defer></script>
+</body>
+</html>

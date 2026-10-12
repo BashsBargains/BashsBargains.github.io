@@ -76,7 +76,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/" aria-current="page">Happy Hour</a><a href="/about/">About</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/" aria-current="page">Happy Hour</a><a href="/about/">About</a></nav></div>
 
   <h1>Happy Hours 🍻</h1>
   <p class="intro">The best happy hours around Wilmington, Newark and Philly: half-price apps, cheap tacos, buck-a-shuck oysters and drink specials. Type your ZIP and I'll sort them by how close they are.</p>
@@ -159,7 +159,7 @@ function useZip(z){
   if(!/^\d{5}$/.test(z)){statusEl.textContent="Please enter a 5-digit ZIP.";return}
   statusEl.textContent="Finding your ZIP…";
   loadZips().then(function(Z){if(!Z[z]){statusEl.textContent="I don't have that ZIP. This page covers Delaware, Pennsylvania, New Jersey and Maryland.";return}
-    origin=[Z[z][0],Z[z][1]];statusEl.textContent="Sorted by distance from "+z+" ("+Z[z][2]+").";store("bb-hh-zip",z);render()}).catch(function(){statusEl.textContent="Couldn't load the ZIP list. Check your connection and try again."})}
+    origin=[Z[z][0],Z[z][1]];statusEl.textContent="Sorted by distance from "+z+" ("+Z[z][2]+").";store("bb-zip",z);render()}).catch(function(){statusEl.textContent="Couldn't load the ZIP list. Check your connection and try again."})}
 document.getElementById("zipForm").addEventListener("submit",function(e){e.preventDefault();useZip(zipIn.value.trim())});
 document.getElementById("locBtn").addEventListener("click",function(){
   if(!navigator.geolocation){statusEl.textContent="Your browser can't share location. Try your ZIP instead.";return}
@@ -167,7 +167,7 @@ document.getElementById("locBtn").addEventListener("click",function(){
   navigator.geolocation.getCurrentPosition(function(p){origin=[p.coords.latitude,p.coords.longitude];statusEl.textContent="Sorted by distance from where you are.";loadZips().then(render).catch(render)},function(){statusEl.textContent="Location is off. Type your ZIP instead."},{maximumAge:600000,timeout:10000})});
 document.querySelectorAll("[data-area]").forEach(function(b){b.addEventListener("click",function(){area=b.getAttribute("data-area");document.querySelectorAll("[data-area]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
 document.querySelectorAll("[data-when]").forEach(function(b){b.addEventListener("click",function(){whenF=b.getAttribute("data-when");document.querySelectorAll("[data-when]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
-fetch("/happy-hour/happyhour.json?v="+Date.now()).then(function(r){return r.json()}).then(function(j){SPOTS=j.spots||[];var z=load("bb-hh-zip");if(z){zipIn.value=z;useZip(z)}else render()}).catch(function(){list.appendChild(el("p","empty","Couldn't load happy hours right now. Please refresh."))});
+fetch("/happy-hour/happyhour.json?v="+Date.now()).then(function(r){return r.json()}).then(function(j){SPOTS=j.spots||[];var z=load("bb-zip")||load("bb-hh-zip");if(z){zipIn.value=z;useZip(z)}else render()}).catch(function(){list.appendChild(el("p","empty","Couldn't load happy hours right now. Please refresh."))});
 setInterval(render,60000);
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
 })();
