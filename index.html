@@ -153,6 +153,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .crew-btns a{text-decoration:none;font-weight:600;border-radius:999px;padding:10px 16px}
 .crew-fb{background:var(--tag);color:var(--tag-ink)}
 .crew-about{border:1.5px solid var(--line);color:var(--ink)}
+/* celebration banner (shows itself during its week) */
+.celebrate{display:flex;align-items:center;gap:12px;background:var(--panel);color:var(--panel-ink);border-radius:14px;padding:12px 14px;border-left:6px solid var(--tag)}
+.celebrate .cel-ico{font-size:1.8rem;line-height:1;flex:none}
+.celebrate b{display:block;font-family:var(--display);font-weight:800;font-size:1.1rem}
+.celebrate span{font-size:.88rem;opacity:.85}
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
 @media (max-width:420px){.sticker{right:-2px;top:-4px}}
 .foot a{color:var(--accent)}
@@ -164,6 +169,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
     <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/about/">About</a></nav>
   </div>
+
+  <aside class="celebrate" id="celebrate" hidden aria-label="Celebration">
+    <span class="cel-ico" id="celIco" aria-hidden="true"></span>
+    <div><b id="celTitle"></b><span id="celSub"></span></div>
+  </aside>
 
   <aside class="install" id="install" hidden aria-label="Add to home screen">
     <img src="/icon-192.png" alt="">
@@ -271,6 +281,23 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 
   <p class="foot">Prices change fast and can differ by store and ZIP code. Always open the source and confirm the price before you buy. Deals gathered daily with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
+<script>
+/* Celebration weeks: add a line here for each one. Months are 1-12. */
+(function(){
+  const weeks=[
+    {start:"2026-10-25",end:"2026-10-31",ico:"🫁",title:"Happy Respiratory Care Week!",sub:"To every RT keeping the world breathing: thank you. From one RT to another 💛"},
+  ];
+  const y=new Date().getFullYear();
+  // Nurses Week is May 6-12 every year
+  weeks.push({start:y+"-05-06",end:y+"-05-12",ico:"🩺",title:"Happy Nurses Week!",sub:"Thank you to every nurse out there. We see you and we appreciate you 💛"});
+  const d=new Date(),t=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+  const w=weeks.find(x=>t>=x.start&&t<=x.end); if(!w)return;
+  document.getElementById("celIco").textContent=w.ico;
+  document.getElementById("celTitle").textContent=w.title;
+  document.getElementById("celSub").textContent=w.sub;
+  document.getElementById("celebrate").hidden=false;
+})();
+</script>
 <script>
 (function(){const bf=new Date(2026,10,27),t=new Date();t.setHours(0,0,0,0);const n=Math.round((bf-t)/864e5);
   if(n>0){document.getElementById("bfDays").textContent=n;document.getElementById("bfLabel").textContent=n===1?"day to go":"days to go"}
