@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>About & Disclosures · Bash's Bargains</title>
+<meta name="description" content="Who runs Bash's Bargains, how the deals are found, and how the site earns money.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: one readable column; a yellow tag-style intro, then plain sections with mono labels */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+.intro{background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:16px;margin:0;font-size:1.02rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.lab{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+h2{font-family:var(--display);font-weight:800;font-size:1.25rem;margin:0 0 8px}
+section p{margin:0 0 10px}
+section p:last-child{margin-bottom:0}
+.req{border-left:4px solid var(--tag);padding-left:12px;font-weight:600}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a></nav></div>
+
+  <h1>About &amp; disclosures</h1>
+  <p class="intro">Hi, I'm Bash! I'm a Delaware deal hunter who loves a good clearance find. I built Bash's Bargains so friends and neighbors can find real savings without paying for a deals app.</p>
+
+  <section>
+    <p class="lab">What's here</p>
+    <h2>Free deals, rounded up for you</h2>
+    <p><b>Clearance</b> finds and price drops from the big stores, <b>grocery deals</b> and dinner ideas for Delaware and the Philly area, <b>coupon matchups</b> for CVS, Walgreens and local grocery stores, and a <b>Black Friday</b> planner. No sign-up, no paywall.</p>
+  </section>
+
+  <section>
+    <p class="lab">How deals are picked</p>
+    <h2>Real savings only</h2>
+    <p>Deals are gathered from store ads, retailer pages and well-known deal and couponing sites, with help from AI, and checked against a second source when possible. I only post a price when it's written out somewhere I can verify, and every deal links to where it came from.</p>
+    <p>Prices change fast and can differ by store and ZIP code, so always confirm the price before you buy.</p>
+  </section>
+
+  <section id="disclosure">
+    <p class="lab">How this site earns money</p>
+    <h2>Affiliate disclosure</h2>
+    <p>Some links on Bash's Bargains are affiliate links. If you buy something after clicking one, I may earn a small commission at no extra cost to you. Links that pay me are marked "paid link." It never changes which deals I post. A deal has to be a real bargain to make the list.</p>
+    <p class="req">As an Amazon Associate I earn from qualifying purchases.</p>
+  </section>
+
+  <section>
+    <p class="lab">Get in touch</p>
+    <h2>Spot a deal or a mistake?</h2>
+    <p>Send it my way on Facebook or Threads. Local in-store finds from Delaware and the Philly area are always welcome.</p>
+  </section>
+</div>
+<script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
+</body>
+</html>
