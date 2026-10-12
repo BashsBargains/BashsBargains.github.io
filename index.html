@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
-/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, then a till receipt of what's free */
+/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, then a till receipt of what's included */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
   --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8; --panel:#18213a; --panel-ink:#f3f4f7;
@@ -58,7 +58,9 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .sticker{position:absolute;right:4px;top:6px;width:clamp(116px,30vw,168px);aspect-ratio:1;max-width:100%;border-radius:50%;background:var(--tag);color:var(--tag-ink);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg);box-shadow:0 2px 0 rgba(0,0,0,.08),0 10px 24px -12px rgba(24,33,58,.45);text-align:center;font-family:var(--mono);font-weight:600;line-height:1.05}
 .sticker::before{content:"";position:absolute;inset:7px;border:2px dashed currentColor;border-radius:50%;opacity:.35}
 .sticker .was{font-size:clamp(.72rem,2.6vw,.9rem);letter-spacing:.04em}
-.sticker .was s{text-decoration-color:var(--hot);text-decoration-thickness:3px}
+.sticker{text-decoration:none}
+.sticker .was{text-transform:uppercase;letter-spacing:.12em}
+.sticker .now{font-variant-numeric:tabular-nums}
 .sticker .now{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,8vw,2.9rem);letter-spacing:-.02em;margin-top:2px}
 .sticker .tiny{font-size:clamp(.6rem,2.1vw,.72rem);letter-spacing:.12em;text-transform:uppercase;margin-top:4px}
 @media (prefers-reduced-motion:no-preference){
@@ -137,11 +139,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
   <header class="hero">
     <p class="eyebrow">Bash those prices</p>
     <h1>Bash's Bargains</h1>
-    <div class="sticker" aria-label="Was expensive, now free">
-      <span class="was">WAS <s>$$$</s></span>
-      <span class="now">FREE</span>
-      <span class="tiny">every day</span>
-    </div>
+    <a class="sticker" id="sticker" href="/deals/" aria-label="Free deals, updated daily">
+      <span class="was" id="stTop">Free</span>
+      <span class="now" id="stNum">Deals</span>
+      <span class="tiny" id="stBot">updated daily</span>
+    </a>
     <p class="lede">Clearance finds and price drops from the big stores, plus this week's <b>Delaware-area grocery deals</b>, rounded up for you every day. No sign-up. No paywall.</p>
   </header>
 
@@ -215,6 +217,8 @@ fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j
   const now=Date.now(),cut=now-48*3600*1000;
   const fresh=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now));
   document.getElementById("dealN").textContent=fresh.length;
+  if(fresh.length){document.getElementById("stTop").textContent="Today's";document.getElementById("stNum").textContent=fresh.length;
+    document.getElementById("stBot").textContent="free deals";document.getElementById("sticker").setAttribute("aria-label",fresh.length+" free deals today. See them")}
   document.getElementById("dealSub").textContent="fresh deals"+(j.updated?" · updated "+ago(j.updated):"");
 }).catch(()=>{});
 fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
