@@ -255,9 +255,9 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
       <article class="doorbuster">
         <div class="db-l">
           <span class="db-eyebrow">Holiday deal hub</span>
-          <h2 data-cm="Cyber Monday 2026">Black Friday 2026</h2>
+          <h2 data-cm="Cyber Monday 2026" data-hd="Holiday Deals 2026">Black Friday 2026</h2>
           <p>Sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more.</p>
-          <span class="cta" data-cm="Shop Cyber Monday deals →">Plan your Black Friday →</span>
+          <span class="cta" data-cm="Shop Cyber Monday deals →" data-hd="Shop holiday deals →">Plan your Black Friday →</span>
         </div>
         <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
       </article>
@@ -283,7 +283,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
     <div class="ln"><span>Coupon matchups</span><span class="dots"></span><span class="v">CVS + Walgreens</span></div>
     <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
     <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
-    <div class="ln"><span>Black Friday hub</span><span class="dots"></span><span class="v">thru Cyber Mon</span></div>
+    <div class="ln"><span>Holiday deal hub</span><span class="dots"></span><span class="v">Nov + Dec</span></div>
     <div class="ln"><span>Birthday freebies</span><span class="dots"></span><span class="v">18 picks</span></div>
     <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
     <hr>
@@ -314,6 +314,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 (function(){const bf=new Date(2026,10,27),cm=new Date(2026,10,30),t=new Date();t.setHours(0,0,0,0);const n=Math.round((bf-t)/864e5),c=Math.round((cm-t)/864e5);
   if(n>0){document.getElementById("bfDays").textContent=n;document.getElementById("bfLabel").textContent=n===1?"day to go":"days to go"}
   else if(n<0&&c>0){document.getElementById("bfDays").textContent=c;document.getElementById("bfLabel").textContent=c===1?"day to Cyber Mon":"days to Cyber Mon"}
+  else if(t.getMonth()===11&&t.getDate()>=1&&t.getDate()<=24){const x=Math.round((new Date(t.getFullYear(),11,25)-t)/864e5);document.getElementById("bfDays").textContent=x;document.getElementById("bfLabel").textContent=x===1?"day to Christmas":"days to Christmas"}
+  else if(t.getMonth()===11&&t.getDate()>=25){document.getElementById("bfDays").textContent="On now";document.getElementById("bfLabel").textContent="after-Christmas sales"}
   else{document.getElementById("bfDays").textContent="Now";document.getElementById("bfLabel").textContent="deals are live"}})();
 function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const d=Math.round(h/24);return d+(d===1?" day ago":" days ago");}
 fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
