@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Happy Hours · Bash's Bargains</title>
+<meta name="description" content="The best happy hours in Wilmington, Newark and Philadelphia, sorted by distance from your ZIP code. Days, times and the deals worth going for.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --ok:#1f8a4c; --ok-bg:#e3f4ea;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button,input{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+.intro{background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:16px;margin:0}
+.lab{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.finder{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.zipRow{display:flex;gap:8px;flex-wrap:wrap}
+.zipRow input{flex:1 1 140px;min-width:0;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;font-size:1.05rem;font-family:var(--mono);letter-spacing:.06em}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.status{margin:0;font-size:.88rem;color:var(--muted);min-height:1.3em}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{font-size:.88rem;font-weight:600;margin:0}
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.card.now{border-color:var(--ok)}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card h3{margin:0;font-size:1.08rem;line-height:1.25}
+.meta{margin:0;color:var(--muted);font-size:.85rem}
+.badge{flex:none;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:3px 8px;background:var(--bg);color:var(--muted);border:1px solid var(--line)}
+.badge.on{background:var(--ok-bg);color:var(--ok);border-color:var(--ok)}
+.when{margin:0;font-weight:600}
+.deals{margin:0;padding-left:18px}
+.deals li{margin:2px 0}
+.note{margin:0;font-size:.85rem;color:var(--muted)}
+.links{display:flex;gap:14px;flex-wrap:wrap;font-size:.88rem}
+.links a{color:var(--accent);font-weight:600}
+.src{margin:0;font-size:.78rem;color:var(--muted)}
+.src a{color:var(--muted)}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
+.tips{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.tips h2{font-family:var(--display);font-weight:800;font-size:1.2rem;margin:0 0 8px}
+.tips p{margin:6px 0}
+.tips a{color:var(--accent);font-weight:600}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
+.foot a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/" aria-current="page">Happy Hour</a><a href="/about/">About</a></nav></div>
+
+  <h1>Happy Hours 🍻</h1>
+  <p class="intro">The best happy hours around Wilmington, Newark and Philly: half-price apps, cheap tacos, buck-a-shuck oysters and drink specials. Type your ZIP and I'll sort them by how close they are.</p>
+
+  <section class="finder" aria-label="Find happy hours near you">
+    <p class="lab">Near me</p>
+    <form class="zipRow" id="zipForm">
+      <label for="zip" class="lab" style="position:absolute;left:-9999px">ZIP code</label>
+      <input id="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" placeholder="ZIP code" aria-label="ZIP code">
+      <button class="btn" type="submit">Sort by distance</button>
+      <button class="btn ghost" type="button" id="locBtn">Use my location</button>
+    </form>
+    <p class="status" id="status" aria-live="polite"></p>
+    <div class="chips" role="group" aria-label="Area">
+      <button class="chip" type="button" data-area="" aria-pressed="true">All areas</button>
+      <button class="chip" type="button" data-area="Wilmington" aria-pressed="false">Wilmington</button>
+      <button class="chip" type="button" data-area="Newark" aria-pressed="false">Newark</button>
+      <button class="chip" type="button" data-area="Philadelphia" aria-pressed="false">Philly</button>
+    </div>
+    <div class="chips" role="group" aria-label="When">
+      <button class="chip" type="button" data-when="" aria-pressed="true">Any day</button>
+      <button class="chip" type="button" data-when="today" aria-pressed="false">Today</button>
+      <button class="chip" type="button" data-when="now" aria-pressed="false">On right now</button>
+    </div>
+  </section>
+
+  <p class="count" id="count" aria-live="polite"></p>
+  <div class="cards" id="list"></div>
+
+  <section class="tips">
+    <p class="lab">Good to know</p>
+    <h2>Before you go</h2>
+    <p><b>Call or check their page first.</b> Happy hours change a lot, and each spot shows where I found it and when. Some are bar-only or dine-in only.</p>
+    <p><b>Drink specials are 21+.</b> Please drink responsibly and get a safe ride home. Plenty of these spots have great food deals too!</p>
+    <p><b>Know a great one?</b> Post it in the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers Facebook group</a> with the days, times and deals, and I'll add it.</p>
+  </section>
+
+  <p class="foot">Distances are straight-line from the center of your ZIP code, so they're approximate. Your ZIP and location stay on your phone; nothing is sent anywhere. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
+</div>
+<script>
+(function(){
+var SPOTS=[],ZIPS=null,origin=null,area="",whenF="";
+var DAYS=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+var list=document.getElementById("list"),statusEl=document.getElementById("status"),countEl=document.getElementById("count"),zipIn=document.getElementById("zip");
+function store(k,v){try{if(v==null)localStorage.removeItem(k);else localStorage.setItem(k,v)}catch(e){}}
+function load(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function mins(t){var p=t.split(":");return (+p[0])*60+(+p[1])}
+function fmt(t){var m=mins(t),h=Math.floor(m/60),mm=m%60,ap=h>=12?"pm":"am";if(t==="23:59")return "close";h=h%12||12;return h+(mm?":"+String(mm).padStart(2,"0"):"")+" "+ap}
+function nowInfo(){var d=new Date();return {day:d.getDay(),m:d.getHours()*60+d.getMinutes()}}
+function status(s){var n=nowInfo(),today=s.when.filter(function(w){return w.d.indexOf(n.day)>=0});
+  for(var i=0;i<today.length;i++){var w=today[i];if(n.m>=mins(w.s)&&n.m<mins(w.e))return {on:true,today:true,text:"On now · until "+fmt(w.e)}}
+  for(i=0;i<today.length;i++){w=today[i];if(n.m<mins(w.s))return {on:false,today:true,text:"Today "+fmt(w.s)+"–"+fmt(w.e)}}
+  return {on:false,today:today.length>0,text:today.length?"Done today":"Not today"}}
+function km2mi(k){return k*0.621371}
+function dist(a,b){var R=6371,toR=Math.PI/180,dLat=(b[0]-a[0])*toR,dLon=(b[1]-a[1])*toR,x=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(a[0]*toR)*Math.cos(b[0]*toR)*Math.sin(dLon/2)*Math.sin(dLon/2);return km2mi(2*R*Math.asin(Math.sqrt(x)))}
+function loadZips(){if(ZIPS)return Promise.resolve(ZIPS);return fetch("/happy-hour/zips.json").then(function(r){return r.json()}).then(function(j){ZIPS=j;return j})}
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+function render(){
+  list.textContent="";
+  var rows=SPOTS.filter(function(s){if(area&&s.area!==area)return false;var st=status(s);if(whenF==="today"&&!st.today)return false;if(whenF==="now"&&!st.on)return false;return true});
+  rows.forEach(function(s){s._d=(origin&&ZIPS&&ZIPS[s.zip])?dist(origin,ZIPS[s.zip]):null});
+  rows.sort(function(a,b){if(a._d!=null&&b._d!=null)return a._d-b._d;var sa=status(a),sb=status(b);if(sa.on!==sb.on)return sa.on?-1:1;return a.area===b.area?a.name.localeCompare(b.name):a.area.localeCompare(b.area)});
+  countEl.textContent=rows.length+(rows.length===1?" spot":" spots")+(origin?" · closest first":"");
+  if(!rows.length){var e=el("p","empty",whenF==="now"?"Nothing on right now in this area. Try \"Today\" or \"Any day.\"":"No spots match those filters yet.");list.appendChild(e);return}
+  rows.forEach(function(s){
+    var st=status(s),c=el("article","card"+(st.on?" now":""));
+    var top=el("div","top"),l=el("div");l.appendChild(el("h3",null,s.name));
+    var where=(s.area==="Philadelphia"?"Philly":s.area)+" · "+s.addr+(s._d!=null?" · "+(s._d<1?"under 1 mi":(s._d<10?s._d.toFixed(1):Math.round(s._d))+" mi"):"");
+    l.appendChild(el("p","meta",where));top.appendChild(l);top.appendChild(el("span","badge"+(st.on?" on":""),st.text));c.appendChild(top);
+    c.appendChild(el("p","when",s.whenText));
+    var ul=el("ul","deals");s.deals.forEach(function(d){ul.appendChild(el("li",null,d))});c.appendChild(ul);
+    if(s.note)c.appendChild(el("p","note",s.note));
+    var links=el("div","links"),m=el("a",null,"Directions →");m.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+" "+s.addr+" "+(s.area==="Philadelphia"?"Philadelphia, PA":s.area+", DE"));m.target="_blank";m.rel="noopener";links.appendChild(m);c.appendChild(links);
+    var src=el("p","src");src.appendChild(document.createTextNode((s.official?"From their own page":"Source: ")));if(!s.official){var a=el("a",null,s.src+" ("+s.srcDate+")");a.href=s.srcUrl;a.target="_blank";a.rel="noopener";src.appendChild(a)}else{src.appendChild(document.createTextNode(" · "));var a2=el("a",null,"view menu");a2.href=s.srcUrl;a2.target="_blank";a2.rel="noopener";src.appendChild(a2)}
+    var ck=s.checked?new Date(s.checked+"T12:00:00"):null;if(ck)src.appendChild(document.createTextNode(" · checked "+ck.toLocaleDateString("en-US",{month:"short",day:"numeric"})));
+    c.appendChild(src);list.appendChild(c)});
+}
+function useZip(z){
+  if(!/^\d{5}$/.test(z)){statusEl.textContent="Please enter a 5-digit ZIP.";return}
+  statusEl.textContent="Finding your ZIP…";
+  loadZips().then(function(Z){if(!Z[z]){statusEl.textContent="I don't have that ZIP. This page covers Delaware, Pennsylvania, New Jersey and Maryland.";return}
+    origin=[Z[z][0],Z[z][1]];statusEl.textContent="Sorted by distance from "+z+" ("+Z[z][2]+").";store("bb-hh-zip",z);render()}).catch(function(){statusEl.textContent="Couldn't load the ZIP list. Check your connection and try again."})}
+document.getElementById("zipForm").addEventListener("submit",function(e){e.preventDefault();useZip(zipIn.value.trim())});
+document.getElementById("locBtn").addEventListener("click",function(){
+  if(!navigator.geolocation){statusEl.textContent="Your browser can't share location. Try your ZIP instead.";return}
+  statusEl.textContent="Getting your location…";
+  navigator.geolocation.getCurrentPosition(function(p){origin=[p.coords.latitude,p.coords.longitude];statusEl.textContent="Sorted by distance from where you are.";loadZips().then(render).catch(render)},function(){statusEl.textContent="Location is off. Type your ZIP instead."},{maximumAge:600000,timeout:10000})});
+document.querySelectorAll("[data-area]").forEach(function(b){b.addEventListener("click",function(){area=b.getAttribute("data-area");document.querySelectorAll("[data-area]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
+document.querySelectorAll("[data-when]").forEach(function(b){b.addEventListener("click",function(){whenF=b.getAttribute("data-when");document.querySelectorAll("[data-when]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
+fetch("/happy-hour/happyhour.json?v="+Date.now()).then(function(r){return r.json()}).then(function(j){SPOTS=j.spots||[];var z=load("bb-hh-zip");if(z){zipIn.value=z;useZip(z)}else render()}).catch(function(){list.appendChild(el("p","empty","Couldn't load happy hours right now. Please refresh."))});
+setInterval(render,60000);
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
+})();
+</script>
+<script src="/season.js" defer></script>
+</body>
+</html>
