@@ -1,5 +1,5 @@
 {
- "updated": 1791799527826,
+ "updated": 1791824840381,
  "deals": [
   {
    "id": "web-frigidaire-7-5-cu-ft-top-freezer-refrige-20261011",
@@ -546,21 +546,11 @@
    "store": "Amazon",
    "price": 6,
    "was": 11,
-   "notes": "Online. From $6 each with Subscribe & Save; ships free.",
+   "notes": "Online. Clip the 30% off coupon on the page and choose Subscribe & Save. As low as about $6 each.",
    "at": 1791771300000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-finish-jet-dry-dishwasher-rinse-aid/"
-  },
-  {
-   "id": "web-handheld-clothes-steamer-20261011",
-   "item": "Handheld clothes steamer",
-   "store": "Amazon",
-   "price": 9.99,
-   "was": 30,
-   "notes": "Online. Highly rated handheld steamer, about 67% off.",
-   "at": 1791769500000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-clothes-steamer/"
+   "srcUrl": "https://hip2save.com/deals/amazon-finish-jet-dry-dishwasher-rinse-aid/",
+   "url": "https://www.amazon.com/dp/B00C9SOB1K"
   },
   {
    "id": "web-maryruth-s-kids-multivitamin-gummies-20261011",
@@ -568,7 +558,7 @@
    "store": "Amazon",
    "price": 8.57,
    "was": 23,
-   "notes": "Online. Ships free.",
+   "notes": "Online. Use code MROMOMDEALS and choose Subscribe & Save for this price.",
    "at": 1791765900000,
    "src": "Hip2Save",
    "srcUrl": "https://hip2save.com/deals/mary-ruths-gummies/"
@@ -579,10 +569,11 @@
    "store": "Amazon",
    "price": 8,
    "was": 25,
-   "notes": "Online. A reader favorite, about 68% off.",
+   "notes": "Online. Use code HIP2SAVEBRA at checkout. Code may be one use per account.",
    "at": 1791764100000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/letsjoli-wireless-jelly-bras/"
+   "srcUrl": "https://hip2save.com/deals/letsjoli-wireless-jelly-bras/",
+   "url": "https://www.amazon.com/dp/B0DS4PB6HC"
   },
   {
    "id": "web-duke-s-smoked-snack-sausages-20261011",
@@ -590,10 +581,11 @@
    "store": "Amazon",
    "price": 5.31,
    "was": 9,
-   "notes": "Online. Ships free.",
+   "notes": "Online. Teriyaki flavor. Clip the 10% coupon and choose Subscribe & Save.",
    "at": 1791753600000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-dukes-smoked-shorty-sausages/"
+   "srcUrl": "https://hip2save.com/deals/amazon-dukes-smoked-shorty-sausages/",
+   "url": "https://www.amazon.com/dp/B081PFJ5H7"
   },
   {
    "id": "web-liquid-chalk-markers-8-pack-20261011",
@@ -601,10 +593,11 @@
    "store": "Amazon",
    "price": 2.39,
    "was": 7,
-   "notes": "Online. Prime members; ships free.",
+   "notes": "Online. Use code G5KD26Q9 and choose Subscribe & Save.",
    "at": 1791751800000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/chalk-markers/"
+   "srcUrl": "https://hip2save.com/deals/chalk-markers/",
+   "url": "https://www.amazon.com/dp/B0BHKQXFTQ"
   },
   {
    "id": "web-flexitol-heel-balm-20261011",
@@ -612,10 +605,11 @@
    "store": "Amazon",
    "price": 4.91,
    "was": 14,
-   "notes": "Online. Ships free.",
+   "notes": "Online. Clip the 35% off coupon and choose Subscribe & Save.",
    "at": 1791750600000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-flexitol-heel-balm/"
+   "srcUrl": "https://hip2save.com/deals/amazon-flexitol-heel-balm/",
+   "url": "https://www.amazon.com/dp/B0013H8M5E"
   },
   {
    "id": "web-travel-garment-steamer-20261011",
@@ -623,10 +617,11 @@
    "store": "Amazon",
    "price": 12.99,
    "was": 40,
-   "notes": "Online. Recent price drop; ships free.",
+   "notes": "Online. Use code A3OR4KIG at checkout.",
    "at": 1791749400000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-travel-steamer/"
+   "srcUrl": "https://hip2save.com/deals/amazon-travel-steamer/",
+   "url": "https://www.amazon.com/dp/B0HJHRSBPX"
   },
   {
    "id": "web-stackable-closet-organizers-5-pack-20261011",
@@ -634,10 +629,11 @@
    "store": "Amazon",
    "price": 25,
    "was": 60,
-   "notes": "Online. About 58% off.",
+   "notes": "Online. The 30% discount applies automatically at checkout.",
    "at": 1791735600000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/closet-organizers/"
+   "srcUrl": "https://hip2save.com/deals/closet-organizers/",
+   "url": "https://www.amazon.com/dp/B0HLG4L7ZS"
   },
   {
    "id": "web-tweezer-set-with-travel-case-20261011",
@@ -645,10 +641,11 @@
    "store": "Amazon",
    "price": 4.99,
    "was": 10,
-   "notes": "Online. Half off.",
+   "notes": "Online. Use code KQT5DTGO (doesn't stack with the page coupon).",
    "at": 1791735300000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/tweezer-set/"
+   "srcUrl": "https://hip2save.com/deals/tweezer-set/",
+   "url": "https://www.amazon.com/dp/B07QSY7XK6"
   },
   {
    "id": "web-lite-brite-colorpop-20261011",
@@ -656,21 +653,11 @@
    "store": "Amazon",
    "price": 18.99,
    "was": 30,
-   "notes": "Online. Good stocking stuffer.",
+   "notes": "Online. Same price at Walmart.com. Good stocking stuffer.",
    "at": 1791734400000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/lite-brite/"
-  },
-  {
-   "id": "web-poppi-soda-12-packs-20261011",
-   "item": "Poppi soda 12-packs",
-   "store": "Amazon",
-   "price": 9,
-   "was": 25,
-   "notes": "Online. From $9 with Subscribe & Save; ships free.",
-   "at": 1791729300000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/poppi-soda/"
+   "srcUrl": "https://hip2save.com/deals/lite-brite/",
+   "url": "https://www.amazon.com/dp/B0FPST7LPM"
   },
   {
    "id": "web-women-s-flower-sweater-20261010",
@@ -678,21 +665,12 @@
    "store": "Amazon",
    "price": 12.49,
    "was": 25,
-   "notes": "Online. Half off; sizes vary.",
+   "notes": "Online. Use code BYK3NTOV. Deal runs through Oct 12.",
    "at": 1791682200000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-womens-flower-sweater/"
-  },
-  {
-   "id": "web-men-s-3-pocket-athletic-shorts-20261010",
-   "item": "Men's 3-pocket athletic shorts",
-   "store": "Amazon",
-   "price": 9.89,
-   "was": 25,
-   "notes": "Online. About 60% off.",
-   "at": 1791676800000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-mens-shorts/"
+   "srcUrl": "https://hip2save.com/deals/amazon-womens-flower-sweater/",
+   "url": "https://www.amazon.com/dp/B0FCT554TY",
+   "expires": 1791863940000
   },
   {
    "id": "web-cordless-leaf-blower-set-20261010",
@@ -700,10 +678,11 @@
    "store": "Amazon",
    "price": 35.99,
    "was": 101,
-   "notes": "Online. About 64% off, just in time for fall leaves.",
+   "notes": "Online. Use code 4NEW3PJS at checkout (orange set: code V3QHYIQ7).",
    "at": 1791674400000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-cordless-leaf-blower/"
+   "srcUrl": "https://hip2save.com/deals/amazon-cordless-leaf-blower/",
+   "url": "https://www.amazon.com/dp/B0GJZTD8X6"
   },
   {
    "id": "web-christmas-gift-tags-500-count-20261010",
@@ -711,10 +690,11 @@
    "store": "Amazon",
    "price": 4,
    "was": 10,
-   "notes": "Online. Stock up for wrapping season.",
+   "notes": "Online. The 40% discount applies automatically at checkout.",
    "at": 1791672600000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-christmas-gift-tags/"
+   "srcUrl": "https://hip2save.com/deals/amazon-christmas-gift-tags/",
+   "url": "https://www.amazon.com/dp/B0D53Y3FBG"
   },
   {
    "id": "web-plus-size-satin-tank-tops-20261010",
@@ -722,10 +702,11 @@
    "store": "Amazon",
    "price": 4.99,
    "was": 12,
-   "notes": "Online. About 58% off.",
+   "notes": "Online. Use code 0IPB40ST at checkout.",
    "at": 1791669600000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-womens-silk-shirt/"
+   "srcUrl": "https://hip2save.com/deals/amazon-womens-silk-shirt/",
+   "url": "https://www.amazon.com/dp/B0G3TX9KS5"
   },
   {
    "id": "web-no-tip-dog-bowl-20261010",
@@ -733,10 +714,11 @@
    "store": "Amazon",
    "price": 3.54,
    "was": 10,
-   "notes": "Online. About 65% off.",
+   "notes": "Online. Loving Pets Bella small stainless bowl.",
    "at": 1791668700000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-no-tip-dog-bowl/"
+   "srcUrl": "https://hip2save.com/deals/amazon-no-tip-dog-bowl/",
+   "url": "https://www.amazon.com/dp/B003OIPSSY"
   },
   {
    "id": "web-califia-farms-oat-milk-6-pack-20261010",
@@ -744,10 +726,11 @@
    "store": "Amazon",
    "price": 13.77,
    "was": 25,
-   "notes": "Online. About 45% off.",
+   "notes": "Online. Choose Subscribe & Save for this price.",
    "at": 1791667800000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/califia-farms-oat-milk/"
+   "srcUrl": "https://hip2save.com/deals/califia-farms-oat-milk/",
+   "url": "https://www.amazon.com/dp/B07PBFNYXV"
   },
   {
    "id": "web-duck-duct-tape-20261010",
@@ -755,10 +738,11 @@
    "store": "Amazon",
    "price": 3.5,
    "was": 6,
-   "notes": "Online. About 42% off.",
+   "notes": "Online. Black duct tape, about 42% off.",
    "at": 1791666000000,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/duck-duct-tape/"
+   "srcUrl": "https://hip2save.com/deals/duck-duct-tape/",
+   "url": "https://www.amazon.com/dp/B002TOL40A"
   },
   {
    "id": "web-ekouaer-women-s-lounge-set-20261011",
