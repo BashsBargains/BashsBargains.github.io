@@ -1,21 +1,118 @@
 {
- "updated": 1791764400000,
+ "updated": 1791804843956,
  "events": [
-  {"name": "Thanksgiving", "date": "2026-11-26"},
-  {"name": "Black Friday", "date": "2026-11-27"},
-  {"name": "Cyber Monday", "date": "2026-11-30"}
+  {
+   "name": "Thanksgiving",
+   "date": "2026-11-26"
+  },
+  {
+   "name": "Black Friday",
+   "date": "2026-11-27"
+  },
+  {
+   "name": "Cyber Monday",
+   "date": "2026-11-30"
+  }
  ],
  "stores": [
-  {"id": "amazon", "name": "Amazon", "status": "expected", "early": "Black Friday week deals around Nov 20", "main": "Through Cyber Monday, around Dec 1", "ad": "No printed ad", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "walmart", "name": "Walmart", "status": "expected", "early": "Walmart+ members usually get early online access", "main": "Around Nov 24–29; in stores Black Friday morning", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "target", "name": "Target", "status": "expected", "early": "Early deals around Nov 6", "main": "Around Nov 22–28", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "best-buy", "name": "Best Buy", "status": "expected", "early": "Early deals around Oct 31", "main": "Black Friday prices around Nov 20", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "home-depot", "name": "Home Depot", "status": "expected", "early": "Early deals around Nov 5", "main": "Around Nov 26–29", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "lowes", "name": "Lowe's", "status": "expected", "early": "Savings events through November", "main": "Through about Dec 3", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "costco", "name": "Costco", "status": "expected", "early": "First deals around Oct 31", "main": "Main event around Nov 26", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "sams-club", "name": "Sam's Club", "status": "expected", "early": "Doorbuster sale around Nov 7", "main": "Around Nov 26–29", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "kohls", "name": "Kohl's", "status": "expected", "early": "Early access around Nov 7", "main": "Around Nov 22–28", "ad": "Not out yet", "src": "MyWeeklyAds", "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"},
-  {"id": "bjs", "name": "BJ's", "status": "tbd", "early": "Not announced yet", "main": "Not announced yet", "ad": "Not out yet"}
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "status": "expected",
+   "early": "Black Friday week deals around Nov 20",
+   "main": "Through Cyber Monday, around Dec 1",
+   "ad": "No printed ad",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "status": "expected",
+   "early": "Walmart+ members usually get early online access",
+   "main": "Around Nov 24–29; in stores Black Friday morning",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "status": "expected",
+   "early": "Early deals around Nov 6",
+   "main": "Around Nov 22–28",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "best-buy",
+   "name": "Best Buy",
+   "status": "expected",
+   "early": "Early deals around Oct 31",
+   "main": "Black Friday prices around Nov 20",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "home-depot",
+   "name": "Home Depot",
+   "status": "expected",
+   "early": "Early deals around Nov 5",
+   "main": "Around Nov 26–29",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "lowes",
+   "name": "Lowe's",
+   "status": "confirmed",
+   "early": "Black Friday deals start Oct 29; 12 Days of Deals from Nov 16",
+   "main": "MyLowe's Rewards members shop Doorbusters online Thanksgiving Day (Nov 26); open to everyone Nov 27",
+   "ad": "Not out yet",
+   "src": "Lowe's press release (Oct 8, 2026)",
+   "srcUrl": "https://www.prnewswire.com/news-releases/lowes-unveils-holiday-2026-lineup-with-new-gifts-and-decor-mylowes-rewards-perks-and-weeks-of-black-friday-savings-302901573.html"
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "status": "expected",
+   "early": "First deals around Oct 31",
+   "main": "Main event around Nov 26",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "sams-club",
+   "name": "Sam's Club",
+   "status": "expected",
+   "early": "Doorbuster sale around Nov 7",
+   "main": "Around Nov 26–29",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "kohls",
+   "name": "Kohl's",
+   "status": "expected",
+   "early": "Early access around Nov 7",
+   "main": "Around Nov 22–28",
+   "ad": "Not out yet",
+   "src": "MyWeeklyAds",
+   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+  },
+  {
+   "id": "bjs",
+   "name": "BJ's",
+   "status": "tbd",
+   "early": "Not announced yet",
+   "main": "Not announced yet",
+   "ad": "Not out yet"
+  }
  ],
  "deals": []
 }
