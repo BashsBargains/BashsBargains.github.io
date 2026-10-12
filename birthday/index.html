@@ -82,35 +82,45 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 
   <div id="list"></div>
 
-  <p class="foot">Birthday rewards change often and can vary by location. Always check the brand's current rewards terms before you go. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
+  <p class="foot">Birthday rewards change often and can vary by location. Always check the brand's current rewards terms before you go. Last checked Oct 12, 2026. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
 <script>
 const FREEBIES=[
  {g:"☕ Coffee & drinks",items:[
-  {id:"starbucks",n:"Starbucks",get:"Free handcrafted drink or food item",how:"Starbucks Rewards. Join at least 7 days before your birthday and make one Star-earning purchase before it. Shows up in the app.",u:"https://www.starbucks.com"},
-  {id:"dunkin",n:"Dunkin'",get:"Free birthday drink",how:"Dunkin' Rewards with your birthday added. Stay active with an occasional purchase.",u:"https://www.dunkindonuts.com"},
-  {id:"ritas",n:"Rita's Italian Ice",get:"Free Italian Ice",how:"Join Rita's e-Club (their Birthday Club) on their website.",u:"https://www.ritasice.com"}
+  {id:"starbucks",n:"Starbucks",get:"Free handcrafted drink (any size) or a food item",how:"Starbucks Rewards. Join at least 7 days before your birthday and make one Star-earning purchase before it each year. Green members redeem on the day; Gold gets 7 days.",u:"https://www.starbucks.com"},
+  {id:"tropical",n:"Tropical Smoothie Cafe",get:"Free 24 oz smoothie",how:"Tropic Rewards with your birthday added. Shows up in the app on your birthday, and you can order online.",u:"https://www.tropicalsmoothiecafe.com"},
+  {id:"ritas",n:"Rita's Italian Ice",get:"Special birthday treat (Philly-born! 🍧)",how:"Join Rita's Rewards and get the app. If your birthday is in the off-season, you get it on your half-birthday instead.",u:"https://www.ritasice.com"},
+  {id:"dunkin",n:"Dunkin'",get:"Triple points (not a free drink anymore)",how:"Dunkin' Rewards. 3x points the day before, day of and day after your birthday. Add your birthday before your birthday month; it can't be changed later.",u:"https://www.dunkindonuts.com"}
  ]},
  {g:"🧁 Sweet treats",items:[
   {id:"nbc",n:"Nothing Bundt Cakes",get:"Free Bundtlet (mini cake)",how:"Bundtastic Rewards. Good 7 days before or after your birthday. No purchase needed.",u:"https://www.nothingbundtcakes.com"},
-  {id:"baskin",n:"Baskin-Robbins",get:"Free scoop",how:"Create an account and complete your profile a couple of weeks before your birthday month. Added on your birthday.",u:"https://www.baskinrobbins.com"},
-  {id:"krispy",n:"Krispy Kreme",get:"Free doughnut",how:"Krispy Kreme Rewards with your correct birthday. The app may be needed.",u:"https://www.krispykreme.com"},
-  {id:"panera",n:"Panera Bread",get:"Free bakery treat",how:"MyPanera with your birthday added. Short window around your birthday.",u:"https://www.panerabread.com"},
-  {id:"auntie",n:"Auntie Anne's",get:"Free pretzel",how:"Pretzel Perks app or online signup with your birthday. May need one purchase a year.",u:"https://www.auntieannes.com"}
+  {id:"insomnia",n:"Insomnia Cookies",get:"Free Deluxe cookie (Philly-born! 🍪)",how:"Free Insomnia Rewards account with your birthday in your profile.",u:"https://insomniacookies.com"},
+  {id:"krispy",n:"Krispy Kreme",get:"Free doughnut",how:"Krispy Kreme Rewards in the app. Good all birthday month (plus a free doughnut just for joining).",u:"https://www.krispykreme.com"},
+  {id:"baskin",n:"Baskin-Robbins",get:"Free small scoop",how:"Complete your profile a couple of weeks before your birthday month. Lands about a week before your birthday; 14 days to use it.",u:"https://www.baskinrobbins.com"},
+  {id:"friendlys",n:"Friendly's",get:"Free medium sundae",how:"Sweet Rewards Club. Good for about two weeks around your birthday.",u:"https://www.friendlysrestaurants.com"},
+  {id:"panera",n:"Panera Bread",get:"Free bakery treat or bagel",how:"MyPanera with your birthday added. Loads on your birthday; use it within 7 days.",u:"https://www.panerabread.com"},
+  {id:"auntie",n:"Auntie Anne's",get:"Free pretzel",how:"Auntie Anne's Rewards. Needs one purchase in the past year. Good all birthday month.",u:"https://www.auntieannes.com"},
+  {id:"crumbl",n:"Crumbl",get:"Free cookie",how:"Needs Silver tier (about $50 spent in the past year). Join the birthday club in the app at least 48 hours before.",u:"https://crumblcookies.com"}
  ]},
  {g:"🍔 Meals",items:[
-  {id:"ihop",n:"IHOP",get:"Free stack of pancakes",how:"IHOP Rewards. PanCoins land on the 1st of your birthday month, so join before then. No purchase needed.",u:"https://www.ihop.com"},
-  {id:"jerseymikes",n:"Jersey Mike's",get:"Free regular sub",how:"MyMike's. Needs one regular sub purchase in the past year. Points arrive on your birthday.",u:"https://www.jerseymikes.com"},
-  {id:"firehouse",n:"Firehouse Subs",get:"Free medium sub",how:"Firehouse Rewards with your birthday added. Small minimum purchase (about $1).",u:"https://www.firehousesubs.com"},
-  {id:"redrobin",n:"Red Robin",get:"Free milkshake, or a free burger",how:"Red Robin Royalty. Spend $10 during the year (before your birthday month) to upgrade to the burger. Dine-in.",u:"https://www.redrobin.com"},
-  {id:"bww",n:"Buffalo Wild Wings",get:"Free wings",how:"Blazin' Rewards with your birthday. Wing count and rules can change.",u:"https://www.buffalowildwings.com"},
-  {id:"cfa",n:"Chick-fil-A",get:"Free treat (often a dessert or small shake)",how:"Chick-fil-A One. Add your birthday at least a day early. Good for about 30 days.",u:"https://www.chick-fil-a.com"},
-  {id:"moes",n:"Moe's Southwest Grill",get:"Free burrito",how:"Moe Rewards with your birthday. Limited time, may need the app.",u:"https://www.moes.com"},
-  {id:"chipotle",n:"Chipotle",get:"Surprise birthday reward",how:"Chipotle Rewards with your birthday. Watch the app near your birthday. Points expire after 180 days of no activity.",u:"https://www.chipotle.com"}
+  {id:"ihop",n:"IHOP",get:"Free stack of pancakes",how:"IHOP Rewards. Be a member by the 1st of your birthday month. Good about a week before or after your birthday. No purchase needed.",u:"https://www.ihop.com"},
+  {id:"dennys",n:"Denny's",get:"Free Birthday Slam",how:"Denny's Rewards with your birthday added. Good on your birthday only.",u:"https://www.dennys.com"},
+  {id:"jerseymikes",n:"Jersey Mike's",get:"Free regular sub",how:"MyMike's. Opt into emails and make one sub purchase in the past year. Good all birthday month.",u:"https://www.jerseymikes.com"},
+  {id:"firehouse",n:"Firehouse Subs",get:"Free medium sub",how:"Firehouse Rewards with your birthday added. Needs any purchase when you redeem.",u:"https://www.firehousesubs.com"},
+  {id:"bww",n:"Buffalo Wild Wings",get:"Free 6 wings",how:"Blazin' Rewards. No purchase needed. Claim it by ordering in the app for pickup or dine-in.",u:"https://www.buffalowildwings.com"},
+  {id:"redrobin",n:"Red Robin",get:"Free milkshake, or a free burger",how:"Red Robin Royalty. Spend $10 during the year (before your birthday month) to upgrade to the burger.",u:"https://www.redrobin.com"},
+  {id:"cfa",n:"Chick-fil-A",get:"Free cookie or brownie (more choices at higher tiers)",how:"Chick-fil-A One with your birthday in your profile.",u:"https://www.chick-fil-a.com"},
+  {id:"chipotle",n:"Chipotle",get:"Chips plus guac, queso or a drink",how:"Chipotle Rewards with your birthday saved. Good during your birthday month. Points expire after 180 days of no activity.",u:"https://www.chipotle.com"},
+  {id:"qdoba",n:"QDOBA",get:"Free chips and queso",how:"QDOBA Rewards. Gold members get a free entrée instead.",u:"https://www.qdoba.com"},
+  {id:"moes",n:"Moe's Southwest Grill",get:"Free queso or guacamole",how:"Moe Rewards. Needs $10 spent in the past year. Email comes 3 days before; good 14 days after.",u:"https://www.moes.com"},
+  {id:"potbelly",n:"Potbelly",get:"Free cookie or Dream Bar (more at higher levels)",how:"Potbelly Perks with your birthday added.",u:"https://www.potbelly.com"},
+  {id:"jimmyjohns",n:"Jimmy John's",get:"Surprise freebie (changes yearly)",how:"Jimmy John's Rewards with your birthday. Past years were a sandwich, side or dessert. Comes during your birthday month.",u:"https://www.jimmyjohns.com"}
  ]},
- {g:"💄 Beauty",items:[
+ {g:"💄 Beauty & shopping",items:[
   {id:"sephora",n:"Sephora",get:"Free birthday gift set",how:"Beauty Insider. Redeem during your birthday month (or 2 weeks before/after). Free in store; online needs a $25+ order.",u:"https://www.sephora.com"},
-  {id:"ulta",n:"Ulta Beauty",get:"Free birthday gift (pick from a few)",how:"Ulta Rewards with your birthday added before your birthday month. Code comes by email or in the app. Gifts sell out, so go early!",u:"https://www.ulta.com"}
+  {id:"ulta",n:"Ulta Beauty",get:"Free birthday gift, plus 2x points",how:"Ulta Rewards with your birthday added before your birthday month. May need a purchase in the past 12 months. Code comes by email or in the app. Gifts sell out, so go early!",u:"https://www.ulta.com"},
+  {id:"vs",n:"Victoria's Secret",get:"$10 birthday reward",how:"VS & PINK Rewards. Works on regular and sale items, not clearance.",u:"https://www.victoriassecret.com"},
+  {id:"bbw",n:"Bath & Body Works",get:"Free item (up to about $10) with a purchase",how:"My Bath & Body Works Rewards. Once a year, during your birthday window.",u:"https://www.bathandbodyworks.com"}
  ]}
 ];
 const KEY="bb-bday-joined";
