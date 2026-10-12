@@ -122,6 +122,15 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
 .bar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .foot a{color:var(--accent)}
+.search{display:flex;flex-direction:column;gap:8px}
+.search input{width:100%;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:11px 14px;font:inherit;font-size:1rem}
+.search input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.qk{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.qk button{flex:none;border:1px dashed var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:5px 11px;font:inherit;font-size:.82rem;cursor:pointer}
+.qk button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.hits-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:4px 2px 0}
+.hits-h b{font-size:.95rem}
+.hits-h button{border:0;background:none;color:var(--accent);font:inherit;font-size:.85rem;font-weight:600;cursor:pointer}
 </style>
 </head>
 <body>
@@ -151,7 +160,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 <script>
 const $=id=>document.getElementById(id);
 const DAY=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-let data={stores:[],meals:[]},storeFilter="All",tab="deals";
+let data={stores:[],meals:[]},storeFilter="All",tab="deals",q="";
 let list=load();
 
 function load(){try{return JSON.parse(localStorage.getItem("bb-grocery-list")||"[]")}catch(e){return[]}}
@@ -195,11 +204,36 @@ function row(d,showStore){
   r.append(n,p,addBtn(d));return r;
 }
 
+function norm(t){return String(t||"").toLowerCase().replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(Boolean).map(w=>w.length>3&&w.endsWith("es")&&!w.endsWith("ses")?w.slice(0,-2):(w.length>3&&w.endsWith("s")?w.slice(0,-1):w))}
+function matches(d,words){const hay=norm(d.item+" "+(d.notes||"")+" "+(d.cat||"")+" "+(d.coupon||""));return words.every(w=>hay.some(h=>h.startsWith(w)))}
 function renderDeals(){
   const P=$("p-deals");P.innerHTML="";
+  const sb=document.createElement("div");sb.className="search";
+  const inp=document.createElement("input");inp.type="search";inp.placeholder="Search every store: chicken, eggs, butter…";inp.setAttribute("aria-label","Search grocery deals");inp.value=q;inp.autocomplete="off";
+  const qk=document.createElement("div");qk.className="qk";qk.setAttribute("aria-label","Quick searches");
+  ["Chicken","Beef","Pork","Eggs","Butter","Cheese","Coffee","Produce"].forEach(w=>{const b=document.createElement("button");b.type="button";b.textContent=w;b.onclick=()=>{inp.value=w.toLowerCase();q=inp.value;drawResults()};qk.appendChild(b)});
+  sb.append(inp,qk);P.appendChild(sb);
+  const res=document.createElement("div");res.style.display="flex";res.style.flexDirection="column";res.style.gap="14px";P.appendChild(res);
+  let tmr;inp.addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(()=>{q=inp.value;drawResults()},150)});
+  function drawResults(){res.innerHTML="";const words=norm(q);if(words.length)renderHits(res,words);else renderStores(res)}
+  drawResults();
+}
+function renderHits(P,words){
+  const hits=allDeals().filter(d=>(storeFilter==="All"||d.store===storeFilter)&&matches(d,words))
+    .sort((a,b)=>((a.price>0?a.price:9999)-(b.price>0?b.price:9999))||a.store.localeCompare(b.store));
+  const h=document.createElement("div");h.className="hits-h";
+  const b=document.createElement("b");b.textContent=hits.length?hits.length+(hits.length===1?" deal":" deals")+" for \u201c"+q.trim()+"\u201d, cheapest first":"No deals for \u201c"+q.trim()+"\u201d this week";
+  const c=document.createElement("button");c.type="button";c.textContent="Clear";c.onclick=()=>{q="";renderDeals()};
+  h.append(b,c);P.appendChild(h);
+  if(!hits.length){P.insertAdjacentHTML("beforeend",'<div class="empty">Nothing on sale matches that right now. Try a simpler word, like \u201cchicken\u201d instead of \u201cchicken thighs.\u201d</div>');return}
+  const box=document.createElement("article");box.className="store";
+  hits.forEach(d=>box.appendChild(row(d,true)));P.appendChild(box);
+  const n=document.createElement("p");n.className="note";n.textContent="Prices marked /lb are per pound, so compare those to each other.";P.appendChild(n);
+}
+function renderStores(P){
   const stores=dealStores();
   const chips=document.createElement("div");chips.className="chips";chips.setAttribute("role","group");chips.setAttribute("aria-label","Filter by store");
-  ["All",...stores.map(s=>s.name)].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderDeals()};chips.appendChild(b)});
+  ["All",...stores.map(s=>s.name)].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderStores((P.innerHTML="",P))};chips.appendChild(b)});
   P.appendChild(chips);
   for(const s of stores){
     if(storeFilter!=="All"&&s.name!==storeFilter)continue;
