@@ -1,5 +1,5 @@
 {
- "updated": 1791760276966,
+ "updated": 1791799527826,
  "deals": [
   {
    "id": "web-frigidaire-7-5-cu-ft-top-freezer-refrige-20261011",
@@ -233,102 +233,6 @@
    "srcUrl": "https://www.dealnews.com/"
   },
   {
-   "id": "web-bestbuy-beats-studio-pro-20261011",
-   "item": "Beats Studio Pro headphones",
-   "store": "Best Buy",
-   "price": 149,
-   "was": 349,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-sony-wh-1000xm5-20261011",
-   "item": "Sony WH-1000XM5 noise-canceling headphones",
-   "store": "Best Buy",
-   "price": 198,
-   "was": 398,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-bella-pro-coffee-maker-20261011",
-   "item": "Bella Pro 12-cup programmable coffee maker",
-   "store": "Best Buy",
-   "price": 29,
-   "was": 59,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-lenovo-ideapad-slim-3-chromebook-20261011",
-   "item": "Lenovo 14\" IdeaPad Slim 3 Chromebook",
-   "store": "Best Buy",
-   "price": 289,
-   "was": 529,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-hisense-55-u6sf-20261011",
-   "item": "Hisense 55\" U6SF Mini-LED TV",
-   "store": "Best Buy",
-   "price": 449,
-   "was": 749,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-lg-55-c6-oled-20261011",
-   "item": "LG 55\" C6 4K OLED TV",
-   "store": "Best Buy",
-   "price": 1299,
-   "was": 1999,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-hp-victus-15-rtx4050-20261011",
-   "item": "HP Victus 15.6\" gaming laptop (RTX 4050)",
-   "store": "Best Buy",
-   "price": 899,
-   "was": 1474,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
-   "id": "web-bestbuy-hp-omnibook-x-flip-20261011",
-   "item": "HP OmniBook X Flip laptop",
-   "store": "Best Buy",
-   "price": 749,
-   "was": 1199,
-   "notes": "Online. Best Buy Techtober sale, ends tonight (Oct 11). Prices reported Oct 8, so confirm on Best Buy's site.",
-   "at": 1791754965554,
-   "expires": 1791777600000,
-   "src": "Tom's Guide",
-   "srcUrl": "https://www.tomsguide.com/sales-events/best-buy-techtober-sale-lives-on-25-best-deals-on-dell-laptops-lg-oled-tvs-jbl-speakers-and-more"
-  },
-  {
    "id": "web-hd-merryfield-61-vanity-20261011",
    "item": "Merryfield 61\" double-sink vanity, dove grey, marble top",
    "store": "Home Depot",
@@ -527,30 +431,6 @@
    "srcUrl": "https://hip2save.com/deals/lowes-laundry-sale/"
   },
   {
-   "id": "web-walmart-lego-tantive-iv-20261011",
-   "item": "LEGO Star Wars A New Hope Tantive IV",
-   "store": "Walmart",
-   "price": 50,
-   "was": 80,
-   "notes": "Online. Walmart Deals event ends today (Oct 11); some LEGO sets were selling out fast.",
-   "at": 1791703920000,
-   "src": "9to5Toys",
-   "srcUrl": "https://9to5toys.com/2026/10/11/2026-fall-walmart-deals-sale-live-prime-day",
-   "expires": 1791777600000
-  },
-  {
-   "id": "web-walmart-lego-moana-kakamora-20261011",
-   "item": "LEGO Disney Moana Kakamora",
-   "store": "Walmart",
-   "price": 25,
-   "was": 40,
-   "notes": "Online. Walmart Deals event ends today (Oct 11); some LEGO sets were selling out fast.",
-   "at": 1791703920000,
-   "src": "9to5Toys",
-   "srcUrl": "https://9to5toys.com/2026/10/11/2026-fall-walmart-deals-sale-live-prime-day",
-   "expires": 1791777600000
-  },
-  {
    "id": "web-amazon-jumbo-vacuum-bags-9pk-20261011",
    "item": "Jumbo vacuum storage bags, 9-pack",
    "store": "Amazon",
@@ -639,66 +519,6 @@
    "srcUrl": "https://hip2save.com/deals/amazon-finish-jet-dry-dishwasher-rinse-aid/"
   },
   {
-   "id": "web-sams-kitchenaid-frypans-20261011",
-   "item": "KitchenAid 2-piece fry pan set",
-   "store": "Sam's Club",
-   "price": 44.98,
-   "was": 79.98,
-   "notes": "Instant savings for members, today (Oct 11) only; ship or club pickup where available.",
-   "at": 1791722700000,
-   "expires": 1791781140000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/sams-club-instant-savings/"
-  },
-  {
-   "id": "web-sams-zwilling-blender-20261011",
-   "item": "Zwilling Enfinigy 12-speed blender",
-   "store": "Sam's Club",
-   "price": 129.94,
-   "was": 229.94,
-   "notes": "$100 member instant savings, Oct 11 only.",
-   "at": 1791722700000,
-   "expires": 1791781140000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/sams-club-instant-savings/"
-  },
-  {
-   "id": "web-sams-cuisinart-fp-20261011",
-   "item": "Cuisinart 13-cup food processor",
-   "store": "Sam's Club",
-   "price": 139.99,
-   "was": 239.99,
-   "notes": "$100 member instant savings, Oct 11 only.",
-   "at": 1791722700000,
-   "expires": 1791781140000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/sams-club-instant-savings/"
-  },
-  {
-   "id": "web-sams-labrador-statue-20261011",
-   "item": "Member's Mark sitting Labrador statue",
-   "store": "Sam's Club",
-   "price": 29.98,
-   "was": 49.98,
-   "notes": "Outdoor decor statue, $20 instant savings, Oct 11 only.",
-   "at": 1791722700000,
-   "expires": 1791781140000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/sams-club-instant-savings/"
-  },
-  {
-   "id": "web-sams-medicube-pads-20261011",
-   "item": "Medicube Zero Pore Pads 2.0, 70 ct",
-   "store": "Sam's Club",
-   "price": 10.98,
-   "was": 16.98,
-   "notes": "$6 member instant savings, Oct 11 only.",
-   "at": 1791722700000,
-   "expires": 1791781140000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/sams-club-instant-savings/"
-  },
-  {
    "id": "web-woot-taylor-scale-20261011",
    "item": "Taylor smart bathroom scale",
    "store": "Woot",
@@ -719,6 +539,315 @@
    "at": 1791684676966,
    "src": "DealNews",
    "srcUrl": "https://www.dealnews.com/"
+  },
+  {
+   "id": "web-finish-jet-dry-dishwasher-rinse-aid-20261011",
+   "item": "Finish Jet-Dry dishwasher rinse aid",
+   "store": "Amazon",
+   "price": 6,
+   "was": 11,
+   "notes": "Online. From $6 each with Subscribe & Save; ships free.",
+   "at": 1791771300000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-finish-jet-dry-dishwasher-rinse-aid/"
+  },
+  {
+   "id": "web-handheld-clothes-steamer-20261011",
+   "item": "Handheld clothes steamer",
+   "store": "Amazon",
+   "price": 9.99,
+   "was": 30,
+   "notes": "Online. Highly rated handheld steamer, about 67% off.",
+   "at": 1791769500000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-clothes-steamer/"
+  },
+  {
+   "id": "web-maryruth-s-kids-multivitamin-gummies-20261011",
+   "item": "MaryRuth's kids multivitamin gummies",
+   "store": "Amazon",
+   "price": 8.57,
+   "was": 23,
+   "notes": "Online. Ships free.",
+   "at": 1791765900000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/mary-ruths-gummies/"
+  },
+  {
+   "id": "web-wireless-jelly-bras-20261011",
+   "item": "Wireless jelly bras",
+   "store": "Amazon",
+   "price": 8,
+   "was": 25,
+   "notes": "Online. A reader favorite, about 68% off.",
+   "at": 1791764100000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/letsjoli-wireless-jelly-bras/"
+  },
+  {
+   "id": "web-duke-s-smoked-snack-sausages-20261011",
+   "item": "Duke's smoked snack sausages",
+   "store": "Amazon",
+   "price": 5.31,
+   "was": 9,
+   "notes": "Online. Ships free.",
+   "at": 1791753600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-dukes-smoked-shorty-sausages/"
+  },
+  {
+   "id": "web-liquid-chalk-markers-8-pack-20261011",
+   "item": "Liquid chalk markers, 8-pack",
+   "store": "Amazon",
+   "price": 2.39,
+   "was": 7,
+   "notes": "Online. Prime members; ships free.",
+   "at": 1791751800000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/chalk-markers/"
+  },
+  {
+   "id": "web-flexitol-heel-balm-20261011",
+   "item": "Flexitol heel balm",
+   "store": "Amazon",
+   "price": 4.91,
+   "was": 14,
+   "notes": "Online. Ships free.",
+   "at": 1791750600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-flexitol-heel-balm/"
+  },
+  {
+   "id": "web-travel-garment-steamer-20261011",
+   "item": "Travel garment steamer",
+   "store": "Amazon",
+   "price": 12.99,
+   "was": 40,
+   "notes": "Online. Recent price drop; ships free.",
+   "at": 1791749400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-travel-steamer/"
+  },
+  {
+   "id": "web-stackable-closet-organizers-5-pack-20261011",
+   "item": "Stackable closet organizers, 5-pack",
+   "store": "Amazon",
+   "price": 25,
+   "was": 60,
+   "notes": "Online. About 58% off.",
+   "at": 1791735600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/closet-organizers/"
+  },
+  {
+   "id": "web-tweezer-set-with-travel-case-20261011",
+   "item": "Tweezer set with travel case",
+   "store": "Amazon",
+   "price": 4.99,
+   "was": 10,
+   "notes": "Online. Half off.",
+   "at": 1791735300000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/tweezer-set/"
+  },
+  {
+   "id": "web-lite-brite-colorpop-20261011",
+   "item": "Lite-Brite Colorpop",
+   "store": "Amazon",
+   "price": 18.99,
+   "was": 30,
+   "notes": "Online. Good stocking stuffer.",
+   "at": 1791734400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/lite-brite/"
+  },
+  {
+   "id": "web-poppi-soda-12-packs-20261011",
+   "item": "Poppi soda 12-packs",
+   "store": "Amazon",
+   "price": 9,
+   "was": 25,
+   "notes": "Online. From $9 with Subscribe & Save; ships free.",
+   "at": 1791729300000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/poppi-soda/"
+  },
+  {
+   "id": "web-women-s-flower-sweater-20261010",
+   "item": "Women's flower sweater",
+   "store": "Amazon",
+   "price": 12.49,
+   "was": 25,
+   "notes": "Online. Half off; sizes vary.",
+   "at": 1791682200000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-womens-flower-sweater/"
+  },
+  {
+   "id": "web-men-s-3-pocket-athletic-shorts-20261010",
+   "item": "Men's 3-pocket athletic shorts",
+   "store": "Amazon",
+   "price": 9.89,
+   "was": 25,
+   "notes": "Online. About 60% off.",
+   "at": 1791676800000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-mens-shorts/"
+  },
+  {
+   "id": "web-cordless-leaf-blower-set-20261010",
+   "item": "Cordless leaf blower set",
+   "store": "Amazon",
+   "price": 35.99,
+   "was": 101,
+   "notes": "Online. About 64% off, just in time for fall leaves.",
+   "at": 1791674400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-cordless-leaf-blower/"
+  },
+  {
+   "id": "web-christmas-gift-tags-500-count-20261010",
+   "item": "Christmas gift tags, 500 count",
+   "store": "Amazon",
+   "price": 4,
+   "was": 10,
+   "notes": "Online. Stock up for wrapping season.",
+   "at": 1791672600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-christmas-gift-tags/"
+  },
+  {
+   "id": "web-plus-size-satin-tank-tops-20261010",
+   "item": "Plus-size satin tank tops",
+   "store": "Amazon",
+   "price": 4.99,
+   "was": 12,
+   "notes": "Online. About 58% off.",
+   "at": 1791669600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-womens-silk-shirt/"
+  },
+  {
+   "id": "web-no-tip-dog-bowl-20261010",
+   "item": "No-tip dog bowl",
+   "store": "Amazon",
+   "price": 3.54,
+   "was": 10,
+   "notes": "Online. About 65% off.",
+   "at": 1791668700000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-no-tip-dog-bowl/"
+  },
+  {
+   "id": "web-califia-farms-oat-milk-6-pack-20261010",
+   "item": "Califia Farms oat milk, 6-pack",
+   "store": "Amazon",
+   "price": 13.77,
+   "was": 25,
+   "notes": "Online. About 45% off.",
+   "at": 1791667800000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/califia-farms-oat-milk/"
+  },
+  {
+   "id": "web-duck-duct-tape-20261010",
+   "item": "Duck duct tape",
+   "store": "Amazon",
+   "price": 3.5,
+   "was": 6,
+   "notes": "Online. About 42% off.",
+   "at": 1791666000000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/duck-duct-tape/"
+  },
+  {
+   "id": "web-ekouaer-women-s-lounge-set-20261011",
+   "item": "Ekouaer women's lounge set",
+   "store": "Amazon",
+   "price": 14.99,
+   "was": 39.99,
+   "notes": "Online. About 63% off.",
+   "at": 1791727527826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-under-armour-adult-socks-6-pack-20261011",
+   "item": "Under Armour adult socks, 6-pack",
+   "store": "Under Armour",
+   "price": 10.69,
+   "was": 22,
+   "notes": "Online. About half off.",
+   "at": 1791713127826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-under-armour-duffle-bag-20261011",
+   "item": "Under Armour duffle bag",
+   "store": "Under Armour",
+   "price": 28.33,
+   "was": 50,
+   "notes": "Online. About 43% off.",
+   "at": 1791713127826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-under-armour-men-s-shirt-20261011",
+   "item": "Under Armour men's shirt",
+   "store": "Under Armour",
+   "price": 15.73,
+   "was": 28,
+   "notes": "Online. About 44% off; sizes vary.",
+   "at": 1791713127826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-under-armour-kids-pants-20261011",
+   "item": "Under Armour kids' pants",
+   "store": "Under Armour",
+   "price": 18.88,
+   "was": 35,
+   "notes": "Online. About 46% off.",
+   "at": 1791713127826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-under-armour-men-s-joggers-20261011",
+   "item": "Under Armour men's joggers",
+   "store": "Under Armour",
+   "price": 34.63,
+   "was": 59.99,
+   "notes": "Online. About 42% off.",
+   "at": 1791713127826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-adidas-women-s-breaknet-sleek-shoes-20261011",
+   "item": "adidas women's Breaknet Sleek shoes",
+   "store": "Kohl's",
+   "price": 38.97,
+   "was": 59.99,
+   "notes": "Online at Kohls.com, about 35% off.",
+   "at": 1791723927826,
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/deals/online-deals"
+  },
+  {
+   "id": "web-vans-checkerboard-shoes-20261011",
+   "item": "Vans Checkerboard shoes",
+   "store": "Vans",
+   "price": 24.5,
+   "was": 60,
+   "notes": "Online. Extra 30% off applies in cart. Fall sale ends Oct 12.",
+   "at": 1791713127826,
+   "src": "DealNews",
+   "srcUrl": "https://www.dealnews.com/f1682/Staff-Pick/",
+   "expires": 1791863940000
   }
  ]
 }
