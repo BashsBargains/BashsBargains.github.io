@@ -60,6 +60,9 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .note{margin:0;font-size:.85rem;color:var(--muted)}
 .links{display:flex;gap:14px;flex-wrap:wrap;font-size:.88rem}
 .links a{color:var(--accent);font-weight:600}
+.stale{margin:0;font-size:.85rem;font-weight:600;color:#9a5b00}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .stale{color:#f2b45a}}
+:root[data-theme="dark"] .stale{color:#f2b45a}
 .src{margin:0;font-size:.78rem;color:var(--muted)}
 .src a{color:var(--muted)}
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
@@ -146,6 +149,7 @@ function render(){
     c.appendChild(el("p","when",s.whenText));
     var ul=el("ul","deals");s.deals.forEach(function(d){ul.appendChild(el("li",null,d))});c.appendChild(ul);
     if(s.note)c.appendChild(el("p","note",s.note));
+    if(s.checked){var age=(Date.now()-new Date(s.checked+"T12:00:00").getTime())/864e5;if(age>75){var w=el("p","stale","\u26a0\ufe0f Not re-confirmed in a while. Call ahead before you go.");c.appendChild(w)}}
     var links=el("div","links"),m=el("a",null,"Directions →");m.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+" "+s.addr+" "+(s.area==="Philadelphia"?"Philadelphia, PA":s.area+", DE"));m.target="_blank";m.rel="noopener";links.appendChild(m);c.appendChild(links);
     var src=el("p","src");src.appendChild(document.createTextNode((s.official?"From their own page":"Source: ")));if(!s.official){var a=el("a",null,s.src+" ("+s.srcDate+")");a.href=s.srcUrl;a.target="_blank";a.rel="noopener";src.appendChild(a)}else{src.appendChild(document.createTextNode(" · "));var a2=el("a",null,"view menu");a2.href=s.srcUrl;a2.target="_blank";a2.rel="noopener";src.appendChild(a2)}
     var ck=s.checked?new Date(s.checked+"T12:00:00"):null;if(ck)src.appendChild(document.createTextNode(" · checked "+ck.toLocaleDateString("en-US",{month:"short",day:"numeric"})));
