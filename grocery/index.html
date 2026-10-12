@@ -5,6 +5,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Grocery Deals &amp; Meals · Bash's Bargains</title>
 <meta name="description" content="This week's best grocery prices around Delaware, stock-up prices, meal ideas and a shopping list. Free.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
+<meta property="og:title" content="Grocery Deals &amp; Meals · Bash's Bargains">
+<meta property="og:description" content="This week's best grocery prices around Delaware, stock-up prices, meal ideas and a shopping list. Free.">
+<meta property="og:url" content="https://bashsbargains.github.io/grocery/">
+<meta property="og:image" content="https://bashsbargains.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
 /* Layout: one narrow column; sticky tab bar (Deals / Stock-up / Meals / My list); store sections of price-tag rows */
@@ -92,13 +104,20 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:.85rem;z-index:5}
 @media (max-width:380px){.links{grid-template-columns:1fr}.tab{font-size:.8rem}}
 @media (prefers-reduced-motion:no-preference){.add,.tab,.chip{transition:background .15s,color .15s}}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
+.bar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <a class="home" href="/">← Bash's Bargains home</a><br>
-    <span class="sticker">Bash those prices</span>
+    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/" aria-current="page">Grocery</a></nav></div>
     <h1>Grocery Deals &amp; Meals</h1>
     <p>This week's best grocery prices around Delaware, what's worth stocking up on, and cheap meals built from the sales. Updated twice a week.</p>
   </header>

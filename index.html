@@ -4,77 +4,195 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Bash's Bargains</title>
-<meta name="description" content="Free clearance and grocery deals, updated daily. No sign-up, no paying to unlock anything.">
+<meta name="description" content="Free clearance finds, price drops and Delaware-area grocery deals, rounded up every day. No sign-up, no paywall.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
 <meta property="og:title" content="Bash's Bargains">
-<meta property="og:description" content="Free clearance and grocery deals, updated daily. No sign-up, no paywall.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<meta property="og:description" content="Free clearance finds, price drops and Delaware-area grocery deals, rounded up every day. No sign-up, no paywall.">
+<meta property="og:url" content="https://bashsbargains.github.io/">
+<meta property="og:image" content="https://bashsbargains.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bash's Bargains: free deals, updated daily">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
+/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, then a till receipt of what's free */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
-  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --good:#1c7a46;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
   --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
-  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --receipt:#1d2230; color-scheme:dark}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
-.wrap{max-width:640px;margin:0 auto;padding:28px 16px 48px;display:flex;flex-direction:column;gap:20px}
-.sticker{display:inline-block;background:var(--tag);color:var(--tag-ink);font-family:var(--mono);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;transform:rotate(-2deg);margin-bottom:8px}
-h1{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;margin:0;text-wrap:balance}
-header p{margin:10px 0 0;color:var(--muted);font-size:1.02rem;max-width:34em}
-.sections{display:flex;flex-direction:column;gap:12px}
-.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;text-decoration:none;color:inherit;position:relative}
-a.card:hover{border-color:var(--accent)}
-a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.card h2{font-family:var(--display);font-weight:800;font-size:1.35rem;line-height:1.1;margin:0 0 6px}
-.card p{margin:0;color:var(--muted)}
-.card .go{display:inline-block;margin-top:12px;font-weight:600;color:var(--accent)}
-.stat{display:inline-block;margin-top:12px;font-family:var(--mono);font-size:.8rem;background:var(--tag);color:var(--tag-ink);padding:2px 8px;border-radius:4px}
-.stat:empty{display:none}
-.card.soon{opacity:.75}
-.badge{position:absolute;top:14px;right:14px;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);color:var(--muted);padding:2px 7px;border-radius:999px}
-.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:inherit}
+.wrap{max-width:880px;margin:0 auto;padding-inline:16px;padding-block:24px 56px;display:flex;flex-direction:column;gap:32px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* brand bar */
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.05rem}
+.mark img{width:30px;height:30px}
+.bar nav{display:flex;gap:16px;font-size:.9rem;font-weight:500}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{position:relative;padding-top:8px}
+.eyebrow{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem);line-height:.86;letter-spacing:-.035em;margin:0;max-width:7.5ch}
+.lede{font-size:1.1rem;color:var(--muted);max-width:34em;margin:18px 0 0}
+.lede b{color:var(--ink);font-weight:600}
+.sticker{position:absolute;right:4px;top:6px;width:clamp(116px,30vw,168px);aspect-ratio:1;max-width:100%;border-radius:50%;background:var(--tag);color:var(--tag-ink);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg);box-shadow:0 2px 0 rgba(0,0,0,.08),0 10px 24px -12px rgba(24,33,58,.45);text-align:center;font-family:var(--mono);font-weight:600;line-height:1.05}
+.sticker::before{content:"";position:absolute;inset:7px;border:2px dashed currentColor;border-radius:50%;opacity:.35}
+.sticker .was{font-size:clamp(.72rem,2.6vw,.9rem);letter-spacing:.04em}
+.sticker .was s{text-decoration-color:var(--hot);text-decoration-thickness:3px}
+.sticker .now{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,8vw,2.9rem);letter-spacing:-.02em;margin-top:2px}
+.sticker .tiny{font-size:clamp(.6rem,2.1vw,.72rem);letter-spacing:.12em;text-transform:uppercase;margin-top:4px}
+@media (prefers-reduced-motion:no-preference){
+  .sticker{animation:slap .5s cubic-bezier(.2,1.6,.4,1) .15s both}
+  @keyframes slap{from{transform:rotate(24deg) scale(1.25)}to{transform:rotate(12deg) scale(1)}}
+}
+
+/* sections */
+.sections{display:grid;grid-template-columns:1fr;gap:18px}
+@media (min-width:720px){.sections{grid-template-columns:1fr 1fr}}
+.go{text-decoration:none;display:flex;flex-direction:column;min-width:0}
+.go:hover .cta{text-decoration:underline}
+
+/* hang tag */
+.tagcard{position:relative;background:var(--card);border:1.5px solid var(--ink);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;height:100%}
+.tagcard .band{background:var(--tag);color:var(--tag-ink);border-bottom:1.5px solid var(--ink);padding:10px 16px;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}
+.hole{width:16px;height:16px;border-radius:50%;background:var(--bg);border:1.5px solid var(--ink)}
+.inner{padding:16px 16px 18px;display:flex;flex-direction:column;gap:10px;flex:1}
+.inner h2{font-family:var(--display);font-weight:800;font-size:1.65rem;line-height:1.05;margin:0;letter-spacing:-.01em}
+.inner p{margin:0;color:var(--muted);font-size:.95rem}
+.big{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-family:var(--mono)}
+.big strong{font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big span{font-size:.82rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-size:.75rem;font-weight:500;border:1px solid var(--line);border-radius:999px;padding:3px 9px;color:var(--muted)}
+.cta{margin-top:auto;padding-top:6px;font-weight:600;color:var(--accent)}
+
+/* coupon */
+.coupon{position:relative;background:var(--card);border:2px dashed var(--ink);border-radius:16px;display:flex;flex-direction:column;height:100%}
+.coupon .scissors{position:absolute;top:-14px;left:22px;background:var(--bg);padding:0 6px;font-size:1.1rem;line-height:1;color:var(--ink)}
+.coupon .band{padding:14px 16px 0;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.coupon .stamp{color:var(--hot);border:1.5px solid currentColor;border-radius:4px;padding:1px 6px;transform:rotate(-4deg);letter-spacing:.08em}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.stat{background:var(--bg);border-radius:10px;padding:8px 10px}
+.stat strong{display:block;font-family:var(--display);font-weight:800;font-size:1.5rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:.78rem;color:var(--muted)}
+
+/* receipt */
+.receipt{align-self:center;width:100%;max-width:420px;background:var(--receipt);color:var(--ink);font-family:var(--mono);font-size:.82rem;padding:20px 18px 26px;box-shadow:0 1px 0 var(--line),0 12px 28px -18px rgba(24,33,58,.5);
+  -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 10px) no-repeat,conic-gradient(from 135deg at 50% 0,#000 90deg,#0000 0) bottom/16px 10px repeat-x;
+          mask:linear-gradient(#000 0 0) top/100% calc(100% - 10px) no-repeat,conic-gradient(from 135deg at 50% 0,#000 90deg,#0000 0) bottom/16px 10px repeat-x}
+.receipt h2{font-family:var(--mono);font-size:.95rem;font-weight:600;text-align:center;letter-spacing:.18em;margin:0}
+.receipt .sub{text-align:center;color:var(--muted);margin:2px 0 0;font-size:.75rem;letter-spacing:.06em}
+.receipt hr{border:0;border-top:1.5px dashed var(--muted);opacity:.6;margin:12px 0}
+.ln{display:flex;gap:6px;align-items:baseline;margin:5px 0;text-transform:uppercase}
+.ln .dots{flex:1;border-bottom:1.5px dotted var(--muted);opacity:.6;transform:translateY(-4px);min-width:12px}
+.ln .v{white-space:nowrap}
+.ln.total{font-weight:600;font-size:1rem}
+.ln.total .v{background:var(--tag);color:var(--tag-ink);padding:0 6px}
+.thanks{text-align:center;color:var(--muted);margin:14px 0 0;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}
+
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
+@media (max-width:420px){.sticker{right:-2px;top:-4px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <span class="sticker">Bash those prices</span>
+  <div class="bar">
+    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a></nav>
+  </div>
+
+  <header class="hero">
+    <p class="eyebrow">Bash those prices</p>
     <h1>Bash's Bargains</h1>
-    <p>Free deals, rounded up for you. No sign-up, no paying to unlock anything.</p>
+    <div class="sticker" aria-label="Was expensive, now free">
+      <span class="was">WAS <s>$$$</s></span>
+      <span class="now">FREE</span>
+      <span class="tiny">every day</span>
+    </div>
+    <p class="lede">Clearance finds and price drops from the big stores, plus this week's <b>Delaware-area grocery deals</b>, rounded up for you every day. No sign-up. No paywall.</p>
   </header>
 
-  <nav class="sections" aria-label="Deal sections">
-    <a class="card" href="/deals/">
-      <h2>Clearance Deals</h2>
-      <p>Online clearance, hidden markdowns and price drops from Home Depot, Lowe's, Walmart, Target, Amazon, Costco, BJ's, Sam's Club and more. Updated every morning.</p>
-      <span class="stat" id="dealStat"></span><br>
-      <span class="go">See today's deals →</span>
+  <section class="sections" aria-label="Deal sections">
+    <a class="go" href="/deals/">
+      <article class="tagcard">
+        <div class="band"><span>Clearance · updated daily</span><span class="hole" aria-hidden="true"></span></div>
+        <div class="inner">
+          <h2>Clearance Deals</h2>
+          <div class="big"><strong id="dealN">–</strong><span id="dealSub">fresh deals</span></div>
+          <p>Hidden markdowns, price errors and clearance from the stores you already shop.</p>
+          <div class="chips" id="dealStores"><span>Home Depot</span><span>Lowe's</span><span>Walmart</span><span>Target</span><span>Amazon</span><span>Costco</span><span>BJ's</span><span>Sam's Club</span></div>
+          <span class="cta">See today's deals →</span>
+        </div>
+      </article>
     </a>
 
-    <a class="card" href="/grocery/">
-      <span class="badge">New</span>
-      <h2>Grocery Deals &amp; Meals</h2>
-      <p>The best prices from this week's Delaware-area grocery ads, stock-up prices, cheap meal ideas built around the sales, and a shopping list. Updated twice a week.</p>
-      <span class="go">See this week's groceries →</span>
+    <a class="go" href="/grocery/">
+      <article class="coupon">
+        <span class="scissors" aria-hidden="true">✂</span>
+        <div class="band"><span>Grocery · Sun &amp; Wed</span><span class="stamp">New</span></div>
+        <div class="inner">
+          <h2>Grocery Deals &amp; Meals</h2>
+          <div class="stats">
+            <div class="stat"><strong id="gStores">–</strong><span>stores with prices</span></div>
+            <div class="stat"><strong id="gMeals">–</strong><span>dinners this week</span></div>
+          </div>
+          <p>The best prices from this week's ads, stock-up staples, seasoned-right meal ideas and a shopping list for your phone.</p>
+          <span class="cta">See this week's groceries →</span>
+        </div>
+      </article>
     </a>
-  </nav>
+  </section>
 
-  <p class="foot">Prices change fast and can differ by ZIP code. Always open the source and confirm the price before you buy.<br>Deals gathered daily with help from AI.</p>
+  <section class="receipt" aria-label="What you get">
+    <h2>BASH'S BARGAINS</h2>
+    <p class="sub">DELAWARE · PHILLY · ONLINE</p>
+    <hr>
+    <div class="ln"><span>Clearance deals</span><span class="dots"></span><span class="v">every morning</span></div>
+    <div class="ln"><span>Grocery ads</span><span class="dots"></span><span class="v">Sun + Wed</span></div>
+    <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
+    <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
+    <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
+    <hr>
+    <div class="ln total"><span>You pay</span><span class="dots"></span><span class="v">$0.00</span></div>
+    <p class="thanks">Thank you for shopping smart</p>
+  </section>
+
+  <p class="foot">Prices change fast and can differ by store and ZIP code. Always open the source and confirm the price before you buy. Deals gathered daily with help from AI.</p>
 </div>
 <script>
 function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const d=Math.round(h/24);return d+(d===1?" day ago":" days ago");}
 fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(!j||!Array.isArray(j.deals))return;
   const now=Date.now(),cut=now-48*3600*1000;
-  const n=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now)).length;
-  if(n)document.getElementById("dealStat").textContent=n+" fresh deals"+(j.updated?" · updated "+ago(j.updated):"");
+  const fresh=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now));
+  document.getElementById("dealN").textContent=fresh.length;
+  document.getElementById("dealSub").textContent="fresh deals"+(j.updated?" · updated "+ago(j.updated):"");
+}).catch(()=>{});
+fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!Array.isArray(j.stores))return;
+  const t=new Date(),today=t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+  const live=j.stores.filter(s=>s.kind==="deals"&&!(s.adEnd&&s.adEnd<today));
+  document.getElementById("gStores").textContent=live.length;
+  document.getElementById("gMeals").textContent=(j.meals||[]).length;
 }).catch(()=>{});
 </script>
 </body>
