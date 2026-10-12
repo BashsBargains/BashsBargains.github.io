@@ -1,0 +1,20 @@
+{
+ "name": "Bash's Bargains",
+ "short_name": "Bash's Bargains",
+ "description": "Free clearance finds, grocery deals, coupon matchups and Black Friday deals for Delaware, Philly and online.",
+ "start_url": "/?source=homescreen",
+ "scope": "/",
+ "display": "standalone",
+ "background_color": "#f3f4f7",
+ "theme_color": "#f7d64a",
+ "icons": [
+  {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+  {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"},
+  {"src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+ ],
+ "shortcuts": [
+  {"name": "Clearance", "url": "/deals/"},
+  {"name": "Grocery", "url": "/grocery/"},
+  {"name": "Coupons", "url": "/coupons/"}
+ ]
+}

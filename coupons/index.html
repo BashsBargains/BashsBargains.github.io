@@ -7,6 +7,11 @@
 <meta name="description" content="Free and under-$1 coupon matchups at CVS, Walgreens, Walmart, Target and Delaware-area grocery stores. Sale + coupon + rewards + rebates, worked out for you.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bash's Bargains">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#f7d64a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Bash's Bargains">
@@ -89,6 +94,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.5rem,12vw,3.8rem
 .m-foot{padding:9px 14px 11px;background:var(--bg);font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:3px 12px}
 .m-foot b{color:var(--ink);font-weight:600}
 .m-foot a{color:var(--accent)}
+.srcs{flex-basis:100%}
+.ok{display:block;font-family:var(--mono);font-size:.66rem;font-weight:600;color:var(--good);margin-top:6px;white-space:nowrap}
 .empty{text-align:center;color:var(--muted);padding:26px 14px;border:1px dashed var(--line);border-radius:12px}
 
 h2.sec{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:12px 0 0}
@@ -120,7 +127,7 @@ details ul{padding-left:18px}
     <span class="stamp">Stack it</span>
     <p class="eyebrow">The coupon hunt</p>
     <h1>Coupon Matchups</h1>
-    <p>CVS and Walgreens drugstore deals plus grocery store matchups. Toothpaste, laundry detergent, paper towels, snacks: sale + coupon + rewards + rebate apps, all worked out for you.</p>
+    <p>CVS and Walgreens drugstore deals plus ShopRite, Walmart and Target matchups. Toothpaste, laundry detergent, paper towels, snacks: sale + coupon + rewards + rebate apps, all worked out for you.</p>
     <div class="tally">
       <div class="t best"><strong id="best">–</strong><span id="bestLbl">best find this week</span></div>
       <div class="t"><strong id="under1">–</strong><span>under $1 each</span></div>
@@ -154,7 +161,7 @@ details ul{padding-left:18px}
       <li>Keep your receipt until the rebate app pays out.</li>
     </ul></details>
 
-  <p class="foot">Matchups are worked out from public couponing write-ups and can change or sell out. Always check the price in the store app before you buy. Gathered with help from AI. <span id="upd"></span></p>
+  <p class="foot">Matchups are worked out from public couponing sites (The Krazy Coupon Lady, I Heart CVS, I Heart Wags, Hip2Save, Living Rich With Coupons and others), cross-checked where possible. Deals can change or sell out. Always check the price in the store app before you buy. Gathered with help from AI. <span id="upd"></span></p>
 </div>
 <script>
 const $=id=>document.getElementById(id);
@@ -205,7 +212,10 @@ function render(){
     if(m.ends){const e=local(m.ends);const x=document.createElement("span");x.textContent="Ends "+DAY[e.getDay()]+" "+(e.getMonth()+1)+"/"+e.getDate();ft.appendChild(x)}
     else if(m.checked){const e=local(m.checked);const x=document.createElement("span");x.textContent="No end date listed · checked "+(e.getMonth()+1)+"/"+e.getDate();ft.appendChild(x)}
     if(m.limit){const x=document.createElement("span");x.textContent=m.limit;ft.appendChild(x)}
-    if(safe(m.srcUrl)){const a=document.createElement("a");a.href=m.srcUrl;a.target="_blank";a.rel="noopener";a.textContent="Source"+(m.src?": "+m.src:"");ft.appendChild(a)}
+    const srcs=[{src:m.src,srcUrl:m.srcUrl},...(Array.isArray(m.also)?m.also:[])].filter(x=>safe(x.srcUrl));
+    if(srcs.length){const w=document.createElement("span");w.className="srcs";w.append(srcs.length>1?"Checked on "+srcs.length+" sites: ":"Source: ");
+      srcs.forEach((x,i)=>{if(i)w.append(" · ");const a=document.createElement("a");a.href=x.srcUrl;a.target="_blank";a.rel="noopener";a.textContent=x.src||"link";w.appendChild(a)});ft.appendChild(w)}
+    if(srcs.length>1){const v=document.createElement("span");v.className="ok";v.textContent="✓ Double-checked";f.appendChild(v)}
     el.appendChild(ft);feed.appendChild(el);
   }
 }
@@ -222,5 +232,6 @@ fetch("coupons.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json
   if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
 }).catch(()=>{$("feed").innerHTML='<div class="empty">This page couldn\'t load. Reload to try again.</div>'});
 </script>
+<script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
 </body>
 </html>

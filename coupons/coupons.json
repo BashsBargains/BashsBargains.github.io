@@ -1,5 +1,5 @@
 {
- "updated": 1791784800000,
+ "updated": 1791780127741,
  "matchups": [
   {
    "id": "cvs-colgate-optic-white",
@@ -27,7 +27,17 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Personal care"
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+    }
+   ]
   },
   {
    "id": "cvs-hello-toothpaste",
@@ -55,7 +65,13 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Personal care"
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    }
+   ]
   },
   {
    "id": "cvs-poise-pads",
@@ -63,12 +79,12 @@
    "kind": "drugstore",
    "item": "Poise Ultra Thin pads, 26 ct",
    "buy": 2,
-   "pay": 7.98,
-   "final": 0.99,
+   "pay": 8.58,
+   "final": 1.29,
    "steps": [
     {
      "t": "sale",
-     "x": "$7.49 each, buy 2"
+     "x": "About $7.49–$7.79 each depending on store, buy 2"
     },
     {
      "t": "coupon",
@@ -81,9 +97,19 @@
    ],
    "limit": "ExtraBucks deal limit 1 per week",
    "ends": "2026-10-17",
-   "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Personal care"
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/",
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "The Krazy Coupon Lady",
+     "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+    },
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    }
+   ]
   },
   {
    "id": "cvs-ajax-dish-soap",
@@ -133,7 +159,17 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Food"
+   "cat": "Food",
+   "also": [
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+    }
+   ]
   },
   {
    "id": "cvs-degree-ultraclear",
@@ -184,7 +220,17 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Food"
+   "cat": "Food",
+   "also": [
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+    }
+   ]
   },
   {
    "id": "cvs-capn-crunch",
@@ -203,35 +249,13 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Food"
-  },
-  {
-   "id": "cvs-maybelline",
-   "store": "CVS",
-   "kind": "drugstore",
-   "item": "Maybelline mascara + eyeshadow",
-   "buy": 2,
-   "pay": 9.38,
-   "final": 2.19,
-   "steps": [
+   "cat": "Food",
+   "also": [
     {
-     "t": "sale",
-     "x": "Mascara $8.59 + eyeshadow $4.79"
-    },
-    {
-     "t": "coupon",
-     "x": "$4 off 1 Maybelline (CVS app)"
-    },
-    {
-     "t": "rewards",
-     "x": "Buy 2, get $5 ExtraBucks back"
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
     }
-   ],
-   "limit": "ExtraBucks deal limit 1 per week",
-   "ends": "2026-10-24",
-   "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
-   "cat": "Beauty"
+   ]
   },
   {
    "id": "wag-neutrogena-wipes",
@@ -277,7 +301,13 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Paper & kitchen"
+   "cat": "Paper & kitchen",
+   "also": [
+    {
+     "src": "I Heart Wags",
+     "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    }
+   ]
   },
   {
    "id": "wag-listerine-packets",
@@ -300,7 +330,13 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Personal care"
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "I Heart Wags",
+     "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    }
+   ]
   },
   {
    "id": "wag-crest-outlast",
@@ -369,7 +405,13 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Paper & kitchen"
+   "cat": "Paper & kitchen",
+   "also": [
+    {
+     "src": "I Heart Wags",
+     "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    }
+   ]
   },
   {
    "id": "wag-tide-oxi-boost",
@@ -772,7 +814,13 @@
    "limit": "ExtraBucks deal limit 1 per week",
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad",
+   "also": [
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    }
+   ]
   },
   {
    "id": "cvs-charmin-bounty-dawn",
@@ -805,6 +853,417 @@
    "ends": "2026-10-24",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-maybelline-eyeshadow",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Beauty",
+   "item": "Maybelline Expert Wear eyeshadow",
+   "buy": 2,
+   "pay": 5.58,
+   "final": 0.29,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.79 each, buy 2"
+    },
+    {
+     "t": "coupon",
+     "x": "$4 off Maybelline (CVS app)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 ExtraBucks back"
+    }
+   ],
+   "limit": "ExtraBucks deal limit 1 per week",
+   "ends": "2026-10-17",
+   "also": [
+    {
+     "src": "The Krazy Coupon Lady",
+     "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+    },
+    {
+     "src": "I Heart CVS",
+     "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    }
+   ],
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+  },
+  {
+   "id": "cvs-tums-8",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Tums chewable tablets, 8 ct",
+   "buy": 2,
+   "pay": 7.38,
+   "final": 1.19,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$3.69 each, buy 2"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 ExtraBucks back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+  },
+  {
+   "id": "cvs-loreal-kohl",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Beauty",
+   "item": "L'Oréal Paris Kohl eyeliner pencil",
+   "buy": 2,
+   "pay": 9.98,
+   "final": 1.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$7.99 each, buy 2"
+    },
+    {
+     "t": "coupon",
+     "x": "$3 off manufacturer coupon + $3 off CVS app coupon"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $6 ExtraBucks back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
+  },
+  {
+   "id": "cvs-kleenex",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Paper & kitchen",
+   "item": "Kleenex tissues",
+   "buy": 10,
+   "pay": 20.0,
+   "final": 1.0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "2 for $4, buy 10 ($20)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $10 ExtraBucks back"
+    }
+   ],
+   "ends": "2026-10-24",
+   "src": "I Heart CVS",
+   "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+  },
+  {
+   "id": "cvs-elvive",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "L'Oréal Elvive shampoo or conditioner, 12.6 oz",
+   "buy": 2,
+   "pay": 7.98,
+   "final": 2.49,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5.49 each, buy 2"
+    },
+    {
+     "t": "coupon",
+     "x": "$3 off 2 (CVS app)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $3 ExtraBucks back"
+    }
+   ],
+   "ends": "2026-10-24",
+   "also": [
+    {
+     "src": "The Krazy Coupon Lady",
+     "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+    }
+   ],
+   "src": "I Heart CVS",
+   "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+  },
+  {
+   "id": "wag-pg-laundry",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Tide, Gain, Downy or Bounce (select sizes)",
+   "buy": 4,
+   "pay": 19.96,
+   "final": 3.74,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.99 each, buy 4"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 in rewards back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "I Heart Wags",
+   "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+  },
+  {
+   "id": "sr-polar-seltzer",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Polar seltzer, 1 liter",
+   "buy": 12,
+   "pay": 8.0,
+   "final": 0.67,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "12 for $10"
+    },
+    {
+     "t": "coupon",
+     "x": "$2 off 12 (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 offers; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-avocados",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Hass avocados",
+   "buy": 4,
+   "pay": 3.0,
+   "final": 0.75,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.09 each, buy 4"
+    },
+    {
+     "t": "coupon",
+     "x": "$1.36 off 4 (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 1 offer; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-smartwater",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Smartwater, 1 liter",
+   "buy": 12,
+   "pay": 10.0,
+   "final": 0.83,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "12 for $16"
+    },
+    {
+     "t": "coupon",
+     "x": "$6 off 12 (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 1 offer; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-broccoli",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Broccoli crowns, per lb",
+   "buy": 1,
+   "pay": 0.88,
+   "final": 0.88,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.79/lb"
+    },
+    {
+     "t": "coupon",
+     "x": "$0.91 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 lbs; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-totinos",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Totino's Pizza Rolls, 7.5 oz",
+   "buy": 1,
+   "pay": 0.99,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.99"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 1 offer; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-kodiak-cups",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Kodiak muffin mix cup",
+   "buy": 1,
+   "pay": 0.99,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.49"
+    },
+    {
+     "t": "coupon",
+     "x": "$0.50 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 offers; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-cream-cheese",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Bowl & Basket bar cream cheese, 8 oz",
+   "buy": 1,
+   "pay": 0.99,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.49"
+    },
+    {
+     "t": "coupon",
+     "x": "$0.50 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 offers; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-honeycrisp",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Honeycrisp apples, per lb",
+   "buy": 1,
+   "pay": 0.99,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.99/lb"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 lbs; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-progresso-broth",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Progresso broth, 32 oz",
+   "buy": 3,
+   "pay": 5.0,
+   "final": 1.16,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "3 for $6"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 off 3 (ShopRite eCoupon)"
+    },
+    {
+     "t": "rebate",
+     "x": "$0.50 back each on Fetch (offer varies)"
+    }
+   ],
+   "limit": "Limit 4 offers; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "sr-ajax",
+   "store": "ShopRite",
+   "kind": "grocery",
+   "cat": "Laundry & cleaning",
+   "item": "Ajax dish soap, 28 oz",
+   "buy": 1,
+   "pay": 1.79,
+   "final": 1.79,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$2.79"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 off (ShopRite eCoupon)"
+    }
+   ],
+   "limit": "Limit 4 offers; Price Plus card required",
+   "ends": "2026-10-17",
+   "src": "Living Rich With Coupons",
+   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
   }
  ],
  "clip": [

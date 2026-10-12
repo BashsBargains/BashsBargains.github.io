@@ -7,6 +7,11 @@
 <meta name="description" content="This week's best grocery prices around Delaware, stock-up prices, meal ideas and a shopping list. Free.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bash's Bargains">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#f7d64a">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Bash's Bargains">
@@ -312,5 +317,6 @@ fetch("grocery.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json
   show(["deals","stockup","meals","list"].includes(start)?start:"deals");
 }).catch(()=>{$("p-deals").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';document.querySelector('[data-tab="deals"]').setAttribute("aria-selected","true");if(start==="list")show("list")});
 </script>
+<script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
 </body>
 </html>
