@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style>
-/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, then a till receipt of what's included */
+/* Layout: big sticker-slapped hero, then a hang tag (clearance) and a clipped coupon (grocery) side by side on wide screens, the Black Friday panel below them, then a till receipt of what's included */
 :root{
   --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
   --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --receipt:#fbfbf8; --panel:#18213a; --panel-ink:#f3f4f7;
@@ -148,18 +148,6 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
   </header>
 
   <section class="sections" aria-label="Deal sections">
-    <a class="go wide" href="/holiday/">
-      <article class="doorbuster">
-        <div class="db-l">
-          <span class="db-eyebrow">Holiday deal hub</span>
-          <h2>Black Friday 2026</h2>
-          <p>Sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more.</p>
-          <span class="cta">Plan your Black Friday →</span>
-        </div>
-        <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
-      </article>
-    </a>
-
     <a class="go" href="/deals/">
       <article class="tagcard">
         <div class="band"><span>Clearance · updated daily</span><span class="hole" aria-hidden="true"></span></div>
@@ -188,6 +176,18 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
         </div>
       </article>
     </a>
+
+    <a class="go wide" href="/holiday/">
+      <article class="doorbuster">
+        <div class="db-l">
+          <span class="db-eyebrow">Holiday deal hub</span>
+          <h2>Black Friday 2026</h2>
+          <p>Sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more.</p>
+          <span class="cta">Plan your Black Friday →</span>
+        </div>
+        <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
+      </article>
+    </a>
   </section>
 
   <section class="receipt" aria-label="What you get">
@@ -197,8 +197,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
     <div class="ln"><span>Clearance deals</span><span class="dots"></span><span class="v">every morning</span></div>
     <div class="ln"><span>Grocery ads</span><span class="dots"></span><span class="v">Sun + Wed</span></div>
     <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
-    <div class="ln"><span>Black Friday hub</span><span class="dots"></span><span class="v">thru Cyber Mon</span></div>
     <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
+    <div class="ln"><span>Black Friday hub</span><span class="dots"></span><span class="v">thru Cyber Mon</span></div>
     <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
     <hr>
     <div class="ln total"><span>You pay</span><span class="dots"></span><span class="v">$0.00</span></div>
