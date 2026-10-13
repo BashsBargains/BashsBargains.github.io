@@ -131,6 +131,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .hits-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin:4px 2px 0}
 .hits-h b{font-size:.95rem}
 .hits-h button{border:0;background:none;color:var(--accent);font:inherit;font-size:.85rem;font-weight:600;cursor:pointer}
+.disclaim{font-size:.8rem;color:var(--muted);margin:0;padding-left:10px;border-left:3px solid var(--tag)}
 </style>
 </head>
 <body>
@@ -310,6 +311,7 @@ function renderMeals(){
 
 function renderList(){
   const P=$("p-list");P.innerHTML="";
+  {const n=document.createElement("p");n.className="disclaim";n.textContent="Your list stays on this phone only. Clearing your browser history or switching phones erases it, since there's no sign-up.";P.appendChild(n)}
   if(!list.length){P.innerHTML='<div class="empty">Your list is empty. Tap “+ List” on any deal, or add a whole meal from the Meals tab.</div>';return}
   const stores=[...new Set(list.map(x=>x.store))];
   for(const s of stores){
