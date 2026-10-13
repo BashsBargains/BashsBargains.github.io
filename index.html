@@ -366,7 +366,7 @@ function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max
 fetch("/deals/deals.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
   if(!j||!Array.isArray(j.deals))return;
   const now=Date.now(),cut=now-48*3600*1000;
-  const fresh=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now));
+  const fresh=j.deals.filter(d=>(d.at||0)>=cut&&!(d.expires&&d.expires<=now)&&String(d.store||"").toLowerCase()!=="woot");
   document.getElementById("dealN").textContent=fresh.length;
   if(fresh.length){document.getElementById("stTop").textContent="Today's";document.getElementById("stNum").textContent=fresh.length;
     document.getElementById("stBot").textContent="free deals";document.getElementById("sticker").setAttribute("aria-label",fresh.length+" free deals today. See them")}
