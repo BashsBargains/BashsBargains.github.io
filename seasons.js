@@ -6,8 +6,8 @@
    and stay still for anyone whose phone is set to reduce motion. */
 (function(){
   var d=new Date(),m=d.getMonth()+1,day=d.getDate(),md=m*100+day;
-  var s=md>=922&&md<=1130?"fall":(m===12||m<=2)?"winter":(m===3||m===4)?"spring":m===5?"may":"summer";
-  var h=(location.hash.match(/^#season-(fall|winter|spring|may|summer)$/)||[])[1];if(h)s=h;
+  var s=(md>=1025&&md<=1031)?"rcweek":(md>=506&&md<=512)?"nurses":md>=922&&md<=1130?"fall":(m===12||m<=2)?"winter":(m===3||m===4)?"spring":m===5?"may":"summer";
+  var h=(location.hash.match(/^#season-(fall|winter|spring|may|summer|rcweek|nurses)$/)||[])[1];if(h)s=h;
 
   var P={
     maple:"M12 2l1.6 3.6 2.6-1.2-.6 3.6 3.4-1-1.4 3.4 2.8 1.2-3.6 1.6.8 2.4-3.4-.8-.8 3.2h-.8V22h-1.2v-3.4h-.8l-.8-3.2-3.4.8.8-2.4-3.6-1.6 2.8-1.2-1.4-3.4 3.4 1-.6-3.6 2.6 1.2z",
@@ -20,7 +20,9 @@
     if(kind==="flower")return "<g fill='"+c+"'><circle cx='12' cy='6.5' r='3.6'/><circle cx='17.2' cy='10.3' r='3.6'/><circle cx='15.2' cy='16.4' r='3.6'/><circle cx='8.8' cy='16.4' r='3.6'/><circle cx='6.8' cy='10.3' r='3.6'/></g><circle cx='12' cy='12' r='2.8' fill='%23f2c230'/>";
     if(kind==="umbrella")return "<path d='"+P.umbrella+"' fill='"+c+"'/><path d='M12 12v7a2 2 0 0 1-4 0' stroke='%23705a45' stroke-width='1.4' fill='none' stroke-linecap='round'/>";
     if(kind==="firefly")return "<circle cx='12' cy='12' r='9' fill='"+c+"' opacity='.22'/><circle cx='12' cy='12' r='4.5' fill='"+c+"' opacity='.5'/><circle cx='12' cy='12' r='2.2' fill='%23fff6b0'/>";
-    if(kind==="stem")return "";
+    if(kind==="heart")return "<path d='M12 21s-7.5-4.6-9.5-9.2C1 8 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.5 4.5 7.3C19.5 16.4 12 21 12 21z' fill='"+c+"'/>";
+    if(kind==="lungs")return "<path d='M12 3v8M12 10l-2.2 2.4M12 10l2.2 2.4' stroke='"+c+"' stroke-width='1.8' stroke-linecap='round' fill='none'/><path d='M10 8.5C6.8 8.5 3.5 12.6 3.5 17c0 2.6 1.5 4.2 3.6 4.2 2.2 0 3.4-1.6 3.4-3.8V9.4z' fill='"+c+"'/><path d='M14 8.5c3.2 0 6.5 4.1 6.5 8.5 0 2.6-1.5 4.2-3.6 4.2-2.2 0-3.4-1.6-3.4-3.8V9.4z' fill='"+c+"'/>";
+    if(kind==="bubble")return "<circle cx='12' cy='12' r='8' fill='"+c+"' fill-opacity='.18' stroke='"+c+"' stroke-width='1.6'/><circle cx='9' cy='9' r='1.8' fill='%23ffffff' opacity='.8'/>";
     return "<path d='"+P[kind]+"' fill='"+c+"'/>";
   }
   function svg(inner,w,hh){return "url(\"data:image/svg+xml;utf8,"+("<svg xmlns='http://www.w3.org/2000/svg' width='"+w+"' height='"+hh+"' viewBox='0 0 "+w+" "+hh+"'>"+inner+"</svg>").replace(/</g,"%3C").replace(/>/g,"%3E")+"\")"}
@@ -37,6 +39,11 @@
       fall:[],anim:"",dur:[0,0],size:0},
     summer:{vine:"%23c9a64a",tile:[["firefly","%23f2c230",8,12,1.05,0],["firefly","%23f2c230",20,70,.75,0],["firefly","%23f2c230",4,112,.9,0]],
       fall:[["firefly","%23f2c230"],["firefly","%23f2c230"],["firefly","%23f2c230"],["firefly","%23f2c230"],["firefly","%23f2c230"],["firefly","%23f2c230"]],anim:"glow",dur:[5,9],size:18}
+,
+    rcweek:{vine:"%232a9d9b",tile:[["lungs","%232a9d9b",6,8,1.1,0],["bubble","%233fb6c9",20,56,.8,0],["lungs","%232a7fb8",2,94,1,0],["bubble","%233fb6c9",16,134,.7,0]],
+      fall:[["bubble","%233fb6c9"],["bubble","%232a9d9b"],["bubble","%233fb6c9"],["bubble","%232a7fb8"],["bubble","%233fb6c9"],["bubble","%232a9d9b"],["bubble","%233fb6c9"]],anim:"rise",dur:[12,20],size:20},
+    nurses:{vine:"%23d97a8a",tile:[["heart","%23d93a25",6,8,1.1,-10],["heart","%23e86a92",20,56,.8,12],["heart","%23f08a8a",2,96,1,-6],["heart","%23d93a25",16,134,.75,10]],
+      fall:[["heart","%23d93a25"],["heart","%23e86a92"],["heart","%23f08a8a"],["heart","%23d93a25"],["heart","%23e86a92"],["heart","%23f08a8a"],["heart","%23d93a25"]],anim:"rise",dur:[13,21],size:18}
   }[s];
 
   var tile=svg("<path d='M14 0 C24 40 6 80 16 120 S20 150 14 160' stroke='"+C.vine+"' stroke-width='1.6' fill='none' opacity='.5'/>"+C.tile.map(function(t){return at.apply(null,t)}).join(""),48,160);
@@ -51,6 +58,7 @@
       "@keyframes sfx-drift{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:.85}50%{transform:translate(38px,52vh) rotate(160deg)}92%{opacity:.85}100%{transform:translate(-22px,104vh) rotate(320deg);opacity:0}}"+
       "@keyframes sfx-snow{0%{transform:translate(0,0);opacity:0}10%{opacity:.9}50%{transform:translate(-18px,52vh)}90%{opacity:.9}100%{transform:translate(14px,104vh);opacity:0}}"+
       "@keyframes sfx-rain{0%{transform:translateY(0);opacity:0}10%{opacity:.55}90%{opacity:.55}100%{transform:translateY(106vh);opacity:0}}"+
+      "@keyframes sfx-rise{0%{transform:translate(0,108vh) scale(.8);opacity:0}10%{opacity:.85}50%{transform:translate(20px,54vh) scale(1)}90%{opacity:.85}100%{transform:translate(-12px,0) scale(1.1);opacity:0}}"+
       "@keyframes sfx-glow{0%,100%{opacity:0;transform:translate(0,0)}30%{opacity:.9}50%{opacity:.25;transform:translate(16px,-14px)}70%{opacity:.85}}"+
     "}";
   function go(){
