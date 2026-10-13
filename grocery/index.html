@@ -146,6 +146,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
   <div class="tabs" role="tablist" aria-label="Sections">
     <button class="tab" role="tab" id="t-deals" data-tab="deals">Deals</button>
     <button class="tab" role="tab" id="t-meals" data-tab="meals">Meals</button>
+    <button class="tab" role="tab" id="t-next" data-tab="next">Next week<span class="n" id="nextN"></span></button>
     <button class="tab" role="tab" id="t-stockup" data-tab="stockup">Stock-up</button>
     <button class="tab" role="tab" id="t-list" data-tab="list">My list<span class="n" id="listN"></span></button>
   </div>
@@ -153,6 +154,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
   <section class="panel" id="p-deals" role="tabpanel" aria-labelledby="t-deals"><div class="empty">Loading this week's deals…</div></section>
   <section class="panel" id="p-stockup" role="tabpanel" aria-labelledby="t-stockup" hidden></section>
   <section class="panel" id="p-meals" role="tabpanel" aria-labelledby="t-meals" hidden></section>
+  <section class="panel" id="p-next" role="tabpanel" aria-labelledby="t-next" hidden></section>
   <section class="panel" id="p-list" role="tabpanel" aria-labelledby="t-list" hidden></section>
 
   <p class="foot">Prices can differ by store and ZIP code, and some need the store's free loyalty card or app. Check the store's ad before you shop.<br>Deals gathered with help from AI. <span id="upd"></span> <a href="/about/">About Bash's Bargains</a>.</p>
@@ -178,7 +180,9 @@ function status(s){
   return{k:"live",label:"On now",text:s.adNote||""};
 }
 function toast(msg){const t=$("toast");t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)}
-function dealStores(){return data.stores.filter(s=>s.kind==="deals")}
+/* "This week" tabs only show ads running now; ads that haven't started live on the Next week tab */
+function dealStores(){return data.stores.filter(s=>s.kind==="deals"&&status(s).k!=="soon")}
+function nextStores(){return data.stores.filter(s=>s.kind==="deals"&&status(s).k==="soon")}
 function allDeals(){const out=[];for(const s of dealStores()){const st=status(s);if(st.k==="ended")continue;for(const d of s.deals||[])out.push({...d,store:s.name,storeObj:s,st})}return out}
 function priceHtml(d){
   if(d.price>0)return `<span class="now">${money(d.price)}${d.unit||""}</span>`+(d.was>d.price?`<span class="was">${money(d.was)}</span>`:"");
@@ -232,10 +236,10 @@ function renderHits(P,words){
   hits.forEach(d=>box.appendChild(row(d,true)));P.appendChild(box);
   const n=document.createElement("p");n.className="note";n.textContent="Prices marked /lb are per pound, so compare those to each other.";P.appendChild(n);
 }
-function renderStores(P){
-  const stores=dealStores();
+function renderStores(P,only){
+  const stores=only||dealStores();
   const chips=document.createElement("div");chips.className="chips";chips.setAttribute("role","group");chips.setAttribute("aria-label","Filter by store");
-  ["All",...new Set(stores.map(s=>s.name))].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderStores((P.innerHTML="",P))};chips.appendChild(b)});
+  ["All",...new Set(stores.map(s=>s.name))].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderStores((P.innerHTML="",P),only)};chips.appendChild(b)});
   P.appendChild(chips);
   for(const s of stores){
     if(storeFilter!=="All"&&s.name!==storeFilter)continue;
@@ -254,7 +258,7 @@ function renderStores(P){
     parts.forEach(x=>{const sp=document.createElement("span");sp.appendChild(x);f.appendChild(sp)});
     box.appendChild(f);P.appendChild(box);
   }
-  if(storeFilter==="All"){
+  if(storeFilter==="All"&&!only){
     const links=data.stores.filter(s=>s.kind==="link");
     if(links.length){
       const h=document.createElement("h3");h.textContent="More store ads to check";P.appendChild(h);
@@ -270,6 +274,14 @@ function renderStores(P){
   }
 }
 
+function renderNext(){
+  const P=$("p-next");P.innerHTML="";
+  const intro=document.createElement("p");intro.className="note";intro.textContent="Next week's ads, posted early so you can plan meals and your list ahead. These prices aren't on yet; each store shows the day its sale starts.";P.appendChild(intro);
+  const stores=nextStores(),idx=mealIndex();
+  if(!stores.length&&!nextMeals(idx).length){P.insertAdjacentHTML("beforeend",'<div class="empty">Next week\'s ads aren\'t out yet. Stores usually post them a few days early, and they show up here after the next update (Sunday and Wednesday mornings).</div>');return}
+  renderMeals(P);
+  if(stores.length){const h=document.createElement("h3");h.className="mhead";h.textContent="Next week's sale prices";P.appendChild(h);const box=document.createElement("div");box.style.display="flex";box.style.flexDirection="column";box.style.gap="14px";P.appendChild(box);storeFilter="All";renderStores(box,stores)}
+}
 function renderStock(){
   const P=$("p-stockup");P.innerHTML="";
   const intro=document.createElement("p");intro.className="note";intro.textContent="Staples at prices worth buying extra of. Meat freezes well; butter and shredded cheese do too.";P.appendChild(intro);
@@ -284,21 +296,21 @@ function renderStock(){
   }
 }
 
-function renderMeals(){
-  const P=$("p-meals");P.innerHTML="";
-  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales, plus next week's once the ads are out. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples.";P.appendChild(intro);
-  const idx={};for(const s of dealStores())for(const d of s.deals||[])idx[d.id]={...d,store:s.name,storeObj:s,st:status(s)};
-  const meals=(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k!=="ended"));
-  if(!meals.length){P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
+function mealIndex(){const idx={};for(const s of data.stores.filter(s=>s.kind==="deals"))for(const d of s.deals||[])idx[d.id]={...d,store:s.name,storeObj:s,st:status(s)};return idx}
+function nextMeals(idx){return (data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k!=="ended")&&m.uses.some(u=>idx[u].st.k==="soon"))}
+function renderMeals(next){
+  const P=next||$("p-meals");if(!next)P.innerHTML="";
+  const idx=mealIndex();
+  if(!next){const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples. Planning ahead? See the Next week tab.";P.appendChild(intro)}
+  const meals=next?nextMeals(idx):(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k==="live"));
+  if(!meals.length){if(!next)P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
   /* A meal is "coming up" when any of its sale items is from an ad that hasn't started yet */
   const starts=m=>m.uses.map(u=>idx[u]).filter(d=>d.st.k==="soon").map(d=>d.storeObj.adStart).sort().pop()||"";
   meals.sort((a,b)=>starts(a).localeCompare(starts(b)));
   let lastHead=null;
   for(const m of meals){
     const st=starts(m),head=st?"Coming up · sales start "+fmt(st):"This week";
-    if(head!==lastHead){const hd=document.createElement("h3");hd.className="mhead";hd.textContent=head;P.appendChild(hd);
-      if(st){const n=document.createElement("p");n.className="note";n.textContent="Plan ahead: these use sale prices from next week's ads.";P.appendChild(n)}
-      lastHead=head}
+    if(next&&head!==lastHead){const hd=document.createElement("h3");hd.className="mhead";hd.textContent="Dinners for next week · sales start "+fmt(st);P.appendChild(hd);lastHead=head}
     const c=document.createElement("article");c.className="meal";
     const h=document.createElement("h2");h.textContent=m.name;
     const cost=document.createElement("div");cost.className="cost";
@@ -352,15 +364,16 @@ function renderList(){
 function show(t){
   tab=t;
   document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===t));
-  ["deals","stockup","meals","list"].forEach(k=>$("p-"+k).hidden=k!==t);
-  ({deals:renderDeals,stockup:renderStock,meals:renderMeals,list:renderList})[t]();
+  ["deals","stockup","meals","next","list"].forEach(k=>$("p-"+k).hidden=k!==t);
+  ({deals:renderDeals,stockup:renderStock,meals:()=>renderMeals(),next:renderNext,list:renderList})[t]();
 }
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{show(b.dataset.tab);try{history.replaceState(null,"","#"+b.dataset.tab)}catch(e){}});
 save();
 const start=(location.hash||"").slice(1);
 fetch("grocery.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{
   data=j;if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
-  show(["deals","stockup","meals","list"].includes(start)?start:"deals");
+  {const n=nextStores().length;$("nextN").textContent=n?String(n):""}
+  show(["deals","stockup","meals","next","list"].includes(start)?start:"deals");
 }).catch(()=>{$("p-deals").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';document.querySelector('[data-tab="deals"]').setAttribute("aria-selected","true");if(start==="list")show("list")});
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
