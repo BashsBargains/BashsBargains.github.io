@@ -132,6 +132,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .hits-h b{font-size:.95rem}
 .hits-h button{border:0;background:none;color:var(--accent);font:inherit;font-size:.85rem;font-weight:600;cursor:pointer}
 .disclaim{font-size:.8rem;color:var(--muted);margin:0;padding-left:10px;border-left:3px solid var(--tag)}
+.mhead{font-family:var(--display);font-weight:800;font-size:1.15rem;margin:8px 0 0}
 </style>
 </head>
 <body>
@@ -285,11 +286,19 @@ function renderStock(){
 
 function renderMeals(){
   const P=$("p-meals");P.innerHTML="";
-  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples.";P.appendChild(intro);
+  const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales, plus next week's once the ads are out. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples.";P.appendChild(intro);
   const idx={};for(const s of dealStores())for(const d of s.deals||[])idx[d.id]={...d,store:s.name,storeObj:s,st:status(s)};
   const meals=(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k!=="ended"));
   if(!meals.length){P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
+  /* A meal is "coming up" when any of its sale items is from an ad that hasn't started yet */
+  const starts=m=>m.uses.map(u=>idx[u]).filter(d=>d.st.k==="soon").map(d=>d.storeObj.adStart).sort().pop()||"";
+  meals.sort((a,b)=>starts(a).localeCompare(starts(b)));
+  let lastHead=null;
   for(const m of meals){
+    const st=starts(m),head=st?"Coming up · sales start "+fmt(st):"This week";
+    if(head!==lastHead){const hd=document.createElement("h3");hd.className="mhead";hd.textContent=head;P.appendChild(hd);
+      if(st){const n=document.createElement("p");n.className="note";n.textContent="Plan ahead: these use sale prices from next week's ads.";P.appendChild(n)}
+      lastHead=head}
     const c=document.createElement("article");c.className="meal";
     const h=document.createElement("h2");h.textContent=m.name;
     const cost=document.createElement("div");cost.className="cost";
@@ -305,7 +314,7 @@ function renderMeals(){
     else{p=document.createElement("p");p.textContent=m.how||""}
     const b=document.createElement("button");b.type="button";b.className="btn";b.textContent="+ Add sale items to my list";
     b.onclick=()=>{let n=0;m.uses.forEach(u=>{if(!inList(u)){const d=idx[u];list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});n++}});save();toast(n?`Added ${n} item${n>1?"s":""} to your list`:"Already on your list")};
-    c.append(h,cost,lab("On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
+    c.append(h,cost,lab(st?"On sale from "+fmt(st):"On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
   }
 }
 
