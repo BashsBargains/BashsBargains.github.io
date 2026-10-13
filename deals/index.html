@@ -115,6 +115,8 @@ body{margin:0}
 const STORE_SEARCH={"amazon":"https://www.amazon.com/s?k=","walmart":"https://www.walmart.com/search?q=","target":"https://www.target.com/s?searchTerm=","home depot":"https://www.homedepot.com/s/","lowe's":"https://www.lowes.com/search?searchTerm=","best buy":"https://www.bestbuy.com/site/searchpage.jsp?st=","kohl's":"https://www.kohls.com/search.jsp?search=","costco":"https://www.costco.com/CatalogSearch?keyword=","sam's club":"https://www.samsclub.com/s/","bj's":"https://www.bjs.com/search/","ulta beauty":"https://www.ulta.com/search?search=","ulta":"https://www.ulta.com/search?search=","sephora":"https://www.sephora.com/search?keyword=","wayfair":"https://www.wayfair.com/keyword.php?keyword=","ikea":"https://www.ikea.com/us/en/search/?q=","woot":"https://www.woot.com/search?query=","ebay":"https://www.ebay.com/sch/i.html?_nkw=","under armour":"https://www.underarmour.com/en-us/search/?q=","vans":"https://www.vans.com/en-us/search?q=","adidas":"https://www.adidas.com/us/search?q=","rei":"https://www.rei.com/search?q="};
 function shopLink(d){
   if(typeof d.url==="string"&&/^https:\/\//.test(d.url))return{href:d.url,label:"View at "+d.store+" \u2192"};
+  /* Woot has no reliable search page and its deals sell out fast, so send people to today's Woot deals */
+  if(String(d.store||"").toLowerCase()==="woot")return{href:"https://www.woot.com/alldeals",label:"See today's Woot deals \u2192"};
   const base=STORE_SEARCH[String(d.store||"").toLowerCase()];
   if(base)return{href:base+encodeURIComponent(d.item),label:"Find it at "+d.store+" \u2192"};
   return null;
