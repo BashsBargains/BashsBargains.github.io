@@ -113,7 +113,7 @@ body{margin:0}
 
   <div class="feed" id="feed"><div class="empty">Loading deals…</div></div>
 
-  <section class="woot" aria-label="Woot daily deals">
+  <section class="woot" id="woot" aria-label="Woot daily deals">
     <p class="woot-k">Also worth a look</p>
     <h2>Woot daily deals</h2>
     <p>Woot is an Amazon-owned deal site with a handful of big markdowns each day, often open-box or refurbished. They sell out within hours, so I don't list them one by one. Check what's up today and read the condition before you buy.</p>
@@ -140,12 +140,15 @@ const money=n=>"$"+Number(n).toFixed(2);
 const pct=d=>d.was>0&&d.price<d.was?Math.round((1-d.price/d.was)*100):0;
 function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<60)return Math.max(m,1)+" min ago";const h=Math.round(m/60);if(h<24)return h+" hr ago";const dd=Math.round(h/24);return dd+(dd===1?" day ago":" days ago");}
 function chips(){
-  const stores=["All",...[...new Set(deals.map(d=>d.store))].sort()];
+  const stores=["All",...[...new Set(deals.map(d=>d.store))].sort(),"Woot"];
   $("chips").innerHTML="";
   stores.forEach(s=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=s;
     b.setAttribute("aria-pressed",s===store);b.onclick=()=>{store=s;chips();render();};$("chips").appendChild(b);});
 }
 function render(){
+  /* The Woot chip shows the Woot box in place of the deal list */
+  const w=store==="Woot";$("feed").hidden=w;
+  if(w){$("count").textContent="Woot's deals change every day";return}
   const cutoff=Date.now()-48*3600*1000,q=$("q").value.trim().toLowerCase();
   const fresh=deals.filter(d=>(d.at||0)>=cutoff&&!(d.expires&&d.expires<=Date.now()));
   let list=fresh.filter(d=>(store==="All"||d.store===store)&&(!q||[d.item,d.store,d.notes].join(" ").toLowerCase().includes(q)));
