@@ -52,6 +52,7 @@ header p{margin:6px 0 0;color:var(--muted)}
 .tab{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 4px;font-size:.88rem;font-weight:600;cursor:pointer;white-space:nowrap}
 .tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .tab .n{font-family:var(--mono);font-size:.75rem;margin-left:3px}
+.tab .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--hot);margin-left:6px;vertical-align:2px}
 .tab:focus-visible,.chip:focus-visible,.add:focus-visible,a:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
 .chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
@@ -372,7 +373,7 @@ save();
 const start=(location.hash||"").slice(1);
 fetch("grocery.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{
   data=j;if(j.updated){const d=new Date(j.updated);$("upd").textContent="Last updated "+DAY[d.getDay()]+" "+(d.getMonth()+1)+"/"+d.getDate()+"."}
-  {const n=nextStores().length;$("nextN").textContent=n?String(n):""}
+  {const n=nextStores().length,e=$("nextN");e.textContent="";e.className=n?"dot":"n";if(n)e.setAttribute("aria-label","next week's ads are in");else e.removeAttribute("aria-label")}
   show(["deals","stockup","meals","next","list"].includes(start)?start:"deals");
 }).catch(()=>{$("p-deals").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';document.querySelector('[data-tab="deals"]').setAttribute("aria-selected","true");if(start==="list")show("list")});
 </script>
