@@ -241,6 +241,12 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 .crew-btns a{padding:8px 14px;font-size:.9rem}
 .t-bf{background:var(--panel);color:var(--panel-ink);border-color:var(--panel)}
 .t-bf .k{color:var(--tag)}.t-bf .u{color:var(--panel-ink);opacity:.75}.t-bf .t i{color:var(--tag)}
+.wootbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:-8px;background:var(--card);color:var(--ink);border:1.5px dashed var(--ink);border-radius:14px;padding:12px 16px;text-decoration:none}
+.wb-l{display:flex;flex-direction:column;min-width:0}
+.wb-l b{font-family:var(--display);font-weight:800;font-size:1.1rem}
+.wb-l span{font-size:.82rem;color:var(--muted)}
+.wootbar i{font-style:normal;font-size:1.2rem;color:var(--accent);flex:none}
+.wootbar:hover{border-style:solid}
 </style>
 </head>
 <body>
@@ -300,6 +306,11 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
       <span class="t">See all <span id="recN"></span>recipes <i aria-hidden="true">→</i></span>
     </a>
   </section>
+
+  <a class="wootbar" href="https://www.woot.com/alldeals" target="_blank" rel="noopener">
+    <span class="wb-l"><b>Woot daily deals</b><span>Amazon's deal site · a few big markdowns a day, sells out fast</span></span>
+    <i aria-hidden="true">↗</i>
+  </a>
 
   <section class="more" aria-label="More deals">
     <p class="more-k">More deals</p>
