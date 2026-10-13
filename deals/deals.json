@@ -13,42 +13,6 @@
    "srcUrl": "https://www.dealnews.com/"
   },
   {
-   "id": "web-dewalt-20v-battery-2pk-20261013",
-   "item": "DEWALT 20V MAX battery 2-pack",
-   "store": "Woot",
-   "price": 129,
-   "was": 259,
-   "notes": "Online. Woot deal ends today, Oct 13.",
-   "at": 1791867600000,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/",
-   "expires": 1791950340000
-  },
-  {
-   "id": "web-woot-ipad-6th-gen-open-box-20261013",
-   "item": "Apple iPad 6th gen 32GB, open box",
-   "store": "Woot",
-   "price": 74,
-   "was": 349,
-   "notes": "Online. Open-box condition; ends Oct 15.",
-   "at": 1791867600000,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/",
-   "expires": 1792123140000
-  },
-  {
-   "id": "web-jansport-34l-backpack-20261013",
-   "item": "JanSport 34L backpack",
-   "store": "Woot",
-   "price": 20,
-   "was": 67,
-   "notes": "Online. Part of Woot's October best sellers; ends Oct 31.",
-   "at": 1791867600000,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/",
-   "expires": 1793505540000
-  },
-  {
    "id": "web-dewalt-flextorq-torx-bits-20261013",
    "item": "DeWalt FlexTorq Torx bit 2-pack",
    "store": "Lowe's",
@@ -83,17 +47,6 @@
    "src": "DealNews",
    "srcUrl": "https://www.dealnews.com/",
    "expires": 1791950340000
-  },
-  {
-   "id": "web-amazon-essentials-puffer-20261013",
-   "item": "Amazon Essentials puffer jacket",
-   "store": "Woot",
-   "price": 8.99,
-   "was": 39.9,
-   "notes": "Online. Limited sizes and colors.",
-   "at": 1791864000000,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/"
   },
   {
    "id": "web-wavytalk-hair-dryer-20261013",
@@ -687,39 +640,6 @@
    "srcUrl": "https://www.dealnews.com/"
   },
   {
-   "id": "web-dreame-wet-dry-vacuum-20261011",
-   "item": "Dreame wet/dry vacuum",
-   "store": "Woot",
-   "price": 229.99,
-   "was": 599.99,
-   "notes": "Online. Woot Home & Kitchen sale. Check condition (new vs. refurbished) on the listing.",
-   "at": 1791750569485,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/"
-  },
-  {
-   "id": "web-hexclad-6-piece-hybrid-pot-set-20261011",
-   "item": "HexClad 6-piece hybrid pot set",
-   "store": "Woot",
-   "price": 199.99,
-   "was": 379,
-   "notes": "Online. Woot sale. Check whether it's new or refurbished before buying.",
-   "at": 1791750569485,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/"
-  },
-  {
-   "id": "web-samsung-galaxy-s25-ultra-1tb-20261011",
-   "item": "Samsung Galaxy S25 Ultra 1TB",
-   "store": "Woot",
-   "price": 1049.99,
-   "was": 1659.99,
-   "notes": "Online. Woot Android sale. Check condition and warranty on the listing.",
-   "at": 1791750569485,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/"
-  },
-  {
    "id": "web-arc-teryx-men-s-incendo-hybrid-hoody-20261011",
    "item": "Arc'teryx men's Incendo hybrid hoody",
    "store": "REI",
@@ -785,17 +705,6 @@
    "price": 29.8,
    "was": 54.89,
    "notes": "Online. Under $8 per light.",
-   "at": 1791733104269,
-   "src": "DealNews",
-   "srcUrl": "https://www.dealnews.com/c196/Home-Garden/"
-  },
-  {
-   "id": "web-woot-raymond-weil-tango-20261011",
-   "item": "Raymond Weil Tango watch",
-   "store": "Woot",
-   "price": 649.99,
-   "was": 2550,
-   "notes": "Online. Woot sale; check model and condition on the listing.",
    "at": 1791733104269,
    "src": "DealNews",
    "srcUrl": "https://www.dealnews.com/c196/Home-Garden/"

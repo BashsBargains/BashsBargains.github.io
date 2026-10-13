@@ -84,6 +84,11 @@ body{margin:0}
 .bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
 .bar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .foot a{color:var(--accent)}
+.woot{background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.woot-k{margin:0;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.woot h2{margin:0;font-family:var(--display);font-weight:800;font-size:1.2rem}
+.woot p{margin:0;font-size:.9rem;color:var(--muted)}
+.woot .shop{margin-top:6px}
 </style>
 </head>
 <body><div class="wrap">
@@ -107,6 +112,13 @@ body{margin:0}
   </div>
 
   <div class="feed" id="feed"><div class="empty">Loading deals…</div></div>
+
+  <section class="woot" aria-label="Woot daily deals">
+    <p class="woot-k">Also worth a look</p>
+    <h2>Woot daily deals</h2>
+    <p>Woot is an Amazon-owned deal site with a handful of big markdowns each day, often open-box or refurbished. They sell out within hours, so I don't list them one by one. Check what's up today and read the condition before you buy.</p>
+    <a class="shop" href="https://www.woot.com/alldeals" target="_blank" rel="noopener">See today's Woot deals →</a>
+  </section>
 
   <p class="foot">Prices change fast and can differ by ZIP code. Always open the source and confirm the price before you buy.<br>Deals gathered daily with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
@@ -160,7 +172,7 @@ function render(){
 }
 $("q").addEventListener("input",render);$("sort").addEventListener("change",render);
 fetch("deals.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json();}).then(j=>{
-  deals=Array.isArray(j.deals)?j.deals:[];updated=j.updated||0;chips();render();
+  deals=(Array.isArray(j.deals)?j.deals:[]).filter(d=>String(d.store||"").toLowerCase()!=="woot"); /* Woot sells out too fast to list item by item; it has its own box below */updated=j.updated||0;chips();render();
 }).catch(()=>{$("feed").innerHTML='<div class="empty">Deals couldn\'t load. Reload the page to try again.</div>';});
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
