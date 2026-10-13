@@ -235,7 +235,7 @@ function renderHits(P,words){
 function renderStores(P){
   const stores=dealStores();
   const chips=document.createElement("div");chips.className="chips";chips.setAttribute("role","group");chips.setAttribute("aria-label","Filter by store");
-  ["All",...stores.map(s=>s.name)].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderStores((P.innerHTML="",P))};chips.appendChild(b)});
+  ["All",...new Set(stores.map(s=>s.name))].forEach(n=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=n;b.setAttribute("aria-pressed",n===storeFilter);b.onclick=()=>{storeFilter=n;renderStores((P.innerHTML="",P))};chips.appendChild(b)});
   P.appendChild(chips);
   for(const s of stores){
     if(storeFilter!=="All"&&s.name!==storeFilter)continue;
