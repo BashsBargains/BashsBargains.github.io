@@ -190,6 +190,57 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .soc a:hover{border-color:var(--ink)}
 .cook-foot{margin:0;font-size:.88rem;color:var(--muted);background:var(--card)}
 .cook-foot a{color:var(--accent);font-weight:600}
+.receipt{max-width:340px;padding:16px 16px 22px}
+.receipt .ln{font-size:.78rem}
+.barcode{height:26px;margin:12px auto 0;width:70%;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 5px,transparent 5px 8px,var(--ink) 8px 11px,transparent 11px 12px);opacity:.75}
+
+/* Home tiles: one tap-able square per section, two across on phones */
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (min-width:720px){.tiles{grid-template-columns:repeat(4,1fr)}}
+.tile{position:relative;display:flex;flex-direction:column;gap:3px;min-height:190px;min-width:0;padding:16px;border-radius:16px;background:var(--card);color:var(--ink);border:1.5px solid var(--ink);text-decoration:none;overflow:hidden}
+.tile .k{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:1.3}
+.tile .n{font-family:var(--display);font-weight:800;font-size:2.6rem;line-height:1;margin-top:12px;font-variant-numeric:tabular-nums}
+.tile .u{font-size:.88rem;color:var(--muted);line-height:1.3}
+.tile .t{margin-top:auto;padding-top:10px;font-family:var(--display);font-weight:800;font-size:1.18rem;line-height:1.1;text-wrap:balance}
+.tile .t i{font-style:normal;color:var(--accent)}
+.tile:hover .t{text-decoration:underline}
+.t-clear{box-shadow:inset 0 6px 0 var(--tag)}
+.t-groc{border-style:dashed}
+.t-coup{border:2px dashed var(--hot)}
+.t-coup .k{color:var(--hot)}
+.t-cook{background-image:repeating-linear-gradient(to bottom,transparent 0 23px,var(--card-rule) 23px 24px);box-shadow:inset 0 3px 0 var(--hot)}
+.t-cook .k{color:var(--leaf)}
+.t-cook .pick{margin-top:6px;font-style:italic}
+.t-cook .dish{font-family:var(--script);font-weight:700;font-size:1.85rem;line-height:1;margin-top:2px;text-wrap:balance}
+.t-cook .u b{color:var(--ink)}
+.more{display:flex;flex-direction:column;gap:10px}
+.more-k{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+.seas{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--panel);color:var(--panel-ink);border-radius:14px;padding:16px;text-decoration:none}
+.seas-l{display:flex;flex-direction:column;min-width:0}
+.seas-k{font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--tag)}
+.seas b{font-family:var(--display);font-weight:800;font-size:1.3rem}
+.seas-r{font-size:.95rem;opacity:.9;white-space:nowrap}
+.seas-r strong{font-family:var(--display);font-size:1.6rem;color:var(--tag);font-variant-numeric:tabular-nums}
+.seas-r i{font-style:normal;color:var(--tag)}
+.more-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.more-row a{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;text-decoration:none;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:16px 6px;font-size:.95rem;font-weight:600;line-height:1.2;min-width:0}
+.more-row a span{font-size:1.75rem}
+.more-row small{display:block;font-size:.74rem;font-weight:500;color:var(--muted);line-height:1.25;margin-top:2px}
+.tile .hook{font-size:.8rem;color:var(--muted);line-height:1.3;margin-top:6px}
+.t-bf .hook{color:var(--panel-ink)}
+.more-row a:hover{border-color:var(--ink)}
+.crew{padding:14px 16px;gap:6px}
+.wrap{gap:22px;padding-block:16px 40px}
+.lede{font-size:1rem;margin-top:12px;max-width:22em}
+.hero{padding-top:0}
+h1{font-size:clamp(2.6rem,12vw,5.2rem)}
+.sticker{width:clamp(100px,26vw,150px)}
+.crew h2{font-size:1.25rem}
+.crew p{font-size:.9rem}
+.crew-btns{gap:8px;margin-top:4px}
+.crew-btns a{padding:8px 14px;font-size:.9rem}
+.t-bf{background:var(--panel);color:var(--panel-ink);border-color:var(--panel)}
+.t-bf .k{color:var(--tag)}.t-bf .u{color:var(--panel-ink);opacity:.75}.t-bf .t i{color:var(--tag)}
 </style>
 </head>
 <body>
@@ -219,161 +270,69 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
       <span class="now" id="stNum">Deals</span>
       <span class="tiny" id="stBot">updated daily</span>
     </a>
-    <p class="lede">Clearance finds and price drops from the big stores, plus this week's <b>Delaware-area grocery deals</b> and <b>drugstore coupon matchups</b>, rounded up for you every day. No sign-up. No paywall.</p>
+    <p class="lede">Clearance, groceries &amp; coupons around <b>Delaware and Philly</b>. No sign-up. No paywall.</p>
   </header>
 
 
-  <section class="sections" aria-label="Deal sections">
-    <a class="go" href="/deals/">
-      <article class="tagcard">
-        <div class="band"><span>Online clearance · daily</span><span class="hole" aria-hidden="true"></span></div>
-        <div class="inner">
-          <h2>Clearance Deals</h2>
-          <div class="big"><strong id="dealN">–</strong><span id="dealSub">fresh deals</span></div>
-          <p>Online markdowns, price errors and clearance from the stores you already shop, each linked straight to the item.</p>
-          <div class="chips" id="dealStores"><span>Home Depot</span><span>Lowe's</span><span>Walmart</span><span>Target</span><span>Amazon</span><span>Costco</span><span>BJ's</span><span>Sam's Club</span></div>
-          <span class="cta">See today's deals →</span>
-        </div>
-      </article>
+  <section class="tiles" aria-label="Deal sections">
+    <a class="tile t-clear" href="/deals/">
+      <span class="k">Clearance · daily</span>
+      <span class="n" id="dealN">–</span><span class="u" id="dealSub">fresh deals</span>
+      <span class="hook">Home Depot, Target, Walmart &amp; more</span>
+      <span class="t">Clearance Deals <i aria-hidden="true">→</i></span>
     </a>
-
-    <a class="go" href="/grocery/">
-      <article class="coupon">
-        <span class="scissors" aria-hidden="true">✂</span>
-        <div class="band"><span>Grocery · Sun &amp; Wed</span><span class="stamp">New</span></div>
-        <div class="inner">
-          <h2>Grocery Deals &amp; Meals</h2>
-          <div class="stats">
-            <div class="stat"><strong id="gStores">–</strong><span>stores with prices</span></div>
-            <div class="stat"><strong id="gMeals">–</strong><span>dinners this week</span></div>
-          </div>
-          <p>The best prices from this week's ads, stock-up staples, seasoned-right meal ideas and a shopping list for your phone.</p>
-          <span class="cta">See this week's groceries →</span>
-        </div>
-      </article>
+    <a class="tile t-groc" href="/grocery/">
+      <span class="k">Grocery · Sun &amp; Wed</span>
+      <span class="n" id="gMeals">–</span><span class="u">dinners this week<span hidden id="gStores"></span></span>
+      <span class="hook">Lidl, Aldi, ShopRite &amp; more</span>
+      <span class="t">Grocery Deals &amp; Meals <i aria-hidden="true">→</i></span>
     </a>
-
-
-    <a class="go wide" href="/coupons/">
-      <article class="clipper">
-        <span class="scissors" aria-hidden="true">✂</span>
-        <div class="band"><span>Coupons · Drugstore + grocery</span><span class="stamp">New</span></div>
-        <div class="inner">
-          <h2>Coupon Matchups</h2>
-          <div class="stats">
-            <div class="stat"><strong id="cUnder">–</strong><span>finds under $1 each</span></div>
-            <div class="stat"><strong id="cBest">–</strong><span>best find this week</span></div>
-          </div>
-          <p>CVS and Walgreens drugstore deals plus grocery matchups. Toothpaste, laundry detergent, paper towels and snacks for pennies once you stack the sale, coupon, rewards and rebate.</p>
-          <div class="chips"><span>CVS</span><span>Walgreens</span><span>Laundry</span><span>Toothpaste</span><span>Paper towels</span><span>ShopRite</span><span>Walmart</span><span>Target</span></div>
-          <span class="cta">Start the coupon hunt →</span>
-        </div>
-      </article>
+    <a class="tile t-coup" href="/coupons/">
+      <span class="k">Coupons · CVS + more</span>
+      <span class="n" id="cUnder">–</span><span class="u">finds under $1<span hidden id="cBest"></span></span>
+      <span class="hook">Laundry, toothpaste, paper towels</span>
+      <span class="t">Coupon Matchups <i aria-hidden="true">→</i></span>
     </a>
-
-    <a class="go wide" href="/holiday/">
-      <article class="doorbuster">
-        <div class="db-l">
-          <span class="db-eyebrow">Holiday deal hub</span>
-          <h2 data-cm="Cyber Monday 2026" data-hd="Holiday Deals 2026">Black Friday 2026</h2>
-          <p>Sale dates, ad leaks and early deals from Walmart, Target, Amazon, Best Buy, Home Depot, Costco and more.</p>
-          <span class="cta" data-cm="Shop Cyber Monday deals →" data-hd="Shop holiday deals →">Plan your Black Friday →</span>
-        </div>
-        <div class="db-r"><strong id="bfDays">–</strong><span id="bfLabel">days to go</span></div>
-      </article>
+    <a class="tile t-cook" id="cookGo" href="/recipes/#smash-burger-tacos">
+      <span class="k">What's Cooking, Bash?</span>
+      <span class="u pick">On my table this week:</span>
+      <span class="dish" id="cookName">Smash burger tacos</span><span class="u"><b id="cookPer">$2.18</b> a serving</span>
+      <span class="t">See all <span id="recN"></span>recipes <i aria-hidden="true">→</i></span>
     </a>
-
-    <a class="go wide" href="/birthday/">
-      <article class="tagcard">
-        <div class="band"><span>Birthday freebies</span><span class="hole" aria-hidden="true"></span></div>
-        <div class="inner">
-          <h2>Birthday Freebies 🎂</h2>
-          <p>Free coffee, cake, subs, pancakes and beauty gifts on your birthday. See what's worth signing up for and check them off as you go.</p>
-          <span class="cta">Claim your birthday freebies →</span>
-        </div>
-      </article>
-    </a>
-
-    <a class="go wide" href="/happy-hour/">
-      <article class="tagcard">
-        <div class="band"><span>Happy hours</span><span class="hole" aria-hidden="true"></span></div>
-        <div class="inner">
-          <h2>Happy Hours 🍻</h2>
-          <p>Half-price apps, cheap tacos, buck-a-shuck oysters and drink specials around Wilmington, Newark and Philly. Type your ZIP to see what's closest and what's on right now.</p>
-          <span class="cta">Find a happy hour →</span>
-        </div>
-      </article>
-    </a>
-
   </section>
 
-  <section class="cook" aria-labelledby="cookH">
-    <span class="tape" aria-hidden="true"></span>
-    <div class="cook-top">
-      <p class="eyebrow" id="cookWeek">This week's pick</p>
-      <h2 id="cookH">What's Cooking, Bash?</h2>
-    </div>
-    <div class="cook-body">
-      <p class="dish" id="cookName">Smash burger tacos</p>
-      <p class="cook-blurb" id="cookBlurb">Ground beef smashed right onto the tortilla. Crispy edges, melty cheese, done in 15 minutes.</p>
-      <div class="cook-nums">
-        <div><strong id="cookPer">$2.18</strong><span>a serving</span></div>
-        <div><strong id="cookServes">5</strong><span>servings</span></div>
-        <div><strong id="cookSale">4</strong><span>sale items</span></div>
-      </div>
-      <div class="cook-btns">
-        <a class="cook-go" id="cookGo" href="/recipes/#smash-burger-tacos">Get the recipe →</a>
-        <button class="cook-save" id="cookSave" type="button" aria-pressed="false">♡ Save</button>
-      </div>
-      <div class="cook-social">
-        <p class="cook-vid" id="cookVid">🎬 Video coming soon. Follow so you don't miss it</p>
-        <div class="soc">
-          <a href="https://www.tiktok.com/@bashsbargains" target="_blank" rel="noopener">TikTok</a>
-          <a href="https://www.instagram.com/bashsbargains/" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.youtube.com/@bashsbargains" target="_blank" rel="noopener">YouTube</a>
-          <a href="https://www.pinterest.com/bashsbargains/" target="_blank" rel="noopener">Pinterest</a>
-        </div>
-      </div>
-      <p class="cook-foot"><a href="/recipes/">My saved recipes →</a></p>
+  <section class="more" aria-label="More deals">
+    <p class="more-k">More deals</p>
+    <a class="seas" href="/holiday/">
+      <span class="seas-l"><span class="seas-k">Seasonal</span><b data-cm="Cyber Monday 2026" data-hd="Holiday Deals 2026">Black Friday 2026</b></span>
+      <span class="seas-r"><strong id="bfDays">–</strong> <span id="bfLabel">days to go</span> <i aria-hidden="true">→</i></span>
+    </a>
+    <div class="more-row">
+      <a href="/birthday/"><span aria-hidden="true">🎂</span>Birthday Freebies<small>Free coffee, cake &amp; more</small></a>
+      <a href="/happy-hour/"><span aria-hidden="true">🍻</span>Happy Hours<small>Half-price apps near you</small></a>
+      <a href="/local/"><span aria-hidden="true">📍</span>Near Me<small>In-store finds by ZIP</small></a>
     </div>
   </section>
-
-  <a class="go near" href="/local/">
-    <article class="tagcard">
-      <div class="band"><span>Near me · in-store</span><span class="hole" aria-hidden="true"></span></div>
-      <div class="inner">
-        <h2>Near Me 📍</h2>
-        <p>Enter your ZIP once to see in-store clearance spotted by Price Bashers, the closest happy hours, and this week's best grocery and drugstore deals around Delaware and Philly.</p>
-        <span class="cta">See what's near you →</span>
-      </div>
-    </article>
-  </a>
 
   <section class="crew" aria-label="Join the community">
     <p class="eyebrow">Bash's Bargains community</p>
     <h2><span aria-hidden="true">🥊</span> Join the Price Bashers</h2>
-    <p>Spotted a deal? Send it my way! Our Facebook group is where we share finds, ask questions and catch the best deals as they drop. More socials are coming soon.</p>
+    <p>Spotted a deal? Share it in our Facebook group.</p>
     <div class="crew-btns">
       <a class="crew-fb" href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Join the Facebook group →</a>
       <a class="crew-about" href="/about/">Meet Bash →</a>
     </div>
   </section>
 
-  <section class="receipt" aria-label="What you get">
-    <h2>BASH'S BARGAINS</h2>
-    <p class="sub">DELAWARE · PHILLY · ONLINE</p>
+  <section class="receipt" aria-label="What Bash's Bargains costs you">
+    <h2>🧾 YOUR RECEIPT</h2>
+    <p class="sub">BASH'S BARGAINS · DE · PHILLY · ONLINE</p>
     <hr>
-    <div class="ln"><span>Clearance deals</span><span class="dots"></span><span class="v">every morning</span></div>
-    <div class="ln"><span>Grocery ads</span><span class="dots"></span><span class="v">Sun + Wed</span></div>
-    <div class="ln"><span>Coupon matchups</span><span class="dots"></span><span class="v">CVS + Walgreens</span></div>
-    <div class="ln"><span>Meal ideas</span><span class="dots"></span><span class="v">6–7 a week</span></div>
-    <div class="ln"><span>Shopping list</span><span class="dots"></span><span class="v">on your phone</span></div>
-    <div class="ln"><span>Holiday deal hub</span><span class="dots"></span><span class="v">Nov + Dec</span></div>
-    <div class="ln"><span>Birthday freebies</span><span class="dots"></span><span class="v">28 picks</span></div>
-    <div class="ln"><span>Happy hours</span><span class="dots"></span><span class="v">43 spots</span></div>
+    <div class="ln"><span>Deals, coupons &amp; meals</span><span class="dots"></span><span class="v">updated daily</span></div>
     <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
     <hr>
     <div class="ln total"><span>You pay</span><span class="dots"></span><span class="v">$0.00</span></div>
+    <p class="barcode" aria-hidden="true"></p>
     <p class="thanks">Thank you for shopping smart</p>
   </section>
 
@@ -446,28 +405,17 @@ fetch("/coupons/coupons.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).th
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
 <script>
-/* What's Cooking, Bash?  fills from /recipes/recipes.json (newest week first) and saves the whole recipe on this phone */
-(function(){
-  const key="bbSavedRecipes",$=id=>document.getElementById(id),b=$("cookSave");
-  let saved=[],cur=null;try{saved=JSON.parse(localStorage.getItem(key)||"[]")}catch(e){}
-  const has=()=>cur&&saved.some(r=>r.id===cur.id);
-  const draw=()=>{b.setAttribute("aria-pressed",!!has());b.textContent=has()?"♥ Saved":"♡ Save"};
-  b.onclick=()=>{if(!cur)return;if(has())saved=saved.filter(r=>r.id!==cur.id);else saved.unshift(Object.assign({},cur,{kind:"pick",savedAt:Date.now()}));
-    try{localStorage.setItem(key,JSON.stringify(saved))}catch(e){}draw()};
-  fetch("/recipes/recipes.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
-    if(!j||!j.recipes||!j.recipes.length)return;
-    cur=j.recipes.slice().sort((a,b)=>b.week.localeCompare(a.week))[0];
-    const [y,m,d]=cur.week.split("-").map(Number);
-    $("cookWeek").textContent="Week of "+new Date(y,m-1,d).toLocaleDateString("en-US",{month:"short",day:"numeric"});
-    $("cookName").textContent=cur.name;if(cur.blurb)$("cookBlurb").textContent=cur.blurb;
-    if(cur.total&&cur.serves)$("cookPer").textContent="$"+(cur.total/cur.serves).toFixed(2);
-    $("cookServes").textContent=cur.serves;$("cookSale").textContent=(cur.ingredients||[]).filter(i=>i.price).length;
-    $("cookGo").href="/recipes/#"+cur.id;
-    if(cur.video){const v=$("cookVid");v.textContent="";const a=document.createElement("a");a.href=cur.video;a.target="_blank";a.rel="noopener";a.textContent="▶ Watch me make it";v.appendChild(a)}
-    draw();
+/* What's Cooking, Bash? tile: this week's pick from /recipes/recipes.json */
+fetch("/recipes/recipes.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!j.recipes||!j.recipes.length)return;
+  const r=j.recipes.slice().sort((a,b)=>b.week.localeCompare(a.week))[0];
+  document.getElementById("cookName").textContent=r.name;
+  if(r.total&&r.serves)document.getElementById("cookPer").textContent="$"+(r.total/r.serves).toFixed(2);
+  document.getElementById("cookGo").href="/recipes/#"+r.id;
+  fetch("/grocery/grocery.json",{cache:"no-store"}).then(x=>x.ok?x.json():null).then(g=>{
+    const n=1+((g&&g.meals)||[]).length;if(n>1)document.getElementById("recN").textContent=n+" ";
   }).catch(()=>{});
-  draw();
-})();
+}).catch(()=>{});
 </script>
 <script src="/seasons.js" defer></script>
 <script src="/season.js" defer></script>

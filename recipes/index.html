@@ -84,6 +84,10 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
 .empty b{display:block;color:var(--ink);font-family:var(--display);font-size:1.2rem;margin-bottom:4px}
 .disclaim{font-size:.8rem;color:var(--muted);margin:0;padding-left:10px;border-left:3px solid var(--tag)}
 .note{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
+.follow{background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:8px}
+.follow p{margin:0;font-weight:600;font-size:.92rem}
+.soc{display:flex;flex-wrap:wrap;gap:8px}
+.soc a{text-decoration:none;font-size:.85rem;font-weight:600;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:999px;padding:7px 13px}
 </style>
 </head>
 <body>
@@ -98,6 +102,16 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     <h1>Saved Recipes</h1>
     <p class="lede">Tap ♡ on any recipe to keep it. It saves right on your phone, no account needed, and stays here after the sale ends.</p>
   </header>
+
+  <div class="follow">
+    <p>🎬 Watch me cook my weekly pick on</p>
+    <div class="soc">
+      <a href="https://www.tiktok.com/@bashsbargains" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.instagram.com/bashsbargains/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.youtube.com/@bashsbargains" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://www.pinterest.com/bashsbargains/" target="_blank" rel="noopener">Pinterest</a>
+    </div>
+  </div>
 
   <div class="tabs" role="tablist" aria-label="Recipe lists">
     <button role="tab" id="t-week" aria-selected="true" data-tab="week">This week</button>
