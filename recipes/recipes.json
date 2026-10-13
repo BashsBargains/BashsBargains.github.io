@@ -1,0 +1,56 @@
+{
+ "recipes": [
+  {
+   "id": "smash-burger-tacos",
+   "week": "2026-10-14",
+   "name": "Smash burger tacos",
+   "blurb": "Ground beef smashed right onto the tortilla. Crispy edges, melty cheese, done in 15 minutes, and Lidl's 2 lb beef deal feeds the whole family.",
+   "serves": 5,
+   "total": 10.9,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "2 lb",
+     "item": "80% lean ground beef",
+     "store": "Lidl",
+     "price": 7.99
+    },
+    {
+     "qty": "1 cup",
+     "item": "shredded cheese",
+     "store": "Lidl",
+     "price": 4.99,
+     "note": "from the 32 oz bag"
+    },
+    {
+     "qty": "½ head",
+     "item": "iceberg lettuce, shredded",
+     "store": "Lidl",
+     "price": 2.49
+    },
+    {
+     "qty": "1",
+     "item": "red onion, sliced thin",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "qty": "10",
+     "item": "small taco-size flour tortillas"
+    },
+    {
+     "qty": "",
+     "item": "pickles, mayo, ketchup and mustard for the sauce"
+    }
+   ],
+   "steps": [
+    "Roll the beef into 10 balls and season with salt and pepper.",
+    "Press a ball flat onto each tortilla, all the way to the edges.",
+    "Cook meat side down in a hot skillet 3 minutes, flip, add cheese and cook 1 more minute.",
+    "Mix mayo, ketchup, mustard and chopped pickles. Top the tacos with sauce, lettuce and onion."
+   ],
+   "type": "Dinner",
+   "season": "Any season"
+  }
+ ]
+}

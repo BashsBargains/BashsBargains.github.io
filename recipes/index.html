@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Saved Recipes · Bash's Bargains</title>
+<meta name="description" content="Bash's weekly budget recipe picks and the sale-price meal ideas from Bash's Bargains. Save your favorites on your phone, no sign-up.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Caveat:wght@700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: page title, three tabs (this week / my saved / Bash's picks), search + meal-type chips, then a stack of index cards that open on tap */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --leaf:#c4561f; --card-rule:#e7b9ab;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --script:"Caveat","Segoe Print","Bradley Hand",cursive;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --leaf:#ef8a4e; --card-rule:#5b3a36; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --leaf:#ef8a4e; --card-rule:#5b3a36; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:24px 56px;display:flex;flex-direction:column;gap:20px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.05rem}
+.mark img{width:30px;height:30px}
+.back{font-size:.9rem;font-weight:600;color:var(--accent);text-decoration:none}
+.preview-note{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border:1.5px dashed var(--line);border-radius:10px;padding:8px 12px;margin:0;text-align:center}
+.eyebrow{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--leaf);margin:0 0 6px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem);line-height:.95;letter-spacing:-.03em;margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:10px 0 0;max-width:34em}
+
+.tabs{display:flex;gap:6px;border-bottom:1.5px solid var(--line);overflow-x:auto}
+.tabs button{font:inherit;font-weight:600;font-size:.95rem;background:none;border:0;color:var(--muted);padding:10px 4px;margin-right:12px;border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--hot)}
+.count{font-family:var(--mono);font-size:.78rem;background:var(--tag);color:var(--tag-ink);border-radius:999px;padding:1px 7px;margin-left:4px}
+
+.tools{display:flex;flex-direction:column;gap:10px}
+.search{font:inherit;width:100%;background:var(--card);color:var(--ink);border:1.5px solid var(--line);border-radius:12px;padding:10px 12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{font:inherit;font-size:.85rem;font-weight:500;background:var(--card);color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.status{font-size:.85rem;color:var(--muted);margin:0}
+
+.list{display:flex;flex-direction:column;gap:14px}
+.rc{background:var(--card);border:1.5px solid var(--ink);border-radius:6px}
+.rc summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;gap:12px;align-items:flex-start;border-bottom:2px solid transparent}
+.rc summary::-webkit-details-marker{display:none}
+.rc[open] summary{border-bottom-color:var(--hot)}
+.rc .head{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.rc .when{font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.rc .name{font-family:var(--script);font-weight:700;font-size:1.65rem;line-height:1.05;text-wrap:balance}
+.rc .meta{font-size:.85rem;color:var(--muted)}
+.rc .meta b{color:var(--ink);font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:2px}
+.pill.pick{background:var(--tag);color:var(--tag-ink)}
+.pill.sample{border:1px solid var(--line);color:var(--muted)}
+.heart{font:inherit;font-size:1.3rem;line-height:1;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:50%;width:44px;height:44px;flex:none;cursor:pointer}
+.heart[aria-pressed="true"]{color:var(--hot);border-color:var(--hot)}
+.rc .body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:12px;
+  background-image:repeating-linear-gradient(to bottom,transparent 0 31px,var(--card-rule) 31px 32px);background-position:0 8px}
+.rc .body>*{background:var(--card)}
+.rc h3{font-family:var(--mono);font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+.rc ul,.rc ol{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:4px}
+.ing .sale{font-family:var(--mono);font-size:.75rem;font-weight:600;background:var(--tag);color:var(--tag-ink);border-radius:4px;padding:0 5px;margin-left:4px;white-space:nowrap}
+.pantry{font-size:.9rem;color:var(--muted);margin:0}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.acts a,.acts button{font:inherit;font-size:.88rem;font-weight:600;text-decoration:none;border-radius:999px;padding:8px 14px;cursor:pointer;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+.acts .pin{background:var(--hot);border-color:var(--hot);color:#fff}
+.empty{background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:20px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--ink);font-family:var(--display);font-size:1.2rem;margin-bottom:4px}
+.disclaim{font-size:.8rem;color:var(--muted);margin:0;padding-left:10px;border-left:3px solid var(--tag)}
+.note{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar">
+    <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
+    <a class="back" href="/">← Home</a>
+  </div>
+
+  <header>
+    <p class="eyebrow">What's Cooking, Bash?</p>
+    <h1>Saved Recipes</h1>
+    <p class="lede">Tap ♡ on any recipe to keep it. It saves right on your phone, no account needed, and stays here after the sale ends.</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Recipe lists">
+    <button role="tab" id="t-week" aria-selected="true" data-tab="week">This week</button>
+    <button role="tab" id="t-saved" aria-selected="false" data-tab="saved">My saved <span class="count" id="savedN">0</span></button>
+    <button role="tab" id="t-picks" aria-selected="false" data-tab="picks">Bash's picks</button>
+  </div>
+
+  <div class="tools">
+    <input class="search" id="q" type="search" placeholder="Search by ingredient, like chicken or pears" aria-label="Search recipes">
+    <div class="chips" id="types" aria-label="Meal type"></div>
+  </div>
+  <p class="disclaim" id="disclaim" hidden>Saved recipes stay on this phone only. Clearing your browser history or switching phones erases them, since there's no sign-up. Pin or copy your favorites to keep a backup.</p>
+  <p class="status" id="status" aria-live="polite"></p>
+  <div class="list" id="list"></div>
+
+</div>
+<script>
+(function(){
+  const KEY="bbSavedRecipes", LIVE="https://bashsbargains.github.io/recipes/";
+  const TYPES=["All","Breakfast","Dinner","Sides","Sweets"];
+  let picks=[], meals=[], saved=[], tab="week", type="All", q="";
+  try{saved=JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){saved=[]}
+  const store=()=>{try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}};
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+  const money=n=>"$"+(+n).toFixed(2);
+  const week=d=>{const [y,m,dd]=d.split("-").map(Number);return "Week of "+new Date(y,m-1,dd).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})};
+
+  /* Grocery-page meal ideas become full recipes, so a saved copy keeps every ingredient and step */
+  function fromMeal(m,deals,start){
+    return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,week:start,
+      ingredients:(m.uses||[]).map(u=>deals[u]).filter(Boolean).map(d=>({item:d.item,store:d.store,price:d.price,unit:d.unit}))
+        .concat((m.buy||[]).map(b=>({item:b}))),
+      pantry:m.pantry||[],steps:m.steps||[]};
+  }
+
+  function card(r,open){
+    const on=saved.some(s=>s.id===r.id);
+    const per=r.total&&r.serves?money(r.total/r.serves)+"</b> a serving · ":"</b>";
+    const ings=(r.ingredients||[]).map(i=>`<li>${i.qty?esc(i.qty)+" ":""}${esc(i.item)}${i.price?`<span class="sale">${esc(i.store)} ${money(i.price)}${esc(i.unit||"")}</span>`:""}${i.note?` <span class="pantry">(${esc(i.note)})</span>`:""}</li>`).join("");
+    const pin=`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(LIVE+"#"+r.id)}&description=${encodeURIComponent(r.name+" · about "+(r.total&&r.serves?money(r.total/r.serves):"")+" a serving · Bash's Bargains")}`;
+    return `<details class="rc" id="${esc(r.id)}"${open?" open":""}>
+      <summary>
+        <div class="head">
+          <span class="when">${r.week?esc(week(r.week)):""}${r.kind==="pick"?'<span class="pill pick">Bash\'s pick</span>':""}${r.sample?'<span class="pill sample">Sample</span>':""}</span>
+          <span class="name">${esc(r.name)}</span>
+          <span class="meta"><b>${per}feeds ${esc(r.serves)} · ${esc(r.type||"Dinner")}${r.season&&r.season!=="Any season"?" · "+esc(r.season):""}</span>
+        </div>
+        <button class="heart" type="button" data-save="${esc(r.id)}" aria-pressed="${on}" aria-label="${on?"Remove from saved":"Save recipe"}">${on?"♥":"♡"}</button>
+      </summary>
+      <div class="body">
+        ${r.blurb?`<p class="pantry">${esc(r.blurb)}</p>`:""}
+        <h3>Ingredients</h3><ul class="ing">${ings}</ul>
+        ${r.pantry&&r.pantry.length?`<p class="pantry">From your pantry: ${esc(r.pantry.join(", "))}</p>`:""}
+        <h3>Steps</h3><ol>${(r.steps||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
+        <div class="acts">
+          <a class="pin" href="${pin}" target="_blank" rel="noopener">Pin it</a>
+          <button type="button" data-copy="${esc(r.id)}">Copy recipe</button>
+        </div>
+      </div>
+    </details>`;
+  }
+
+  const all=()=>picks.concat(meals);
+  const find=id=>all().find(r=>r.id===id)||saved.find(r=>r.id===id);
+  function source(){
+    if(tab==="saved")return saved;
+    if(tab==="picks")return picks;
+    const cur=picks[0]?[picks[0]]:[];
+    return cur.concat(meals);
+  }
+  function matches(r){
+    if(type!=="All"&&(r.type||"Dinner")!==type)return false;
+    if(!q)return true;
+    const hay=[r.name,r.blurb,(r.ingredients||[]).map(i=>i.item).join(" "),(r.pantry||[]).join(" ")].join(" ").toLowerCase();
+    return hay.includes(q);
+  }
+  function render(){
+    $("savedN").textContent=saved.length;
+    $("disclaim").hidden=tab!=="saved";
+    document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab));
+    $("types").innerHTML=TYPES.map(t=>`<button type="button" aria-pressed="${t===type}" data-type="${t}">${t}</button>`).join("");
+    const src=source(), list=src.filter(matches), hash=location.hash.slice(1);
+    $("status").textContent=src.length?`${list.length} of ${src.length} recipe${src.length===1?"":"s"}`:"";
+    if(!src.length&&tab==="saved"){$("list").innerHTML='<div class="empty"><b>Nothing saved yet</b>Tap ♡ on a recipe in This week and it will wait for you here.</div>';return}
+    if(!list.length){$("list").innerHTML='<div class="empty"><b>No matches</b>Try another word or tap All.</div>';return}
+    $("list").innerHTML=list.map((r,i)=>card(r,r.id===hash)).join("");
+  }
+
+  document.addEventListener("click",e=>{
+    const t=e.target.closest("[data-tab]");if(t){tab=t.dataset.tab;render();return}
+    const ty=e.target.closest("[data-type]");if(ty){type=ty.dataset.type;render();return}
+    const h=e.target.closest("[data-save]");
+    if(h){e.preventDefault();e.stopPropagation();const id=h.dataset.save;
+      if(saved.some(s=>s.id===id))saved=saved.filter(s=>s.id!==id);
+      else{const r=find(id);if(r)saved.unshift(Object.assign({},r,{savedAt:Date.now()}))}
+      store();
+      const open=[...document.querySelectorAll(".rc[open]")].map(d=>d.id);
+      render();open.forEach(id=>{const d=document.getElementById(id);if(d)d.open=true});return}
+    const c=e.target.closest("[data-copy]");
+    if(c){const r=find(c.dataset.copy);if(!r)return;
+      const txt=[r.name,"Feeds "+r.serves,"","Ingredients:"].concat((r.ingredients||[]).map(i=>"- "+(i.qty?i.qty+" ":"")+i.item))
+        .concat(r.pantry&&r.pantry.length?["- Pantry: "+r.pantry.join(", ")]:[]).concat(["","Steps:"]).concat((r.steps||[]).map((s,i)=>(i+1)+". "+s))
+        .concat(["","From Bash's Bargains: "+LIVE]).join("\n");
+      const done=()=>{c.textContent="Copied";setTimeout(()=>c.textContent="Copy recipe",1600)};
+      try{navigator.clipboard.writeText(txt).then(done,()=>{c.textContent="Copy didn't work here"})}catch(err){c.textContent="Copy didn't work here"}}
+  });
+  $("q").addEventListener("input",e=>{q=e.target.value.trim().toLowerCase();render()});
+
+  Promise.all([
+    fetch("/recipes/recipes.json",{cache:"no-store"}).then(r=>r.ok?r.json():{recipes:[]}).catch(()=>({recipes:[]})),
+    fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
+  ]).then(([p,g])=>{
+    picks=(p.recipes||[]).map(r=>Object.assign({kind:"pick"},r)).sort((a,b)=>b.week.localeCompare(a.week));
+    if(g){const deals={},starts=[];
+      g.stores.forEach(s=>{(s.deals||[]).forEach(d=>deals[d.id]=Object.assign({store:s.name},d));if(s.adStart)starts.push(s.adStart)});
+      const u=new Date(g.updated||Date.now()),start=u.getFullYear()+"-"+String(u.getMonth()+1).padStart(2,"0")+"-"+String(u.getDate()).padStart(2,"0");
+      meals=(g.meals||[]).map(m=>fromMeal(m,deals,start));}
+    const hash=location.hash.slice(1);
+    if(hash&&!source().some(r=>r.id===hash)&&saved.some(r=>r.id===hash))tab="saved";
+    render();
+    const el=hash&&document.getElementById(hash);if(el)el.scrollIntoView({block:"start"});
+  });
+  render();
+})();
+</script>
+<script src="/seasons.js" defer></script>
+</body>
+</html>
