@@ -68,6 +68,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
 .pill{display:inline-block;font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:2px}
 .pill.pick{background:var(--tag);color:var(--tag-ink)}
 .pill.sample{border:1px solid var(--line);color:var(--muted)}
+.pill.soon{border:1px solid var(--hot);color:var(--hot)}
 .heart{font:inherit;font-size:1.3rem;line-height:1;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:50%;width:44px;height:44px;flex:none;cursor:pointer}
 .heart[aria-pressed="true"]{color:var(--hot);border-color:var(--hot)}
 .rc .body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:12px;
@@ -142,22 +143,28 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
   const week=d=>{const [y,m,dd]=d.split("-").map(Number);return "Week of "+new Date(y,m-1,dd).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"})};
 
   /* Grocery-page meal ideas become full recipes, so a saved copy keeps every ingredient and step */
+  const todayStr=()=>{const t=new Date();return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0")};
+  const md=s=>{const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d).toLocaleDateString("en-US",{month:"short",day:"numeric"})};
   function fromMeal(m,deals,start){
-    return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,week:start,
-      ingredients:(m.uses||[]).map(u=>deals[u]).filter(Boolean).map(d=>({item:d.item,store:d.store,price:d.price,unit:d.unit}))
+    const used=(m.uses||[]).map(u=>deals[u]).filter(Boolean),t=todayStr();
+    /* "Coming up" when any of its sale items is from an ad that hasn't started yet (same rule as the grocery page) */
+    const soon=used.map(d=>d.adStart).filter(s=>s&&s>t).sort()[0]||null;
+    return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,week:start,soon:soon,
+      ingredients:used.map(d=>({item:d.item,store:d.store,price:d.price,unit:d.unit,off:d.off}))
         .concat((m.buy||[]).map(b=>({item:b}))),
       pantry:m.pantry||[],steps:m.steps||[]};
   }
+  function saleTag(i){if(i.price)return esc(i.store)+" "+money(i.price)+esc(i.unit||"");if(i.off)return esc(i.store)+" "+money(i.off)+" off";if(i.store)return esc(i.store)+" sale";return ""}
 
   function card(r,open){
     const on=saved.some(s=>s.id===r.id);
     const per=r.total&&r.serves?money(r.total/r.serves)+"</b> a serving · ":"</b>";
-    const ings=(r.ingredients||[]).map(i=>`<li>${i.qty?esc(i.qty)+" ":""}${esc(i.item)}${i.price?`<span class="sale">${esc(i.store)} ${money(i.price)}${esc(i.unit||"")}</span>`:""}${i.note?` <span class="pantry">(${esc(i.note)})</span>`:""}</li>`).join("");
+    const ings=(r.ingredients||[]).map(i=>`<li>${i.qty?esc(i.qty)+" ":""}${esc(i.item)}${saleTag(i)?`<span class="sale">${saleTag(i)}</span>`:""}${i.note?` <span class="pantry">(${esc(i.note)})</span>`:""}</li>`).join("");
     const pin=`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(LIVE+"#"+r.id)}&description=${encodeURIComponent(r.name+" · about "+(r.total&&r.serves?money(r.total/r.serves):"")+" a serving · Bash's Bargains")}`;
     return `<details class="rc" id="${esc(r.id)}"${open?" open":""}>
       <summary>
         <div class="head">
-          <span class="when">${r.week?esc(week(r.week)):""}${r.kind==="pick"?'<span class="pill pick">Bash\'s pick</span>':""}${r.sample?'<span class="pill sample">Sample</span>':""}</span>
+          <span class="when">${r.week?esc(week(r.week)):""}${r.kind==="pick"?'<span class="pill pick">Bash\'s pick</span>':""}${r.sample?'<span class="pill sample">Sample</span>':""}${r.soon?`<span class="pill soon">Sale starts ${esc(md(r.soon))}</span>`:""}</span>
           <span class="name">${esc(r.name)}</span>
           <span class="meta"><b>${per}feeds ${esc(r.serves)} · ${esc(r.type||"Dinner")}${r.season&&r.season!=="Any season"?" · "+esc(r.season):""}</span>
         </div>
@@ -165,6 +172,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
       </summary>
       <div class="body">
         ${r.blurb?`<p class="pantry">${esc(r.blurb)}</p>`:""}
+        ${r.soon?`<p class="pantry">These sale prices start ${esc(md(r.soon))}. Plan ahead and shop then.</p>`:(r.kind==="meal"&&r.week&&!meals.some(x=>x.id===r.id)?'<p class="pantry">Sale prices shown were for that week and may have ended.</p>':"")}
         <h3>Ingredients</h3><ul class="ing">${ings}</ul>
         ${r.pantry&&r.pantry.length?`<p class="pantry">From your pantry: ${esc(r.pantry.join(", "))}</p>`:""}
         <h3>Steps</h3><ol>${(r.steps||[]).map(s=>`<li>${esc(s)}</li>`).join("")}</ol>
@@ -186,7 +194,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     if(tab==="picks")return picks;
     if(tab==="all")return everything();
     const cur=picks[0]?[picks[0]]:[];
-    return cur.concat(meals);
+    /* on-sale-now meals first, then the "coming up" ones */
+    return cur.concat(meals.filter(m=>!m.soon),meals.filter(m=>m.soon));
   }
   function matches(r){
     if(type!=="All"&&(r.type||"Dinner")!==type)return false;
@@ -235,7 +244,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     archive=(a.recipes||[]);
     picks=(p.recipes||[]).map(r=>Object.assign({kind:"pick"},r)).sort((a,b)=>b.week.localeCompare(a.week));
     if(g){const deals={},starts=[];
-      g.stores.forEach(s=>{(s.deals||[]).forEach(d=>deals[d.id]=Object.assign({store:s.name},d));if(s.adStart)starts.push(s.adStart)});
+      g.stores.forEach(s=>{(s.deals||[]).forEach(d=>deals[d.id]=Object.assign({store:s.name,adStart:s.adStart},d));if(s.adStart)starts.push(s.adStart)});
       const u=new Date(g.updated||Date.now()),start=u.getFullYear()+"-"+String(u.getMonth()+1).padStart(2,"0")+"-"+String(u.getDate()).padStart(2,"0");
       meals=(g.meals||[]).map(m=>fromMeal(m,deals,start));}
     const hash=location.hash.slice(1);
