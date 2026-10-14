@@ -1,0 +1,355 @@
+{
+ "updated": 1791976932231,
+ "checked": "2026-10-14",
+ "stores": [
+  {
+   "id": "best-buy",
+   "name": "Best Buy",
+   "verdict": "yes",
+   "short": "Matches Amazon, Walmart, Target, Costco, Sam's, BJ's and more",
+   "matches": [
+    "Amazon",
+    "Target",
+    "Walmart",
+    "Costco",
+    "Sam's Club",
+    "BJ's",
+    "Home Depot",
+    "Lowe's",
+    "Apple",
+    "B&H Photo",
+    "Crutchfield",
+    "Micro Center",
+    "Dick's Sporting Goods",
+    "Menards"
+   ],
+   "scope": "Electronics and appliances. Identical item (same brand, model and color), in stock, sold directly by the other store.",
+   "after": "15 days after you buy (30 days for My Best Buy Plus and Total members). Holiday buys Oct 31–Dec 31 can be adjusted through Jan 15.",
+   "how": "In store: show the ad, a screenshot or the live webpage. Online: BestBuy.com chat or call 1-888-BEST BUY (no email).",
+   "no": [
+    "Marketplace sellers on Amazon or Walmart",
+    "Clearance, open-box and refurbished",
+    "Membership prices unless you're a member",
+    "Black Friday through Cyber Monday",
+    "Bundles, coupons and gift card deals"
+   ],
+   "src": "Priceva",
+   "srcUrl": "https://priceva.com/blog/best-buy-price-match",
+   "srcDate": "May 2026",
+   "hint": "electronics & appliances"
+  },
+  {
+   "id": "home-depot",
+   "name": "Home Depot",
+   "verdict": "yes",
+   "short": "Matches Amazon, Lowe's, Walmart and other big stores",
+   "matches": [
+    "Amazon",
+    "Lowe's",
+    "Walmart",
+    "Best Buy",
+    "Target",
+    "Ace Hardware"
+   ],
+   "scope": "Identical, in-stock item. Amazon only counts when it's sold and shipped by Amazon.",
+   "after": "Ask at the service desk. Guides disagree on the window (30 days per Checkbook, longer in other guides).",
+   "how": "In store: show the ad or listing at the register or service desk. Online: chat or call 1-800-HOME-DEPOT with the link.",
+   "no": [
+    "Costco, Sam's and BJ's prices",
+    "Marketplace sellers",
+    "Clearance, closeout and Special Buys",
+    "Black Friday and Cyber Monday"
+   ],
+   "src": "Checkbook",
+   "srcUrl": "https://www.checkbook.org/national/pricematching/",
+   "srcDate": "Oct 2025",
+   "also": [
+    {
+     "src": "Priceva",
+     "srcUrl": "https://priceva.com/blog/home-depot-price-match"
+    }
+   ],
+   "hint": "home & tools"
+  },
+  {
+   "id": "lowes",
+   "name": "Lowe's",
+   "verdict": "yes",
+   "short": "Matches Home Depot, Walmart, Menards and more",
+   "matches": [
+    "Home Depot",
+    "Walmart",
+    "Ace Hardware",
+    "Menards",
+    "Tractor Supply",
+    "Best Buy",
+    "JCPenney",
+    "Macy's",
+    "Wayfair",
+    "Amazon"
+   ],
+   "scope": "Identical, in-stock item. Local stores must be in your Lowe's ZIP. Amazon matches are for Lowes.com orders only.",
+   "after": "Up to 30 days after you buy, if a competitor or Lowe's drops the price. Some stores apply 14 days, so ask.",
+   "how": "Ask before checkout with a screenshot showing the link, model number, price and \"in stock.\" Online: chat or call 1-877-465-6937.",
+   "no": [
+    "Clearance, closeout and open-box",
+    "Costco, Sam's and BJ's prices",
+    "Black Friday and seasonal events",
+    "Coupons, rebates and BOGO deals",
+    "Marketplace sellers and eBay"
+   ],
+   "src": "DontPayFull",
+   "srcUrl": "https://www.dontpayfull.com/explore/lowes-price-match-policy",
+   "srcDate": "Apr 2026",
+   "hint": "home & tools"
+  },
+  {
+   "id": "staples",
+   "name": "Staples",
+   "verdict": "yes",
+   "short": "Matches Amazon, Walmart, Target, Best Buy and Office Depot",
+   "matches": [
+    "Amazon",
+    "Best Buy",
+    "FedEx Office",
+    "Office Depot",
+    "Target",
+    "The UPS Store",
+    "Walmart"
+   ],
+   "scope": "Identical item at select competitors.",
+   "after": "Up to 14 days after you buy.",
+   "how": "Show the lower price to an associate at checkout.",
+   "no": [
+    "Check with the store for exclusions"
+   ],
+   "src": "Checkbook",
+   "srcUrl": "https://www.checkbook.org/national/pricematching/",
+   "srcDate": "Oct 2025",
+   "hint": "office & tech"
+  },
+  {
+   "id": "kohls",
+   "name": "Kohl's",
+   "verdict": "limited",
+   "short": "Matches local stores with a printed ad; lots of exclusions",
+   "matches": [
+    "Target"
+   ],
+   "scope": "Identical item at a competitor with physical stores. Bring a printed ad. Online, only select store websites count.",
+   "after": "Kohl's adjusts its own price drops within 14 days with your receipt.",
+   "how": "Bring the printed ad to the register, or your receipt for a price adjustment.",
+   "no": [
+    "Amazon, Costco and Sam's Club",
+    "Clearance and BOGO items",
+    "Thanksgiving week",
+    "Electronics, toys, footwear, athletic wear, beauty and more"
+   ],
+   "src": "Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/coupons-for/kohls/kohls-price-match-policy",
+   "srcDate": "Aug 2024",
+   "also": [
+    {
+     "src": "Checkbook",
+     "srcUrl": "https://www.checkbook.org/national/pricematching/"
+    }
+   ],
+   "hint": "local stores, printed ad"
+  },
+  {
+   "id": "bjs",
+   "name": "BJ's",
+   "verdict": "limited",
+   "short": "TVs only: matches Amazon, Best Buy, Costco, Sam's, Target, Walmart",
+   "matches": [
+    "Amazon",
+    "Best Buy",
+    "BrandsMart USA",
+    "Costco",
+    "Micro Center",
+    "P.C. Richard",
+    "Sam's Club",
+    "Target",
+    "Walmart"
+   ],
+   "matchCats": [
+    "tv"
+   ],
+   "scope": "Eligible TVs only. New in box, same brand, model and color, in stock at the other store.",
+   "after": "Same day only. Requests must be made on the day you buy.",
+   "how": "In club: member services desk with the ad or competitor's webpage. Online: call 1-800-BJS-CLUB or chat.",
+   "no": [
+    "Everything except TVs",
+    "Marketplace sellers",
+    "Daily or hourly flash sales",
+    "Clearance, open-box and refurbished"
+   ],
+   "src": "BJ's",
+   "srcUrl": "https://www.bjs.com/info/price-match/",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "hint": "TVs only"
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "verdict": "own",
+   "short": "No longer matches other stores. Matches its own lower prices for 14 days",
+   "matches": [],
+   "scope": "Since July 28, 2025, Target only matches Target: a lower price at another Target, Target.com, the app or an eligible Target Circle deal.",
+   "after": "14 days after you buy, if Target's own price drops.",
+   "how": "In store: show the lower Target price (screenshots may not count). Online: chat or call 1-800-591-3869.",
+   "no": [
+    "Amazon, Walmart and every other store",
+    "Clearance",
+    "Gift card and Circle bonus offers"
+   ],
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/tips/does-target-price-match/",
+   "srcDate": "Jun 2026",
+   "also": [
+    {
+     "src": "Straight Arrow News",
+     "srcUrl": "https://san.com/cc/target-no-longer-price-matching-competitors/"
+    }
+   ]
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "verdict": "own",
+   "short": "No competitor matching. In store, matches Walmart.com prices",
+   "matches": [],
+   "scope": "In a Walmart store, staff can match a lower Walmart.com price on the identical, in-stock item. It doesn't match Amazon, Target or other stores.",
+   "after": "No price adjustments after you buy.",
+   "how": "Show the Walmart.com listing to a manager or at checkout.",
+   "no": [
+    "Other stores' prices",
+    "Marketplace sellers on Walmart.com",
+    "Price drops after purchase"
+   ],
+   "src": "GroceryChop",
+   "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies",
+   "srcDate": "2026",
+   "also": [
+    {
+     "src": "Checkbook",
+     "srcUrl": "https://www.checkbook.org/national/pricematching/"
+    }
+   ]
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "verdict": "own",
+   "short": "No competitor matching, but refunds its own price drops for 30 days",
+   "matches": [],
+   "scope": "If Costco lowers the price on something you bought, it will refund the difference. Warehouse and Costco.com prices are separate.",
+   "after": "30 days from the day you buy, while the item is still at the lower price.",
+   "how": "In the warehouse: membership counter with your card. Online: Order History, then the price adjustment form.",
+   "no": [
+    "Other stores' prices",
+    "Black Friday and special events",
+    "Gold and silver",
+    "Warehouse price for an online order (and the other way)"
+   ],
+   "src": "GroceryChop",
+   "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies",
+   "srcDate": "2026",
+   "also": [
+    {
+     "src": "Mojo Sales",
+     "srcUrl": "https://www.mojosalesandbranding.com/post/costco-price-adjustment-policy-2026-complete-guide-getting-money-back"
+    }
+   ]
+  },
+  {
+   "id": "sams-club",
+   "name": "Sam's Club",
+   "verdict": "no",
+   "short": "No competitor matching. Some clubs match other Sam's Clubs",
+   "matches": [],
+   "scope": "Sam's doesn't match other stores. Depending on the club, a manager may match a lower price at another Sam's Club.",
+   "after": "No set policy. Ask a manager.",
+   "how": "Ask a manager at the club.",
+   "no": [
+    "Other stores' prices",
+    "Clearance and markdowns from another club"
+   ],
+   "src": "Tasting Table",
+   "srcUrl": "https://www.tastingtable.com/2122620/can-you-get-a-price-match-at-sams-club/",
+   "srcDate": "2026",
+   "also": [
+    {
+     "src": "GroceryChop",
+     "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies"
+    }
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "verdict": "no",
+   "short": "Doesn't price match",
+   "matches": [],
+   "scope": "Amazon doesn't match other stores' prices or refund price drops.",
+   "after": "None.",
+   "how": "Tip: Best Buy, Home Depot, Lowe's and Staples will match Amazon's price when it's sold by Amazon.",
+   "no": [],
+   "src": "Checkbook",
+   "srcUrl": "https://www.checkbook.org/national/pricematching/",
+   "srcDate": "Oct 2025"
+  },
+  {
+   "id": "sephora",
+   "name": "Sephora",
+   "verdict": "limited",
+   "short": "Only matches full-price beauty at a few department stores",
+   "matches": [
+    "Bloomingdale's",
+    "Neiman Marcus",
+    "Nordstrom",
+    "Saks"
+   ],
+   "scope": "Non-sale in-store prices at those four stores only, at the time you buy.",
+   "after": "No price adjustments after you buy.",
+   "how": "Ask at the register.",
+   "no": [
+    "Ulta and Amazon",
+    "Sale prices"
+   ],
+   "src": "Checkbook",
+   "srcUrl": "https://www.checkbook.org/national/pricematching/",
+   "srcDate": "Oct 2025",
+   "hint": "beauty, full price"
+  },
+  {
+   "id": "ulta",
+   "name": "Ulta Beauty",
+   "verdict": "no",
+   "short": "No price match policy",
+   "matches": [],
+   "scope": "Ulta doesn't publish a price match policy.",
+   "after": "None stated.",
+   "how": "Use Ulta Rewards points and coupons instead.",
+   "no": [],
+   "src": "Checkbook",
+   "srcUrl": "https://www.checkbook.org/national/pricematching/",
+   "srcDate": "Oct 2025"
+  },
+  {
+   "id": "aldi",
+   "name": "Aldi",
+   "verdict": "no",
+   "short": "No formal policy",
+   "matches": [],
+   "scope": "No official price match. Some managers may adjust case by case.",
+   "after": "None stated.",
+   "how": "Ask the store manager.",
+   "no": [],
+   "src": "GroceryChop",
+   "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies",
+   "srcDate": "2026"
+  }
+ ]
+}

@@ -213,6 +213,10 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .t-cook .pick{margin-top:6px;font-style:italic}
 .t-cook .dish{font-family:var(--script);font-weight:700;font-size:1.85rem;line-height:1;margin-top:2px;text-wrap:balance}
 .t-cook .u b{color:var(--ink)}
+.hsearch{display:flex;gap:8px;margin-top:4px}
+.hsearch input{flex:1;min-width:0;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:11px 13px;font:inherit;font-size:1rem}
+.hsearch button{border:0;background:var(--ink);color:var(--bg);border-radius:12px;padding:0 16px;font:inherit;font-weight:600;cursor:pointer}
+.hsearch input:focus-visible,.hsearch button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .more{display:flex;flex-direction:column;gap:10px}
 .more-k{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
 .seas{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--panel);color:var(--panel-ink);border-radius:14px;padding:16px;text-decoration:none}
@@ -222,7 +226,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .seas-r{font-size:.95rem;opacity:.9;white-space:nowrap}
 .seas-r strong{font-family:var(--display);font-size:1.6rem;color:var(--tag);font-variant-numeric:tabular-nums}
 .seas-r i{font-style:normal;color:var(--tag)}
-.more-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.more-row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 .more-row a{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center;text-decoration:none;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:16px 6px;font-size:.95rem;font-weight:600;line-height:1.2;min-width:0}
 .more-row a span{font-size:1.75rem}
 .more-row small{display:block;font-size:.74rem;font-weight:500;color:var(--muted);line-height:1.25;margin-top:2px}
@@ -253,7 +257,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 <div class="wrap">
   <div class="bar">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
-    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/about/">About</a></nav>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav>
   </div>
 
   <aside class="celebrate" id="celebrate" hidden aria-label="Celebration">
@@ -277,6 +281,10 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
       <span class="tiny" id="stBot">updated daily</span>
     </a>
     <p class="lede">Clearance, groceries &amp; coupons around <b>Delaware and Philly</b>. No sign-up. No paywall.</p>
+    <form class="hsearch" action="/search/" role="search">
+      <input name="q" type="search" placeholder="Search every deal: chicken, detergent, TV…" aria-label="Search every deal">
+      <button type="submit">Search</button>
+    </form>
   </header>
 
 
@@ -322,6 +330,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
       <a href="/birthday/"><span aria-hidden="true">🎂</span>Birthday Freebies<small>Free coffee, cake &amp; more</small></a>
       <a href="/happy-hour/"><span aria-hidden="true">🍻</span>Happy Hours<small>Half-price apps near you</small></a>
       <a href="/local/"><span aria-hidden="true">📍</span>Near Me<small>In-store finds by ZIP</small></a>
+      <a href="/price-match/"><span aria-hidden="true">🤝</span>Price Match<small>Who matches whom</small></a>
     </div>
   </section>
 

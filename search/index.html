@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Search Deals · Bash's Bargains</title>
+<meta name="description" content="Search every deal on Bash's Bargains at once: online clearance, grocery sales, coupon matchups and in-store finds, with which stores will price match.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --ok:#1f8a4c; --ok-bg:#e3f4ea;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --ok:#5fd18f; --ok-bg:#16301f; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button,input{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:16px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.1rem,9.5vw,3.1rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+.box{display:flex;flex-direction:column;gap:8px}
+.box input{width:100%;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:12px 14px;font-size:1.05rem}
+.qk{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.qk button{flex:none;border:1px dashed var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:5px 11px;font-size:.82rem;cursor:pointer}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 11px;font-size:.84rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{margin:0;font-weight:600;font-size:.95rem}
+.cards{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:5px}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.kind{font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.card h3{margin:0;font-size:1.02rem;line-height:1.3}
+.meta{margin:0;color:var(--muted);font-size:.85rem}
+.price{text-align:right;flex:none}
+.price b{font-family:var(--mono);background:var(--tag);color:var(--tag-ink);border-radius:6px;padding:2px 7px;white-space:nowrap}
+.price s{display:block;font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-top:3px}
+.pm{margin:2px 0 0;font-size:.85rem;background:var(--ok-bg);color:var(--ok);border-radius:8px;padding:6px 9px}
+.pm a{color:inherit;font-weight:600}
+.go{align-self:flex-start;margin-top:4px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:.88rem;border-radius:10px;padding:7px 13px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
+.foot a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav></div>
+  <h1>Search Every Deal 🔎</h1>
+  <div class="box">
+    <input id="q" type="search" placeholder="Try chicken, detergent, TV, vacuum…" aria-label="Search all deals" autocomplete="off">
+    <div class="qk" id="qk"></div>
+    <div class="chips" role="group" aria-label="Show">
+      <button class="chip" type="button" data-k="" aria-pressed="true">Everything</button>
+      <button class="chip" type="button" data-k="online" aria-pressed="false">Online</button>
+      <button class="chip" type="button" data-k="grocery" aria-pressed="false">Grocery</button>
+      <button class="chip" type="button" data-k="coupon" aria-pressed="false">Coupons</button>
+      <button class="chip" type="button" data-k="instore" aria-pressed="false">In-store</button>
+    </div>
+  </div>
+  <p class="count" id="count" aria-live="polite"></p>
+  <div class="cards" id="list"></div>
+  <p class="foot">Searches this week's clearance, grocery ads, coupon matchups and in-store finds all at once. Price match notes come from the <a href="/price-match/">Price Match Cheat Sheet</a>; always confirm with the store. <a href="/about/">About Bash's Bargains</a>.</p>
+</div>
+<script>
+(function(){
+var $=function(id){return document.getElementById(id)};
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+function money(n){return "$"+Number(n).toFixed(2)}
+var ALL=[],COMP={},kind="",q="";
+var KLAB={online:"Online clearance",grocery:"Grocery sale",coupon:"Coupon matchup",instore:"In-store find"};
+var SEARCH={"amazon":"https://www.amazon.com/s?k=","walmart":"https://www.walmart.com/search?q=","target":"https://www.target.com/s?searchTerm=","home depot":"https://www.homedepot.com/s/","lowe's":"https://www.lowes.com/search?searchTerm=","best buy":"https://www.bestbuy.com/site/searchpage.jsp?st=","kohl's":"https://www.kohls.com/search.jsp?search=","costco":"https://www.costco.com/CatalogSearch?keyword=","sam's club":"https://www.samsclub.com/s/","bj's":"https://www.bjs.com/search/","ulta beauty":"https://www.ulta.com/search?search=","sephora":"https://www.sephora.com/search?keyword=","wayfair":"https://www.wayfair.com/keyword.php?keyword=","ebay":"https://www.ebay.com/sch/i.html?_nkw="};
+function norm(t){return String(t||"").toLowerCase().replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(Boolean).map(function(w){return w.length>3&&/es$/.test(w)&&!/ses$/.test(w)?w.slice(0,-2):(w.length>3&&/s$/.test(w)?w.slice(0,-1):w)})}
+function hit(d,words){var hay=norm(d.item+" "+d.store+" "+(d.notes||""));return words.every(function(w){return hay.some(function(h){return h.indexOf(w)===0})})}
+function j(u){return fetch(u+"?v="+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null})}
+function today(){var d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function pmNote(d){
+  if(d.kind!=="online"&&d.kind!=="instore")return null;
+  var who=(COMP[d.store]||[]).filter(function(s){return !s.matchCats||/\btv\b|television/i.test(d.item)});
+  if(!who.length)return null;
+  return "🤝 "+who.map(function(s){return s.name+(s.hint?" ("+s.hint+")":"")}).join(", ")+" may match this "+d.store+" price. Not for clearance or marketplace sellers.";
+}
+function render(){
+  var list=$("list");list.textContent="";var words=norm(q);
+  if(!words.length){$("count").textContent="";list.appendChild(el("p","empty","Type what you're shopping for and I'll check every deal on the site at once."));return}
+  var rows=ALL.filter(function(d){return (!kind||d.kind===kind)&&hit(d,words)}).sort(function(a,b){return a.sort-b.sort});
+  $("count").textContent=rows.length?rows.length+(rows.length===1?" deal":" deals")+" for “"+q.trim()+"”, cheapest first":"No deals for “"+q.trim()+"” right now";
+  if(!rows.length){list.appendChild(el("p","empty","Nothing matches yet. Try a simpler word, like “vacuum” instead of “cordless stick vacuum.”"));return}
+  rows.slice(0,80).forEach(function(d){
+    var c=el("article","card"),top=el("div","top"),l=el("div");
+    l.appendChild(el("span","kind",KLAB[d.kind]));l.appendChild(el("h3",null,d.item));l.appendChild(el("p","meta",d.store+(d.meta?" · "+d.meta:"")));
+    var p=el("div","price");p.appendChild(el("b",null,d.priceText));if(d.was)p.appendChild(el("s",null,money(d.was)));
+    top.appendChild(l);top.appendChild(p);c.appendChild(top);
+    if(d.notes)c.appendChild(el("p","meta",d.notes));
+    var pm=pmNote(d);if(pm){var n=el("p","pm");n.appendChild(document.createTextNode(pm+" "));var a=el("a",null,"How it works");a.href="/price-match/";n.appendChild(a);c.appendChild(n)}
+    if(d.href){var g=el("a","go",d.go);g.href=d.href;if(/^https?:/.test(d.href)){g.target="_blank";g.rel="noopener"}c.appendChild(g)}
+    list.appendChild(c)});
+}
+Promise.all([j("/deals/deals.json"),j("/grocery/grocery.json"),j("/coupons/coupons.json"),j("/local/finds.json"),j("/price-match/stores.json")]).then(function(r){
+  var now=Date.now(),t=today();
+  ((r[0]&&r[0].deals)||[]).forEach(function(d){if(d.expires&&d.expires<=now)return;var base=SEARCH[String(d.store).toLowerCase()];
+    ALL.push({kind:"online",item:d.item,store:d.store,priceText:money(d.price),was:d.was>d.price?d.was:0,notes:d.notes,sort:d.price,meta:"Online",
+      href:d.url||(base?base+encodeURIComponent(d.item):"/deals/"),go:d.url?"View at "+d.store+" →":(base?"Find it at "+d.store+" →":"See on Clearance →")})});
+  ((r[1]&&r[1].stores)||[]).forEach(function(s){if(s.kind!=="deals"||(s.adEnd&&s.adEnd<t))return;var soon=s.adStart&&s.adStart>t;
+    (s.deals||[]).forEach(function(d){ALL.push({kind:"grocery",item:d.item,store:s.name,priceText:d.price>0?money(d.price)+(d.unit||""):(d.off?money(d.off)+" off":"Sale"),was:d.was>d.price?d.was:0,notes:[d.coupon?"✂ "+d.coupon:"",d.notes||""].filter(Boolean).join(" · "),sort:d.price>0?d.price:999,meta:soon?"Ad starts "+s.adStart.slice(5).replace("-","/"):"In store",href:"/grocery/",go:"See grocery deals →"})})});
+  ((r[2]&&r[2].matchups)||[]).forEach(function(m){if(m.ends&&m.ends<t)return;
+    ALL.push({kind:"coupon",item:m.item,store:m.store,priceText:m.final===0?"FREE":money(m.final)+" each",was:0,notes:(m.per?m.per+" · ":"")+"after sale, coupons and rewards",sort:m.final,meta:m.ends?"Thru "+m.ends.slice(5).replace("-","/"):"",href:"/coupons/",go:"See the steps →"})});
+  ((r[3]&&r[3].finds)||[]).forEach(function(f){if(now-f.at>7*864e5)return;
+    ALL.push({kind:"instore",item:f.item,store:f.store,priceText:f.price>0?money(f.price):"See notes",was:f.was>f.price?f.was:0,notes:f.notes,sort:f.price>0?f.price:999,meta:f.loc||"In store",href:"/local/",go:"See Near Me →"})});
+  ((r[4]&&r[4].stores)||[]).forEach(function(s){(s.matches||[]).forEach(function(m){(COMP[m]=COMP[m]||[]).push(s)})});
+  ["Chicken","Detergent","Toothpaste","Eggs","Vacuum","TV","Coffee"].forEach(function(w){var b=el("button",null,w);b.type="button";b.onclick=function(){$("q").value=w;q=w;render();upd()};$("qk").appendChild(b)});
+  var init=new URLSearchParams(location.search).get("q")||"";$("q").value=init;q=init;render();
+});
+function upd(){try{var u=new URL(location.href);if(q.trim())u.searchParams.set("q",q.trim());else u.searchParams.delete("q");history.replaceState(null,"",u)}catch(e){}}
+var tm;$("q").addEventListener("input",function(){clearTimeout(tm);tm=setTimeout(function(){q=$("q").value;render();upd()},150)});
+document.querySelectorAll("[data-k]").forEach(function(b){b.addEventListener("click",function(){kind=b.getAttribute("data-k");document.querySelectorAll("[data-k]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
+})();
+</script>
+<script src="/season.js" defer></script>
+</body>
+</html>
