@@ -1,6 +1,26 @@
 {
- "updated": 1791978831298,
+ "updated": 1791979279734,
  "deals": [
+  {
+   "id": "wawa-5-sizzli-meal",
+   "chain": "Wawa",
+   "cat": "Breakfast",
+   "offer": "$5 Sizzli Meal: breakfast sandwich + coffee or fountain drink",
+   "how": "Any Sizzli breakfast sandwich (including the new Pancake Sizzli) with a hot or iced coffee or a fountain drink, at Wawa stores. Order at the kiosk or counter.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just order the $5 Sizzli Meal.",
+   "start": "2026-09-08",
+   "ends": "2026-10-25",
+   "link": "https://www.wawa.com/menu/promotions",
+   "linkText": "See Wawa's deals",
+   "official": false,
+   "src": "NACS",
+   "srcUrl": "https://convenience.org/stay-current/news/2026/september/8/wawa-taps-nfl-player-to-announce-$5-sizzli-meal",
+   "checked": "2026-10-14"
+  },
   {
    "id": "shake-shack-cheeseburger",
    "chain": "Shake Shack",
