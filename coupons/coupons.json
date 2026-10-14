@@ -1,5 +1,5 @@
 {
- "updated": 1791780127741,
+ "updated": 1791974801572,
  "matchups": [
   {
    "id": "cvs-colgate-optic-white",
@@ -70,6 +70,10 @@
     {
      "src": "I Heart CVS",
      "srcUrl": "https://www.iheartcvs.com/2026/10/1011-1024.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
     }
    ]
   },
@@ -282,7 +286,17 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Beauty"
+   "cat": "Beauty",
+   "also": [
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
   },
   {
    "id": "wag-freezer-bags",
@@ -306,6 +320,14 @@
     {
      "src": "I Heart Wags",
      "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
     }
    ]
   },
@@ -335,6 +357,14 @@
     {
      "src": "I Heart Wags",
      "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
     }
    ]
   },
@@ -363,7 +393,17 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Personal care"
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
   },
   {
    "id": "wag-quiteclean-brushes",
@@ -386,7 +426,13 @@
    "ends": "2026-10-17",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
-   "cat": "Personal care"
+   "cat": "Personal care",
+   "also": [
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
   },
   {
    "id": "wag-trash-bags",
@@ -410,6 +456,10 @@
     {
      "src": "I Heart Wags",
      "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
     }
    ]
   },
@@ -431,7 +481,17 @@
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
    "cat": "Laundry & cleaning",
-   "per": "11¢ a load"
+   "per": "11¢ a load",
+   "also": [
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    },
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
   },
   {
    "id": "wag-colgate-total-brushes",
@@ -993,6 +1053,10 @@
     {
      "src": "The Krazy Coupon Lady",
      "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+    },
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/upcoming-cvs-ad/"
     }
    ],
    "src": "I Heart CVS",
@@ -1015,11 +1079,21 @@
     {
      "t": "rewards",
      "x": "Get $5 in rewards back"
+    },
+    {
+     "t": "coupon",
+     "x": "Clip any $1-off P&G laundry coupons in the app (exp 10/24) to bring it closer to $2.74 each"
     }
    ],
    "ends": "2026-10-17",
    "src": "I Heart Wags",
-   "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+   "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html",
+   "also": [
+    {
+     "src": "Hip2Save",
+     "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+    }
+   ]
   },
   {
    "id": "sr-polar-seltzer",
@@ -1264,6 +1338,351 @@
    "ends": "2026-10-17",
    "src": "Living Rich With Coupons",
    "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-10-11-2.html"
+  },
+  {
+   "id": "wag-dove-hair",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Dove shampoo or conditioner",
+   "buy": 2,
+   "pay": 6.0,
+   "final": 0.5,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5 each, buy 2"
+    },
+    {
+     "t": "coupon",
+     "x": "$4 off 2 (Walgreens app coupon)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Walgreens Cash back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "also": [
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
+  },
+  {
+   "id": "wag-tresemme",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "TRESemmé shampoo or conditioner",
+   "buy": 2,
+   "pay": 8.0,
+   "final": 1.5,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6 each, buy 2"
+    },
+    {
+     "t": "coupon",
+     "x": "$4 off 2 (Walgreens app coupon)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Walgreens Cash back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "also": [
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
+  },
+  {
+   "id": "wag-dawn-ez-squeeze",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Dawn Platinum or Ultra EZ-Squeeze dish soap, 18 oz",
+   "buy": 1,
+   "pay": 1.99,
+   "final": 1.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$3.99 (regularly $4.99)"
+    },
+    {
+     "t": "coupon",
+     "x": "$2 off 1 (Walgreens app coupon)"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "also": [
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
+  },
+  {
+   "id": "wag-all-laundry",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "all laundry detergent (select sizes)",
+   "buy": 1,
+   "pay": 2.99,
+   "final": 2.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.99 (regularly $8.99)"
+    },
+    {
+     "t": "coupon",
+     "x": "$2 off 1 (Walgreens app coupon, ends 10/17)"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+  },
+  {
+   "id": "wag-febreze-small-spaces",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Febreze Small Spaces bathroom air freshener",
+   "buy": 1,
+   "pay": 1.49,
+   "final": 1.49,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$3.49 (regularly $4.99)"
+    },
+    {
+     "t": "coupon",
+     "x": "$2 off 1 (Walgreens app coupon, ends 10/17)"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+  },
+  {
+   "id": "wag-charmin-bounty-puffs",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Paper & kitchen",
+   "item": "Charmin Mega, Bounty Double Plus, Bounty Essentials and Puffs (one of each)",
+   "buy": 4,
+   "pay": 13.46,
+   "final": 3.37,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5.49 each, buy 4"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 Charmin + $1 Bounty + $0.50 Bounty Essentials + $1 Puffs (app coupons)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Register Rewards back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "DealMama",
+   "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+  },
+  {
+   "id": "wag-mucinex-drops",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Mucinex InstaSoothe drops, 40 ct",
+   "buy": 2,
+   "pay": 9.0,
+   "final": 2.0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "2 for $11"
+    },
+    {
+     "t": "coupon",
+     "x": "$2 off 1 (Walgreens app coupon)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Walgreens Cash back"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "also": [
+    {
+     "src": "DealMama",
+     "srcUrl": "https://dealmama.com/2026/10/walgreens-best-deals-10-11-10-17/"
+    }
+   ]
+  },
+  {
+   "id": "wag-loreal-kohl",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Beauty",
+   "item": "L'Oréal Kohl pencil eyeliner",
+   "buy": 2,
+   "pay": 3.98,
+   "final": 1.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$7.99, buy 1 get 1 50% off"
+    },
+    {
+     "t": "coupon",
+     "x": "$6 off 2 plus $2 off 2 myWalgreens coupon"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+  },
+  {
+   "id": "wag-dial-body-wash",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Dial body wash 16 oz or bar soap 3-pack",
+   "buy": 1,
+   "pay": 2.5,
+   "final": 2.5,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4 (regularly $5.79+)"
+    },
+    {
+     "t": "coupon",
+     "x": "$1.50 off 1 (Walgreens app coupon, ends 10/17)"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/"
+  },
+  {
+   "id": "wag-kelloggs-cereal",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Food",
+   "item": "Kellogg's cereal",
+   "buy": 3,
+   "pay": 5.99,
+   "final": 2.0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5.99, buy 1 get 2 free"
+    }
+   ],
+   "ends": "2026-10-17",
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/walgreens-weekly-ad/",
+   "also": [
+    {
+     "src": "I Heart Wags",
+     "srcUrl": "https://www.iheartwags.com/2026/10/1011-1017.html"
+    }
+   ]
+  },
+  {
+   "id": "wmt-tylenol-8hr",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Personal care",
+   "item": "Tylenol 8 HR Arthritis caplets, 24 ct",
+   "buy": 1,
+   "pay": 4.47,
+   "final": 0.27,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.47"
+    },
+    {
+     "t": "rewards",
+     "x": "$2 back in Walmart Cash"
+    },
+    {
+     "t": "rebate",
+     "x": "$2.20 back on Fetch"
+    }
+   ],
+   "checked": "2026-10-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-king-arthur-roll-mix",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "King Arthur golden roll & bun mix, 16 oz",
+   "buy": 1,
+   "pay": 3.96,
+   "final": 0.96,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$3.96"
+    },
+    {
+     "t": "rewards",
+     "x": "$3 back in Walmart Cash"
+    }
+   ],
+   "checked": "2026-10-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-dial-hand-soap",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Personal care",
+   "item": "Dial liquid hand soap, 7.5 oz (2 bottles in one pack)",
+   "buy": 2,
+   "pay": 2.48,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$2.48 for the 2-pack"
+    },
+    {
+     "t": "rewards",
+     "x": "$0.50 back in Walmart Cash"
+    }
+   ],
+   "checked": "2026-10-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
   }
  ],
  "clip": [
