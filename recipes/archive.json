@@ -1,0 +1,870 @@
+{
+ "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
+ "recipes": [
+  {
+   "id": "meal-sticky-drumsticks",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky soy-ginger drumsticks with garlicky broccoli",
+   "serves": 4,
+   "total": 6,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Perdue chicken drumsticks",
+     "store": "Aldi",
+     "price": 0.89,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.88,
+     "unit": "/lb"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "soy sauce",
+    "honey",
+    "garlic",
+    "ground ginger",
+    "sriracha",
+    "sesame oil",
+    "rice vinegar",
+    "rice",
+    "olive oil"
+   ],
+   "steps": [
+    "Whisk ¼ cup soy sauce, ¼ cup honey, 4 minced garlic cloves, 1 tsp ginger, 1 Tbsp sriracha, 1 Tbsp rice vinegar and 1 tsp sesame oil. Toss 3 lb drumsticks in half of it.",
+    "Bake on a foil-lined sheet at 425°F for 35–40 minutes, turning once, until 165°F (175°F+ is even more tender).",
+    "Simmer the remaining sauce 2–3 minutes until syrupy and brush over the chicken; broil 2 minutes to caramelize.",
+    "Roast 2 lb broccoli florets with 2 Tbsp oil, 2 sliced garlic cloves and salt at 425°F for 15 minutes. Serve with rice and sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-meatball-bake",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Spicy garlic meatball pasta bake",
+   "serves": 6,
+   "total": 13.5,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Restaurant-style meatballs, 20 oz",
+     "store": "Aldi",
+     "price": 5.99
+    },
+    {
+     "item": "Priano bronze-cut pasta, 16 oz",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "Seasoned grated Parmesan, 8 oz",
+     "store": "Aldi",
+     "price": 2.95
+    },
+    {
+     "item": "Shredded cheese, family size 32 oz",
+     "store": "Lidl",
+     "price": 4.99
+    }
+   ],
+   "pantry": [
+    "canned crushed tomatoes (28 oz)",
+    "garlic",
+    "Italian seasoning",
+    "red pepper flakes",
+    "sugar",
+    "olive oil",
+    "salt"
+   ],
+   "steps": [
+    "Boil 1 lb pasta 2 minutes short of the package time; drain.",
+    "In a large oven-safe skillet, warm 2 Tbsp olive oil with 5 sliced garlic cloves and ½ tsp red pepper flakes for 1 minute. Add a 28 oz can crushed tomatoes, 2 tsp Italian seasoning, 1 tsp sugar and ½ tsp salt; simmer 10 minutes.",
+    "Add the 20 oz meatballs and simmer 10 minutes until heated to 165°F. Stir in the pasta and ⅓ cup Parmesan.",
+    "Top with 2 cups shredded cheese and bake at 400°F for 15 minutes until bubbly and browned."
+   ]
+  },
+  {
+   "id": "meal-pumpkin-chili",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky pumpkin beef chili",
+   "serves": 6,
+   "total": 15,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "73% lean ground beef, 5 lb pack",
+     "store": "Aldi",
+     "price": 4.29,
+     "unit": "/lb"
+    },
+    {
+     "item": "Canned pumpkin, 15 oz",
+     "store": "Aldi",
+     "price": 1.59
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "Shredded cheese, family size 32 oz",
+     "store": "Lidl",
+     "price": 4.99
+    },
+    {
+     "item": "2 cans kidney or black beans"
+    },
+    {
+     "item": "sour cream (optional)"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "cinnamon",
+    "canned diced tomatoes",
+    "beef bouillon",
+    "brown sugar",
+    "hot sauce"
+   ],
+   "steps": [
+    "Brown 2 lb ground beef with 1 diced red onion until cooked to 160°F; drain off most of the fat.",
+    "Add 4 minced garlic cloves, 3 Tbsp chili powder, 2 tsp cumin, 2 tsp smoked paprika and ¼ tsp cinnamon; stir 1 minute until fragrant.",
+    "Add a can of pumpkin, a can of diced tomatoes, 2 cans drained beans, 1 cup water with 1 tsp beef bouillon, 1 Tbsp brown sugar and a few dashes of hot sauce.",
+    "Simmer 25–30 minutes; season with salt. Top with shredded cheese, sour cream and more red onion."
+   ]
+  },
+  {
+   "id": "meal-next-boursin-grits",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sausage with Boursin cheesy grits and garlicky greens",
+   "serves": 4,
+   "total": 13,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Jimmy Dean pork sausage patties, 24 ct",
+     "store": "Costco"
+    },
+    {
+     "item": "Boursin cheese variety pack, 3 x 5.3 oz",
+     "store": "Costco"
+    },
+    {
+     "item": "quick grits"
+    },
+    {
+     "item": "1 bunch kale or a bag of spinach"
+    }
+   ],
+   "pantry": [
+    "butter",
+    "garlic",
+    "chicken broth",
+    "red pepper flakes",
+    "hot sauce",
+    "salt and pepper",
+    "olive oil"
+   ],
+   "steps": [
+    "Bring 2 cups broth and 2 cups water to a boil; whisk in 1 cup quick grits and cook 5–7 minutes, stirring.",
+    "Stir in a 5.3 oz Boursin, 2 Tbsp butter and plenty of pepper until creamy.",
+    "Cook 8 sausage patties in a skillet 3–4 minutes a side until 160°F; set aside.",
+    "In the same pan, sauté chopped greens with 3 sliced garlic cloves and a pinch of red pepper flakes until wilted. Serve over the grits with the sausage and a few dashes of hot sauce."
+   ]
+  },
+  {
+   "id": "meal-greek-thighs",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lemon-oregano chicken thighs with blistered tomatoes",
+   "serves": 4,
+   "total": 11,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Boneless skinless chicken thighs",
+     "store": "Aldi",
+     "price": 2.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Tomatoes on the vine",
+     "store": "Lidl",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "dried oregano",
+    "smoked paprika",
+    "red pepper flakes",
+    "red wine vinegar",
+    "salt and pepper",
+    "rice or orzo"
+   ],
+   "steps": [
+    "Marinate 2½ lb chicken thighs at least 15 minutes in 3 Tbsp olive oil, zest and juice of 1 lemon, 4 minced garlic cloves, 2 tsp oregano, 1 tsp smoked paprika, ¼ tsp red pepper flakes and 1½ tsp salt.",
+    "Spread on a sheet pan with 1 lb halved tomatoes and 1 red onion cut into wedges.",
+    "Roast at 425°F for 22–25 minutes until the chicken hits 165°F and the tomatoes burst.",
+    "Splash 1 Tbsp red wine vinegar over the pan juices, stir, and spoon everything over rice or orzo."
+   ]
+  },
+  {
+   "id": "meal-next-hot-honey-chicken",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Hot-honey crispy chicken sandwiches with spicy mayo",
+   "serves": 4,
+   "total": 13,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Tyson crispy chicken strips, 3 lb (frozen)",
+     "store": "Costco"
+    },
+    {
+     "item": "Hellmann's Real Mayonnaise, 64 oz",
+     "store": "Costco",
+     "price": 6.99
+    },
+    {
+     "item": "brioche or potato buns"
+    },
+    {
+     "item": "shredded lettuce"
+    }
+   ],
+   "pantry": [
+    "honey",
+    "hot sauce",
+    "red pepper flakes",
+    "garlic powder",
+    "smoked paprika",
+    "dill pickle chips",
+    "butter"
+   ],
+   "steps": [
+    "Bake about 1½ lb crispy chicken strips at 400°F for 18–20 minutes until crisp and 165°F.",
+    "Warm ⅓ cup honey with 2 Tbsp hot sauce and ½ tsp red pepper flakes for 1 minute; toss with the hot chicken.",
+    "Stir ½ cup mayo with 1 Tbsp hot sauce, ½ tsp garlic powder and ½ tsp smoked paprika.",
+    "Butter and toast the buns, spread with spicy mayo, and stack lettuce, chicken and pickles."
+   ]
+  },
+  {
+   "id": "meal-next-potsticker-soup",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Ginger-garlic potsticker soup",
+   "serves": 4,
+   "total": 12,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Ling Ling chicken & vegetable potstickers, 4.2 lb",
+     "store": "Costco"
+    },
+    {
+     "item": "Swanson less-sodium chicken broth, 6 x 32 oz",
+     "store": "Costco"
+    },
+    {
+     "item": "baby bok choy or spinach"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "ground ginger",
+    "soy sauce",
+    "rice vinegar",
+    "sesame oil",
+    "chili crisp or sriracha"
+   ],
+   "steps": [
+    "Simmer 8 cups chicken broth with 4 sliced garlic cloves, 1 tsp ginger (or 1 Tbsp fresh) and 2 Tbsp soy sauce for 5 minutes.",
+    "Add about 24 frozen potstickers and simmer 6–8 minutes until heated through to 165°F.",
+    "Stir in chopped bok choy or spinach for the last 2 minutes, then 1 Tbsp rice vinegar and 1 tsp sesame oil.",
+    "Serve topped with green onions and a spoonful of chili crisp or sriracha."
+   ]
+  },
+  {
+   "id": "meal-garlic-herb-pork-loin",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Garlic-herb butter pork loin with pan gravy",
+   "serves": 6,
+   "total": 12.5,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Smithfield half boneless pork loin",
+     "store": "Lidl",
+     "price": 1.79,
+     "unit": "/lb"
+    },
+    {
+     "item": "Irish butter, 8 oz",
+     "store": "Lidl",
+     "price": 2.49
+    },
+    {
+     "item": "Progresso broth, 32 oz",
+     "store": "ShopRite",
+     "price": 1.16
+    },
+    {
+     "item": "5 lb bag potatoes"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "dried thyme",
+    "dried rosemary",
+    "Dijon mustard",
+    "flour",
+    "salt and pepper",
+    "olive oil"
+   ],
+   "steps": [
+    "Mash 3 Tbsp soft butter with 4 minced garlic cloves, 1 tsp thyme, 1 tsp crushed rosemary, 1 Tbsp Dijon, 1½ tsp salt and 1 tsp pepper. Rub all over a 3 lb pork loin.",
+    "Sear in an oiled oven-safe skillet on all sides, then roast at 375°F for 40–50 minutes until 145°F. Rest 10 minutes.",
+    "Meanwhile boil peeled potatoes 15–18 minutes and mash with butter and salt.",
+    "For gravy, whisk 2 Tbsp flour into the pan drippings over medium heat for 1 minute, then whisk in 2 cups broth and simmer until thick. Slice the pork and spoon gravy over everything."
+   ]
+  },
+  {
+   "id": "meal-carnitas-tacos",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy citrus pork carnitas tacos with pickled red onions",
+   "serves": 6,
+   "total": 14.5,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Smithfield pork butt roast",
+     "store": "Aldi",
+     "price": 1.39,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "Hass avocados",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "corn or flour tortillas"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "cilantro"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "cumin",
+    "chili powder",
+    "dried oregano",
+    "brown sugar",
+    "salt and pepper",
+    "orange juice or 1 orange",
+    "apple cider vinegar",
+    "sugar"
+   ],
+   "steps": [
+    "Cut a 3.5 lb pork butt into 2-inch chunks. Rub with 1 Tbsp cumin, 1 Tbsp chili powder, 2 tsp oregano, 1 Tbsp brown sugar, 2 tsp salt and 6 smashed garlic cloves.",
+    "Put in a Dutch oven with ½ cup orange juice and the juice of 1 lime. Cover and bake at 300°F for 3–3½ hours until fork-tender (well past the 145°F safe temp).",
+    "Meanwhile, thinly slice 1 red onion and cover with ½ cup cider vinegar, ½ cup hot water, 1 Tbsp sugar and 1 tsp salt; let sit 30 minutes.",
+    "Shred the pork, spread on a sheet pan, spoon over some juices and broil 4–5 minutes until the edges crisp.",
+    "Pile into warm tortillas with sliced avocado, pickled onions, cilantro and lime wedges."
+   ]
+  },
+  {
+   "id": "meal-pumpkin-tortellini",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Brown-butter pumpkin cream tortellini (meatless)",
+   "serves": 4,
+   "total": 11.5,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Specially Selected tortellini, 6.5 oz",
+     "store": "Aldi",
+     "price": 2.49
+    },
+    {
+     "item": "Canned pumpkin, 15 oz",
+     "store": "Aldi",
+     "price": 1.59
+    },
+    {
+     "item": "Heavy whipping cream, 32 oz",
+     "store": "Lidl",
+     "price": 3.49
+    },
+    {
+     "item": "Seasoned grated Parmesan, 8 oz",
+     "store": "Aldi",
+     "price": 2.95
+    },
+    {
+     "item": "Irish butter, 8 oz",
+     "store": "Lidl",
+     "price": 2.49
+    },
+    {
+     "item": "fresh sage (or 1 tsp dried)"
+    },
+    {
+     "item": "1 extra package of tortellini (2 total)"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "nutmeg",
+    "red pepper flakes",
+    "vegetable broth or bouillon",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Cook 2 packages tortellini per the package; save ½ cup pasta water.",
+    "Melt 4 Tbsp butter until nutty and golden, 3–4 minutes, with 8 sage leaves (crisp them, then lift out). Add 3 minced garlic cloves for 30 seconds.",
+    "Whisk in 1 cup pumpkin, ¾ cup heavy cream, ½ cup broth, ¼ tsp nutmeg, ¼ tsp red pepper flakes, ½ tsp salt and plenty of pepper; simmer 3 minutes.",
+    "Toss in the tortellini with ½ cup Parmesan, loosening with pasta water. Top with the crispy sage."
+   ]
+  },
+  {
+   "id": "meal-blackened-salmon",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Blackened salmon with honey-lime butter and apple slaw",
+   "serves": 4,
+   "total": 14,
+   "week": "2026-10-14",
+   "ingredients": [
+    {
+     "item": "Fresh Atlantic salmon fillet",
+     "store": "ShopRite",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Honeycrisp apples",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "Irish butter, 8 oz",
+     "store": "Lidl",
+     "price": 2.49
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "small bag coleslaw mix"
+    }
+   ],
+   "pantry": [
+    "smoked paprika",
+    "garlic powder",
+    "onion powder",
+    "dried thyme",
+    "cayenne",
+    "brown sugar",
+    "honey",
+    "mayonnaise",
+    "apple cider vinegar",
+    "rice"
+   ],
+   "steps": [
+    "Mix 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder, thyme and brown sugar, ¼ tsp cayenne and 1 tsp salt. Pat 1½ lb salmon dry and coat the tops.",
+    "Sear seasoned-side down in a hot oiled cast-iron skillet 3 minutes, flip and cook 3–4 more until it reaches 145°F.",
+    "Stir together 3 Tbsp soft butter, 1 tsp honey and the zest and juice of 1 lime; spoon over the hot salmon.",
+    "Toss coleslaw mix with 1 thinly sliced Honeycrisp, a little thin-sliced red onion, 3 Tbsp mayo, 1 Tbsp cider vinegar and a pinch of salt. Serve with rice."
+   ]
+  },
+  {
+   "id": "meal-honey-garlic-chicken",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky honey-garlic chicken over rice",
+   "serves": 4,
+   "total": 5.5,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Chicken tenderloins",
+     "store": "Aldi",
+     "price": 2.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "soy sauce",
+    "honey",
+    "garlic",
+    "ginger (fresh or ground)",
+    "cornstarch",
+    "rice",
+    "sriracha (optional)"
+   ],
+   "steps": [
+    "Toss 1.5 lb chicken tenders with 1 Tbsp cornstarch and a pinch of salt.",
+    "Sear in a hot oiled skillet until golden, 3–4 minutes a side.",
+    "Stir together ⅓ cup honey, ¼ cup soy sauce, 4 minced garlic cloves, ½ tsp ginger and a squeeze of sriracha. Pour it in and simmer 2–3 minutes until glossy and the chicken hits 165°F.",
+    "Serve over rice and top with sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-chipotle-tacos",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky chicken tacos with quick-pickled onions",
+   "serves": 4,
+   "total": 10.5,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Chicken tenderloins",
+     "store": "Aldi",
+     "price": 2.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "Mini avocados, 6 ct",
+     "store": "Aldi",
+     "price": 2.89
+    },
+    {
+     "item": "Shredded taco cheese, 12 oz",
+     "store": "Aldi",
+     "price": 2.79
+    },
+    {
+     "item": "tortillas"
+    },
+    {
+     "item": "1 lime"
+    }
+   ],
+   "pantry": [
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "garlic powder",
+    "vinegar",
+    "sugar",
+    "sour cream or mayo"
+   ],
+   "steps": [
+    "Thinly slice a red onion and cover with ½ cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
+    "Rub 1.5 lb chicken tenders with 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, plus salt.",
+    "Sear 3–4 minutes a side until 165°F, then slice.",
+    "Mash 2 mini avocados with lime juice, salt and a spoon of sour cream for a quick crema.",
+    "Pile into warm tortillas with cheese, pickled onions and the avocado crema."
+   ]
+  },
+  {
+   "id": "meal-sausage-apple-skillet",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sausage & apple skillet with cider-mustard sauce",
+   "serves": 4,
+   "total": 7.0,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Mild Italian sausage links, 19 oz",
+     "store": "Aldi",
+     "price": 2.95
+    },
+    {
+     "item": "Granny Smith apples, 3 lb bag",
+     "store": "Aldi",
+     "price": 2.99
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    }
+   ],
+   "pantry": [
+    "mustard",
+    "apple cider vinegar",
+    "brown sugar",
+    "dried thyme",
+    "butter",
+    "potatoes or rice"
+   ],
+   "steps": [
+    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160°F).",
+    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6–8 minutes.",
+    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, ½ tsp thyme and a splash of water to make a glossy sauce.",
+    "Serve with roasted potatoes or over rice."
+   ]
+  },
+  {
+   "id": "meal-salmon-broccoli",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lemon-garlic butter salmon with roasted broccoli",
+   "serves": 4,
+   "total": 17.5,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Fresh Atlantic salmon fillet",
+     "store": "ShopRite",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.88,
+     "unit": "/lb"
+    },
+    {
+     "item": "1 lemon (optional)"
+    }
+   ],
+   "pantry": [
+    "butter",
+    "garlic",
+    "lemon juice",
+    "smoked paprika",
+    "garlic powder",
+    "red pepper flakes",
+    "rice or potatoes"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Toss 1.5 lb broccoli florets with oil, garlic powder, salt and a pinch of pepper flakes; roast 15 minutes.",
+    "Season 1.5 lb salmon with salt, pepper and ½ tsp smoked paprika. Push the broccoli to the side and add the salmon to the pan.",
+    "Melt 3 Tbsp butter with 3 minced garlic cloves and 1 Tbsp lemon juice; spoon over the salmon.",
+    "Roast 10–12 minutes, until the salmon flakes easily and reaches 145°F. Serve with rice or potatoes."
+   ]
+  },
+  {
+   "id": "meal-korean-beef-bowls",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Korean-style ground beef rice bowls",
+   "serves": 5,
+   "total": 8.5,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "80% lean ground beef, 2 lb",
+     "store": "Lidl",
+     "price": 7.99
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    },
+    {
+     "item": "green onions"
+    },
+    {
+     "item": "cucumber (optional)"
+    }
+   ],
+   "pantry": [
+    "soy sauce",
+    "brown sugar",
+    "garlic",
+    "ginger",
+    "sesame oil",
+    "red pepper flakes",
+    "rice",
+    "eggs (optional)"
+   ],
+   "steps": [
+    "Brown 2 lb ground beef with a chopped red onion; drain the fat.",
+    "Stir in 4 minced garlic cloves and 1 tsp ginger and cook 1 minute.",
+    "Add ⅓ cup soy sauce, ¼ cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2–3 minutes.",
+    "Serve over rice with green onions, sliced cucumber and a fried egg on top if you like."
+   ]
+  },
+  {
+   "id": "meal-crispy-tofu",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy sesame tofu fried rice",
+   "serves": 4,
+   "total": 5.0,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Organic extra firm tofu, 14 oz",
+     "store": "Aldi",
+     "price": 1.49
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "cornstarch",
+    "soy sauce",
+    "honey",
+    "garlic",
+    "sesame oil",
+    "eggs",
+    "day-old rice",
+    "frozen mixed vegetables"
+   ],
+   "steps": [
+    "Press the tofu for 10 minutes, cube it, toss with 2 Tbsp cornstarch and a pinch of salt.",
+    "Pan-fry in oil until crispy on all sides, then toss with 1 Tbsp soy sauce and 1 Tbsp honey. Set aside.",
+    "In the same pan, scramble 2 eggs, then add frozen veggies, garlic and 3 cups cold rice. Fry until hot.",
+    "Season with soy sauce and a drizzle of sesame oil, fold the tofu back in, and top with green onions."
+   ]
+  },
+  {
+   "id": "meal-tuscan-cavatappi",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Creamy garlic-tomato chicken cavatappi",
+   "serves": 5,
+   "total": 9.0,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Cavatappi pasta, 16 oz",
+     "store": "Aldi",
+     "price": 1.29
+    },
+    {
+     "item": "Chicken tenderloins",
+     "store": "Aldi",
+     "price": 2.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Tomatoes on the vine",
+     "store": "Lidl",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Heavy whipping cream, 32 oz",
+     "store": "Lidl",
+     "price": 3.49
+    },
+    {
+     "item": "Shredded cheese, family size 32 oz",
+     "store": "Lidl",
+     "price": 4.99
+    },
+    {
+     "item": "a bag of spinach (optional)"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "Italian seasoning",
+    "red pepper flakes",
+    "chicken broth or bouillon",
+    "butter"
+   ],
+   "steps": [
+    "Cook the pasta; save a cup of pasta water.",
+    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165°F. Set aside.",
+    "In the same pan, cook 5 minced garlic cloves and a pinch of red pepper flakes for 30 seconds, then add 3 chopped tomatoes and cook until they slump.",
+    "Add 1 cup cream and ½ cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
+    "Toss in the pasta, chicken and a handful of spinach. Loosen with pasta water as needed."
+   ]
+  },
+  {
+   "id": "meal-cider-dijon-pork",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Brown-sugar Dijon pork loin with roasted pears",
+   "serves": 6,
+   "total": 10.0,
+   "week": "2026-10-11",
+   "ingredients": [
+    {
+     "item": "Smithfield half boneless pork loin",
+     "store": "Lidl",
+     "price": 1.79,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bartlett pears, 3 lb",
+     "store": "Lidl",
+     "price": 3.29
+    },
+    {
+     "item": "Red onions, 2 lb",
+     "store": "Lidl",
+     "price": 1.59
+    }
+   ],
+   "pantry": [
+    "Dijon or yellow mustard",
+    "brown sugar",
+    "garlic",
+    "dried thyme",
+    "apple cider vinegar"
+   ],
+   "steps": [
+    "Heat oven to 400°F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
+    "Brown a 3 lb piece of pork loin on all sides in an oven-safe pan, then spread the mustard glaze over the top.",
+    "Scatter quartered pears and onion wedges around it and roast 35–45 minutes, until the pork reads 145°F.",
+    "Rest 10 minutes. Splash a little cider vinegar into the pan juices, stir, and spoon over the sliced pork and pears."
+   ]
+  }
+ ]
+}

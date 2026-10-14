@@ -100,7 +100,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
   <header>
     <p class="eyebrow">What's Cooking, Bash?</p>
     <h1>Saved Recipes</h1>
-    <p class="lede">Tap ♡ on any recipe to keep it. It saves right on your phone, no account needed, and stays here after the sale ends.</p>
+    <p class="lede">Tap ♡ on any recipe to keep it. It saves right on your phone, no account needed, and stays here after the sale ends. Every past week's recipes live under All recipes.</p>
   </header>
 
   <div class="follow">
@@ -117,6 +117,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     <button role="tab" id="t-week" aria-selected="true" data-tab="week">This week</button>
     <button role="tab" id="t-saved" aria-selected="false" data-tab="saved">My saved <span class="count" id="savedN">0</span></button>
     <button role="tab" id="t-picks" aria-selected="false" data-tab="picks">Bash's picks</button>
+    <button role="tab" id="t-all" aria-selected="false" data-tab="all">All recipes <span class="count" id="allN">0</span></button>
   </div>
 
   <div class="tools">
@@ -132,7 +133,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
 (function(){
   const KEY="bbSavedRecipes", LIVE="https://bashsbargains.github.io/recipes/";
   const TYPES=["All","Breakfast","Dinner","Sides","Sweets"];
-  let picks=[], meals=[], saved=[], tab="week", type="All", q="";
+  let picks=[], meals=[], archive=[], saved=[], tab="week", type="All", q="";
   try{saved=JSON.parse(localStorage.getItem(KEY)||"[]")}catch(e){saved=[]}
   const store=()=>{try{localStorage.setItem(KEY,JSON.stringify(saved))}catch(e){}};
   const $=id=>document.getElementById(id);
@@ -175,11 +176,15 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     </details>`;
   }
 
-  const all=()=>picks.concat(meals);
+  /* Every recipe ever posted: Bash's picks, this week's meals, then past weeks from the archive (newest copy wins) */
+  function everything(){const seen={},out=[];picks.concat(meals,archive).forEach(r=>{if(!seen[r.id]){seen[r.id]=1;out.push(r)}});
+    return out.sort((a,b)=>(b.week||"").localeCompare(a.week||""))}
+  const all=()=>everything();
   const find=id=>all().find(r=>r.id===id)||saved.find(r=>r.id===id);
   function source(){
     if(tab==="saved")return saved;
     if(tab==="picks")return picks;
+    if(tab==="all")return everything();
     const cur=picks[0]?[picks[0]]:[];
     return cur.concat(meals);
   }
@@ -191,6 +196,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
   }
   function render(){
     $("savedN").textContent=saved.length;
+    $("allN").textContent=everything().length;
     $("disclaim").hidden=tab!=="saved";
     document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab));
     $("types").innerHTML=TYPES.map(t=>`<button type="button" aria-pressed="${t===type}" data-type="${t}">${t}</button>`).join("");
@@ -223,8 +229,10 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
 
   Promise.all([
     fetch("/recipes/recipes.json",{cache:"no-store"}).then(r=>r.ok?r.json():{recipes:[]}).catch(()=>({recipes:[]})),
-    fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
-  ]).then(([p,g])=>{
+    fetch("/grocery/grocery.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null),
+    fetch("/recipes/archive.json",{cache:"no-store"}).then(r=>r.ok?r.json():{recipes:[]}).catch(()=>({recipes:[]}))
+  ]).then(([p,g,a])=>{
+    archive=(a.recipes||[]);
     picks=(p.recipes||[]).map(r=>Object.assign({kind:"pick"},r)).sort((a,b)=>b.week.localeCompare(a.week));
     if(g){const deals={},starts=[];
       g.stores.forEach(s=>{(s.deals||[]).forEach(d=>deals[d.id]=Object.assign({store:s.name},d));if(s.adStart)starts.push(s.adStart)});
@@ -232,6 +240,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
       meals=(g.meals||[]).map(m=>fromMeal(m,deals,start));}
     const hash=location.hash.slice(1);
     if(hash&&!source().some(r=>r.id===hash)&&saved.some(r=>r.id===hash))tab="saved";
+    else if(hash&&!source().some(r=>r.id===hash)&&archive.some(r=>r.id===hash))tab="all";
     render();
     const el=hash&&document.getElementById(hash);if(el)el.scrollIntoView({block:"start"});
   });
