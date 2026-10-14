@@ -147,6 +147,12 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
 .nav-more>div a:hover{background:var(--bg)}
   .nutri{font-size:.85em;opacity:.8;margin-top:2px}
+.mtop{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.heart{font:inherit;font-size:1.25rem;line-height:1;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:50%;width:44px;height:44px;flex:none;cursor:pointer}
+.heart[aria-pressed="true"]{color:var(--hot);border-color:var(--hot)}
+.savedlink{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px;color:var(--ink);text-decoration:none;font-weight:600}
+.savedlink span:last-child{color:var(--accent);font-size:.9rem}
+.savedlink b{color:var(--hot)}
 </style>
 </head>
 <body>
@@ -193,6 +199,17 @@ function status(s){
   if(s.adEnd)return{k:"live",label:"On now",text:(s.adStart?fmt(s.adStart)+" – ":"")+"thru "+fmt(s.adEnd)};
   return{k:"live",label:"On now",text:s.adNote||""};
 }
+/* Saved recipes share the same phone storage as /recipes/, so a heart here shows up under My saved there */
+const RKEY="bbSavedRecipes";
+function rLoad(){try{return JSON.parse(localStorage.getItem(RKEY)||"[]")}catch(e){return[]}}
+function rStore(a){try{localStorage.setItem(RKEY,JSON.stringify(a))}catch(e){}}
+function mealRecipe(m,idx){const u=new Date(data.updated||Date.now()),wk=u.getFullYear()+"-"+String(u.getMonth()+1).padStart(2,"0")+"-"+String(u.getDate()).padStart(2,"0");
+  const used=m.uses.map(x=>idx[x]).filter(Boolean),t=new Date(),ts=t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+  return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,cal:m.cal,protein:m.protein,week:wk,
+    soon:used.map(d=>d.storeObj.adStart).filter(s=>s&&s>ts).sort()[0]||null,
+    ingredients:used.map(d=>({item:d.item,store:d.store,price:d.price,unit:d.unit,off:d.off})).concat((m.buy||[]).map(b=>({item:b}))),
+    pantry:m.pantry||[],steps:m.steps||[]}}
+function savedLink(){const n=rLoad().length;const a=document.createElement("a");a.className="savedlink";a.href="/recipes/";a.innerHTML=`<span>♥ My saved recipes${n?` <b>${n}</b>`:""}</span><span>Past weeks &amp; Bash's picks →</span>`;return a}
 function toast(msg){const t=$("toast");t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,1800)}
 /* "This week" tabs only show ads running now; ads that haven't started live on the Next week tab */
 function dealStores(){return data.stores.filter(s=>s.kind==="deals"&&status(s).k!=="soon")}
@@ -315,7 +332,7 @@ function nextMeals(idx){return (data.meals||[]).filter(m=>m.uses.every(u=>idx[u]
 function renderMeals(next){
   const P=next||$("p-meals");if(!next)P.innerHTML="";
   const idx=mealIndex();
-  if(!next){const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples. Planning ahead? See the Next week tab.";P.appendChild(intro)}
+  if(!next){P.appendChild(savedLink());const intro=document.createElement("p");intro.className="note";intro.textContent="Meal ideas built around this week's sales. Each one uses spices and sauces most kitchens already have. Costs are rough estimates for the whole meal and don't count pantry staples. Planning ahead? See the Next week tab.";P.appendChild(intro)}
   const meals=next?nextMeals(idx):(data.meals||[]).filter(m=>m.uses.every(u=>idx[u]&&idx[u].st.k==="live"));
   if(!meals.length){if(!next)P.insertAdjacentHTML("beforeend",'<div class="empty">New meal ideas are added with each update.</div>');return}
   /* A meal is "coming up" when any of its sale items is from an ad that hasn't started yet */
@@ -342,7 +359,12 @@ function renderMeals(next){
     else{p=document.createElement("p");p.textContent=m.how||""}
     const b=document.createElement("button");b.type="button";b.className="btn";b.textContent="+ Add sale items to my list";
     b.onclick=()=>{let n=0;m.uses.forEach(u=>{if(!inList(u)){const d=idx[u];list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});n++}});save();toast(n?`Added ${n} item${n>1?"s":""} to your list`:"Already on your list")};
-    c.append(h,cost,nutri,lab(st?"On sale from "+fmt(st):"On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
+    const top=document.createElement("div");top.className="mtop";
+    const hb=document.createElement("button");hb.type="button";hb.className="heart";
+    const paint=()=>{const on=rLoad().some(r=>r.id===m.id);hb.textContent=on?"♥":"♡";hb.setAttribute("aria-pressed",on);hb.setAttribute("aria-label",on?"Remove from saved recipes":"Save recipe")};paint();
+    hb.onclick=()=>{let a=rLoad();if(a.some(r=>r.id===m.id)){a=a.filter(r=>r.id!==m.id);toast("Removed from saved recipes")}else{a.unshift(Object.assign(mealRecipe(m,idx),{savedAt:Date.now()}));toast("Saved! Find it under My saved recipes")}rStore(a);paint();const sl=document.querySelector(".savedlink");if(sl)sl.replaceWith(savedLink())};
+    top.append(h,hb);
+    c.append(top,cost,nutri,lab(st?"On sale from "+fmt(st):"On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
   }
 }
 
