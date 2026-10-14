@@ -56,13 +56,32 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
 .foot a{color:var(--accent)}
 .disclaim{font-size:.8rem;color:var(--muted);margin:0;padding-left:10px;border-left:3px solid var(--tag)}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
+
+/* Eats tabs (shared with the Eats page) */
+.eats-tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.eats-tabs::-webkit-scrollbar{display:none}
+.eats-tabs a{flex:none;display:flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:.88rem;font-weight:600;white-space:nowrap}
+.eats-tabs a[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/" aria-current="page">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/" aria-current="page">Eats</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
 
   <h1>Birthday Freebies 🎂</h1>
+  <nav class="eats-tabs" aria-label="Eats sections"><a href="/eats/">Restaurant deals</a><a href="/eats/#delivery">Delivery apps</a><a href="/happy-hour/">Happy Hours</a><a href="/birthday/" aria-current="page">Birthday Freebies</a></nav>
   <p class="intro">Your birthday should come with free stuff. Here are the best birthday freebies worth signing up for. Tap the box on each one after you join, and this page will remember your progress on your phone.</p>
 
   <section class="tips">

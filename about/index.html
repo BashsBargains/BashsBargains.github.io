@@ -41,11 +41,23 @@ section p{margin:0 0 10px}
 section p:last-child{margin-bottom:0}
 a{color:var(--accent)}
 .btn{display:inline-block;background:var(--tag);color:var(--tag-ink);font-weight:600;text-decoration:none;padding:10px 16px;border-radius:999px}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/" aria-current="page">About</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/">Eats</a><a href="/local/">Near Me</a><details class="nav-more cur"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/" aria-current="page">About</a></div></details></nav></div>
 
   <h1>About Bash's Bargains</h1>
   <p class="intro">Hi, I'm Bash 👋 By day I'm a Respiratory Therapist. By night (and apparently between patients) I'm a deal hunter.</p>

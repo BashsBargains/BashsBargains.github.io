@@ -98,11 +98,23 @@ h2.sec{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:8px 0
 .kv a{color:var(--accent)}
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin:0}
 .foot a{color:var(--accent)}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/" aria-current="page">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/">Eats</a><a href="/local/">Near Me</a><details class="nav-more cur"><summary>More</summary><div><a href="/holiday/" aria-current="page">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
 
   <section class="panel" aria-label="Countdown">
     <p class="eyebrow">Holiday deal hub</p>

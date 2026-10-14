@@ -1,0 +1,147 @@
+{
+ "updated": 1791978831298,
+ "deals": [
+  {
+   "id": "shake-shack-cheeseburger",
+   "chain": "Shake Shack",
+   "cat": "Burgers",
+   "offer": "Free Single Cheeseburger with a $10+ order",
+   "how": "Order at the kiosk, in the Shake Shack app or on their website (pickup or Shake Shack's own delivery). The free burger doesn't count toward the $10. Not valid at the drive-thru or on DoorDash/Uber Eats.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery"
+   ],
+   "code": "SCARYGOOD",
+   "start": "2026-10-12",
+   "ends": "2026-10-18",
+   "link": "https://shakeshack.com/",
+   "linkText": "Go to Shake Shack",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "shake-shack-shackburger",
+   "chain": "Shake Shack",
+   "cat": "Burgers",
+   "offer": "Free ShackBurger with a $10+ order",
+   "how": "Same code, new burger. Kiosk, app or website only, one free burger per order. Not valid at the drive-thru or on third-party delivery apps.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery"
+   ],
+   "code": "SCARYGOOD",
+   "start": "2026-10-19",
+   "ends": "2026-10-31",
+   "link": "https://shakeshack.com/",
+   "linkText": "Go to Shake Shack",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "wendys-wed-nuggets",
+   "chain": "Wendy's",
+   "cat": "Chicken",
+   "offer": "Free 6-piece nuggets with a $5 purchase",
+   "how": "Wednesdays. Find it in the Offers tab of the Wendy's app and add it to your order.",
+   "where": [
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Tap it in the Wendy's app's Offers tab.",
+   "repeat": "Every Wednesday",
+   "link": "https://www.wendys.com/deals",
+   "linkText": "See Wendy's deals",
+   "official": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "wendys-fri-fries",
+   "chain": "Wendy's",
+   "cat": "Burgers",
+   "offer": "Free fries, any size, with a $5 purchase",
+   "how": "Fridays. Find it in the Offers tab of the Wendy's app and add it to your order.",
+   "where": [
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Tap it in the Wendy's app's Offers tab.",
+   "repeat": "Every Friday",
+   "link": "https://www.wendys.com/deals",
+   "linkText": "See Wendy's deals",
+   "official": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "wendys-3-off-20",
+   "chain": "Wendy's",
+   "cat": "Burgers",
+   "offer": "$3 off a $20+ order",
+   "how": "Good for feeding the whole family. Find it in the Offers tab of the Wendy's app. Coupons can't be combined on one order.",
+   "where": [
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Tap it in the Wendy's app's Offers tab.",
+   "repeat": "Limited time",
+   "link": "https://www.wendys.com/deals",
+   "linkText": "See Wendy's deals",
+   "official": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "bertuccis-two-for-tuesday",
+   "chain": "Bertucci's",
+   "cat": "Pizza",
+   "offer": "Buy one pizza, get one free",
+   "how": "Two For Tuesday. There's a Bertucci's at Christiana. Mention the deal when you order and ask your location for the fine print.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just ask for Two For Tuesday.",
+   "repeat": "Every Tuesday",
+   "link": "https://www.bertuccis.com/specials",
+   "linkText": "See Bertucci's specials",
+   "official": true,
+   "checked": "2026-10-14"
+  },
+  {
+   "id": "outback-kids-eat-free",
+   "chain": "Outback Steakhouse",
+   "cat": "Family",
+   "offer": "Kids eat free",
+   "how": "Mondays, dining in. Participation can vary by location, so call ahead. Not valid on third-party delivery.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Ask your server for Kids Eat Free Monday.",
+   "repeat": "Every Monday",
+   "link": "https://www.outback.com/specials",
+   "linkText": "See Outback specials",
+   "official": true,
+   "checked": "2026-10-14"
+  }
+ ],
+ "apps": [],
+ "holidays": [
+  {
+   "name": "Halloween",
+   "date": "2026-10-31"
+  },
+  {
+   "name": "National Sandwich Day",
+   "date": "2026-11-03"
+  },
+  {
+   "name": "National Fast Food Day",
+   "date": "2026-11-16"
+  }
+ ]
+}

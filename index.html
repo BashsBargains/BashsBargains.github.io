@@ -251,13 +251,27 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 .wb-l span{font-size:.82rem;color:var(--muted)}
 .wootbar i{font-style:normal;font-size:1.2rem;color:var(--accent);flex:none}
 .wootbar:hover{border-style:solid}
+.more-row .eats-tile{grid-column:1 / -1;border:1.5px solid var(--ink);box-shadow:inset 0 5px 0 var(--tag);font-size:1.05rem}
+.more-row .eats-tile small{font-size:.8rem}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="bar">
     <a class="mark" href="/"><img src="/favicon.svg" alt="" width="30" height="30">Bash's Bargains</a>
-    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav>
+    <nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/">Eats</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav>
   </div>
 
   <aside class="celebrate" id="celebrate" hidden aria-label="Celebration">
@@ -327,8 +341,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
       <span class="seas-r"><strong id="bfDays">–</strong> <span id="bfLabel">days to go</span> <i aria-hidden="true">→</i></span>
     </a>
     <div class="more-row">
-      <a href="/birthday/"><span aria-hidden="true">🎂</span>Birthday Freebies<small>Free coffee, cake &amp; more</small></a>
-      <a href="/happy-hour/"><span aria-hidden="true">🍻</span>Happy Hours<small>Half-price apps near you</small></a>
+      <a class="eats-tile" href="/eats/"><span aria-hidden="true">🍔</span>Eats Deals<small>Restaurant deals, happy hours &amp; birthday freebies</small></a>
       <a href="/local/"><span aria-hidden="true">📍</span>Near Me<small>In-store finds by ZIP</small></a>
       <a href="/price-match/"><span aria-hidden="true">🤝</span>Price Match<small>Who matches whom</small></a>
     </div>
@@ -349,7 +362,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
     <p class="sub">BASH'S BARGAINS · DE · PHILLY · ONLINE</p>
     <hr>
     <div class="ln"><span>Deals, coupons &amp; meals</span><span class="dots"></span><span class="v">updated daily</span></div>
-    <div class="ln"><span>Sign-up</span><span class="dots"></span><span class="v">none</span></div>
+    <div class="ln"><span>Sign-up needed</span><span class="dots"></span><span class="v">no</span></div>
     <hr>
     <div class="ln total"><span>You pay</span><span class="dots"></span><span class="v">$0.00</span></div>
     <p class="barcode" aria-hidden="true"></p>

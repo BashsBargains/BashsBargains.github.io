@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Eats Deals · Bash's Bargains</title>
+<meta name="description" content="Restaurant deals Bash has checked: dine-in, pickup, app and delivery offers around Delaware and Philly, with happy hours and birthday freebies.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
+<meta property="og:title" content="Eats Deals · Bash's Bargains">
+<meta property="og:description" content="Restaurant deals Bash has checked, with when they end and how to get them.">
+<meta property="og:url" content="https://bashsbargains.github.io/eats/">
+<meta property="og:image" content="https://bashsbargains.github.io/og/fall.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --hot:#d93a25; --ok:#1f8a4c; --ok-bg:#e3f4ea; --soon:#b42318; --soon-bg:#fde8e6; --panel:#18213a; --panel-ink:#f3f4f7;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --ok:#5fd18f; --ok-bg:#16301f; --soon:#ff9b8f; --soon-bg:#3a1c1a; --panel:#232a3b; --panel-ink:#f3f4f7; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --hot:#ff7a63; --ok:#5fd18f; --ok-bg:#16301f; --soon:#ff9b8f; --soon-bg:#3a1c1a; --panel:#232a3b; --panel-ink:#f3f4f7; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button,input{font:inherit;color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap;align-items:center}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+.intro{background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:16px;margin:0}
+.lab{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.finder{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.search{position:relative}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.search input{width:100%;border:1.5px solid var(--ink);background:var(--bg);border-radius:12px;padding:11px 12px 11px 40px;font-size:1rem}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:7px 13px;font-size:.88rem;cursor:pointer;white-space:nowrap;min-height:40px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{font-size:.88rem;font-weight:600;margin:0}
+.cards{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:9px}
+.card.later{border-style:dashed}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.chain{display:flex;gap:6px;align-items:center;flex-wrap:wrap;font-size:.85rem;font-weight:600;color:var(--hot)}
+.how-tag{font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:1px 6px;color:var(--muted)}
+.card h3{margin:2px 0 0;font-family:var(--display);font-weight:800;font-size:1.25rem;line-height:1.15}
+.badge{flex:none;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:3px 9px;background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok);white-space:nowrap}
+.badge.soon{background:var(--soon-bg);color:var(--soon);border-color:var(--soon)}
+.badge.later{background:var(--bg);color:var(--muted);border-color:var(--line)}
+.how{margin:0;color:var(--muted);font-size:.92rem}
+.code{display:flex;gap:8px}
+.code span{flex:1;min-width:0;display:flex;align-items:center;border:2px dashed var(--hot);border-radius:10px;padding:0 12px;min-height:44px;font-family:var(--mono);font-weight:600;font-size:1.02rem;letter-spacing:.06em;overflow-wrap:anywhere}
+.code button{flex:none;width:92px;min-height:44px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;font-weight:600;cursor:pointer}
+.code button.done{background:var(--ok);border-color:var(--ok);color:#fff}
+.ask{margin:0;display:flex;gap:8px;align-items:center;background:var(--ok-bg);color:var(--ok);border-radius:10px;padding:10px 12px;font-weight:600;font-size:.92rem}
+.go{display:flex;align-items:center;justify-content:center;gap:6px;min-height:46px;border-radius:10px;background:var(--tag);color:var(--tag-ink);text-decoration:none;font-weight:600}
+.go:hover{text-decoration:underline}
+.src{margin:0;font-size:.8rem;color:var(--muted);display:flex;gap:4px;flex-wrap:wrap;align-items:center}
+.src b{color:var(--ok);font-weight:600}
+.src a{color:var(--muted)}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
+.empty a{color:var(--accent);font-weight:600}
+.panel{background:var(--panel);color:var(--panel-ink);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.panel .lab{color:var(--tag);margin:0}
+.panel p{margin:0;opacity:.85;font-size:.92rem}
+.hol{display:flex;flex-direction:column;gap:6px}
+.hol div{display:flex;justify-content:space-between;gap:10px;background:rgba(255,255,255,.08);border-radius:10px;padding:9px 12px}
+.hol b{font-weight:600}
+.hol span{font-family:var(--mono);color:var(--tag);white-space:nowrap}
+.tips{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.tips h2{font-family:var(--display);font-weight:800;font-size:1.2rem;margin:0 0 8px}
+.tips p{margin:6px 0}
+.tips a{color:var(--accent);font-weight:600}
+.apps{display:flex;flex-direction:column;gap:10px}
+.app{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-decoration:none;color:var(--ink)}
+.app b{font-family:var(--display);font-weight:800;font-size:1.1rem}
+.app span{display:block;font-size:.85rem;color:var(--muted)}
+.app i{font-style:normal;color:var(--accent);flex:none}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
+.foot a{color:var(--accent)}
+/* Eats tabs (shared with Happy Hours and Birthday Freebies) */
+.eats-tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;margin:-4px 0 0;scrollbar-width:none}
+.eats-tabs::-webkit-scrollbar{display:none}
+.eats-tabs a,.eats-tabs button{flex:none;display:flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:.88rem;font-weight:600;cursor:pointer;white-space:nowrap}
+.eats-tabs [aria-current="page"],.eats-tabs [aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* More menu */
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important}
+.nav-more>div a:hover{background:var(--bg)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/" aria-current="page">Eats</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
+
+  <h1>Eats Deals 🍔</h1>
+  <nav class="eats-tabs" aria-label="Eats sections" role="tablist">
+    <button type="button" role="tab" id="tabDeals" aria-selected="true" aria-controls="paneDeals">Restaurant deals</button>
+    <button type="button" role="tab" id="tabApps" aria-selected="false" aria-controls="paneApps">Delivery apps</button>
+    <a href="/happy-hour/">Happy Hours</a>
+    <a href="/birthday/">Birthday Freebies</a>
+  </nav>
+
+  <section id="paneDeals" role="tabpanel" aria-labelledby="tabDeals" style="display:flex;flex-direction:column;gap:18px">
+    <p class="intro">Dine-in, pickup, app and delivery deals from restaurants around Delaware and Philly. I check each one and show when it ends. Expired deals come off on their own.</p>
+
+    <section class="finder" aria-label="Find a deal">
+      <div class="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input id="q" type="search" placeholder="Search a restaurant or food" aria-label="Search restaurant deals">
+      </div>
+      <div class="chips" role="group" aria-label="How you get it">
+        <button class="chip" type="button" data-how="" aria-pressed="true">Any way</button>
+        <button class="chip" type="button" data-how="In store" aria-pressed="false">In store</button>
+        <button class="chip" type="button" data-how="Pickup" aria-pressed="false">Pickup</button>
+        <button class="chip" type="button" data-how="Delivery" aria-pressed="false">Delivery</button>
+        <button class="chip" type="button" data-how="App" aria-pressed="false">In the app</button>
+      </div>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="cards" id="list"></div>
+
+    <section class="panel" aria-label="Food holidays">
+      <p class="lab">Food holidays to watch</p>
+      <p>Chains save some of their best deals for these days. I post them the morning they drop.</p>
+      <div class="hol" id="hol"></div>
+    </section>
+  </section>
+
+  <section id="paneApps" role="tabpanel" aria-labelledby="tabApps" hidden style="flex-direction:column;gap:18px">
+    <p class="intro">Delivery apps give most of their codes privately, so everyone sees different offers. When I find a public code that works for everyone, it goes here.</p>
+    <div class="cards" id="appList"></div>
+    <section class="tips">
+      <p class="lab">Save on delivery</p>
+      <h2>Before you order</h2>
+      <p><b>Check the app's own Offers tab.</b> DoorDash, Uber Eats and Grubhub all show deals picked for you there.</p>
+      <p><b>Try the restaurant's own app too.</b> Deals like Shake Shack's free burger work on the restaurant's own delivery but not on DoorDash or Uber Eats.</p>
+      <p><b>Watch the fees.</b> Menu prices on delivery apps are often higher than in the restaurant, so a code doesn't always mean a deal.</p>
+    </section>
+    <div class="apps">
+      <a class="app" href="https://www.doordash.com/promos/" target="_blank" rel="noopener"><span><b>DoorDash</b><span>Promos for your address</span></span><i aria-hidden="true">↗</i></a>
+      <a class="app" href="https://www.ubereats.com/" target="_blank" rel="noopener"><span><b>Uber Eats</b><span>Open the app's Offers tab</span></span><i aria-hidden="true">↗</i></a>
+      <a class="app" href="https://www.grubhub.com/" target="_blank" rel="noopener"><span><b>Grubhub</b><span>Open the app's Perks tab</span></span><i aria-hidden="true">↗</i></a>
+    </div>
+  </section>
+
+  <section class="tips">
+    <p class="lab">Good to know</p>
+    <h2>Before you go</h2>
+    <p><b>Most deals are at participating locations.</b> Restaurants are often owned locally, so call ahead or check your location's page.</p>
+    <p><b>App codes usually need you signed in.</b> Many are one use per account.</p>
+    <p><b>Did a code work, or not?</b> Tell the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers Facebook group</a> so I can update it, or share a deal you found.</p>
+  </section>
+
+  <p class="foot">Each deal shows where I confirmed it and when. Deals marked "from their own page" were checked on the restaurant's site. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
+</div>
+<script>
+(function(){
+var DEALS=[],APPS=[],how="",q="";
+var list=document.getElementById("list"),countEl=document.getElementById("count");
+function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
+function today(){var t=new Date();return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0")}
+function loc(s){var p=s.split("-").map(Number);return new Date(p[0],p[1]-1,p[2])}
+function short(s){return loc(s).toLocaleDateString("en-US",{month:"short",day:"numeric"})}
+function daysTo(s){var t=new Date();t.setHours(0,0,0,0);return Math.round((loc(s)-t)/864e5)}
+function live(d){var t=today();if(d.ends&&d.ends<t)return false;if(!d.ends&&d.checked&&daysTo(d.checked)<-21)return false;return true}
+function badge(d){var t=today();
+  if(d.start&&d.start>t)return {cls:"later",txt:"Starts "+short(d.start)};
+  if(d.ends){var n=daysTo(d.ends);if(n===0)return {cls:"soon",txt:"Ends tonight"};if(n===1)return {cls:"soon",txt:"Ends tomorrow"};if(n<=3)return {cls:"soon",txt:"Ends "+short(d.ends)};return {cls:"",txt:"Ends "+short(d.ends)}}
+  return {cls:"",txt:d.repeat||"Ongoing"}}
+function matches(d){if(how&&(d.where||[]).indexOf(how)<0)return false;if(!q)return true;var hay=(d.chain+" "+d.offer+" "+(d.cat||"")+" "+d.how).toLowerCase();return q.split(/\s+/).every(function(w){return hay.indexOf(w)>=0})}
+function card(d){
+  var b=badge(d),c=el("article","card"+(b.cls==="later"?" later":""));
+  var top=el("div","top"),l=el("div"),ch=el("div","chain");ch.appendChild(el("span",null,d.chain));(d.where||[]).forEach(function(w){ch.appendChild(el("span","how-tag",w==="App"?"In the app":w))});
+  l.appendChild(ch);l.appendChild(el("h3",null,d.offer));top.appendChild(l);top.appendChild(el("span","badge"+(b.cls?" "+b.cls:""),b.txt));c.appendChild(top);
+  c.appendChild(el("p","how",d.how));
+  if(d.code){var row=el("div","code"),cs=el("span",null,d.code),btn=el("button",null,"Copy");btn.type="button";btn.setAttribute("aria-label","Copy code "+d.code);
+    btn.addEventListener("click",function(){var done=function(){btn.textContent="Copied!";btn.classList.add("done");setTimeout(function(){btn.textContent="Copy";btn.classList.remove("done")},2000)};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(d.code).then(done,function(){})}else{var r=document.createRange();r.selectNodeContents(cs);var s=getSelection();s.removeAllRanges();s.addRange(r);try{document.execCommand("copy");done()}catch(e){}}});
+    row.appendChild(cs);row.appendChild(btn);c.appendChild(row)}
+  else if(d.ask){c.appendChild(el("p","ask",d.ask))}
+  var go=el("a","go",(d.linkText||"Go to "+d.chain)+" ↗");go.href=d.link;go.target="_blank";go.rel="noopener";c.appendChild(go);
+  var src=el("p","src");src.appendChild(el("b",null,"✓ Checked by Bash "+short(d.checked)));src.appendChild(document.createTextNode(" · "));
+  if(d.official){src.appendChild(document.createTextNode("from their own page"))}else{src.appendChild(document.createTextNode("source: "));var a=el("a",null,d.src);a.href=d.srcUrl;a.target="_blank";a.rel="noopener";src.appendChild(a)}
+  c.appendChild(src);return c}
+function render(){
+  list.textContent="";var t=today();
+  var rows=DEALS.filter(live).filter(matches);
+  rows.sort(function(a,b){var la=a.start&&a.start>t,lb=b.start&&b.start>t;if(la!==lb)return la?1:-1;var ea=a.ends||"9999",eb=b.ends||"9999";return ea.localeCompare(eb)||a.chain.localeCompare(b.chain)});
+  countEl.textContent=rows.length?(rows.length+(rows.length===1?" deal":" deals")+" · ending soonest first"):"";
+  if(!rows.length){var e=el("p","empty");
+    if(q){e.appendChild(document.createTextNode("No verified deal for “"+q+"” right now. I only post codes that actually work. Seen one? "));var a=el("a",null,"Ask the Price Bashers");a.href="https://www.facebook.com/share/g/1HJanBf4zM/";a.target="_blank";a.rel="noopener";e.appendChild(a);e.appendChild(document.createTextNode("."))}
+    else e.textContent="No deals match that filter right now. Try “Any way.”";
+    list.appendChild(e);return}
+  rows.forEach(function(d){list.appendChild(card(d))});
+}
+function renderApps(){var box=document.getElementById("appList");box.textContent="";var rows=APPS.filter(live);
+  if(!rows.length){box.appendChild(el("p","empty","No public delivery app codes I could confirm right now. I'll add them here when I find one that works for everyone."));return}
+  rows.forEach(function(d){box.appendChild(card(d))})}
+function renderHol(j){var box=document.getElementById("hol"),t=today();(j||[]).filter(function(h){return h.date>=t}).slice(0,3).forEach(function(h){var r=el("div");r.appendChild(el("b",null,h.name));r.appendChild(el("span",null,short(h.date)));box.appendChild(r)});
+  if(!box.children.length)box.parentNode.hidden=true}
+document.querySelectorAll("[data-how]").forEach(function(b){b.addEventListener("click",function(){how=b.getAttribute("data-how");document.querySelectorAll("[data-how]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
+var qIn=document.getElementById("q");qIn.addEventListener("input",function(){q=qIn.value.trim().toLowerCase();render()});
+var params=new URLSearchParams(location.search);if(params.get("q")){qIn.value=params.get("q");q=qIn.value.trim().toLowerCase()}
+var tD=document.getElementById("tabDeals"),tA=document.getElementById("tabApps"),pD=document.getElementById("paneDeals"),pA=document.getElementById("paneApps");
+function show(apps){tD.setAttribute("aria-selected",apps?"false":"true");tA.setAttribute("aria-selected",apps?"true":"false");pD.hidden=apps;pA.hidden=!apps;pA.style.display=apps?"flex":"";if(history.replaceState)history.replaceState(null,"",apps?"#delivery":location.pathname+location.search)}
+tD.addEventListener("click",function(){show(false)});tA.addEventListener("click",function(){show(true)});
+if(location.hash==="#delivery")show(true);
+fetch("/eats/eats.json?v="+Date.now()).then(function(r){return r.json()}).then(function(j){DEALS=j.deals||[];APPS=j.apps||[];render();renderApps();renderHol(j.holidays)}).catch(function(){list.appendChild(el("p","empty","Couldn't load deals right now. Please refresh."))});
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
+})();
+</script>
+<script src="/season.js" defer></script>
+</body>
+</html>

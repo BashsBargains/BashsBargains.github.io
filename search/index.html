@@ -56,11 +56,23 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.1rem,9.5vw,3.1re
 .empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px;margin:0;color:var(--muted)}
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
 .foot a{color:var(--accent)}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/local/">Near Me</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/holiday/">Black Friday</a><a href="/birthday/">Birthday</a><a href="/happy-hour/">Happy Hour</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/">Eats</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
   <h1>Search Every Deal 🔎</h1>
   <div class="box">
     <input id="q" type="search" placeholder="Try chicken, detergent, TV, vacuum…" aria-label="Search all deals" autocomplete="off">
@@ -71,11 +83,12 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.1rem,9.5vw,3.1re
       <button class="chip" type="button" data-k="grocery" aria-pressed="false">Grocery</button>
       <button class="chip" type="button" data-k="coupon" aria-pressed="false">Coupons</button>
       <button class="chip" type="button" data-k="instore" aria-pressed="false">In-store</button>
+      <button class="chip" type="button" data-k="eats" aria-pressed="false">Eats</button>
     </div>
   </div>
   <p class="count" id="count" aria-live="polite"></p>
   <div class="cards" id="list"></div>
-  <p class="foot">Searches this week's clearance, grocery ads, coupon matchups and in-store finds all at once. Price match notes come from the <a href="/price-match/">Price Match Cheat Sheet</a>; always confirm with the store. <a href="/about/">About Bash's Bargains</a>.</p>
+  <p class="foot">Searches this week's clearance, grocery ads, coupon matchups, in-store finds and restaurant deals all at once. Price match notes come from the <a href="/price-match/">Price Match Cheat Sheet</a>; always confirm with the store. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
 <script>
 (function(){
@@ -83,7 +96,7 @@ var $=function(id){return document.getElementById(id)};
 function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
 function money(n){return "$"+Number(n).toFixed(2)}
 var ALL=[],COMP={},kind="",q="";
-var KLAB={online:"Online clearance",grocery:"Grocery sale",coupon:"Coupon matchup",instore:"In-store find"};
+var KLAB={online:"Online clearance",grocery:"Grocery sale",coupon:"Coupon matchup",instore:"In-store find",eats:"Restaurant deal"};
 var SEARCH={"amazon":"https://www.amazon.com/s?k=","walmart":"https://www.walmart.com/search?q=","target":"https://www.target.com/s?searchTerm=","home depot":"https://www.homedepot.com/s/","lowe's":"https://www.lowes.com/search?searchTerm=","best buy":"https://www.bestbuy.com/site/searchpage.jsp?st=","kohl's":"https://www.kohls.com/search.jsp?search=","costco":"https://www.costco.com/CatalogSearch?keyword=","sam's club":"https://www.samsclub.com/s/","bj's":"https://www.bjs.com/search/","ulta beauty":"https://www.ulta.com/search?search=","sephora":"https://www.sephora.com/search?keyword=","wayfair":"https://www.wayfair.com/keyword.php?keyword=","ebay":"https://www.ebay.com/sch/i.html?_nkw="};
 function norm(t){return String(t||"").toLowerCase().replace(/[^a-z0-9 ]+/g," ").split(/\s+/).filter(Boolean).map(function(w){return w.length>3&&/es$/.test(w)&&!/ses$/.test(w)?w.slice(0,-2):(w.length>3&&/s$/.test(w)?w.slice(0,-1):w)})}
 function hit(d,words){var hay=norm(d.item+" "+d.store+" "+(d.notes||""));return words.every(function(w){return hay.some(function(h){return h.indexOf(w)===0})})}
@@ -111,8 +124,10 @@ function render(){
     if(d.href){var g=el("a","go",d.go);g.href=d.href;if(/^https?:/.test(d.href)){g.target="_blank";g.rel="noopener"}c.appendChild(g)}
     list.appendChild(c)});
 }
-Promise.all([j("/deals/deals.json"),j("/grocery/grocery.json"),j("/coupons/coupons.json"),j("/local/finds.json"),j("/price-match/stores.json")]).then(function(r){
+Promise.all([j("/deals/deals.json"),j("/grocery/grocery.json"),j("/coupons/coupons.json"),j("/local/finds.json"),j("/price-match/stores.json"),j("/eats/eats.json")]).then(function(r){
   var now=Date.now(),t=today();
+  ((r[5]&&r[5].deals)||[]).forEach(function(d){if(d.ends&&d.ends<t)return;
+    ALL.push({kind:"eats",item:d.offer,store:d.chain,priceText:d.code?"Code "+d.code:"Deal",was:0,notes:(d.cat||"")+" "+d.how,sort:500,meta:d.start&&d.start>t?"Starts "+d.start.slice(5).replace("-","/"):(d.ends?"Thru "+d.ends.slice(5).replace("-","/"):(d.repeat||"")),href:"/eats/?q="+encodeURIComponent(d.chain),go:"See on Eats →"})});
   ((r[0]&&r[0].deals)||[]).forEach(function(d){if(d.expires&&d.expires<=now)return;var base=SEARCH[String(d.store).toLowerCase()];
     ALL.push({kind:"online",item:d.item,store:d.store,priceText:money(d.price),was:d.was>d.price?d.was:0,notes:d.notes,sort:d.price,meta:"Online",
       href:d.url||(base?base+encodeURIComponent(d.item):"/deals/"),go:d.url?"View at "+d.store+" →":(base?"Find it at "+d.store+" →":"See on Clearance →")})});
