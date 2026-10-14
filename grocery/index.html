@@ -146,6 +146,7 @@ h3{font-family:var(--display);font-weight:800;font-size:1.1rem;margin:4px 0 0}
 .nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
 .nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
 .nav-more>div a:hover{background:var(--bg)}
+  .nutri{font-size:.85em;opacity:.8;margin-top:2px}
 </style>
 </head>
 <body>
@@ -328,6 +329,8 @@ function renderMeals(next){
     const h=document.createElement("h2");h.textContent=m.name;
     const cost=document.createElement("div");cost.className="cost";
     cost.innerHTML=`<b>about ${money(m.cost)}</b> · serves ${m.serves} · ~${money(m.cost/m.serves)} each`;
+    const nutri=document.createElement("div");nutri.className="cost nutri";
+    if(m.cal)nutri.textContent="~"+m.cal+" cal"+(m.protein?" · "+m.protein+"g protein":"")+" per serving (approx.)";else nutri.hidden=true;
     const lab=t=>{const s=document.createElement("div");s.className="lab";s.textContent=t;return s};
     const ul=document.createElement("ul");
     m.uses.forEach(u=>{const d=idx[u];const li=document.createElement("li");li.textContent=d.item+" ("+d.store+(d.st.k==="soon"?", from "+fmt(d.storeObj.adStart):"")+")";ul.appendChild(li)});
@@ -339,7 +342,7 @@ function renderMeals(next){
     else{p=document.createElement("p");p.textContent=m.how||""}
     const b=document.createElement("button");b.type="button";b.className="btn";b.textContent="+ Add sale items to my list";
     b.onclick=()=>{let n=0;m.uses.forEach(u=>{if(!inList(u)){const d=idx[u];list.push({id:d.id,item:d.item,store:d.store,price:d.price>0?d.price:0,unit:d.unit||"",done:false});n++}});save();toast(n?`Added ${n} item${n>1?"s":""} to your list`:"Already on your list")};
-    c.append(h,cost,lab(st?"On sale from "+fmt(st):"On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
+    c.append(h,cost,nutri,lab(st?"On sale from "+fmt(st):"On sale this week"),ul,extra,lab("How to make it"),p,b);P.appendChild(c);
   }
 }
 

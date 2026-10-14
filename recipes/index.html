@@ -89,6 +89,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
 .follow p{margin:0;font-weight:600;font-size:.92rem}
 .soc{display:flex;flex-wrap:wrap;gap:8px}
 .soc a{text-decoration:none;font-size:.85rem;font-weight:600;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:999px;padding:7px 13px}
+  .meta.nutri{display:block;font-size:.85em;opacity:.8;margin-top:2px}
 </style>
 </head>
 <body>
@@ -149,7 +150,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
     const used=(m.uses||[]).map(u=>deals[u]).filter(Boolean),t=todayStr();
     /* "Coming up" when any of its sale items is from an ad that hasn't started yet (same rule as the grocery page) */
     const soon=used.map(d=>d.adStart).filter(s=>s&&s>t).sort()[0]||null;
-    return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,week:start,soon:soon,
+    return {id:m.id,kind:"meal",type:"Dinner",name:m.name,serves:m.serves,total:m.cost,cal:m.cal,protein:m.protein,week:start,soon:soon,
       ingredients:used.map(d=>({item:d.item,store:d.store,price:d.price,unit:d.unit,off:d.off}))
         .concat((m.buy||[]).map(b=>({item:b}))),
       pantry:m.pantry||[],steps:m.steps||[]};
@@ -167,6 +168,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem
           <span class="when">${r.week?esc(week(r.week)):""}${r.kind==="pick"?'<span class="pill pick">Bash\'s pick</span>':""}${r.sample?'<span class="pill sample">Sample</span>':""}${r.soon?`<span class="pill soon">Sale starts ${esc(md(r.soon))}</span>`:""}</span>
           <span class="name">${esc(r.name)}</span>
           <span class="meta"><b>${per}feeds ${esc(r.serves)} · ${esc(r.type||"Dinner")}${r.season&&r.season!=="Any season"?" · "+esc(r.season):""}</span>
+          ${r.cal?`<span class="meta nutri">~${esc(r.cal)} cal${r.protein?" · "+esc(r.protein)+"g protein":""} a serving (approx.)</span>`:""}
         </div>
         <button class="heart" type="button" data-save="${esc(r.id)}" aria-pressed="${on}" aria-label="${on?"Remove from saved":"Save recipe"}">${on?"♥":"♡"}</button>
       </summary>
