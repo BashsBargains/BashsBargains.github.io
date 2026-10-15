@@ -1,5 +1,5 @@
 {
- "updated": 1792078477270,
+ "updated": 1792081005561,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -1659,6 +1659,649 @@
    "srcUrl": "https://www.daveandbusters.com/us/en/about/locations/philadelphia",
    "srcDate": "Oct 2026",
    "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "nippers-bar-pizza-eagleville",
+   "name": "Nippers Bar & Pizza",
+   "area": "Montco",
+   "city": "Norristown",
+   "addr": "2453 W Main St",
+   "zip": "19403",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm",
+   "deals": [
+    "Discounted beer and liquor",
+    "Tue: $5 mini cheesesteak",
+    "Wed: $1 wings (50¢ sauces), 10% off seafood",
+    "Thu: $5 appetizers all day"
+   ],
+   "note": "",
+   "src": "Nippers",
+   "srcUrl": "https://nippersbarandpizza.com/",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "trappe-tavern-trappe",
+   "name": "The Trappe Tavern",
+   "area": "Montco",
+   "city": "Trappe",
+   "addr": "416 W Main St",
+   "zip": "19426",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "Drink, food and draft features"
+   ],
+   "note": "Their site doesn't list prices; daily specials are on their social media.",
+   "src": "Trappe Tavern",
+   "srcUrl": "https://trappetavern.com/",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "firebirds-collegeville",
+   "name": "Firebirds Wood Fired Grill (Collegeville)",
+   "area": "Montco",
+   "city": "Collegeville",
+   "addr": "51 Town Center Dr",
+   "zip": "19426",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "14:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 2–6 pm, bar and patio",
+   "deals": [
+    "Bar bites and drink specials"
+   ],
+   "note": "Their page doesn't list happy hour prices.",
+   "src": "Firebirds",
+   "srcUrl": "https://firebirdsrestaurants.com/collegeville",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "dave-busters-plymouth-meeting",
+   "name": "Dave & Buster's (Plymouth Meeting)",
+   "area": "Montco",
+   "city": "Plymouth Meeting",
+   "addr": "500 W Germantown Pike",
+   "zip": "19462",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    },
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "s": "22:00",
+     "e": "23:59"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm, Sun–Thu 10 pm–midnight",
+   "deals": [
+    "Drinks from $5: 22-oz domestic drafts, house wine, select cocktails"
+   ],
+   "note": "Fine print shows some drinks at $6–$8, so prices may vary.",
+   "src": "Dave & Buster's",
+   "srcUrl": "https://www.daveandbusters.com/us/en/about/locations/plymouth-meeting",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "sullivans-steakhouse-kop",
+   "name": "Sullivan's Steakhouse",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "700 W Dekalb Pike",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Thu 3–6 pm",
+   "deals": [
+    "$5 off select craft cocktails and martinis",
+    "Bar bites at $10, $15 or $20"
+   ],
+   "note": "",
+   "src": "Sullivan's",
+   "srcUrl": "https://www.sullivanssteakhouse.com/king-of-prussia/",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "city-works-kop",
+   "name": "City Works Eatery & Pour House",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "220 Main St",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm",
+   "deals": [
+    "$2 off local drafts",
+    "Half-price bar bites like fried pickles, cheese curds and pretzel bites"
+   ],
+   "note": "",
+   "src": "Visit KOP",
+   "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
+   "srcDate": "Sep 2025",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "paladar-kop",
+   "name": "Paladar Latin Kitchen & Rum Bar",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "250 Main St",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:30"
+    },
+    {
+     "d": [
+      0,
+      6
+     ],
+     "s": "20:30",
+     "e": "22:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6:30 pm, Sat–Sun 8:30–10 pm",
+   "deals": [
+    "$4 drafts",
+    "$6 sangria, mojitos and margaritas",
+    "$2 off rum and tequila flights and wine",
+    "$7 snack specials"
+   ],
+   "note": "",
+   "src": "Visit KOP",
+   "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
+   "srcDate": "Sep 2025",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "pizzeria-vetri-kop",
+   "name": "Pizzeria Vetri (KOP)",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "King of Prussia Mall",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$7 spritzes",
+    "$5 select beers, $6 tap wine",
+    "$10 select Neapolitan pizzas"
+   ],
+   "note": "",
+   "src": "Visit KOP",
+   "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
+   "srcDate": "Sep 2025",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "bartaco-kop",
+   "name": "bartaco (KOP)",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "King of Prussia Mall",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm, plus late Mon–Thu",
+   "deals": [
+    "Small bites from $3",
+    "$8 Maui Express or Michelada",
+    "Beer and wine $4.50–$8.50"
+   ],
+   "note": "Also runs Mon–Thu for the last 90 minutes before close.",
+   "src": "Visit KOP",
+   "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
+   "srcDate": "Sep 2025",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "screwballs-kop",
+   "name": "Screwballs Sports Bar & Grille",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "216 W Beidler Rd",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–7 pm",
+   "deals": [
+    "Half-price appetizers",
+    "Discounted drinks"
+   ],
+   "note": "",
+   "src": "Philly Explorer",
+   "srcUrl": "https://phillyexplorer.com/best-happy-hour-in-king-of-prussia",
+   "srcDate": "May 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "gypsy-saloon-west-conshohocken",
+   "name": "The Gypsy Saloon",
+   "area": "Montco",
+   "city": "West Conshohocken",
+   "addr": "128 Ford St",
+   "zip": "19428",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:30"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6:30 pm",
+   "deals": [
+    "$10 bites",
+    "$6 sips"
+   ],
+   "note": "",
+   "src": "MoreThanTheCurve",
+   "srcUrl": "https://morethanthecurve.com/gypsy-saloon-introduces-expanded-happy-hour-and-specials/",
+   "srcDate": "Oct 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "bistro-on-bridge-phoenixville",
+   "name": "Bistro on Bridge",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "212 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$4 beers",
+    "$8 mules, old fashioneds, crushes and wine",
+    "$1 oysters",
+    "$6 fries, $8 apps"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "rec-room-phoenixville",
+   "name": "Rec Room",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "230 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$4 house lagers and IPAs",
+    "$6 canned vodka cocktails",
+    "Half-price wings"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "sedona-taphouse-phoenixville",
+   "name": "Sedona Taphouse",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "131 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "Half off most craft beer bottles and cans",
+    "About $7 wine, sangria and margaritas",
+    "$12 PEI mussels"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "great-american-pub-phoenixville",
+   "name": "Great American Pub",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "148 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm",
+   "deals": [
+    "$3 Miller Lite drafts",
+    "$5 select craft beers and White Claw",
+    "$8 crushes and mules",
+    "$5–$8 food"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "molly-maguires-phoenixville",
+   "name": "Molly Maguire's",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "197 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm",
+   "deals": [
+    "$5 wine, $4 well drinks",
+    "$7 appetizers",
+    "Daily drink specials"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "rebel-hill-brewing-phoenixville",
+   "name": "Rebel Hill Brewing",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "242 Bridge St",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      2,
+      3,
+      4
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Tue–Thu 5–7 pm",
+   "deals": [
+    "$5 select beers",
+    "$10 select cocktails",
+    "$3 off pretzels or fried pickle dip"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "sly-fox-phoenixville",
+   "name": "Sly Fox Brewhouse & Eatery",
+   "area": "Montco",
+   "city": "Phoenixville",
+   "addr": "520 Kimberton Rd",
+   "zip": "19460",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    },
+    {
+     "d": [
+      0
+     ],
+     "s": "13:00",
+     "e": "17:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm, Sun 1–5 pm",
+   "deals": [
+    "$1.50 off drafts",
+    "$8 pint and 7 wings"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "lock-29-mont-clare",
+   "name": "Lock 29",
+   "area": "Montco",
+   "city": "Mont Clare",
+   "addr": "127 Bridge St",
+   "zip": "19453",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "17:30"
+    }
+   ],
+   "whenText": "Mon–Fri 3–5:30 pm",
+   "deals": [
+    "From 3 pm: $2 well, $4 call, $5 premium drinks (prices rise after 4)",
+    "$4 domestic beers",
+    "$5 snacks"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
+   "srcDate": "Sep 2024",
+   "official": false,
    "checked": "2026-10-15"
   }
  ]

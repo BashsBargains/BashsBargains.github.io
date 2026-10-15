@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Happy Hours · Bash's Bargains</title>
-<meta name="description" content="The best happy hours in Wilmington, Newark and Philadelphia, sorted by distance from your ZIP code. Days, times and the deals worth going for.">
+<meta name="description" content="The best happy hours in Wilmington, Newark, Philadelphia and Montgomery County, sorted by distance from your ZIP code. Days, times and the deals worth going for.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -98,7 +98,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 
   <h1>Happy Hours 🍻</h1>
   <nav class="eats-tabs" aria-label="Eats sections"><a href="/eats/">Restaurant deals</a><a href="/eats/#delivery">Delivery apps</a><a href="/happy-hour/" aria-current="page">Happy Hours</a><a href="/birthday/">Birthday Freebies</a></nav>
-  <p class="intro">The best happy hours around Wilmington, Newark and Philly: half-price apps, cheap tacos, buck-a-shuck oysters and drink specials. Type your ZIP and I'll sort them by how close they are.</p>
+  <p class="intro">The best happy hours around Wilmington, Newark, Philly and Montco/KOP: half-price apps, cheap tacos, buck-a-shuck oysters and drink specials. Type your ZIP and I'll sort them by how close they are.</p>
 
   <section class="finder" aria-label="Find happy hours near you">
     <p class="lab">Near me</p>
@@ -114,6 +114,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
       <button class="chip" type="button" data-area="Wilmington" aria-pressed="false">Wilmington</button>
       <button class="chip" type="button" data-area="Newark" aria-pressed="false">Newark</button>
       <button class="chip" type="button" data-area="Philadelphia" aria-pressed="false">Philly</button>
+      <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco/KOP</button>
     </div>
     <div class="chips" role="group" aria-label="When">
       <button class="chip" type="button" data-when="" aria-pressed="true">Any day</button>
@@ -163,13 +164,13 @@ function render(){
   rows.forEach(function(s){
     var st=status(s),c=el("article","card"+(st.on?" now":""));
     var top=el("div","top"),l=el("div");l.appendChild(el("h3",null,s.name));
-    var where=(s.area==="Philadelphia"?"Philly":s.area)+" · "+s.addr+(s._d!=null?" · "+(s._d<1?"under 1 mi":(s._d<10?s._d.toFixed(1):Math.round(s._d))+" mi"):"");
+    var where=(s.city||(s.area==="Philadelphia"?"Philly":s.area))+" · "+s.addr+(s._d!=null?" · "+(s._d<1?"under 1 mi":(s._d<10?s._d.toFixed(1):Math.round(s._d))+" mi"):"");
     l.appendChild(el("p","meta",where));top.appendChild(l);top.appendChild(el("span","badge"+(st.on?" on":""),st.text));c.appendChild(top);
     c.appendChild(el("p","when",s.whenText));
     var ul=el("ul","deals");s.deals.forEach(function(d){ul.appendChild(el("li",null,d))});c.appendChild(ul);
     if(s.note)c.appendChild(el("p","note",s.note));
     if(s.checked){var age=(Date.now()-new Date(s.checked+"T12:00:00").getTime())/864e5;if(age>45){var w=el("p","stale","\u26a0\ufe0f Not re-confirmed in a while. Call ahead before you go.");c.appendChild(w)}}
-    var links=el("div","links"),m=el("a",null,"Directions →");m.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+" "+s.addr+" "+(s.area==="Philadelphia"?"Philadelphia, PA":s.area+", DE"));m.target="_blank";m.rel="noopener";links.appendChild(m);c.appendChild(links);
+    var links=el("div","links"),m=el("a",null,"Directions →");m.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(s.name+" "+s.addr+" "+(s.city?s.city+", PA":(s.area==="Philadelphia"?"Philadelphia, PA":s.area+", DE")));m.target="_blank";m.rel="noopener";links.appendChild(m);c.appendChild(links);
     var src=el("p","src");src.appendChild(document.createTextNode((s.official?"From their own page":"Source: ")));if(!s.official){var a=el("a",null,s.src+" ("+s.srcDate+")");a.href=s.srcUrl;a.target="_blank";a.rel="noopener";src.appendChild(a)}else{src.appendChild(document.createTextNode(" · "));var a2=el("a",null,"view menu");a2.href=s.srcUrl;a2.target="_blank";a2.rel="noopener";src.appendChild(a2)}
     var ck=s.checked?new Date(s.checked+"T12:00:00"):null;if(ck)src.appendChild(document.createTextNode(" · checked "+ck.toLocaleDateString("en-US",{month:"short",day:"numeric"})));
     c.appendChild(src);list.appendChild(c)});
