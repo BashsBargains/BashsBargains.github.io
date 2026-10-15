@@ -1,5 +1,5 @@
 {
- "updated": 1792081005561,
+ "updated": 1792082350944,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -196,7 +196,7 @@
    "id": "iron-hill-brewery-riverfront-wilmington",
    "name": "Iron Hill Brewery (Riverfront)",
    "area": "Wilmington",
-   "addr": "710 Justison St",
+   "addr": "620 Justison St",
    "zip": "19801",
    "when": [
     {
@@ -217,12 +217,12 @@
     "$7.50 wine, cocktails and appetizers",
     "$3.50 fried chicken sandwich"
    ],
-   "note": "",
+   "note": "Iron Hill closed in 2025 and reopened this location in Oct 2026. The happy hour may have changed, so call ahead.",
    "src": "County Lines",
    "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-downtown-wilmington-de/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-10-15"
   },
   {
    "id": "timothy-s-wilmington",
@@ -617,36 +617,6 @@
    "srcUrl": "https://www.homegrowncafe.com/menus/",
    "srcDate": "Oct 2026",
    "official": true,
-   "checked": "2026-10-12"
-  },
-  {
-   "id": "iron-hill-brewery-newark-newark",
-   "name": "Iron Hill Brewery (Newark)",
-   "area": "Newark",
-   "addr": "E Main St",
-   "zip": "19711",
-   "when": [
-    {
-     "d": [
-      1,
-      2,
-      3,
-      4,
-      5
-     ],
-     "s": "16:00",
-     "e": "18:00"
-    }
-   ],
-   "whenText": "Mon–Fri 4–6 pm",
-   "deals": [
-    "Weekday happy hour specials on beer and bites"
-   ],
-   "note": "The guide didn't list prices.",
-   "src": "Visit Delaware",
-   "srcUrl": "https://www.visitdelaware.com/blog/post/happy-hour-hangouts/",
-   "srcDate": "Jul 2025",
-   "official": false,
    "checked": "2026-10-12"
   },
   {
@@ -2302,6 +2272,561 @@
    "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-phoenixville-pa/",
    "srcDate": "Sep 2024",
    "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "departure-media",
+   "name": "Departure",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "2 S Orange St",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$4–$6 beers, $7 wine and mixed drinks",
+    "$9 house martinis",
+    "$5 hummus, $8 dumplings, $10 jerk shrimp"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "maris-mediterranean-media",
+   "name": "Maris Mediterranean",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "214 W State St",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "Buck-a-shuck oysters",
+    "Half-price calamari and spreads",
+    "$4 Miller Lite, $10 wine and cocktails"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "spasso-media",
+   "name": "Spasso Italian Grill",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "1 W State St",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$4–$5 beers, $7 mixed drinks, $8 wine and martinis",
+    "$8 small plates, $13 pizzas and mains"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "old-state-tavern-media",
+   "name": "Old State Tavern",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "38 State Rd",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:30",
+     "e": "18:30"
+    }
+   ],
+   "whenText": "Mon–Fri 4:30–6:30 pm",
+   "deals": [
+    "50¢ off domestic beers",
+    "$1 off craft beers"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "la-padella-media",
+   "name": "la Padella",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "100 State Rd",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "s": "15:00",
+     "e": "17:00"
+    }
+   ],
+   "whenText": "Tue–Sun 3–5 pm",
+   "deals": [
+    "$7 starters like mussels and truffle fries",
+    "$7 house wine and cocktails",
+    "$1 off rotating drafts"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "stephens-on-state-media",
+   "name": "Stephen's on State",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "105 W State St",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm, at the bar",
+   "deals": [
+    "Half off your first two drinks (not top shelf)",
+    "$7 cheesesteak nachos, $8 wings or flatbread"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "la-porta-media",
+   "name": "La Porta Ristorante",
+   "area": "Montco",
+   "city": "Media",
+   "addr": "1192 Middletown Rd",
+   "zip": "19063",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm, at the bar",
+   "deals": [
+    "$3.50 Stella, $4 liquor drinks, $5.50 wine",
+    "$5–$8 bites like scotch eggs and mussels"
+   ],
+   "note": "",
+   "src": "Inquirer",
+   "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
+   "srcDate": "Jan 2026",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "white-dog-cafe-wayne",
+   "name": "White Dog Café (Wayne)",
+   "area": "Montco",
+   "city": "Wayne",
+   "addr": "200 W Lancaster Ave",
+   "zip": "19087",
+   "when": [
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Sun–Fri 3–6 pm, at the bar",
+   "deals": [
+    "$6 beer, $8 wine, $9 select cocktails",
+    "Half-price bottles of wine",
+    "Mon: half-price bottles with an entrée"
+   ],
+   "note": "",
+   "src": "White Dog Café",
+   "srcUrl": "https://www.whitedog.com/wayne/specials",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "jitters-west-chester",
+   "name": "Jitters",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "146 W Gay St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$2 beers, $3 well drinks",
+    "$4 dog and tots combo"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "ryans-pub-west-chester",
+   "name": "Ryan's Pub",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "124 W Gay St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm (food until 8)",
+   "deals": [
+    "$1 off beer, wine and drinks",
+    "$2 off specialty cocktails",
+    "$6 apps"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "sterling-pig-west-chester",
+   "name": "Sterling Pig Public House",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "113 W Market St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$2 off house beers",
+    "Half-price select apps",
+    "$6 wine, $5 mixed drinks"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "stove-tap-west-chester",
+   "name": "Stove & Tap",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "153 W Gay St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm",
+   "deals": [
+    "$3 domestic drafts, $4 wine, $8 cocktails",
+    "$8 nachos or Brussels sprouts"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "greystone-oyster-bar-west-chester",
+   "name": "Greystone Oyster Bar",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "7 N Church St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$2 oysters",
+    "$8 fresh-squeezed crush",
+    "Discounted food, beer and wine"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "kildares-west-chester",
+   "name": "Kildare's Irish Pub",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "18 W Gay St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$3 off all drinks",
+    "$8 flatbreads, half-price nachos"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "mas-mexicali-west-chester",
+   "name": "Más Mexicali Cantina",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "102 E Market St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Tue–Fri 4–6 pm",
+   "deals": [
+    "$5 margaritas",
+    "Half-price apps"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "side-bar-west-chester",
+   "name": "Side Bar & Restaurant",
+   "area": "Montco",
+   "city": "West Chester",
+   "addr": "10 E Gay St",
+   "zip": "19380",
+   "when": [
+    {
+     "d": [
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Wed–Fri 4–7 pm",
+   "deals": [
+    "$4 select drafts, $5 house wine, $5 Tito's",
+    "Half-price apps"
+   ],
+   "note": "",
+   "src": "County Lines",
+   "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
+   "srcDate": "Jun 2024",
+   "official": false,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "sly-fox-pottstown",
+   "name": "Sly Fox Brewhouse (Pottstown)",
+   "area": "Montco",
+   "city": "Pottstown",
+   "addr": "331 Circle of Progress Dr",
+   "zip": "19464",
+   "when": [
+    {
+     "d": [
+      2
+     ],
+     "s": "11:00",
+     "e": "23:59"
+    },
+    {
+     "d": [
+      0
+     ],
+     "s": "16:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Daily specials; happy hour 1–7 pm",
+   "deals": [
+    "Tue: half-price apps all day",
+    "Wed: pizza, sandwich and 2 pints for $28",
+    "Thu: pint and quesadilla for $12.50",
+    "Sun: $5 off wings 4–7, half-price chili, soup and dips"
+   ],
+   "note": "Their site lists an extended happy hour 1–7 pm but doesn't say which days, so ask.",
+   "src": "Sly Fox",
+   "srcUrl": "https://www.slyfoxbeer.com/pottstown",
+   "srcDate": "Oct 2026",
+   "official": true,
    "checked": "2026-10-15"
   }
  ]
