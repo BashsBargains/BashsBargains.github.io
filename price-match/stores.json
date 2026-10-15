@@ -1,6 +1,6 @@
 {
- "updated": 1791976932231,
- "checked": "2026-10-14",
+ "updated": 1792069006089,
+ "checked": "2026-10-15",
  "stores": [
   {
    "id": "best-buy",
@@ -136,7 +136,7 @@
    "matches": [
     "Target"
    ],
-   "scope": "Identical item at a competitor with physical stores. Bring a printed ad. Online, only select store websites count.",
+   "scope": "Identical item at a competitor with physical stores. In store, bring the competitor's printed local ad (competitors' online prices don't count in store). Kohls.com matches only direct competitors with stores and a website.",
    "after": "Kohl's adjusts its own price drops within 14 days with your receipt.",
    "how": "Bring the printed ad to the register, or your receipt for a price adjustment.",
    "no": [
@@ -149,6 +149,10 @@
    "srcUrl": "https://thekrazycouponlady.com/coupons-for/kohls/kohls-price-match-policy",
    "srcDate": "Aug 2024",
    "also": [
+    {
+     "src": "Kohl's",
+     "srcUrl": "https://www.kohls.com/faq/article/90"
+    },
     {
      "src": "Checkbook",
      "srcUrl": "https://www.checkbook.org/national/pricematching/"
@@ -260,6 +264,10 @@
     {
      "src": "Mojo Sales",
      "srcUrl": "https://www.mojosalesandbranding.com/post/costco-price-adjustment-policy-2026-complete-guide-getting-money-back"
+    },
+    {
+     "src": "Slickdeals",
+     "srcUrl": "https://daily.slickdeals.net/tech/costco-price-adjustment-policy/"
     }
    ]
   },
@@ -292,13 +300,19 @@
    "verdict": "no",
    "short": "Doesn't price match",
    "matches": [],
-   "scope": "Amazon doesn't match other stores' prices or refund price drops.",
+   "scope": "Amazon doesn't match other stores' prices or refund price drops. Pre-orders get the lowest price before release.",
    "after": "None.",
    "how": "Tip: Best Buy, Home Depot, Lowe's and Staples will match Amazon's price when it's sold by Amazon.",
    "no": [],
    "src": "Checkbook",
    "srcUrl": "https://www.checkbook.org/national/pricematching/",
-   "srcDate": "Oct 2025"
+   "srcDate": "Oct 2025",
+   "also": [
+    {
+     "src": "DealNews",
+     "srcUrl": "https://dealnews.com/features/amazon/price-adjustment/"
+    }
+   ]
   },
   {
    "id": "sephora",
@@ -312,7 +326,7 @@
     "Saks"
    ],
    "scope": "Non-sale in-store prices at those four stores only, at the time you buy.",
-   "after": "No price adjustments after you buy.",
+   "after": "No official price adjustment. Some guides report stores may adjust within about 5 days, so ask.",
    "how": "Ask at the register.",
    "no": [
     "Ulta and Amazon",
@@ -321,7 +335,13 @@
    "src": "Checkbook",
    "srcUrl": "https://www.checkbook.org/national/pricematching/",
    "srcDate": "Oct 2025",
-   "hint": "beauty, full price"
+   "hint": "beauty, full price",
+   "also": [
+    {
+     "src": "Priceva",
+     "srcUrl": "https://priceva.com/blog/sephora-price-match"
+    }
+   ]
   },
   {
    "id": "ulta",
@@ -340,16 +360,27 @@
   {
    "id": "aldi",
    "name": "Aldi",
-   "verdict": "no",
-   "short": "No formal policy",
+   "verdict": "own",
+   "short": "No competitor matching. Refunds price drops on ALDI Finds for 14 days",
    "matches": [],
-   "scope": "No official price match. Some managers may adjust case by case.",
-   "after": "None stated.",
-   "how": "Ask the store manager.",
-   "no": [],
-   "src": "GroceryChop",
-   "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies",
-   "srcDate": "2026"
+   "scope": "ALDI doesn't match other stores' prices. It will refund the difference if an ALDI Finds item (the weekly special buys) drops in price.",
+   "after": "14 days after you buy, on ALDI Finds items only. Regular and seasonal items don't qualify.",
+   "how": "Bring your receipt to the store where you bought it and ask the store manager.",
+   "no": [
+    "Other stores' prices",
+    "Regular everyday items",
+    "Seasonal items"
+   ],
+   "src": "ALDI",
+   "srcUrl": "https://aldi.us/about-us/faqs/aldi-pricing",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "also": [
+    {
+     "src": "GroceryChop",
+     "srcUrl": "https://grocerychop.com/blog/grocery-store-price-matching-policies"
+    }
+   ]
   }
  ]
 }
