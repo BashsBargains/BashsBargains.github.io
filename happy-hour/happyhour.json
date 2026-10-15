@@ -1,5 +1,5 @@
 {
- "updated": 1791818610739,
+ "updated": 1792075935907,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -648,6 +648,37 @@
    "srcDate": "Jul 2025",
    "official": false,
    "checked": "2026-10-12"
+  },
+  {
+   "id": "main-event-christiana-new-castle",
+   "name": "Main Event (Christiana)",
+   "area": "New Castle",
+   "addr": "2900 Fashion Center Blvd",
+   "zip": "19720",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm, in-store only",
+   "deals": [
+    "Drinks starting at $5",
+    "Snack specials to match"
+   ],
+   "note": "Confirmed in person on Oct 14. 21+ for drinks; blackout dates may apply.",
+   "src": "Main Event",
+   "srcUrl": "https://www.mainevent.com/specials/happy-hour/",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-14"
   },
   {
    "id": "oyster-house-philadelphia",
