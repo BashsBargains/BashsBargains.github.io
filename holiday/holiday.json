@@ -1,5 +1,5 @@
 {
- "updated": 1791804843956,
+ "updated": 1792064093736,
  "events": [
   {
    "name": "Thanksgiving",
@@ -108,10 +108,13 @@
   {
    "id": "bjs",
    "name": "BJ's",
-   "status": "tbd",
-   "early": "Not announced yet",
-   "main": "Not announced yet",
-   "ad": "Not out yet"
+   "status": "confirmed",
+   "early": "Early Black Friday deals start Oct 23, in clubs and online",
+   "main": "Main Black Friday dates not announced yet",
+   "ad": "Not out yet",
+   "adUrl": "https://www.bjs.com/BlackFriday",
+   "src": "BJ's press release via StockTitan (Oct 15, 2026)",
+   "srcUrl": "https://www.stocktitan.net/news/BJ/a-head-start-on-holiday-savings-bj-s-wholesale-club-kicks-off-early-e5ir1eja9tk7.html"
   }
  ],
  "deals": []
