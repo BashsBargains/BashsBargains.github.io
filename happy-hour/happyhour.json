@@ -1,5 +1,5 @@
 {
- "updated": 1792075935907,
+ "updated": 1792076102051,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -652,7 +652,7 @@
   {
    "id": "main-event-christiana-new-castle",
    "name": "Main Event (Christiana)",
-   "area": "New Castle",
+   "area": "Newark",
    "addr": "2900 Fashion Center Blvd",
    "zip": "19720",
    "when": [
@@ -679,6 +679,163 @@
    "srcDate": "Oct 2026",
    "official": true,
    "checked": "2026-10-14"
+  },
+  {
+   "id": "chilis-christiana-newark",
+   "name": "Chili's (Christiana)",
+   "area": "Newark",
+   "addr": "3220 Fashion Center Blvd",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm",
+   "deals": [
+    "$3 16-oz Bud Light, Miller Lite or Coors Light",
+    "$4–$5 bigger domestic drafts, Modelo and Michelob Ultra",
+    "$5 house red or white wine",
+    "$6 Margarita of the Month, $7 Tequila Classic Margarita"
+   ],
+   "note": "",
+   "src": "Chili's",
+   "srcUrl": "https://www.chilis.com/locations/us/delaware/newark/christiana",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "pf-changs-christiana-newark",
+   "name": "P.F. Chang's (Christiana Mall)",
+   "area": "Newark",
+   "addr": "331 Christiana Mall",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm",
+   "deals": [
+    "$6 beer and wine",
+    "$9 cocktails and sake",
+    "$12 appetizers",
+    "$15 sushi and sips"
+   ],
+   "note": "",
+   "src": "P.F. Chang's",
+   "srcUrl": "https://locations.pfchangs.com/de/newark/331-christiana-mall.html",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "tio-taco-tequila-christiana-newark",
+   "name": "Tio Taco + Tequila (Christiana Mall)",
+   "area": "Newark",
+   "addr": "325 Christiana Mall",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm, at the bar",
+   "deals": [
+    "Happy hour drink and food specials at the bar",
+    "Half-price margaritas Mondays, tacos Tuesdays, flights Wednesdays (3 pm–close, dine-in)"
+   ],
+   "note": "Their page doesn't list happy hour prices.",
+   "src": "Tio Taco + Tequila",
+   "srcUrl": "https://www.tiotacotequila.com/newark-delaware",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "cheesecake-factory-christiana-newark",
+   "name": "The Cheesecake Factory (Christiana Mall)",
+   "area": "Newark",
+   "addr": "350 Christiana Mall",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm, bar area",
+   "deals": [
+    "Select food and drink specials"
+   ],
+   "note": "Their page doesn't list happy hour prices.",
+   "src": "The Cheesecake Factory",
+   "srcUrl": "https://locations.thecheesecakefactory.com/de/newark-151.html",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "firebirds-newark",
+   "name": "Firebirds Wood Fired Grill",
+   "area": "Newark",
+   "addr": "1225 Churchmans Rd",
+   "zip": "19713",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "14:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 2–6 pm, bar and patio",
+   "deals": [
+    "Drink specials and bar bites"
+   ],
+   "note": "Their page doesn't list happy hour prices.",
+   "src": "Firebirds",
+   "srcUrl": "https://firebirdsrestaurants.com/wilmington",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
   },
   {
    "id": "oyster-house-philadelphia",
@@ -1430,6 +1587,47 @@
    "srcDate": "Jul 2026",
    "official": false,
    "checked": "2026-10-12"
+  },
+  {
+   "id": "dave-busters-philadelphia",
+   "name": "Dave & Buster's",
+   "area": "Philadelphia",
+   "addr": "325 N Christopher Columbus Blvd",
+   "zip": "19106",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "17:00",
+     "e": "19:00"
+    },
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "s": "22:00",
+     "e": "23:59"
+    }
+   ],
+   "whenText": "Mon–Fri 5–7 pm, Sun–Thu 10 pm–midnight",
+   "deals": [
+    "$5 drinks, like 22-oz domestic drafts and house wine"
+   ],
+   "note": "Fine print elsewhere on their site shows some drinks at $6–$8, so prices may vary.",
+   "src": "Dave & Buster's",
+   "srcUrl": "https://www.daveandbusters.com/us/en/about/locations/philadelphia",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
   }
  ]
 }
