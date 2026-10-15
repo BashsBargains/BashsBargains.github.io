@@ -1,5 +1,5 @@
 {
- "updated": 1792076102051,
+ "updated": 1792076572631,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -833,6 +833,38 @@
    "note": "Their page doesn't list happy hour prices.",
    "src": "Firebirds",
    "srcUrl": "https://firebirdsrestaurants.com/wilmington",
+   "srcDate": "Oct 2026",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "tommys-tavern-tap-christiana-newark",
+   "name": "Tommy's Tavern + Tap (Christiana Mall)",
+   "area": "Newark",
+   "addr": "315 Christiana Mall",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "s": "16:00",
+     "e": "23:59"
+    }
+   ],
+   "whenText": "Mon–Thu 4 pm–close, dine-in",
+   "deals": [
+    "Mon: $2 off Modelo drafts, half-price specialty cocktails",
+    "Tue: half-price wine list",
+    "Wed: half-price sangria",
+    "Thu: $2 off all draft beer"
+   ],
+   "note": "These are their weekday specials. Their happy hour times are in a PDF the site didn't show, so ask at the bar.",
+   "src": "Tommy's Tavern + Tap",
+   "srcUrl": "https://www.tommystavernandtap.com/tommystaverntap-delaware",
    "srcDate": "Oct 2026",
    "official": true,
    "checked": "2026-10-15"
