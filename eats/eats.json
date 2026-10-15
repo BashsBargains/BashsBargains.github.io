@@ -1,12 +1,12 @@
 {
- "updated": 1791979279734,
+ "updated": 1792062659318,
  "deals": [
   {
    "id": "wawa-5-sizzli-meal",
    "chain": "Wawa",
    "cat": "Breakfast",
    "offer": "$5 Sizzli Meal: breakfast sandwich + coffee or fountain drink",
-   "how": "Any Sizzli breakfast sandwich (including the new Pancake Sizzli) with a hot or iced coffee or a fountain drink, at Wawa stores. Order at the kiosk or counter.",
+   "how": "Any Sizzli breakfast sandwich (including the limited-time Pancake Sizzli) with a hash brown and any size hot or iced coffee or fountain drink, at Wawa stores. Order at the kiosk or counter.",
    "where": [
     "In store"
    ],
@@ -16,10 +16,8 @@
    "ends": "2026-10-25",
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
-   "official": false,
-   "src": "NACS",
-   "srcUrl": "https://convenience.org/stay-current/news/2026/september/8/wawa-taps-nfl-player-to-announce-$5-sizzli-meal",
-   "checked": "2026-10-14"
+   "official": true,
+   "checked": "2026-10-15"
   },
   {
    "id": "shake-shack-cheeseburger",
@@ -40,7 +38,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-14"
+   "checked": "2026-10-15"
   },
   {
    "id": "shake-shack-shackburger",
@@ -61,7 +59,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-14"
+   "checked": "2026-10-15"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -78,41 +76,7 @@
    "link": "https://www.wendys.com/deals",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-10-14"
-  },
-  {
-   "id": "wendys-fri-fries",
-   "chain": "Wendy's",
-   "cat": "Burgers",
-   "offer": "Free fries, any size, with a $5 purchase",
-   "how": "Fridays. Find it in the Offers tab of the Wendy's app and add it to your order.",
-   "where": [
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Tap it in the Wendy's app's Offers tab.",
-   "repeat": "Every Friday",
-   "link": "https://www.wendys.com/deals",
-   "linkText": "See Wendy's deals",
-   "official": true,
-   "checked": "2026-10-14"
-  },
-  {
-   "id": "wendys-3-off-20",
-   "chain": "Wendy's",
-   "cat": "Burgers",
-   "offer": "$3 off a $20+ order",
-   "how": "Good for feeding the whole family. Find it in the Offers tab of the Wendy's app. Coupons can't be combined on one order.",
-   "where": [
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Tap it in the Wendy's app's Offers tab.",
-   "repeat": "Limited time",
-   "link": "https://www.wendys.com/deals",
-   "linkText": "See Wendy's deals",
-   "official": true,
-   "checked": "2026-10-14"
+   "checked": "2026-10-15"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -129,24 +93,101 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-10-14"
+   "checked": "2026-10-15"
   },
   {
    "id": "outback-kids-eat-free",
    "chain": "Outback Steakhouse",
    "cat": "Family",
-   "offer": "Kids eat free",
-   "how": "Mondays, dining in. Participation can vary by location, so call ahead. Not valid on third-party delivery.",
+   "offer": "Kids eat free with an adult entrée",
+   "how": "Mondays. One free kids' meal for each full-price adult entrée. Dine in and tell your server, or order online at outback.com with the code. Participating locations only, can't be combined with other offers.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery"
+   ],
+   "code": "JOEYFREE",
+   "ask": "Dining in? Just ask for the Free Joey Meal.",
+   "repeat": "Every Monday",
+   "link": "https://www.outback.com/offers/weekday-value",
+   "linkText": "See Outback specials",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "taco-bell-4-usual-order",
+   "chain": "Taco Bell",
+   "cat": "Mexican",
+   "offer": "$4 celebrity 'Usual Order' meals, a new one each week",
+   "how": "Oct 13-19: Kevin Hart's (Beef Burrito Supreme, Crunchy Taco, medium drink). Oct 20-26: Paris Hilton's (Diablo Ranch Crispy Chicken Crunchwrap Slider, Crunchy Taco, medium drink). Oct 27-Nov 2: Doja Cat's (Mexican Pizza, Spicy Potato Soft Taco). Bonus: on Oct 20 and Oct 27 the first 10,000 Rewards members to claim it in the app's Tuesday Drops get that week's meal for $1. Participating locations; delivery prices may be higher.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Just order that week's Usual Order.",
+   "start": "2026-10-13",
+   "ends": "2026-11-02",
+   "link": "https://www.tacobell.com/newsroom/taco-bell-national-taco-month-celebration",
+   "linkText": "See Taco Bell's deal",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "applebees-hallowings-bucket",
+   "chain": "Applebee's",
+   "cat": "Family",
+   "offer": "Hallowings Bucket: 20 boneless wings for $12.99",
+   "how": "Oct 25-31, To Go or delivery only, ordered on Applebees.com or the Applebee's app (not third-party apps). Pick a sauce; comes with bleu cheese or ranch. Participating locations, while supplies last.",
+   "where": [
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Just order the Hallowings Bucket online or in the app.",
+   "start": "2026-10-25",
+   "ends": "2026-10-31",
+   "link": "https://www.applebees.com/en/news/2026/applebees-serves-up-halloween-savings-with-20-boneless-wings-for-1299",
+   "linkText": "See Applebee's deal",
+   "official": true,
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "outback-walkabout-wednesday",
+   "chain": "Outback Steakhouse",
+   "cat": "Family",
+   "offer": "Walkabout Wednesday: sirloin or chicken, Aussie Fries and a drink from $13.99",
+   "how": "Wednesdays, dine-in only. A 6oz sirloin or Grilled Chicken on the Barbie with Aussie Fries and a 16oz domestic draft or Coke product. Beer option not offered in PA. Prices and participation vary; limited time.",
    "where": [
     "In store"
    ],
    "code": "",
-   "ask": "No code. Ask your server for Kids Eat Free Monday.",
-   "repeat": "Every Monday",
-   "link": "https://www.outback.com/specials",
+   "ask": "No code. Ask your server for Walkabout Wednesday.",
+   "repeat": "Every Wednesday",
+   "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-14"
+   "checked": "2026-10-15"
+  },
+  {
+   "id": "outback-tuesday-tails",
+   "chain": "Outback Steakhouse",
+   "cat": "Family",
+   "offer": "Tuesday Tails: sirloin + lobster tail + 2 sides from $24.99",
+   "how": "Tuesdays, dine-in only. A 6oz sirloin and a lobster tail with two sides. Prices and participation vary by location.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Ask your server for Tuesday Tails.",
+   "repeat": "Every Tuesday",
+   "link": "https://www.outback.com/offers/weekday-value",
+   "linkText": "See Outback specials",
+   "official": true,
+   "checked": "2026-10-15"
   }
  ],
  "apps": [],
@@ -162,6 +203,10 @@
   {
    "name": "National Fast Food Day",
    "date": "2026-11-16"
+  },
+  {
+   "name": "National Cookie Day",
+   "date": "2026-12-04"
   }
  ]
 }
