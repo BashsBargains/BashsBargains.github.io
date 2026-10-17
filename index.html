@@ -269,8 +269,8 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 /* Easy-reading overrides (site-wide) */
 :root{--ok:#17703d}
 .bar{align-items:flex-start}
-.bar nav{display:flex!important;flex-wrap:wrap;gap:4px!important;font-size:1rem!important;font-weight:500;width:100%}
-.bar nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink)!important;text-decoration:none}
+.bar nav{display:flex!important;flex-wrap:wrap;gap:0 2px!important;margin-left:-9px;font-size:1rem!important;font-weight:500;width:100%}
+.bar nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 9px;border-radius:999px;color:var(--ink)!important;text-decoration:none;font-size:.95rem}
 .bar nav a[aria-current]{background:var(--ink);color:var(--bg)!important;border-color:var(--ink);font-weight:600}
 .bar nav a[aria-current]::after{display:none}
 .mark{min-height:44px}
@@ -294,6 +294,13 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 .date b{font-size:.8rem!important}
 .more-row small,.tile small{font-size:.9rem!important}
 .crew-btns a{min-height:44px;display:inline-flex;align-items:center}
+/* Calmer home tiles */
+.more-row a{flex-direction:row!important;justify-content:flex-start;text-align:left!important;gap:12px!important;padding:12px 14px!important;font-size:1rem!important}
+.more-row a span{font-size:1.4rem!important}
+.more-row .eats-tile{box-shadow:none!important;border:1.5px solid var(--line)!important}
+.more-row small{margin-top:1px!important;display:block}
+.more-row b{font-weight:600;display:flex;flex-direction:column}
+.more-row{grid-template-columns:1fr!important;gap:8px!important}
 </style>
 </head>
 <body>
@@ -370,10 +377,10 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
       <span class="seas-r"><strong id="bfDays">–</strong> <span id="bfLabel">days to go</span> <i aria-hidden="true">→</i></span>
     </a>
     <div class="more-row">
-      <a class="eats-tile" href="/eats/"><span aria-hidden="true">🍔</span>Eats Deals<small>Restaurant deals, happy hours &amp; birthday freebies</small></a>
-      <a class="eats-tile" href="/events/"><span aria-hidden="true">🎉</span>Events &amp; Things To Do<small>Family fun, concerts, comedy &amp; nights out, day by day</small></a>
-      <a href="/local/"><span aria-hidden="true">📍</span>Near Me<small>In-store finds by ZIP</small></a>
-      <a href="/price-match/"><span aria-hidden="true">🤝</span>Price Match<small>Who matches whom</small></a>
+      <a class="eats-tile" href="/eats/"><span aria-hidden="true">🍔</span><b>Restaurant Deals<small>Deals, happy hours &amp; birthday freebies</small></b></a>
+      <a class="eats-tile" href="/events/"><span aria-hidden="true">🎉</span><b>Events &amp; Things To Do<small>Family fun, concerts &amp; nights out</small></b></a>
+      <a href="/local/"><span aria-hidden="true">📍</span><b>Near You<small>Store finds by ZIP code</small></b></a>
+      <a href="/price-match/"><span aria-hidden="true">🤝</span><b>Price Match<small>Which stores match a lower price</small></b></a>
     </div>
   </section>
 
