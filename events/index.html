@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Events & Things To Do · Bash's Bargains</title>
-<meta name="description" content="Free and cheap things to do around Delaware, Philly and Montco, day by day: festivals, family fun, trivia, live music and fun places to go.">
+<meta name="description" content="Things to do around Delaware, Philly and Montgomery County, day by day: festivals, family fun, concerts, comedy, nights out and fun places to go.">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Bash's Bargains">
 <meta property="og:title" content="Events & Things To Do · Bash's Bargains">
-<meta property="og:description" content="Free and cheap things to do near you, day by day.">
+<meta property="og:description" content="Things to do near you, day by day: family fun, nights out and more.">
 <meta property="og:url" content="https://bashsbargains.github.io/events/">
 <meta property="og:image" content="https://bashsbargains.github.io/og/fall.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
@@ -125,13 +125,42 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .big-tabs button{min-height:52px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);font-weight:600;font-size:1rem;cursor:pointer}
 .big-tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .flab{font-size:.85rem;font-weight:600;margin:0 0 -4px}
+
+/* Easy-reading overrides (site-wide) */
+:root{--ok:#17703d}
+.bar{align-items:flex-start}
+.bar nav{display:flex!important;flex-wrap:wrap;gap:4px!important;font-size:1rem!important;font-weight:500;width:100%}
+.bar nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink)!important;text-decoration:none}
+.bar nav a[aria-current]{background:var(--ink);color:var(--bg)!important;border-color:var(--ink);font-weight:600}
+.bar nav a[aria-current]::after{display:none}
+.mark{min-height:44px}
+.foot{font-size:.95rem!important}
+.foot a{display:inline-block;padding:6px 0}
+.lab,.eyebrow,.more-k,.seas-k{font-family:var(--body)!important;font-size:.9rem!important;letter-spacing:.01em!important;text-transform:none!important;font-weight:600}
+.badge,.pill,.how-tag,.flag{font-family:var(--body)!important;font-size:.82rem!important;text-transform:none!important;letter-spacing:0!important}
+.src,.meta,.m-foot,.place,.hook{font-size:.9rem!important}
+.src a,.meta a,.place a,.links a{display:inline-block;padding:8px 0}
+.place a{color:var(--accent);font-weight:600}
+.chip{min-height:44px;font-size:.95rem}
+.chips{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs,.tabs{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs a,.eats-tabs button{min-height:44px}
+.add{padding:10px 12px!important;font-size:.95rem!important;min-height:44px}
+.qk button{border-style:solid!important;background:var(--card)!important;color:var(--ink)!important;padding:8px 14px!important;font-size:.95rem!important;min-height:44px}
+.was,.cpn,.fin small,.tab .n{font-size:.85rem!important}
+.dates,.lnk span,.lnk .ltip{font-size:.9rem!important}
+.k,.ok{font-size:.8rem!important;text-transform:none!important;letter-spacing:0!important}
+.kv dt,dl dt{font-family:var(--body)!important;font-size:.85rem!important;text-transform:none!important;letter-spacing:0!important}
+.date b{font-size:.8rem!important}
+.more-row small,.tile small{font-size:.9rem!important}
+.crew-btns a{min-height:44px;display:inline-flex;align-items:center}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/">Eats</a><a href="/events/" aria-current="page">Events</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/">Restaurants</a><a href="/events/" aria-current="page">Events</a><a href="/local/">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
   <h1>Events &amp; Things To Do 🎉</h1>
-  <p class="intro">Free and cheap things to do around Delaware, Philly and Montco. Pick your area, then scroll down day by day.</p>
+  <p class="intro">Things to do around Delaware, Philly and Montgomery County: family fun, festivals, concerts, comedy, dancing and nights out. Pick your area, then scroll down day by day.</p>
 
   <div class="big-tabs" role="tablist" aria-label="Events sections">
     <button type="button" role="tab" id="tabDays" aria-selected="true" aria-controls="paneDays">📅 What's on</button>
@@ -139,13 +168,17 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
   </div>
 
   <section class="finder" aria-label="Filters">
+    <div class="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input id="q" type="search" placeholder="Search: comedy, trivia, Halloween…" aria-label="Search events">
+    </div>
     <p class="flab">Where</p>
     <div class="chips" role="group" aria-label="Area">
       <button class="chip" type="button" data-area="" aria-pressed="true">All areas</button>
       <button class="chip" type="button" data-area="Wilmington" aria-pressed="false">Wilmington</button>
       <button class="chip" type="button" data-area="Newark" aria-pressed="false">Newark</button>
       <button class="chip" type="button" data-area="Philadelphia" aria-pressed="false">Philly</button>
-      <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco/KOP</button>
+      <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco &amp; King of Prussia</button>
     </div>
     <div id="evFilters" style="display:flex;flex-direction:column;gap:12px">
       <p class="flab">What kind</p>
@@ -153,7 +186,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
         <button class="chip" type="button" data-type="" aria-pressed="true">Everything</button>
         <button class="chip" type="button" data-type="Free" aria-pressed="false">Free only</button>
         <button class="chip" type="button" data-type="Family" aria-pressed="false">Family &amp; kids</button>
-        <button class="chip" type="button" data-type="Nightlife" aria-pressed="false">Nights out</button>
+        <button class="chip" type="button" data-type="Nightlife" aria-pressed="false">Adults &amp; nights out</button>
       </div>
       <p class="flab">When</p>
       <div class="chips" role="group" aria-label="Time of day">
@@ -170,7 +203,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
   </section>
 
   <section id="panePlaces" role="tabpanel" aria-labelledby="tabPlaces" hidden style="flex-direction:column;gap:12px">
-    <p class="count">Always-open spots that are free or cheap. Great for any day.</p>
+    <p class="count">Always-open spots worth a visit, any day.</p>
     <div class="cards" id="places"></div>
   </section>
 
@@ -182,28 +215,28 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
     <p><b>Know a fun event?</b> Share it in the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers Facebook group</a> and I'll add it.</p>
   </section>
 
-  <p class="foot">Events are checked against the organizer's page or a trusted listing, and the list is refreshed every Monday. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
+  <p class="foot">Events include family fun and adults-only nights out at any price. Each is checked against the organizer's page or a trusted listing, and the list is refreshed every Monday. Gathered with help from AI. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
 <script>
 (function(){
-var J={events:[],weekly:[],places:[]},area="",type="",tod="",nDays=7;
+var J={events:[],weekly:[],places:[]},area="",type="",tod="",q="",nDays=7;
 var DAYN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
 function ymd(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 function t12(s){if(!s)return "";var p=s.split(":").map(Number),h=p[0]%12||12;return h+(p[1]?":"+String(p[1]).padStart(2,"0"):"")+(p[0]<12?" am":" pm")}
 function when(x){if(!x.s)return "Time: see details";return t12(x.s)+(x.e?" – "+t12(x.e):"")}
 function isFree(x){return /^free/i.test(x.price||"")}
-function ok(x){if(area&&x.area!==area)return false;if(type==="Free"&&!isFree(x))return false;if(type&&type!=="Free"&&x.type!==type)return false;
+function ok(x){if(area&&x.area!==area)return false;if(q){var hay=(x.name+" "+(x.venue||"")+" "+x.city+" "+x.blurb+" "+(x.cat||"")).toLowerCase();if(!q.split(/\s+/).every(function(w){return hay.indexOf(w)>=0}))return false}if(type==="Free"&&!isFree(x))return false;if(type&&type!=="Free"&&x.type!==type)return false;
   if(tod&&x.s){var night=x.s>="17:00";if(tod==="night"&&!night)return false;if(tod==="day"&&night)return false}return true}
 function onDay(x,ds){if(x.dates)return x.dates.indexOf(ds)>=0;return x.date<=ds&&(x.endDate||x.date)>=ds}
 function maps(x){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((x.venue||x.name)+" "+x.addr+" "+x.city+((x.area==="Wilmington"||x.area==="Newark")?", DE":", PA"))}
 function card(x,rep){var c=el("article","card ev");
   var top=el("div","top"),l=el("div");l.appendChild(el("div","when",x.place?(x.cat||""):when(x)));l.appendChild(el("h3",null,x.name));top.appendChild(l);c.appendChild(top);
   c.appendChild(el("p","place",(x.venue?x.venue+" · ":"")+x.city));
-  var m=el("div","meta");if(x.price)m.appendChild(el("span","price"+(isFree(x)?"":" paid"),x.price));if(rep)m.appendChild(el("span","rep",rep));if(m.children.length)c.appendChild(m);
+  var m=el("div","meta");if(x.price)m.appendChild(el("span","price"+(isFree(x)?"":" paid"),x.price));if(x.age)m.appendChild(el("span","rep",x.age+" only"));if(rep)m.appendChild(el("span","rep",rep));if(m.children.length)c.appendChild(m);
   c.appendChild(el("p","how",x.blurb));
   var b=el("div","btns"),go=el("a","go","More info ↗");go.href=x.link;go.target="_blank";go.rel="noopener";b.appendChild(go);
-  var d=el("a","dir","Directions");d.href=maps(x);d.target="_blank";d.rel="noopener";b.appendChild(d);c.appendChild(b);
+  if(x.addr){var d=el("a","dir","Directions");d.href=maps(x);d.target="_blank";d.rel="noopener";b.appendChild(d)}c.appendChild(b);
   var s=el("p","src");s.appendChild(document.createTextNode("Source: "+x.src));c.appendChild(s);return c}
 function repText(d){if(d.length===1)return "Every "+DAYN[d[0]];return "Every "+d.map(function(i){return DAYN[i].slice(0,3)}).join(" & ")}
 function renderDays(){var box=document.getElementById("days");box.textContent="";var t=new Date();t.setHours(12,0,0,0);var total=0;
@@ -217,12 +250,13 @@ function renderDays(){var box=document.getElementById("days");box.textContent=""
     items.forEach(function(it){sec.appendChild(card(it.x,it.rep))});total+=items.length;box.appendChild(sec)}
   document.getElementById("moreDays").hidden=nDays>=14}
 function renderPlaces(){var box=document.getElementById("places");box.textContent="";
-  var rows=J.places.filter(function(x){return !area||x.area===area});
+  var rows=J.places.filter(function(x){return (!area||x.area===area)&&(!q||(x.name+" "+x.blurb+" "+x.city).toLowerCase().indexOf(q)>=0)});
   if(!rows.length){box.appendChild(el("p","empty","No places listed for this area yet."));return}
   rows.forEach(function(x){var y=Object.assign({place:true},x);box.appendChild(card(y))})}
 function render(){renderDays();renderPlaces()}
 function wire(attr,set){document.querySelectorAll("["+attr+"]").forEach(function(b){b.addEventListener("click",function(){set(b.getAttribute(attr));document.querySelectorAll("["+attr+"]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})})}
 wire("data-area",function(v){area=v});wire("data-type",function(v){type=v});wire("data-tod",function(v){tod=v});
+var qIn=document.getElementById("q");qIn.addEventListener("input",function(){q=qIn.value.trim().toLowerCase();render()});
 document.getElementById("moreDays").addEventListener("click",function(){nDays=14;renderDays()});
 var tD=document.getElementById("tabDays"),tP=document.getElementById("tabPlaces"),pD=document.getElementById("paneDays"),pP=document.getElementById("panePlaces"),fl=document.getElementById("evFilters");
 function show(pl){tD.setAttribute("aria-selected",pl?"false":"true");tP.setAttribute("aria-selected",pl?"true":"false");pD.hidden=pl;pP.hidden=!pl;pP.style.display=pl?"flex":"";fl.hidden=pl;if(history.replaceState)history.replaceState(null,"",pl?"#places":location.pathname)}

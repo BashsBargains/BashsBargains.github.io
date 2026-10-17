@@ -90,11 +90,40 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .eats-tabs::-webkit-scrollbar{display:none}
 .eats-tabs a{flex:none;display:flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;font-size:.88rem;font-weight:600;white-space:nowrap}
 .eats-tabs a[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+/* Easy-reading overrides (site-wide) */
+:root{--ok:#17703d}
+.bar{align-items:flex-start}
+.bar nav{display:flex!important;flex-wrap:wrap;gap:4px!important;font-size:1rem!important;font-weight:500;width:100%}
+.bar nav a{display:inline-flex;align-items:center;min-height:44px;padding:0 11px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink)!important;text-decoration:none}
+.bar nav a[aria-current]{background:var(--ink);color:var(--bg)!important;border-color:var(--ink);font-weight:600}
+.bar nav a[aria-current]::after{display:none}
+.mark{min-height:44px}
+.foot{font-size:.95rem!important}
+.foot a{display:inline-block;padding:6px 0}
+.lab,.eyebrow,.more-k,.seas-k{font-family:var(--body)!important;font-size:.9rem!important;letter-spacing:.01em!important;text-transform:none!important;font-weight:600}
+.badge,.pill,.how-tag,.flag{font-family:var(--body)!important;font-size:.82rem!important;text-transform:none!important;letter-spacing:0!important}
+.src,.meta,.m-foot,.place,.hook{font-size:.9rem!important}
+.src a,.meta a,.place a,.links a{display:inline-block;padding:8px 0}
+.place a{color:var(--accent);font-weight:600}
+.chip{min-height:44px;font-size:.95rem}
+.chips{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs,.tabs{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs a,.eats-tabs button{min-height:44px}
+.add{padding:10px 12px!important;font-size:.95rem!important;min-height:44px}
+.qk button{border-style:solid!important;background:var(--card)!important;color:var(--ink)!important;padding:8px 14px!important;font-size:.95rem!important;min-height:44px}
+.was,.cpn,.fin small,.tab .n{font-size:.85rem!important}
+.dates,.lnk span,.lnk .ltip{font-size:.9rem!important}
+.k,.ok{font-size:.8rem!important;text-transform:none!important;letter-spacing:0!important}
+.kv dt,dl dt{font-family:var(--body)!important;font-size:.85rem!important;text-transform:none!important;letter-spacing:0!important}
+.date b{font-size:.8rem!important}
+.more-row small,.tile small{font-size:.9rem!important}
+.crew-btns a{min-height:44px;display:inline-flex;align-items:center}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/coupons/">Coupons</a><a href="/eats/" aria-current="page">Eats</a><a href="/events/">Events</a><a href="/local/">Near Me</a><details class="nav-more"><summary>More</summary><div><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/about/">About</a></div></details></nav></div>
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/" aria-current="page">Restaurants</a><a href="/events/">Events</a><a href="/local/">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
 
   <h1>Happy Hours 🍻</h1>
   <nav class="eats-tabs" aria-label="Eats sections"><a href="/eats/">Restaurant deals</a><a href="/eats/#delivery">Delivery apps</a><a href="/happy-hour/" aria-current="page">Happy Hours</a><a href="/birthday/">Birthday Freebies</a></nav>
@@ -114,7 +143,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
       <button class="chip" type="button" data-area="Wilmington" aria-pressed="false">Wilmington</button>
       <button class="chip" type="button" data-area="Newark" aria-pressed="false">Newark</button>
       <button class="chip" type="button" data-area="Philadelphia" aria-pressed="false">Philly</button>
-      <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco/KOP</button>
+      <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco &amp; King of Prussia</button>
     </div>
     <div class="chips" role="group" aria-label="When">
       <button class="chip" type="button" data-when="" aria-pressed="true">Any day</button>
