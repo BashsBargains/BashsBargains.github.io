@@ -62,6 +62,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .badge.soon{background:var(--soon-bg);color:var(--soon);border-color:var(--soon)}
 .badge.later{background:var(--bg);color:var(--muted);border-color:var(--line)}
 .how{margin:0;color:var(--muted);font-size:.92rem}
+.place{margin:0;font-size:.85rem;color:var(--muted)}
+.place a{color:var(--muted)}
 .code{display:flex;gap:8px}
 .code span{flex:1;min-width:0;display:flex;align-items:center;border:2px dashed var(--hot);border-radius:10px;padding:0 12px;min-height:44px;font-family:var(--mono);font-weight:600;font-size:1.02rem;letter-spacing:.06em;overflow-wrap:anywhere}
 .code button{flex:none;width:92px;min-height:44px;border:1px solid var(--ink);background:var(--ink);color:var(--bg);border-radius:10px;font-weight:600;cursor:pointer}
@@ -122,7 +124,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
   </nav>
 
   <section id="paneDeals" role="tabpanel" aria-labelledby="tabDeals" style="display:flex;flex-direction:column;gap:18px">
-    <p class="intro">Dine-in, pickup, app and delivery deals from restaurants around Delaware and Philly. I check each one and show when it ends. Expired deals come off on their own.</p>
+    <p class="intro">Dine-in, pickup, app and delivery deals from chains around Delaware and Philly, plus local spots around Montco and King of Prussia. I check each one and show when it ends. Expired deals come off on their own.</p>
 
     <section class="finder" aria-label="Find a deal">
       <div class="search">
@@ -135,6 +137,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
         <button class="chip" type="button" data-how="Pickup" aria-pressed="false">Pickup</button>
         <button class="chip" type="button" data-how="Delivery" aria-pressed="false">Delivery</button>
         <button class="chip" type="button" data-how="App" aria-pressed="false">In the app</button>
+      </div>
+      <div class="chips" role="group" aria-label="Area">
+        <button class="chip" type="button" data-area="" aria-pressed="true">Everywhere</button>
+        <button class="chip" type="button" data-area="chains" aria-pressed="false">Chains</button>
+        <button class="chip" type="button" data-area="Montco" aria-pressed="false">Montco/KOP local</button>
       </div>
     </section>
 
@@ -177,7 +184,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 </div>
 <script>
 (function(){
-var DEALS=[],APPS=[],how="",q="";
+var DEALS=[],APPS=[],how="",q="",area="";
 var list=document.getElementById("list"),countEl=document.getElementById("count");
 function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
 function today(){var t=new Date();return t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0")}
@@ -189,11 +196,12 @@ function badge(d){var t=today();
   if(d.start&&d.start>t)return {cls:"later",txt:"Starts "+short(d.start)};
   if(d.ends){var n=daysTo(d.ends);if(n===0)return {cls:"soon",txt:"Ends tonight"};if(n===1)return {cls:"soon",txt:"Ends tomorrow"};if(n<=3)return {cls:"soon",txt:"Ends "+short(d.ends)};return {cls:"",txt:"Ends "+short(d.ends)}}
   return {cls:"",txt:d.repeat||"Ongoing"}}
-function matches(d){if(how&&(d.where||[]).indexOf(how)<0)return false;if(!q)return true;var hay=(d.chain+" "+d.offer+" "+(d.cat||"")+" "+d.how).toLowerCase();return q.split(/\s+/).every(function(w){return hay.indexOf(w)>=0})}
+function matches(d){if(how&&(d.where||[]).indexOf(how)<0)return false;if(area==="chains"&&d.area)return false;if(area&&area!=="chains"&&d.area!==area)return false;if(!q)return true;var hay=(d.chain+" "+d.offer+" "+(d.cat||"")+" "+d.how+" "+(d.city||"")+" "+(d.zip||"")).toLowerCase();return q.split(/\s+/).every(function(w){return hay.indexOf(w)>=0})}
 function card(d){
   var b=badge(d),c=el("article","card"+(b.cls==="later"?" later":""));
   var top=el("div","top"),l=el("div"),ch=el("div","chain");ch.appendChild(el("span",null,d.chain));(d.where||[]).forEach(function(w){ch.appendChild(el("span","how-tag",w==="App"?"In the app":w))});
   l.appendChild(ch);l.appendChild(el("h3",null,d.offer));top.appendChild(l);top.appendChild(el("span","badge"+(b.cls?" "+b.cls:""),b.txt));c.appendChild(top);
+  if(d.city){var pl=el("p","place",d.city+" · "+d.addr+" · "),m=el("a",null,"Directions");m.href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(d.chain+" "+d.addr+" "+d.city+", PA");m.target="_blank";m.rel="noopener";pl.appendChild(m);c.appendChild(pl)}
   c.appendChild(el("p","how",d.how));
   if(d.code){var row=el("div","code"),cs=el("span",null,d.code),btn=el("button",null,"Copy");btn.type="button";btn.setAttribute("aria-label","Copy code "+d.code);
     btn.addEventListener("click",function(){var done=function(){btn.textContent="Copied!";btn.classList.add("done");setTimeout(function(){btn.textContent="Copy";btn.classList.remove("done")},2000)};
@@ -211,7 +219,7 @@ function render(){
   countEl.textContent=rows.length?(rows.length+(rows.length===1?" deal":" deals")+" · ending soonest first"):"";
   if(!rows.length){var e=el("p","empty");
     if(q){e.appendChild(document.createTextNode("No verified deal for “"+q+"” right now. I only post codes that actually work. Seen one? "));var a=el("a",null,"Ask the Price Bashers");a.href="https://www.facebook.com/share/g/1HJanBf4zM/";a.target="_blank";a.rel="noopener";e.appendChild(a);e.appendChild(document.createTextNode("."))}
-    else e.textContent="No deals match that filter right now. Try “Any way.”";
+    else e.textContent="No deals match those filters right now. Try “Any way” or “Everywhere.”";
     list.appendChild(e);return}
   rows.forEach(function(d){list.appendChild(card(d))});
 }
@@ -220,6 +228,7 @@ function renderApps(){var box=document.getElementById("appList");box.textContent
   rows.forEach(function(d){box.appendChild(card(d))})}
 function renderHol(j){var box=document.getElementById("hol"),t=today();(j||[]).filter(function(h){return h.date>=t}).slice(0,3).forEach(function(h){var r=el("div");r.appendChild(el("b",null,h.name));r.appendChild(el("span",null,short(h.date)));box.appendChild(r)});
   if(!box.children.length)box.parentNode.hidden=true}
+document.querySelectorAll("[data-area]").forEach(function(b){b.addEventListener("click",function(){area=b.getAttribute("data-area");document.querySelectorAll("[data-area]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
 document.querySelectorAll("[data-how]").forEach(function(b){b.addEventListener("click",function(){how=b.getAttribute("data-how");document.querySelectorAll("[data-how]").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false")});render()})});
 var qIn=document.getElementById("q");qIn.addEventListener("input",function(){q=qIn.value.trim().toLowerCase();render()});
 var params=new URLSearchParams(location.search);if(params.get("q")){qIn.value=params.get("q");q=qIn.value.trim().toLowerCase()}

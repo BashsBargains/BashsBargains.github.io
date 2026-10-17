@@ -1,5 +1,5 @@
 {
- "updated": 1792062659318,
+ "updated": 1792249136724,
  "deals": [
   {
    "id": "wawa-5-sizzli-meal",
@@ -188,6 +188,412 @@
    "linkText": "See Outback specials",
    "official": true,
    "checked": "2026-10-15"
+  },
+  {
+   "id": "lansdale-tavern-wings-lansdale",
+   "chain": "Lansdale Tavern",
+   "cat": "Wings",
+   "offer": "75¢ wings on Wednesdays",
+   "how": "Wings are 75 cents each on Wednesdays, ordered in multiples of 5. Their site also lists a $8.50 cheesesteak with chips on Tuesdays and a $8.50 cheeseburger with chips on Thursdays.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Wednesday",
+   "city": "Lansdale",
+   "addr": "839 W Main St",
+   "zip": "19446",
+   "link": "https://lansdaletavern.com/",
+   "linkText": "See Lansdale Tavern's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "lansdale-tavern-kids-lansdale",
+   "chain": "Lansdale Tavern",
+   "cat": "Family",
+   "offer": "Kids eat half off on Sundays",
+   "how": "On Sundays, kids' menu items are half price.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Sunday",
+   "city": "Lansdale",
+   "addr": "839 W Main St",
+   "zip": "19446",
+   "link": "https://lansdaletavern.com/",
+   "linkText": "See Lansdale Tavern's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "margaritas-tacos-lansdale",
+   "chain": "Margaritas Mexican Restaurant",
+   "cat": "Mexican",
+   "offer": "All-you-can-eat tacos for $9.99",
+   "how": "Every Tuesday you can eat as many tacos as you want for $9.99. Dine-in only.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Tuesday",
+   "city": "Lansdale",
+   "addr": "1650 Sumneytown Pike",
+   "zip": "19446",
+   "link": "https://margs.com/locations/margaritas-mexican-food-restaurant-pa/lansdale/",
+   "linkText": "See Margaritas' specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "kc-alley-burgers-ambler",
+   "chain": "KC's Alley",
+   "cat": "Burgers",
+   "offer": "$10 burgers on Mondays",
+   "how": "Burgers are $10 all day on Mondays. Dine-in only.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Monday",
+   "city": "Ambler",
+   "addr": "10 West Butler Ave",
+   "zip": "19002",
+   "link": "https://kc-alley.com/ambler-kc-s-alley-happy-hours-specials",
+   "linkText": "See KC's Alley's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "drake-tavern-burgers-jenkintown",
+   "chain": "Drake Tavern",
+   "cat": "Burgers",
+   "offer": "$15 burgers on Monday Burger Night",
+   "how": "On Monday nights the Traditional Burger and the Drakes Bourbon Burger are $15, down from $19. Other burgers are full price. Prices may vary, so check with your server.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Monday",
+   "city": "Jenkintown",
+   "addr": "304 Old York Road",
+   "zip": "19046",
+   "link": "https://draketavern.com/events/burger-night/",
+   "linkText": "See Drake Tavern's Burger Night",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "drake-tavern-tacos-jenkintown",
+   "chain": "Drake Tavern",
+   "cat": "Mexican",
+   "offer": "$15 tacos on Taco Tuesday",
+   "how": "On Tuesday nights each taco order is $15, including shrimp and fish tacos that are normally $17. Dine-in only. Takeout is regular price.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Tuesday",
+   "city": "Jenkintown",
+   "addr": "304 Old York Road",
+   "zip": "19046",
+   "link": "https://draketavern.com/events/taco-tuesday/",
+   "linkText": "See Drake Tavern's Taco Tuesday",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "kabuto-kids-east-norriton",
+   "chain": "Kabuto",
+   "cat": "Asian",
+   "offer": "Kids eat free, Monday to Thursday",
+   "how": "Monday to Thursday, kids 10 and under eat free when an adult buys a hibachi entrée. Not valid on holidays.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Monday–Thursday",
+   "city": "East Norriton",
+   "addr": "2650 Dekalb Pike",
+   "zip": "19401",
+   "link": "https://gokabuto.com/menus/east-norriton-pa/",
+   "linkText": "See Kabuto's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "southern-cross-sunday-conshohocken",
+   "chain": "Southern Cross Kitchen",
+   "cat": "American",
+   "offer": "$45 Sunday dinner for two",
+   "how": "On Sundays, two people share one appetizer and get two entrées for $45 total.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Sunday",
+   "city": "Conshohocken",
+   "addr": "8 East 1st Avenue",
+   "zip": "19428",
+   "link": "https://www.southerncrosskitchen.com/menu/upcoming-events/",
+   "linkText": "See Southern Cross Kitchen's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "nabrasa-kids-horsham",
+   "chain": "NaBrasa Brazilian Steakhouse",
+   "cat": "Family",
+   "offer": "Kids 2 and under free, ages 7–12 half price",
+   "how": "At this all-you-can-eat steakhouse, kids 2 and under eat free, ages 3–6 pay $10 and ages 7–12 pay half price.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every day",
+   "city": "Horsham",
+   "addr": "680 Easton Road",
+   "zip": "19044",
+   "link": "https://nabrasa.com/locations/horsham/",
+   "linkText": "See NaBrasa's pricing",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "buddys-wings-west-chester",
+   "chain": "Buddy's Burgers, Breasts & Fries",
+   "cat": "Wings",
+   "offer": "$1 wings on Sundays",
+   "how": "Wings are $1 each on Sundays. Other weekly deals: $3 Lil' Buddys Monday, $1.50 hot dogs Tuesday, half-price fries Wednesday and $1 off signature burgers Friday. Add-ons like cheese or bacon cost extra.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Sunday",
+   "city": "West Chester",
+   "addr": "11 W Gay Street",
+   "zip": "19380",
+   "link": "https://www.buddysbbf.com/west-chester-menu",
+   "linkText": "See Buddy's West Chester specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "buddys-lil-buddy-exton",
+   "chain": "Buddy's Burgers, Breasts & Fries",
+   "cat": "Burgers",
+   "offer": "$3 Lil' Buddy burgers on Mondays",
+   "how": "Lil' Buddy burgers are $3 each on Mondays. Thursday has a $9.99 chicken sandwich or cheesesteak combo, and Sunday has $1 wings. Add-ons like cheese or bacon cost extra.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Monday",
+   "city": "Exton",
+   "addr": "122 Woodcutter Street",
+   "zip": "19341",
+   "link": "https://www.buddysbbf.com/exton-menu",
+   "linkText": "See Buddy's Exton specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "al-pastor-tacos-exton",
+   "chain": "Al Pastor",
+   "cat": "Mexican",
+   "offer": "Taco Tuesday: $4 build-your-own tacos",
+   "how": "Tuesdays 11:30am–9pm: build-your-own tacos $4, specialty tacos $5, chips and salsa $3. Dine-in only. Sundays also have $5 kids trays for under 12, dine-in.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Tuesday",
+   "city": "Exton",
+   "addr": "560 Wellington Square",
+   "zip": "19341",
+   "link": "https://www.eatalpastor.com/daily-specials",
+   "linkText": "See Al Pastor's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "appetites-on-main-wings-exton",
+   "chain": "Appetites on Main",
+   "cat": "Wings",
+   "offer": "Half-price wings on Mondays",
+   "how": "Wings are half price on Mondays when you order 12. Dine-in only. Tuesdays have cheesesteaks starting at $6.50.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Monday",
+   "city": "Exton",
+   "addr": "286 Main Street",
+   "zip": "19341",
+   "link": "https://www.appetitesonmain.com/daily-food-specials/",
+   "linkText": "See Appetites on Main's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "pizza-stop-collegeville",
+   "chain": "The Pizza Stop",
+   "cat": "Pizza",
+   "offer": "$5 off two large pizzas",
+   "how": "Take $5 off any two large pizzas, Tuesday through Thursday only.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery"
+   ],
+   "repeat": "Every Tuesday–Thursday",
+   "city": "Collegeville",
+   "addr": "222 East Main Street",
+   "zip": "19426",
+   "link": "https://www.pizzastopcollegeville.com/coupons",
+   "linkText": "See The Pizza Stop's coupons",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "ember-and-ale-kids-collegeville",
+   "chain": "Ember & Ale",
+   "cat": "Pizza",
+   "offer": "Kids eat free on Wednesdays",
+   "how": "Kids eat free Wednesdays 3–10pm. Their site doesn't list limits, so ask when you order. Tuesdays also have a 2-pizza special, 3–10pm.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every Wednesday",
+   "city": "Collegeville",
+   "addr": "99 Market St, Suite 4",
+   "zip": "19426",
+   "link": "https://emberandale.com/events",
+   "linkText": "See Ember & Ale's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "mikes-brick-oven-pottstown",
+   "chain": "Mike's Brick Oven Pizza",
+   "cat": "Pizza",
+   "offer": "$8.75 large pizza Wednesdays",
+   "how": "Wednesdays a large pizza is $8.75 from 10am–4pm and $10.75 from 4pm to close. Pickup only; toppings extra. Also: large Sicilian $18 on Tuesday, two spaghetti dinners $16 on Sunday.",
+   "where": [
+    "Pickup"
+   ],
+   "repeat": "Every Wednesday",
+   "city": "Pottstown",
+   "addr": "601 North Charlotte Street",
+   "zip": "19464",
+   "link": "https://www.mikesbrickovenpizza.com/daily-specials.html",
+   "linkText": "See Mike's daily specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "pinocchios-ayce-media",
+   "chain": "Pinocchio's Restaurant & Beer Garden",
+   "cat": "Pizza",
+   "offer": "All-you-can-eat pizza & soda $8.99",
+   "how": "All-you-can-eat pizza and soda is $8.99 every day, and all-you-can-eat pasta and salad is $9.99. Dining room only. Tuesdays, medium pizzas are $5 off for dine-in.",
+   "where": [
+    "In store"
+   ],
+   "repeat": "Every day",
+   "city": "Media",
+   "addr": "131 E Baltimore Ave",
+   "zip": "19063",
+   "link": "https://pinpizza.com/specials",
+   "linkText": "See Pinocchio's specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "vip-pizza-monday-malvern",
+   "chain": "VIP Pizza & Pasta",
+   "cat": "Pizza",
+   "offer": "Two large cheese pizzas $27.93 on Mondays",
+   "how": "Two large cheese pizzas are $27.93 all day Monday. Thursday has two large pizzas, 15 wings and a 2-liter for $55.04. Tax and extra toppings not included; deals can't be combined.",
+   "where": [
+    "In store",
+    "Pickup"
+   ],
+   "repeat": "Every Monday",
+   "city": "Malvern",
+   "addr": "309 Lancaster Avenue",
+   "zip": "19355",
+   "link": "https://vippizzapasta.com/",
+   "linkText": "See VIP Pizza's weekly specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "bravo-pizza-lunch-west-chester",
+   "chain": "Bravo Pizza",
+   "cat": "Italian",
+   "offer": "$8.49 lunch specials with a soda",
+   "how": "Weekday lunch specials include a soda: cheeseburger $8.49 on Wednesday, grilled chicken sandwich or wrap $8.49 on Tuesday and Thursday. Pasta dinner specials run $13.99–$17.99 most nights.",
+   "where": [
+    "In store",
+    "Pickup"
+   ],
+   "repeat": "Tuesday–Saturday",
+   "city": "West Chester",
+   "addr": "1438 Pottstown Pike",
+   "zip": "19380",
+   "link": "https://www.bravopizzawc.com/daily-specials",
+   "linkText": "See Bravo Pizza's daily specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
+  },
+  {
+   "id": "hog-island-lunch-phoenixville",
+   "chain": "Hog Island Steaks",
+   "cat": "American",
+   "offer": "Lunch combos from $6.99",
+   "how": "Daily 11am–3pm: two plain slices and a soda $6.99, six wings with fries and a soda $12.99, cheeseburger with fries and a soda $13.99.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery"
+   ],
+   "repeat": "Every day, 11am–3pm",
+   "city": "Phoenixville",
+   "addr": "785 Starr Street",
+   "zip": "19460",
+   "link": "https://www.hogislandsteaks.com/lunch-specials",
+   "linkText": "See Hog Island's lunch specials",
+   "official": true,
+   "area": "Montco",
+   "checked": "2026-10-17",
+   "srcDate": "Oct 2026"
   }
  ],
  "apps": [],
