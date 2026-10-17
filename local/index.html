@@ -44,6 +44,18 @@ h2{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:0}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .status{margin:0;font-size:.88rem;color:var(--muted);min-height:1.3em}
 .sec{display:flex;flex-direction:column;gap:10px}
+.tapnote{margin:0 0 -8px;font-size:.95rem;color:var(--muted)}
+.acc{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px}
+.acc[open]{border-color:var(--ink)}
+.acc>summary{display:flex;align-items:center;gap:12px;padding:14px 16px;min-height:64px;cursor:pointer;list-style:none}
+.acc>summary::-webkit-details-marker{display:none}
+.acc-ic{font-size:1.4rem;flex:none}
+.acc-t{flex:1;min-width:0;display:flex;flex-direction:column}
+.acc-t h2{margin:0!important;font-size:1.1rem!important;line-height:1.25}
+.acc-n{font-size:.9rem;color:var(--muted)}
+.acc-chev{flex:none;font-size:1.2rem;color:var(--muted);transition:transform .15s}
+.acc[open] .acc-chev{transform:rotate(180deg)}
+.acc-body{padding:0 14px 16px;display:flex;flex-direction:column;gap:10px}
 .sec-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
 .sec-h a{color:var(--accent);font-weight:600;font-size:.9rem;white-space:nowrap}
 .sub{margin:0;color:var(--muted);font-size:.9rem}
@@ -110,7 +122,7 @@ h2{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:0}
 <div class="wrap">
   <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/">Restaurants</a><a href="/events/">Events</a><a href="/local/" aria-current="page">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
 
-  <h1>Near Me 📍</h1>
+  <h1>Near You 📍</h1>
   <p class="intro">Deals you can walk into around Delaware and Philly: in-store clearance spotted by the Price Bashers, happy hours closest to you, and this week's best in-store grocery and drugstore prices. Online-only deals live on the <a href="/deals/" style="color:inherit;font-weight:600">Clearance</a> page.</p>
 
   <section class="finder" aria-label="Your ZIP code">
@@ -123,22 +135,30 @@ h2{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:0}
     <p class="status" id="status" aria-live="polite">Your ZIP stays on your phone and is remembered across the site.</p>
   </section>
 
-  <section class="sec" aria-labelledby="h-finds">
-    <div class="sec-h"><h2 id="h-finds">In-store clearance finds</h2></div>
+  <p class="tapnote">Tap a section to open it.</p>
+  <details class="sec acc">
+    <summary><span class="acc-ic" aria-hidden="true">🏷️</span><span class="acc-t"><h2 id="h-finds">In-store clearance finds</h2><span class="acc-n" data-for="finds"></span></span><span class="acc-chev" aria-hidden="true">▾</span></summary>
+    <div class="acc-body">
     <p class="sub">Spotted on shelves by Price Bashers and local deal posts. Stock and prices vary by store, so grab it fast.</p>
     <div id="finds"></div>
-  </section>
+    </div>
+  </details>
 
-  <section class="sec" aria-labelledby="h-hh">
-    <div class="sec-h"><h2 id="h-hh">Happy hours near you</h2><a href="/happy-hour/">See all happy hours →</a></div>
+  <details class="sec acc">
+    <summary><span class="acc-ic" aria-hidden="true">🍹</span><span class="acc-t"><h2 id="h-hh">Happy hours near you</h2><span class="acc-n" data-for="hh"></span></span><span class="acc-chev" aria-hidden="true">▾</span></summary>
+    <div class="acc-body">
     <div id="hh"></div>
-  </section>
+    <p class="sec-h"><a href="/happy-hour/">See all happy hours →</a></p>
+    </div>
+  </details>
 
-  <section class="sec" aria-labelledby="h-store">
-    <div class="sec-h"><h2 id="h-store">In-store deals this week</h2></div>
+  <details class="sec acc">
+    <summary><span class="acc-ic" aria-hidden="true">🛒</span><span class="acc-t"><h2 id="h-store">In-store deals this week</h2><span class="acc-n" data-for="instore"></span></span><span class="acc-chev" aria-hidden="true">▾</span></summary>
+    <div class="acc-body">
     <p class="sub">The best prices in Delaware and Philly-area stores right now.</p>
     <div id="instore"></div>
-  </section>
+    </div>
+  </details>
 
   <p class="foot">Distances are straight-line from the center of your ZIP, so they're approximate. Your ZIP and location never leave your phone. Spotted a deal in a store near you? Post it in the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers Facebook group</a> with the store, town and price. <a href="/about/">About Bash's Bargains</a>.</p>
 </div>
@@ -219,6 +239,9 @@ Promise.all([j("/local/finds.json"),j("/happy-hour/happyhour.json"),j("/grocery/
   FINDS=(r[0]&&r[0].finds)||[];SPOTS=(r[1]&&r[1].spots)||[];GROC=r[2];CPN=r[3];
   var z=load("bb-zip")||load("bb-hh-zip");if(z){$("zip").value=z;useZip(z)}else renderAll()});
 setInterval(renderHH,60000);
+document.querySelectorAll(".acc-n").forEach(function(n){var box=document.getElementById(n.getAttribute("data-for"));if(!box)return;
+  var upd=function(){var k=0;[].forEach.call(box.children,function(e){if(!/empty|note/.test(e.className))k++});n.textContent=k?(k+(k===1?" item":" items")):""};
+  upd();new MutationObserver(upd).observe(box,{childList:true})});
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").catch(function(){})});
 })();
 </script>
