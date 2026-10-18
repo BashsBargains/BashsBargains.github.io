@@ -1,5 +1,5 @@
 {
- "updated": 1792347978137,
+ "updated": 1792348584710,
  "events": [
   {
    "id": "conshohocken-halloween-parade-20261017",
@@ -2958,6 +2958,24 @@
    "age": "21+",
    "blurb": "Six-hour day party from WDAS for HBCU week.",
    "link": "https://www.eventbrite.com/e/the-wdas-live-hbcu-day-party-experience-tickets-2001428805434",
+   "official": true,
+   "src": "Eventbrite",
+   "checked": "2026-10-18"
+  },
+  {
+   "id": "ditch-day-delaware-ep-3-20261023",
+   "name": "Ditch Day Delaware Ep. 3",
+   "type": "Nightlife",
+   "area": "Wilmington",
+   "city": "Wilmington",
+   "venue": "Docklands Riverfront",
+   "addr": "110 West St",
+   "date": "2026-10-23",
+   "s": "11:00",
+   "e": "16:30",
+   "price": "From $23",
+   "blurb": "Skip work and party: a Friday daytime party at Docklands from the Ditch Day crew. Tickets are on Eventbrite and there are no refunds.",
+   "link": "https://www.eventbrite.com/o/ditch-day-phl-82128854643",
    "official": true,
    "src": "Eventbrite",
    "checked": "2026-10-18"
