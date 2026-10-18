@@ -1,6 +1,73 @@
 {
  "recipes": [
   {
+   "id": "korean-beef-rice-bowls",
+   "week": "2026-10-21",
+   "name": "Korean-style ground beef rice bowls",
+   "blurb": "Sweet-salty garlic beef over rice with a runny fried egg and quick garlicky spinach. Twenty minutes, one skillet, and ShopRite's $2.99 ground beef makes it about $2.30 a bowl.",
+   "serves": 5,
+   "total": 11.5,
+   "cal": 720,
+   "protein": 46,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "2 lb",
+     "item": "80% lean ground beef",
+     "store": "ShopRite",
+     "price": 2.99,
+     "note": "$2.99/lb"
+    },
+    {
+     "qty": "5",
+     "item": "large eggs",
+     "store": "ShopRite",
+     "price": 2.49,
+     "note": "from the dozen"
+    },
+    {
+     "qty": "1 bag",
+     "item": "fresh spinach",
+     "store": "Acme",
+     "price": 1.0
+    },
+    {
+     "qty": "1 bunch",
+     "item": "green onions, sliced"
+    },
+    {
+     "qty": "2 cups",
+     "item": "uncooked white rice (or jasmine)"
+    },
+    {
+     "qty": "4 cloves",
+     "item": "garlic, minced (plus 1 more for the spinach)"
+    },
+    {
+     "qty": "1 tbsp",
+     "item": "fresh ginger, grated (or 1 tsp ground ginger)"
+    },
+    {
+     "qty": "",
+     "item": "sauce: ⅓ cup soy sauce, ¼ cup brown sugar, 1 tbsp sesame oil, 1 tsp red pepper flakes or gochujang to taste"
+    },
+    {
+     "qty": "",
+     "item": "sesame seeds for topping (optional)"
+    }
+   ],
+   "steps": [
+    "Cook the rice. While it cooks, stir together the soy sauce, brown sugar, sesame oil and red pepper flakes (or gochujang).",
+    "Brown the beef in a large skillet over medium-high heat, breaking it up, until no pink is left and it reaches 160°F. Spoon off most of the fat.",
+    "Add the garlic and ginger and cook 1 minute, then pour in the sauce and simmer 2–3 minutes until it coats the beef.",
+    "In a second pan, wilt the spinach with a little oil, a pinch of salt and 1 clove of garlic, about 2 minutes. Move it to a plate.",
+    "Fry the eggs in the same pan until the whites are fully set (cook the yolks firm for kids, pregnant folks or older relatives).",
+    "Build bowls: rice, beef, spinach and an egg on top. Finish with green onions and sesame seeds."
+   ],
+   "type": "Dinner",
+   "season": "Any season"
+  },
+  {
    "id": "smash-burger-tacos",
    "week": "2026-10-14",
    "name": "Smash burger tacos",
