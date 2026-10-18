@@ -109,7 +109,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
 .nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important}
 .nav-more>div a:hover{background:var(--bg)}
-.day{display:flex;flex-direction:column;gap:6px}
+.day{display:block}
 .ev-row{background:var(--card);border:1px solid var(--line);border-radius:12px}
 .ev-row>summary{display:flex;gap:12px;align-items:center;padding:10px 14px;min-height:58px;cursor:pointer;list-style:none}
 .ev-row>summary::-webkit-details-marker{display:none}
@@ -123,8 +123,15 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 .ev-body{padding:0 14px 14px;display:flex;flex-direction:column;gap:9px}
 #places{gap:6px}
 .ev-body .when{font-weight:600;color:var(--hot)}
-.day h2{position:sticky;top:0;z-index:5;margin:6px 0 0;padding:10px 12px;border-radius:12px;background:var(--ink);color:var(--bg);font-family:var(--display);font-weight:800;font-size:1.15rem}
+.day>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;min-height:54px;padding:10px 14px;border-radius:12px;background:var(--ink);color:var(--bg)}
+.day>summary::-webkit-details-marker{display:none}
+.day[open]>summary{position:sticky;top:0;z-index:5}
+.day h2{flex:1;min-width:0;margin:0;font-family:var(--display);font-weight:800;font-size:1.15rem}
 .day h2 small{font-family:var(--body);font-weight:500;font-size:.85rem;opacity:.8;margin-left:6px}
+.day-count{flex:none;font-size:.85rem;font-weight:600;opacity:.85}
+.day-chev{flex:none;font-size:1.1rem;transition:transform .15s}
+.day[open] .day-chev{transform:rotate(180deg)}
+.day-list{display:flex;flex-direction:column;gap:6px;padding-top:6px}
 .ev .when{font-family:var(--mono);font-weight:600;font-size:.85rem;color:var(--hot)}
 .ev .meta{display:flex;gap:6px;flex-wrap:wrap}
 .price{font-size:.8rem;font-weight:600;border-radius:999px;padding:2px 10px;background:var(--ok-bg);color:var(--ok);border:1px solid var(--ok)}
@@ -173,7 +180,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 <div class="wrap">
   <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/">Restaurants</a><a href="/events/" aria-current="page">Events</a><a href="/local/">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
   <h1>Events &amp; Things To Do 🎉</h1>
-  <p class="intro">Things to do around Delaware, Philly and Montgomery County: family fun, festivals, concerts, comedy, dancing and nights out. Pick your area, scroll down day by day, and tap any event to see the details.</p>
+  <p class="intro">Things to do around Delaware, Philly and Montgomery County: family fun, festivals, concerts, comedy, dancing and nights out. Pick your area, tap a day to see what's on, and tap any event for the details.</p>
 
   <div class="big-tabs" role="tablist" aria-label="Events sections">
     <button type="button" role="tab" id="tabDays" aria-selected="true" aria-controls="paneDays">📅 What's on</button>
@@ -232,7 +239,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem
 </div>
 <script>
 (function(){
-var J={events:[],weekly:[],places:[]},area="",type="",tod="",q="",nDays=7;
+var J={events:[],weekly:[],places:[]},area="",type="",tod="",q="",nDays=7,openDays={};
 var DAYN=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function el(t,c,txt){var e=document.createElement(t);if(c)e.className=c;if(txt!=null)e.textContent=txt;return e}
 function ymd(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
@@ -262,10 +269,14 @@ function renderDays(){var box=document.getElementById("days");box.textContent=""
     var items=[];J.events.forEach(function(x){if(onDay(x,ds)&&ok(x))items.push({x:x})});
     J.weekly.forEach(function(x){if(x.d.indexOf(wd)>=0&&ok(x))items.push({x:x,rep:repText(x.d)})});
     items.sort(function(a,b){return (a.x.s||"00:00").localeCompare(b.x.s||"00:00")});
-    var sec=el("section","day"),h=el("h2",null,i===0?"Today":i===1?"Tomorrow":DAYN[wd]);
-    h.appendChild(el("small",null,(i<2?DAYN[wd]+", ":"")+d.toLocaleDateString("en-US",{month:"short",day:"numeric"})));sec.appendChild(h);
-    if(!items.length)sec.appendChild(el("p","empty","Nothing listed for this day with these filters."));
-    items.forEach(function(it){sec.appendChild(card(it.x,it.rep))});total+=items.length;box.appendChild(sec)}
+    var sec=el("details","day"),sm=el("summary"),h=el("h2",null,i===0?"Today":i===1?"Tomorrow":DAYN[wd]);
+    h.appendChild(el("small",null,(i<2?DAYN[wd]+", ":"")+d.toLocaleDateString("en-US",{month:"short",day:"numeric"})));
+    sm.appendChild(h);sm.appendChild(el("span","day-count",items.length?items.length+(items.length===1?" event":" events"):"None"));sm.appendChild(el("span","day-chev","▾"));sec.appendChild(sm);
+    if(openDays[ds]||(q&&items.length))sec.open=true;
+    (function(ds,sec){sec.addEventListener("toggle",function(){if(sec.open)openDays[ds]=1;else delete openDays[ds]})})(ds,sec);
+    var list=el("div","day-list");
+    if(!items.length)list.appendChild(el("p","empty","Nothing listed for this day with these filters."));
+    items.forEach(function(it){list.appendChild(card(it.x,it.rep))});sec.appendChild(list);total+=items.length;box.appendChild(sec)}
   document.getElementById("moreDays").hidden=nDays>=14}
 function renderPlaces(){var box=document.getElementById("places");box.textContent="";
   var rows=J.places.filter(function(x){return (!area||x.area===area)&&(!q||(x.name+" "+x.blurb+" "+x.city).toLowerCase().indexOf(q)>=0)});
