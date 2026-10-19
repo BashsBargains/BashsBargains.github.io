@@ -1,6 +1,117 @@
 {
- "updated": 1792249136724,
+ "updated": 1792404004618,
  "deals": [
+  {
+   "id": "krispy-kreme-costume-halloween",
+   "chain": "Krispy Kreme",
+   "cat": "Desserts",
+   "offer": "Free doughnut when you wear a costume",
+   "how": "Oct 30-31, wear a costume into a participating Krispy Kreme shop and get a free Original Glazed or Classic Ring doughnut. No purchase needed.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just show up in costume.",
+   "start": "2026-10-30",
+   "ends": "2026-10-31",
+   "link": "https://investors.krispykreme.com/news-releases/news-release-details/krispy-kremer-brings-fans-new-halloween-experiment-limited-time",
+   "linkText": "See Krispy Kreme's Halloween deal",
+   "official": true,
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "red-robin-kids-sundae-halloween",
+   "chain": "Red Robin",
+   "cat": "Family",
+   "offer": "Free sundae for kids in costume",
+   "how": "Oct 30-Nov 1, kids under 11 who come in costume and order a kids' meal get a free sundae (one per child). Dine-in only at participating locations, not to-go or delivery.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Bring the kids in costume and tell your server.",
+   "start": "2026-10-30",
+   "ends": "2026-11-01",
+   "link": "https://www.redrobin.com/spooky-season",
+   "linkText": "See Red Robin's Halloween deals",
+   "official": true,
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "dunkin-halloween-3x-donuts",
+   "chain": "Dunkin'",
+   "cat": "Coffee",
+   "offer": "3X Rewards points on donuts and Munchkins for Halloween",
+   "how": "Oct 30-31, Dunkin' Rewards members earn 3X points on half-dozen and dozen donuts and 25- or 50-count Munchkins. Activate it in the app first; once per day, no Fancies. Also through Oct 26: 4X points on drinks ordered ahead in the app on Mondays.",
+   "where": [
+    "In store",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Activate the offer in the Dunkin' app.",
+   "start": "2026-10-30",
+   "ends": "2026-10-31",
+   "link": "https://news.dunkindonuts.com/news/dunkin-new-menu-september-2026",
+   "linkText": "See Dunkin's fall offers",
+   "official": true,
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "wendys-boo-books-2026",
+   "chain": "Wendy's",
+   "cat": "Desserts",
+   "offer": "$1 Boo! Book: 5 free Jr. Frostys + a $1.99 Kids' Meal coupon",
+   "how": "Buy a $1 Boo! Book at the counter, kiosk or in the Wendy's app (most of the money goes to the Dave Thomas Foundation). The coupons are good in restaurants through Dec 31. Sold while supplies last.",
+   "where": [
+    "In store",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Just ask for a Boo! Book.",
+   "start": "2026-09-03",
+   "ends": "2026-12-31",
+   "link": "https://www.irwendys.com/news/news-details/2026/Wendys-is-Serving-Up-a-Frightfully-Fun-Halloween-with-Boo-Books-and-Frosty-Frights/default.aspx",
+   "linkText": "See Wendy's Boo! Books",
+   "official": true,
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "pizza-hut-my-haunt-box",
+   "chain": "Pizza Hut",
+   "cat": "Pizza",
+   "offer": "My Haunt Box: personal pizza or wings, a side and a drink",
+   "how": "A Personal Pan Pizza or wings, plus fries or more wings and a 20 oz Mountain Dew x Trolli drink. Carryout or delivery, ordered online or in the app. Pizza Hut lists it from $6.99 to $8.49; price varies by location.",
+   "where": [
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Pick the My Haunt Box online or in the app.",
+   "start": "2026-10-05",
+   "ends": "2026-11-02",
+   "link": "https://www.pizzahut.com/c/content/halloween-pizza-deals",
+   "linkText": "See Pizza Hut's Halloween deals",
+   "official": true,
+   "checked": "2026-10-19"
+  },
+  {
+   "id": "wawa-fall-iced-espresso-3",
+   "chain": "Wawa",
+   "cat": "Coffee",
+   "offer": "Fall iced espresso and matcha drinks from $3",
+   "how": "Fall iced lattes and matchas (like the Pumpkin Brûlée Iced Latte, Pumpkin Iced Matcha and S'mores Iced Latte) start at $3 at Wawa stores.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just order at the kiosk or counter.",
+   "ends": "2026-11-29",
+   "link": "https://www.wawa.com/menu/promotions",
+   "linkText": "See Wawa's deals",
+   "official": true,
+   "checked": "2026-10-19"
+  },
   {
    "id": "wawa-5-sizzli-meal",
    "chain": "Wawa",
@@ -17,28 +128,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-10-15"
-  },
-  {
-   "id": "shake-shack-cheeseburger",
-   "chain": "Shake Shack",
-   "cat": "Burgers",
-   "offer": "Free Single Cheeseburger with a $10+ order",
-   "how": "Order at the kiosk, in the Shake Shack app or on their website (pickup or Shake Shack's own delivery). The free burger doesn't count toward the $10. Not valid at the drive-thru or on DoorDash/Uber Eats.",
-   "where": [
-    "In store",
-    "Pickup",
-    "Delivery"
-   ],
-   "code": "SCARYGOOD",
-   "start": "2026-10-12",
-   "ends": "2026-10-18",
-   "link": "https://shakeshack.com/",
-   "linkText": "Go to Shake Shack",
-   "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-15"
+   "checked": "2026-10-19"
   },
   {
    "id": "shake-shack-shackburger",
@@ -59,7 +149,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-15"
+   "checked": "2026-10-19"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -83,17 +173,18 @@
    "chain": "Bertucci's",
    "cat": "Pizza",
    "offer": "Buy one pizza, get one free",
-   "how": "Two For Tuesday. There's a Bertucci's at Christiana. Mention the deal when you order and ask your location for the fine print.",
+   "how": "Two For Tuesday, dine-in or to-go. Buy one pizza, get one free; Hand-Stretched Artisan Pizzas don't count. There's a Bertucci's at Christiana. Ask your location for the fine print.",
    "where": [
-    "In store"
+    "In store",
+    "Pickup"
    ],
-   "code": "",
-   "ask": "No code. Just ask for Two For Tuesday.",
+   "code": "2FORTUESDAY",
+   "ask": "Dining in? Just ask for Two For Tuesday.",
    "repeat": "Every Tuesday",
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-19"
   },
   {
    "id": "outback-kids-eat-free",
@@ -133,7 +224,7 @@
    "link": "https://www.tacobell.com/newsroom/taco-bell-national-taco-month-celebration",
    "linkText": "See Taco Bell's deal",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-19"
   },
   {
    "id": "applebees-hallowings-bucket",
@@ -153,7 +244,7 @@
    "link": "https://www.applebees.com/en/news/2026/applebees-serves-up-halloween-savings-with-20-boneless-wings-for-1299",
    "linkText": "See Applebee's deal",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-19"
   },
   {
    "id": "outback-walkabout-wednesday",
