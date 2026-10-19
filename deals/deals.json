@@ -1,6 +1,18 @@
 {
- "updated": 1792402653303,
+ "updated": 1792402721004,
  "deals": [
+  {
+   "id": "web-wild-fable-shorts-20261019",
+   "item": "Wild Fable women's low-rise pull-on shorts",
+   "store": "Target",
+   "price": 6.0,
+   "was": 12.0,
+   "notes": "Target online clearance; $6 for select colors/sizes, others $8.40.",
+   "at": 1792402721004,
+   "src": "Target clearance page",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
+  },
   {
    "id": "web-drew-waffle-maker-20261019",
    "item": "Beautiful by Drew Barrymore rotating Belgian waffle maker, porcini taupe",
