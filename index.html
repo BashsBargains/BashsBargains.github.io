@@ -158,6 +158,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(3.3rem,15vw,6.6rem
 .celebrate .cel-ico{font-size:1.8rem;line-height:1;flex:none}
 .celebrate b{display:block;font-family:var(--display);font-weight:800;font-size:1.1rem}
 .celebrate span{font-size:.88rem;opacity:.85}
+.celebrate .cel-link{display:flex;width:fit-content;align-items:center;min-height:44px;margin-top:2px;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
 .foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;margin:0}
 @media (max-width:420px){.sticker{right:-2px;top:-4px}}
 .foot a{color:var(--accent)}
@@ -412,7 +413,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
 /* Celebration weeks: add a line here for each one. Months are 1-12. */
 (function(){
   const weeks=[
-    {start:"2026-10-25",end:"2026-10-31",ico:"🫁",title:"Happy Respiratory Care Week!",sub:"To every RT keeping the world breathing: thank you. From one RT to another 💛"},
+    {start:"2026-10-25",end:"2026-10-31",ico:"🫁",title:"Happy Respiratory Care Week!",sub:"To every RT keeping the world breathing: thank you. From one RT to another 💛",link:"/rt-deals/",linkText:"See deals for RTs →"},
   ];
   const y=new Date().getFullYear();
   // Nurses Week is May 6-12 every year
@@ -422,6 +423,7 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
   document.getElementById("celIco").textContent=w.ico;
   document.getElementById("celTitle").textContent=w.title;
   document.getElementById("celSub").textContent=w.sub;
+  if(w.link){const a=document.createElement("a");a.href=w.link;a.className="cel-link";a.textContent=w.linkText||"See more →";document.getElementById("celSub").after(a);}
   document.getElementById("celebrate").hidden=false;
 })();
 </script>

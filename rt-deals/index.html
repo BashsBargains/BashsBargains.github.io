@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Deals for RTs · Bash's Bargains</title>
+<meta name="description" content="Respiratory Care Week 2026 (Oct 25–31): free CE and verified discounts for respiratory therapists and healthcare workers.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#f7d64a">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: one readable column; a yellow tag-style intro, then plain sections with mono labels */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242; --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 56px;display:flex;flex-direction:column;gap:18px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,10vw,3.2rem);line-height:.95;letter-spacing:-.02em;margin:10px 0 0}
+.intro{background:var(--tag);color:var(--tag-ink);border-radius:14px;padding:16px;margin:0;font-size:1.02rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.lab{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+h2{font-family:var(--display);font-weight:800;font-size:1.25rem;margin:0 0 8px}
+section p{margin:0 0 10px}
+section p:last-child{margin-bottom:0}
+a{color:var(--accent)}
+.signoff{font-family:var(--display);font-weight:800;font-size:1.2rem;margin-top:14px!important}
+.btn{display:inline-block;background:var(--tag);color:var(--tag-ink);font-weight:600;text-decoration:none;padding:10px 16px;border-radius:999px}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
+
+/* Easy-reading overrides (site-wide) */
+:root{--ok:#17703d}
+.bar{align-items:flex-start}
+.bar nav{display:flex!important;flex-wrap:wrap;gap:0 2px!important;margin-left:-9px;font-size:1rem!important;font-weight:500;width:100%}
+.bar nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 9px;border-radius:999px;color:var(--ink)!important;text-decoration:none;font-size:.95rem}
+.bar nav a[aria-current]{background:var(--ink);color:var(--bg)!important;border-color:var(--ink);font-weight:600}
+.bar nav a[aria-current]::after{display:none}
+.mark{min-height:44px}
+.foot{font-size:.95rem!important}
+.foot a{display:inline-block;padding:6px 0}
+.lab,.eyebrow,.more-k,.seas-k{font-family:var(--body)!important;font-size:.9rem!important;letter-spacing:.01em!important;text-transform:none!important;font-weight:600}
+.badge,.pill,.how-tag,.flag{font-family:var(--body)!important;font-size:.82rem!important;text-transform:none!important;letter-spacing:0!important}
+.src,.meta,.m-foot,.place,.hook{font-size:.9rem!important}
+.src a,.meta a,.place a,.links a{display:inline-block;padding:8px 0}
+.place a{color:var(--accent);font-weight:600}
+.chip{min-height:44px;font-size:.95rem}
+.chips{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs,.tabs{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs a,.eats-tabs button{min-height:44px}
+.add{padding:10px 12px!important;font-size:.95rem!important;min-height:44px}
+.qk button{border-style:solid!important;background:var(--card)!important;color:var(--ink)!important;padding:8px 14px!important;font-size:.95rem!important;min-height:44px}
+.was,.cpn,.fin small,.tab .n{font-size:.85rem!important}
+.dates,.lnk span,.lnk .ltip{font-size:.9rem!important}
+.k,.ok{font-size:.8rem!important;text-transform:none!important;letter-spacing:0!important}
+.kv dt,dl dt{font-family:var(--body)!important;font-size:.85rem!important;text-transform:none!important;letter-spacing:0!important}
+.date b{font-size:.8rem!important}
+.more-row small,.tile small{font-size:.9rem!important}
+.crew-btns a{min-height:44px;display:inline-flex;align-items:center}
+
+/* RT deals: stacked cards */
+.deals{display:flex;flex-direction:column;gap:12px;margin:0;padding:0;list-style:none}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.deal h3{font-family:var(--display);font-weight:800;font-size:1.15rem;margin:0 0 4px;overflow-wrap:anywhere}
+.deal .what{font-weight:600;margin:0 0 8px}
+.deal dl{margin:0;display:flex;flex-direction:column;gap:6px}
+.deal dt{font-weight:600;color:var(--muted)}
+.deal dd{margin:0;overflow-wrap:anywhere}
+.deal .src{margin:8px 0 0}
+.when{display:inline-block;background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:.85rem;border-radius:999px;padding:2px 10px;margin:0 0 8px}
+h2.grp{font-family:var(--display);font-weight:800;font-size:1.35rem;margin:10px 0 0}
+.note{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--tag);border-radius:14px;padding:14px 16px;margin:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/">Restaurants</a><a href="/events/">Events</a><a href="/local/">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
+
+  <h1>Deals for RTs <span aria-hidden="true">🫁</span></h1>
+  <p class="intro">Happy Respiratory Care Week, my fellow RTs! (Oct 25–31, 2026.) From one RT to another: thank you for every vent check, every neb, every code you ran to and every breath you helped someone take. We don't always get the spotlight, so I rounded up 17 free CE offers and discounts we actually qualify for. Treat yourself. You deserve it. 💛</p>
+
+  <p class="note"><b>Before you buy:</b> deals change fast, so open the source and confirm the offer first. Most of these need you to verify (ID.me, SheerID, your NPI number or a work badge/license), so set that up once and you're good for most of the list. Everything here is free to use and links straight to where I found it.</p>
+
+  <h2 class="grp">Free CE for RC Week</h2>
+  <ul class="deals">
+    <li class="deal">
+      <h3>Sentec</h3>
+      <p class="when">Oct 26–30, 2026 (live)</p><p class="what">Free live CE webinars for Respiratory Care &amp; Sleep Technologist Appreciation Week</p>
+      <dl><dt>How to get it</dt><dd>Pick a webinar on Sentec's free CEU page and hit Register. There are on-demand courses too if you can't make it live. Check each course's listing for its CE credit.</dd></dl>
+      <p class="src"><a href="https://www.sentec.com/free-ceus-for-respiratory-therapists-from-sentec/" target="_blank" rel="noopener">Source: sentec.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Tri-anim</h3>
+      <p class="when">Through Oct 29, 2026</p><p class="what">Free continuing education all October, each program approved for 1.0 CRCE</p>
+      <dl><dt>How to get it</dt><dd>Register from Tri-anim's RC Week page. Grab the last few before they wrap up.</dd></dl>
+      <p class="src"><a href="https://www.tri-anim.com/ths/rc-week" target="_blank" rel="noopener">Source: tri-anim.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>continued (Respiratory Therapy)</h3>
+      <p class="what">Try a free course, no credit card needed. Unlimited AARC-approved CE is $99/year after that.</p>
+      <dl><dt>How to get it</dt><dd>Sign up for the free course on continued's respiratory therapy page.</dd></dl>
+      <p class="src"><a href="https://continued.com/respiratory-therapy" target="_blank" rel="noopener">Source: continued.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Respiratory Therapy Zone</h3>
+      <p class="what">Free access to 15+ RRT practice courses and quizzes</p>
+      <dl><dt>How to get it</dt><dd>Use the “Get Free Access” box on their RC Week guide. Great if you're studying for boards or have a new grad on your team.</dd></dl>
+      <p class="src"><a href="https://www.respiratorytherapyzone.com/respiratory-care-week/" target="_blank" rel="noopener">Source: respiratorytherapyzone.com →</a></p>
+    </li>
+  </ul>
+  <h2 class="grp">Made for RTs (yes, us by name)</h2>
+  <ul class="deals">
+    <li class="deal">
+      <h3>Verizon</h3>
+      <p class="what">Nurses &amp; RTs discount: $10 off a month with 1 line, $25 off a month with 2 lines on Unlimited Ultimate, Plus or Welcome (10% off per line on the Simplicity plan)</p>
+      <dl><dt>How to get it</dt><dd>Verify through ID.me as a Medical provider using your NPI number, then register on Verizon's Nurses discounts page. You need to be currently employed as an RT. Re-verify about once a year.</dd></dl>
+      <p class="src"><a href="https://www.verizon.com/support/nurses-discount-faqs/" target="_blank" rel="noopener">Source: verizon.com →</a></p>
+    </li>
+  </ul>
+  <h2 class="grp">Clothes &amp; shoes</h2>
+  <ul class="deals">
+    <li class="deal">
+      <h3>adidas</h3>
+      <p class="what">30% off online, in stores and at factory outlets</p>
+      <dl><dt>How to get it</dt><dd>Verify with ID.me. Hospital and health-system employees qualify with proof of employment. 2 uses a month online, 1 a month in store. Some popular styles (Samba, Gazelle, Ultraboost and others) are excluded.</dd></dl>
+      <p class="src"><a href="https://www.adidas.com/us/discount-programs" target="_blank" rel="noopener">Source: adidas.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Calvin Klein</h3>
+      <p class="what">Extra 20% off select items, one order</p>
+      <dl><dt>How to get it</dt><dd>Verify with ID.me (you may need to upload your license). Single-use code, can't be combined with other promos.</dd></dl>
+      <p class="src"><a href="https://www.calvinklein.us/en/discount-first-responder-medical-professional" target="_blank" rel="noopener">Source: calvinklein.us →</a></p>
+    </li>
+    <li class="deal">
+      <h3>J.Crew &amp; J.Crew Factory</h3>
+      <p class="what">Extra 15% off, in stores and online</p>
+      <dl><dt>How to get it</dt><dd>Fill out the health-care worker form (you may need to upload a document). The offer lands in your J.Crew Passport wallet a day later. Bring ID in store.</dd></dl>
+      <p class="src"><a href="https://factory.jcrew.com/company/military-medical-first-responder-discount" target="_blank" rel="noopener">Source: factory.jcrew.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Madewell</h3>
+      <p class="what">15% off for medical professionals</p>
+      <dl><dt>How to get it</dt><dd>Verify through SheerID from the offer page.</dd></dl>
+      <p class="src"><a href="https://shop.sheerid.com/offers/15-off-for-community-heroes/" target="_blank" rel="noopener">Source: shop.sheerid.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Crocs</h3>
+      <p class="what">15% off select styles (hello, shift shoes)</p>
+      <dl><dt>How to get it</dt><dd>Verify with ID.me on Crocs' healthcare page. Exclusions apply.</dd></dl>
+      <p class="src"><a href="https://www.crocs.com/healthcare" target="_blank" rel="noopener">Source: crocs.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Nike</h3>
+      <p class="what">10% off most items on Nike.com and the Nike App (not in stores)</p>
+      <dl><dt>How to get it</dt><dd>Be a Nike Member and verify through SheerID (a current license may be needed). The page names “technicians, etc.”, so RTs should be able to verify, but the form decides. Code works on the first $500 and expires in 2 weeks.</dd></dl>
+      <p class="src"><a href="https://www.nike.com/help/a/first-responder-discount" target="_blank" rel="noopener">Source: nike.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Birkenstock</h3>
+      <p class="what">10% off full-price styles</p>
+      <dl><dt>How to get it</dt><dd>Verify with ID.me at checkout (US site only). Sale and 1774 styles excluded.</dd></dl>
+      <p class="src"><a href="https://www.birkenstock.com/us/idme" target="_blank" rel="noopener">Source: birkenstock.com →</a></p>
+    </li>
+  </ul>
+  <h2 class="grp">Tech</h2>
+  <ul class="deals">
+    <li class="deal">
+      <h3>Dell</h3>
+      <p class="when">Current terms run to Nov 2, 2026</p><p class="what">10% off eligible products for healthcare workers</p>
+      <dl><dt>How to get it</dt><dd>Sign in, join Dell Rewards, and verify for the healthcare program. 2 products per order, up to 2 orders a year.</dd></dl>
+      <p class="src"><a href="https://www.dell.com/hc" target="_blank" rel="noopener">Source: dell.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Samsung</h3>
+      <p class="what">Up to 30% off, depending on the product</p>
+      <dl><dt>How to get it</dt><dd>Make a Samsung Account and verify through ID.me (or check if your hospital partners with Samsung using your work email). Purchase limits per category apply.</dd></dl>
+      <p class="src"><a href="https://www.samsung.com/us/shop/offer-program/healthcare-workers/" target="_blank" rel="noopener">Source: samsung.com →</a></p>
+    </li>
+  </ul>
+  <h2 class="grp">Treat yourself (travel &amp; extras)</h2>
+  <ul class="deals">
+    <li class="deal">
+      <h3>Caesars hotels</h3>
+      <p class="what">Up to 15% off the lowest available room rate for nurses, medical providers and hospital employees</p>
+      <dl><dt>How to get it</dt><dd>Click “Verify with ID.me” on the Caesars page before you search. Blackout dates apply.</dd></dl>
+      <p class="src"><a href="https://caesars.com/deals/hotel-nurses-discounts" target="_blank" rel="noopener">Source: caesars.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Great Wolf Lodge</h3>
+      <p class="what">Up to 40% off standard suites for medical providers and nurses</p>
+      <dl><dt>How to get it</dt><dd>Pick a lodge on the Heroes page and verify with ID.me (offer code HEROES). Room rate only, blackout dates apply.</dd></dl>
+      <p class="src"><a href="https://www.greatwolf.com/deals/heroes" target="_blank" rel="noopener">Source: greatwolf.com →</a></p>
+    </li>
+    <li class="deal">
+      <h3>Leatherman</h3>
+      <p class="when">Codes expire Dec 31</p><p class="what">20% off eligible multi-tools for healthcare workers</p>
+      <dl><dt>How to get it</dt><dd>Verify through VerifyPass (can take a few hours), then use the one-time code. One code per year, up to 3 tools per order.</dd></dl>
+      <p class="src"><a href="https://www.leatherman.com/medical-discount.html" target="_blank" rel="noopener">Source: leatherman.com →</a></p>
+    </li>
+  </ul>
+
+  <section>
+    <p class="lab">Know one I missed?</p>
+    <p>If your hospital, a scrubs shop or a local spot is doing something for RC Week, share it in the <a href="https://www.facebook.com/share/g/1HJanBf4zM/" target="_blank" rel="noopener">Price Bashers group</a> or email <a href="mailto:bashsbargains@gmail.com">BashsBargains@gmail.com</a>.</p>
+    <p class="signoff">Breathe easy, RTs <span aria-hidden="true">😮‍💨🥊</span></p>
+  </section>
+  <p class="foot">Checked October 20, 2026. Offers can change or end without notice. Always confirm on the brand's page before you buy. <a href="/">Back to today's deals</a>.</p>
+</div>
+<script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
+<script src="/season.js" defer></script>
+</body>
+</html>
