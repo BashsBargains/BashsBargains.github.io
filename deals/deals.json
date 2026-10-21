@@ -1,6 +1,18 @@
 {
- "updated": 1792575543132,
+ "updated": 1792575619796,
  "deals": [
+  {
+   "id": "web-target-wild-fable-shorts-20261021",
+   "item": "Wild Fable women's low-rise pull-on shorts",
+   "store": "Target",
+   "price": 6,
+   "was": 12,
+   "notes": "Target.com clearance; $6 to $8.40 depending on size and color.",
+   "at": 1792575619796,
+   "src": "Target",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
+  },
   {
    "id": "web-soma-enbliss-bra-20261020",
    "item": "Soma Enbliss front-close racerback bra",
