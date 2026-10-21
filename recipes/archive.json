@@ -2,6 +2,564 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-sticky-garlic-pork-rib-chops-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky garlic-ginger pork rib chops with charred red peppers and rice",
+   "serves": 5,
+   "total": 11,
+   "cal": 670,
+   "protein": 38,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Boneless country-style pork rib chops",
+     "store": "Lidl",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red bell peppers, 2 ct",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "soy sauce",
+    "honey",
+    "brown sugar",
+    "rice or cider vinegar",
+    "garlic",
+    "ground ginger",
+    "red pepper flakes",
+    "sesame oil",
+    "vegetable oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Whisk the glaze: ¼ cup soy sauce, 3 Tbsp honey, 1 Tbsp brown sugar, 1 Tbsp vinegar, 4 minced garlic cloves, 1 tsp ground ginger, ½ tsp red pepper flakes and 1 tsp sesame oil. Toss 2 lb boneless country-style rib chops with 3 Tbsp of it and let sit 15 minutes. Start 1¼ cups rice.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the pork 4–5 minutes per side until browned and 145°F inside; rest on a plate 5 minutes.",
+    "In the same pan, char 2 sliced red bell peppers 3–4 minutes. Pour in the remaining glaze and 2 Tbsp water and bubble 1–2 minutes until sticky.",
+    "Slice the pork, return it to the pan and toss to coat. Serve over rice with sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-citrus-carnitas-tacos-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy citrus pork carnitas tacos with avocado crema and quick-pickled onions",
+   "serves": 6,
+   "total": 14,
+   "cal": 770,
+   "protein": 41,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Smithfield pork butt roast",
+     "store": "Aldi",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "La Banderita flour tortillas, 20 ct",
+     "store": "Lidl",
+     "price": 3.37
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.55
+    },
+    {
+     "item": "Sour cream, 16 oz",
+     "store": "Lidl",
+     "price": 1.0
+    },
+    {
+     "item": "Lemons, 2 lb bag",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "1 red onion"
+    },
+    {
+     "item": "cilantro"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "onion",
+    "ground cumin",
+    "chili powder",
+    "dried oregano",
+    "chicken broth",
+    "vinegar",
+    "sugar",
+    "vegetable oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 325°F. Cut a 3 lb pork butt into 2-inch chunks and rub with 2 tsp cumin, 2 tsp chili powder, 1 tsp oregano, 2 tsp salt and 1 tsp pepper. Put in a Dutch oven with 1 quartered onion, 6 smashed garlic cloves, the juice of 1 lemon and 1 lime and 1 cup broth.",
+    "Cover and bake 2½–3 hours until fork-tender. Meanwhile, quick-pickle 1 thinly sliced red onion in ½ cup vinegar, ½ cup hot water, 1 tsp sugar and ½ tsp salt.",
+    "Shred the pork, spread on a sheet pan with 1 Tbsp oil and ½ cup of the cooking juices, and broil 5–7 minutes until the edges crisp.",
+    "Mash 1 avocado with ½ cup sour cream, juice of ½ lime and a pinch of salt for crema. Warm 12 tortillas and fill with pork, crema, the second avocado sliced, pickled onions and cilantro."
+   ]
+  },
+  {
+   "id": "meal-tuscan-chicken-white-beans-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Creamy Tuscan chicken with mushrooms, white beans and toasted sourdough",
+   "serves": 5,
+   "total": 15,
+   "cal": 740,
+   "protein": 64,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Boneless chicken breasts, family pack",
+     "store": "Aldi",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Whole white mushrooms, 8 oz",
+     "store": "Aldi",
+     "price": 0.99
+    },
+    {
+     "item": "Great Northern or cannellini beans, 15.5 oz",
+     "store": "Aldi",
+     "price": 0.85
+    },
+    {
+     "item": "Simply Nature organic chicken broth, 32 oz",
+     "store": "Aldi",
+     "price": 1.89
+    },
+    {
+     "item": "Half & half, 32 oz",
+     "store": "Aldi",
+     "price": 2.39
+    },
+    {
+     "item": "Italian cheese wedge (Parmesan-style), 8 oz",
+     "store": "Aldi",
+     "price": 4.39
+    },
+    {
+     "item": "Preferred Selection sourdough round, 20 oz",
+     "store": "Lidl",
+     "price": 2.49
+    },
+    {
+     "item": "5 oz baby spinach"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "Italian seasoning",
+    "smoked paprika",
+    "tomato paste",
+    "red pepper flakes",
+    "butter",
+    "olive oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Halve 2 lb chicken breasts into thin cutlets and season with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1 tsp salt and ½ tsp pepper. Sear in 1 Tbsp oil over medium-high 4–5 minutes per side until 165°F; set aside.",
+    "Add 1 Tbsp butter and 8 oz sliced mushrooms; cook 5 minutes until browned. Stir in 4 minced garlic cloves, 1 Tbsp tomato paste and ½ tsp red pepper flakes for 1 minute.",
+    "Add 1 cup broth, 1 cup half & half and 1 drained can white beans; simmer 4 minutes until slightly thickened. Stir in ½ cup grated cheese and the spinach until wilted.",
+    "Return the chicken to the sauce to warm through. Serve with toasted sourdough slices for dunking."
+   ]
+  },
+  {
+   "id": "meal-honey-lemon-salmon-brussels-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Honey-garlic lemon butter salmon with crispy roasted Brussels sprouts",
+   "serves": 5,
+   "total": 21,
+   "cal": 750,
+   "protein": 46,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Fresh Atlantic salmon fillet portions, skin-on",
+     "store": "Lidl",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Brussels sprouts, 1 lb",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "Lemons, 2 lb bag",
+     "store": "Lidl",
+     "price": 1.99
+    }
+   ],
+   "pantry": [
+    "rice",
+    "honey",
+    "butter",
+    "garlic",
+    "soy sauce",
+    "garlic powder",
+    "olive oil",
+    "red pepper flakes",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Toss 2 lb halved Brussels sprouts with 2 Tbsp oil, 1 tsp garlic powder, ½ tsp salt and ¼ tsp pepper; roast cut-side down 20–25 minutes until deeply browned. Start 1¼ cups rice.",
+    "Melt 2 Tbsp butter with 3 Tbsp honey, 3 minced garlic cloves, 1 Tbsp soy sauce, the juice of 1 lemon and a pinch of red pepper flakes.",
+    "Lay 2 lb salmon portions skin-side down on a lined sheet pan, season with salt and pepper and spoon half the honey butter over them. Bake 10–12 minutes until 145°F and flaky.",
+    "Spoon the remaining honey butter over the salmon, add lemon wedges and serve with the sprouts and rice."
+   ]
+  },
+  {
+   "id": "meal-cajun-dirty-rice-andouille-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cajun dirty rice with ground beef, andouille and peppers",
+   "serves": 6,
+   "total": 11,
+   "cal": 520,
+   "protein": 28,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "80% lean ground beef",
+     "store": "ShopRite",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Dulano chicken andouille sausage, 24 oz",
+     "store": "Lidl",
+     "price": 5.99
+    },
+    {
+     "item": "Hothouse bell peppers",
+     "store": "ShopRite",
+     "price": 0.99
+    },
+    {
+     "item": "2 celery ribs"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "long-grain rice",
+    "onion",
+    "garlic",
+    "chicken broth",
+    "smoked paprika",
+    "garlic powder",
+    "dried thyme",
+    "dried oregano",
+    "cayenne",
+    "Worcestershire sauce",
+    "hot sauce",
+    "butter",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Brown 1 lb ground beef and 12 oz sliced andouille in a large pot over medium-high, breaking up the beef, until the beef reaches 160°F, about 7 minutes.",
+    "Add 1 Tbsp butter, 1 diced onion, 2 diced bell peppers and 2 diced celery ribs; cook 5 minutes. Stir in 4 minced garlic cloves, 2 tsp smoked paprika, 1 tsp each garlic powder, thyme and oregano, ½ tsp cayenne, 1 tsp salt and ½ tsp pepper.",
+    "Add 1½ cups rice, 2½ cups broth and 1 Tbsp Worcestershire. Bring to a boil, cover and simmer on low 18 minutes.",
+    "Rest 5 minutes off the heat, fluff, and finish with sliced green onions and hot sauce to taste."
+   ]
+  },
+  {
+   "id": "meal-butternut-white-bean-pasta-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Roasted butternut squash and white bean pasta with sage brown butter (meatless)",
+   "serves": 5,
+   "total": 10,
+   "cal": 640,
+   "protein": 21,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Hard squash (butternut, acorn and more)",
+     "store": "ShopRite",
+     "price": 1.29,
+     "unit": "/lb"
+    },
+    {
+     "item": "Ronzoni pasta, 12–16 oz",
+     "store": "ShopRite",
+     "price": 0.99
+    },
+    {
+     "item": "Great Northern or cannellini beans, 15.5 oz",
+     "store": "Aldi",
+     "price": 0.85
+    },
+    {
+     "item": "Bowl & Basket butter, 1 lb",
+     "store": "ShopRite",
+     "price": 2.49
+    },
+    {
+     "item": "Italian cheese wedge (Parmesan-style), 8 oz",
+     "store": "Aldi",
+     "price": 4.39
+    },
+    {
+     "item": "fresh sage"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "smoked paprika",
+    "red pepper flakes",
+    "nutmeg",
+    "lemon juice",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Toss a 2½ lb butternut squash, peeled and cut into ¾-inch cubes, with 2 Tbsp oil, 1 tsp smoked paprika, 1 tsp salt and ½ tsp pepper. Roast 25–30 minutes until caramelized.",
+    "Cook 1 lb pasta in well-salted water; save 1 cup pasta water before draining.",
+    "In the pasta pot, melt 4 Tbsp butter over medium and cook until nutty and golden, 3 minutes. Add 10 sage leaves, 3 sliced garlic cloves, ½ tsp red pepper flakes and a pinch of nutmeg for 1 minute.",
+    "Add the pasta, squash, 1 drained can white beans, ½ cup grated cheese and ½ cup pasta water; toss until glossy. Finish with a squeeze of lemon and more cheese."
+   ]
+  },
+  {
+   "id": "meal-greek-lemon-drumsticks-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Greek lemon-oregano drumsticks with crispy potatoes and cucumber yogurt sauce",
+   "serves": 5,
+   "total": 10,
+   "cal": 630,
+   "protein": 44,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Chicken drumsticks, family pack",
+     "store": "Aldi",
+     "price": 1.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket russet or yellow potatoes, 5 lb bag",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "Lemons, 2 lb bag",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "Mini cucumbers, 14 oz",
+     "store": "Lidl",
+     "price": 1.49
+    },
+    {
+     "item": "1 cup plain Greek yogurt"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "dried oregano",
+    "garlic powder",
+    "smoked paprika",
+    "dried dill",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Whisk ¼ cup olive oil, juice and zest of 1 lemon, 4 minced garlic cloves, 1 Tbsp oregano, 1 tsp garlic powder, 1 tsp smoked paprika, 1½ tsp salt and ½ tsp pepper.",
+    "Toss 10 drumsticks (about 3 lb) and 3 lb potatoes cut into wedges with the marinade and spread on two sheet pans.",
+    "Roast 40–45 minutes, turning once, until the potatoes are crisp and the chicken reaches 165°F (175°F is even more tender for drumsticks).",
+    "Grate 2 mini cucumbers, squeeze dry and stir into 1 cup Greek yogurt with 1 small grated garlic clove, 1 tsp dill, a squeeze of lemon and a pinch of salt. Serve with the chicken and potatoes."
+   ]
+  },
+  {
+   "id": "meal-next-mojo-pork-pineapple-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cuban mojo roast pork loin with pineapple-avocado salsa, black beans and rice",
+   "serves": 6,
+   "total": 14,
+   "cal": 760,
+   "protein": 54,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Whole boneless pork loin",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Golden pineapple",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "Hass avocados",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "1 orange"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "2 cans black beans"
+    },
+    {
+     "item": "cilantro"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "ground cumin",
+    "dried oregano",
+    "olive oil",
+    "red pepper flakes",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Make mojo: juice of 1 orange and 1 lime, ¼ cup olive oil, 6 minced garlic cloves, 2 tsp cumin, 2 tsp oregano, 2 tsp salt and 1 tsp pepper. Marinate a 2½ lb piece of pork loin in it at least 1 hour (or overnight).",
+    "Heat oven to 400°F. Sear the pork in a hot oven-safe skillet 2 minutes per side, pour the marinade over it and roast 35–45 minutes until 145°F. Rest 10 minutes. Start 1¼ cups rice.",
+    "Warm 2 drained cans black beans with 1 garlic clove, ½ tsp cumin and a splash of water.",
+    "Dice ½ pineapple and 2 avocados; toss with cilantro, juice of 1 lime, a pinch of red pepper flakes and salt. Slice the pork, spoon the pan juices over it and serve with rice, beans and salsa."
+   ]
+  },
+  {
+   "id": "meal-next-chicken-cacciatore-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Chicken thigh cacciatore with blistered vine tomatoes over pasta",
+   "serves": 6,
+   "total": 9,
+   "cal": 710,
+   "protein": 39,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket chicken drumsticks or thighs",
+     "store": "ShopRite",
+     "price": 1.11,
+     "unit": "/lb"
+    },
+    {
+     "item": "Tomatoes on the vine",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "San Giorgio pasta",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "1 bell pepper"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "onion",
+    "garlic",
+    "Italian seasoning",
+    "smoked paprika",
+    "red pepper flakes",
+    "chicken broth",
+    "balsamic vinegar",
+    "grated Parmesan",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Season 3 lb bone-in chicken thighs with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1½ tsp salt and ½ tsp pepper. Brown skin-side down in 1 Tbsp oil in a deep skillet over medium-high, 6–7 minutes; flip and brown 2 minutes. Set aside.",
+    "Pour off all but 1 Tbsp fat. Cook 1 sliced onion and 1 sliced bell pepper 5 minutes, then 4 garlic cloves and ½ tsp red pepper flakes for 30 seconds. Add 1½ lb chopped vine tomatoes, ½ cup broth and 1 Tbsp balsamic.",
+    "Nestle in the chicken skin-side up, cover and simmer 25–30 minutes until the chicken reaches 165°F (175°F is more tender) and the tomatoes collapse into a sauce.",
+    "Cook 1 lb pasta. Serve the chicken and sauce over it with grated Parmesan."
+   ]
+  },
+  {
+   "id": "meal-next-turkey-burrito-bowls-oct21",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Chipotle-style turkey burrito bowls with fresh tomato-avocado salsa",
+   "serves": 5,
+   "total": 13,
+   "cal": 750,
+   "protein": 49,
+   "week": "2026-10-21",
+   "ingredients": [
+    {
+     "item": "Butterball 93% lean ground turkey",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "Hass avocados",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "Tomatoes on the vine",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "1 can black beans"
+    },
+    {
+     "item": "8 oz shredded Mexican cheese"
+    },
+    {
+     "item": "cilantro"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "onion",
+    "garlic",
+    "chili powder",
+    "ground cumin",
+    "smoked paprika",
+    "dried oregano",
+    "tomato paste",
+    "olive oil",
+    "hot sauce",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Cook 1¼ cups rice; stir in the juice of 1 lime and a handful of chopped cilantro.",
+    "Brown 2 lb ground turkey with 1 diced onion in 1 Tbsp oil over medium-high until 165°F, about 8 minutes. Stir in 3 minced garlic cloves, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp oregano, 1 Tbsp tomato paste, 1 tsp salt and ⅓ cup water; simmer 3 minutes.",
+    "Warm 1 drained can black beans. Dice 1 lb tomatoes and 2 avocados and toss with cilantro, juice of 1 lime and salt.",
+    "Build bowls with rice, turkey, beans, salsa and shredded cheese; add hot sauce to taste."
+   ]
+  },
+  {
    "id": "meal-cajun-shrimp-sausage-oct18",
    "kind": "meal",
    "type": "Dinner",
