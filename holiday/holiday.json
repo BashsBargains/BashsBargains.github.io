@@ -1,5 +1,5 @@
 {
- "updated": 1792064093736,
+ "updated": 1792663906296,
  "events": [
   {
    "name": "Thanksgiving",
@@ -38,19 +38,19 @@
   {
    "id": "target",
    "name": "Target",
-   "status": "expected",
-   "early": "Early deals around Nov 6",
-   "main": "Around Nov 22–28",
+   "status": "confirmed",
+   "early": "Deals of the Day start Nov 1 and run daily through Dec 24",
+   "main": "Early Black Friday sale Nov 5 – Dec 7; Black Friday week details not out yet",
    "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "9to5Toys, citing Target's announcement (Oct 21, 2026)",
+   "srcUrl": "https://9to5toys.com/2026/10/21/target-officially-announces-early-black-friday-sale"
   },
   {
    "id": "best-buy",
    "name": "Best Buy",
    "status": "expected",
    "early": "Early deals around Oct 31",
-   "main": "Black Friday prices around Nov 20",
+   "main": "Black Friday prices around Nov 20 (price-match exclusion window Nov 19–30)",
    "ad": "Not out yet",
    "src": "MyWeeklyAds",
    "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
@@ -58,12 +58,12 @@
   {
    "id": "home-depot",
    "name": "Home Depot",
-   "status": "expected",
-   "early": "Early deals around Nov 5",
-   "main": "Around Nov 26–29",
+   "status": "confirmed",
+   "early": "Early Black Friday deals start Nov 4",
+   "main": "Closed Thanksgiving Day; Black Friday sale event Nov 27",
    "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "Yahoo Shopping (Oct 13, 2026)",
+   "srcUrl": "https://shopping.yahoo.com/home-garden/home-improvement/articles/black-friday-coming-weeks-early-140532069.html"
   },
   {
    "id": "lowes",
@@ -89,11 +89,12 @@
    "id": "sams-club",
    "name": "Sam's Club",
    "status": "expected",
-   "early": "Doorbuster sale around Nov 7",
-   "main": "Around Nov 26–29",
-   "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "early": "Instant Savings Oct 28 – Nov 29; Weekend Doorbusters Nov 6–8",
+   "main": "Countdown to Black Friday Nov 15–25; Black Friday sale Nov 26–29",
+   "ad": "Leaked Oct 21",
+   "src": "Hip2Save ad preview (Oct 21, 2026)",
+   "srcUrl": "https://hip2save.com/deals/sams-club-black-friday/",
+   "adUrl": "https://hip2save.com/deals/sams-club-black-friday/"
   },
   {
    "id": "kohls",
@@ -109,13 +110,59 @@
    "id": "bjs",
    "name": "BJ's",
    "status": "confirmed",
-   "early": "Early Black Friday deals start Oct 23, in clubs and online",
+   "early": "Early Black Friday deals start Oct 23, in clubs and online (up to 40% off TVs and electronics)",
    "main": "Main Black Friday dates not announced yet",
    "ad": "Not out yet",
    "adUrl": "https://www.bjs.com/BlackFriday",
-   "src": "BJ's press release via StockTitan (Oct 15, 2026)",
-   "srcUrl": "https://www.stocktitan.net/news/BJ/a-head-start-on-holiday-savings-bj-s-wholesale-club-kicks-off-early-e5ir1eja9tk7.html"
+   "src": "BJ's newsroom (Oct 15, 2026)",
+   "srcUrl": "https://newsroom.bjs.com/press-releases/news-details/2026/A-Head-Start-on-Holiday-Savings-BJs-Wholesale-Club-Kicks-Off-Early-Black-Friday-on-October-23/default.aspx"
   }
  ],
- "deals": []
+ "deals": [
+  {
+   "id": "bf-qvc-bissell-little-green-mini",
+   "item": "Bissell Cordless Little Green Mini Machine",
+   "store": "QVC",
+   "price": 89.98,
+   "was": 129.99,
+   "notes": "Part of QVC's Black Friday Sale; shipped. New QVC customers can take $25 off $50+ with code COUPQVC25 (about $64.98).",
+   "at": 1792534200000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/bissell-little-green-machine/",
+   "expires": 1793159940000
+  },
+  {
+   "id": "bf-amazon-ff7-remake-intergrade",
+   "item": "Final Fantasy VII Remake Intergrade (Switch 2)",
+   "store": "Amazon",
+   "price": 24.88,
+   "was": 39.99,
+   "notes": "Early Black Friday game sale; reported as a record low.",
+   "at": 1792663200000,
+   "src": "Tech Insider",
+   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+  },
+  {
+   "id": "bf-amazon-octopath-traveler-0",
+   "item": "Octopath Traveler 0",
+   "store": "Amazon",
+   "price": 29.99,
+   "was": 49.99,
+   "notes": "Early Black Friday game sale.",
+   "at": 1792663200000,
+   "src": "Tech Insider",
+   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+  },
+  {
+   "id": "bf-amazon-ff7-rebirth",
+   "item": "Final Fantasy VII Rebirth",
+   "store": "Amazon",
+   "price": 34.99,
+   "was": 49.99,
+   "notes": "Early Black Friday game sale; near its lowest price yet.",
+   "at": 1792663200000,
+   "src": "Tech Insider",
+   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+  }
+ ]
 }
