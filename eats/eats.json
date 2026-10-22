@@ -1,6 +1,46 @@
 {
- "updated": 1792404004618,
+ "updated": 1792663118344,
  "deals": [
+  {
+   "id": "chipotle-boorito-2026",
+   "chain": "Chipotle",
+   "cat": "Mexican",
+   "offer": "Boorito: $6 entrée in costume on Halloween",
+   "how": "Oct 31 from 3pm to close, wear a costume into Chipotle and scan your Chipotle Rewards card to get one entrée for $6. In-restaurant only (no online, app, delivery, kids' meals or catering). Guac, queso and extra meat cost extra. Then on Nov 1, delivery fees are $0 on Chipotle website or app orders of $10+.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Wear a costume and scan your Chipotle Rewards card.",
+   "start": "2026-10-31",
+   "ends": "2026-10-31",
+   "link": "https://newsroom.chipotle.com/2026-10-20-BOORITO-RETURNS-CHIPOTLE-TO-OFFER-6-ENTREES-ON-HALLOWEEN-2026",
+   "linkText": "See Chipotle's Boorito deal",
+   "official": true,
+   "checked": "2026-10-22"
+  },
+  {
+   "id": "kfc-scary-good-deals-2026",
+   "chain": "KFC",
+   "cat": "Chicken",
+   "offer": "A new KFC Rewards deal every day through Halloween",
+   "how": "KFC Rewards members ordering on kfc.com or the KFC app get a different deal each day. Coming up: Oct 23 40% off a 5-piece Tenders Combo, Oct 24 $20 Chicken & Nugget Meal, Oct 25 $15 8-piece Tenders Meal, Oct 26 free Pot Pie with $10+, Oct 27 free Famous Bowl with $10+, Oct 28 10 wings for $10, Oct 29 free Snacker with $5+, Oct 30 half off a 12-piece bucket, Oct 31 50 nuggets for $20. Rewards is free to join; delivery fees can eat into the savings.",
+   "where": [
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Sign in to KFC Rewards and order in the app or online.",
+   "start": "2026-10-19",
+   "ends": "2026-10-31",
+   "link": "https://www.kfc.com/",
+   "linkText": "Go to KFC",
+   "official": false,
+   "src": "Nation's Restaurant News",
+   "srcUrl": "https://www.nrn.com/quick-service/kfc-doubles-down-on-value-offerings-for-halloween",
+   "checked": "2026-10-22"
+  },
   {
    "id": "krispy-kreme-costume-halloween",
    "chain": "Krispy Kreme",
@@ -17,14 +57,14 @@
    "link": "https://investors.krispykreme.com/news-releases/news-release-details/krispy-kremer-brings-fans-new-halloween-experiment-limited-time",
    "linkText": "See Krispy Kreme's Halloween deal",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "red-robin-kids-sundae-halloween",
    "chain": "Red Robin",
    "cat": "Family",
    "offer": "Free sundae for kids in costume",
-   "how": "Oct 30-Nov 1, kids under 11 who come in costume and order a kids' meal get a free sundae (one per child). Dine-in only at participating locations, not to-go or delivery.",
+   "how": "Oct 30-Nov 1, kids under 11 who come in costume and order a kids' meal get a free sundae (one per child). Dine-in only at participating locations, not to-go or delivery. Also through Nov 1: $25 off catering orders of $125+ with code SCARY.",
    "where": [
     "In store"
    ],
@@ -35,7 +75,7 @@
    "link": "https://www.redrobin.com/spooky-season",
    "linkText": "See Red Robin's Halloween deals",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "dunkin-halloween-3x-donuts",
@@ -54,7 +94,7 @@
    "link": "https://news.dunkindonuts.com/news/dunkin-new-menu-september-2026",
    "linkText": "See Dunkin's fall offers",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "wendys-boo-books-2026",
@@ -73,7 +113,7 @@
    "link": "https://www.irwendys.com/news/news-details/2026/Wendys-is-Serving-Up-a-Frightfully-Fun-Halloween-with-Boo-Books-and-Frosty-Frights/default.aspx",
    "linkText": "See Wendy's Boo! Books",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "pizza-hut-my-haunt-box",
@@ -93,7 +133,7 @@
    "link": "https://www.pizzahut.com/c/content/halloween-pizza-deals",
    "linkText": "See Pizza Hut's Halloween deals",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -110,7 +150,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "wawa-5-sizzli-meal",
@@ -128,7 +168,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "shake-shack-shackburger",
@@ -149,7 +189,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -166,7 +206,7 @@
    "link": "https://www.wendys.com/deals",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-22"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -178,13 +218,13 @@
     "In store",
     "Pickup"
    ],
-   "code": "2FORTUESDAY",
-   "ask": "Dining in? Just ask for Two For Tuesday.",
+   "code": "",
+   "ask": "No code. Just ask for Two For Tuesday.",
    "repeat": "Every Tuesday",
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "outback-kids-eat-free",
@@ -203,7 +243,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-22"
   },
   {
    "id": "taco-bell-4-usual-order",
@@ -224,7 +264,7 @@
    "link": "https://www.tacobell.com/newsroom/taco-bell-national-taco-month-celebration",
    "linkText": "See Taco Bell's deal",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "applebees-hallowings-bucket",
@@ -244,7 +284,7 @@
    "link": "https://www.applebees.com/en/news/2026/applebees-serves-up-halloween-savings-with-20-boneless-wings-for-1299",
    "linkText": "See Applebee's deal",
    "official": true,
-   "checked": "2026-10-19"
+   "checked": "2026-10-22"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -261,7 +301,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-22"
   },
   {
    "id": "outback-tuesday-tails",
@@ -278,7 +318,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-10-22"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
