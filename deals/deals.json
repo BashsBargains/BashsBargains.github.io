@@ -1,6 +1,31 @@
 {
- "updated": 1792834679460,
+ "updated": 1792834754841,
  "deals": [
+  {
+   "id": "web-bb-hisense-65-u6-20261024",
+   "item": "Hisense 65\" U6 MiniLED QLED 4K Fire TV (2026)",
+   "store": "Best Buy",
+   "price": 549.99,
+   "was": 899.99,
+   "notes": "Best Buy Deal of the Day; today only.",
+   "at": 1792834754841,
+   "src": "Best Buy",
+   "srcUrl": "https://www.bestbuy.com/deal-of-the-day",
+   "url": "https://www.bestbuy.com/product/hisense-65-class-u6-miniled-qled-uhd-4k-hdr-glare-free-smart-fire-tv-with-alexa-2026/J3Z9Z42Q5J/sku/6673654",
+   "expires": 1792904414841
+  },
+  {
+   "id": "web-target-wild-fable-shorts-20261024",
+   "item": "Wild Fable women's low-rise pull-on shorts",
+   "store": "Target",
+   "price": 6,
+   "was": 12,
+   "notes": "Target.com clearance; price varies by size/color ($6-$8.40).",
+   "at": 1792834754841,
+   "src": "Target",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
+  },
   {
    "id": "web-sherpa-ghost-pumpkin-20261024",
    "item": "Light-up sherpa ghost with pumpkin (3.6 ft)",
