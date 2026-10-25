@@ -2,6 +2,525 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-korean-turkey-rice-bowls-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Korean-style sweet-and-spicy ground turkey rice bowls with quick-pickled cucumbers",
+   "serves": 4,
+   "total": 10,
+   "cal": 680,
+   "protein": 50,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Butterball 93% lean ground turkey",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "1 English cucumber"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "soy sauce",
+    "brown sugar",
+    "rice or cider vinegar",
+    "garlic",
+    "ground ginger",
+    "sriracha or hot sauce",
+    "sesame oil",
+    "vegetable oil",
+    "sugar",
+    "salt"
+   ],
+   "steps": [
+    "Start 1½ cups rice. Thinly slice 1 cucumber and toss with ¼ cup vinegar, 1 tsp sugar and ½ tsp salt; set aside to quick-pickle.",
+    "Whisk the sauce: ¼ cup soy sauce, 2 Tbsp brown sugar, 1–2 Tbsp sriracha, 1 Tbsp sesame oil, 4 minced garlic cloves and 1 tsp ground ginger.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Cook 1 diced onion 3 minutes, then add 2 lb ground turkey and cook, breaking it up, until browned and 165°F, 8–10 minutes.",
+    "Pour in the sauce and simmer 2–3 minutes until glossy and mostly absorbed. Spoon over rice with the pickled cucumbers and sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-chili-lime-chicken-fajitas-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Chili-lime chicken fajitas with charred peppers and avocado",
+   "serves": 5,
+   "total": 14,
+   "cal": 690,
+   "protein": 49,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket boneless chicken breast",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Red bell peppers, 2 ct",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "La Banderita flour tortillas, 20 ct",
+     "store": "Lidl",
+     "price": 3.37
+    },
+    {
+     "item": "Hass avocados",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "Friendly Farms sour cream, 16 oz",
+     "store": "Aldi",
+     "price": 1.75
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "cilantro (optional)"
+    }
+   ],
+   "pantry": [
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "garlic powder",
+    "oregano",
+    "brown sugar",
+    "vegetable oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Slice 2 lb chicken breast into strips. Toss with 2 Tbsp oil, juice of 1 lime, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, ½ tsp oregano, 1 tsp brown sugar and 1 tsp salt; marinate 15 minutes.",
+    "Heat a large skillet over high. Sear the chicken in two batches, 5–6 minutes each, until charred and 165°F; move to a plate.",
+    "Add 2 sliced red peppers and 1 sliced onion with a pinch of salt; cook 5–6 minutes until charred at the edges. Return the chicken and squeeze in the second lime.",
+    "Warm 10 flour tortillas in a dry pan. Fill with chicken and peppers, sliced avocado (2) and sour cream."
+   ]
+  },
+  {
+   "id": "meal-garlic-herb-pork-loin-balsamic-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Garlic-herb roast pork loin with honey-balsamic pan sauce and crispy creamer potatoes",
+   "serves": 6,
+   "total": 11,
+   "cal": 600,
+   "protein": 48,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Whole boneless pork loin",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket creamer potatoes",
+     "store": "ShopRite",
+     "price": 2.0
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "Italian seasoning",
+    "smoked paprika",
+    "balsamic vinegar",
+    "honey",
+    "Dijon mustard",
+    "chicken broth",
+    "butter",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Rub a 3 lb piece of pork loin with 1 Tbsp olive oil, 4 minced garlic cloves, 2 tsp Italian seasoning, 1 tsp smoked paprika, 2 tsp salt and ½ tsp pepper.",
+    "Halve 3 lb creamer potatoes and cut 1 onion into wedges; toss with 2 Tbsp olive oil, salt and pepper and spread around the pork on a sheet pan.",
+    "Roast 45–55 minutes, until the pork is 145°F and the potatoes are crisp. Rest the pork 10 minutes.",
+    "Meanwhile simmer ½ cup broth, 2 Tbsp balsamic, 1 Tbsp honey and 1 tsp Dijon 4 minutes until syrupy; whisk in 1 Tbsp butter and any pan juices. Slice the pork and spoon the sauce over."
+   ]
+  },
+  {
+   "id": "meal-honey-hot-chicken-squash-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Honey-hot glazed chicken legs with brown-sugar roasted butternut squash",
+   "serves": 5,
+   "total": 7,
+   "cal": 700,
+   "protein": 42,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Bone-in chicken drumsticks, leg quarters or thighs",
+     "store": "Acme",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Acorn, butternut or spaghetti squash",
+     "store": "Acme",
+     "price": 0.99,
+     "unit": "/lb"
+    }
+   ],
+   "pantry": [
+    "honey",
+    "hot sauce",
+    "butter",
+    "garlic",
+    "smoked paprika",
+    "garlic powder",
+    "brown sugar",
+    "cinnamon",
+    "vegetable oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425°F. Pat 4 lb bone-in drumsticks or thighs dry and season with 2 tsp smoked paprika, 1 tsp garlic powder, 2 tsp salt and ½ tsp pepper. Arrange on a rack or sheet pan.",
+    "Peel and cube a 2½ lb butternut squash; toss with 1 Tbsp oil, 1 Tbsp brown sugar, ¼ tsp cinnamon and a pinch of salt on a second pan.",
+    "Roast both 35–45 minutes, until the squash is caramelized and the chicken is 165°F (175°F is even more tender for dark meat).",
+    "Melt 3 Tbsp butter with ¼ cup honey, 2–3 Tbsp hot sauce and 2 minced garlic cloves. Brush over the chicken and return to the oven 5 minutes to set the glaze."
+   ]
+  },
+  {
+   "id": "meal-cajun-shrimp-sausage-pasta-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Creamy Cajun shrimp and sausage pasta",
+   "serves": 6,
+   "total": 16,
+   "cal": 750,
+   "protein": 37,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Extra jumbo raw shrimp, 16–20 ct",
+     "store": "Acme",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Hatfield fresh ground sausage, 16 oz",
+     "store": "Acme",
+     "price": 3.0
+    },
+    {
+     "item": "Heavy whipping cream, 16 oz",
+     "store": "Acme",
+     "price": 3.33
+    },
+    {
+     "item": "San Giorgio pasta",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "canned diced tomatoes",
+    "garlic",
+    "onion",
+    "smoked paprika",
+    "garlic powder",
+    "onion powder",
+    "dried thyme",
+    "dried oregano",
+    "cayenne",
+    "grated Parmesan",
+    "olive oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Mix the Cajun spice: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder and thyme, ½ tsp oregano, ¼–½ tsp cayenne, 1 tsp salt. Peel 1 lb shrimp and toss with half the spice. Cook 1 lb pasta in salted water; save 1 cup pasta water.",
+    "In a large skillet over medium-high, brown 1 lb ground sausage until no pink remains and 160°F, 6–8 minutes; scoop out, leaving the drippings.",
+    "Add 1 Tbsp olive oil and the shrimp; cook 1–2 minutes per side until pink and 145°F, then set aside with the sausage.",
+    "Sauté 1 diced onion and 3 minced garlic cloves 3 minutes. Add 1 can diced tomatoes, the rest of the spice and 1 cup heavy cream; simmer 4 minutes. Stir in ½ cup Parmesan, the pasta, sausage and shrimp, loosening with pasta water. Top with green onions."
+   ]
+  },
+  {
+   "id": "meal-white-bean-shakshuka-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky vine-tomato and white bean shakshuka with garlic toast (meatless)",
+   "serves": 4,
+   "total": 7,
+   "cal": 630,
+   "protein": 29,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Tomatoes on the vine",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Great Northern or cannellini beans, 15.5 oz",
+     "store": "Aldi",
+     "price": 0.85
+    },
+    {
+     "item": "Lucerne large eggs, dozen",
+     "store": "Acme",
+     "price": 0.99
+    },
+    {
+     "item": "Signature Select Italian bread, 14 oz",
+     "store": "Acme",
+     "price": 0.99
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "parsley or cilantro (optional)"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "cumin",
+    "smoked paprika",
+    "red pepper flakes",
+    "tomato paste",
+    "honey or sugar",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat 2 Tbsp olive oil in a large skillet over medium. Cook 1 diced onion 5 minutes, then add 4 minced garlic cloves, 1½ tsp cumin, 1½ tsp smoked paprika, ½ tsp red pepper flakes and 1 Tbsp tomato paste for 1 minute.",
+    "Add 2½ lb chopped vine tomatoes, 1 tsp salt and 1 tsp honey; simmer 12–15 minutes until saucy. Stir in 1 drained can of white beans.",
+    "Make 8 wells and crack in 8 eggs. Cover and cook on low 6–8 minutes, until the whites are set.",
+    "Slice the Italian bread, brush with 1 Tbsp olive oil, rub with a cut garlic clove and toast. Sprinkle the shakshuka with herbs and serve with the toast."
+   ]
+  },
+  {
+   "id": "meal-smoky-beef-bean-chili-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky beef and bean chili with cheddar and sour cream",
+   "serves": 6,
+   "total": 12,
+   "cal": 700,
+   "protein": 44,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "80% lean ground beef, value pack",
+     "store": "Acme",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Great Northern or cannellini beans, 15.5 oz",
+     "store": "Aldi",
+     "price": 0.85
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "Bowl & Basket chunk cheese",
+     "store": "ShopRite",
+     "price": 1.89
+    },
+    {
+     "item": "Friendly Farms sour cream, 16 oz",
+     "store": "Aldi",
+     "price": 1.75
+    }
+   ],
+   "pantry": [
+    "canned crushed tomatoes (28 oz)",
+    "garlic",
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "oregano",
+    "brown sugar",
+    "cider vinegar",
+    "chicken or beef broth",
+    "hot sauce",
+    "salt and pepper"
+   ],
+   "steps": [
+    "In a large pot over medium-high, brown 2 lb ground beef with 1 diced onion until no pink remains and the beef is 160°F, 8–10 minutes; drain extra fat.",
+    "Stir in 4 minced garlic cloves, 3 Tbsp chili powder, 2 tsp cumin, 2 tsp smoked paprika and 1 tsp oregano; toast 1 minute.",
+    "Add a 28 oz can crushed tomatoes, 2 drained cans of beans, 1 cup broth, 1 Tbsp brown sugar and 1½ tsp salt. Simmer uncovered 30 minutes, stirring now and then.",
+    "Finish with 1 Tbsp cider vinegar and hot sauce to taste. Serve topped with shredded cheddar (8 oz block) and sour cream."
+   ]
+  },
+  {
+   "id": "meal-next-honey-dijon-pork-chops-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Honey-Dijon pork chops with garlic green beans and rice",
+   "serves": 4,
+   "total": 10,
+   "cal": 690,
+   "protein": 49,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Boneless center-cut pork loin chops",
+     "store": "Lidl",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Preferred Selection mustard, 7.9–9.5 oz",
+     "store": "Lidl",
+     "price": 1.99
+    },
+    {
+     "item": "1 lb green beans"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "honey",
+    "garlic",
+    "dried thyme",
+    "chicken broth",
+    "butter",
+    "vegetable oil",
+    "cider vinegar",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Start 1 cup rice. Season 2 lb boneless pork chops with 1 tsp salt, ½ tsp pepper and 1 tsp thyme.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the chops 4–5 minutes per side until 145°F; rest on a plate.",
+    "Lower the heat to medium. Add 1 Tbsp butter and 3 minced garlic cloves, then whisk in ½ cup broth, 3 Tbsp mustard, 2 Tbsp honey and 1 tsp cider vinegar. Simmer 3 minutes until slightly thick; return the chops and any juices and spoon the sauce over.",
+    "Meanwhile sauté 1 lb trimmed green beans in 1 Tbsp butter with 2 minced garlic cloves and a pinch of salt, 6–7 minutes. Serve everything with the rice."
+   ]
+  },
+  {
+   "id": "meal-next-chorizo-chickpea-stew-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Spanish chorizo and chickpea stew with spinach and crusty bread",
+   "serves": 4,
+   "total": 12,
+   "cal": 640,
+   "protein": 27,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Preferred Selection Spanish chorizo, 4 oz",
+     "store": "Lidl",
+     "price": 4.99
+    },
+    {
+     "item": "Preferred Selection Greek extra virgin olive oil PGI, 16.9 oz",
+     "store": "Lidl",
+     "price": 7.99
+    },
+    {
+     "item": "2 cans chickpeas"
+    },
+    {
+     "item": "5 oz baby spinach"
+    },
+    {
+     "item": "1 baguette"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "smoked paprika",
+    "cumin",
+    "canned diced tomatoes",
+    "chicken broth",
+    "red wine or sherry vinegar",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Slice 4 oz chorizo into thin coins. Warm 2 Tbsp olive oil in a pot over medium and cook the chorizo 3 minutes until it releases its red oil.",
+    "Add 1 diced onion and cook 5 minutes; stir in 4 minced garlic cloves, 2 tsp smoked paprika and 1 tsp cumin for 1 minute.",
+    "Add 2 drained cans chickpeas, 1 can diced tomatoes and 1½ cups broth. Simmer 15 minutes, lightly mashing some chickpeas to thicken.",
+    "Stir in 5 oz spinach until wilted, then 1 tsp vinegar and salt to taste. Serve with warm sliced baguette for dunking."
+   ]
+  },
+  {
+   "id": "meal-next-lemon-tuna-olive-pasta-oct25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lemony Mediterranean tuna, olive and garlic pasta",
+   "serves": 4,
+   "total": 13,
+   "cal": 690,
+   "protein": 34,
+   "week": "2026-10-25",
+   "ingredients": [
+    {
+     "item": "Preferred Selection yellowfin tuna in olive oil, 10.5 oz jar",
+     "store": "Lidl",
+     "price": 7.99
+    },
+    {
+     "item": "Preferred Selection olives in brine, 7.5 oz",
+     "store": "Lidl",
+     "price": 2.99
+    },
+    {
+     "item": "Preferred Selection Greek extra virgin olive oil PGI, 16.9 oz",
+     "store": "Lidl",
+     "price": 7.99
+    },
+    {
+     "item": "1 lb spaghetti or linguine"
+    },
+    {
+     "item": "1 lemon"
+    },
+    {
+     "item": "parsley"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "red pepper flakes",
+    "dried oregano",
+    "grated Parmesan",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Cook 1 lb pasta in well-salted water until al dente; save 1 cup pasta water.",
+    "Meanwhile warm 2 Tbsp olive oil in a large skillet over medium-low with 4 sliced garlic cloves, ½ tsp red pepper flakes and 1 tsp oregano until the garlic is golden, about 2 minutes.",
+    "Add the drained tuna (10.5 oz jar) in big flakes and ½ cup sliced olives; warm 1 minute.",
+    "Toss in the pasta with the zest and juice of 1 lemon, ¼ cup Parmesan and splashes of pasta water until glossy. Finish with chopped parsley and black pepper."
+   ]
+  },
+  {
    "id": "meal-sticky-garlic-pork-rib-chops-oct21",
    "kind": "meal",
    "type": "Dinner",
