@@ -2,6 +2,360 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-honey-garlic-chicken-thighs-green-beans-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky honey-garlic chicken thighs with blistered green beans and rice",
+   "serves": 4,
+   "total": 10,
+   "cal": 720,
+   "protein": 53,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Fresh boneless skinless chicken thighs, family pack",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "French green beans, 1 lb",
+     "store": "Aldi",
+     "price": 2.89
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "honey",
+    "soy sauce",
+    "garlic",
+    "ground ginger",
+    "rice or cider vinegar",
+    "red pepper flakes",
+    "cornstarch",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Start 1\u00bd cups rice. Whisk the glaze: \u2153 cup honey, \u00bc cup soy sauce, 1 Tbsp vinegar, 5 minced garlic cloves, 1 tsp ground ginger, \u00bd tsp red pepper flakes and 2 tsp cornstarch.",
+    "Pat 2 lb boneless chicken thighs dry, season with salt and pepper, and sear in 1 Tbsp oil in a large skillet over medium-high, 5 minutes per side, until 165\u00b0F inside. Move to a plate.",
+    "Add 1 Tbsp oil and 1 lb trimmed green beans to the hot pan; cook 5\u20136 minutes, tossing, until blistered and crisp-tender. Season with a pinch of salt and pile onto the plate.",
+    "Pour the glaze into the empty pan and simmer 1\u20132 minutes until syrupy. Return the chicken, turn to coat, and serve over rice with the green beans and sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-beef-taco-bowls-avocado-crema-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky beef taco rice bowls with fresh tomato salsa and avocado-lime crema",
+   "serves": 4,
+   "total": 11,
+   "cal": 750,
+   "protein": 36,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Fresh ground beef chub",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.49
+    },
+    {
+     "item": "Tomatoes on the vine",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "1 can black beans"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "cilantro"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "garlic powder",
+    "oregano",
+    "tomato paste",
+    "sour cream",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Cook 1 cup rice. Make salsa: dice 3 vine tomatoes and \u00bd onion; toss with chopped cilantro, juice of 1 lime and \u00bd tsp salt.",
+    "Brown 1\u00bc lb ground beef and the remaining diced onion in 1 tsp oil over medium-high, breaking it up, until no pink remains and it reaches 160\u00b0F, 8\u201310 minutes. Drain the fat.",
+    "Stir in 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, \u00bd tsp oregano, 1 Tbsp tomato paste and \u2153 cup water; simmer 3 minutes. Add the drained black beans and heat through.",
+    "Blend or mash 1 avocado with \u2153 cup sour cream, juice of 1 lime and a pinch of salt. Build bowls of rice, beef and beans, salsa and a big spoonful of crema."
+   ]
+  },
+  {
+   "id": "meal-pork-chops-pizzaiola-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Pork chops pizzaiola with olives, garlic and oregano over pasta",
+   "serves": 4,
+   "total": 10,
+   "cal": 700,
+   "protein": 58,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Boneless center-cut pork loin chops",
+     "store": "Lidl",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Preferred Selection olives in brine, 7.5 oz",
+     "store": "Lidl",
+     "price": 2.99
+    },
+    {
+     "item": "San Giorgio pasta",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "fresh basil or parsley (optional)"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "onion",
+    "crushed tomatoes (28 oz can)",
+    "dried oregano",
+    "Italian seasoning",
+    "red pepper flakes",
+    "sugar",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Boil 8 oz pasta in salted water until al dente; save \u00bd cup pasta water. Season 2 lb boneless pork chops with salt, pepper and 1 tsp Italian seasoning.",
+    "Sear the chops in 1 Tbsp olive oil in a large skillet over medium-high, 3 minutes per side, until browned; move to a plate (they'll finish in the sauce).",
+    "Lower to medium; add 1 Tbsp oil, 1 sliced onion and 5 sliced garlic cloves and cook 4 minutes. Add one 28 oz can crushed tomatoes, 1\u00bd tsp oregano, \u00bd tsp red pepper flakes, 1 tsp sugar and \u00bd cup sliced olives; simmer 8 minutes.",
+    "Nestle the chops back in, cover and simmer 4\u20136 minutes until they reach 145\u00b0F; rest 3 minutes. Toss the pasta with a few spoonfuls of sauce and pasta water, then top with chops, more sauce and chopped basil."
+   ]
+  },
+  {
+   "id": "meal-carolina-pulled-pork-slaw-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Carolina-style pulled pork sandwiches with tangy vinegar sauce and slaw",
+   "serves": 8,
+   "total": 18,
+   "cal": 650,
+   "protein": 42,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Fresh boneless half pork butt roast",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "8 hamburger buns"
+    },
+    {
+     "item": "1 bag coleslaw mix (14 oz)"
+    }
+   ],
+   "pantry": [
+    "brown sugar",
+    "smoked paprika",
+    "garlic powder",
+    "onion powder",
+    "chili powder",
+    "dry mustard or yellow mustard",
+    "cider vinegar",
+    "ketchup",
+    "hot sauce",
+    "red pepper flakes",
+    "mayonnaise",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Rub a 4 lb pork butt with 2 Tbsp brown sugar, 1 Tbsp smoked paprika, 2 tsp each garlic powder, onion powder and salt, 1 tsp chili powder, 1 tsp dry mustard and 1 tsp pepper. Rest 30 minutes (or overnight).",
+    "Roast covered at 300\u00b0F for 4\u00bd\u20135 hours (or slow-cook on low 8\u20139 hours with \u00bd cup water) until it shreds easily, about 195\u2013200\u00b0F. Shred, discarding fat.",
+    "Simmer the sauce: 1 cup cider vinegar, \u00bc cup ketchup, \u00bc cup brown sugar, 1 Tbsp hot sauce, 1 tsp red pepper flakes, 1 tsp salt. Toss about \u00be cup with the shredded pork; save the rest for serving.",
+    "Toss the coleslaw mix with \u2153 cup mayo, 2 Tbsp of the vinegar sauce and a pinch of sugar and salt. Pile pork and slaw on toasted buns."
+   ]
+  },
+  {
+   "id": "meal-greek-lemon-salmon-potatoes-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Greek lemon-oregano salmon with crispy garlic potatoes and tzatziki",
+   "serves": 4,
+   "total": 22,
+   "cal": 620,
+   "protein": 43,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Fresh skinless Atlantic salmon",
+     "store": "Aldi",
+     "price": 9.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket creamer potatoes",
+     "store": "ShopRite",
+     "price": 2.0
+    },
+    {
+     "item": "1 lemon"
+    },
+    {
+     "item": "plain Greek yogurt (1 cup)"
+    },
+    {
+     "item": "1 cucumber"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "dried oregano",
+    "dried dill",
+    "paprika",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Halve 1\u00bd lb small potatoes and toss with 2 Tbsp olive oil, 1 tsp oregano, \u00bd tsp paprika, \u00bd tsp salt and 3 minced garlic cloves; roast on a sheet pan 20 minutes.",
+    "Mix 1 Tbsp olive oil, zest and juice of \u00bd lemon, 1 tsp oregano, 1 minced garlic clove, \u00bd tsp salt and pepper. Brush over 1\u00bd lb salmon cut into 4 portions.",
+    "Push the potatoes aside, add the salmon to the pan and roast 10\u201312 minutes until it flakes and reaches 145\u00b0F.",
+    "Tzatziki: grate \u00bd cucumber, squeeze dry and stir into 1 cup Greek yogurt with 1 small grated garlic clove, the rest of the lemon juice, \u00bd tsp dill and a pinch of salt. Serve with the salmon and potatoes."
+   ]
+  },
+  {
+   "id": "meal-blistered-tomato-chickpea-pasta-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Blistered tomato, garlic and chickpea pasta with Parmesan (meatless)",
+   "serves": 4,
+   "total": 9,
+   "cal": 610,
+   "protein": 22,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Tomatoes on the vine",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "San Giorgio pasta",
+     "store": "ShopRite",
+     "price": 0.75
+    },
+    {
+     "item": "Emporium Selection Parmesan wedge",
+     "store": "Aldi",
+     "price": 3.99
+    },
+    {
+     "item": "1 can chickpeas"
+    },
+    {
+     "item": "fresh basil (optional)"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "red pepper flakes",
+    "Italian seasoning",
+    "balsamic vinegar",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Boil 12 oz pasta in well-salted water until al dente; save 1 cup pasta water.",
+    "Meanwhile heat \u00bc cup olive oil in a large skillet over medium. Add 6 sliced garlic cloves and \u00bd tsp red pepper flakes; cook 1 minute until fragrant.",
+    "Add 2 lb chopped vine tomatoes, the drained chickpeas, 1 tsp Italian seasoning and \u00be tsp salt. Cook over medium-high 8\u201310 minutes until the tomatoes collapse into a chunky sauce; stir in 1 tsp balsamic vinegar.",
+    "Toss in the pasta, \u00bd cup grated Parmesan and splashes of pasta water until glossy. Finish with pepper, torn basil and more Parmesan."
+   ]
+  },
+  {
+   "id": "meal-jerk-drumsticks-pineapple-salsa-oct28",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Jerk-spiced baked drumsticks with pineapple salsa and coconut-style rice",
+   "serves": 4,
+   "total": 8,
+   "cal": 780,
+   "protein": 49,
+   "week": "2026-10-28",
+   "ingredients": [
+    {
+     "item": "Fresh chicken drumsticks, family pack",
+     "store": "Aldi",
+     "price": 1.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Golden pineapple",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "vegetable oil",
+    "soy sauce",
+    "brown sugar",
+    "garlic",
+    "allspice",
+    "thyme",
+    "cinnamon",
+    "cayenne or hot sauce",
+    "onion powder",
+    "salt",
+    "pepper",
+    "butter"
+   ],
+   "steps": [
+    "Whisk a marinade: 2 Tbsp oil, 2 Tbsp soy sauce, 2 Tbsp brown sugar, juice of 1 lime, 4 minced garlic cloves, 2 tsp allspice, 2 tsp dried thyme, \u00bd tsp cinnamon, 1 tsp onion powder, \u00bd\u20131 tsp cayenne, 1 tsp salt and 1 tsp pepper. Coat 3 lb drumsticks; marinate 30 minutes or up to overnight.",
+    "Heat oven to 425\u00b0F. Bake the drumsticks on a foil-lined, oiled rack or sheet 40\u201345 minutes, turning once, until charred at the edges and 165\u00b0F at the bone (175\u00b0F is even more tender).",
+    "Cook 1\u00bd cups rice with a pinch of salt and 1 Tbsp butter; fluff with sliced green onions.",
+    "Salsa: dice half a pineapple and toss with juice of 1 lime, 2 sliced green onions, a pinch of salt and a dash of hot sauce. Spoon over the chicken and rice."
+   ]
+  },
+  {
    "id": "meal-korean-turkey-rice-bowls-oct25",
    "kind": "meal",
    "type": "Dinner",
@@ -43,10 +397,10 @@
     "salt"
    ],
    "steps": [
-    "Start 1½ cups rice. Thinly slice 1 cucumber and toss with ¼ cup vinegar, 1 tsp sugar and ½ tsp salt; set aside to quick-pickle.",
-    "Whisk the sauce: ¼ cup soy sauce, 2 Tbsp brown sugar, 1–2 Tbsp sriracha, 1 Tbsp sesame oil, 4 minced garlic cloves and 1 tsp ground ginger.",
-    "Heat 1 Tbsp oil in a large skillet over medium-high. Cook 1 diced onion 3 minutes, then add 2 lb ground turkey and cook, breaking it up, until browned and 165°F, 8–10 minutes.",
-    "Pour in the sauce and simmer 2–3 minutes until glossy and mostly absorbed. Spoon over rice with the pickled cucumbers and sliced green onions."
+    "Start 1\u00bd cups rice. Thinly slice 1 cucumber and toss with \u00bc cup vinegar, 1 tsp sugar and \u00bd tsp salt; set aside to quick-pickle.",
+    "Whisk the sauce: \u00bc cup soy sauce, 2 Tbsp brown sugar, 1\u20132 Tbsp sriracha, 1 Tbsp sesame oil, 4 minced garlic cloves and 1 tsp ground ginger.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Cook 1 diced onion 3 minutes, then add 2 lb ground turkey and cook, breaking it up, until browned and 165\u00b0F, 8\u201310 minutes.",
+    "Pour in the sauce and simmer 2\u20133 minutes until glossy and mostly absorbed. Spoon over rice with the pickled cucumbers and sliced green onions."
    ]
   },
   {
@@ -109,9 +463,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Slice 2 lb chicken breast into strips. Toss with 2 Tbsp oil, juice of 1 lime, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, ½ tsp oregano, 1 tsp brown sugar and 1 tsp salt; marinate 15 minutes.",
-    "Heat a large skillet over high. Sear the chicken in two batches, 5–6 minutes each, until charred and 165°F; move to a plate.",
-    "Add 2 sliced red peppers and 1 sliced onion with a pinch of salt; cook 5–6 minutes until charred at the edges. Return the chicken and squeeze in the second lime.",
+    "Slice 2 lb chicken breast into strips. Toss with 2 Tbsp oil, juice of 1 lime, 2 tsp chili powder, 1 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, \u00bd tsp oregano, 1 tsp brown sugar and 1 tsp salt; marinate 15 minutes.",
+    "Heat a large skillet over high. Sear the chicken in two batches, 5\u20136 minutes each, until charred and 165\u00b0F; move to a plate.",
+    "Add 2 sliced red peppers and 1 sliced onion with a pinch of salt; cook 5\u20136 minutes until charred at the edges. Return the chicken and squeeze in the second lime.",
     "Warm 10 flour tortillas in a dry pan. Fill with chicken and peppers, sliced avocado (2) and sour cream."
    ]
   },
@@ -156,10 +510,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Rub a 3 lb piece of pork loin with 1 Tbsp olive oil, 4 minced garlic cloves, 2 tsp Italian seasoning, 1 tsp smoked paprika, 2 tsp salt and ½ tsp pepper.",
+    "Heat oven to 425\u00b0F. Rub a 3 lb piece of pork loin with 1 Tbsp olive oil, 4 minced garlic cloves, 2 tsp Italian seasoning, 1 tsp smoked paprika, 2 tsp salt and \u00bd tsp pepper.",
     "Halve 3 lb creamer potatoes and cut 1 onion into wedges; toss with 2 Tbsp olive oil, salt and pepper and spread around the pork on a sheet pan.",
-    "Roast 45–55 minutes, until the pork is 145°F and the potatoes are crisp. Rest the pork 10 minutes.",
-    "Meanwhile simmer ½ cup broth, 2 Tbsp balsamic, 1 Tbsp honey and 1 tsp Dijon 4 minutes until syrupy; whisk in 1 Tbsp butter and any pan juices. Slice the pork and spoon the sauce over."
+    "Roast 45\u201355 minutes, until the pork is 145\u00b0F and the potatoes are crisp. Rest the pork 10 minutes.",
+    "Meanwhile simmer \u00bd cup broth, 2 Tbsp balsamic, 1 Tbsp honey and 1 tsp Dijon 4 minutes until syrupy; whisk in 1 Tbsp butter and any pan juices. Slice the pork and spoon the sauce over."
    ]
   },
   {
@@ -199,10 +553,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Pat 4 lb bone-in drumsticks or thighs dry and season with 2 tsp smoked paprika, 1 tsp garlic powder, 2 tsp salt and ½ tsp pepper. Arrange on a rack or sheet pan.",
-    "Peel and cube a 2½ lb butternut squash; toss with 1 Tbsp oil, 1 Tbsp brown sugar, ¼ tsp cinnamon and a pinch of salt on a second pan.",
-    "Roast both 35–45 minutes, until the squash is caramelized and the chicken is 165°F (175°F is even more tender for dark meat).",
-    "Melt 3 Tbsp butter with ¼ cup honey, 2–3 Tbsp hot sauce and 2 minced garlic cloves. Brush over the chicken and return to the oven 5 minutes to set the glaze."
+    "Heat oven to 425\u00b0F. Pat 4 lb bone-in drumsticks or thighs dry and season with 2 tsp smoked paprika, 1 tsp garlic powder, 2 tsp salt and \u00bd tsp pepper. Arrange on a rack or sheet pan.",
+    "Peel and cube a 2\u00bd lb butternut squash; toss with 1 Tbsp oil, 1 Tbsp brown sugar, \u00bc tsp cinnamon and a pinch of salt on a second pan.",
+    "Roast both 35\u201345 minutes, until the squash is caramelized and the chicken is 165\u00b0F (175\u00b0F is even more tender for dark meat).",
+    "Melt 3 Tbsp butter with \u00bc cup honey, 2\u20133 Tbsp hot sauce and 2 minced garlic cloves. Brush over the chicken and return to the oven 5 minutes to set the glaze."
    ]
   },
   {
@@ -217,7 +571,7 @@
    "week": "2026-10-25",
    "ingredients": [
     {
-     "item": "Extra jumbo raw shrimp, 16–20 ct",
+     "item": "Extra jumbo raw shrimp, 16\u201320 ct",
      "store": "Acme",
      "price": 7.99,
      "unit": "/lb"
@@ -256,10 +610,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Mix the Cajun spice: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder and thyme, ½ tsp oregano, ¼–½ tsp cayenne, 1 tsp salt. Peel 1 lb shrimp and toss with half the spice. Cook 1 lb pasta in salted water; save 1 cup pasta water.",
-    "In a large skillet over medium-high, brown 1 lb ground sausage until no pink remains and 160°F, 6–8 minutes; scoop out, leaving the drippings.",
-    "Add 1 Tbsp olive oil and the shrimp; cook 1–2 minutes per side until pink and 145°F, then set aside with the sausage.",
-    "Sauté 1 diced onion and 3 minced garlic cloves 3 minutes. Add 1 can diced tomatoes, the rest of the spice and 1 cup heavy cream; simmer 4 minutes. Stir in ½ cup Parmesan, the pasta, sausage and shrimp, loosening with pasta water. Top with green onions."
+    "Mix the Cajun spice: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder and thyme, \u00bd tsp oregano, \u00bc\u2013\u00bd tsp cayenne, 1 tsp salt. Peel 1 lb shrimp and toss with half the spice. Cook 1 lb pasta in salted water; save 1 cup pasta water.",
+    "In a large skillet over medium-high, brown 1 lb ground sausage until no pink remains and 160\u00b0F, 6\u20138 minutes; scoop out, leaving the drippings.",
+    "Add 1 Tbsp olive oil and the shrimp; cook 1\u20132 minutes per side until pink and 145\u00b0F, then set aside with the sausage.",
+    "Saut\u00e9 1 diced onion and 3 minced garlic cloves 3 minutes. Add 1 can diced tomatoes, the rest of the spice and 1 cup heavy cream; simmer 4 minutes. Stir in \u00bd cup Parmesan, the pasta, sausage and shrimp, loosening with pasta water. Top with green onions."
    ]
   },
   {
@@ -314,9 +668,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat 2 Tbsp olive oil in a large skillet over medium. Cook 1 diced onion 5 minutes, then add 4 minced garlic cloves, 1½ tsp cumin, 1½ tsp smoked paprika, ½ tsp red pepper flakes and 1 Tbsp tomato paste for 1 minute.",
-    "Add 2½ lb chopped vine tomatoes, 1 tsp salt and 1 tsp honey; simmer 12–15 minutes until saucy. Stir in 1 drained can of white beans.",
-    "Make 8 wells and crack in 8 eggs. Cover and cook on low 6–8 minutes, until the whites are set.",
+    "Heat 2 Tbsp olive oil in a large skillet over medium. Cook 1 diced onion 5 minutes, then add 4 minced garlic cloves, 1\u00bd tsp cumin, 1\u00bd tsp smoked paprika, \u00bd tsp red pepper flakes and 1 Tbsp tomato paste for 1 minute.",
+    "Add 2\u00bd lb chopped vine tomatoes, 1 tsp salt and 1 tsp honey; simmer 12\u201315 minutes until saucy. Stir in 1 drained can of white beans.",
+    "Make 8 wells and crack in 8 eggs. Cover and cook on low 6\u20138 minutes, until the whites are set.",
     "Slice the Italian bread, brush with 1 Tbsp olive oil, rub with a cut garlic clove and toast. Sprinkle the shakshuka with herbs and serve with the toast."
    ]
   },
@@ -372,9 +726,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "In a large pot over medium-high, brown 2 lb ground beef with 1 diced onion until no pink remains and the beef is 160°F, 8–10 minutes; drain extra fat.",
+    "In a large pot over medium-high, brown 2 lb ground beef with 1 diced onion until no pink remains and the beef is 160\u00b0F, 8\u201310 minutes; drain extra fat.",
     "Stir in 4 minced garlic cloves, 3 Tbsp chili powder, 2 tsp cumin, 2 tsp smoked paprika and 1 tsp oregano; toast 1 minute.",
-    "Add a 28 oz can crushed tomatoes, 2 drained cans of beans, 1 cup broth, 1 Tbsp brown sugar and 1½ tsp salt. Simmer uncovered 30 minutes, stirring now and then.",
+    "Add a 28 oz can crushed tomatoes, 2 drained cans of beans, 1 cup broth, 1 Tbsp brown sugar and 1\u00bd tsp salt. Simmer uncovered 30 minutes, stirring now and then.",
     "Finish with 1 Tbsp cider vinegar and hot sauce to taste. Serve topped with shredded cheddar (8 oz block) and sour cream."
    ]
   },
@@ -396,7 +750,7 @@
      "unit": "/lb"
     },
     {
-     "item": "Preferred Selection mustard, 7.9–9.5 oz",
+     "item": "Preferred Selection mustard, 7.9\u20139.5 oz",
      "store": "Lidl",
      "price": 1.99
     },
@@ -416,10 +770,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Start 1 cup rice. Season 2 lb boneless pork chops with 1 tsp salt, ½ tsp pepper and 1 tsp thyme.",
-    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the chops 4–5 minutes per side until 145°F; rest on a plate.",
-    "Lower the heat to medium. Add 1 Tbsp butter and 3 minced garlic cloves, then whisk in ½ cup broth, 3 Tbsp mustard, 2 Tbsp honey and 1 tsp cider vinegar. Simmer 3 minutes until slightly thick; return the chops and any juices and spoon the sauce over.",
-    "Meanwhile sauté 1 lb trimmed green beans in 1 Tbsp butter with 2 minced garlic cloves and a pinch of salt, 6–7 minutes. Serve everything with the rice."
+    "Start 1 cup rice. Season 2 lb boneless pork chops with 1 tsp salt, \u00bd tsp pepper and 1 tsp thyme.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the chops 4\u20135 minutes per side until 145\u00b0F; rest on a plate.",
+    "Lower the heat to medium. Add 1 Tbsp butter and 3 minced garlic cloves, then whisk in \u00bd cup broth, 3 Tbsp mustard, 2 Tbsp honey and 1 tsp cider vinegar. Simmer 3 minutes until slightly thick; return the chops and any juices and spoon the sauce over.",
+    "Meanwhile saut\u00e9 1 lb trimmed green beans in 1 Tbsp butter with 2 minced garlic cloves and a pinch of salt, 6\u20137 minutes. Serve everything with the rice."
    ]
   },
   {
@@ -466,7 +820,7 @@
    "steps": [
     "Slice 4 oz chorizo into thin coins. Warm 2 Tbsp olive oil in a pot over medium and cook the chorizo 3 minutes until it releases its red oil.",
     "Add 1 diced onion and cook 5 minutes; stir in 4 minced garlic cloves, 2 tsp smoked paprika and 1 tsp cumin for 1 minute.",
-    "Add 2 drained cans chickpeas, 1 can diced tomatoes and 1½ cups broth. Simmer 15 minutes, lightly mashing some chickpeas to thicken.",
+    "Add 2 drained cans chickpeas, 1 can diced tomatoes and 1\u00bd cups broth. Simmer 15 minutes, lightly mashing some chickpeas to thicken.",
     "Stir in 5 oz spinach until wilted, then 1 tsp vinegar and salt to taste. Serve with warm sliced baguette for dunking."
    ]
   },
@@ -515,9 +869,9 @@
    ],
    "steps": [
     "Cook 1 lb pasta in well-salted water until al dente; save 1 cup pasta water.",
-    "Meanwhile warm 2 Tbsp olive oil in a large skillet over medium-low with 4 sliced garlic cloves, ½ tsp red pepper flakes and 1 tsp oregano until the garlic is golden, about 2 minutes.",
-    "Add the drained tuna (10.5 oz jar) in big flakes and ½ cup sliced olives; warm 1 minute.",
-    "Toss in the pasta with the zest and juice of 1 lemon, ¼ cup Parmesan and splashes of pasta water until glossy. Finish with chopped parsley and black pepper."
+    "Meanwhile warm 2 Tbsp olive oil in a large skillet over medium-low with 4 sliced garlic cloves, \u00bd tsp red pepper flakes and 1 tsp oregano until the garlic is golden, about 2 minutes.",
+    "Add the drained tuna (10.5 oz jar) in big flakes and \u00bd cup sliced olives; warm 1 minute.",
+    "Toss in the pasta with the zest and juice of 1 lemon, \u00bc cup Parmesan and splashes of pasta water until glossy. Finish with chopped parsley and black pepper."
    ]
   },
   {
@@ -560,9 +914,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Whisk the glaze: ¼ cup soy sauce, 3 Tbsp honey, 1 Tbsp brown sugar, 1 Tbsp vinegar, 4 minced garlic cloves, 1 tsp ground ginger, ½ tsp red pepper flakes and 1 tsp sesame oil. Toss 2 lb boneless country-style rib chops with 3 Tbsp of it and let sit 15 minutes. Start 1¼ cups rice.",
-    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the pork 4–5 minutes per side until browned and 145°F inside; rest on a plate 5 minutes.",
-    "In the same pan, char 2 sliced red bell peppers 3–4 minutes. Pour in the remaining glaze and 2 Tbsp water and bubble 1–2 minutes until sticky.",
+    "Whisk the glaze: \u00bc cup soy sauce, 3 Tbsp honey, 1 Tbsp brown sugar, 1 Tbsp vinegar, 4 minced garlic cloves, 1 tsp ground ginger, \u00bd tsp red pepper flakes and 1 tsp sesame oil. Toss 2 lb boneless country-style rib chops with 3 Tbsp of it and let sit 15 minutes. Start 1\u00bc cups rice.",
+    "Heat 1 Tbsp oil in a large skillet over medium-high. Sear the pork 4\u20135 minutes per side until browned and 145\u00b0F inside; rest on a plate 5 minutes.",
+    "In the same pan, char 2 sliced red bell peppers 3\u20134 minutes. Pour in the remaining glaze and 2 Tbsp water and bubble 1\u20132 minutes until sticky.",
     "Slice the pork, return it to the pan and toss to coat. Serve over rice with sliced green onions."
    ]
   },
@@ -626,10 +980,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 325°F. Cut a 3 lb pork butt into 2-inch chunks and rub with 2 tsp cumin, 2 tsp chili powder, 1 tsp oregano, 2 tsp salt and 1 tsp pepper. Put in a Dutch oven with 1 quartered onion, 6 smashed garlic cloves, the juice of 1 lemon and 1 lime and 1 cup broth.",
-    "Cover and bake 2½–3 hours until fork-tender. Meanwhile, quick-pickle 1 thinly sliced red onion in ½ cup vinegar, ½ cup hot water, 1 tsp sugar and ½ tsp salt.",
-    "Shred the pork, spread on a sheet pan with 1 Tbsp oil and ½ cup of the cooking juices, and broil 5–7 minutes until the edges crisp.",
-    "Mash 1 avocado with ½ cup sour cream, juice of ½ lime and a pinch of salt for crema. Warm 12 tortillas and fill with pork, crema, the second avocado sliced, pickled onions and cilantro."
+    "Heat oven to 325\u00b0F. Cut a 3 lb pork butt into 2-inch chunks and rub with 2 tsp cumin, 2 tsp chili powder, 1 tsp oregano, 2 tsp salt and 1 tsp pepper. Put in a Dutch oven with 1 quartered onion, 6 smashed garlic cloves, the juice of 1 lemon and 1 lime and 1 cup broth.",
+    "Cover and bake 2\u00bd\u20133 hours until fork-tender. Meanwhile, quick-pickle 1 thinly sliced red onion in \u00bd cup vinegar, \u00bd cup hot water, 1 tsp sugar and \u00bd tsp salt.",
+    "Shred the pork, spread on a sheet pan with 1 Tbsp oil and \u00bd cup of the cooking juices, and broil 5\u20137 minutes until the edges crisp.",
+    "Mash 1 avocado with \u00bd cup sour cream, juice of \u00bd lime and a pinch of salt for crema. Warm 12 tortillas and fill with pork, crema, the second avocado sliced, pickled onions and cilantro."
    ]
   },
   {
@@ -694,9 +1048,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Halve 2 lb chicken breasts into thin cutlets and season with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1 tsp salt and ½ tsp pepper. Sear in 1 Tbsp oil over medium-high 4–5 minutes per side until 165°F; set aside.",
-    "Add 1 Tbsp butter and 8 oz sliced mushrooms; cook 5 minutes until browned. Stir in 4 minced garlic cloves, 1 Tbsp tomato paste and ½ tsp red pepper flakes for 1 minute.",
-    "Add 1 cup broth, 1 cup half & half and 1 drained can white beans; simmer 4 minutes until slightly thickened. Stir in ½ cup grated cheese and the spinach until wilted.",
+    "Halve 2 lb chicken breasts into thin cutlets and season with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1 tsp salt and \u00bd tsp pepper. Sear in 1 Tbsp oil over medium-high 4\u20135 minutes per side until 165\u00b0F; set aside.",
+    "Add 1 Tbsp butter and 8 oz sliced mushrooms; cook 5 minutes until browned. Stir in 4 minced garlic cloves, 1 Tbsp tomato paste and \u00bd tsp red pepper flakes for 1 minute.",
+    "Add 1 cup broth, 1 cup half & half and 1 drained can white beans; simmer 4 minutes until slightly thickened. Stir in \u00bd cup grated cheese and the spinach until wilted.",
     "Return the chicken to the sauce to warm through. Serve with toasted sourdough slices for dunking."
    ]
   },
@@ -740,9 +1094,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Toss 2 lb halved Brussels sprouts with 2 Tbsp oil, 1 tsp garlic powder, ½ tsp salt and ¼ tsp pepper; roast cut-side down 20–25 minutes until deeply browned. Start 1¼ cups rice.",
+    "Heat oven to 425\u00b0F. Toss 2 lb halved Brussels sprouts with 2 Tbsp oil, 1 tsp garlic powder, \u00bd tsp salt and \u00bc tsp pepper; roast cut-side down 20\u201325 minutes until deeply browned. Start 1\u00bc cups rice.",
     "Melt 2 Tbsp butter with 3 Tbsp honey, 3 minced garlic cloves, 1 Tbsp soy sauce, the juice of 1 lemon and a pinch of red pepper flakes.",
-    "Lay 2 lb salmon portions skin-side down on a lined sheet pan, season with salt and pepper and spoon half the honey butter over them. Bake 10–12 minutes until 145°F and flaky.",
+    "Lay 2 lb salmon portions skin-side down on a lined sheet pan, season with salt and pepper and spoon half the honey butter over them. Bake 10\u201312 minutes until 145\u00b0F and flaky.",
     "Spoon the remaining honey butter over the salmon, add lemon wedges and serve with the sprouts and rice."
    ]
   },
@@ -796,9 +1150,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Brown 1 lb ground beef and 12 oz sliced andouille in a large pot over medium-high, breaking up the beef, until the beef reaches 160°F, about 7 minutes.",
-    "Add 1 Tbsp butter, 1 diced onion, 2 diced bell peppers and 2 diced celery ribs; cook 5 minutes. Stir in 4 minced garlic cloves, 2 tsp smoked paprika, 1 tsp each garlic powder, thyme and oregano, ½ tsp cayenne, 1 tsp salt and ½ tsp pepper.",
-    "Add 1½ cups rice, 2½ cups broth and 1 Tbsp Worcestershire. Bring to a boil, cover and simmer on low 18 minutes.",
+    "Brown 1 lb ground beef and 12 oz sliced andouille in a large pot over medium-high, breaking up the beef, until the beef reaches 160\u00b0F, about 7 minutes.",
+    "Add 1 Tbsp butter, 1 diced onion, 2 diced bell peppers and 2 diced celery ribs; cook 5 minutes. Stir in 4 minced garlic cloves, 2 tsp smoked paprika, 1 tsp each garlic powder, thyme and oregano, \u00bd tsp cayenne, 1 tsp salt and \u00bd tsp pepper.",
+    "Add 1\u00bd cups rice, 2\u00bd cups broth and 1 Tbsp Worcestershire. Bring to a boil, cover and simmer on low 18 minutes.",
     "Rest 5 minutes off the heat, fluff, and finish with sliced green onions and hot sauce to taste."
    ]
   },
@@ -820,7 +1174,7 @@
      "unit": "/lb"
     },
     {
-     "item": "Ronzoni pasta, 12–16 oz",
+     "item": "Ronzoni pasta, 12\u201316 oz",
      "store": "ShopRite",
      "price": 0.99
     },
@@ -853,10 +1207,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Toss a 2½ lb butternut squash, peeled and cut into ¾-inch cubes, with 2 Tbsp oil, 1 tsp smoked paprika, 1 tsp salt and ½ tsp pepper. Roast 25–30 minutes until caramelized.",
+    "Heat oven to 425\u00b0F. Toss a 2\u00bd lb butternut squash, peeled and cut into \u00be-inch cubes, with 2 Tbsp oil, 1 tsp smoked paprika, 1 tsp salt and \u00bd tsp pepper. Roast 25\u201330 minutes until caramelized.",
     "Cook 1 lb pasta in well-salted water; save 1 cup pasta water before draining.",
-    "In the pasta pot, melt 4 Tbsp butter over medium and cook until nutty and golden, 3 minutes. Add 10 sage leaves, 3 sliced garlic cloves, ½ tsp red pepper flakes and a pinch of nutmeg for 1 minute.",
-    "Add the pasta, squash, 1 drained can white beans, ½ cup grated cheese and ½ cup pasta water; toss until glossy. Finish with a squeeze of lemon and more cheese."
+    "In the pasta pot, melt 4 Tbsp butter over medium and cook until nutty and golden, 3 minutes. Add 10 sage leaves, 3 sliced garlic cloves, \u00bd tsp red pepper flakes and a pinch of nutmeg for 1 minute.",
+    "Add the pasta, squash, 1 drained can white beans, \u00bd cup grated cheese and \u00bd cup pasta water; toss until glossy. Finish with a squeeze of lemon and more cheese."
    ]
   },
   {
@@ -905,9 +1259,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Whisk ¼ cup olive oil, juice and zest of 1 lemon, 4 minced garlic cloves, 1 Tbsp oregano, 1 tsp garlic powder, 1 tsp smoked paprika, 1½ tsp salt and ½ tsp pepper.",
+    "Heat oven to 425\u00b0F. Whisk \u00bc cup olive oil, juice and zest of 1 lemon, 4 minced garlic cloves, 1 Tbsp oregano, 1 tsp garlic powder, 1 tsp smoked paprika, 1\u00bd tsp salt and \u00bd tsp pepper.",
     "Toss 10 drumsticks (about 3 lb) and 3 lb potatoes cut into wedges with the marinade and spread on two sheet pans.",
-    "Roast 40–45 minutes, turning once, until the potatoes are crisp and the chicken reaches 165°F (175°F is even more tender for drumsticks).",
+    "Roast 40\u201345 minutes, turning once, until the potatoes are crisp and the chicken reaches 165\u00b0F (175\u00b0F is even more tender for drumsticks).",
     "Grate 2 mini cucumbers, squeeze dry and stir into 1 cup Greek yogurt with 1 small grated garlic clove, 1 tsp dill, a squeeze of lemon and a pinch of salt. Serve with the chicken and potatoes."
    ]
   },
@@ -961,10 +1315,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Make mojo: juice of 1 orange and 1 lime, ¼ cup olive oil, 6 minced garlic cloves, 2 tsp cumin, 2 tsp oregano, 2 tsp salt and 1 tsp pepper. Marinate a 2½ lb piece of pork loin in it at least 1 hour (or overnight).",
-    "Heat oven to 400°F. Sear the pork in a hot oven-safe skillet 2 minutes per side, pour the marinade over it and roast 35–45 minutes until 145°F. Rest 10 minutes. Start 1¼ cups rice.",
-    "Warm 2 drained cans black beans with 1 garlic clove, ½ tsp cumin and a splash of water.",
-    "Dice ½ pineapple and 2 avocados; toss with cilantro, juice of 1 lime, a pinch of red pepper flakes and salt. Slice the pork, spoon the pan juices over it and serve with rice, beans and salsa."
+    "Make mojo: juice of 1 orange and 1 lime, \u00bc cup olive oil, 6 minced garlic cloves, 2 tsp cumin, 2 tsp oregano, 2 tsp salt and 1 tsp pepper. Marinate a 2\u00bd lb piece of pork loin in it at least 1 hour (or overnight).",
+    "Heat oven to 400\u00b0F. Sear the pork in a hot oven-safe skillet 2 minutes per side, pour the marinade over it and roast 35\u201345 minutes until 145\u00b0F. Rest 10 minutes. Start 1\u00bc cups rice.",
+    "Warm 2 drained cans black beans with 1 garlic clove, \u00bd tsp cumin and a splash of water.",
+    "Dice \u00bd pineapple and 2 avocados; toss with cilantro, juice of 1 lime, a pinch of red pepper flakes and salt. Slice the pork, spoon the pan juices over it and serve with rice, beans and salsa."
    ]
   },
   {
@@ -1012,9 +1366,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Season 3 lb bone-in chicken thighs with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1½ tsp salt and ½ tsp pepper. Brown skin-side down in 1 Tbsp oil in a deep skillet over medium-high, 6–7 minutes; flip and brown 2 minutes. Set aside.",
-    "Pour off all but 1 Tbsp fat. Cook 1 sliced onion and 1 sliced bell pepper 5 minutes, then 4 garlic cloves and ½ tsp red pepper flakes for 30 seconds. Add 1½ lb chopped vine tomatoes, ½ cup broth and 1 Tbsp balsamic.",
-    "Nestle in the chicken skin-side up, cover and simmer 25–30 minutes until the chicken reaches 165°F (175°F is more tender) and the tomatoes collapse into a sauce.",
+    "Season 3 lb bone-in chicken thighs with 2 tsp Italian seasoning, 1 tsp smoked paprika, 1\u00bd tsp salt and \u00bd tsp pepper. Brown skin-side down in 1 Tbsp oil in a deep skillet over medium-high, 6\u20137 minutes; flip and brown 2 minutes. Set aside.",
+    "Pour off all but 1 Tbsp fat. Cook 1 sliced onion and 1 sliced bell pepper 5 minutes, then 4 garlic cloves and \u00bd tsp red pepper flakes for 30 seconds. Add 1\u00bd lb chopped vine tomatoes, \u00bd cup broth and 1 Tbsp balsamic.",
+    "Nestle in the chicken skin-side up, cover and simmer 25\u201330 minutes until the chicken reaches 165\u00b0F (175\u00b0F is more tender) and the tomatoes collapse into a sauce.",
     "Cook 1 lb pasta. Serve the chicken and sauce over it with grated Parmesan."
    ]
   },
@@ -1072,8 +1426,8 @@
     "salt and pepper"
    ],
    "steps": [
-    "Cook 1¼ cups rice; stir in the juice of 1 lime and a handful of chopped cilantro.",
-    "Brown 2 lb ground turkey with 1 diced onion in 1 Tbsp oil over medium-high until 165°F, about 8 minutes. Stir in 3 minced garlic cloves, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp oregano, 1 Tbsp tomato paste, 1 tsp salt and ⅓ cup water; simmer 3 minutes.",
+    "Cook 1\u00bc cups rice; stir in the juice of 1 lime and a handful of chopped cilantro.",
+    "Brown 2 lb ground turkey with 1 diced onion in 1 Tbsp oil over medium-high until 165\u00b0F, about 8 minutes. Stir in 3 minced garlic cloves, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp oregano, 1 Tbsp tomato paste, 1 tsp salt and \u2153 cup water; simmer 3 minutes.",
     "Warm 1 drained can black beans. Dice 1 lb tomatoes and 2 avocados and toss with cilantro, juice of 1 lime and salt.",
     "Build bowls with rice, turkey, beans, salsa and shredded cheese; add hot sauce to taste."
    ]
@@ -1090,7 +1444,7 @@
    "week": "2026-10-18",
    "ingredients": [
     {
-     "item": "Jumbo raw EZ-peel shrimp, 21–25 ct",
+     "item": "Jumbo raw EZ-peel shrimp, 21\u201325 ct",
      "store": "Acme",
      "price": 6.99,
      "unit": "/lb"
@@ -1136,10 +1490,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Mix a Cajun rub: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder, oregano and thyme, ½ tsp cayenne, 1 tsp salt and ½ tsp pepper. Toss 1 lb peeled shrimp with half of it. Start 1½ cups rice.",
-    "Brown 1 lb Italian sausage (casings removed, in chunks) in 1 Tbsp oil over medium-high heat until 160°F, about 6–8 minutes. Lift out.",
-    "In the drippings, cook 2 sliced bell peppers and 1 sliced onion 5 minutes. Add 4 minced garlic cloves and the rest of the rub for 30 seconds, then a 14.5 oz can tomatoes and ½ cup broth; simmer 5 minutes.",
-    "Stir in the sausage and shrimp and cook 3–4 minutes until the shrimp are pink and opaque. Swirl in 1 Tbsp butter and a few dashes hot sauce; serve over rice with sliced green onions."
+    "Mix a Cajun rub: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder, oregano and thyme, \u00bd tsp cayenne, 1 tsp salt and \u00bd tsp pepper. Toss 1 lb peeled shrimp with half of it. Start 1\u00bd cups rice.",
+    "Brown 1 lb Italian sausage (casings removed, in chunks) in 1 Tbsp oil over medium-high heat until 160\u00b0F, about 6\u20138 minutes. Lift out.",
+    "In the drippings, cook 2 sliced bell peppers and 1 sliced onion 5 minutes. Add 4 minced garlic cloves and the rest of the rub for 30 seconds, then a 14.5 oz can tomatoes and \u00bd cup broth; simmer 5 minutes.",
+    "Stir in the sausage and shrimp and cook 3\u20134 minutes until the shrimp are pink and opaque. Swirl in 1 Tbsp butter and a few dashes hot sauce; serve over rice with sliced green onions."
    ]
   },
   {
@@ -1188,8 +1542,8 @@
     "cooked rice (day-old is best)"
    ],
    "steps": [
-    "Whisk 3 Tbsp honey, 3 Tbsp soy sauce, 3 minced garlic cloves, ½ tsp ginger, 1 Tbsp rice vinegar and 1 tsp sriracha. Coat a 1¼ lb pork tenderloin with a third of it.",
-    "Sear the pork in 1 Tbsp oil in an oven-safe skillet 2 minutes per side, then roast at 425°F for 15–18 minutes until 145°F, brushing with another third of the glaze halfway. Rest 5 minutes and slice.",
+    "Whisk 3 Tbsp honey, 3 Tbsp soy sauce, 3 minced garlic cloves, \u00bd tsp ginger, 1 Tbsp rice vinegar and 1 tsp sriracha. Coat a 1\u00bc lb pork tenderloin with a third of it.",
+    "Sear the pork in 1 Tbsp oil in an oven-safe skillet 2 minutes per side, then roast at 425\u00b0F for 15\u201318 minutes until 145\u00b0F, brushing with another third of the glaze halfway. Rest 5 minutes and slice.",
     "Meanwhile, in a large skillet over high heat, scramble 3 eggs in 1 Tbsp oil and push aside. Add 1 diced bell pepper and 2 minced garlic cloves for 2 minutes, then 4 cups cold cooked rice, the peas and 2 Tbsp soy sauce; fry until hot and a little crispy.",
     "Finish the rice with 1 tsp sesame oil and sliced green onions. Simmer the last of the glaze 1 minute and drizzle over the sliced pork."
    ]
@@ -1211,7 +1565,7 @@
      "price": 8.36
     },
     {
-     "item": "Ronzoni pasta, 12–16 oz",
+     "item": "Ronzoni pasta, 12\u201316 oz",
      "store": "ShopRite",
      "price": 0.99
     },
@@ -1242,10 +1596,10 @@
     "fresh or dried basil"
    ],
    "steps": [
-    "Slice 2 lb chicken breasts in half horizontally into cutlets. Season with salt, pepper and 1 tsp Italian seasoning, then press into ½ cup bread crumbs mixed with ¼ cup Parmesan.",
+    "Slice 2 lb chicken breasts in half horizontally into cutlets. Season with salt, pepper and 1 tsp Italian seasoning, then press into \u00bd cup bread crumbs mixed with \u00bc cup Parmesan.",
     "Brown the cutlets in 2 Tbsp olive oil in a large oven-safe skillet, 3 minutes per side. Set aside.",
-    "In the same pan, cook 5 sliced garlic cloves and ½ tsp red pepper flakes in 1 Tbsp oil for 1 minute. Add two 14.5 oz cans crushed or diced tomatoes, 1 tsp Italian seasoning, 1 tsp sugar and ½ tsp salt; simmer 8 minutes.",
-    "Nestle the chicken in the sauce, top with 2 cups shredded mozzarella and ¼ cup Parmesan and bake at 425°F for 12–15 minutes until bubbly and the chicken reaches 165°F.",
+    "In the same pan, cook 5 sliced garlic cloves and \u00bd tsp red pepper flakes in 1 Tbsp oil for 1 minute. Add two 14.5 oz cans crushed or diced tomatoes, 1 tsp Italian seasoning, 1 tsp sugar and \u00bd tsp salt; simmer 8 minutes.",
+    "Nestle the chicken in the sauce, top with 2 cups shredded mozzarella and \u00bc cup Parmesan and bake at 425\u00b0F for 12\u201315 minutes until bubbly and the chicken reaches 165\u00b0F.",
     "Meanwhile cook 12 oz spaghetti; toss with a few spoonfuls of the sauce. Serve the chicken over the pasta with basil."
    ]
   },
@@ -1316,10 +1670,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Dice 1½ lb sweet potatoes into ½-inch cubes. Cook in 1 Tbsp oil in a large covered skillet over medium heat 10–12 minutes, stirring now and then, until tender.",
-    "Push them aside, add 1½ lb ground beef and 1 diced onion and cook, breaking up, until the beef reaches 160°F; drain most of the fat.",
+    "Dice 1\u00bd lb sweet potatoes into \u00bd-inch cubes. Cook in 1 Tbsp oil in a large covered skillet over medium heat 10\u201312 minutes, stirring now and then, until tender.",
+    "Push them aside, add 1\u00bd lb ground beef and 1 diced onion and cook, breaking up, until the beef reaches 160\u00b0F; drain most of the fat.",
     "Stir in 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp oregano and 1 tsp salt for 1 minute, then a 14.5 oz can diced tomatoes. Simmer 5 minutes until thick; sprinkle with 1 cup shredded cheese and cover to melt.",
-    "Blend or mash 2 avocados with ½ cup sour cream, the juice of 1 lime, a few dashes hot sauce and a pinch of salt. Spoon the filling into warm tortillas and top with crema and cilantro."
+    "Blend or mash 2 avocados with \u00bd cup sour cream, the juice of 1 lime, a few dashes hot sauce and a pinch of salt. Spoon the filling into warm tortillas and top with crema and cilantro."
    ]
   },
   {
@@ -1364,10 +1718,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Pat a 5 lb chicken very dry. Mash 3 Tbsp soft butter with 4 minced garlic cloves, 1 tsp thyme, 1 tsp smoked paprika, ½ tsp onion powder, the zest of 1 lemon, 2 tsp salt and 1 tsp pepper; rub under and over the skin. Put the halved lemon inside.",
-    "Toss 3 lb potatoes, cut in 1½-inch chunks, with 2 Tbsp olive oil, 1 tsp salt and ½ tsp thyme and spread around the chicken in a roasting pan or large sheet pan.",
-    "Roast at 425°F for 70–80 minutes, stirring the potatoes once, until the thickest part of the thigh reads 165°F. Rest 15 minutes; move the potatoes back to the oven to crisp.",
-    "For gravy, whisk 2 Tbsp flour into 2 Tbsp pan drippings over medium heat 1 minute, then whisk in 1½ cups broth and a squeeze of the roasted lemon; simmer until thick."
+    "Pat a 5 lb chicken very dry. Mash 3 Tbsp soft butter with 4 minced garlic cloves, 1 tsp thyme, 1 tsp smoked paprika, \u00bd tsp onion powder, the zest of 1 lemon, 2 tsp salt and 1 tsp pepper; rub under and over the skin. Put the halved lemon inside.",
+    "Toss 3 lb potatoes, cut in 1\u00bd-inch chunks, with 2 Tbsp olive oil, 1 tsp salt and \u00bd tsp thyme and spread around the chicken in a roasting pan or large sheet pan.",
+    "Roast at 425\u00b0F for 70\u201380 minutes, stirring the potatoes once, until the thickest part of the thigh reads 165\u00b0F. Rest 15 minutes; move the potatoes back to the oven to crisp.",
+    "For gravy, whisk 2 Tbsp flour into 2 Tbsp pan drippings over medium heat 1 minute, then whisk in 1\u00bd cups broth and a squeeze of the roasted lemon; simmer until thick."
    ]
   },
   {
@@ -1421,9 +1775,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Season 2 lb pork chops with 2 tsp oregano, 1 tsp smoked paprika, 1 tsp salt, ½ tsp pepper and the zest of 1 lemon.",
-    "Sear in 1 Tbsp olive oil over medium-high heat 4–5 minutes per side until 145°F; rest on a plate.",
-    "In the same pan, cook 1 lb halved tomatoes and 1 sliced red onion in 1 Tbsp oil until the tomatoes blister and slump, 5 minutes. Add 3 sliced garlic cloves, a pinch of red pepper flakes, the lemon juice and ¼ cup broth; scrape up the browned bits.",
+    "Season 2 lb pork chops with 2 tsp oregano, 1 tsp smoked paprika, 1 tsp salt, \u00bd tsp pepper and the zest of 1 lemon.",
+    "Sear in 1 Tbsp olive oil over medium-high heat 4\u20135 minutes per side until 145\u00b0F; rest on a plate.",
+    "In the same pan, cook 1 lb halved tomatoes and 1 sliced red onion in 1 Tbsp oil until the tomatoes blister and slump, 5 minutes. Add 3 sliced garlic cloves, a pinch of red pepper flakes, the lemon juice and \u00bc cup broth; scrape up the browned bits.",
     "Meanwhile cook 8 oz orzo, drain and stir in a big handful of spinach, 1 Tbsp butter, 1 Tbsp olive oil and salt. Serve the chops over the orzo with the tomato pan sauce spooned on top."
    ]
   },
@@ -1476,9 +1830,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Cook 1 sliced onion and 2 sliced bell peppers in 3 Tbsp olive oil over medium heat until soft and sweet, 8–10 minutes.",
-    "Add 4 minced garlic cloves, 1½ tsp cumin, 2 tsp smoked paprika, ½ tsp chili powder and a pinch of red pepper flakes for 1 minute. Stir in two 14.5 oz cans tomatoes, 1 tsp sugar and ¾ tsp salt; simmer 10 minutes until thick.",
-    "Make 8 wells and crack in 8 eggs. Cover and cook on low 6–8 minutes until the whites are fully set (yolks as firm as you like; fully cooked is 160°F).",
+    "Cook 1 sliced onion and 2 sliced bell peppers in 3 Tbsp olive oil over medium heat until soft and sweet, 8\u201310 minutes.",
+    "Add 4 minced garlic cloves, 1\u00bd tsp cumin, 2 tsp smoked paprika, \u00bd tsp chili powder and a pinch of red pepper flakes for 1 minute. Stir in two 14.5 oz cans tomatoes, 1 tsp sugar and \u00be tsp salt; simmer 10 minutes until thick.",
+    "Make 8 wells and crack in 8 eggs. Cover and cook on low 6\u20138 minutes until the whites are fully set (yolks as firm as you like; fully cooked is 160\u00b0F).",
     "Sprinkle with herbs and black pepper and serve straight from the pan with toasted bread for dipping."
    ]
   },
@@ -1531,9 +1885,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Season a 3 lb chuck roast with 2 tsp salt and 1 tsp pepper. Sear in 2 Tbsp oil in a Dutch oven 4–5 minutes per side; set aside.",
+    "Season a 3 lb chuck roast with 2 tsp salt and 1 tsp pepper. Sear in 2 Tbsp oil in a Dutch oven 4\u20135 minutes per side; set aside.",
     "Cook 1 sliced onion and 16 oz halved mushrooms 5 minutes. Stir in 6 smashed garlic cloves, 2 Tbsp tomato paste and 2 Tbsp flour for 1 minute, then 2 cups broth, 3 Tbsp balsamic vinegar, 1 Tbsp brown sugar, 1 tsp thyme and 1 tsp Italian seasoning.",
-    "Return the roast, cover and braise at 325°F for 2½ hours. Add 2 lb halved potatoes and 1 lb carrots in chunks and cook 45–60 minutes more until everything is fork-tender.",
+    "Return the roast, cover and braise at 325\u00b0F for 2\u00bd hours. Add 2 lb halved potatoes and 1 lb carrots in chunks and cook 45\u201360 minutes more until everything is fork-tender.",
     "Shred or slice the beef and spoon the thick balsamic-mushroom gravy over the top."
    ]
   },
@@ -1549,7 +1903,7 @@
    "week": "2026-10-18",
    "ingredients": [
     {
-     "item": "Hillshire Farm Polska kielbasa, 13–14 oz",
+     "item": "Hillshire Farm Polska kielbasa, 13\u201314 oz",
      "store": "Lidl",
      "price": 2.99
     },
@@ -1581,8 +1935,8 @@
     "salt and pepper"
    ],
    "steps": [
-    "Heat oven to 425°F. Toss 2 lb halved Brussels sprouts with 1½ Tbsp oil, ½ tsp garlic powder, ½ tsp salt and pepper; roast 12 minutes.",
-    "Add a 14 oz kielbasa cut in coins, 2 Gala apples in wedges and 2 cans drained, patted-dry white beans tossed with ½ Tbsp oil, ½ tsp smoked paprika and ½ tsp thyme. Roast 15 minutes more, until the beans crisp and the kielbasa browns (it's precooked; heat to 165°F).",
+    "Heat oven to 425\u00b0F. Toss 2 lb halved Brussels sprouts with 1\u00bd Tbsp oil, \u00bd tsp garlic powder, \u00bd tsp salt and pepper; roast 12 minutes.",
+    "Add a 14 oz kielbasa cut in coins, 2 Gala apples in wedges and 2 cans drained, patted-dry white beans tossed with \u00bd Tbsp oil, \u00bd tsp smoked paprika and \u00bd tsp thyme. Roast 15 minutes more, until the beans crisp and the kielbasa browns (it's precooked; heat to 165\u00b0F).",
     "Whisk 2 Tbsp mustard, 2 Tbsp honey, 1 Tbsp cider vinegar and a pinch of red pepper flakes; drizzle over the hot pan and toss."
    ]
   },
@@ -1639,9 +1993,9 @@
     "salt and pepper"
    ],
    "steps": [
-    "Mix 2 tsp chili powder, 1 tsp cumin, 1 tsp garlic powder, 1 tsp smoked paprika, 1 tsp brown sugar and 1 tsp salt. Rub over 1½ lb salmon.",
-    "Roast on an oiled sheet pan at 425°F for 10–12 minutes until it flakes and reaches 145°F; flake into chunks, discarding the skin.",
-    "Toss 3 cups coleslaw mix with the juice of 1 lime, a pinch of salt and chopped cilantro. Stir ½ cup sour cream with the juice of ½ lime and a few dashes hot sauce.",
+    "Mix 2 tsp chili powder, 1 tsp cumin, 1 tsp garlic powder, 1 tsp smoked paprika, 1 tsp brown sugar and 1 tsp salt. Rub over 1\u00bd lb salmon.",
+    "Roast on an oiled sheet pan at 425\u00b0F for 10\u201312 minutes until it flakes and reaches 145\u00b0F; flake into chunks, discarding the skin.",
+    "Toss 3 cups coleslaw mix with the juice of 1 lime, a pinch of salt and chopped cilantro. Stir \u00bd cup sour cream with the juice of \u00bd lime and a few dashes hot sauce.",
     "Warm 8 tortillas and fill with salmon, slaw, sliced avocado (2) and the spicy lime crema."
    ]
   },
@@ -1684,10 +2038,10 @@
     "olive oil"
    ],
    "steps": [
-    "Whisk ¼ cup soy sauce, ¼ cup honey, 4 minced garlic cloves, 1 tsp ginger, 1 Tbsp sriracha, 1 Tbsp rice vinegar and 1 tsp sesame oil. Toss 3 lb drumsticks in half of it.",
-    "Bake on a foil-lined sheet at 425°F for 35–40 minutes, turning once, until 165°F (175°F+ is even more tender).",
-    "Simmer the remaining sauce 2–3 minutes until syrupy and brush over the chicken; broil 2 minutes to caramelize.",
-    "Roast 2 lb broccoli florets with 2 Tbsp oil, 2 sliced garlic cloves and salt at 425°F for 15 minutes. Serve with rice and sliced green onions."
+    "Whisk \u00bc cup soy sauce, \u00bc cup honey, 4 minced garlic cloves, 1 tsp ginger, 1 Tbsp sriracha, 1 Tbsp rice vinegar and 1 tsp sesame oil. Toss 3 lb drumsticks in half of it.",
+    "Bake on a foil-lined sheet at 425\u00b0F for 35\u201340 minutes, turning once, until 165\u00b0F (175\u00b0F+ is even more tender).",
+    "Simmer the remaining sauce 2\u20133 minutes until syrupy and brush over the chicken; broil 2 minutes to caramelize.",
+    "Roast 2 lb broccoli florets with 2 Tbsp oil, 2 sliced garlic cloves and salt at 425\u00b0F for 15 minutes. Serve with rice and sliced green onions."
    ]
   },
   {
@@ -1733,9 +2087,9 @@
    ],
    "steps": [
     "Boil 1 lb pasta 2 minutes short of the package time; drain.",
-    "In a large oven-safe skillet, warm 2 Tbsp olive oil with 5 sliced garlic cloves and ½ tsp red pepper flakes for 1 minute. Add a 28 oz can crushed tomatoes, 2 tsp Italian seasoning, 1 tsp sugar and ½ tsp salt; simmer 10 minutes.",
-    "Add the 20 oz meatballs and simmer 10 minutes until heated to 165°F. Stir in the pasta and ⅓ cup Parmesan.",
-    "Top with 2 cups shredded cheese and bake at 400°F for 15 minutes until bubbly and browned."
+    "In a large oven-safe skillet, warm 2 Tbsp olive oil with 5 sliced garlic cloves and \u00bd tsp red pepper flakes for 1 minute. Add a 28 oz can crushed tomatoes, 2 tsp Italian seasoning, 1 tsp sugar and \u00bd tsp salt; simmer 10 minutes.",
+    "Add the 20 oz meatballs and simmer 10 minutes until heated to 165\u00b0F. Stir in the pasta and \u2153 cup Parmesan.",
+    "Top with 2 cups shredded cheese and bake at 400\u00b0F for 15 minutes until bubbly and browned."
    ]
   },
   {
@@ -1789,10 +2143,10 @@
     "hot sauce"
    ],
    "steps": [
-    "Brown 2 lb ground beef with 1 diced red onion until cooked to 160°F; drain off most of the fat.",
-    "Add 4 minced garlic cloves, 3 Tbsp chili powder, 2 tsp cumin, 2 tsp smoked paprika and ¼ tsp cinnamon; stir 1 minute until fragrant.",
+    "Brown 2 lb ground beef with 1 diced red onion until cooked to 160\u00b0F; drain off most of the fat.",
+    "Add 4 minced garlic cloves, 3 Tbsp chili powder, 2 tsp cumin, 2 tsp smoked paprika and \u00bc tsp cinnamon; stir 1 minute until fragrant.",
     "Add a can of pumpkin, a can of diced tomatoes, 2 cans drained beans, 1 cup water with 1 tsp beef bouillon, 1 Tbsp brown sugar and a few dashes of hot sauce.",
-    "Simmer 25–30 minutes; season with salt. Top with shredded cheese, sour cream and more red onion."
+    "Simmer 25\u201330 minutes; season with salt. Top with shredded cheese, sour cream and more red onion."
    ]
   },
   {
@@ -1831,10 +2185,10 @@
     "olive oil"
    ],
    "steps": [
-    "Bring 2 cups broth and 2 cups water to a boil; whisk in 1 cup quick grits and cook 5–7 minutes, stirring.",
+    "Bring 2 cups broth and 2 cups water to a boil; whisk in 1 cup quick grits and cook 5\u20137 minutes, stirring.",
     "Stir in a 5.3 oz Boursin, 2 Tbsp butter and plenty of pepper until creamy.",
-    "Cook 8 sausage patties in a skillet 3–4 minutes a side until 160°F; set aside.",
-    "In the same pan, sauté chopped greens with 3 sliced garlic cloves and a pinch of red pepper flakes until wilted. Serve over the grits with the sausage and a few dashes of hot sauce."
+    "Cook 8 sausage patties in a skillet 3\u20134 minutes a side until 160\u00b0F; set aside.",
+    "In the same pan, saut\u00e9 chopped greens with 3 sliced garlic cloves and a pinch of red pepper flakes until wilted. Serve over the grits with the sausage and a few dashes of hot sauce."
    ]
   },
   {
@@ -1880,9 +2234,9 @@
     "rice or orzo"
    ],
    "steps": [
-    "Marinate 2½ lb chicken thighs at least 15 minutes in 3 Tbsp olive oil, zest and juice of 1 lemon, 4 minced garlic cloves, 2 tsp oregano, 1 tsp smoked paprika, ¼ tsp red pepper flakes and 1½ tsp salt.",
+    "Marinate 2\u00bd lb chicken thighs at least 15 minutes in 3 Tbsp olive oil, zest and juice of 1 lemon, 4 minced garlic cloves, 2 tsp oregano, 1 tsp smoked paprika, \u00bc tsp red pepper flakes and 1\u00bd tsp salt.",
     "Spread on a sheet pan with 1 lb halved tomatoes and 1 red onion cut into wedges.",
-    "Roast at 425°F for 22–25 minutes until the chicken hits 165°F and the tomatoes burst.",
+    "Roast at 425\u00b0F for 22\u201325 minutes until the chicken hits 165\u00b0F and the tomatoes burst.",
     "Splash 1 Tbsp red wine vinegar over the pan juices, stir, and spoon everything over rice or orzo."
    ]
   },
@@ -1923,9 +2277,9 @@
     "butter"
    ],
    "steps": [
-    "Bake about 1½ lb crispy chicken strips at 400°F for 18–20 minutes until crisp and 165°F.",
-    "Warm ⅓ cup honey with 2 Tbsp hot sauce and ½ tsp red pepper flakes for 1 minute; toss with the hot chicken.",
-    "Stir ½ cup mayo with 1 Tbsp hot sauce, ½ tsp garlic powder and ½ tsp smoked paprika.",
+    "Bake about 1\u00bd lb crispy chicken strips at 400\u00b0F for 18\u201320 minutes until crisp and 165\u00b0F.",
+    "Warm \u2153 cup honey with 2 Tbsp hot sauce and \u00bd tsp red pepper flakes for 1 minute; toss with the hot chicken.",
+    "Stir \u00bd cup mayo with 1 Tbsp hot sauce, \u00bd tsp garlic powder and \u00bd tsp smoked paprika.",
     "Butter and toast the buns, spread with spicy mayo, and stack lettuce, chicken and pickles."
    ]
   },
@@ -1965,7 +2319,7 @@
    ],
    "steps": [
     "Simmer 8 cups chicken broth with 4 sliced garlic cloves, 1 tsp ginger (or 1 Tbsp fresh) and 2 Tbsp soy sauce for 5 minutes.",
-    "Add about 24 frozen potstickers and simmer 6–8 minutes until heated through to 165°F.",
+    "Add about 24 frozen potstickers and simmer 6\u20138 minutes until heated through to 165\u00b0F.",
     "Stir in chopped bok choy or spinach for the last 2 minutes, then 1 Tbsp rice vinegar and 1 tsp sesame oil.",
     "Serve topped with green onions and a spoonful of chili crisp or sriracha."
    ]
@@ -2011,9 +2365,9 @@
     "olive oil"
    ],
    "steps": [
-    "Mash 3 Tbsp soft butter with 4 minced garlic cloves, 1 tsp thyme, 1 tsp crushed rosemary, 1 Tbsp Dijon, 1½ tsp salt and 1 tsp pepper. Rub all over a 3 lb pork loin.",
-    "Sear in an oiled oven-safe skillet on all sides, then roast at 375°F for 40–50 minutes until 145°F. Rest 10 minutes.",
-    "Meanwhile boil peeled potatoes 15–18 minutes and mash with butter and salt.",
+    "Mash 3 Tbsp soft butter with 4 minced garlic cloves, 1 tsp thyme, 1 tsp crushed rosemary, 1 Tbsp Dijon, 1\u00bd tsp salt and 1 tsp pepper. Rub all over a 3 lb pork loin.",
+    "Sear in an oiled oven-safe skillet on all sides, then roast at 375\u00b0F for 40\u201350 minutes until 145\u00b0F. Rest 10 minutes.",
+    "Meanwhile boil peeled potatoes 15\u201318 minutes and mash with butter and salt.",
     "For gravy, whisk 2 Tbsp flour into the pan drippings over medium heat for 1 minute, then whisk in 2 cups broth and simmer until thick. Slice the pork and spoon gravy over everything."
    ]
   },
@@ -2067,9 +2421,9 @@
    ],
    "steps": [
     "Cut a 3.5 lb pork butt into 2-inch chunks. Rub with 1 Tbsp cumin, 1 Tbsp chili powder, 2 tsp oregano, 1 Tbsp brown sugar, 2 tsp salt and 6 smashed garlic cloves.",
-    "Put in a Dutch oven with ½ cup orange juice and the juice of 1 lime. Cover and bake at 300°F for 3–3½ hours until fork-tender (well past the 145°F safe temp).",
-    "Meanwhile, thinly slice 1 red onion and cover with ½ cup cider vinegar, ½ cup hot water, 1 Tbsp sugar and 1 tsp salt; let sit 30 minutes.",
-    "Shred the pork, spread on a sheet pan, spoon over some juices and broil 4–5 minutes until the edges crisp.",
+    "Put in a Dutch oven with \u00bd cup orange juice and the juice of 1 lime. Cover and bake at 300\u00b0F for 3\u20133\u00bd hours until fork-tender (well past the 145\u00b0F safe temp).",
+    "Meanwhile, thinly slice 1 red onion and cover with \u00bd cup cider vinegar, \u00bd cup hot water, 1 Tbsp sugar and 1 tsp salt; let sit 30 minutes.",
+    "Shred the pork, spread on a sheet pan, spoon over some juices and broil 4\u20135 minutes until the edges crisp.",
     "Pile into warm tortillas with sliced avocado, pickled onions, cilantro and lime wedges."
    ]
   },
@@ -2124,10 +2478,10 @@
     "salt and pepper"
    ],
    "steps": [
-    "Cook 2 packages tortellini per the package; save ½ cup pasta water.",
-    "Melt 4 Tbsp butter until nutty and golden, 3–4 minutes, with 8 sage leaves (crisp them, then lift out). Add 3 minced garlic cloves for 30 seconds.",
-    "Whisk in 1 cup pumpkin, ¾ cup heavy cream, ½ cup broth, ¼ tsp nutmeg, ¼ tsp red pepper flakes, ½ tsp salt and plenty of pepper; simmer 3 minutes.",
-    "Toss in the tortellini with ½ cup Parmesan, loosening with pasta water. Top with the crispy sage."
+    "Cook 2 packages tortellini per the package; save \u00bd cup pasta water.",
+    "Melt 4 Tbsp butter until nutty and golden, 3\u20134 minutes, with 8 sage leaves (crisp them, then lift out). Add 3 minced garlic cloves for 30 seconds.",
+    "Whisk in 1 cup pumpkin, \u00be cup heavy cream, \u00bd cup broth, \u00bc tsp nutmeg, \u00bc tsp red pepper flakes, \u00bd tsp salt and plenty of pepper; simmer 3 minutes.",
+    "Toss in the tortellini with \u00bd cup Parmesan, loosening with pasta water. Top with the crispy sage."
    ]
   },
   {
@@ -2183,8 +2537,8 @@
     "rice"
    ],
    "steps": [
-    "Mix 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder, thyme and brown sugar, ¼ tsp cayenne and 1 tsp salt. Pat 1½ lb salmon dry and coat the tops.",
-    "Sear seasoned-side down in a hot oiled cast-iron skillet 3 minutes, flip and cook 3–4 more until it reaches 145°F.",
+    "Mix 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder, thyme and brown sugar, \u00bc tsp cayenne and 1 tsp salt. Pat 1\u00bd lb salmon dry and coat the tops.",
+    "Sear seasoned-side down in a hot oiled cast-iron skillet 3 minutes, flip and cook 3\u20134 more until it reaches 145\u00b0F.",
     "Stir together 3 Tbsp soft butter, 1 tsp honey and the zest and juice of 1 lime; spoon over the hot salmon.",
     "Toss coleslaw mix with 1 thinly sliced Honeycrisp, a little thin-sliced red onion, 3 Tbsp mayo, 1 Tbsp cider vinegar and a pinch of salt. Serve with rice."
    ]
@@ -2221,8 +2575,8 @@
    ],
    "steps": [
     "Toss 1.5 lb chicken tenders with 1 Tbsp cornstarch and a pinch of salt.",
-    "Sear in a hot oiled skillet until golden, 3–4 minutes a side.",
-    "Stir together ⅓ cup honey, ¼ cup soy sauce, 4 minced garlic cloves, ½ tsp ginger and a squeeze of sriracha. Pour it in and simmer 2–3 minutes until glossy and the chicken hits 165°F.",
+    "Sear in a hot oiled skillet until golden, 3\u20134 minutes a side.",
+    "Stir together \u2153 cup honey, \u00bc cup soy sauce, 4 minced garlic cloves, \u00bd tsp ginger and a squeeze of sriracha. Pour it in and simmer 2\u20133 minutes until glossy and the chicken hits 165\u00b0F.",
     "Serve over rice and top with sliced green onions."
    ]
   },
@@ -2275,9 +2629,9 @@
     "sour cream or mayo"
    ],
    "steps": [
-    "Thinly slice a red onion and cover with ½ cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
+    "Thinly slice a red onion and cover with \u00bd cup warm vinegar, 1 tsp sugar and a pinch of salt. Let it sit while you cook.",
     "Rub 1.5 lb chicken tenders with 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, plus salt.",
-    "Sear 3–4 minutes a side until 165°F, then slice.",
+    "Sear 3\u20134 minutes a side until 165\u00b0F, then slice.",
     "Mash 2 mini avocados with lime juice, salt and a spoon of sour cream for a quick crema.",
     "Pile into warm tortillas with cheese, pickled onions and the avocado crema."
    ]
@@ -2318,9 +2672,9 @@
     "potatoes or rice"
    ],
    "steps": [
-    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160°F).",
-    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6–8 minutes.",
-    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, ½ tsp thyme and a splash of water to make a glossy sauce.",
+    "Brown the sausage links in a skillet, then slice into coins and keep cooking until done (160\u00b0F).",
+    "Add sliced apples and onion with a pat of butter and cook until soft and caramelized, 6\u20138 minutes.",
+    "Stir in 1 Tbsp mustard, 1 Tbsp cider vinegar, 1 tsp brown sugar, \u00bd tsp thyme and a splash of water to make a glossy sauce.",
     "Serve with roasted potatoes or over rice."
    ]
   },
@@ -2361,10 +2715,10 @@
     "rice or potatoes"
    ],
    "steps": [
-    "Heat oven to 425°F. Toss 1.5 lb broccoli florets with oil, garlic powder, salt and a pinch of pepper flakes; roast 15 minutes.",
-    "Season 1.5 lb salmon with salt, pepper and ½ tsp smoked paprika. Push the broccoli to the side and add the salmon to the pan.",
+    "Heat oven to 425\u00b0F. Toss 1.5 lb broccoli florets with oil, garlic powder, salt and a pinch of pepper flakes; roast 15 minutes.",
+    "Season 1.5 lb salmon with salt, pepper and \u00bd tsp smoked paprika. Push the broccoli to the side and add the salmon to the pan.",
     "Melt 3 Tbsp butter with 3 minced garlic cloves and 1 Tbsp lemon juice; spoon over the salmon.",
-    "Roast 10–12 minutes, until the salmon flakes easily and reaches 145°F. Serve with rice or potatoes."
+    "Roast 10\u201312 minutes, until the salmon flakes easily and reaches 145\u00b0F. Serve with rice or potatoes."
    ]
   },
   {
@@ -2408,7 +2762,7 @@
    "steps": [
     "Brown 2 lb ground beef with a chopped red onion; drain the fat.",
     "Stir in 4 minced garlic cloves and 1 tsp ginger and cook 1 minute.",
-    "Add ⅓ cup soy sauce, ¼ cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2–3 minutes.",
+    "Add \u2153 cup soy sauce, \u00bc cup brown sugar, 1 Tbsp sesame oil and a pinch of pepper flakes. Simmer 2\u20133 minutes.",
     "Serve over rice with green onions, sliced cucumber and a fried egg on top if you like."
    ]
   },
@@ -2500,9 +2854,9 @@
    ],
    "steps": [
     "Cook the pasta; save a cup of pasta water.",
-    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165°F. Set aside.",
+    "Season bite-size chicken with Italian seasoning, salt and pepper and brown in butter until 165\u00b0F. Set aside.",
     "In the same pan, cook 5 minced garlic cloves and a pinch of red pepper flakes for 30 seconds, then add 3 chopped tomatoes and cook until they slump.",
-    "Add 1 cup cream and ½ cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
+    "Add 1 cup cream and \u00bd cup broth, simmer 3 minutes, then stir in 1 cup shredded cheese until melted.",
     "Toss in the pasta, chicken and a handful of spinach. Loosen with pasta water as needed."
    ]
   },
@@ -2542,9 +2896,9 @@
     "apple cider vinegar"
    ],
    "steps": [
-    "Heat oven to 400°F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
+    "Heat oven to 400\u00b0F. Mix 3 Tbsp mustard, 2 Tbsp brown sugar, 3 minced garlic cloves, 1 tsp thyme, salt and pepper.",
     "Brown a 3 lb piece of pork loin on all sides in an oven-safe pan, then spread the mustard glaze over the top.",
-    "Scatter quartered pears and onion wedges around it and roast 35–45 minutes, until the pork reads 145°F.",
+    "Scatter quartered pears and onion wedges around it and roast 35\u201345 minutes, until the pork reads 145\u00b0F.",
     "Rest 10 minutes. Splash a little cider vinegar into the pan juices, stir, and spoon over the sliced pork and pears."
    ]
   }
