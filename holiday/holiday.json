@@ -1,5 +1,5 @@
 {
- "updated": 1792663906296,
+ "updated": 1793269102752,
  "events": [
   {
    "name": "Thanksgiving",
@@ -19,21 +19,21 @@
    "id": "amazon",
    "name": "Amazon",
    "status": "expected",
-   "early": "Black Friday week deals around Nov 20",
-   "main": "Through Cyber Monday, around Dec 1",
+   "early": "Not announced yet; Black Friday week usually starts around Nov 19–20",
+   "main": "Expected through Cyber Monday (Nov 30)",
    "ad": "No printed ad",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "Fresh Calendars (Oct 26, 2026)",
+   "srcUrl": "https://freshcalendars.com/news/amazon-black-friday-2026-sale-dates-when-does-it-start/"
   },
   {
    "id": "walmart",
    "name": "Walmart",
-   "status": "expected",
-   "early": "Walmart+ members usually get early online access",
-   "main": "Around Nov 24–29; in stores Black Friday morning",
+   "status": "confirmed",
+   "early": "Early Black Friday Deals Nov 12–15 (Walmart+ online at 12:01am ET Nov 12; everyone Nov 13; stores 6am Nov 12)",
+   "main": "Black Friday Deals Nov 23–29 (Walmart+ first Nov 23, everyone Nov 24); Cyber Monday deals online Nov 30 – Dec 2",
    "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "Hip2Save (Oct 26, 2026)",
+   "srcUrl": "https://hip2save.com/deals/walmart-black-friday/"
   },
   {
    "id": "target",
@@ -48,51 +48,52 @@
   {
    "id": "best-buy",
    "name": "Best Buy",
-   "status": "expected",
-   "early": "Early deals around Oct 31",
-   "main": "Black Friday prices around Nov 20 (price-match exclusion window Nov 19–30)",
+   "status": "confirmed",
+   "early": "DoorBOOsters Oct 30 – Nov 1; Early Black Friday deals from Nov 6, new deals every Friday",
+   "main": "Black Friday Doorbusters Nov 19–28; Cyber Week deals Dec 1–6",
    "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "9to5Toys, citing Best Buy's announcement (Oct 27, 2026)",
+   "srcUrl": "https://9to5toys.com/2026/10/27/best-buy-announces-2026-black-friday-sale/"
   },
   {
    "id": "home-depot",
    "name": "Home Depot",
    "status": "confirmed",
-   "early": "Early Black Friday deals start Nov 4",
-   "main": "Closed Thanksgiving Day; Black Friday sale event Nov 27",
+   "early": "Black Friday sale starts Nov 4",
+   "main": "Black Friday sale Nov 4 – Dec 2; Cyber Monday sale Nov 30 – Dec 6",
    "ad": "Not out yet",
-   "src": "Yahoo Shopping (Oct 13, 2026)",
-   "srcUrl": "https://shopping.yahoo.com/home-garden/home-improvement/articles/black-friday-coming-weeks-early-140532069.html"
+   "src": "Hip2Save (Oct 27, 2026)",
+   "srcUrl": "https://hip2save.com/deals/home-depot-black-friday/"
   },
   {
    "id": "lowes",
    "name": "Lowe's",
-   "status": "confirmed",
-   "early": "Black Friday deals start Oct 29; 12 Days of Deals from Nov 16",
-   "main": "MyLowe's Rewards members shop Doorbusters online Thanksgiving Day (Nov 26); open to everyone Nov 27",
+   "status": "live",
+   "early": "Black Friday deals started Oct 29; 12 Days of Deals from Nov 16",
+   "main": "MyLowe's Rewards members shop online early Nov 26 (stores closed); Doorbusters open to all Nov 27; December Deal Drops Dec 3–24",
    "ad": "Not out yet",
-   "src": "Lowe's press release (Oct 8, 2026)",
-   "srcUrl": "https://www.prnewswire.com/news-releases/lowes-unveils-holiday-2026-lineup-with-new-gifts-and-decor-mylowes-rewards-perks-and-weeks-of-black-friday-savings-302901573.html"
+   "src": "Lowe's newsroom",
+   "srcUrl": "https://corporate.lowes.com/newsroom/press-releases/lowes-unveils-holiday-2026-lineup-new-gifts-and-decor-mylowes-rewards-perks-and-weeks-of-black-friday-savings"
   },
   {
    "id": "costco",
    "name": "Costco",
-   "status": "expected",
-   "early": "First deals around Oct 31",
-   "main": "Main event around Nov 26",
-   "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "status": "confirmed",
+   "early": "Holiday Savings #1 Oct 30 – Nov 15; #2 Nov 16–30",
+   "main": "Thanksgiving online-only deals Nov 26 (warehouses closed); Black Friday weekend Nov 27–30; Cyber Monday online Nov 30",
+   "ad": "Released Oct 23",
+   "src": "Costco Insider (Oct 23, 2026)",
+   "srcUrl": "https://www.costcoinsider.com/costco-black-friday-2026-ad/",
+   "adUrl": "https://www.costcoinsider.com/costco-black-friday-2026-ad/"
   },
   {
    "id": "sams-club",
    "name": "Sam's Club",
-   "status": "expected",
-   "early": "Instant Savings Oct 28 – Nov 29; Weekend Doorbusters Nov 6–8",
+   "status": "live",
+   "early": "Instant Savings Oct 28 – Nov 29 (running now); Weekend Doorbusters Nov 6–8",
    "main": "Countdown to Black Friday Nov 15–25; Black Friday sale Nov 26–29",
    "ad": "Leaked Oct 21",
-   "src": "Hip2Save ad preview (Oct 21, 2026)",
+   "src": "Hip2Save (Oct 21, 2026)",
    "srcUrl": "https://hip2save.com/deals/sams-club-black-friday/",
    "adUrl": "https://hip2save.com/deals/sams-club-black-friday/"
   },
@@ -100,17 +101,17 @@
    "id": "kohls",
    "name": "Kohl's",
    "status": "expected",
-   "early": "Early access around Nov 7",
-   "main": "Around Nov 22–28",
+   "early": "2026 dates not announced; early access was Nov 7–9 last year",
+   "main": "Black Friday week expected around Nov 22–28",
    "ad": "Not out yet",
-   "src": "MyWeeklyAds",
-   "srcUrl": "https://www.myweeklyads.net/black-friday-sale-dates/"
+   "src": "The Krazy Coupon Lady (Oct 28, 2026)",
+   "srcUrl": "https://thekrazycouponlady.com/tips/money/black-friday-week-schedule"
   },
   {
    "id": "bjs",
    "name": "BJ's",
-   "status": "confirmed",
-   "early": "Early Black Friday deals start Oct 23, in clubs and online (up to 40% off TVs and electronics)",
+   "status": "live",
+   "early": "Early Black Friday deals running since Oct 23, in clubs and online (up to 40% off TVs and electronics)",
    "main": "Main Black Friday dates not announced yet",
    "ad": "Not out yet",
    "adUrl": "https://www.bjs.com/BlackFriday",
@@ -120,49 +121,171 @@
  ],
  "deals": [
   {
-   "id": "bf-qvc-bissell-little-green-mini",
-   "item": "Bissell Cordless Little Green Mini Machine",
-   "store": "QVC",
-   "price": 89.98,
-   "was": 129.99,
-   "notes": "Part of QVC's Black Friday Sale; shipped. New QVC customers can take $25 off $50+ with code COUPQVC25 (about $64.98).",
-   "at": 1792534200000,
+   "id": "bf-amazon-dewalt-20v-flashlight",
+   "item": "DeWalt 20V MAX LED Flashlight (tool only)",
+   "store": "Amazon",
+   "price": 38.85,
+   "was": 84,
+   "notes": "Early Black Friday deal; battery sold separately.",
+   "at": 1793269102752,
+   "src": "Bob Vila",
+   "srcUrl": "https://www.bobvila.com/reviews/amazon-early-black-friday-work-lights-oct-2026/"
+  },
+  {
+   "id": "bf-amazon-dewalt-20v-work-light",
+   "item": "DeWalt 20V MAX LED Work Light (tool only)",
+   "store": "Amazon",
+   "price": 45,
+   "was": 89,
+   "notes": "Early Black Friday deal; battery sold separately.",
+   "at": 1793269102752,
+   "src": "Bob Vila",
+   "srcUrl": "https://www.bobvila.com/reviews/amazon-early-black-friday-work-lights-oct-2026/"
+  },
+  {
+   "id": "bf-amazon-energizer-pro400-headlamp",
+   "item": "Energizer PRO-400 Rechargeable Headlamp",
+   "store": "Amazon",
+   "price": 14.18,
+   "was": 25.98,
+   "notes": "Early Black Friday deal.",
+   "at": 1793269102752,
+   "src": "Bob Vila",
+   "srcUrl": "https://www.bobvila.com/reviews/amazon-early-black-friday-work-lights-oct-2026/"
+  },
+  {
+   "id": "bf-amazon-soundcore-p31i",
+   "item": "Soundcore P31i by Anker Earbuds",
+   "store": "Amazon",
+   "price": 32.99,
+   "was": 59.99,
+   "notes": "Early Black Friday pick.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-amazon-airtag-2",
+   "item": "Apple AirTag (2nd Gen)",
+   "store": "Amazon",
+   "price": 23,
+   "was": 29,
+   "notes": "Reported as its lowest price ever.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-target-staub-baking-dish-set",
+   "item": "Staub Ceramic Baking Dish Set (2-piece)",
+   "store": "Target",
+   "price": 59.95,
+   "was": 142,
+   "notes": "Early Black Friday pick; price may change.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-target-cuisinart-air-fryer-toaster-oven",
+   "item": "Cuisinart Air Fryer Toaster Oven",
+   "store": "Target",
+   "price": 139.99,
+   "was": 229.99,
+   "notes": "Early Black Friday pick; price may change.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-walmart-michael-kors-jet-set-crossbody",
+   "item": "Michael Kors Jet Set Large East West Crossbody",
+   "store": "Walmart",
+   "price": 54.94,
+   "was": 234,
+   "notes": "Early deal ahead of Walmart's Black Friday events.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/walmart-announces-black-friday-deals-details-2026-rcna604433"
+  },
+  {
+   "id": "bf-walmart-sensarte-10pc-cookware",
+   "item": "Sensarte 10-Piece Ceramic Pots and Pans Set",
+   "store": "Walmart",
+   "price": 39.99,
+   "was": 75.95,
+   "notes": "Early deal ahead of Walmart's Black Friday events.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/walmart-announces-black-friday-deals-details-2026-rcna604433"
+  },
+  {
+   "id": "bf-walmart-carote-14pc-knife-set",
+   "item": "Carote 14-Piece Knife Set",
+   "store": "Walmart",
+   "price": 42.98,
+   "was": 79.99,
+   "notes": "Early deal ahead of Walmart's Black Friday events.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/walmart-announces-black-friday-deals-details-2026-rcna604433"
+  },
+  {
+   "id": "bf-walmart-simzlife-ice-maker",
+   "item": "Simzlife Countertop Ice Maker",
+   "store": "Walmart",
+   "price": 62.97,
+   "was": 109.99,
+   "notes": "Early deal ahead of Walmart's Black Friday events.",
+   "at": 1793269102752,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/walmart-announces-black-friday-deals-details-2026-rcna604433"
+  },
+  {
+   "id": "bf-ulta-lovery-bath-bomb-set",
+   "item": "Lovery Superhero Bath Bombs Gift Set with Surprise Toy",
+   "store": "Ulta",
+   "price": 31.99,
+   "was": 79.99,
+   "notes": "Ulta Early Black Friday Sale, through Nov 21. Free shipping on $35+.",
+   "at": 1793269102752,
    "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/bissell-little-green-machine/",
-   "expires": 1793159940000
+   "srcUrl": "https://hip2save.com/deals/ulta-black-friday/",
+   "expires": 1795323540000
   },
   {
-   "id": "bf-amazon-ff7-remake-intergrade",
-   "item": "Final Fantasy VII Remake Intergrade (Switch 2)",
-   "store": "Amazon",
-   "price": 24.88,
-   "was": 39.99,
-   "notes": "Early Black Friday game sale; reported as a record low.",
-   "at": 1792663200000,
-   "src": "Tech Insider",
-   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+   "id": "bf-ulta-lovery-perfume-advent",
+   "item": "Lovery Perfume Advent Calendar Gift Set",
+   "store": "Ulta",
+   "price": 34.65,
+   "was": 99,
+   "notes": "Ulta Early Black Friday Sale, through Nov 21. Free shipping on $35+.",
+   "at": 1793269102752,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/ulta-black-friday/",
+   "expires": 1795323540000
   },
   {
-   "id": "bf-amazon-octopath-traveler-0",
-   "item": "Octopath Traveler 0",
-   "store": "Amazon",
-   "price": 29.99,
-   "was": 49.99,
-   "notes": "Early Black Friday game sale.",
-   "at": 1792663200000,
-   "src": "Tech Insider",
-   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+   "id": "bf-lenovo-yoga-tab-gen2-bundle",
+   "item": "Lenovo Yoga Tab Gen 2 4K Tablet + Pen + Keyboard Bundle",
+   "store": "Lenovo",
+   "price": 569.99,
+   "was": 730,
+   "notes": "Early Black Friday Deal Days; use code EXTRAFIVE. All-time low.",
+   "at": 1793269102752,
+   "src": "9to5Toys",
+   "srcUrl": "https://9to5toys.com/2026/10/26/lenovo-early-black-friday-deal-takes-160-off-all-new-4k-yoga-tab-gen-2/"
   },
   {
-   "id": "bf-amazon-ff7-rebirth",
-   "item": "Final Fantasy VII Rebirth",
-   "store": "Amazon",
-   "price": 34.99,
-   "was": 49.99,
-   "notes": "Early Black Friday game sale; near its lowest price yet.",
-   "at": 1792663200000,
-   "src": "Tech Insider",
-   "srcUrl": "https://tech-insider.org/nintendo-switch-2-black-friday-deals-early-2026"
+   "id": "bf-tenways-cgo600-pro",
+   "item": "Tenways CGO600 Pro Commuter E-Bike (+ free $118 gear bundle)",
+   "store": "Tenways",
+   "price": 1499,
+   "was": 1899,
+   "notes": "Early Black Friday deal; all-time low.",
+   "at": 1793269102752,
+   "src": "9to5Toys",
+   "srcUrl": "https://9to5toys.com/2026/10/26/early-black-friday-tenways-cgo600-pro-commuter-e-bike/"
   }
  ]
 }
