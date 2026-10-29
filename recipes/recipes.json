@@ -1,6 +1,222 @@
 {
  "recipes": [
   {
+   "id": "cajun-garlic-butter-shrimp-sausage",
+   "week": "2026-10-28",
+   "name": "Cajun garlic-butter shrimp & sausage over rice",
+   "blurb": "Big jumbo shrimp and browned sausage in a spicy, garlicky Cajun butter sauce, spooned over rice. Tastes like a night out, done in about 30 minutes. Acme had the extra-jumbo shrimp at $7.99/lb and Hatfield sausage 2 for $6.",
+   "serves": 5,
+   "total": 24,
+   "cal": 790,
+   "protein": 55,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "2 lb",
+     "item": "extra jumbo raw shrimp (16–20 ct), peeled and deveined",
+     "store": "Acme",
+     "price": 7.99,
+     "note": "$7.99/lb, Acme sale thru Oct 29"
+    },
+    {
+     "qty": "1 lb",
+     "item": "Hatfield fresh ground sausage",
+     "store": "Acme",
+     "price": 3.0,
+     "note": "2 for $6"
+    },
+    {
+     "qty": "4 tbsp",
+     "item": "butter",
+     "store": "Acme",
+     "price": 3.33,
+     "note": "$3.33/lb, you'll use one stick"
+    },
+    {
+     "qty": "1",
+     "item": "yellow onion, diced",
+     "store": "ShopRite",
+     "price": 1.99,
+     "note": "from the 3 lb bag"
+    },
+    {
+     "qty": "1",
+     "item": "green or red bell pepper, diced"
+    },
+    {
+     "qty": "6 cloves",
+     "item": "garlic, minced"
+    },
+    {
+     "qty": "2 cups",
+     "item": "uncooked long-grain white rice"
+    },
+    {
+     "qty": "½ cup",
+     "item": "chicken broth"
+    },
+    {
+     "qty": "1",
+     "item": "lemon"
+    },
+    {
+     "qty": "1 bunch",
+     "item": "green onions or parsley, chopped"
+    },
+    {
+     "qty": "",
+     "item": "seasoning: 1½ tbsp Cajun seasoning (split), 1 tsp smoked paprika, ½ tsp red pepper flakes, hot sauce to taste"
+    }
+   ],
+   "steps": [
+    "Cook the rice. Pat the shrimp dry and toss with 1 tbsp of the Cajun seasoning and the smoked paprika.",
+    "Brown the sausage in a large skillet over medium-high heat, breaking it into chunky crumbles, until no pink is left and it reaches 160°F. Move to a plate and leave about 1 tbsp of the fat in the pan.",
+    "Add the onion and bell pepper and cook 4–5 minutes until soft. Push them to the side.",
+    "Add 1 tbsp butter and the shrimp in a single layer. Cook 1½–2 minutes per side until pink and opaque all the way through (145°F). Don't overcook or they turn rubbery. Move to the plate with the sausage.",
+    "Turn the heat to medium. Add the rest of the butter, the garlic, red pepper flakes and the last ½ tbsp Cajun seasoning; stir 1 minute. Pour in the broth and the juice of half the lemon and simmer 1–2 minutes until it thickens a little.",
+    "Return the shrimp and sausage, toss to coat in the sauce, and add hot sauce to taste. Spoon over rice and finish with green onions and lemon wedges."
+   ],
+   "type": "Dinner",
+   "season": "Any season"
+  },
+  {
+   "id": "butternut-squash-sausage-pasta",
+   "week": "2026-10-28",
+   "name": "Butternut squash & sausage pasta in brown butter cream",
+   "blurb": "Roasted butternut squash, crumbled sausage and nutty brown butter with sage and Parmesan. Cozy, rich, and the squash was just 99¢/lb at Acme.",
+   "serves": 6,
+   "total": 12,
+   "cal": 730,
+   "protein": 26,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "1 (about 2½ lb)",
+     "item": "butternut squash, peeled and cut in ¾-inch cubes",
+     "store": "Acme",
+     "price": 0.99,
+     "note": "99¢/lb, Acme sale thru Oct 29"
+    },
+    {
+     "qty": "1 lb",
+     "item": "Hatfield fresh ground sausage",
+     "store": "Acme",
+     "price": 3.0,
+     "note": "2 for $6"
+    },
+    {
+     "qty": "¾ cup",
+     "item": "heavy cream",
+     "store": "Acme",
+     "price": 3.33,
+     "note": "from the 16 oz"
+    },
+    {
+     "qty": "2 tbsp",
+     "item": "butter",
+     "store": "Acme",
+     "price": 3.33,
+     "note": "$3.33/lb"
+    },
+    {
+     "qty": "1 lb",
+     "item": "rigatoni or penne"
+    },
+    {
+     "qty": "½",
+     "item": "yellow onion, diced"
+    },
+    {
+     "qty": "4 cloves",
+     "item": "garlic, minced"
+    },
+    {
+     "qty": "½ cup",
+     "item": "grated Parmesan, plus more for topping"
+    },
+    {
+     "qty": "8–10",
+     "item": "fresh sage leaves, sliced (or 1 tsp dried sage)"
+    },
+    {
+     "qty": "",
+     "item": "olive oil, salt, pepper, ¼ tsp red pepper flakes, a pinch of nutmeg"
+    }
+   ],
+   "steps": [
+    "Heat the oven to 425°F. Toss the squash with 2 tbsp olive oil, salt and pepper and roast on a sheet pan 25–30 minutes, flipping once, until soft and browned at the edges.",
+    "Meanwhile, boil the pasta in salted water. Save 1 cup of the pasta water before draining.",
+    "Brown the sausage and onion in a large skillet over medium-high, breaking it up, until no pink is left and it reaches 160°F. Move to a plate.",
+    "Melt the butter in the same pan over medium heat and let it foam and turn golden brown and nutty, 2–3 minutes. Add the sage, garlic and red pepper flakes and stir 1 minute.",
+    "Mash about a third of the roasted squash and stir it into the pan with the cream and nutmeg. Simmer 2 minutes, then add the Parmesan and splashes of pasta water until silky.",
+    "Add the pasta, sausage and the rest of the squash and toss. Taste for salt and serve with more Parmesan."
+   ],
+   "type": "Dinner",
+   "season": "Fall"
+  },
+  {
+   "id": "hot-honey-sheet-pan-chicken-squash",
+   "week": "2026-10-28",
+   "name": "Hot honey sheet-pan chicken with acorn squash & mini potatoes",
+   "blurb": "Crispy-skinned chicken thighs roasted over squash and potatoes, then glazed with sweet-spicy hot honey butter. One pan, almost no cleanup, and the thighs were 99¢/lb at Acme.",
+   "serves": 4,
+   "total": 10,
+   "cal": 800,
+   "protein": 46,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "3 lb (about 8)",
+     "item": "bone-in, skin-on chicken thighs",
+     "store": "Acme",
+     "price": 0.99,
+     "note": "99¢/lb, Acme sale thru Oct 29"
+    },
+    {
+     "qty": "1",
+     "item": "acorn squash, seeded and cut in wedges",
+     "store": "Acme",
+     "price": 0.99,
+     "note": "99¢/lb"
+    },
+    {
+     "qty": "1½ lb",
+     "item": "red or gold mini potatoes, halved",
+     "store": "Acme",
+     "price": 2.99
+    },
+    {
+     "qty": "2 tbsp",
+     "item": "butter",
+     "store": "Acme",
+     "price": 3.33,
+     "note": "$3.33/lb"
+    },
+    {
+     "qty": "1",
+     "item": "red onion, cut in wedges"
+    },
+    {
+     "qty": "",
+     "item": "hot honey: ¼ cup honey, 1–2 tsp red pepper flakes or hot sauce, 1 tsp apple cider vinegar"
+    },
+    {
+     "qty": "",
+     "item": "rub: 2 tsp smoked paprika, 1 tsp garlic powder, 1 tsp dried thyme, 1½ tsp salt, ½ tsp pepper, 3 tbsp olive oil"
+    }
+   ],
+   "steps": [
+    "Heat the oven to 425°F. Mix the rub spices with the salt and pepper.",
+    "Toss the potatoes, squash and onion with 2 tbsp olive oil and half the rub and spread on a large sheet pan.",
+    "Pat the chicken very dry, rub with the last 1 tbsp oil and the rest of the rub, and nestle skin-side up on top of the vegetables.",
+    "Roast 35–40 minutes until the skin is crisp and the thickest thigh reads at least 165°F (175°F is even more tender).",
+    "While it roasts, warm the butter, honey, pepper flakes and vinegar in a small pot until melted and bubbly.",
+    "Brush the hot honey over the chicken and squash, roast 3 more minutes to set the glaze, and drizzle the rest on at the table."
+   ],
+   "type": "Dinner",
+   "season": "Fall"
+  },
+  {
    "id": "korean-beef-rice-bowls",
    "week": "2026-10-21",
    "name": "Korean-style ground beef rice bowls",
