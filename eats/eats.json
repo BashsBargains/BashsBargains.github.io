@@ -1,5 +1,5 @@
 {
- "updated": 1793009342171,
+ "updated": 1793267916811,
  "deals": [
   {
    "id": "chipotle-boorito-2026",
@@ -17,7 +17,7 @@
    "link": "https://newsroom.chipotle.com/2026-10-20-BOORITO-RETURNS-CHIPOTLE-TO-OFFER-6-ENTREES-ON-HALLOWEEN-2026",
    "linkText": "See Chipotle's Boorito deal",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "kfc-scary-good-deals-2026",
@@ -39,7 +39,7 @@
    "official": false,
    "src": "Nation's Restaurant News",
    "srcUrl": "https://www.nrn.com/quick-service/kfc-doubles-down-on-value-offerings-for-halloween",
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "krispy-kreme-costume-halloween",
@@ -57,7 +57,7 @@
    "link": "https://investors.krispykreme.com/news-releases/news-release-details/krispy-kremer-brings-fans-new-halloween-experiment-limited-time",
    "linkText": "See Krispy Kreme's Halloween deal",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "red-robin-kids-sundae-halloween",
@@ -75,7 +75,7 @@
    "link": "https://www.redrobin.com/spooky-season",
    "linkText": "See Red Robin's Halloween deals",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "dunkin-halloween-3x-donuts",
@@ -94,7 +94,7 @@
    "link": "https://news.dunkindonuts.com/news/dunkin-new-menu-september-2026",
    "linkText": "See Dunkin's fall offers",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "wendys-boo-books-2026",
@@ -113,7 +113,7 @@
    "link": "https://www.irwendys.com/news/news-details/2026/Wendys-is-Serving-Up-a-Frightfully-Fun-Halloween-with-Boo-Books-and-Frosty-Frights/default.aspx",
    "linkText": "See Wendy's Boo! Books",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "pizza-hut-my-haunt-box",
@@ -133,7 +133,7 @@
    "link": "https://www.pizzahut.com/c/content/halloween-pizza-deals",
    "linkText": "See Pizza Hut's Halloween deals",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -150,7 +150,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "shake-shack-shackburger",
@@ -171,7 +171,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -188,7 +188,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -206,7 +206,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "outback-kids-eat-free",
@@ -225,14 +225,14 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "taco-bell-4-usual-order",
    "chain": "Taco Bell",
    "cat": "Mexican",
    "offer": "$4 celebrity 'Usual Order' meals, a new one each week",
-   "how": "Oct 13-19: Kevin Hart's (Beef Burrito Supreme, Crunchy Taco, medium drink). Oct 20-26: Paris Hilton's (Diablo Ranch Crispy Chicken Crunchwrap Slider, Crunchy Taco, medium drink). Oct 27-Nov 2: Doja Cat's (Mexican Pizza, Spicy Potato Soft Taco). Bonus: on Oct 20 and Oct 27 the first 10,000 Rewards members to claim it in the app's Tuesday Drops get that week's meal for $1. Participating locations; delivery prices may be higher.",
+   "how": "Each week brings a new $4 celebrity 'Usual Order.' This week (Oct 27-Nov 2) it's Doja Cat's: a Mexican Pizza and a Spicy Potato Soft Taco. Participating locations, while supplies last; delivery prices may be higher. A new bundle replaces it each Tuesday.",
    "where": [
     "In store",
     "Pickup",
@@ -246,7 +246,7 @@
    "link": "https://www.tacobell.com/newsroom/taco-bell-national-taco-month-celebration",
    "linkText": "See Taco Bell's deal",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "applebees-hallowings-bucket",
@@ -266,7 +266,7 @@
    "link": "https://www.applebees.com/en/news/2026/applebees-serves-up-halloween-savings-with-20-boneless-wings-for-1299",
    "linkText": "See Applebee's deal",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -283,7 +283,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "outback-tuesday-tails",
@@ -300,7 +300,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "subway-bogo-footlong-sandwich-day-2026",
@@ -320,7 +320,7 @@
    "link": "https://newsroom.subway.com/2026-10-21-Subway-R-Moves-Up-National-Sandwich-Day-to-Tuesday,-Oct-27-and-Brings-Back-the-Fritos-R-Chicken-Enchilada-Sub",
    "linkText": "See Subway's deal",
    "official": true,
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -341,7 +341,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/half-price-daves-single-wendys-weekly-saturday-college-football/",
-   "checked": "2026-10-26"
+   "checked": "2026-10-29"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -360,7 +360,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -380,7 +380,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -400,7 +400,7 @@
    "linkText": "See Margaritas' specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -416,11 +416,11 @@
    "city": "Ambler",
    "addr": "10 West Butler Ave",
    "zip": "19002",
-   "link": "https://kc-alley.com/ambler-kc-s-alley-happy-hours-specials",
+   "link": "https://kc-alley.com/philadelphia-ambler-kc-s-alley-happy-hours-specials",
    "linkText": "See KC's Alley's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -440,7 +440,7 @@
    "linkText": "See Drake Tavern's Burger Night",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -460,7 +460,7 @@
    "linkText": "See Drake Tavern's Taco Tuesday",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -480,7 +480,7 @@
    "linkText": "See Kabuto's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -500,7 +500,7 @@
    "linkText": "See Southern Cross Kitchen's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -516,11 +516,11 @@
    "city": "Horsham",
    "addr": "680 Easton Road",
    "zip": "19044",
-   "link": "https://nabrasa.com/locations/horsham/",
+   "link": "https://nabrasa.com/horsham/",
    "linkText": "See NaBrasa's pricing",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -580,7 +580,7 @@
    "linkText": "See Al Pastor's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -600,7 +600,7 @@
    "linkText": "See Appetites on Main's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -622,7 +622,7 @@
    "linkText": "See The Pizza Stop's coupons",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -682,7 +682,7 @@
    "linkText": "See Pinocchio's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -703,7 +703,7 @@
    "linkText": "See VIP Pizza's weekly specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -724,7 +724,7 @@
    "linkText": "See Bravo Pizza's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
   },
   {
@@ -746,8 +746,50 @@
    "linkText": "See Hog Island's lunch specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-10-29",
    "srcDate": "Oct 2026"
+  },
+  {
+   "id": "shake-shack-chicken-sundays",
+   "chain": "Shake Shack",
+   "cat": "Chicken",
+   "offer": "Free Chicken Shack with a $10+ order on Sundays",
+   "how": "Every Sunday through Dec 27. Use the code at an in-Shack kiosk, in the Shake Shack app or on shakeshack.com. You need at least $10 of other food or drinks in the order; one free sandwich per order. Not valid at drive-thrus, airports or stadiums, or on third-party delivery apps.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "CHICKENSUNDAY",
+   "repeat": "Every Sunday",
+   "ends": "2026-12-27",
+   "link": "https://shakeshack.com/national-regional-offers",
+   "linkText": "See Shake Shack's offers",
+   "official": true,
+   "checked": "2026-10-29"
+  },
+  {
+   "id": "burger-king-bogo-whopper-jr-halloween-2026",
+   "chain": "Burger King",
+   "cat": "Burgers",
+   "offer": "Buy one Whopper Jr., get one free on Halloween",
+   "how": "Oct 31 only, for Royal Perks members (free to join). Add the offer to your account in the BK app or on bk.com, then order. One day only.",
+   "where": [
+    "In store",
+    "Pickup",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Add the offer in the BK app before you order.",
+   "start": "2026-10-31",
+   "ends": "2026-10-31",
+   "link": "https://www.bk.com/",
+   "linkText": "Go to Burger King",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/?p=80293",
+   "checked": "2026-10-29"
   }
  ],
  "apps": [],
