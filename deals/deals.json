@@ -1,5 +1,5 @@
 {
- "updated": 1793529592684,
+ "updated": 1793535877677,
  "deals": [
   {
    "id": "web-wildfable-pullon-shorts-20261101",
@@ -418,6 +418,64 @@
    "at": 1793380080000,
    "src": "Hip2Save",
    "srcUrl": "https://hip2save.com/deals/reebok-walmart/"
+  },
+  {
+   "id": "web-halloween-walgreens-mars-variety-bag-20261101",
+   "item": "Mars Chocolate Halloween Candy Variety Pack Bulk Bag, 24.01 oz",
+   "store": "Walgreens",
+   "price": 9.99,
+   "was": 19.99,
+   "notes": "Marked Clearance at half off on Walgreens.com. Online and in-store prices can differ; Walgreens candy clearance has gone to 80-90% off within a few days of Halloween in past years.",
+   "at": 1793535877677,
+   "src": "Walgreens.com",
+   "srcUrl": "https://www.walgreens.com/store/c/productlist/holiday-accessories-halloween-weekly-deals/N=20007693-4294896499-100083068",
+   "url": "https://www.walgreens.com/store/c/mars-chocolate-halloween-candy-variety-pack,-bulk-bag/ID=300461700-product"
+  },
+  {
+   "id": "web-halloween-walgreens-ferrara-trick-or-treat-bag-20261101",
+   "item": "Ferrara Trick or Treat Bag Assorted Candy, 34.3 oz",
+   "store": "Walgreens",
+   "price": 12.49,
+   "was": 24.99,
+   "notes": "Half-off Halloween candy clearance on Walgreens.com. Stock and price vary by store; free pickup usually needs a $10 order.",
+   "at": 1793535877677,
+   "src": "Walgreens.com",
+   "srcUrl": "https://www.walgreens.com/store/c/productlist/holiday-accessories-halloween-weekly-deals/N=20007693-4294896499-100083068",
+   "url": "https://www.walgreens.com/store/c/ferrara-candy-trick-or-treat-bag-assorted-candy/ID=300461706-product"
+  },
+  {
+   "id": "web-halloween-walgreens-reeses-snoopy-pumpkins-20261101",
+   "item": "Reese's Snoopy & Friends Peanut Butter Pumpkins Snack Size, 9 oz",
+   "store": "Walgreens",
+   "price": 3.99,
+   "was": 7.99,
+   "notes": "Clearance at 50% off on Walgreens.com. Prices may differ in-store; deeper candy markdowns are likely later this week.",
+   "at": 1793535877677,
+   "src": "Walgreens.com",
+   "srcUrl": "https://www.walgreens.com/store/c/productlist/holiday-accessories-halloween-weekly-deals/N=20007693-4294896499-100083068",
+   "url": "https://www.walgreens.com/store/c/reese's-snoopy-&-friends-milk-chocolate-snack-size-peanut-butter-pumpkin-halloween-candy/ID=300474763-product"
+  },
+  {
+   "id": "web-halloween-athome-pumpkin-character-20261101",
+   "item": "Orange Polyresin Pumpkin Character (small)",
+   "store": "At Home",
+   "price": 3.49,
+   "was": 6.99,
+   "notes": "At Home has 50% off all Halloween decor. Free store pickup where available; shipping starts at $6.99. Cheapest example from the sale.",
+   "at": 1793535877677,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/at-home-halloween-decor/"
+  },
+  {
+   "id": "web-halloween-athome-5ft-led-skeleton-20261101",
+   "item": "5' White Posable Skeleton with LED Eyes",
+   "store": "At Home",
+   "price": 17.49,
+   "was": 34.99,
+   "notes": "Part of At Home's 50% off all Halloween decor; good stock-up for next year. Free store pickup where available.",
+   "at": 1793535877677,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/at-home-halloween-decor/"
   }
  ]
 }
