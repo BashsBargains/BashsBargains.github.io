@@ -1,5 +1,5 @@
 {
- "updated": 1792082350944,
+ "updated": 1793542507209,
  "spots": [
   {
    "id": "trolley-square-oyster-house-wilmington",
@@ -30,7 +30,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-downtown-wilmington-de/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "trolley-tap-house-wilmington",
@@ -157,7 +157,7 @@
    "srcUrl": "https://www.visitwilmingtonde.com/goodtaste/stories/post/the-ultimate-guide-to-happy-hour-in-wilmington-the-brandywine-valley",
    "srcDate": "Jul 2024",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "big-fish-grill-wilmington",
@@ -213,16 +213,16 @@
    ],
    "whenText": "Mon–Fri 4–6 pm",
    "deals": [
-    "$2 off draft beers",
-    "$7.50 wine, cocktails and appetizers",
-    "$3.50 fried chicken sandwich"
+    "$2 off a standard pour of any beer",
+    "$3 fried chicken sandwiches",
+    "Sliders and flatbreads on special"
    ],
-   "note": "Iron Hill closed in 2025 and reopened this location in Oct 2026. The happy hour may have changed, so call ahead.",
-   "src": "County Lines",
-   "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-downtown-wilmington-de/",
-   "srcDate": "Jun 2024",
-   "official": false,
-   "checked": "2026-10-15"
+   "note": "Reopened in 2026 after closing in 2025.",
+   "src": "Iron Hill Brewery",
+   "srcUrl": "https://www.ironhillbrewery.com/location/wilmington-de",
+   "srcDate": "Nov 2026",
+   "official": true,
+   "checked": "2026-11-01"
   },
   {
    "id": "timothy-s-wilmington",
@@ -254,7 +254,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/happy-hour-in-downtown-wilmington-de/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "del-pez-gastropub-riverfront-wilmington",
@@ -550,7 +550,7 @@
    "srcUrl": "https://www.klondikekates.com/news-item/happy-hour-discover-the-best-deals-in-newark/",
    "srcDate": "Oct 2026",
    "official": true,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "santa-fe-mexican-grill-newark",
@@ -617,7 +617,7 @@
    "srcUrl": "https://www.homegrowncafe.com/menus/",
    "srcDate": "Oct 2026",
    "official": true,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "main-event-christiana-new-castle",
@@ -805,7 +805,7 @@
    "srcUrl": "https://firebirdsrestaurants.com/wilmington",
    "srcDate": "Oct 2026",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "tommys-tavern-tap-christiana-newark",
@@ -868,7 +868,7 @@
    "srcUrl": "https://northeasttimes.com/2026/07/30/the-best-bar-happy-hours-in-northeast-philadelphia-for-2026/",
    "srcDate": "Jul 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "osteria-philadelphia",
@@ -914,7 +914,7 @@
    "srcUrl": "https://northeasttimes.com/2026/07/30/the-best-bar-happy-hours-in-northeast-philadelphia-for-2026/",
    "srcDate": "Jul 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "han-dynasty-old-city-philadelphia",
@@ -957,7 +957,7 @@
    "srcUrl": "https://northeasttimes.com/2026/07/30/the-best-bar-happy-hours-in-northeast-philadelphia-for-2026/",
    "srcDate": "Jul 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "double-knot-philadelphia",
@@ -968,27 +968,30 @@
    "when": [
     {
      "d": [
+      0,
       1,
       2,
       3,
       4,
-      5
+      5,
+      6
      ],
      "s": "16:00",
      "e": "19:00"
     }
    ],
-   "whenText": "Mon–Fri 4–7 pm, walk-ins",
+   "whenText": "Daily 4–7 pm, walk-ins",
    "deals": [
     "$7 cocktails",
+    "$8 beer",
     "$4–$8 small plates"
    ],
-   "note": "Another guide says daily.",
-   "src": "Happy Hour Map",
-   "srcUrl": "https://www.happy-hour-map.com/cities/philadelphia",
-   "srcDate": "Jul 2026",
+   "note": "",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "mcgillin-s-olde-ale-house-philadelphia",
@@ -1043,20 +1046,23 @@
       4,
       5
      ],
-     "s": "16:00",
+     "s": "15:00",
      "e": "18:00"
     }
    ],
-   "whenText": "Mon–Fri 4–6 pm",
+   "whenText": "Mon–Fri 3–6 pm",
    "deals": [
-    "$5 flagship pints"
+    "$5 select beers",
+    "$9 select cocktails and wine",
+    "$6 snacks like the IPA pretzel or nachos",
+    "$12 wing pounders"
    ],
    "note": "",
-   "src": "Happy Hour Map",
-   "srcUrl": "https://www.happy-hour-map.com/cities/philadelphia",
-   "srcDate": "Jul 2026",
-   "official": false,
-   "checked": "2026-10-12"
+   "src": "Yards Brewing",
+   "srcUrl": "https://yardsbrewing.com/pages/taproom",
+   "srcDate": "Nov 2026",
+   "official": true,
+   "checked": "2026-11-01"
   },
   {
    "id": "love-city-brewing-philadelphia",
@@ -1169,14 +1175,17 @@
    ],
    "whenText": "Mon–Fri 4–6 pm",
    "deals": [
-    "$4 tacos and apps"
+    "$4 tacos",
+    "$5 Modelo drafts",
+    "$6 margaritas",
+    "$2–$8 snacks"
    ],
    "note": "",
-   "src": "Happy Hour Map",
-   "srcUrl": "https://www.happy-hour-map.com/cities/philadelphia",
-   "srcDate": "Jul 2026",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "pizzeria-vetri-philadelphia",
@@ -1566,29 +1575,31 @@
     },
     {
      "d": [
+      5
+     ],
+     "s": "22:00",
+     "e": "23:59"
+    },
+    {
+     "d": [
       6
      ],
      "s": "14:00",
      "e": "17:00"
-    },
-    {
-     "d": [
-      0
-     ],
-     "s": "15:00",
-     "e": "18:00"
     }
    ],
-   "whenText": "Tue–Fri 4–7, Sat 2–5, Sun 3–6",
+   "whenText": "Tue–Fri 4–7, Fri 10 pm–midnight, Sat 2–5",
    "deals": [
-    "$7 classic margaritas"
+    "$7 margaritas and sangrias",
+    "$5 beers",
+    "$3.50–$4 tacos"
    ],
    "note": "",
-   "src": "Happy Hour Map",
-   "srcUrl": "https://www.happy-hour-map.com/cities/philadelphia",
-   "srcDate": "Jul 2026",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
    "official": false,
-   "checked": "2026-10-12"
+   "checked": "2026-11-01"
   },
   {
    "id": "dave-busters-philadelphia",
@@ -1798,7 +1809,7 @@
    "srcUrl": "https://www.sullivanssteakhouse.com/king-of-prussia/",
    "srcDate": "Oct 2026",
    "official": true,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "city-works-kop",
@@ -1830,7 +1841,7 @@
    "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
    "srcDate": "Sep 2025",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "paladar-kop",
@@ -1872,7 +1883,7 @@
    "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
    "srcDate": "Sep 2025",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "pizzeria-vetri-kop",
@@ -1905,7 +1916,7 @@
    "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
    "srcDate": "Sep 2025",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "bartaco-kop",
@@ -1938,7 +1949,7 @@
    "srcUrl": "https://visitkop.com/latest/get-happy-at-king-of-prussias-finest-happy-hours/",
    "srcDate": "Sep 2025",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "screwballs-kop",
@@ -2305,7 +2316,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "maris-mediterranean-media",
@@ -2338,7 +2349,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "spasso-media",
@@ -2370,7 +2381,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "old-state-tavern-media",
@@ -2402,7 +2413,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "la-padella-media",
@@ -2436,7 +2447,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "stephens-on-state-media",
@@ -2468,7 +2479,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "la-porta-media",
@@ -2500,7 +2511,7 @@
    "srcUrl": "https://www.inquirer.com/food/bars/media-pa-happy-hours-20260114.html",
    "srcDate": "Jan 2026",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "white-dog-cafe-wayne",
@@ -2566,7 +2577,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "ryans-pub-west-chester",
@@ -2599,7 +2610,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "sterling-pig-west-chester",
@@ -2632,7 +2643,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "stove-tap-west-chester",
@@ -2664,7 +2675,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "greystone-oyster-bar-west-chester",
@@ -2697,7 +2708,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "kildares-west-chester",
@@ -2729,7 +2740,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "mas-mexicali-west-chester",
@@ -2760,7 +2771,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "side-bar-west-chester",
@@ -2790,7 +2801,7 @@
    "srcUrl": "https://countylinesmagazine.com/article/cheers-its-happy-hour-in-west-chester-pa/",
    "srcDate": "Jun 2024",
    "official": false,
-   "checked": "2026-10-15"
+   "checked": "2026-11-01"
   },
   {
    "id": "sly-fox-pottstown",
@@ -2828,6 +2839,321 @@
    "srcDate": "Oct 2026",
    "official": true,
    "checked": "2026-10-15"
+  },
+  {
+   "id": "barcelona-wine-bar-east-passyunk-philadelphia",
+   "name": "Barcelona Wine Bar (East Passyunk)",
+   "area": "Philadelphia",
+   "addr": "1709 E Passyunk Ave",
+   "zip": "19148",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "Half off sparkling wine bottles",
+    "$4–$7 cocktails",
+    "$6–$8 small plates"
+   ],
+   "note": "",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "cantina-los-caballitos-philadelphia",
+   "name": "Cantina Los Caballitos",
+   "area": "Philadelphia",
+   "addr": "1651 E Passyunk Ave",
+   "zip": "19148",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    },
+    {
+     "d": [
+      0,
+      1
+     ],
+     "s": "22:00",
+     "e": "23:59"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm, Sun–Mon 10 pm–midnight",
+   "deals": [
+    "$6 margaritas",
+    "$20 pitchers",
+    "$2 off draft beer",
+    "$2–$5 snacks"
+   ],
+   "note": "East Passyunk.",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "the-international-philadelphia",
+   "name": "The International",
+   "area": "Philadelphia",
+   "addr": "1624 N Front St",
+   "zip": "19122",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$4 beers",
+    "$7 wine and cocktails",
+    "$5 snacks"
+   ],
+   "note": "Fishtown/Kensington.",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "village-whiskey-philadelphia",
+   "name": "Village Whiskey",
+   "area": "Philadelphia",
+   "addr": "118 S 20th St",
+   "zip": "19103",
+   "when": [
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Daily 4–6 pm",
+   "deals": [
+    "$3 mystery beer",
+    "$7 wine",
+    "$8 cocktails",
+    "$5 snacks"
+   ],
+   "note": "",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "pearl-mary-oyster-bar-philadelphia",
+   "name": "Pearl & Mary Oyster Bar",
+   "area": "Philadelphia",
+   "addr": "114 S 13th St",
+   "zip": "19107",
+   "when": [
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "s": "16:00",
+     "e": "19:00"
+    }
+   ],
+   "whenText": "Daily 4–7 pm, bar only",
+   "deals": [
+    "$5 beer",
+    "$6 wine",
+    "$7 cocktails",
+    "$1–$7 raw bar and snacks"
+   ],
+   "note": "",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "kelliann-s-philadelphia",
+   "name": "Kelliann's Bar & Grill",
+   "area": "Philadelphia",
+   "addr": "1549 Spring Garden St",
+   "zip": "19130",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm",
+   "deals": [
+    "$1 off draft beers",
+    "$5 well drinks",
+    "$5 wine",
+    "$6 small plates"
+   ],
+   "note": "",
+   "src": "The Infatuation",
+   "srcUrl": "https://www.theinfatuation.com/philadelphia/guides/best-happy-hours-philadelphia",
+   "srcDate": "Apr 2026",
+   "official": false,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "bahama-breeze-kop",
+   "name": "Bahama Breeze (KOP)",
+   "area": "Montco",
+   "city": "King of Prussia",
+   "addr": "320 Goddard Blvd",
+   "zip": "19406",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "16:00",
+     "e": "18:00"
+    },
+    {
+     "d": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "s": "21:00",
+     "e": "23:00"
+    }
+   ],
+   "whenText": "Mon–Fri 4–6 pm, Sun–Thu 9–11 pm",
+   "deals": [
+    "$4 14-oz drafts",
+    "$5 well cocktails",
+    "$7 wine and sangria",
+    "Half-price appetizers"
+   ],
+   "note": "Their page lists these prices but doesn't say which apply only at happy hour.",
+   "src": "Bahama Breeze",
+   "srcUrl": "https://www.bahamabreeze.com/happy-hour/pa/king-of-prussia-restaurant/3039",
+   "srcDate": "Nov 2026",
+   "official": true,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "red-robin-christiana-newark",
+   "name": "Red Robin (Christiana)",
+   "area": "Newark",
+   "addr": "101 W Main St, Christiana",
+   "zip": "19702",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm",
+   "deals": [
+    "Beer, wine and drinks from $4",
+    "Select appetizers (like Towering Onion Rings) and milkshakes on special"
+   ],
+   "note": "",
+   "src": "Red Robin",
+   "srcUrl": "https://www.redrobin.com/locations/de/newark/christiana-657",
+   "srcDate": "Nov 2026",
+   "official": true,
+   "checked": "2026-11-01"
+  },
+  {
+   "id": "red-robin-brandywine-wilmington",
+   "name": "Red Robin (Brandywine Town Center)",
+   "area": "Wilmington",
+   "addr": "6100 Brandywine Pkwy",
+   "zip": "19803",
+   "when": [
+    {
+     "d": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "s": "15:00",
+     "e": "18:00"
+    }
+   ],
+   "whenText": "Mon–Fri 3–6 pm",
+   "deals": [
+    "Beer, wine and drinks from $4",
+    "Select appetizers (like Towering Onion Rings) and milkshakes on special"
+   ],
+   "note": "",
+   "src": "Red Robin",
+   "srcUrl": "https://www.redrobin.com/locations/de/wilmington/brandywine-town-center-658",
+   "srcDate": "Nov 2026",
+   "official": true,
+   "checked": "2026-11-01"
   }
  ]
 }
