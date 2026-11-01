@@ -1,5 +1,5 @@
 {
- "updated": 1793181348273,
+ "updated": 1793530585488,
  "stores": [
   {
    "id": "aldi",
@@ -120,6 +120,107 @@
    ]
   },
   {
+   "id": "aldi-next",
+   "name": "Aldi",
+   "kind": "deals",
+   "adStart": "2026-11-04",
+   "adEnd": "2026-11-10",
+   "adNote": "Sneak peek of next week\u2019s ad \u00b7 prices may change",
+   "adUrl": "https://www.aldi.us/store/aldi/pages/weekly-specials",
+   "src": "Weekly Ad Hunters",
+   "srcUrl": "https://weeklyadhunters.com/aldi-weekly-ad/",
+   "checked": "2026-11-01",
+   "deals": [
+    {
+     "id": "aldi-next-chicken-breast",
+     "item": "Fresh boneless chicken breasts, family pack",
+     "price": 1.99,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-drumsticks",
+     "item": "Fresh chicken drumsticks, family pack",
+     "price": 1.09,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-whole-chicken",
+     "item": "Fresh organic whole chicken",
+     "price": 2.79,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-country-ribs",
+     "item": "Fresh country-style pork ribs",
+     "price": 3.89,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-birria",
+     "item": "Fresh birria-seasoned beef",
+     "price": 6.49,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-chuck-roast",
+     "item": "Fresh Black Angus chuck roast",
+     "price": 6.99,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-ground-beef",
+     "item": "Fresh ground beef chub",
+     "price": 2.99,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "aldi-next-scallops",
+     "item": "Fremont Fish Market bay scallops",
+     "price": 5.99,
+     "notes": "Check the package size",
+     "cat": "Frozen"
+    },
+    {
+     "id": "aldi-next-avocados",
+     "item": "Avocados",
+     "price": 0.49,
+     "notes": "Each",
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-next-apples",
+     "item": "Pennsylvania Gala apples, 3 lb bag",
+     "price": 1.99,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-next-raspberries",
+     "item": "Raspberries, 6 oz",
+     "price": 1.69,
+     "cat": "Produce"
+    },
+    {
+     "id": "aldi-next-goat-cheese",
+     "item": "Emporium Selection goat cheese log",
+     "price": 1.99,
+     "cat": "Dairy"
+    },
+    {
+     "id": "aldi-next-parmesan",
+     "item": "Emporium Selection Parmesan wedge",
+     "price": 3.99,
+     "cat": "Dairy"
+    }
+   ]
+  },
+  {
    "id": "lidl",
    "name": "Lidl",
    "kind": "deals",
@@ -228,128 +329,199 @@
    ]
   },
   {
-   "id": "shoprite",
-   "name": "ShopRite",
+   "id": "lidl-next",
+   "name": "Lidl",
    "kind": "deals",
-   "adStart": "2026-10-25",
-   "adEnd": "2026-10-31",
-   "adNote": "New ad every Sunday \u00b7 sale prices with your Price Plus card; check the app for extra eCoupons",
-   "adUrl": "https://www.shoprite.com/",
+   "adStart": "2026-11-04",
+   "adEnd": "2026-11-10",
+   "adNote": "First look at next week\u2019s ad \u00b7 prices may change",
+   "adUrl": "https://www.lidl.com/c/offers-leaflets/s10092873",
    "src": "Weekly Ad Hunters",
-   "srcUrl": "https://weeklyadhunters.com/shoprite-weekly-ad/",
-   "checked": "2026-10-25",
-   "couponTip": "Clip the digital coupons in the ShopRite app or on shoprite.com before you check out, and have your Price Plus card.",
+   "srcUrl": "https://weeklyadhunters.com/lidl-weekly-ad/",
+   "checked": "2026-11-01",
    "deals": [
     {
-     "id": "shoprite-pork-loin",
-     "item": "Whole boneless pork loin",
-     "price": 1.99,
-     "unit": "/lb",
-     "notes": "Ask the meat counter to cut it into chops or roasts",
-     "cat": "Meat",
-     "stockup": true
-    },
-    {
-     "id": "shoprite-chicken-breast",
-     "item": "Bowl & Basket boneless chicken breast",
+     "id": "lidl-next-wings",
+     "item": "Whole chicken wings, family pack",
      "price": 1.99,
      "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "shoprite-drums-thighs",
-     "item": "Bowl & Basket chicken drumsticks or thighs",
-     "price": 1.11,
+     "id": "lidl-next-chorizo",
+     "item": "Preferred Selection chorizo ring, 7 oz",
+     "price": 3.99,
+     "cat": "Meat"
+    },
+    {
+     "id": "lidl-next-butter",
+     "item": "Kerrygold grass-fed Irish butter, 8 oz",
+     "price": 3.29,
+     "cat": "Dairy"
+    },
+    {
+     "id": "lidl-next-parm",
+     "item": "Preferred Selection Parmigiano Reggiano, 8 oz",
+     "price": 6.99,
+     "cat": "Dairy"
+    },
+    {
+     "id": "lidl-next-cheddar",
+     "item": "Preferred Selection cheddar, 8.8 oz",
+     "price": 3.99,
+     "cat": "Dairy"
+    },
+    {
+     "id": "lidl-next-flour",
+     "item": "All-purpose flour, 32 oz",
+     "price": 0.99,
+     "cat": "Pantry"
+    },
+    {
+     "id": "lidl-next-yellow-rice",
+     "item": "Vigo yellow rice, 10 oz",
+     "price": 1.51,
+     "cat": "Pantry"
+    },
+    {
+     "id": "lidl-next-olives",
+     "item": "Preferred Selection pitted Kalamata olives, 5.6 oz",
+     "price": 1.49,
+     "cat": "Pantry"
+    },
+    {
+     "id": "lidl-next-soup",
+     "item": "Panera chicken noodle soup or tomato bisque, 16 oz",
+     "price": 3.99,
+     "cat": "Pantry"
+    },
+    {
+     "id": "lidl-next-veg",
+     "item": "Peak Harvest frozen vegetables, family size 32 oz",
+     "price": 2.0,
+     "cat": "Frozen"
+    },
+    {
+     "id": "lidl-next-corn",
+     "item": "Peak Harvest frozen mini corn on the cob, 12 ct",
+     "price": 2.99,
+     "cat": "Frozen"
+    }
+   ]
+  },
+  {
+   "id": "shoprite",
+   "name": "ShopRite",
+   "kind": "deals",
+   "adStart": "2026-11-01",
+   "adEnd": "2026-11-07",
+   "adNote": "New ad every Sunday \u00b7 sale prices with your Price Plus card; check the app for extra eCoupons",
+   "adUrl": "https://www.shoprite.com/",
+   "src": "Weekly Ad Hunters",
+   "srcUrl": "https://weeklyadhunters.com/shoprite-weekly-ad/",
+   "checked": "2026-11-01",
+   "couponTip": "Clip the digital coupons in the ShopRite app or on shoprite.com before you check out, and have your Price Plus card.",
+   "deals": [
+    {
+     "id": "shoprite-chicken-thighs-nov1",
+     "item": "Bowl & Basket bone-in chicken thighs",
+     "price": 1.49,
      "unit": "/lb",
      "cat": "Meat",
      "stockup": true
     },
     {
-     "id": "shoprite-thin-chicken",
-     "item": "Perdue thin-sliced boneless chicken breast",
+     "id": "shoprite-drumsticks-nov1",
+     "item": "Perdue chicken drumsticks",
+     "price": 0.99,
+     "unit": "/lb",
+     "cat": "Meat",
+     "stockup": true
+    },
+    {
+     "id": "shoprite-pork-chops-nov1",
+     "item": "Center-cut pork chops",
+     "price": 1.99,
+     "unit": "/lb",
+     "cat": "Meat",
+     "stockup": true
+    },
+    {
+     "id": "shoprite-picnic-roast",
+     "item": "Whole pork picnic roast",
+     "price": 1.69,
+     "unit": "/lb",
+     "cat": "Meat"
+    },
+    {
+     "id": "shoprite-st-louis-ribs",
+     "item": "St. Louis-style pork ribs",
      "price": 2.99,
      "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "shoprite-baby-backs",
-     "item": "Pork baby back ribs",
-     "price": 3.49,
+     "id": "shoprite-salmon-nov1",
+     "item": "Fresh Atlantic salmon fillet",
+     "price": 7.99,
      "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "shoprite-ground-turkey",
-     "item": "Butterball 93% lean ground turkey",
+     "id": "shoprite-bacon-nov1",
+     "item": "Smithfield bacon",
      "price": 2.99,
      "notes": "Check the package size",
      "cat": "Meat"
     },
     {
-     "id": "shoprite-beef-chub",
-     "item": "73% lean ground beef chub, 5 lb",
-     "price": 23.95,
-     "notes": "About $4.79/lb",
-     "cat": "Meat"
+     "id": "shoprite-broccoli",
+     "item": "Broccoli crowns",
+     "price": 0.88,
+     "notes": "Ad preview price; check the shelf tag for per-lb pricing",
+     "cat": "Produce"
     },
     {
-     "id": "shoprite-tomatoes",
-     "item": "Tomatoes on the vine",
+     "id": "shoprite-peppers",
+     "item": "Hothouse bell peppers",
      "price": 0.99,
-     "unit": "/lb",
+     "notes": "Each",
      "cat": "Produce"
     },
     {
-     "id": "shoprite-avocados",
-     "item": "Hass avocados",
-     "price": 0.75,
-     "notes": "4 for $3",
-     "cat": "Produce"
-    },
-    {
-     "id": "shoprite-creamer-potatoes",
-     "item": "Bowl & Basket creamer potatoes",
-     "price": 2.0,
-     "notes": "2 for $4",
-     "cat": "Produce"
-    },
-    {
-     "id": "shoprite-onions",
-     "item": "Bowl & Basket yellow onions, 3 lb bag",
+     "id": "shoprite-sweet-potatoes",
+     "item": "Bowl & Basket sweet potatoes, 3 lb bag",
      "price": 1.99,
      "cat": "Produce"
     },
     {
-     "id": "shoprite-pineapple",
-     "item": "Golden pineapple",
-     "price": 1.99,
-     "cat": "Produce"
-    },
-    {
-     "id": "shoprite-chunk-cheese",
-     "item": "Bowl & Basket chunk cheese",
-     "price": 1.89,
-     "cat": "Dairy"
-    },
-    {
-     "id": "shoprite-butter",
-     "item": "Hotel Bar, Keller's or Breakstone's butter quarters",
+     "id": "shoprite-avocados-nov1",
+     "item": "Bowl & Basket avocados, 5-count bag",
      "price": 2.99,
+     "cat": "Produce"
+    },
+    {
+     "id": "shoprite-campari",
+     "item": "Campari tomatoes",
+     "price": 2.49,
+     "cat": "Produce"
+    },
+    {
+     "id": "shoprite-cream-cheese",
+     "item": "Bowl & Basket bar cream cheese",
+     "price": 1.49,
      "cat": "Dairy"
     },
     {
-     "id": "shoprite-broth",
-     "item": "Swanson chicken broth",
-     "price": 2.66,
-     "notes": "3 for $7.99",
-     "cat": "Pantry",
-     "stockup": true
+     "id": "shoprite-sour-cream",
+     "item": "Fage sour cream",
+     "price": 1.99,
+     "cat": "Dairy"
     },
     {
-     "id": "shoprite-pasta",
-     "item": "San Giorgio pasta",
-     "price": 0.75,
-     "notes": "4 for $3",
+     "id": "shoprite-pasta-sauce",
+     "item": "Bowl & Basket pasta sauce",
+     "price": 1.49,
      "cat": "Pantry"
     }
    ]
@@ -358,194 +530,125 @@
    "id": "acme",
    "name": "Acme",
    "kind": "deals",
-   "adStart": "2026-10-23",
-   "adEnd": "2026-10-29",
+   "adStart": "2026-10-30",
+   "adEnd": "2026-11-05",
    "adNote": "New ad every Friday \u00b7 use your Acme card / for U app",
    "adUrl": "https://www.acmemarkets.com/weeklyad",
    "couponTip": "Clip digital coupons in the Acme app (for U) before you shop.",
    "src": "Weekly Ad Hunters",
    "srcUrl": "https://weeklyadhunters.com/acme-weekly-ad/",
-   "checked": "2026-10-25",
+   "checked": "2026-11-01",
    "deals": [
     {
-     "id": "acme-ground-beef",
-     "item": "80% lean ground beef, value pack",
-     "price": 2.99,
+     "id": "acme-pork-shoulder",
+     "item": "Whole pork shoulder roast",
+     "price": 1.49,
      "unit": "/lb",
      "cat": "Meat",
      "stockup": true
     },
     {
-     "id": "acme-chicken-legs",
-     "item": "Bone-in chicken drumsticks, leg quarters or thighs",
-     "price": 0.99,
+     "id": "acme-chicken-breast-oct30",
+     "item": "Boneless skinless chicken breast",
+     "price": 2.49,
      "unit": "/lb",
      "cat": "Meat",
      "stockup": true
     },
     {
-     "id": "acme-pork-chops-oct23",
-     "item": "Boneless center-cut pork chops",
-     "price": 4.49,
+     "id": "acme-shrimp-oct30",
+     "item": "Extra-large raw shrimp",
+     "price": 5.99,
      "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "acme-bacon",
-     "item": "Hatfield bacon, 16 oz",
-     "price": 3.99,
+     "id": "acme-t-bone",
+     "item": "Beef T-bone steak",
+     "price": 5.99,
+     "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "acme-sausage",
-     "item": "Hatfield fresh ground sausage, 16 oz",
+     "id": "acme-smoked-sausage",
+     "item": "Eckrich smoked sausage rope",
+     "price": 3.49,
+     "cat": "Meat"
+    },
+    {
+     "id": "acme-salmon-portions",
+     "item": "Fresh salmon portions",
+     "price": 5.49,
+     "notes": "Check the package size",
+     "cat": "Meat"
+    },
+    {
+     "id": "acme-apples-oct30",
+     "item": "Gala, Red Delicious, McIntosh or Ginger Gold apples",
+     "price": 0.69,
+     "unit": "/lb",
+     "notes": "Gala sold in a tote bag",
+     "cat": "Produce"
+    },
+    {
+     "id": "acme-avocados-oct30",
+     "item": "Signature Select avocados",
+     "price": 1.49,
+     "notes": "Each",
+     "cat": "Produce"
+    },
+    {
+     "id": "acme-mushrooms",
+     "item": "Signature Select whole or sliced white mushrooms",
+     "price": 1.67,
+     "notes": "3 for $5",
+     "cat": "Produce"
+    },
+    {
+     "id": "acme-brussels",
+     "item": "Green beans or Brussels sprouts",
      "price": 3.0,
      "notes": "2 for $6",
-     "cat": "Meat"
-    },
-    {
-     "id": "acme-shrimp-oct23",
-     "item": "Extra jumbo raw shrimp, 16\u201320 ct",
-     "price": 7.99,
-     "unit": "/lb",
-     "cat": "Meat"
-    },
-    {
-     "id": "acme-squash",
-     "item": "Acorn, butternut or spaghetti squash",
-     "price": 0.99,
-     "unit": "/lb",
      "cat": "Produce"
     },
     {
-     "id": "acme-mini-potatoes",
-     "item": "Red or gold mini potatoes, 1.5 lb",
-     "price": 2.99,
-     "cat": "Produce"
-    },
-    {
-     "id": "acme-eggs",
-     "item": "Lucerne large eggs, dozen",
-     "price": 0.99,
-     "notes": "Check the app for any limit",
-     "cat": "Dairy",
-     "stockup": true
-    },
-    {
-     "id": "acme-butter",
-     "item": "Lucerne butter quarters, 1 lb",
-     "price": 3.33,
-     "notes": "3 for $10",
+     "id": "acme-eggs-oct30",
+     "item": "Pete & Gerry's organic free-range or extra-large eggs",
+     "price": 5.99,
      "cat": "Dairy"
     },
     {
-     "id": "acme-cream",
-     "item": "Heavy whipping cream, 16 oz",
-     "price": 3.33,
-     "notes": "3 for $10",
+     "id": "acme-cheese-oct30",
+     "item": "Lucerne sliced cheese or Cabot cheese",
+     "price": 3.0,
+     "notes": "2 for $6",
      "cat": "Dairy"
     },
     {
-     "id": "acme-sour-cream",
-     "item": "Breakstone's sour cream, 16 oz",
+     "id": "acme-broth-oct30",
+     "item": "Signature Select broth",
+     "price": 1.29,
+     "cat": "Pantry"
+    },
+    {
+     "id": "acme-pasta-oct30",
+     "item": "De Cecco pasta",
      "price": 2.5,
      "notes": "2 for $5",
-     "cat": "Dairy"
-    },
-    {
-     "id": "acme-italian-bread",
-     "item": "Signature Select Italian bread, 14 oz",
-     "price": 0.99,
-     "cat": "Bakery"
-    },
-    {
-     "id": "acme-soup",
-     "item": "Campbell's condensed soup",
-     "price": 0.99,
      "cat": "Pantry"
     },
     {
-     "id": "acme-steamfresh",
-     "item": "Birds Eye Steamfresh vegetables, 10 oz",
-     "price": 0.99,
-     "cat": "Frozen"
-    }
-   ]
-  },
-  {
-   "id": "target",
-   "name": "Target",
-   "kind": "deals",
-   "adStart": "2026-10-25",
-   "adEnd": "2026-10-31",
-   "adNote": "New ad every Sunday \u00b7 check Target Circle for extra savings",
-   "adUrl": "https://www.target.com/",
-   "couponTip": "Target Circle deals are in the Target app; add them before you check out.",
-   "src": "Weekly Ad Hunters",
-   "srcUrl": "https://weeklyadhunters.com/target-weekly-ad/",
-   "checked": "2026-10-25",
-   "deals": [
-    {
-     "id": "target-strawberries",
-     "item": "Fresh strawberries, 1 lb",
-     "price": 2.79,
-     "cat": "Produce"
-    },
-    {
-     "id": "target-aidells",
-     "item": "Aidells chicken or pork sausage",
-     "price": 4.99,
-     "notes": "Select varieties",
-     "cat": "Meat"
-    },
-    {
-     "id": "target-salmon-cod",
-     "item": "Good & Gather frozen Atlantic salmon or Alaska cod fillets",
-     "price": 10.99,
-     "notes": "Select sizes",
-     "cat": "Frozen"
-    },
-    {
-     "id": "target-nuggets",
-     "item": "Tyson frozen chicken nuggets or patties",
-     "price": 5.99,
-     "notes": "Select varieties",
-     "cat": "Frozen"
-    },
-    {
-     "id": "target-chobani",
-     "item": "Chobani Greek yogurt, 4 pack",
-     "price": 4.5,
-     "notes": "2 for $9, select varieties",
-     "cat": "Dairy"
-    },
-    {
-     "id": "target-sargento",
-     "item": "Sargento sliced cheese",
+     "id": "acme-tomatoes-oct30",
+     "item": "Tuttorosso canned tomatoes",
      "price": 2.5,
-     "notes": "2 for $5, select varieties",
-     "cat": "Dairy"
+     "notes": "2 for $5",
+     "cat": "Pantry"
     },
     {
-     "id": "target-naan",
-     "item": "Stonefire naan",
-     "price": 2.5,
-     "notes": "2 for $5, select varieties",
+     "id": "acme-tortillas",
+     "item": "Mission fajita flour tortillas",
+     "price": 3.49,
      "cat": "Bakery"
-    },
-    {
-     "id": "target-cereal",
-     "item": "General Mills family-size cereal",
-     "price": 4.5,
-     "notes": "2 for $9, select varieties",
-     "cat": "Pantry"
-    },
-    {
-     "id": "target-peets",
-     "item": "Peet's K-Cup pods, 22 ct",
-     "price": 7.5,
-     "notes": "2 for $14.99",
-     "cat": "Pantry"
     }
    ]
   },
@@ -702,6 +805,83 @@
    ]
   },
   {
+   "id": "target",
+   "name": "Target",
+   "kind": "deals",
+   "adStart": "2026-10-25",
+   "adEnd": "2026-10-31",
+   "adNote": "New ad every Sunday \u00b7 check Target Circle for extra savings",
+   "adUrl": "https://www.target.com/",
+   "couponTip": "Target Circle deals are in the Target app; add them before you check out.",
+   "src": "Weekly Ad Hunters",
+   "srcUrl": "https://weeklyadhunters.com/target-weekly-ad/",
+   "checked": "2026-10-25",
+   "deals": [
+    {
+     "id": "target-strawberries",
+     "item": "Fresh strawberries, 1 lb",
+     "price": 2.79,
+     "cat": "Produce"
+    },
+    {
+     "id": "target-aidells",
+     "item": "Aidells chicken or pork sausage",
+     "price": 4.99,
+     "notes": "Select varieties",
+     "cat": "Meat"
+    },
+    {
+     "id": "target-salmon-cod",
+     "item": "Good & Gather frozen Atlantic salmon or Alaska cod fillets",
+     "price": 10.99,
+     "notes": "Select sizes",
+     "cat": "Frozen"
+    },
+    {
+     "id": "target-nuggets",
+     "item": "Tyson frozen chicken nuggets or patties",
+     "price": 5.99,
+     "notes": "Select varieties",
+     "cat": "Frozen"
+    },
+    {
+     "id": "target-chobani",
+     "item": "Chobani Greek yogurt, 4 pack",
+     "price": 4.5,
+     "notes": "2 for $9, select varieties",
+     "cat": "Dairy"
+    },
+    {
+     "id": "target-sargento",
+     "item": "Sargento sliced cheese",
+     "price": 2.5,
+     "notes": "2 for $5, select varieties",
+     "cat": "Dairy"
+    },
+    {
+     "id": "target-naan",
+     "item": "Stonefire naan",
+     "price": 2.5,
+     "notes": "2 for $5, select varieties",
+     "cat": "Bakery"
+    },
+    {
+     "id": "target-cereal",
+     "item": "General Mills family-size cereal",
+     "price": 4.5,
+     "notes": "2 for $9, select varieties",
+     "cat": "Pantry"
+    },
+    {
+     "id": "target-peets",
+     "item": "Peet's K-Cup pods, 22 ct",
+     "price": 7.5,
+     "notes": "2 for $14.99",
+     "cat": "Pantry"
+    }
+   ]
+  },
+  {
    "id": "giant",
    "name": "Giant",
    "kind": "link",
@@ -767,246 +947,348 @@
  ],
  "meals": [
   {
-   "id": "meal-honey-garlic-chicken-thighs-green-beans-oct28",
-   "name": "Sticky honey-garlic chicken thighs with blistered green beans and rice",
-   "serves": 4,
-   "cost": 10,
-   "cal": 720,
-   "protein": 53,
+   "id": "meal-cuban-mojo-pork-shoulder-nov1",
+   "name": "Cuban mojo pork shoulder with garlicky black beans and rice",
+   "serves": 8,
+   "cost": 11,
+   "cal": 600,
+   "protein": 36,
    "uses": [
-    "aldi-thighs",
-    "aldi-green-beans"
+    "acme-pork-shoulder"
    ],
    "pantry": [
     "rice",
-    "honey",
+    "garlic",
+    "ground cumin",
+    "dried oregano",
+    "olive oil",
+    "salt",
+    "pepper",
+    "onion"
+   ],
+   "buy": [
+    "2 limes",
+    "1 orange",
+    "1 can black beans"
+   ],
+   "steps": [
+    "Make the mojo: juice the orange and limes (about \u00bd cup) and whisk with 10 minced garlic cloves, \u00bc cup olive oil, 2 tsp cumin, 2 tsp oregano, 2 tsp salt and 1 tsp pepper. Poke a 4 lb pork shoulder all over with a knife, rub in the mojo and marinate at least 2 hours or overnight.",
+    "Roast the pork with its marinade in a covered pan at 325\u00b0F for about 3\u00bd\u20134 hours, until fork-tender (well past 145\u00b0F, around 195\u00b0F for pulling). Uncover for the last 20 minutes to brown the top.",
+    "While it rests, cook 1\u00bd cups rice. Soften \u00bd diced onion and 2 minced garlic cloves in 1 Tbsp oil, add the drained black beans, \u00bd tsp cumin and a splash of water and simmer 5 minutes.",
+    "Shred the pork, toss with a few spoonfuls of the pan juices and a squeeze of lime, and serve over rice with the beans."
+   ]
+  },
+  {
+   "id": "meal-korean-glazed-chicken-thighs-broccoli-nov1",
+   "name": "Korean-style sweet soy glazed chicken thighs with sesame broccoli",
+   "serves": 6,
+   "cost": 7,
+   "cal": 640,
+   "protein": 34,
+   "uses": [
+    "shoprite-chicken-thighs-nov1",
+    "shoprite-broccoli"
+   ],
+   "pantry": [
+    "rice",
     "soy sauce",
+    "brown sugar",
+    "honey",
     "garlic",
     "ground ginger",
-    "rice or cider vinegar",
+    "sesame oil",
     "red pepper flakes",
-    "cornstarch",
-    "vegetable oil",
-    "salt",
-    "pepper"
+    "rice or cider vinegar",
+    "vegetable oil"
    ],
    "buy": [
     "green onions"
    ],
    "steps": [
-    "Start 1\u00bd cups rice. Whisk the glaze: \u2153 cup honey, \u00bc cup soy sauce, 1 Tbsp vinegar, 5 minced garlic cloves, 1 tsp ground ginger, \u00bd tsp red pepper flakes and 2 tsp cornstarch.",
-    "Pat 2 lb boneless chicken thighs dry, season with salt and pepper, and sear in 1 Tbsp oil in a large skillet over medium-high, 5 minutes per side, until 165\u00b0F inside. Move to a plate.",
-    "Add 1 Tbsp oil and 1 lb trimmed green beans to the hot pan; cook 5\u20136 minutes, tossing, until blistered and crisp-tender. Season with a pinch of salt and pile onto the plate.",
-    "Pour the glaze into the empty pan and simmer 1\u20132 minutes until syrupy. Return the chicken, turn to coat, and serve over rice with the green beans and sliced green onions."
+    "Whisk the glaze: \u2153 cup soy sauce, 3 Tbsp brown sugar, 1 Tbsp honey, 1 Tbsp vinegar, 1 Tbsp sesame oil, 5 minced garlic cloves, 1 tsp ground ginger and \u00bd tsp red pepper flakes. Toss 3 lb bone-in chicken thighs in half of it and let sit 20 minutes.",
+    "Roast the thighs skin-side up on a foil-lined sheet at 425\u00b0F for 35\u201340 minutes, brushing with the remaining glaze for the last 10 minutes, until 165\u00b0F inside (175\u00b0F is even juicier).",
+    "Meanwhile cook 1\u00bd cups rice. Cut 1\u00bd lb broccoli into florets, toss with 1 Tbsp vegetable oil and a pinch of salt, and roast on a second sheet for the last 15 minutes.",
+    "Toss the hot broccoli with 1 tsp sesame oil and a splash of soy sauce. Serve the chicken over rice with the pan glaze spooned over and sliced green onions on top."
    ]
   },
   {
-   "id": "meal-beef-taco-bowls-avocado-crema-oct28",
-   "name": "Smoky beef taco rice bowls with fresh tomato salsa and avocado-lime crema",
-   "serves": 4,
-   "cost": 11,
-   "cal": 750,
-   "protein": 36,
+   "id": "meal-southern-smothered-pork-chops-nov1",
+   "name": "Southern smothered pork chops in onion gravy with brown-butter sweet potatoes",
+   "serves": 6,
+   "cost": 6,
+   "cal": 580,
+   "protein": 31,
    "uses": [
-    "aldi-ground-beef",
-    "aldi-avocados",
-    "shoprite-tomatoes",
-    "shoprite-onions"
+    "shoprite-pork-chops-nov1",
+    "shoprite-sweet-potatoes"
    ],
    "pantry": [
-    "rice",
-    "chili powder",
-    "cumin",
-    "smoked paprika",
-    "garlic powder",
-    "oregano",
-    "tomato paste",
-    "sour cream",
+    "flour",
+    "butter",
     "vegetable oil",
-    "salt",
-    "pepper"
-   ],
-   "buy": [
-    "1 can black beans",
-    "2 limes",
-    "cilantro"
-   ],
-   "steps": [
-    "Cook 1 cup rice. Make salsa: dice 3 vine tomatoes and \u00bd onion; toss with chopped cilantro, juice of 1 lime and \u00bd tsp salt.",
-    "Brown 1\u00bc lb ground beef and the remaining diced onion in 1 tsp oil over medium-high, breaking it up, until no pink remains and it reaches 160\u00b0F, 8\u201310 minutes. Drain the fat.",
-    "Stir in 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, \u00bd tsp oregano, 1 Tbsp tomato paste and \u2153 cup water; simmer 3 minutes. Add the drained black beans and heat through.",
-    "Blend or mash 1 avocado with \u2153 cup sour cream, juice of 1 lime and a pinch of salt. Build bowls of rice, beef and beans, salsa and a big spoonful of crema."
-   ]
-  },
-  {
-   "id": "meal-pork-chops-pizzaiola-oct28",
-   "name": "Pork chops pizzaiola with olives, garlic and oregano over pasta",
-   "serves": 4,
-   "cost": 10,
-   "cal": 700,
-   "protein": 58,
-   "uses": [
-    "lidl-pork-chops",
-    "lidl-olives",
-    "shoprite-pasta"
-   ],
-   "pantry": [
-    "olive oil",
-    "garlic",
     "onion",
-    "crushed tomatoes (28 oz can)",
-    "dried oregano",
-    "Italian seasoning",
-    "red pepper flakes",
-    "sugar",
-    "salt",
-    "pepper"
-   ],
-   "buy": [
-    "fresh basil or parsley (optional)"
-   ],
-   "steps": [
-    "Boil 8 oz pasta in salted water until al dente; save \u00bd cup pasta water. Season 2 lb boneless pork chops with salt, pepper and 1 tsp Italian seasoning.",
-    "Sear the chops in 1 Tbsp olive oil in a large skillet over medium-high, 3 minutes per side, until browned; move to a plate (they'll finish in the sauce).",
-    "Lower to medium; add 1 Tbsp oil, 1 sliced onion and 5 sliced garlic cloves and cook 4 minutes. Add one 28 oz can crushed tomatoes, 1\u00bd tsp oregano, \u00bd tsp red pepper flakes, 1 tsp sugar and \u00bd cup sliced olives; simmer 8 minutes.",
-    "Nestle the chops back in, cover and simmer 4\u20136 minutes until they reach 145\u00b0F; rest 3 minutes. Toss the pasta with a few spoonfuls of sauce and pasta water, then top with chops, more sauce and chopped basil."
-   ]
-  },
-  {
-   "id": "meal-carolina-pulled-pork-slaw-oct28",
-   "name": "Carolina-style pulled pork sandwiches with tangy vinegar sauce and slaw",
-   "serves": 8,
-   "cost": 18,
-   "cal": 650,
-   "protein": 42,
-   "uses": [
-    "aldi-pork-butt"
-   ],
-   "pantry": [
-    "brown sugar",
-    "smoked paprika",
     "garlic powder",
-    "onion powder",
-    "chili powder",
-    "dry mustard or yellow mustard",
-    "cider vinegar",
-    "ketchup",
-    "hot sauce",
-    "red pepper flakes",
-    "mayonnaise",
+    "smoked paprika",
+    "dried thyme",
+    "chicken broth",
+    "Worcestershire sauce",
+    "brown sugar",
     "salt",
     "pepper"
    ],
-   "buy": [
-    "8 hamburger buns",
-    "1 bag coleslaw mix (14 oz)"
-   ],
+   "buy": [],
    "steps": [
-    "Rub a 4 lb pork butt with 2 Tbsp brown sugar, 1 Tbsp smoked paprika, 2 tsp each garlic powder, onion powder and salt, 1 tsp chili powder, 1 tsp dry mustard and 1 tsp pepper. Rest 30 minutes (or overnight).",
-    "Roast covered at 300\u00b0F for 4\u00bd\u20135 hours (or slow-cook on low 8\u20139 hours with \u00bd cup water) until it shreds easily, about 195\u2013200\u00b0F. Shred, discarding fat.",
-    "Simmer the sauce: 1 cup cider vinegar, \u00bc cup ketchup, \u00bc cup brown sugar, 1 Tbsp hot sauce, 1 tsp red pepper flakes, 1 tsp salt. Toss about \u00be cup with the shredded pork; save the rest for serving.",
-    "Toss the coleslaw mix with \u2153 cup mayo, 2 Tbsp of the vinegar sauce and a pinch of sugar and salt. Pile pork and slaw on toasted buns."
+    "Peel and cube a 3 lb bag of sweet potatoes and boil 15 minutes until tender. Drain and mash with 2 Tbsp butter browned in a small pan, 1 Tbsp brown sugar and a pinch of salt.",
+    "Season 6 pork chops (about 2 lb) with 1 tsp each garlic powder and smoked paprika, salt and pepper, then dredge in \u2153 cup flour (save the extra). Brown in 1 Tbsp oil and 1 Tbsp butter in a large skillet, 3 minutes per side; set aside.",
+    "Add 1 more Tbsp butter and 1 large sliced onion to the pan and cook 8 minutes until golden. Stir in 2 Tbsp of the leftover flour, then whisk in 2 cups broth, 1 Tbsp Worcestershire and \u00bd tsp thyme.",
+    "Return the chops, cover and simmer on low 8\u201310 minutes until they reach 145\u00b0F and the gravy thickens. Serve the chops smothered in gravy with the sweet potatoes."
    ]
   },
   {
-   "id": "meal-greek-lemon-salmon-potatoes-oct28",
-   "name": "Greek lemon-oregano salmon with crispy garlic potatoes and tzatziki",
-   "serves": 4,
-   "cost": 22,
-   "cal": 620,
-   "protein": 43,
+   "id": "meal-lemon-garlic-shrimp-scampi-linguine-nov1",
+   "name": "Lemony garlic-butter shrimp scampi with linguine",
+   "serves": 5,
+   "cost": 14,
+   "cal": 590,
+   "protein": 40,
    "uses": [
-    "aldi-salmon",
-    "shoprite-creamer-potatoes"
+    "acme-shrimp-oct30",
+    "acme-pasta-oct30"
    ],
    "pantry": [
+    "butter",
     "olive oil",
     "garlic",
-    "dried oregano",
-    "dried dill",
-    "paprika",
+    "red pepper flakes",
+    "chicken broth or white wine",
+    "grated Parmesan",
     "salt",
     "pepper"
    ],
    "buy": [
     "1 lemon",
-    "plain Greek yogurt (1 cup)",
-    "1 cucumber"
+    "fresh parsley"
    ],
    "steps": [
-    "Heat oven to 425\u00b0F. Halve 1\u00bd lb small potatoes and toss with 2 Tbsp olive oil, 1 tsp oregano, \u00bd tsp paprika, \u00bd tsp salt and 3 minced garlic cloves; roast on a sheet pan 20 minutes.",
-    "Mix 1 Tbsp olive oil, zest and juice of \u00bd lemon, 1 tsp oregano, 1 minced garlic clove, \u00bd tsp salt and pepper. Brush over 1\u00bd lb salmon cut into 4 portions.",
-    "Push the potatoes aside, add the salmon to the pan and roast 10\u201312 minutes until it flakes and reaches 145\u00b0F.",
-    "Tzatziki: grate \u00bd cucumber, squeeze dry and stir into 1 cup Greek yogurt with 1 small grated garlic clove, the rest of the lemon juice, \u00bd tsp dill and a pinch of salt. Serve with the salmon and potatoes."
+    "Cook 1 lb De Cecco linguine in well-salted water until al dente; save 1 cup pasta water before draining.",
+    "Pat 1\u00bd lb peeled raw shrimp dry and season with salt and pepper. Heat 2 Tbsp olive oil in a large skillet over medium-high and cook the shrimp 1\u20132 minutes per side until pink and 145\u00b0F; move to a plate.",
+    "Lower the heat, add 4 Tbsp butter, 8 sliced garlic cloves and \u00bd tsp red pepper flakes and cook 1 minute. Add \u00bd cup broth or white wine, the zest and juice of the lemon, and simmer 2 minutes.",
+    "Toss in the pasta, shrimp, \u00bc cup Parmesan and a splash of pasta water until glossy. Finish with chopped parsley and more lemon to taste."
    ]
   },
   {
-   "id": "meal-blistered-tomato-chickpea-pasta-oct28",
-   "name": "Blistered tomato, garlic and chickpea pasta with Parmesan (meatless)",
-   "serves": 4,
-   "cost": 9,
-   "cal": 610,
-   "protein": 22,
+   "id": "meal-chili-lime-chicken-fajitas-nov1",
+   "name": "Smoky chili-lime chicken fajitas with charred peppers and onions",
+   "serves": 5,
+   "cost": 13,
+   "cal": 640,
+   "protein": 49,
    "uses": [
-    "shoprite-tomatoes",
-    "shoprite-pasta",
-    "aldi-parmesan"
+    "acme-chicken-breast-oct30",
+    "shoprite-peppers",
+    "acme-tortillas",
+    "shoprite-sour-cream"
+   ],
+   "pantry": [
+    "chili powder",
+    "ground cumin",
+    "smoked paprika",
+    "garlic powder",
+    "dried oregano",
+    "vegetable oil",
+    "onion",
+    "hot sauce",
+    "salt"
+   ],
+   "buy": [
+    "2 limes"
+   ],
+   "steps": [
+    "Slice 2 lb chicken breast into strips. Toss with 2 Tbsp oil, the juice of 1 lime, 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, \u00bd tsp oregano and 1 tsp salt. Marinate 15\u201330 minutes.",
+    "Heat a large skillet or cast-iron pan until very hot. Cook the chicken in batches without crowding, 5\u20136 minutes, until charred in spots and 165\u00b0F inside; set aside.",
+    "Add 1 Tbsp oil, 3 sliced bell peppers and 1 sliced onion to the pan with a pinch of salt and \u00bd tsp chili powder; cook 6\u20137 minutes until blistered but still crisp. Return the chicken and squeeze in the second lime.",
+    "Stir a few dashes of hot sauce and a pinch of lime zest into the sour cream. Warm the tortillas in a dry pan and pile in the fajitas with the spicy crema."
+   ]
+  },
+  {
+   "id": "meal-sweet-potato-black-bean-tacos-nov1",
+   "name": "Chipotle-roasted sweet potato and black bean tacos with avocado crema (meatless)",
+   "serves": 5,
+   "cost": 13,
+   "cal": 610,
+   "protein": 17,
+   "uses": [
+    "shoprite-sweet-potatoes",
+    "shoprite-avocados-nov1",
+    "shoprite-sour-cream"
    ],
    "pantry": [
     "olive oil",
+    "chili powder",
+    "smoked paprika",
+    "ground cumin",
+    "garlic powder",
+    "cider vinegar",
+    "sugar",
+    "salt"
+   ],
+   "buy": [
+    "2 cans black beans",
+    "12 corn tortillas",
+    "1 red onion",
+    "2 limes"
+   ],
+   "steps": [
+    "Quick-pickle the onion: thinly slice the red onion and cover with \u00bd cup cider vinegar, \u00bd cup hot water, 1 tsp sugar and 1 tsp salt. Let sit while you cook.",
+    "Peel 2 lb sweet potatoes, cut into \u00bd-inch cubes and toss with 2 Tbsp olive oil, 2 tsp chili powder, 1 tsp each smoked paprika, cumin and garlic powder and 1 tsp salt. Roast at 425\u00b0F for 25\u201330 minutes, flipping once, until browned.",
+    "Warm the drained black beans in a small pot with a pinch of cumin, a squeeze of lime and a splash of water, mashing a few.",
+    "Blend or mash 2 avocados with \u00bd cup sour cream, the juice of 1 lime and a pinch of salt. Char the tortillas in a dry pan and fill with beans, sweet potatoes, crema and pickled onions."
+   ]
+  },
+  {
+   "id": "meal-cajun-smoked-sausage-peppers-rice-nov1",
+   "name": "Cajun smoked sausage, peppers and tomato rice skillet",
+   "serves": 6,
+   "cost": 14,
+   "cal": 650,
+   "protein": 21,
+   "uses": [
+    "acme-smoked-sausage",
+    "shoprite-peppers",
+    "acme-tomatoes-oct30",
+    "acme-broth-oct30"
+   ],
+   "pantry": [
+    "rice",
+    "onion",
     "garlic",
-    "red pepper flakes",
-    "Italian seasoning",
-    "balsamic vinegar",
+    "smoked paprika",
+    "dried thyme",
+    "dried oregano",
+    "cayenne pepper",
+    "garlic powder",
+    "bay leaf",
+    "vegetable oil",
+    "hot sauce",
     "salt",
     "pepper"
    ],
    "buy": [
-    "1 can chickpeas",
-    "fresh basil (optional)"
-   ],
-   "steps": [
-    "Boil 12 oz pasta in well-salted water until al dente; save 1 cup pasta water.",
-    "Meanwhile heat \u00bc cup olive oil in a large skillet over medium. Add 6 sliced garlic cloves and \u00bd tsp red pepper flakes; cook 1 minute until fragrant.",
-    "Add 2 lb chopped vine tomatoes, the drained chickpeas, 1 tsp Italian seasoning and \u00be tsp salt. Cook over medium-high 8\u201310 minutes until the tomatoes collapse into a chunky sauce; stir in 1 tsp balsamic vinegar.",
-    "Toss in the pasta, \u00bd cup grated Parmesan and splashes of pasta water until glossy. Finish with pepper, torn basil and more Parmesan."
-   ]
-  },
-  {
-   "id": "meal-jerk-drumsticks-pineapple-salsa-oct28",
-   "name": "Jerk-spiced baked drumsticks with pineapple salsa and coconut-style rice",
-   "serves": 4,
-   "cost": 8,
-   "cal": 780,
-   "protein": 49,
-   "uses": [
-    "aldi-drumsticks",
-    "shoprite-pineapple"
-   ],
-   "pantry": [
-    "rice",
-    "vegetable oil",
-    "soy sauce",
-    "brown sugar",
-    "garlic",
-    "allspice",
-    "thyme",
-    "cinnamon",
-    "cayenne or hot sauce",
-    "onion powder",
-    "salt",
-    "pepper",
-    "butter"
-   ],
-   "buy": [
-    "2 limes",
+    "celery",
     "green onions"
    ],
    "steps": [
-    "Whisk a marinade: 2 Tbsp oil, 2 Tbsp soy sauce, 2 Tbsp brown sugar, juice of 1 lime, 4 minced garlic cloves, 2 tsp allspice, 2 tsp dried thyme, \u00bd tsp cinnamon, 1 tsp onion powder, \u00bd\u20131 tsp cayenne, 1 tsp salt and 1 tsp pepper. Coat 3 lb drumsticks; marinate 30 minutes or up to overnight.",
-    "Heat oven to 425\u00b0F. Bake the drumsticks on a foil-lined, oiled rack or sheet 40\u201345 minutes, turning once, until charred at the edges and 165\u00b0F at the bone (175\u00b0F is even more tender).",
-    "Cook 1\u00bd cups rice with a pinch of salt and 1 Tbsp butter; fluff with sliced green onions.",
-    "Salsa: dice half a pineapple and toss with juice of 1 lime, 2 sliced green onions, a pinch of salt and a dash of hot sauce. Spoon over the chicken and rice."
+    "Mix the Cajun seasoning: 2 tsp smoked paprika, 1 tsp each thyme, oregano and garlic powder, \u00bd tsp cayenne and \u00bd tsp black pepper.",
+    "Slice 2 smoked sausage ropes into coins and brown in 1 Tbsp oil in a large deep skillet or Dutch oven, 5 minutes; remove. Add 1 diced onion, 2 diced bell peppers, 2 diced celery ribs and 4 minced garlic cloves and cook 6 minutes.",
+    "Stir in the seasoning and 1\u00bd cups rice for 1 minute, then add one 28 oz can of tomatoes, 2 cups broth, a bay leaf and the sausage. Bring to a boil, cover and simmer on low 20 minutes until the rice is tender.",
+    "Rest 5 minutes off the heat, then fluff, taste for salt, and finish with sliced green onions and hot sauce at the table."
+   ]
+  },
+  {
+   "id": "meal-garlic-parmesan-wings-nov1",
+   "name": "Crispy baked garlic-Parmesan wings with roasted vegetables",
+   "serves": 5,
+   "cost": 14,
+   "cal": 750,
+   "protein": 51,
+   "uses": [
+    "lidl-next-wings",
+    "lidl-next-parm",
+    "lidl-next-veg"
+   ],
+   "pantry": [
+    "baking powder",
+    "garlic",
+    "garlic powder",
+    "smoked paprika",
+    "butter",
+    "dried parsley",
+    "red pepper flakes",
+    "olive oil",
+    "salt",
+    "pepper"
+   ],
+   "buy": [
+    "1 lemon"
+   ],
+   "steps": [
+    "Pat 4 lb whole wings very dry (split them into flats and drums if you like). Toss with 1 Tbsp baking powder, 2 tsp salt, 1 tsp garlic powder, 1 tsp smoked paprika and \u00bd tsp pepper.",
+    "Arrange on a rack set over a foil-lined sheet. Bake at 250\u00b0F for 30 minutes, then raise to 425\u00b0F and bake 40\u201345 minutes more, until crisp and at least 165\u00b0F inside.",
+    "For the last 25 minutes, roast the 32 oz bag of frozen vegetables on a second sheet with 1 Tbsp olive oil, salt and pepper.",
+    "Melt 4 Tbsp butter with 4 minced garlic cloves, \u00bd tsp red pepper flakes and 1 tsp dried parsley. Toss the hot wings in it with \u00bd cup finely grated Parmigiano and a squeeze of lemon; serve with the vegetables."
+   ]
+  },
+  {
+   "id": "meal-cider-mustard-country-ribs-apples-nov1",
+   "name": "Cider-mustard braised country-style ribs with apples and mashed potatoes",
+   "serves": 6,
+   "cost": 17,
+   "cal": 760,
+   "protein": 43,
+   "uses": [
+    "aldi-next-country-ribs",
+    "aldi-next-apples"
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "Dijon or yellow mustard",
+    "cider vinegar",
+    "brown sugar",
+    "chicken broth",
+    "dried thyme",
+    "smoked paprika",
+    "butter",
+    "milk",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "buy": [
+    "3 lb potatoes"
+   ],
+   "steps": [
+    "Season 3 lb country-style ribs with 1 tsp smoked paprika, salt and pepper and brown well in 1 Tbsp oil in a Dutch oven, 3 minutes per side; set aside.",
+    "Add 1 sliced onion and 2 apples cut into wedges and cook 5 minutes. Stir in 3 minced garlic cloves, 2 Tbsp mustard, 2 Tbsp brown sugar, 2 Tbsp cider vinegar, 1 tsp thyme and 1\u00bd cups broth.",
+    "Return the ribs, cover and braise at 325\u00b0F for 1\u00bd\u20132 hours until fork-tender (well past 145\u00b0F). Uncover and simmer the sauce on the stove a few minutes to thicken.",
+    "Meanwhile boil the peeled, cubed potatoes until tender and mash with 2 Tbsp butter, \u00bd cup warm milk and salt. Serve the ribs and apples over the mash with plenty of the tangy pan sauce."
+   ]
+  },
+  {
+   "id": "meal-birria-beef-tacos-consomme-nov1",
+   "name": "Birria-style beef tacos with dipping broth and avocado",
+   "serves": 6,
+   "cost": 26,
+   "cal": 790,
+   "protein": 46,
+   "uses": [
+    "aldi-next-birria",
+    "aldi-next-avocados"
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "canned tomatoes",
+    "beef or chicken broth",
+    "chili powder",
+    "ground cumin",
+    "dried oregano",
+    "bay leaf",
+    "cider vinegar",
+    "vegetable oil",
+    "salt"
+   ],
+   "buy": [
+    "16 corn tortillas",
+    "shredded mozzarella or Oaxaca cheese",
+    "cilantro",
+    "2 limes"
+   ],
+   "steps": [
+    "Brown 2\u00bd lb birria-seasoned beef in chunks in 1 Tbsp oil in a Dutch oven. Add 1 chopped onion, 5 garlic cloves, one 14 oz can tomatoes, 3 cups broth, 1 Tbsp chili powder, 1 tsp each cumin and oregano, 2 bay leaves and 1 Tbsp vinegar.",
+    "Cover and simmer gently 2\u00bd\u20133 hours (or 3\u00bd hours at 325\u00b0F in the oven) until the beef shreds easily. Shred the meat and season the broth with salt and a squeeze of lime.",
+    "Skim some of the red fat from the top of the broth. Dip each tortilla in it, lay in a hot skillet, top with cheese and beef, fold and crisp 2 minutes per side.",
+    "Serve the tacos with cups of the hot broth for dipping, sliced avocados, chopped onion, cilantro and lime wedges."
    ]
   }
  ]

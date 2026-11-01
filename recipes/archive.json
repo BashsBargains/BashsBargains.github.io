@@ -2,6 +2,508 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-cuban-mojo-pork-shoulder-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cuban mojo pork shoulder with garlicky black beans and rice",
+   "serves": 8,
+   "total": 11,
+   "cal": 600,
+   "protein": 36,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Whole pork shoulder roast",
+     "store": "Acme",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "1 orange"
+    },
+    {
+     "item": "1 can black beans"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "ground cumin",
+    "dried oregano",
+    "olive oil",
+    "salt",
+    "pepper",
+    "onion"
+   ],
+   "steps": [
+    "Make the mojo: juice the orange and limes (about \u00bd cup) and whisk with 10 minced garlic cloves, \u00bc cup olive oil, 2 tsp cumin, 2 tsp oregano, 2 tsp salt and 1 tsp pepper. Poke a 4 lb pork shoulder all over with a knife, rub in the mojo and marinate at least 2 hours or overnight.",
+    "Roast the pork with its marinade in a covered pan at 325\u00b0F for about 3\u00bd\u20134 hours, until fork-tender (well past 145\u00b0F, around 195\u00b0F for pulling). Uncover for the last 20 minutes to brown the top.",
+    "While it rests, cook 1\u00bd cups rice. Soften \u00bd diced onion and 2 minced garlic cloves in 1 Tbsp oil, add the drained black beans, \u00bd tsp cumin and a splash of water and simmer 5 minutes.",
+    "Shred the pork, toss with a few spoonfuls of the pan juices and a squeeze of lime, and serve over rice with the beans."
+   ]
+  },
+  {
+   "id": "meal-korean-glazed-chicken-thighs-broccoli-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Korean-style sweet soy glazed chicken thighs with sesame broccoli",
+   "serves": 6,
+   "total": 7,
+   "cal": 640,
+   "protein": 34,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket bone-in chicken thighs",
+     "store": "ShopRite",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.88
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "soy sauce",
+    "brown sugar",
+    "honey",
+    "garlic",
+    "ground ginger",
+    "sesame oil",
+    "red pepper flakes",
+    "rice or cider vinegar",
+    "vegetable oil"
+   ],
+   "steps": [
+    "Whisk the glaze: \u2153 cup soy sauce, 3 Tbsp brown sugar, 1 Tbsp honey, 1 Tbsp vinegar, 1 Tbsp sesame oil, 5 minced garlic cloves, 1 tsp ground ginger and \u00bd tsp red pepper flakes. Toss 3 lb bone-in chicken thighs in half of it and let sit 20 minutes.",
+    "Roast the thighs skin-side up on a foil-lined sheet at 425\u00b0F for 35\u201340 minutes, brushing with the remaining glaze for the last 10 minutes, until 165\u00b0F inside (175\u00b0F is even juicier).",
+    "Meanwhile cook 1\u00bd cups rice. Cut 1\u00bd lb broccoli into florets, toss with 1 Tbsp vegetable oil and a pinch of salt, and roast on a second sheet for the last 15 minutes.",
+    "Toss the hot broccoli with 1 tsp sesame oil and a splash of soy sauce. Serve the chicken over rice with the pan glaze spooned over and sliced green onions on top."
+   ]
+  },
+  {
+   "id": "meal-southern-smothered-pork-chops-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Southern smothered pork chops in onion gravy with brown-butter sweet potatoes",
+   "serves": 6,
+   "total": 6,
+   "cal": 580,
+   "protein": 31,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Center-cut pork chops",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket sweet potatoes, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    }
+   ],
+   "pantry": [
+    "flour",
+    "butter",
+    "vegetable oil",
+    "onion",
+    "garlic powder",
+    "smoked paprika",
+    "dried thyme",
+    "chicken broth",
+    "Worcestershire sauce",
+    "brown sugar",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Peel and cube a 3 lb bag of sweet potatoes and boil 15 minutes until tender. Drain and mash with 2 Tbsp butter browned in a small pan, 1 Tbsp brown sugar and a pinch of salt.",
+    "Season 6 pork chops (about 2 lb) with 1 tsp each garlic powder and smoked paprika, salt and pepper, then dredge in \u2153 cup flour (save the extra). Brown in 1 Tbsp oil and 1 Tbsp butter in a large skillet, 3 minutes per side; set aside.",
+    "Add 1 more Tbsp butter and 1 large sliced onion to the pan and cook 8 minutes until golden. Stir in 2 Tbsp of the leftover flour, then whisk in 2 cups broth, 1 Tbsp Worcestershire and \u00bd tsp thyme.",
+    "Return the chops, cover and simmer on low 8\u201310 minutes until they reach 145\u00b0F and the gravy thickens. Serve the chops smothered in gravy with the sweet potatoes."
+   ]
+  },
+  {
+   "id": "meal-lemon-garlic-shrimp-scampi-linguine-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lemony garlic-butter shrimp scampi with linguine",
+   "serves": 5,
+   "total": 14,
+   "cal": 590,
+   "protein": 40,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Extra-large raw shrimp",
+     "store": "Acme",
+     "price": 5.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "De Cecco pasta",
+     "store": "Acme",
+     "price": 2.5
+    },
+    {
+     "item": "1 lemon"
+    },
+    {
+     "item": "fresh parsley"
+    }
+   ],
+   "pantry": [
+    "butter",
+    "olive oil",
+    "garlic",
+    "red pepper flakes",
+    "chicken broth or white wine",
+    "grated Parmesan",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Cook 1 lb De Cecco linguine in well-salted water until al dente; save 1 cup pasta water before draining.",
+    "Pat 1\u00bd lb peeled raw shrimp dry and season with salt and pepper. Heat 2 Tbsp olive oil in a large skillet over medium-high and cook the shrimp 1\u20132 minutes per side until pink and 145\u00b0F; move to a plate.",
+    "Lower the heat, add 4 Tbsp butter, 8 sliced garlic cloves and \u00bd tsp red pepper flakes and cook 1 minute. Add \u00bd cup broth or white wine, the zest and juice of the lemon, and simmer 2 minutes.",
+    "Toss in the pasta, shrimp, \u00bc cup Parmesan and a splash of pasta water until glossy. Finish with chopped parsley and more lemon to taste."
+   ]
+  },
+  {
+   "id": "meal-chili-lime-chicken-fajitas-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky chili-lime chicken fajitas with charred peppers and onions",
+   "serves": 5,
+   "total": 13,
+   "cal": 640,
+   "protein": 49,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Boneless skinless chicken breast",
+     "store": "Acme",
+     "price": 2.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Hothouse bell peppers",
+     "store": "ShopRite",
+     "price": 0.99
+    },
+    {
+     "item": "Mission fajita flour tortillas",
+     "store": "Acme",
+     "price": 3.49
+    },
+    {
+     "item": "Fage sour cream",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "chili powder",
+    "ground cumin",
+    "smoked paprika",
+    "garlic powder",
+    "dried oregano",
+    "vegetable oil",
+    "onion",
+    "hot sauce",
+    "salt"
+   ],
+   "steps": [
+    "Slice 2 lb chicken breast into strips. Toss with 2 Tbsp oil, the juice of 1 lime, 2 tsp chili powder, 1 tsp each cumin, smoked paprika and garlic powder, \u00bd tsp oregano and 1 tsp salt. Marinate 15\u201330 minutes.",
+    "Heat a large skillet or cast-iron pan until very hot. Cook the chicken in batches without crowding, 5\u20136 minutes, until charred in spots and 165\u00b0F inside; set aside.",
+    "Add 1 Tbsp oil, 3 sliced bell peppers and 1 sliced onion to the pan with a pinch of salt and \u00bd tsp chili powder; cook 6\u20137 minutes until blistered but still crisp. Return the chicken and squeeze in the second lime.",
+    "Stir a few dashes of hot sauce and a pinch of lime zest into the sour cream. Warm the tortillas in a dry pan and pile in the fajitas with the spicy crema."
+   ]
+  },
+  {
+   "id": "meal-sweet-potato-black-bean-tacos-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Chipotle-roasted sweet potato and black bean tacos with avocado crema (meatless)",
+   "serves": 5,
+   "total": 13,
+   "cal": 610,
+   "protein": 17,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket sweet potatoes, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "Bowl & Basket avocados, 5-count bag",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "Fage sour cream",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "2 cans black beans"
+    },
+    {
+     "item": "12 corn tortillas"
+    },
+    {
+     "item": "1 red onion"
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "chili powder",
+    "smoked paprika",
+    "ground cumin",
+    "garlic powder",
+    "cider vinegar",
+    "sugar",
+    "salt"
+   ],
+   "steps": [
+    "Quick-pickle the onion: thinly slice the red onion and cover with \u00bd cup cider vinegar, \u00bd cup hot water, 1 tsp sugar and 1 tsp salt. Let sit while you cook.",
+    "Peel 2 lb sweet potatoes, cut into \u00bd-inch cubes and toss with 2 Tbsp olive oil, 2 tsp chili powder, 1 tsp each smoked paprika, cumin and garlic powder and 1 tsp salt. Roast at 425\u00b0F for 25\u201330 minutes, flipping once, until browned.",
+    "Warm the drained black beans in a small pot with a pinch of cumin, a squeeze of lime and a splash of water, mashing a few.",
+    "Blend or mash 2 avocados with \u00bd cup sour cream, the juice of 1 lime and a pinch of salt. Char the tortillas in a dry pan and fill with beans, sweet potatoes, crema and pickled onions."
+   ]
+  },
+  {
+   "id": "meal-cajun-smoked-sausage-peppers-rice-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cajun smoked sausage, peppers and tomato rice skillet",
+   "serves": 6,
+   "total": 14,
+   "cal": 650,
+   "protein": 21,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Eckrich smoked sausage rope",
+     "store": "Acme",
+     "price": 3.49
+    },
+    {
+     "item": "Hothouse bell peppers",
+     "store": "ShopRite",
+     "price": 0.99
+    },
+    {
+     "item": "Tuttorosso canned tomatoes",
+     "store": "Acme",
+     "price": 2.5
+    },
+    {
+     "item": "Signature Select broth",
+     "store": "Acme",
+     "price": 1.29
+    },
+    {
+     "item": "celery"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "onion",
+    "garlic",
+    "smoked paprika",
+    "dried thyme",
+    "dried oregano",
+    "cayenne pepper",
+    "garlic powder",
+    "bay leaf",
+    "vegetable oil",
+    "hot sauce",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Mix the Cajun seasoning: 2 tsp smoked paprika, 1 tsp each thyme, oregano and garlic powder, \u00bd tsp cayenne and \u00bd tsp black pepper.",
+    "Slice 2 smoked sausage ropes into coins and brown in 1 Tbsp oil in a large deep skillet or Dutch oven, 5 minutes; remove. Add 1 diced onion, 2 diced bell peppers, 2 diced celery ribs and 4 minced garlic cloves and cook 6 minutes.",
+    "Stir in the seasoning and 1\u00bd cups rice for 1 minute, then add one 28 oz can of tomatoes, 2 cups broth, a bay leaf and the sausage. Bring to a boil, cover and simmer on low 20 minutes until the rice is tender.",
+    "Rest 5 minutes off the heat, then fluff, taste for salt, and finish with sliced green onions and hot sauce at the table."
+   ]
+  },
+  {
+   "id": "meal-garlic-parmesan-wings-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy baked garlic-Parmesan wings with roasted vegetables",
+   "serves": 5,
+   "total": 14,
+   "cal": 750,
+   "protein": 51,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Whole chicken wings, family pack",
+     "store": "Lidl",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Preferred Selection Parmigiano Reggiano, 8 oz",
+     "store": "Lidl",
+     "price": 6.99
+    },
+    {
+     "item": "Peak Harvest frozen vegetables, family size 32 oz",
+     "store": "Lidl",
+     "price": 2.0
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "baking powder",
+    "garlic",
+    "garlic powder",
+    "smoked paprika",
+    "butter",
+    "dried parsley",
+    "red pepper flakes",
+    "olive oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Pat 4 lb whole wings very dry (split them into flats and drums if you like). Toss with 1 Tbsp baking powder, 2 tsp salt, 1 tsp garlic powder, 1 tsp smoked paprika and \u00bd tsp pepper.",
+    "Arrange on a rack set over a foil-lined sheet. Bake at 250\u00b0F for 30 minutes, then raise to 425\u00b0F and bake 40\u201345 minutes more, until crisp and at least 165\u00b0F inside.",
+    "For the last 25 minutes, roast the 32 oz bag of frozen vegetables on a second sheet with 1 Tbsp olive oil, salt and pepper.",
+    "Melt 4 Tbsp butter with 4 minced garlic cloves, \u00bd tsp red pepper flakes and 1 tsp dried parsley. Toss the hot wings in it with \u00bd cup finely grated Parmigiano and a squeeze of lemon; serve with the vegetables."
+   ]
+  },
+  {
+   "id": "meal-cider-mustard-country-ribs-apples-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cider-mustard braised country-style ribs with apples and mashed potatoes",
+   "serves": 6,
+   "total": 17,
+   "cal": 760,
+   "protein": 43,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Fresh country-style pork ribs",
+     "store": "Aldi",
+     "price": 3.89,
+     "unit": "/lb"
+    },
+    {
+     "item": "Pennsylvania Gala apples, 3 lb bag",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "3 lb potatoes"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "Dijon or yellow mustard",
+    "cider vinegar",
+    "brown sugar",
+    "chicken broth",
+    "dried thyme",
+    "smoked paprika",
+    "butter",
+    "milk",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Season 3 lb country-style ribs with 1 tsp smoked paprika, salt and pepper and brown well in 1 Tbsp oil in a Dutch oven, 3 minutes per side; set aside.",
+    "Add 1 sliced onion and 2 apples cut into wedges and cook 5 minutes. Stir in 3 minced garlic cloves, 2 Tbsp mustard, 2 Tbsp brown sugar, 2 Tbsp cider vinegar, 1 tsp thyme and 1\u00bd cups broth.",
+    "Return the ribs, cover and braise at 325\u00b0F for 1\u00bd\u20132 hours until fork-tender (well past 145\u00b0F). Uncover and simmer the sauce on the stove a few minutes to thicken.",
+    "Meanwhile boil the peeled, cubed potatoes until tender and mash with 2 Tbsp butter, \u00bd cup warm milk and salt. Serve the ribs and apples over the mash with plenty of the tangy pan sauce."
+   ]
+  },
+  {
+   "id": "meal-birria-beef-tacos-consomme-nov1",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Birria-style beef tacos with dipping broth and avocado",
+   "serves": 6,
+   "total": 26,
+   "cal": 790,
+   "protein": 46,
+   "week": "2026-11-01",
+   "ingredients": [
+    {
+     "item": "Fresh birria-seasoned beef",
+     "store": "Aldi",
+     "price": 6.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.49
+    },
+    {
+     "item": "16 corn tortillas"
+    },
+    {
+     "item": "shredded mozzarella or Oaxaca cheese"
+    },
+    {
+     "item": "cilantro"
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "canned tomatoes",
+    "beef or chicken broth",
+    "chili powder",
+    "ground cumin",
+    "dried oregano",
+    "bay leaf",
+    "cider vinegar",
+    "vegetable oil",
+    "salt"
+   ],
+   "steps": [
+    "Brown 2\u00bd lb birria-seasoned beef in chunks in 1 Tbsp oil in a Dutch oven. Add 1 chopped onion, 5 garlic cloves, one 14 oz can tomatoes, 3 cups broth, 1 Tbsp chili powder, 1 tsp each cumin and oregano, 2 bay leaves and 1 Tbsp vinegar.",
+    "Cover and simmer gently 2\u00bd\u20133 hours (or 3\u00bd hours at 325\u00b0F in the oven) until the beef shreds easily. Shred the meat and season the broth with salt and a squeeze of lime.",
+    "Skim some of the red fat from the top of the broth. Dip each tortilla in it, lay in a hot skillet, top with cheese and beef, fold and crisp 2 minutes per side.",
+    "Serve the tacos with cups of the hot broth for dipping, sliced avocados, chopped onion, cilantro and lime wedges."
+   ]
+  },
+  {
    "id": "meal-honey-garlic-chicken-thighs-green-beans-oct28",
    "kind": "meal",
    "type": "Dinner",
