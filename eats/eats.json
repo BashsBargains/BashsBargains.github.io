@@ -1,126 +1,95 @@
 {
- "updated": 1793267916811,
+ "updated": 1793617110309,
  "deals": [
   {
-   "id": "chipotle-boorito-2026",
+   "id": "chipotle-brisket-free-delivery-nov-2026",
    "chain": "Chipotle",
    "cat": "Mexican",
-   "offer": "Boorito: $6 entrée in costume on Halloween",
-   "how": "Oct 31 from 3pm to close, wear a costume into Chipotle and scan your Chipotle Rewards card to get one entrée for $6. In-restaurant only (no online, app, delivery, kids' meals or catering). Guac, queso and extra meat cost extra. Then on Nov 1, delivery fees are $0 on Chipotle website or app orders of $10+.",
+   "offer": "$0 delivery fee on Smoked Brisket orders of $10+",
+   "how": "Nov 5-18, order delivery on the Chipotle app or chipotle.com with a Smoked Brisket entrée and at least $10 of food (before tax and fees) and the delivery fee is $0. Delivery menu prices are higher and service fees still apply. Not on third-party apps, catering or Burritos by the Box.",
    "where": [
-    "In store"
+    "Delivery",
+    "App"
    ],
    "code": "",
-   "ask": "No code. Wear a costume and scan your Chipotle Rewards card.",
-   "start": "2026-10-31",
-   "ends": "2026-10-31",
-   "link": "https://newsroom.chipotle.com/2026-10-20-BOORITO-RETURNS-CHIPOTLE-TO-OFFER-6-ENTREES-ON-HALLOWEEN-2026",
-   "linkText": "See Chipotle's Boorito deal",
+   "ask": "No code. Add a Smoked Brisket entrée to a $10+ delivery order in the Chipotle app or website.",
+   "start": "2026-11-05",
+   "ends": "2026-11-18",
+   "link": "https://newsroom.chipotle.com/2026-10-26-CHIPOTLE-TO-BRING-BACK-MESQUITE-SMOKED-BRISKET-FOR-THE-HEART-OF-FOOTBALL-SEASON",
+   "linkText": "See Chipotle's brisket deal",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
-   "id": "kfc-scary-good-deals-2026",
-   "chain": "KFC",
+   "id": "firehouse-free-medium-sub-sandwich-day-2026",
+   "chain": "Firehouse Subs",
+   "cat": "Sandwiches",
+   "offer": "Free medium sub with a $15+ order on National Sandwich Day",
+   "how": "Nov 3 only. Spend $15 or more and get a medium sub free, including seasonal subs like the Thanksgiving Turkey Sub. Reports say to order in the Firehouse Subs app or online; check the app before you go.",
+   "where": [
+    "Pickup",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code reported. Look for the offer in the Firehouse Subs app.",
+   "start": "2026-11-03",
+   "ends": "2026-11-03",
+   "link": "https://www.firehousesubs.com/",
+   "linkText": "Go to Firehouse Subs",
+   "official": false,
+   "src": "NerdWallet",
+   "srcUrl": "https://www.nerdwallet.com/finance/news/national-sandwich-day",
+   "checked": "2026-11-02"
+  },
+  {
+   "id": "popeyes-monday-free-wings",
+   "chain": "Popeyes",
    "cat": "Chicken",
-   "offer": "A new KFC Rewards deal every day through Halloween",
-   "how": "KFC Rewards members ordering on kfc.com or the KFC app get a different deal each day. Coming up: Oct 26 free Pot Pie with $10+, Oct 27 free Famous Bowl with $10+, Oct 28 10 wings for $10, Oct 29 free Snacker with $5+, Oct 30 half off a 12-piece chicken-only bucket, Oct 31 50 nuggets for $20. Rewards is free to join; not valid at the counter or on third-party apps.",
+   "offer": "Free 6-piece wings with a $10+ order on Mondays",
+   "how": "Every Monday through Jan 4, 2027. Order online or in the Popeyes app, spend $10 or more and get 6 wings free (Classic, Honey BBQ, Ghost Pepper or Sweet 'N Spicy). One per order.",
    "where": [
     "Pickup",
     "Delivery",
     "App"
    ],
    "code": "",
-   "ask": "No code. Sign in to KFC Rewards and order in the app or online.",
-   "start": "2026-10-19",
-   "ends": "2026-10-31",
-   "link": "https://www.kfc.com/",
-   "linkText": "Go to KFC",
+   "ask": "No code. Look for the Monday wings offer in the Popeyes app or website.",
+   "repeat": "Every Monday",
+   "ends": "2027-01-04",
+   "link": "https://www.popeyes.com/",
+   "linkText": "Go to Popeyes",
    "official": false,
-   "src": "Nation's Restaurant News",
-   "srcUrl": "https://www.nrn.com/quick-service/kfc-doubles-down-on-value-offerings-for-halloween",
-   "checked": "2026-10-29"
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
+   "checked": "2026-11-02"
   },
   {
-   "id": "krispy-kreme-costume-halloween",
-   "chain": "Krispy Kreme",
-   "cat": "Desserts",
-   "offer": "Free doughnut when you wear a costume",
-   "how": "Oct 30-31, wear a costume into a participating Krispy Kreme shop and get a free Original Glazed or Classic Ring doughnut. No purchase needed.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Just show up in costume.",
-   "start": "2026-10-30",
-   "ends": "2026-10-31",
-   "link": "https://investors.krispykreme.com/news-releases/news-release-details/krispy-kremer-brings-fans-new-halloween-experiment-limited-time",
-   "linkText": "See Krispy Kreme's Halloween deal",
-   "official": true,
-   "checked": "2026-10-29"
-  },
-  {
-   "id": "red-robin-kids-sundae-halloween",
-   "chain": "Red Robin",
-   "cat": "Family",
-   "offer": "Free sundae for kids in costume",
-   "how": "Oct 30-Nov 1, kids under 11 who come in costume and order a kids' meal get a free sundae (one per child). Dine-in only at participating locations, not to-go or delivery. Also through Nov 1: $25 off catering orders of $125+ with code SCARY.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Bring the kids in costume and tell your server.",
-   "start": "2026-10-30",
-   "ends": "2026-11-01",
-   "link": "https://www.redrobin.com/spooky-season",
-   "linkText": "See Red Robin's Halloween deals",
-   "official": true,
-   "checked": "2026-10-29"
-  },
-  {
-   "id": "dunkin-halloween-3x-donuts",
-   "chain": "Dunkin'",
-   "cat": "Coffee",
-   "offer": "3X Rewards points on donuts and Munchkins for Halloween",
-   "how": "Oct 30-31, Dunkin' Rewards members earn 3X points on half-dozen and dozen donuts and 25- or 50-count Munchkins. Activate it in the app first, then order ahead or scan your Rewards ID in store. Once per day, no Fancies.",
+   "id": "mcdonalds-8-qpc-meal-nov-2026",
+   "chain": "McDonald's",
+   "cat": "Burgers",
+   "offer": "$8 Quarter Pounder with Cheese meal",
+   "how": "Starting Nov 2 for a limited time: a Quarter Pounder with Cheese, medium fries and a drink for $8. Not valid on delivery. Price and participation may vary by location.",
    "where": [
     "In store",
+    "Pickup",
     "App"
    ],
    "code": "",
-   "ask": "No code. Activate the offer in the Dunkin' app.",
-   "start": "2026-10-30",
-   "ends": "2026-10-31",
-   "link": "https://news.dunkindonuts.com/news/dunkin-new-menu-september-2026",
-   "linkText": "See Dunkin's fall offers",
-   "official": true,
-   "checked": "2026-10-29"
-  },
-  {
-   "id": "wendys-boo-books-2026",
-   "chain": "Wendy's",
-   "cat": "Desserts",
-   "offer": "$1 Boo! Book: 5 free Jr. Frostys + a $1.99 Kids' Meal coupon",
-   "how": "Buy a $1 Boo! Book at the counter, kiosk or in the Wendy's app (most of the money goes to the Dave Thomas Foundation). The coupons are good in restaurants through Dec 31. Sold while supplies last.",
-   "where": [
-    "In store",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Just ask for a Boo! Book.",
-   "start": "2026-09-03",
-   "ends": "2026-12-31",
-   "link": "https://www.irwendys.com/news/news-details/2026/Wendys-is-Serving-Up-a-Frightfully-Fun-Halloween-with-Boo-Books-and-Frosty-Frights/default.aspx",
-   "linkText": "See Wendy's Boo! Books",
-   "official": true,
-   "checked": "2026-10-29"
+   "ask": "No code. Just ask for the $8 Quarter Pounder with Cheese meal.",
+   "start": "2026-11-02",
+   "link": "https://www.mcdonalds.com/",
+   "linkText": "Go to McDonald's",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/?p=81139",
+   "checked": "2026-11-02"
   },
   {
    "id": "pizza-hut-my-haunt-box",
    "chain": "Pizza Hut",
    "cat": "Pizza",
    "offer": "My Haunt Box: personal pizza or wings, a side and a drink",
-   "how": "A Personal Pan Pizza or wings, plus fries or more wings and a 20 oz Mountain Dew x Trolli drink. Carryout or delivery, ordered online or in the app. Pizza Hut lists it from $6.99 to $8.49; price varies by location.",
+   "how": "A Personal Pan Pizza or wings, plus fries or more wings and a 20 oz Mountain Dew x Trolli drink. Carryout or delivery, ordered online or in the app. Starts around $8.49; price varies by location. Last day is Nov 2.",
    "where": [
     "Pickup",
     "Delivery",
@@ -133,7 +102,7 @@
    "link": "https://www.pizzahut.com/c/content/halloween-pizza-deals",
    "linkText": "See Pizza Hut's Halloween deals",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -150,28 +119,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-10-29"
-  },
-  {
-   "id": "shake-shack-shackburger",
-   "chain": "Shake Shack",
-   "cat": "Burgers",
-   "offer": "Free ShackBurger with a $10+ order",
-   "how": "Same code, new burger. Kiosk, app or website only, one free burger per order. Not valid at the drive-thru or on third-party delivery apps.",
-   "where": [
-    "In store",
-    "Pickup",
-    "Delivery"
-   ],
-   "code": "SCARYGOOD",
-   "start": "2026-10-19",
-   "ends": "2026-10-31",
-   "link": "https://shakeshack.com/",
-   "linkText": "Go to Shake Shack",
-   "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/shake-shack-scary-good-deals-you-dont-want-to-miss/",
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -188,7 +136,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -206,7 +154,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "outback-kids-eat-free",
@@ -225,7 +173,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "taco-bell-4-usual-order",
@@ -249,26 +197,6 @@
    "checked": "2026-10-29"
   },
   {
-   "id": "applebees-hallowings-bucket",
-   "chain": "Applebee's",
-   "cat": "Family",
-   "offer": "Hallowings Bucket: 20 boneless wings for $12.99",
-   "how": "Oct 25-31, To Go or delivery only, ordered on Applebees.com or the Applebee's app (not third-party apps). Pick a sauce; comes with bleu cheese or ranch. Participating locations, while supplies last.",
-   "where": [
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Just order the Hallowings Bucket online or in the app.",
-   "start": "2026-10-25",
-   "ends": "2026-10-31",
-   "link": "https://www.applebees.com/en/news/2026/applebees-serves-up-halloween-savings-with-20-boneless-wings-for-1299",
-   "linkText": "See Applebee's deal",
-   "official": true,
-   "checked": "2026-10-29"
-  },
-  {
    "id": "outback-walkabout-wednesday",
    "chain": "Outback Steakhouse",
    "cat": "Family",
@@ -283,7 +211,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "outback-tuesday-tails",
@@ -300,7 +228,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "subway-bogo-footlong-sandwich-day-2026",
@@ -320,7 +248,7 @@
    "link": "https://newsroom.subway.com/2026-10-21-Subway-R-Moves-Up-National-Sandwich-Day-to-Tuesday,-Oct-27-and-Brings-Back-the-Fritos-R-Chicken-Enchilada-Sub",
    "linkText": "See Subway's deal",
    "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -341,7 +269,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/half-price-daves-single-wendys-weekly-saturday-college-football/",
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -360,7 +288,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -380,7 +308,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -400,7 +328,7 @@
    "linkText": "See Margaritas' specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -420,7 +348,7 @@
    "linkText": "See KC's Alley's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -440,7 +368,7 @@
    "linkText": "See Drake Tavern's Burger Night",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -460,7 +388,7 @@
    "linkText": "See Drake Tavern's Taco Tuesday",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -480,7 +408,7 @@
    "linkText": "See Kabuto's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -500,7 +428,7 @@
    "linkText": "See Southern Cross Kitchen's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -520,7 +448,7 @@
    "linkText": "See NaBrasa's pricing",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -580,7 +508,7 @@
    "linkText": "See Al Pastor's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -600,7 +528,7 @@
    "linkText": "See Appetites on Main's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -622,7 +550,7 @@
    "linkText": "See The Pizza Stop's coupons",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -662,7 +590,7 @@
    "linkText": "See Mike's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -682,7 +610,7 @@
    "linkText": "See Pinocchio's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -703,7 +631,7 @@
    "linkText": "See VIP Pizza's weekly specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -711,12 +639,12 @@
    "chain": "Bravo Pizza",
    "cat": "Italian",
    "offer": "$8.49 lunch specials with a soda",
-   "how": "Weekday lunch specials include a soda: grilled chicken sandwich $8.49 on Tuesday, cheeseburger $8.49 on Wednesday, any wrap $8.49 on Thursday. Pasta dinner specials run $13.99–$17.99 most nights.",
+   "how": "Weekday lunch specials include a soda: grilled chicken sandwich $8.49 on Tuesday, cheeseburger $8.49 on Wednesday, any wrap $8.49 on Thursday. Friday and Saturday have different lunch specials; no Monday special.",
    "where": [
     "In store",
     "Pickup"
    ],
-   "repeat": "Tuesday–Saturday",
+   "repeat": "Tuesday–Thursday",
    "city": "West Chester",
    "addr": "1438 Pottstown Pike",
    "zip": "19380",
@@ -724,7 +652,7 @@
    "linkText": "See Bravo Pizza's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -746,7 +674,7 @@
    "linkText": "See Hog Island's lunch specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-10-29",
+   "checked": "2026-11-02",
    "srcDate": "Oct 2026"
   },
   {
@@ -767,37 +695,11 @@
    "link": "https://shakeshack.com/national-regional-offers",
    "linkText": "See Shake Shack's offers",
    "official": true,
-   "checked": "2026-10-29"
-  },
-  {
-   "id": "burger-king-bogo-whopper-jr-halloween-2026",
-   "chain": "Burger King",
-   "cat": "Burgers",
-   "offer": "Buy one Whopper Jr., get one free on Halloween",
-   "how": "Oct 31 only, for Royal Perks members (free to join). Add the offer to your account in the BK app or on bk.com, then order. One day only.",
-   "where": [
-    "In store",
-    "Pickup",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Add the offer in the BK app before you order.",
-   "start": "2026-10-31",
-   "ends": "2026-10-31",
-   "link": "https://www.bk.com/",
-   "linkText": "Go to Burger King",
-   "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/?p=80293",
-   "checked": "2026-10-29"
+   "checked": "2026-11-02"
   }
  ],
  "apps": [],
  "holidays": [
-  {
-   "name": "Halloween",
-   "date": "2026-10-31"
-  },
   {
    "name": "National Sandwich Day",
    "date": "2026-11-03"
@@ -805,6 +707,10 @@
   {
    "name": "National Fast Food Day",
    "date": "2026-11-16"
+  },
+  {
+   "name": "Thanksgiving",
+   "date": "2026-11-26"
   },
   {
    "name": "National Cookie Day",
