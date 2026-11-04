@@ -73,13 +73,6 @@
      "cat": "Meat"
     },
     {
-     "id": "aldi-ham-steak",
-     "item": "Sugardale hickory-smoked ham steak",
-     "price": 3.49,
-     "unit": "/lb",
-     "cat": "Meat"
-    },
-    {
      "id": "aldi-salmon-nov4",
      "item": "Fresh skinless Atlantic salmon",
      "price": 9.99,
@@ -111,12 +104,6 @@
      "id": "aldi-green-beans",
      "item": "French green beans, 1 lb",
      "price": 2.89,
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-pears",
-     "item": "Washington Bartlett pears, 3 lb bag",
-     "price": 2.99,
      "cat": "Produce"
     },
     {
