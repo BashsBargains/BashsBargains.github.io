@@ -2,6 +2,401 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-honey-garlic-pork-loin-green-beans-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Honey-garlic glazed pork loin with blistered green beans and rice",
+   "serves": 6,
+   "total": 10,
+   "cal": 600,
+   "protein": 48,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh half pork loin",
+     "store": "Aldi",
+     "price": 2.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "French green beans, 1 lb",
+     "store": "Aldi",
+     "price": 2.89
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "honey",
+    "soy sauce",
+    "brown sugar",
+    "rice or cider vinegar",
+    "red pepper flakes",
+    "vegetable oil",
+    "butter",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Whisk the glaze: \u00bc cup honey, 3 Tbsp soy sauce, 2 Tbsp brown sugar, 1 Tbsp vinegar, 5 minced garlic cloves and \u00bd tsp red pepper flakes. Pat a 3 lb pork loin dry and season with 1 tsp salt and \u00bd tsp pepper.",
+    "Sear the loin in 1 Tbsp oil in an oven-safe skillet over medium-high, 2\u20133 minutes per side. Brush with half of the remaining glaze and roast at 375\u00b0F for 40\u201350 minutes, brushing once more with the rest, until it reads 145\u00b0F in the center. Rest 10 minutes.",
+    "Before brushing, set \u2153 of the glaze aside in a small pot. While the pork roasts, cook 1\u00bd cups rice, then simmer the reserved glaze 2 minutes until syrupy.",
+    "Blister 1 lb trimmed green beans in 1 Tbsp oil in a hot skillet for 5\u20136 minutes, then toss with 1 Tbsp butter, 1 minced garlic clove and a splash of soy. Slice the pork and spoon the sticky sauce over pork and rice."
+   ]
+  },
+  {
+   "id": "meal-jerk-drumsticks-yellow-rice-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Caribbean jerk-style drumsticks with yellow rice and lime",
+   "serves": 6,
+   "total": 9,
+   "cal": 730,
+   "protein": 48,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh chicken drumsticks, family pack",
+     "store": "Aldi",
+     "price": 1.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Vigo yellow rice, 10 oz",
+     "store": "Lidl",
+     "price": 1.51
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "1 bunch green onions"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "onion",
+    "brown sugar",
+    "soy sauce",
+    "dried thyme",
+    "ground allspice or cinnamon",
+    "cayenne or hot sauce",
+    "smoked paprika",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Blend or whisk the jerk marinade: 4 chopped green onions, 4 garlic cloves, juice of 1 lime, 3 Tbsp soy sauce, 2 Tbsp oil, 2 Tbsp brown sugar, 2 tsp thyme, 1\u00bd tsp allspice, 1 tsp smoked paprika, 1 tsp pepper, \u00bd\u20131 tsp cayenne (or 2 Tbsp hot sauce) and 1 tsp salt.",
+    "Slash about 4 lb drumsticks to the bone in 2 places, coat with the marinade and refrigerate 1 hour or overnight.",
+    "Roast on a foil-lined, oiled sheet pan at 425\u00b0F for 35\u201340 minutes, turning once, until charred at the edges and 165\u00b0F next to the bone (175\u00b0F makes them extra tender). Broil 2 minutes for more char.",
+    "Cook 2 packages yellow rice as directed. Serve the drumsticks over rice with lime wedges and the remaining green onions sliced on top."
+   ]
+  },
+  {
+   "id": "meal-spanish-chicken-chorizo-olives-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Spanish-style sheet-pan chicken thighs with chorizo, potatoes and olives",
+   "serves": 5,
+   "total": 16,
+   "cal": 640,
+   "protein": 49,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh boneless skinless chicken thighs, family pack",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Preferred Selection chorizo ring, 7 oz",
+     "store": "Lidl",
+     "price": 3.99
+    },
+    {
+     "item": "Preferred Selection pitted Kalamata olives, 5.6 oz",
+     "store": "Lidl",
+     "price": 1.49
+    },
+    {
+     "item": "2 lb Yukon gold potatoes"
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "smoked paprika",
+    "dried oregano",
+    "ground cumin",
+    "red wine vinegar",
+    "salt",
+    "pepper",
+    "onion"
+   ],
+   "steps": [
+    "Heat the oven to 425\u00b0F. Cut 2 lb potatoes into 1-inch chunks and 1 onion into wedges; toss on a sheet pan with 2 Tbsp olive oil, 1 tsp salt and \u00bd tsp pepper. Roast 15 minutes.",
+    "Toss 2 lb boneless thighs with 1 Tbsp olive oil, 4 minced garlic cloves, 2 tsp smoked paprika, 1 tsp oregano, \u00bd tsp cumin, 1 Tbsp vinegar, \u00be tsp salt and the zest of the lemon.",
+    "Nestle the chicken among the potatoes with the chorizo sliced into coins. Roast 20\u201325 minutes, until the chicken reaches 165\u00b0F and the chorizo edges crisp.",
+    "Scatter on \u00bd cup halved Kalamata olives, squeeze the lemon over everything and spoon the paprika-red pan juices on top before serving."
+   ]
+  },
+  {
+   "id": "meal-tex-mex-beef-taco-rice-bowls-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Tex-Mex beef taco rice bowls with smashed avocado and cheddar",
+   "serves": 5,
+   "total": 11,
+   "cal": 770,
+   "protein": 38,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh ground beef chub",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.49
+    },
+    {
+     "item": "Preferred Selection cheddar, 8.8 oz",
+     "store": "Lidl",
+     "price": 3.99
+    },
+    {
+     "item": "1 can black beans"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "salsa"
+    },
+    {
+     "item": "cilantro (optional)"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "onion",
+    "garlic",
+    "chili powder",
+    "ground cumin",
+    "smoked paprika",
+    "dried oregano",
+    "tomato paste",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Cook 1\u00bd cups rice; stir in the juice of 1 lime and a pinch of salt when done. Warm the drained black beans with \u00bd tsp cumin and a splash of water.",
+    "Brown 1\u00bd lb ground beef with 1 diced onion over medium-high until no pink remains and it reaches 160\u00b0F; drain most of the fat. Add 3 minced garlic cloves, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp oregano, 1 tsp salt and 2 Tbsp tomato paste; cook 1 minute, then add \u2154 cup water and simmer 5 minutes until saucy.",
+    "Smash 2 avocados with the juice of \u00bd lime and a pinch of salt.",
+    "Build bowls: lime rice, beans, taco beef, 1 cup shredded cheddar, smashed avocado, salsa and cilantro."
+   ]
+  },
+  {
+   "id": "meal-honey-sriracha-salmon-broccoli-bowls-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky honey-sriracha salmon bowls with sesame broccoli",
+   "serves": 4,
+   "total": 18,
+   "cal": 760,
+   "protein": 42,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh skinless Atlantic salmon",
+     "store": "Aldi",
+     "price": 9.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.88
+    },
+    {
+     "item": "1 bunch green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "honey",
+    "soy sauce",
+    "sriracha",
+    "garlic",
+    "sesame oil",
+    "rice vinegar",
+    "vegetable oil",
+    "salt"
+   ],
+   "steps": [
+    "Cook 1\u00bd cups rice. Whisk 3 Tbsp honey, 2 Tbsp soy sauce, 1\u20132 Tbsp sriracha, 2 minced garlic cloves and 1 tsp rice vinegar.",
+    "Cut 1\u00bd lb salmon into 4 portions, season lightly with salt and sear skin-side up in 1 Tbsp oil over medium-high for 4 minutes. Flip, pour in the sauce and cook 3\u20134 minutes, spooning it over, until glossy and the fish reaches 145\u00b0F.",
+    "Meanwhile toss 1 lb broccoli florets with 1 Tbsp sesame oil and a pinch of salt; roast at 425\u00b0F for 15 minutes or steam 4 minutes, then finish with a splash of soy.",
+    "Serve salmon over rice with the broccoli, drizzle with pan sauce and top with sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-roasted-pepper-goat-cheese-pasta-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Creamy roasted red pepper and goat cheese pasta with garlic-chili crumbs (meatless)",
+   "serves": 4,
+   "total": 10,
+   "cal": 690,
+   "protein": 24,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Hothouse bell peppers",
+     "store": "ShopRite",
+     "price": 0.99
+    },
+    {
+     "item": "Emporium Selection goat cheese log",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "Emporium Selection Parmesan wedge",
+     "store": "Aldi",
+     "price": 3.99
+    },
+    {
+     "item": "1 lb short pasta"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "red pepper flakes",
+    "smoked paprika",
+    "breadcrumbs",
+    "lemon juice",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Roast 3 halved bell peppers and 1 head garlic (top sliced off, drizzled with oil) at 425\u00b0F for 25\u201330 minutes until the peppers char. Cover the peppers 10 minutes, then peel.",
+    "Toast \u00bd cup breadcrumbs in 1 Tbsp olive oil with 1 minced garlic clove and \u00bc tsp red pepper flakes until golden, about 3 minutes.",
+    "Boil 1 lb pasta in well-salted water; save 1 cup pasta water. Blend the peppers, squeezed roasted garlic, 4 oz goat cheese, 2 Tbsp olive oil, \u00bd tsp smoked paprika, 1 tsp lemon juice, \u00bd tsp salt and \u00bd cup pasta water until smooth.",
+    "Toss the pasta with the sauce and \u00bd cup grated Parmesan, loosening with more pasta water. Top with the crunchy chili crumbs and more Parmesan."
+   ]
+  },
+  {
+   "id": "meal-sweet-chili-wings-lime-corn-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy sweet chili-garlic wings with chili-lime butter corn",
+   "serves": 4,
+   "total": 13,
+   "cal": 860,
+   "protein": 51,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Whole chicken wings, family pack",
+     "store": "Lidl",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Peak Harvest frozen mini corn on the cob, 12 ct",
+     "store": "Lidl",
+     "price": 2.99
+    },
+    {
+     "item": "Kerrygold grass-fed Irish butter, 8 oz",
+     "store": "Lidl",
+     "price": 3.29
+    },
+    {
+     "item": "1 lime"
+    }
+   ],
+   "pantry": [
+    "baking powder",
+    "garlic",
+    "honey",
+    "soy sauce",
+    "sriracha",
+    "rice vinegar",
+    "red pepper flakes",
+    "chili powder",
+    "salt"
+   ],
+   "steps": [
+    "Pat 3 lb wings (split into flats and drumettes) very dry and toss with 1 Tbsp baking powder and 1 tsp salt. Bake on a rack over a foil-lined pan at 425\u00b0F for 45\u201350 minutes, flipping halfway, until crisp and 165\u00b0F.",
+    "Simmer the sauce: \u2153 cup honey, 2 Tbsp soy sauce, 2 Tbsp sriracha, 1 Tbsp rice vinegar, 3 minced garlic cloves, \u00bd tsp red pepper flakes and 1 Tbsp butter for 3 minutes until slightly thick.",
+    "Cook the mini corn as directed. Mash 3 Tbsp butter with the zest of the lime, \u00bd tsp chili powder and a pinch of salt; brush over the hot corn and squeeze on lime juice.",
+    "Toss the wings in the sauce right before serving with the corn."
+   ]
+  },
+  {
+   "id": "meal-parmesan-chicken-cutlets-apple-slaw-nov4",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy Parmesan-garlic chicken cutlets with apple-cabbage slaw",
+   "serves": 5,
+   "total": 12,
+   "cal": 600,
+   "protein": 52,
+   "week": "2026-11-04",
+   "ingredients": [
+    {
+     "item": "Fresh boneless chicken breasts, family pack",
+     "store": "Aldi",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Emporium Selection Parmesan wedge",
+     "store": "Aldi",
+     "price": 3.99
+    },
+    {
+     "item": "Pennsylvania Gala apples, 3 lb bag",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "\u00bd small head green cabbage"
+    }
+   ],
+   "pantry": [
+    "eggs",
+    "breadcrumbs",
+    "garlic powder",
+    "Italian seasoning",
+    "flour",
+    "vegetable oil",
+    "mayonnaise",
+    "cider vinegar",
+    "honey",
+    "Dijon mustard",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Make the slaw: thinly slice \u00bd head cabbage and 2 apples. Whisk 3 Tbsp mayo, 1 Tbsp cider vinegar, 1 Tbsp honey, 1 tsp Dijon, \u00bd tsp salt and pepper; toss and chill.",
+    "Slice 2 lb chicken breasts in half horizontally into thin cutlets and season with salt and pepper. Set up 3 dishes: \u00bd cup flour; 2 beaten eggs with 1 tsp Dijon; 1 cup breadcrumbs mixed with \u00bd cup grated Parmesan, 1 tsp garlic powder and 1 tsp Italian seasoning.",
+    "Dredge the cutlets in flour, egg, then the Parmesan crumbs. Fry in \u00bc inch oil over medium-high, 3\u20134 minutes per side, until deep golden and 165\u00b0F. Drain on a rack and sprinkle with a pinch of salt.",
+    "Serve hot cutlets with lemon or a drizzle of honey-mustard and a big pile of the tangy slaw."
+   ]
+  },
+  {
    "id": "meal-cuban-mojo-pork-shoulder-nov1",
    "kind": "meal",
    "type": "Dinner",
