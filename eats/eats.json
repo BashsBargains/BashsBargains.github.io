@@ -1,5 +1,5 @@
 {
- "updated": 1793617110309,
+ "updated": 1793876184436,
  "deals": [
   {
    "id": "chipotle-brisket-free-delivery-nov-2026",
@@ -18,28 +18,7 @@
    "link": "https://newsroom.chipotle.com/2026-10-26-CHIPOTLE-TO-BRING-BACK-MESQUITE-SMOKED-BRISKET-FOR-THE-HEART-OF-FOOTBALL-SEASON",
    "linkText": "See Chipotle's brisket deal",
    "official": true,
-   "checked": "2026-11-02"
-  },
-  {
-   "id": "firehouse-free-medium-sub-sandwich-day-2026",
-   "chain": "Firehouse Subs",
-   "cat": "Sandwiches",
-   "offer": "Free medium sub with a $15+ order on National Sandwich Day",
-   "how": "Nov 3 only. Spend $15 or more and get a medium sub free, including seasonal subs like the Thanksgiving Turkey Sub. Reports say to order in the Firehouse Subs app or online; check the app before you go.",
-   "where": [
-    "Pickup",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code reported. Look for the offer in the Firehouse Subs app.",
-   "start": "2026-11-03",
-   "ends": "2026-11-03",
-   "link": "https://www.firehousesubs.com/",
-   "linkText": "Go to Firehouse Subs",
-   "official": false,
-   "src": "NerdWallet",
-   "srcUrl": "https://www.nerdwallet.com/finance/news/national-sandwich-day",
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "popeyes-monday-free-wings",
@@ -61,7 +40,7 @@
    "official": false,
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "mcdonalds-8-qpc-meal-nov-2026",
@@ -82,27 +61,7 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/?p=81139",
-   "checked": "2026-11-02"
-  },
-  {
-   "id": "pizza-hut-my-haunt-box",
-   "chain": "Pizza Hut",
-   "cat": "Pizza",
-   "offer": "My Haunt Box: personal pizza or wings, a side and a drink",
-   "how": "A Personal Pan Pizza or wings, plus fries or more wings and a 20 oz Mountain Dew x Trolli drink. Carryout or delivery, ordered online or in the app. Starts around $8.49; price varies by location. Last day is Nov 2.",
-   "where": [
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Pick the My Haunt Box online or in the app.",
-   "start": "2026-10-05",
-   "ends": "2026-11-02",
-   "link": "https://www.pizzahut.com/c/content/halloween-pizza-deals",
-   "linkText": "See Pizza Hut's Halloween deals",
-   "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -119,14 +78,14 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "wendys-wed-nuggets",
    "chain": "Wendy's",
    "cat": "Chicken",
    "offer": "Free 6-piece nuggets with a $5 purchase",
-   "how": "Wednesdays. Find it in the Offers tab of the Wendy's app and add it to your order.",
+   "how": "Wednesdays. Wendy's Rewards members get a free 6-piece nuggets with a $5+ order in the Wendy's app or order.wendys.com. Find it in the app's Offers tab. Participating locations.",
    "where": [
     "App"
    ],
@@ -136,7 +95,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -154,7 +113,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "outback-kids-eat-free",
@@ -173,28 +132,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-02"
-  },
-  {
-   "id": "taco-bell-4-usual-order",
-   "chain": "Taco Bell",
-   "cat": "Mexican",
-   "offer": "$4 celebrity 'Usual Order' meals, a new one each week",
-   "how": "Each week brings a new $4 celebrity 'Usual Order.' This week (Oct 27-Nov 2) it's Doja Cat's: a Mexican Pizza and a Spicy Potato Soft Taco. Participating locations, while supplies last; delivery prices may be higher. A new bundle replaces it each Tuesday.",
-   "where": [
-    "In store",
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Just order that week's Usual Order.",
-   "start": "2026-10-13",
-   "ends": "2026-11-02",
-   "link": "https://www.tacobell.com/newsroom/taco-bell-national-taco-month-celebration",
-   "linkText": "See Taco Bell's deal",
-   "official": true,
-   "checked": "2026-10-29"
+   "checked": "2026-11-05"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -211,7 +149,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "outback-tuesday-tails",
@@ -228,14 +166,14 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "subway-bogo-footlong-sandwich-day-2026",
    "chain": "Subway",
    "cat": "Sandwiches",
    "offer": "Buy one footlong, get one free",
-   "how": "Oct 27-Nov 8, Subway's early National Sandwich Day deal. Sub Club members get it added to their wallet automatically; order in the Subway app or online. The free footlong must be equal or lesser price; one per order. Excludes Fresh Fit, 5 Meat Italian and Big Hot Pastrami. Not on third-party delivery apps. Sub Club is free to join.",
+   "how": "Through Nov 8, Subway's early National Sandwich Day deal. Free Subway Rewards (Sub Club) members apply the offer in the app, then order in the Subway app or online; in-store orders don't count. The free footlong must be equal or lesser price, and it's one use per account. Excludes Fresh Fit, Deli Faves, 5 Meat Italian and Big Hot Pastrami. Not on third-party delivery apps.",
    "where": [
     "Pickup",
     "Delivery",
@@ -248,7 +186,7 @@
    "link": "https://newsroom.subway.com/2026-10-21-Subway-R-Moves-Up-National-Sandwich-Day-to-Tuesday,-Oct-27-and-Brings-Back-the-Fritos-R-Chicken-Enchilada-Sub",
    "linkText": "See Subway's deal",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -269,7 +207,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/half-price-daves-single-wendys-weekly-saturday-college-football/",
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -695,14 +633,114 @@
    "link": "https://shakeshack.com/national-regional-offers",
    "linkText": "See Shake Shack's offers",
    "official": true,
-   "checked": "2026-11-02"
+   "checked": "2026-11-05"
+  },
+  {
+   "id": "applebees-veterans-day-2026",
+   "chain": "Applebee's",
+   "cat": "Family",
+   "offer": "Free entrée for veterans and active duty on Veterans Day",
+   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a special Veterans Day menu. Dine-in only, proof of service required, drinks and tip not included. Participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show proof of service and ask for the Veterans Day menu.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.applebees.com/",
+   "linkText": "Go to Applebee's",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-05"
+  },
+  {
+   "id": "chilis-veterans-day-2026",
+   "chain": "Chili's",
+   "cat": "Family",
+   "offer": "Free entrée for veterans and active duty on Veterans Day",
+   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a select Veterans Day menu. Dine-in only, ID required, participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID and ask for the Veterans Day menu.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.chilis.com/",
+   "linkText": "Go to Chili's",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-05"
+  },
+  {
+   "id": "red-robin-veterans-day-2026",
+   "chain": "Red Robin",
+   "cat": "Burgers",
+   "offer": "Free Red's Big Tavern Burger with bottomless fries for veterans",
+   "how": "Nov 11 only. Veterans and active-duty military get a free Red's Big Tavern Burger with Bottomless Steak Fries. Dine-in only, military ID or proof of service required, participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID or proof of service.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.redrobin.com/",
+   "linkText": "Go to Red Robin",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-05"
+  },
+  {
+   "id": "chipotle-veterans-day-2026",
+   "chain": "Chipotle",
+   "cat": "Mexican",
+   "offer": "Free chips and guac, queso or salsa for veterans with $5 purchase",
+   "how": "Nov 11 only. Veterans and active-duty military with ID get free chips plus guacamole, queso blanco or salsa with a $5+ purchase. Participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID at the register.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.chipotle.com/",
+   "linkText": "Go to Chipotle",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-05"
+  },
+  {
+   "id": "starbucks-veterans-day-2026",
+   "chain": "Starbucks",
+   "cat": "Coffee",
+   "offer": "Free tall brewed coffee for veterans, service members and spouses",
+   "how": "Nov 11 only. Veterans, service members and military spouses get a free tall (12 oz) hot or iced brewed coffee at participating stores.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just tell the barista you're a veteran, service member or military spouse.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.starbucks.com/",
+   "linkText": "Go to Starbucks",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-05"
   }
  ],
  "apps": [],
  "holidays": [
   {
-   "name": "National Sandwich Day",
-   "date": "2026-11-03"
+   "name": "Veterans Day",
+   "date": "2026-11-11"
   },
   {
    "name": "National Fast Food Day",
