@@ -2,6 +2,408 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-cuban-mojo-pork-black-beans-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cuban mojo pork loin with garlicky black beans and rice",
+   "serves": 6,
+   "total": 9,
+   "cal": 640,
+   "protein": 51,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Boneless pork loin combo pack",
+     "store": "ShopRite",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bush's beans, assorted",
+     "store": "Acme",
+     "price": 1.67
+    },
+    {
+     "item": "1 orange"
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "olive oil",
+    "cumin",
+    "oregano",
+    "onion",
+    "bay leaf",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Make the mojo: juice of 1 orange and 2 limes, 6 minced garlic cloves, 3 Tbsp olive oil, 2 tsp cumin, 2 tsp oregano, 1\u00bd tsp salt and \u00bd tsp pepper. Pour half over a 2\u00bd lb pork loin and marinate 30 minutes (or overnight in the fridge).",
+    "Roast the pork on a foil-lined pan at 400\u00b0F for 45\u201355 minutes, until it reads 145\u00b0F in the center. Rest 10 minutes, then slice thin and spoon the reserved mojo over the slices.",
+    "Meanwhile cook 1\u00bd cups rice. In a saucepan, soften \u00bd diced onion and 2 minced garlic cloves in 1 Tbsp oil, add 2 drained cans of black beans, \u00bd tsp cumin, a bay leaf and \u00bd cup water; simmer 10 minutes and finish with a squeeze of lime.",
+    "Serve the pork over rice with the beans alongside."
+   ]
+  },
+  {
+   "id": "meal-smoky-bbq-drumsticks-maple-squash-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky brown-sugar BBQ drumsticks with maple-roasted acorn squash",
+   "serves": 6,
+   "total": 8,
+   "cal": 540,
+   "protein": 40,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Perdue chicken drumsticks",
+     "store": "ShopRite",
+     "price": 1.29,
+     "unit": "/lb"
+    },
+    {
+     "item": "Hard squash (acorn, butternut, spaghetti)",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    }
+   ],
+   "pantry": [
+    "brown sugar",
+    "smoked paprika",
+    "garlic powder",
+    "onion powder",
+    "chili powder",
+    "ketchup",
+    "honey",
+    "cider vinegar",
+    "Worcestershire sauce",
+    "maple syrup",
+    "butter",
+    "vegetable oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Rub 4 lb drumsticks with 1 Tbsp oil and a mix of 2 Tbsp brown sugar, 1 Tbsp smoked paprika, 2 tsp garlic powder, 1 tsp onion powder, 1 tsp chili powder, 1\u00bd tsp salt and \u00bd tsp pepper.",
+    "Bake on a rack over a lined sheet pan at 425\u00b0F for 35 minutes. Stir together \u00bd cup ketchup, 2 Tbsp honey, 1 Tbsp cider vinegar and 1 tsp Worcestershire; brush over the chicken and bake 10\u201315 minutes more, until 165\u00b0F (drumsticks are juiciest closer to 175\u00b0F).",
+    "While the chicken bakes, halve 2 acorn squash, scoop the seeds, cut into wedges, toss with 1 Tbsp oil, salt and pepper and roast on a second pan at 425\u00b0F for 25 minutes.",
+    "Melt 2 Tbsp butter with 2 Tbsp maple syrup and a pinch of chili powder, brush over the squash and roast 5 minutes more until caramelized."
+   ]
+  },
+  {
+   "id": "meal-garlic-butter-shrimp-scampi-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lemon-garlic shrimp scampi linguine with toasted sourdough",
+   "serves": 4,
+   "total": 19,
+   "cal": 780,
+   "protein": 54,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Jumbo raw shrimp",
+     "store": "Acme",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Goldminer sourdough bread",
+     "store": "Acme",
+     "price": 3.49
+    },
+    {
+     "item": "Emporium Selection Parmesan wedge",
+     "store": "Aldi",
+     "price": 3.99
+    },
+    {
+     "item": "1 lemon"
+    },
+    {
+     "item": "small bunch parsley"
+    }
+   ],
+   "pantry": [
+    "linguine or spaghetti",
+    "garlic",
+    "butter",
+    "olive oil",
+    "red pepper flakes",
+    "chicken broth or white wine",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Cook 12 oz linguine in well-salted water; reserve 1 cup pasta water before draining. Pat 1\u00bd lb peeled jumbo shrimp dry and season with \u00bd tsp salt and \u00bc tsp pepper.",
+    "In a large skillet, heat 2 Tbsp olive oil and 2 Tbsp butter over medium-high. Cook the shrimp 1\u20132 minutes per side until pink and opaque (145\u00b0F); move to a plate.",
+    "Lower the heat, add 2 Tbsp butter, 6 sliced garlic cloves and \u00bd tsp red pepper flakes; cook 1 minute. Add \u00bd cup broth or white wine, the zest and juice of 1 lemon, and simmer 2 minutes.",
+    "Toss in the pasta, shrimp, \u00bd cup grated Parmesan, a chopped handful of parsley and splashes of pasta water until glossy. Serve with 4 slices of toasted sourdough for the sauce."
+   ]
+  },
+  {
+   "id": "meal-tikka-sheet-pan-chicken-raita-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sheet-pan chicken tikka with charred onions, rice and cucumber raita",
+   "serves": 6,
+   "total": 10,
+   "cal": 480,
+   "protein": 52,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Boneless skinless chicken breast",
+     "store": "Acme",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Chobani Greek yogurt cups",
+     "store": "Acme",
+     "price": 1.25
+    },
+    {
+     "item": "1 cucumber"
+    },
+    {
+     "item": "small bunch cilantro"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "fresh or ground ginger",
+    "garam masala or curry powder",
+    "smoked paprika",
+    "cumin",
+    "chili powder",
+    "onion",
+    "vegetable oil",
+    "lemon juice",
+    "salt"
+   ],
+   "steps": [
+    "Mix 1 cup plain Greek yogurt, 2 Tbsp oil, 2 Tbsp lemon juice, 4 grated garlic cloves, 1 Tbsp grated ginger (or 1 tsp ground), 1 Tbsp garam masala or curry powder, 2 tsp smoked paprika, 1 tsp cumin, \u00bd tsp chili powder and 1\u00bd tsp salt. Coat 2\u00bd lb chicken breast cut into 1\u00bd-inch chunks; marinate 30 minutes or up to a day.",
+    "Spread the chicken and 2 onions cut in wedges on a lined sheet pan. Roast at 450\u00b0F for 18\u201322 minutes, then broil 2\u20133 minutes for charred edges, until the chicken reaches 165\u00b0F.",
+    "Meanwhile cook 1\u00bd cups rice. Stir together \u00bd cup Greek yogurt, \u00bd grated cucumber (squeezed dry), a pinch of cumin, salt and chopped cilantro for the raita.",
+    "Serve the chicken and onions over rice with raita and more cilantro."
+   ]
+  },
+  {
+   "id": "meal-three-cheese-baked-ziti-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Three-cheese baked ziti with garlicky red sauce (meatless)",
+   "serves": 8,
+   "total": 10,
+   "cal": 570,
+   "protein": 32,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Galbani ricotta",
+     "store": "ShopRite",
+     "price": 3.99
+    },
+    {
+     "item": "Galbani mozzarella",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "1 lb ziti or penne"
+    },
+    {
+     "item": "fresh basil (optional)"
+    }
+   ],
+   "pantry": [
+    "2 cans (28 oz) crushed tomatoes",
+    "garlic",
+    "olive oil",
+    "Italian seasoning",
+    "red pepper flakes",
+    "sugar",
+    "egg",
+    "grated Parmesan",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Make the sauce: warm 2 Tbsp olive oil with 5 minced garlic cloves, 2 tsp Italian seasoning and \u00bd tsp red pepper flakes for 1 minute. Add 2 cans crushed tomatoes, 1 tsp sugar and 1 tsp salt; simmer 15 minutes.",
+    "Boil 1 lb ziti 2 minutes less than the package says; drain. Mix the ricotta with 1 egg, \u00bc cup Parmesan, \u00bd tsp salt and \u00bc tsp pepper.",
+    "Toss the pasta with two-thirds of the sauce. In a 9x13 dish, layer half the pasta, dollops of the ricotta mix and half the shredded mozzarella; repeat, then top with the remaining sauce and mozzarella.",
+    "Cover with foil and bake at 375\u00b0F for 20 minutes, uncover and bake 15 minutes more until bubbly and browned. Rest 10 minutes and top with torn basil."
+   ]
+  },
+  {
+   "id": "meal-chili-lime-beef-tacos-avocado-crema-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Chili-lime beef tacos with quick-pickled onions and avocado crema",
+   "serves": 6,
+   "total": 13,
+   "cal": 720,
+   "protein": 35,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Fresh ground beef chub",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.49
+    },
+    {
+     "item": "Good & Gather shredded cheese, 8 oz",
+     "store": "Target",
+     "price": 1.99
+    },
+    {
+     "item": "12 small flour tortillas"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "\u00bd cup sour cream"
+    },
+    {
+     "item": "small bunch cilantro"
+    }
+   ],
+   "pantry": [
+    "chili powder",
+    "cumin",
+    "smoked paprika",
+    "garlic powder",
+    "oregano",
+    "tomato paste",
+    "red onion",
+    "cider or white vinegar",
+    "sugar",
+    "vegetable oil",
+    "salt"
+   ],
+   "steps": [
+    "Quick-pickle 1 thinly sliced red onion in \u00bd cup vinegar, \u00bd cup hot water, 1 tsp sugar and 1 tsp salt for at least 15 minutes.",
+    "Brown 1\u00bd lb ground beef in 1 tsp oil over medium-high, breaking it up, until no pink remains (160\u00b0F); drain most of the fat. Stir in 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, 1 tsp oregano, 1 Tbsp tomato paste, \u00bd tsp salt and \u2153 cup water; simmer 5 minutes and finish with the juice of 1 lime.",
+    "Blend or mash 2 avocados with \u00bd cup sour cream, the juice of 1 lime, a pinch of salt and a little cilantro until smooth.",
+    "Warm the tortillas in a dry skillet and fill with beef, shredded cheese, pickled onions, avocado crema and cilantro."
+   ]
+  },
+  {
+   "id": "meal-greek-lemon-chicken-potatoes-olives-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Greek lemon-oregano chicken thighs with crispy potatoes and olives",
+   "serves": 6,
+   "total": 11,
+   "cal": 530,
+   "protein": 42,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "Fresh boneless skinless chicken thighs, family pack",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Russet potatoes or yellow onions, bag",
+     "store": "Acme",
+     "price": 1.49
+    },
+    {
+     "item": "Preferred Selection pitted Kalamata olives, 5.6 oz",
+     "store": "Lidl",
+     "price": 1.49
+    },
+    {
+     "item": "2 lemons"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "dried oregano",
+    "smoked paprika",
+    "Dijon mustard",
+    "chicken broth",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Whisk \u00bc cup olive oil, the zest and juice of 2 lemons, 5 minced garlic cloves, 1 Tbsp oregano, 1 tsp smoked paprika, 1 tsp Dijon, 1\u00bd tsp salt and \u00bd tsp pepper. Toss 2\u00bd lb boneless thighs in half of it.",
+    "Cut 3 lb russet potatoes into wedges and toss with the rest of the marinade on a large sheet pan. Roast at 425\u00b0F for 20 minutes.",
+    "Nestle the chicken among the potatoes, scatter \u00bd cup halved Kalamata olives and pour \u00bc cup broth into the pan. Roast 25\u201330 minutes more, until the chicken reaches 165\u00b0F and the potatoes are crisp at the edges.",
+    "Squeeze over any extra lemon and spoon the pan juices on top before serving."
+   ]
+  },
+  {
+   "id": "meal-philly-cheesesteak-provolone-nov8",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Homemade Philly-style cheesesteaks with sweet fried onions and provolone",
+   "serves": 4,
+   "total": 19,
+   "cal": 860,
+   "protein": 58,
+   "week": "2026-11-08",
+   "ingredients": [
+    {
+     "item": "USDA Choice beef strip steak",
+     "store": "Acme",
+     "price": 6.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Dietz & Watson provolone, deli-sliced",
+     "store": "Acme",
+     "price": 6.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Russet potatoes or yellow onions, bag",
+     "store": "Acme",
+     "price": 1.49
+    },
+    {
+     "item": "4 hoagie rolls"
+    },
+    {
+     "item": "1 green bell pepper (optional)"
+    },
+    {
+     "item": "hot cherry peppers (optional)"
+    }
+   ],
+   "pantry": [
+    "vegetable oil",
+    "butter",
+    "Worcestershire sauce",
+    "garlic powder",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Freeze 1\u00bd lb strip steak for 30 minutes, then trim the fat and slice it paper-thin across the grain.",
+    "Cook 2 thinly sliced onions (and the pepper, if using) in 1 Tbsp oil and 1 Tbsp butter with a pinch of salt over medium heat for 12\u201315 minutes until soft and golden; set aside.",
+    "Raise the heat to high, add 1 Tbsp oil and the steak in batches. Season with \u00bd tsp salt, \u00bd tsp pepper, \u00bd tsp garlic powder and 1 tsp Worcestershire; sear and chop with a spatula 2\u20133 minutes until just browned.",
+    "Divide the steak and onions into 4 piles in the pan, lay 1\u20132 slices of provolone over each and cover for 1 minute to melt. Scoop each pile into a split, toasted hoagie roll and add cherry peppers if you like."
+   ]
+  },
+  {
    "id": "meal-honey-garlic-pork-loin-green-beans-nov4",
    "kind": "meal",
    "type": "Dinner",
