@@ -1,58 +1,6 @@
 {
- "updated": 1793531263974,
+ "updated": 1794135610572,
  "matchups": [
-  {
-   "id": "wmt-tide-stain-spray",
-   "store": "Walmart",
-   "kind": "grocery",
-   "cat": "Laundry & cleaning",
-   "item": "Tide enzyme stain remover spray, 22 oz",
-   "buy": 1,
-   "pay": 6.97,
-   "final": 0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$6.97"
-    },
-    {
-     "t": "rebate",
-     "x": "100% back ($6.97) in Fetch"
-    }
-   ],
-   "limit": "Fetch offer while it lasts",
-   "checked": "2026-10-25",
-   "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
-  },
-  {
-   "id": "wmt-dove-deodorant",
-   "store": "Walmart",
-   "kind": "grocery",
-   "cat": "Personal care",
-   "item": "Dove aluminum-free deodorant, 2.4 oz",
-   "buy": 1,
-   "pay": 7.97,
-   "final": 0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$7.97"
-    },
-    {
-     "t": "rebate",
-     "x": "$6.25 back in Fetch"
-    },
-    {
-     "t": "rebate",
-     "x": "$2 Walmart Cash"
-    }
-   ],
-   "limit": "Rebates while they last",
-   "checked": "2026-10-25",
-   "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
-  },
   {
    "id": "cvs-tide-laundry",
    "store": "CVS",
@@ -426,446 +374,6 @@
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
   },
   {
-   "id": "wag-pg-household-4-for-10",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Laundry & cleaning",
-   "item": "Bounce, Downy, Gain, Mr. Clean or Tide Simply (incl. Tide Simply 31 oz, Downy Unstopables, Magic Eraser 2 pk)",
-   "buy": 4,
-   "pay": 10.0,
-   "final": 2.5,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "4 for $10"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/",
-   "also": [
-    {
-     "src": "Living Rich With Coupons",
-     "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/walgreens-deals-week-of-11-1-11-7.html"
-    }
-   ]
-  },
-  {
-   "id": "wag-snuggle",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Laundry & cleaning",
-   "item": "Snuggle + SuperFresh fabric conditioner, 35.7 oz",
-   "buy": 1,
-   "pay": 3.99,
-   "final": 2.99,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$3.99"
-    },
-    {
-     "t": "rebate",
-     "x": "$1 back on Ibotta (Snuggle OdorLifter, limit 1)"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "wag-bounty-essentials",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Paper & kitchen",
-   "item": "Bounty Essentials paper towels, 2 pk",
-   "buy": 2,
-   "pay": 7.98,
-   "final": 2.99,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$3.99 each, buy 2"
-    },
-    {
-     "t": "rewards",
-     "x": "Get $2 Register Rewards when you buy 2"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "wag-kleenex",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Paper & kitchen",
-   "item": "Kleenex facial tissue",
-   "buy": 3,
-   "pay": 5.0,
-   "final": 1.67,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "3 for $5"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "wag-ziploc",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Paper & kitchen",
-   "item": "Ziploc bags",
-   "buy": 1,
-   "pay": 3.29,
-   "final": 2.54,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$3.29"
-    },
-    {
-     "t": "rebate",
-     "x": "$0.75 back on Ibotta"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "wag-colgate",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Personal care",
-   "item": "Colgate toothpaste (Total, Max Fresh, Sensitive and more)",
-   "buy": 2,
-   "pay": 7.0,
-   "final": 1.5,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$5 each, buy 2 — about $0.50–$1.50 each depending on which Colgate coupon you have"
-    },
-    {
-     "t": "coupon",
-     "x": "$3 off 2 Colgate (digital)"
-    },
-    {
-     "t": "rewards",
-     "x": "Get $4 Register Rewards when you buy 2"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/",
-   "also": [
-    {
-     "src": "Living Rich With Coupons",
-     "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/walgreens-deals-week-of-11-1-11-7.html"
-    }
-   ]
-  },
-  {
-   "id": "wag-crest",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Personal care",
-   "item": "Crest toothpaste or dental care",
-   "buy": 3,
-   "pay": 12.0,
-   "final": 2.0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$5 each, buy 3"
-    },
-    {
-     "t": "coupon",
-     "x": "$3 off 3 Crest (digital)"
-    },
-    {
-     "t": "rewards",
-     "x": "Get $6 Register Rewards when you buy 3"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/",
-   "also": [
-    {
-     "src": "Living Rich With Coupons",
-     "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/walgreens-deals-week-of-11-1-11-7.html"
-    }
-   ]
-  },
-  {
-   "id": "wag-suave",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Beauty",
-   "item": "Suave hair care",
-   "buy": 2,
-   "pay": 6.0,
-   "final": 1.0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$3–$6 each, buy 2 of the $3 ones"
-    },
-    {
-     "t": "rewards",
-     "x": "Get $4 in-store rewards when you buy 2"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/walgreens-deals-week-of-11-1-11-7.html"
-  },
-  {
-   "id": "wag-general-mills-cereal",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Food",
-   "item": "General Mills cereal",
-   "buy": 1,
-   "pay": 1.99,
-   "final": 1.99,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$2.49"
-    },
-    {
-     "t": "coupon",
-     "x": "$0.50 off 1 coupon"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "wag-poppi",
-   "store": "Walgreens",
-   "kind": "drugstore",
-   "cat": "Food",
-   "item": "Poppi prebiotic soda, single can",
-   "buy": 2,
-   "pay": 4.5,
-   "final": 1.75,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "2 for $4.50"
-    },
-    {
-     "t": "rebate",
-     "x": "$0.50 back each on Ibotta (limit 5)"
-    }
-   ],
-   "ends": "2026-11-07",
-   "src": "Southern Savers",
-   "srcUrl": "https://www.southernsavers.com/walgreens-ad-coupons-11-1-11-7/"
-  },
-  {
-   "id": "sr-pomegranates",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Pomegranates",
-   "buy": 5,
-   "pay": 5.0,
-   "final": 1.0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$2.49 each, buy 5"
-    },
-    {
-     "t": "coupon",
-     "x": "$7.45 off 5 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-broccoli",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Broccoli crowns (per lb)",
-   "buy": 1,
-   "pay": 0.88,
-   "final": 0.88,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$1.69/lb (limit 4 lbs)"
-    },
-    {
-     "t": "coupon",
-     "x": "$0.81 off ShopRite eCoupon"
-    }
-   ],
-   "limit": "Limit 4 lbs; Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-idahoan",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Idahoan instant potatoes, 4 oz",
-   "buy": 3,
-   "pay": 3.0,
-   "final": 1.0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "3 for $4"
-    },
-    {
-     "t": "coupon",
-     "x": "$1 off 3 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-chunky-soup",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Campbell's Chunky soup",
-   "buy": 4,
-   "pay": 5.0,
-   "final": 1.25,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "4 for $8"
-    },
-    {
-     "t": "coupon",
-     "x": "$3 off 4 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Limit 1 deal; Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-vitaminwater",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Vitaminwater, 20 oz",
-   "buy": 12,
-   "pay": 10.0,
-   "final": 0.83,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "12 for $16"
-    },
-    {
-     "t": "coupon",
-     "x": "$6 off 12 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Limit 1 deal; Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-gatorade",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Gatorade, 28 oz",
-   "buy": 10,
-   "pay": 10.0,
-   "final": 1.0,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$1.99 each, buy 10"
-    },
-    {
-     "t": "coupon",
-     "x": "$9.90 off 10 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Limit 1 deal; Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-canada-dry",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Food",
-   "item": "Canada Dry ginger ale, 2 liter",
-   "buy": 4,
-   "pay": 5.0,
-   "final": 1.25,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "4 for $9"
-    },
-    {
-     "t": "coupon",
-     "x": "$4 off 4 ShopRite eCoupon"
-    }
-   ],
-   "limit": "Limit 1 deal; Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
-   "id": "sr-st-joseph-aspirin",
-   "store": "ShopRite",
-   "kind": "grocery",
-   "cat": "Personal care",
-   "item": "St. Joseph aspirin, 30 ct",
-   "buy": 1,
-   "pay": 0.49,
-   "final": 0.49,
-   "steps": [
-    {
-     "t": "sale",
-     "x": "$1.99"
-    },
-    {
-     "t": "coupon",
-     "x": "$1.50 off ShopRite eCoupon"
-    }
-   ],
-   "limit": "Price Plus card required",
-   "ends": "2026-11-07",
-   "src": "Living Rich With Coupons",
-   "srcUrl": "https://www.livingrichwithcoupons.com/2026/10/shoprite-coupon-deals-week-of-11-1-2.html"
-  },
-  {
    "id": "wmt-glade-spray-holder",
    "store": "Walmart",
    "kind": "grocery",
@@ -885,6 +393,590 @@
     }
    ],
    "checked": "2026-11-01",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "cvs-lysol-toilet-bowl",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Lysol Power toilet bowl cleaner, 24 oz",
+   "buy": 2,
+   "pay": 5.98,
+   "final": 1.49,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 1, get 1 50% off ($3.99 each)"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $3 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-total-home-dish-soap",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Paper & kitchen",
+   "item": "Total Home liquid dish soap, 18 oz",
+   "buy": 2,
+   "pay": 7.18,
+   "final": 1.09,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$3.59 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-total-home-toilet-paper",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Paper & kitchen",
+   "item": "Total Home toilet paper, 9 mega rolls",
+   "buy": 1,
+   "pay": 8.99,
+   "final": 5.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$8.99"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $3 ExtraBucks"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-persil-detergent",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Persil ProClean liquid detergent, 34 oz (25 loads)",
+   "buy": 2,
+   "pay": 13.98,
+   "final": 3.74,
+   "per": "15¢ a load",
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6.99 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $6 ExtraBucks when you buy 2"
+    },
+    {
+     "t": "rebate",
+     "x": "50¢ back on one in Ibotta"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-carefree-liners",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Carefree panty liners, 20 ct",
+   "buy": 2,
+   "pay": 3.98,
+   "final": 0.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.99 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $2 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-colgate-toothpaste-bundle",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Colgate Optic White (3.8 oz) and Colgate Sensitive (6 oz) toothpaste, 2 of each",
+   "buy": 4,
+   "pay": 14.96,
+   "final": 1.24,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.99–$5.99 each"
+    },
+    {
+     "t": "coupon",
+     "x": "CVS store coupons: $4 off 2 and $3 off 1"
+    },
+    {
+     "t": "rewards",
+     "x": "Spend $20, get $10 ExtraBucks"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-irish-spring-body-wash",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Irish Spring body wash, 20 oz",
+   "buy": 2,
+   "pay": 9.08,
+   "final": 2.54,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6.29 each"
+    },
+    {
+     "t": "coupon",
+     "x": "$3.50 off 2 store coupon"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $4 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-nivea-body-wash",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Nivea Derma Comfort body wash, 16.9 oz",
+   "buy": 2,
+   "pay": 11.98,
+   "final": 2.49,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5.99 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $7 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-softsoap-body-wash",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Softsoap body wash, 20 oz",
+   "buy": 2,
+   "pay": 9.68,
+   "final": 2.84,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6.59 each"
+    },
+    {
+     "t": "coupon",
+     "x": "$3.50 off 2 store coupon"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $4 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "cvs-nexxus-hair-mask",
+   "store": "CVS",
+   "kind": "drugstore",
+   "cat": "Beauty",
+   "item": "Nexxus Humectress hair mask",
+   "buy": 2,
+   "pay": 13.98,
+   "final": 2.99,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6.99 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $8 ExtraBucks when you buy 2"
+    }
+   ],
+   "limit": "ExtraBucks limit 1 per week",
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/cvs-weekly-ad"
+  },
+  {
+   "id": "wag-axe-body-wash",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Axe body wash, 16 oz",
+   "buy": 2,
+   "pay": 3.99,
+   "final": 1.0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 2 on sale"
+    },
+    {
+     "t": "coupon",
+     "x": "$5 off 2 Axe body wash"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $2 Register Rewards when you buy 2"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
+   "also": [
+    {
+     "src": "Living Rich With Coupons",
+     "srcUrl": "https://www.livingrichwithcoupons.com/2026/11/walgreens-preview-deals-for-the-week-of-11-8.html"
+    }
+   ]
+  },
+  {
+   "id": "wag-crest-3d-white",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Crest 3D White toothpaste, 3.3 oz",
+   "buy": 3,
+   "pay": 10.5,
+   "final": 1.83,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 3 on sale"
+    },
+    {
+     "t": "coupon",
+     "x": "$3 off 3 Crest toothpaste"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Register Rewards when you buy 3"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wag-trash-bags",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Paper & kitchen",
+   "item": "Walgreens brand small trash bags, 30 ct",
+   "buy": 3,
+   "pay": 5.99,
+   "final": 2.0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 1, get 2 free ($5.99)"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad",
+   "also": [
+    {
+     "src": "I Heart Wags",
+     "srcUrl": "https://www.iheartwags.com/2026/11/1108-1114.html"
+    }
+   ]
+  },
+  {
+   "id": "wag-pg-laundry",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Laundry mix: Bounce sheets, Tide Pods, Downy scent beads (4 items)",
+   "buy": 4,
+   "pay": 17.0,
+   "final": 3.0,
+   "per": "Tide Pods about 21¢ a load",
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5 each"
+    },
+    {
+     "t": "coupon",
+     "x": "$1 off each: Bounce sheets, Tide Pods, Downy beads"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Register Rewards when you buy 4"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wag-purex-detergent",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "Purex liquid laundry detergent, 40 oz",
+   "buy": 2,
+   "pay": 8.99,
+   "final": 4.5,
+   "per": "13¢ a load",
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 1, get 1 free ($8.99)"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wag-all-detergent",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Laundry & cleaning",
+   "item": "All liquid laundry detergent, 30 oz",
+   "buy": 2,
+   "pay": 8.99,
+   "final": 4.5,
+   "per": "19¢ a load",
+   "steps": [
+    {
+     "t": "sale",
+     "x": "Buy 1, get 1 free ($8.99)"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wag-colgate-sensitive",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Personal care",
+   "item": "Colgate Sensitive toothpaste, 6 oz",
+   "buy": 2,
+   "pay": 10.0,
+   "final": 2.5,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5 each"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Register Rewards when you buy 2"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wag-tresemme",
+   "store": "Walgreens",
+   "kind": "drugstore",
+   "cat": "Beauty",
+   "item": "TRESemmé shampoo, 28 oz",
+   "buy": 3,
+   "pay": 12.0,
+   "final": 2.33,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6 each"
+    },
+    {
+     "t": "coupon",
+     "x": "$6 off 3 TRESemmé"
+    },
+    {
+     "t": "rewards",
+     "x": "Get $5 Register Rewards when you buy 2"
+    }
+   ],
+   "ends": "2026-11-14",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walgreens-weekly-ad"
+  },
+  {
+   "id": "wmt-tide-to-go-pen",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Laundry & cleaning",
+   "item": "Tide To Go jumbo stain pen",
+   "buy": 1,
+   "pay": 5.97,
+   "final": 0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$5.97"
+    },
+    {
+     "t": "rebate",
+     "x": "100% back ($5.97) in Fetch"
+    }
+   ],
+   "limit": "Rebates while they last",
+   "checked": "2026-11-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-stove-top",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Stove Top stuffing mix, 6 oz",
+   "buy": 1,
+   "pay": 1.5,
+   "final": 0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$1.50"
+    },
+    {
+     "t": "rebate",
+     "x": "$3.22 back in Ibotta (small moneymaker)"
+    }
+   ],
+   "limit": "Rebates while they last",
+   "checked": "2026-11-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-takis-cheezy-blast",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Takis Cheezy Blast Pix snacks",
+   "buy": 2,
+   "pay": 6.94,
+   "final": 0.77,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$6.94 for 2"
+    },
+    {
+     "t": "rebate",
+     "x": "$4.40 back in Fetch"
+    },
+    {
+     "t": "rebate",
+     "x": "$1 Walmart Cash"
+    }
+   ],
+   "limit": "Rebates while they last",
+   "checked": "2026-11-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-beef-stick",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Food",
+   "item": "Good Warrior beef stick, 1 oz",
+   "buy": 1,
+   "pay": 2.56,
+   "final": 0,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$2.56"
+    },
+    {
+     "t": "rebate",
+     "x": "100% back ($2.56) in Fetch"
+    }
+   ],
+   "limit": "Rebates while they last",
+   "checked": "2026-11-08",
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
+  },
+  {
+   "id": "wmt-gold-bond-hand-cream",
+   "store": "Walmart",
+   "kind": "grocery",
+   "cat": "Personal care",
+   "item": "Gold Bond hand cream, 3 oz",
+   "buy": 1,
+   "pay": 4.97,
+   "final": 1.47,
+   "steps": [
+    {
+     "t": "sale",
+     "x": "$4.97"
+    },
+    {
+     "t": "rebate",
+     "x": "$3.50 Walmart Cash"
+    }
+   ],
+   "limit": "Rebates while they last",
+   "checked": "2026-11-08",
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/store-hacks/walmart-weekly-ad"
   }
