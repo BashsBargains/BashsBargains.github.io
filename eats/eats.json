@@ -1,5 +1,5 @@
 {
- "updated": 1793876184436,
+ "updated": 1794221645357,
  "deals": [
   {
    "id": "chipotle-brisket-free-delivery-nov-2026",
@@ -18,7 +18,7 @@
    "link": "https://newsroom.chipotle.com/2026-10-26-CHIPOTLE-TO-BRING-BACK-MESQUITE-SMOKED-BRISKET-FOR-THE-HEART-OF-FOOTBALL-SEASON",
    "linkText": "See Chipotle's brisket deal",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "popeyes-monday-free-wings",
@@ -38,9 +38,9 @@
    "link": "https://www.popeyes.com/",
    "linkText": "Go to Popeyes",
    "official": false,
-   "src": "The Krazy Coupon Lady",
-   "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
-   "checked": "2026-11-05"
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-9/",
+   "checked": "2026-11-09"
   },
   {
    "id": "mcdonalds-8-qpc-meal-nov-2026",
@@ -61,14 +61,14 @@
    "official": false,
    "src": "Sporked",
    "srcUrl": "https://sporked.com/?p=81139",
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
    "chain": "Wawa",
    "cat": "Coffee",
-   "offer": "Fall iced espresso and matcha drinks from $3",
-   "how": "Fall iced lattes and matchas (like the Pumpkin Brûlée Iced Latte, Pumpkin Iced Matcha and S'mores Iced Latte) start at $3 at Wawa stores.",
+   "offer": "All iced espresso and matcha drinks from $3",
+   "how": "Through Nov 29, every Wawa iced espresso and matcha drink starts at $3, including the fall flavors and the new holiday drinks. Bigger sizes and add-ons like cold foam cost more. Smoothies and hot chocolate aren't included.",
    "where": [
     "In store"
    ],
@@ -78,7 +78,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -95,7 +95,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -113,7 +113,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "outback-kids-eat-free",
@@ -132,7 +132,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -149,7 +149,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "outback-tuesday-tails",
@@ -166,27 +166,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "subway-bogo-footlong-sandwich-day-2026",
-   "chain": "Subway",
-   "cat": "Sandwiches",
-   "offer": "Buy one footlong, get one free",
-   "how": "Through Nov 8, Subway's early National Sandwich Day deal. Free Subway Rewards (Sub Club) members apply the offer in the app, then order in the Subway app or online; in-store orders don't count. The free footlong must be equal or lesser price, and it's one use per account. Excludes Fresh Fit, Deli Faves, 5 Meat Italian and Big Hot Pastrami. Not on third-party delivery apps.",
-   "where": [
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Join Sub Club and order in the Subway app or online.",
-   "start": "2026-10-27",
-   "ends": "2026-11-08",
-   "link": "https://newsroom.subway.com/2026-10-21-Subway-R-Moves-Up-National-Sandwich-Day-to-Tuesday,-Oct-27-and-Brings-Back-the-Fritos-R-Chicken-Enchilada-Sub",
-   "linkText": "See Subway's deal",
-   "official": true,
-   "checked": "2026-11-05"
+   "checked": "2026-11-09"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -205,9 +185,347 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-9/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "shake-shack-chicken-sundays",
+   "chain": "Shake Shack",
+   "cat": "Chicken",
+   "offer": "Free Chicken Shack or lettuce wrap with a $10+ order on Sundays",
+   "how": "Every Sunday through Dec 27, 10am–10pm. Use the code at an in-Shack kiosk, in the Shake Shack app or on shakeshack.com. You need at least $10 of other food or drinks; one free item per order and paid add-ons cost extra. Not valid at drive-thrus, airports or stadiums, or on third-party delivery apps.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "CHICKENSUNDAY",
+   "repeat": "Every Sunday",
+   "ends": "2026-12-27",
+   "link": "https://shakeshack.com/national-regional-offers",
+   "linkText": "See Shake Shack's offers",
+   "official": false,
+   "checked": "2026-11-09",
    "src": "Living On The Cheap",
-   "srcUrl": "https://livingonthecheap.com/half-price-daves-single-wendys-weekly-saturday-college-football/",
-   "checked": "2026-11-05"
+   "srcUrl": "https://livingonthecheap.com/shake-shack-free-chicken-sandwich-lettuce-wrap-deal-promo-code/"
+  },
+  {
+   "id": "applebees-veterans-day-2026",
+   "chain": "Applebee's",
+   "cat": "Family",
+   "offer": "Free entrée for veterans and active duty on Veterans Day",
+   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a special Veterans Day menu. Dine-in only, proof of service required, drinks and tip not included. Participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show proof of service and ask for the Veterans Day menu.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.applebees.com/",
+   "linkText": "Go to Applebee's",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "chilis-veterans-day-2026",
+   "chain": "Chili's",
+   "cat": "Family",
+   "offer": "Free entrée for veterans and active duty on Veterans Day",
+   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a select Veterans Day menu. Dine-in only, ID required, participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID and ask for the Veterans Day menu.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.chilis.com/",
+   "linkText": "Go to Chili's",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "red-robin-veterans-day-2026",
+   "chain": "Red Robin",
+   "cat": "Burgers",
+   "offer": "Free Red's Big Tavern Burger with bottomless fries for veterans",
+   "how": "Nov 11 only. Veterans and active-duty military get a free Red's Big Tavern Burger with Bottomless Steak Fries. Dine-in only, military ID or proof of service required, participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID or proof of service.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.redrobin.com/",
+   "linkText": "Go to Red Robin",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "chipotle-veterans-day-2026",
+   "chain": "Chipotle",
+   "cat": "Mexican",
+   "offer": "Free chips and guac, queso or salsa for veterans with $5 purchase",
+   "how": "Nov 11 only. Veterans and active-duty military with ID get free chips plus guacamole, queso blanco or salsa with a $5+ purchase. Participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID at the register.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.chipotle.com/",
+   "linkText": "Go to Chipotle",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "starbucks-veterans-day-2026",
+   "chain": "Starbucks",
+   "cat": "Coffee",
+   "offer": "Free tall brewed coffee for veterans, service members and spouses",
+   "how": "Nov 11 only. Veterans, service members and military spouses get a free tall (12 oz) hot or iced brewed coffee at participating stores.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just tell the barista you're a veteran, service member or military spouse.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.starbucks.com/",
+   "linkText": "Go to Starbucks",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "shake-shack-shack-sundays-2026",
+   "chain": "Shake Shack",
+   "cat": "Burgers",
+   "offer": "Free ShackBurger, chicken sandwich or 6 chicken bites with a $10+ order on Sundays",
+   "how": "Every Sunday through Dec 27. Pick one free item (ShackBurger, Chicken Shack, West Coast Chicken Sandwich or 6-piece chicken bites) when you have at least $10 of other food or drinks. Kiosk orders in the Shack, or pickup and delivery in the Shake Shack app or website. One per order, max $9.99 off. Not at drive-thrus, airports or stadiums, or on third-party delivery apps.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "SHACKSUNDAY",
+   "repeat": "Every Sunday",
+   "ends": "2026-12-27",
+   "link": "https://shakeshack.com/promotion-terms",
+   "linkText": "See Shake Shack's offers",
+   "official": false,
+   "src": "Seattle on the Cheap",
+   "srcUrl": "https://www.greaterseattleonthecheap.com/shake-shack-brings-back-shack-sundays-with-four-free-items-every-sunday/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "outback-veterans-day-2026",
+   "chain": "Outback Steakhouse",
+   "cat": "Family",
+   "offer": "Free Bloomin' Onion and a drink for veterans and active duty, Nov 10–11",
+   "how": "Nov 10 and 11 only. Active, retired and veteran military get a free Bloomin' Onion and a free Coke product or domestic draft. Dine in or call in a to-go order (not online or delivery apps). Dine Rewards members who dine in also get a free Hero's Meal to use Nov 16 through May 2, 2027. Participating locations.",
+   "where": [
+    "In store",
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Tell your server you served.",
+   "start": "2026-11-10",
+   "ends": "2026-11-11",
+   "link": "https://www.outback.com/offers/military-mates",
+   "linkText": "See Outback's Veterans Day offer",
+   "official": true,
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "wawa-veterans-day-coffee-2026",
+   "chain": "Wawa",
+   "cat": "Coffee",
+   "offer": "Free coffee for veterans, active duty and their families on Veterans Day",
+   "how": "Nov 11 only. Veterans, active-duty military and their families get a free hot or iced coffee, any size, at Wawa stores.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just tell the cashier you served.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.wawa.com/",
+   "linkText": "Go to Wawa",
+   "official": false,
+   "src": "Stars and Stripes",
+   "srcUrl": "https://www.stripes.com/veterans/2026-11-06/veterans-day-2026-deals-discounts-23362467.html",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "dunkin-veterans-day-2026",
+   "chain": "Dunkin'",
+   "cat": "Coffee",
+   "offer": "Free donut for veterans and active military on Veterans Day",
+   "how": "Nov 11 only. Active and retired military get one free donut in store, while supplies last. Not on mobile app orders.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just ask at the counter.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.dunkindonuts.com/",
+   "linkText": "Go to Dunkin'",
+   "official": false,
+   "src": "Military.com",
+   "srcUrl": "https://www.military.com/veterans-day/restaurants-veterans-day-military-discounts.html",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "dennys-veterans-day-2026",
+   "chain": "Denny's",
+   "cat": "Breakfast",
+   "offer": "Free Original Grand Slam for veterans and active duty",
+   "how": "Nov 11 only, from opening until noon. Veterans and active-duty military get a free Original Grand Slam. Dine-in, military ID or proof of service required, participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show military ID or proof of service.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.dennys.com/",
+   "linkText": "Go to Denny's",
+   "official": false,
+   "src": "VA News",
+   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "olive-garden-veterans-day-2026",
+   "chain": "Olive Garden",
+   "cat": "Family",
+   "offer": "Free entrée for veterans and active duty on Veterans Day",
+   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a special menu (dishes like chicken parm and fettuccine alfredo). Dine-in only, proof of service required.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Show proof of service and ask for the Veterans Day menu.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.olivegarden.com/",
+   "linkText": "Go to Olive Garden",
+   "official": false,
+   "src": "Military.com",
+   "srcUrl": "https://www.military.com/veterans-day/restaurants-veterans-day-military-discounts.html",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "texas-roadhouse-veterans-day-2026",
+   "chain": "Texas Roadhouse",
+   "cat": "Family",
+   "offer": "Free meal voucher for veterans and active duty",
+   "how": "Nov 11, 11am–2pm, veterans and active-duty military pick up a voucher for a free meal (one of 10 entrées, two sides and a drink) to use later, through May 31, 2027. Proof of service required (military or VA card, or discharge papers). Participating locations.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Stop by 11am–2pm on Nov 11 with proof of service.",
+   "start": "2026-11-11",
+   "ends": "2026-11-11",
+   "link": "https://www.texasroadhouse.com/",
+   "linkText": "Go to Texas Roadhouse",
+   "official": false,
+   "src": "Military.com",
+   "srcUrl": "https://www.military.com/veterans-day/restaurants-veterans-day-military-discounts.html",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "applebees-nfl-wing-ticket-2026",
+   "chain": "Applebee's",
+   "cat": "Chicken",
+   "offer": "6 free boneless wings every week with a $15 online order",
+   "how": "Through Jan 10, 2027. Club Applebee's members get a new code by email every Sunday, good Sunday–Thursday that week for 6 free Boneless Wings on an online or app To Go order of $15+ (not counting alcohol, tax, fees or tip). One per week. Not on third-party delivery apps. Free to join.",
+   "where": [
+    "Pickup",
+    "App"
+   ],
+   "code": "",
+   "ask": "No public code. Join Club Applebee's and use the code they email you each Sunday.",
+   "repeat": "Every week (Sun–Thu)",
+   "ends": "2027-01-10",
+   "link": "https://investors.dinebrands.com/news-releases/news-release-details/applebeesr-introduces-nfl-season-wing-ticket-free-boneless-wings",
+   "linkText": "See Applebee's wing deal",
+   "official": true,
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "papa-johns-free-pizza-review-nov-2026",
+   "chain": "Papa John's",
+   "cat": "Pizza",
+   "offer": "Free large 1-topping pizza for posting a photo review",
+   "how": "Nov 9–22. Place a $15+ order, then upload an unedited photo of your pizza and an honest review to earn a free large one-topping pizza in Papa Rewards. Use it on a later order of $5+.",
+   "where": [
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Order as a Papa Rewards member and look for the review prompt.",
+   "start": "2026-11-09",
+   "ends": "2026-11-22",
+   "link": "https://www.papajohns.com/specials/",
+   "linkText": "See Papa John's specials",
+   "official": false,
+   "src": "Parade",
+   "srcUrl": "https://parade.com/food/papa-johns-free-large-pizza-november-2026",
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "papa-johns-899-carryout",
+   "chain": "Papa John's",
+   "cat": "Pizza",
+   "offer": "Large 1-topping pizza from $8.99 for carryout",
+   "how": "Carryout special: a large one-topping pizza starts at $8.99. Prices vary by location and some toppings cost extra. Can't be combined with other coupons.",
+   "where": [
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Choose the 1-Topping Carryout Special when you order.",
+   "link": "https://www.papajohns.com/specials/",
+   "linkText": "See Papa John's specials",
+   "official": true,
+   "checked": "2026-11-09"
+  },
+  {
+   "id": "wendys-799-daves-single-combo",
+   "chain": "Wendy's",
+   "cat": "Burgers",
+   "offer": "$7.99 Dave's Single, small fry and small drink",
+   "how": "For a limited time, a Dave's Single with a small fry and small soft drink is $7.99. No offer needed. Prices vary and are higher on delivery.",
+   "where": [
+    "In store",
+    "Pickup",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Just ask for the $7.99 Dave's Single combo.",
+   "link": "https://www.wendys.com/offers-coupons",
+   "linkText": "See Wendy's deals",
+   "official": true,
+   "checked": "2026-11-09"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -614,126 +932,6 @@
    "area": "Montco",
    "checked": "2026-11-02",
    "srcDate": "Oct 2026"
-  },
-  {
-   "id": "shake-shack-chicken-sundays",
-   "chain": "Shake Shack",
-   "cat": "Chicken",
-   "offer": "Free Chicken Shack with a $10+ order on Sundays",
-   "how": "Every Sunday through Dec 27. Use the code at an in-Shack kiosk, in the Shake Shack app or on shakeshack.com. You need at least $10 of other food or drinks in the order; one free sandwich per order. Not valid at drive-thrus, airports or stadiums, or on third-party delivery apps.",
-   "where": [
-    "In store",
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "CHICKENSUNDAY",
-   "repeat": "Every Sunday",
-   "ends": "2026-12-27",
-   "link": "https://shakeshack.com/national-regional-offers",
-   "linkText": "See Shake Shack's offers",
-   "official": true,
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "applebees-veterans-day-2026",
-   "chain": "Applebee's",
-   "cat": "Family",
-   "offer": "Free entrée for veterans and active duty on Veterans Day",
-   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a special Veterans Day menu. Dine-in only, proof of service required, drinks and tip not included. Participating locations.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Show proof of service and ask for the Veterans Day menu.",
-   "start": "2026-11-11",
-   "ends": "2026-11-11",
-   "link": "https://www.applebees.com/",
-   "linkText": "Go to Applebee's",
-   "official": false,
-   "src": "VA News",
-   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "chilis-veterans-day-2026",
-   "chain": "Chili's",
-   "cat": "Family",
-   "offer": "Free entrée for veterans and active duty on Veterans Day",
-   "how": "Nov 11 only. Veterans and active-duty military get a free entrée from a select Veterans Day menu. Dine-in only, ID required, participating locations.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Show military ID and ask for the Veterans Day menu.",
-   "start": "2026-11-11",
-   "ends": "2026-11-11",
-   "link": "https://www.chilis.com/",
-   "linkText": "Go to Chili's",
-   "official": false,
-   "src": "VA News",
-   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "red-robin-veterans-day-2026",
-   "chain": "Red Robin",
-   "cat": "Burgers",
-   "offer": "Free Red's Big Tavern Burger with bottomless fries for veterans",
-   "how": "Nov 11 only. Veterans and active-duty military get a free Red's Big Tavern Burger with Bottomless Steak Fries. Dine-in only, military ID or proof of service required, participating locations.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Show military ID or proof of service.",
-   "start": "2026-11-11",
-   "ends": "2026-11-11",
-   "link": "https://www.redrobin.com/",
-   "linkText": "Go to Red Robin",
-   "official": false,
-   "src": "VA News",
-   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "chipotle-veterans-day-2026",
-   "chain": "Chipotle",
-   "cat": "Mexican",
-   "offer": "Free chips and guac, queso or salsa for veterans with $5 purchase",
-   "how": "Nov 11 only. Veterans and active-duty military with ID get free chips plus guacamole, queso blanco or salsa with a $5+ purchase. Participating locations.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Show military ID at the register.",
-   "start": "2026-11-11",
-   "ends": "2026-11-11",
-   "link": "https://www.chipotle.com/",
-   "linkText": "Go to Chipotle",
-   "official": false,
-   "src": "VA News",
-   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
-   "checked": "2026-11-05"
-  },
-  {
-   "id": "starbucks-veterans-day-2026",
-   "chain": "Starbucks",
-   "cat": "Coffee",
-   "offer": "Free tall brewed coffee for veterans, service members and spouses",
-   "how": "Nov 11 only. Veterans, service members and military spouses get a free tall (12 oz) hot or iced brewed coffee at participating stores.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Just tell the barista you're a veteran, service member or military spouse.",
-   "start": "2026-11-11",
-   "ends": "2026-11-11",
-   "link": "https://www.starbucks.com/",
-   "linkText": "Go to Starbucks",
-   "official": false,
-   "src": "VA News",
-   "srcUrl": "https://news.va.gov/150505/2026-veterans-day-discounts-free-meals-offers/",
-   "checked": "2026-11-05"
   }
  ],
  "apps": [],
