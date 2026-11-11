@@ -200,7 +200,7 @@ function chips(){
 function render(){
   /* The Woot chip shows the Woot box in place of the deal list */
   const w=store==="Woot";$("feed").hidden=w;
-  if(w){$("count").textContent="Woot's deals change every day";return}
+  if(w){$("count").textContent="Woot's deals change every day";$("woot").scrollIntoView({behavior:"smooth",block:"start"});return}
   const cutoff=Date.now()-48*3600*1000,q=$("q").value.trim().toLowerCase();
   const fresh=deals.filter(d=>(d.at||0)>=cutoff&&!(d.expires&&d.expires<=Date.now()));
   let list=fresh.filter(d=>(store==="All"||d.store===store)&&(!q||[d.item,d.store,d.notes].join(" ").toLowerCase().includes(q)));
