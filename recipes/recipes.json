@@ -1,6 +1,77 @@
 {
  "recipes": [
   {
+   "id": "cuban-mojo-pork-black-beans",
+   "week": "2026-11-11",
+   "name": "Cuban mojo pork loin with garlicky black beans & rice",
+   "blurb": "Pork loin soaked in a bright, garlicky citrus mojo, roasted and sliced thin, then drizzled with more mojo over rice and black beans. Big flavor for about $1.50 a plate, thanks to ShopRite's $1.49/lb pork loin.",
+   "serves": 6,
+   "total": 9,
+   "cal": 640,
+   "protein": 51,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "2½ lb",
+     "item": "boneless pork loin (cut from the combo pack; freeze the rest)",
+     "store": "ShopRite",
+     "price": 1.49,
+     "note": "$1.49/lb, ShopRite sale thru Nov 14"
+    },
+    {
+     "qty": "2 cans",
+     "item": "Bush's black beans, drained",
+     "store": "Acme",
+     "price": 1.67,
+     "note": "3 for $5, Acme sale thru Nov 12"
+    },
+    {
+     "qty": "1",
+     "item": "orange (juice + a little zest)"
+    },
+    {
+     "qty": "2",
+     "item": "limes, plus wedges for serving"
+    },
+    {
+     "qty": "8 cloves",
+     "item": "garlic, minced (split)"
+    },
+    {
+     "qty": "½",
+     "item": "yellow onion, diced",
+     "store": "Acme",
+     "price": 1.49,
+     "note": "from the $1.49 bag"
+    },
+    {
+     "qty": "1½ cups",
+     "item": "uncooked long-grain white rice"
+    },
+    {
+     "qty": "4 tbsp",
+     "item": "olive oil (split)"
+    },
+    {
+     "qty": "",
+     "item": "cilantro or green onions, chopped (optional)"
+    },
+    {
+     "qty": "",
+     "item": "seasoning: 2½ tsp cumin (split), 2 tsp dried oregano, 1 bay leaf, 1½ tsp salt, ½ tsp pepper, pinch of red pepper flakes"
+    }
+   ],
+   "steps": [
+    "Make the mojo: whisk the juice of the orange and 2 limes, a little orange zest, 6 minced garlic cloves, 3 tbsp olive oil, 2 tsp cumin, the oregano, salt, pepper and red pepper flakes. Set half aside for serving.",
+    "Pour the other half over the pork and marinate at least 30 minutes, or overnight in the fridge for the most flavor.",
+    "Roast the pork on a foil-lined pan at 400°F for 45–55 minutes, until the center reads 145°F. Rest 10 minutes, then slice thin.",
+    "Meanwhile cook the rice. In a saucepan, soften the onion and the last 2 garlic cloves in 1 tbsp oil, then add the beans, ½ tsp cumin, the bay leaf and ½ cup water. Simmer 10 minutes, mashing a few beans to thicken, and finish with a squeeze of lime.",
+    "Spoon the reserved mojo over the sliced pork. Serve over rice with the beans, lime wedges and cilantro."
+   ],
+   "type": "Dinner",
+   "season": "Any season"
+  },
+  {
    "id": "cajun-garlic-butter-shrimp-sausage",
    "week": "2026-10-28",
    "name": "Cajun garlic-butter shrimp & sausage over rice",
