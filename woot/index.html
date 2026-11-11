@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Woot Search · Bash's Bargains</title>
+<meta name="description" content="Search every Woot deal, sorted the way you want: biggest % off, lowest price or newest. Sold-out items hidden.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Bash's Bargains">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#f7d64a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bash's Bargains">
+<meta property="og:title" content="Woot Search · Bash's Bargains">
+<meta property="og:description" content="Search every Woot deal, sorted the way you want: biggest % off, lowest price or newest. Sold-out items hidden.">
+<meta property="og:url" content="https://bashsbargains.github.io/woot/">
+<meta property="og:image" content="https://bashsbargains.github.io/og/fall.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: one narrow column of price-tag cards; sticky store filter; read-only */
+:root{
+  --bg:#f3f4f7; --card:#ffffff; --ink:#18213a; --muted:#5d6680; --line:#dde1ea;
+  --tag:#f7d64a; --tag-ink:#2a2300; --accent:#2848c9; --good:#1c7a46;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141c; --card:#1a1f2b; --ink:#e9ecf4; --muted:#9aa3b8; --line:#2b3242;
+  --tag:#e9c73a; --tag-ink:#231c00; --accent:#8aa2ff; --good:#5ccc8c; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:20px 48px;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1.05;margin:0;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted)}
+.sticker{display:inline-block;background:var(--tag);color:var(--tag-ink);font-family:var(--mono);font-weight:600;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;transform:rotate(-2deg);margin-bottom:8px}
+button,input,select{font:inherit;color:inherit}
+.filters{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:8px;display:flex;flex-direction:column;gap:8px;z-index:2}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.search{flex:1 1 180px;min-width:0;border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px 12px}
+select{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:10px}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,.search:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.count{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.feed{display:flex;flex-direction:column;gap:10px}
+.deal{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+.deal h2{margin:0;font-size:1rem;font-weight:600;min-width:0;overflow-wrap:anywhere}
+.where{color:var(--muted);font-size:.85rem;grid-column:1}
+.price{grid-column:2;grid-row:1 / span 2;text-align:right;font-family:var(--mono)}
+.now{display:block;background:var(--tag);color:var(--tag-ink);font-weight:600;font-size:1.05rem;padding:2px 8px;border-radius:4px}
+.was{display:block;color:var(--muted);text-decoration:line-through;font-size:.8rem;margin-top:3px}
+.off{display:block;color:var(--good);font-weight:600;font-size:.8rem}
+.notes{grid-column:1 / -1;font-size:.9rem;margin-top:4px;overflow-wrap:anywhere}
+.meta{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.78rem;color:var(--muted);margin-top:6px}
+.meta a{color:var(--accent)}
+.shop{grid-column:1 / -1;justify-self:start;display:inline-block;margin-top:8px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:600;font-size:.9rem;border-radius:10px;padding:8px 14px}
+.shop:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.empty{text-align:center;color:var(--muted);padding:32px 12px;border:1px dashed var(--line);border-radius:12px}
+.foot{font-size:.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+
+body{margin:0}
+.home{display:inline-flex;align-items:center;gap:4px;color:var(--accent);text-decoration:none;font-size:.9rem;font-weight:500;margin-bottom:10px}
+.home:hover{text-decoration:underline}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:18px}
+.mark{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:800;font-size:1rem}
+.mark img{width:26px;height:26px}
+.bar nav{display:flex;gap:14px;font-size:.88rem;font-weight:500;flex-wrap:wrap}
+.bar nav a{text-decoration:none;color:var(--muted)}
+.bar nav a[aria-current="page"]{color:var(--ink);text-decoration:underline;text-decoration-color:var(--tag);text-decoration-thickness:3px;text-underline-offset:4px}
+.bar a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.foot a{color:var(--accent)}
+.woot{background:var(--card);border:1.5px dashed var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.woot-k{margin:0;font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.woot h2{margin:0;font-family:var(--display);font-weight:800;font-size:1.2rem}
+.woot p{margin:0;font-size:.9rem;color:var(--muted)}
+.woot .shop{margin-top:6px}
+.wsearch{display:flex;gap:8px;margin-top:6px}
+.wsearch input{flex:1;min-width:0;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;font-size:1rem;min-height:44px}
+.wsearch button{border:0;background:var(--accent);color:#fff;font-weight:600;border-radius:10px;padding:0 16px;min-height:44px;cursor:pointer}
+.wsearch input:focus-visible,.wsearch button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wnote{font-size:.8rem!important}
+
+/* More menu */
+.bar nav{align-items:center}
+.bar nav{position:relative;column-gap:12px;row-gap:6px}
+.nav-more{position:static}
+.nav-more summary{list-style:none;cursor:pointer;color:var(--muted)}
+.nav-more summary::-webkit-details-marker{display:none}
+.nav-more summary::after{content:" \25BE"}
+.nav-more[open] summary,.nav-more.cur summary{color:var(--ink);font-weight:600}
+.nav-more>div{position:absolute;right:0;top:calc(100% + 8px);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px;display:flex;flex-direction:column;min-width:170px;box-shadow:0 12px 28px -14px rgba(24,33,58,.45);z-index:20}
+.nav-more>div a{padding:10px 12px;border-radius:8px;color:var(--ink)!important;text-decoration:none!important}
+.nav-more>div a:hover{background:var(--bg)}
+
+/* Easy-reading overrides (site-wide) */
+:root{--ok:#17703d}
+.bar{align-items:flex-start}
+.bar nav{display:flex!important;flex-wrap:wrap;gap:0 2px!important;margin-left:-9px;font-size:1rem!important;font-weight:500;width:100%}
+.bar nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 9px;border-radius:999px;color:var(--ink)!important;text-decoration:none;font-size:.95rem}
+.bar nav a[aria-current]{background:var(--ink);color:var(--bg)!important;border-color:var(--ink);font-weight:600}
+.bar nav a[aria-current]::after{display:none}
+.mark{min-height:44px}
+.foot{font-size:.95rem!important}
+.foot a{display:inline-block;padding:6px 0}
+.lab,.eyebrow,.more-k,.seas-k{font-family:var(--body)!important;font-size:.9rem!important;letter-spacing:.01em!important;text-transform:none!important;font-weight:600}
+.badge,.pill,.how-tag,.flag{font-family:var(--body)!important;font-size:.82rem!important;text-transform:none!important;letter-spacing:0!important}
+.src,.meta,.m-foot,.place,.hook{font-size:.9rem!important}
+.src a,.meta a,.place a,.links a{display:inline-block;padding:8px 0}
+.place a{color:var(--accent);font-weight:600}
+.chip{min-height:44px;font-size:.95rem}
+.chips{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs,.tabs{flex-wrap:wrap!important;overflow:visible!important}
+.eats-tabs a,.eats-tabs button{min-height:44px}
+.add{padding:10px 12px!important;font-size:.95rem!important;min-height:44px}
+.qk button{border-style:solid!important;background:var(--card)!important;color:var(--ink)!important;padding:8px 14px!important;font-size:.95rem!important;min-height:44px}
+.was,.cpn,.fin small,.tab .n{font-size:.85rem!important}
+.dates,.lnk span,.lnk .ltip{font-size:.9rem!important}
+.k,.ok{font-size:.8rem!important;text-transform:none!important;letter-spacing:0!important}
+.kv dt,dl dt{font-family:var(--body)!important;font-size:.85rem!important;text-transform:none!important;letter-spacing:0!important}
+.date b{font-size:.8rem!important}
+.more-row small,.tile small{font-size:.9rem!important}
+.crew-btns a{min-height:44px;display:inline-flex;align-items:center}
+
+.cats{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+.tog{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem}
+.tog label{display:flex;align-items:center;gap:6px;min-height:36px}
+.w{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;display:grid;grid-template-columns:76px 1fr;gap:4px 12px;color:inherit;text-decoration:none}
+.w .ph{grid-row:1 / span 3;width:76px;height:76px;background:var(--bg);border-radius:8px}
+.w img{grid-row:1 / span 3;width:76px;height:76px;object-fit:contain;background:#fff;border-radius:8px}
+.w h2{margin:0;font-size:.98rem;font-weight:600;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.w .pr{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-family:var(--mono)}
+.w .pr .now{display:inline-block}
+.w .pr .was,.w .pr .off{display:inline}
+.w .sub{font-size:.82rem;color:var(--muted)}
+.w.out{opacity:.55}
+.more-btn{align-self:center;border:1px solid var(--ink);background:var(--card);border-radius:10px;padding:10px 18px;min-height:44px;font-weight:600;cursor:pointer}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:18px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--ink);margin-bottom:4px}
+.empty a{color:var(--accent)}
+</style>
+</head>
+<body><div class="wrap">
+  <header>
+    <div class="bar"><a class="mark" href="/"><img src="/favicon.svg" alt="" width="26" height="26">Bash's Bargains</a><nav aria-label="Sections"><a href="/">Home</a><a href="/deals/">Clearance</a><a href="/grocery/">Grocery</a><a href="/recipes/">Recipes</a><a href="/coupons/">Coupons</a><a href="/eats/">Restaurants</a><a href="/events/">Events</a><a href="/local/">Near You</a><a href="/holiday/">Black Friday</a><a href="/price-match/">Price Match</a><a href="/search/">🔍 Search</a><a href="/about/">About</a></nav></div>
+    <h1>Woot Search</h1>
+    <p>Every live Woot deal in one list, sorted the way you want. Tap any item to buy it on Woot. Read the condition first: lots are refurbished or open-box.</p>
+  </header>
+
+  <div class="filters">
+    <div class="row">
+      <input class="search" id="q" type="search" placeholder="Search Woot: AirPods, vacuum, TV…" aria-label="Search Woot products" autocomplete="off">
+      <select id="sort" aria-label="Sort">
+        <option value="off">Biggest % off</option>
+        <option value="cheap">Lowest price</option>
+        <option value="high">Highest price</option>
+        <option value="new">Newest</option>
+        <option value="end">Ending soon</option>
+      </select>
+    </div>
+    <div class="cats" id="cats" role="group" aria-label="Filter by category"></div>
+    <div class="tog">
+      <label><input type="checkbox" id="newonly"> New condition only</label>
+      <label><input type="checkbox" id="showout"> Show sold out</label>
+    </div>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div class="feed" id="feed"><div class="empty">Loading Woot deals…</div></div>
+  <button class="more-btn" id="more" type="button" hidden>Show more</button>
+</div>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+let all=[],cat="All",shown=40;
+const params=new URLSearchParams(location.search);
+if(params.get("q"))$("q").value=params.get("q");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const money=n=>"$"+Number(n).toFixed(2).replace(/\.00$/,"");
+const pct=o=>o.was?Math.round((1-o.price/o.was)*100):0;
+const t=s=>s?Date.parse(s)||0:0;
+function cats(){
+  const counts={};all.forEach(o=>(o.cats||[]).forEach(c=>counts[c]=(counts[c]||0)+1));
+  const list=["All",...Object.keys(counts).sort((a,b)=>counts[b]-counts[a])];
+  $("cats").innerHTML="";
+  list.forEach(c=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=c;
+    b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;shown=40;cats();render()};$("cats").appendChild(b)});
+}
+function render(){
+  const words=$("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const now=Date.now();
+  let list=all.filter(o=>($("showout").checked||!o.soldout)&&!(o.end&&t(o.end)&&t(o.end)<now)
+    &&(cat==="All"||(o.cats||[]).includes(cat))
+    &&(!$("newonly").checked||/^new/i.test(o.cond))
+    &&words.every(w=>(o.title+" "+o.cond+" "+(o.cats||[]).join(" ")).toLowerCase().includes(w)));
+  const s=$("sort").value;
+  list.sort(s==="cheap"?(a,b)=>a.price-b.price:s==="high"?(a,b)=>b.price-a.price:s==="new"?(a,b)=>t(b.start)-t(a.start)
+    :s==="end"?(a,b)=>(t(a.end)||9e15)-(t(b.end)||9e15):(a,b)=>pct(b)-pct(a)||a.price-b.price);
+  if(s==="cheap"||s==="high")list.sort((a,b)=>a.soldout-b.soldout);
+  $("count").textContent=list.length.toLocaleString()+" deal"+(list.length===1?"":"s");
+  if(!list.length){$("feed").innerHTML='<div class="empty"><b>No matches</b>Try fewer or different words, or pick All.</div>';$("more").hidden=true;return}
+  $("feed").innerHTML=list.slice(0,shown).map(o=>`<a class="w${o.soldout?" out":""}" href="${esc(o.url)}" target="_blank" rel="noopener">
+    ${o.img?`<img src="${esc(o.img)}" alt="" loading="lazy" width="76" height="76">`:'<span class="ph"></span>'}
+    <h2>${esc(o.title)}</h2>
+    <div class="pr"><span class="now">${money(o.price)}</span>${o.was?`<span class="was">${money(o.was)}</span><span class="off">${pct(o)}% off</span>`:""}</div>
+    <div class="sub">${esc(o.cond||"")}${o.soldout?" · Sold out":""}</div></a>`).join("");
+  $("more").hidden=list.length<=shown;
+}
+let tm;$("q").addEventListener("input",()=>{clearTimeout(tm);tm=setTimeout(()=>{shown=40;render()},150)});
+["sort","newonly","showout"].forEach(id=>$(id).addEventListener("change",()=>{shown=40;render()}));
+$("more").onclick=()=>{shown+=40;render()};
+fetch("woot.json",{cache:"no-cache"}).then(r=>r.json()).then(j=>{
+  all=Array.isArray(j.offers)?j.offers:[];
+  if(!all.length){$("feed").innerHTML='<div class="empty"><b>Woot search is almost ready</b>The product list is being set up. For now, <a href="https://www.woot.com/alldeals" target="_blank" rel="noopener">see today\'s Woot deals</a>.</div>';$("count").textContent="";return}
+  cats();render();
+}).catch(()=>{$("feed").innerHTML='<div class="empty"><b>Couldn\'t load Woot deals</b>Pull down to refresh, or <a href="https://www.woot.com/alldeals" target="_blank" rel="noopener">go to Woot</a>.</div>'});
+})();
+</script>
+</body>
+</html>

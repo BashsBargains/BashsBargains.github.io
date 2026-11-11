@@ -163,12 +163,11 @@ body{margin:0}
     <p class="woot-k">Also worth a look</p>
     <h2>Woot daily deals</h2>
     <p>Woot is an Amazon-owned deal site with a handful of big markdowns each day, often open-box or refurbished. They sell out within hours, so I don't list them one by one. Check what's up today and read the condition before you buy.</p>
-    <form class="wsearch" id="wsearch" role="search" action="https://www.google.com/search" method="get" target="_blank">
-      <input type="search" id="wq" placeholder="Search Woot: AirPods, vacuum, TV…" aria-label="Search Woot products" autocomplete="off" required>
-      <input type="hidden" name="q" id="wqfull">
+    <form class="wsearch" id="wsearch" role="search" action="/woot/" method="get">
+      <input type="search" id="wq" name="q" placeholder="Search Woot: AirPods, vacuum, TV…" aria-label="Search Woot products" autocomplete="off" required>
       <button type="submit">Search</button>
     </form>
-    <p class="wnote">Searches every Woot product page. Some may be sold out, so look for the Add to Cart button.</p>
+    <p class="wnote">Searches every live Woot deal, sorted by biggest % off. Sold-out items hidden.</p>
     <a class="shop" href="https://www.woot.com/alldeals" target="_blank" rel="noopener">See today's Woot deals →</a>
   </section>
 
@@ -232,8 +231,5 @@ fetch("deals.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()
 </script>
 <script>if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(()=>{}));</script>
 <script src="/season.js" defer></script>
-<script>
-document.getElementById("wsearch").addEventListener("submit",function(){var v=document.getElementById("wq").value.trim();document.getElementById("wqfull").value="site:woot.com "+v});
-</script>
 </body>
 </html>
