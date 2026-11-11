@@ -1,6 +1,18 @@
 {
- "updated": 1794393529477,
+ "updated": 1794393587521,
  "deals": [
+  {
+   "id": "web-target-wildfable-shorts-20261111",
+   "item": "Wild Fable Women's Low-Rise Pull-On Shorts (clearance)",
+   "store": "Target",
+   "price": 6.6,
+   "was": 12,
+   "notes": "Online clearance, about 45% off; sizes/colors vary.",
+   "at": 1794393587521,
+   "src": "Target",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
+  },
   {
    "id": "web-dewalt-metric-hex-key-set-20261111",
    "item": "DeWalt 8-Piece Metric Folding Locking Hex Key Set (DWHT70263M)",
