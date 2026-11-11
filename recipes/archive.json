@@ -2,6 +2,525 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-quesabirria-tacos-consomme-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crispy quesabirria tacos with chile consomm\u00e9 for dipping",
+   "serves": 6,
+   "total": 23,
+   "cal": 810,
+   "protein": 63,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Birria-seasoned beef",
+     "store": "Aldi",
+     "price": 6.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Good & Gather shredded cheese, 8 oz",
+     "store": "Target",
+     "price": 1.99
+    },
+    {
+     "item": "18 corn tortillas"
+    },
+    {
+     "item": "1 bunch cilantro"
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "chili powder",
+    "cumin",
+    "oregano",
+    "bay leaf",
+    "cider vinegar",
+    "beef broth or bouillon",
+    "oil",
+    "salt"
+   ],
+   "steps": [
+    "Pat 2\u00bd lb birria-seasoned beef dry and brown it in 1 Tbsp oil in a Dutch oven over medium-high, about 3 minutes per side.",
+    "Add 1 diced onion, 5 smashed garlic cloves, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp oregano, 1 bay leaf, 1 Tbsp cider vinegar and 3 cups beef broth. Cover and simmer gently 2\u00bd\u20133 hours (or bake at 325\u00b0F) until fork-tender, well past 145\u00b0F.",
+    "Shred the beef. Skim the red fat off the broth into a bowl and season the broth (the consomm\u00e9) with salt and a squeeze of lime.",
+    "Dip each tortilla in the fat, lay it on a hot skillet, top with cheese and beef, fold and crisp 2 minutes per side. Serve with cups of hot consomm\u00e9, chopped onion, cilantro and lime wedges."
+   ]
+  },
+  {
+   "id": "meal-garlic-chili-shrimp-fried-rice-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Garlic-chili shrimp fried rice",
+   "serves": 4,
+   "total": 16,
+   "cal": 530,
+   "protein": 36,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Black tiger shrimp (frozen bag)",
+     "store": "Aldi",
+     "price": 11.99
+    },
+    {
+     "item": "Land O Lakes cage-free large eggs",
+     "store": "ShopRite",
+     "price": 1.99
+    },
+    {
+     "item": "1 bunch green onions"
+    },
+    {
+     "item": "1 cup frozen peas"
+    }
+   ],
+   "pantry": [
+    "rice (cooked and chilled)",
+    "garlic",
+    "soy sauce",
+    "sesame oil",
+    "red pepper flakes",
+    "oil",
+    "butter",
+    "sugar"
+   ],
+   "steps": [
+    "Cook 1\u2153 cups rice the day before (or spread hot rice on a sheet pan and chill 30 minutes) \u2014 you want 4 cups cold rice.",
+    "Thaw and pat dry 1 lb peeled shrimp; toss with 1 tsp soy sauce and \u00bd tsp red pepper flakes. Sear in 1 Tbsp oil over high heat 1\u20132 minutes per side until pink and opaque (145\u00b0F). Remove.",
+    "Scramble 3 beaten eggs in 1 Tbsp butter, then push aside. Add 1 Tbsp oil, 5 minced garlic cloves and the white parts of the green onions; sizzle 30 seconds. Add the rice and peas and fry 4\u20135 minutes without stirring too often so it crisps.",
+    "Stir in 3 Tbsp soy sauce, 1 tsp sugar and 1 tsp sesame oil, fold the shrimp back in and finish with sliced green onion tops and more chili flakes to taste."
+   ]
+  },
+  {
+   "id": "meal-cider-glazed-pork-chops-apples-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Cider-glazed pork chops with Honeycrisp apples and onions over buttered noodles",
+   "serves": 4,
+   "total": 11,
+   "cal": 770,
+   "protein": 58,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Thin-sliced boneless pork chops, family pack",
+     "store": "Aldi",
+     "price": 2.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Honeycrisp apples",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "Bowl & Basket butter",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "1 cup apple cider or apple juice"
+    },
+    {
+     "item": "8 oz egg noodles"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "thyme",
+    "Dijon mustard",
+    "brown sugar",
+    "cider vinegar",
+    "oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Season 2 lb thin pork chops with 1 tsp salt, \u00bd tsp pepper and 1 tsp dried thyme. Sear in 1 Tbsp oil over medium-high 2\u20133 minutes per side until 145\u00b0F; set aside to rest.",
+    "Lower the heat, add 1 Tbsp butter, 1 sliced onion and 2 Honeycrisp apples cut in wedges; cook 6 minutes until golden. Add 2 minced garlic cloves for 30 seconds.",
+    "Stir in 1 cup cider, 1 Tbsp Dijon, 1 Tbsp brown sugar and 1 Tbsp cider vinegar; simmer 4\u20135 minutes until syrupy, then swirl in 1 Tbsp butter.",
+    "Meanwhile boil 8 oz egg noodles and toss with 1 Tbsp butter and a pinch of salt. Return the chops to the pan to coat and serve over the noodles with the apples and glaze."
+   ]
+  },
+  {
+   "id": "meal-chicken-shawarma-bowls-garlic-yogurt-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sheet-pan chicken shawarma bowls with garlic yogurt and tomato-cucumber salad",
+   "serves": 4,
+   "total": 9,
+   "cal": 530,
+   "protein": 47,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Fresh boneless chicken breasts, family pack",
+     "store": "Aldi",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Cherub grape tomatoes",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "1 cup plain Greek yogurt"
+    },
+    {
+     "item": "1 cucumber"
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "olive oil",
+    "cumin",
+    "smoked paprika",
+    "turmeric or curry powder",
+    "cinnamon",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Whisk 3 Tbsp olive oil, juice of \u00bd lemon, 3 minced garlic cloves, 2 tsp cumin, 2 tsp smoked paprika, 1 tsp turmeric, \u00bc tsp cinnamon, 1 tsp salt and \u00bd tsp pepper. Toss 1\u00bd lb chicken breast strips in it and marinate 20 minutes or up to overnight.",
+    "Spread on a sheet pan and roast at 450\u00b0F for 15\u201318 minutes, until the chicken reaches 165\u00b0F and the edges char a little. Meanwhile cook 1 cup rice.",
+    "Garlic yogurt: 1 cup Greek yogurt, 1 grated garlic clove, juice of \u00bd lemon and a pinch of salt. Salad: halve the grape tomatoes, dice the cucumber, toss with a pinch of salt and a drizzle of oil.",
+    "Build bowls of rice, chicken, salad and a big spoon of garlic yogurt; dust with more paprika."
+   ]
+  },
+  {
+   "id": "meal-blackened-salmon-brown-sugar-squash-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Blackened salmon with brown-butter roasted butternut squash",
+   "serves": 4,
+   "total": 18,
+   "cal": 600,
+   "protein": 37,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Fresh skinless Atlantic salmon",
+     "store": "Aldi",
+     "price": 9.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Hard squash (acorn, butternut, spaghetti)",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    }
+   ],
+   "pantry": [
+    "smoked paprika",
+    "garlic powder",
+    "onion powder",
+    "thyme",
+    "oregano",
+    "cayenne",
+    "brown sugar",
+    "butter",
+    "olive oil",
+    "lemon",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Peel and cube a 2\u00bd lb butternut squash; toss with 1 Tbsp olive oil, 1 Tbsp brown sugar, \u00bd tsp salt and a pinch of cayenne. Roast at 425\u00b0F for 25\u201330 minutes, flipping once.",
+    "Mix the blackening rub: 2 tsp smoked paprika, 1 tsp each garlic powder, onion powder and thyme, \u00bd tsp oregano, \u00bd tsp cayenne, 1 tsp salt and \u00bd tsp pepper. Coat 1\u00bd lb salmon (4 portions) on all sides.",
+    "Heat 1 Tbsp oil in a cast-iron skillet over medium-high and cook the salmon 3\u20134 minutes per side until well crusted and 145\u00b0F inside.",
+    "Brown 2 Tbsp butter in the same pan until nutty, add a squeeze of lemon, and spoon it over the squash and salmon."
+   ]
+  },
+  {
+   "id": "meal-hot-honey-buffalo-drumsticks-celery-slaw-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Hot-honey buffalo drumsticks with crunchy celery slaw and potato wedges",
+   "serves": 4,
+   "total": 9,
+   "cal": 800,
+   "protein": 50,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Fresh chicken drumsticks, family pack",
+     "store": "Aldi",
+     "price": 1.09,
+     "unit": "/lb"
+    },
+    {
+     "item": "Celery",
+     "store": "ShopRite",
+     "price": 1.69
+    },
+    {
+     "item": "2 lb russet potatoes"
+    },
+    {
+     "item": "1 carrot"
+    }
+   ],
+   "pantry": [
+    "hot sauce",
+    "honey",
+    "butter",
+    "garlic powder",
+    "smoked paprika",
+    "mayonnaise",
+    "cider vinegar",
+    "oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Toss 3 lb drumsticks with 1 Tbsp oil, 1 tsp each garlic powder, smoked paprika and salt and \u00bd tsp pepper. Cut 2 lb potatoes into wedges and toss with 1 Tbsp oil and salt. Roast both at 425\u00b0F for 40\u201345 minutes, turning once, until the chicken reaches 165\u00b0F (175\u00b0F is even more tender).",
+    "Melt 3 Tbsp butter with \u00bd cup hot sauce and 3 Tbsp honey; simmer 2 minutes.",
+    "Slaw: thinly slice 4 celery ribs and grate 1 carrot; toss with 2 Tbsp mayo, 1 Tbsp cider vinegar, 1 tsp honey, salt and pepper.",
+    "Toss the hot drumsticks in the buffalo-honey sauce and serve with the wedges and cold slaw."
+   ]
+  },
+  {
+   "id": "meal-butternut-ricotta-stuffed-shells-nov11",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Butternut squash and ricotta stuffed shells (meatless)",
+   "serves": 6,
+   "total": 11,
+   "cal": 670,
+   "protein": 31,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Hard squash (acorn, butternut, spaghetti)",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Galbani ricotta",
+     "store": "ShopRite",
+     "price": 3.99
+    },
+    {
+     "item": "Galbani mozzarella",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "12 oz jumbo pasta shells"
+    }
+   ],
+   "pantry": [
+    "grated Parmesan",
+    "egg",
+    "garlic",
+    "crushed tomatoes (28 oz)",
+    "Italian seasoning",
+    "red pepper flakes",
+    "nutmeg",
+    "butter",
+    "olive oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Roast 2 lb cubed butternut squash with 1 Tbsp olive oil and salt at 425\u00b0F for 25 minutes until soft; mash. Boil the jumbo shells 2 minutes less than the package says and drain.",
+    "Mix the squash with the ricotta, 1 egg, \u00bd cup Parmesan, 1 cup of the shredded mozzarella, 2 minced garlic cloves, \u00bc tsp nutmeg, \u00bd tsp salt and \u00bc tsp pepper.",
+    "Simmer a 28 oz can of crushed tomatoes with 1 Tbsp olive oil, 2 garlic cloves, 1 tsp Italian seasoning and a pinch of chili flakes for 10 minutes. Spread half in a 9\u00d713 dish.",
+    "Fill the shells, nestle them in, spoon over the rest of the sauce and top with remaining mozzarella. Cover and bake at 375\u00b0F for 20 minutes, uncover for 10 more; drizzle with 2 Tbsp browned butter before serving."
+   ]
+  },
+  {
+   "id": "meal-thai-basil-ground-chicken-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Thai-style garlic-chili ground chicken with basil over rice",
+   "serves": 4,
+   "total": 8,
+   "cal": 580,
+   "protein": 35,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Wholesome Pantry ground chicken",
+     "store": "ShopRite",
+     "price": 2.39,
+     "unit": "/lb"
+    },
+    {
+     "item": "1 bunch fresh basil"
+    },
+    {
+     "item": "1 red bell pepper"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "soy sauce",
+    "brown sugar",
+    "red pepper flakes",
+    "lime or rice vinegar",
+    "oil"
+   ],
+   "steps": [
+    "Cook 1\u00bd cups rice. Stir together 3 Tbsp soy sauce, 1 Tbsp brown sugar, 1 Tbsp lime juice and 2 Tbsp water.",
+    "Heat 2 Tbsp oil over high heat; add 6 minced garlic cloves and 1 tsp red pepper flakes for 20 seconds, then 1\u00bd lb ground chicken. Break it up and cook 6\u20137 minutes until browned and 165\u00b0F.",
+    "Add the sliced bell pepper for 2 minutes, pour in the sauce and toss until glossy.",
+    "Off the heat, fold in a big handful of basil leaves until wilted. Serve over rice."
+   ]
+  },
+  {
+   "id": "meal-smothered-pork-chops-broccoli-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smothered pork chops in onion gravy with garlic roasted broccoli",
+   "serves": 4,
+   "total": 8,
+   "cal": 700,
+   "protein": 49,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Center-cut pork chops",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Swanson broth",
+     "store": "ShopRite",
+     "price": 1.99
+    }
+   ],
+   "pantry": [
+    "flour",
+    "onion",
+    "garlic",
+    "smoked paprika",
+    "garlic powder",
+    "thyme",
+    "soy sauce",
+    "butter",
+    "oil",
+    "rice",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Season 2 lb center-cut pork chops with 1 tsp each smoked paprika, garlic powder and salt and \u00bd tsp pepper; dredge in \u00bc cup flour. Brown in 2 Tbsp oil over medium-high, 3 minutes per side, and set aside.",
+    "Melt 2 Tbsp butter in the pan, cook 1 large sliced onion 8 minutes until golden, stir in 2 Tbsp flour and 1 tsp thyme, then whisk in 2 cups broth and 1 tsp soy sauce.",
+    "Return the chops, cover and simmer on low 10\u201315 minutes until 145\u00b0F and the gravy is thick. Meanwhile cook 1 cup rice.",
+    "Toss 1\u00bd lb broccoli florets with 1 Tbsp oil, 2 minced garlic cloves and salt; roast at 425\u00b0F for 15 minutes. Serve chops and gravy over rice with the broccoli."
+   ]
+  },
+  {
+   "id": "meal-garlic-herb-london-broil-sweet-potatoes-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Garlic-mustard London broil with smoky roasted sweet potatoes",
+   "serves": 6,
+   "total": 15,
+   "cal": 540,
+   "protein": 38,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Top round London broil",
+     "store": "ShopRite",
+     "price": 5.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket sweet potatoes, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.5
+    },
+    {
+     "item": "Bowl & Basket butter",
+     "store": "ShopRite",
+     "price": 2.49
+    }
+   ],
+   "pantry": [
+    "soy sauce",
+    "Dijon mustard",
+    "red wine or balsamic vinegar",
+    "brown sugar",
+    "garlic",
+    "Italian seasoning",
+    "smoked paprika",
+    "olive oil",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Marinate 2 lb London broil 4 hours or overnight in \u00bc cup soy sauce, 2 Tbsp vinegar, 2 Tbsp olive oil, 1 Tbsp Dijon, 1 Tbsp brown sugar, 4 minced garlic cloves and 1 tsp Italian seasoning.",
+    "Cube 3 lb sweet potatoes, toss with 2 Tbsp oil, 1 tsp smoked paprika and salt, and roast at 425\u00b0F for 30 minutes.",
+    "Broil the steak 4 inches from the heat 6\u20138 minutes per side to 145\u00b0F (medium); rest 5 minutes.",
+    "Melt 3 Tbsp butter with 1 grated garlic clove and a pinch of Italian seasoning. Slice the steak thin across the grain and spoon the garlic butter over the steak and potatoes."
+   ]
+  },
+  {
+   "id": "meal-lobster-ravioli-tomato-cream-nov16",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Lobster ravioli in garlicky tomato-cream sauce",
+   "serves": 6,
+   "total": 16,
+   "cal": 520,
+   "protein": 18,
+   "week": "2026-11-11",
+   "ingredients": [
+    {
+     "item": "Giovanni Rana roasted lobster ravioli, 2 x 13 oz",
+     "store": "Costco",
+     "price": 9.79
+    },
+    {
+     "item": "Rao's Homemade marinara, 2 x 31.7 oz",
+     "store": "Costco",
+     "price": 9.69
+    },
+    {
+     "item": "\u00bd cup heavy cream"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "butter",
+    "red pepper flakes",
+    "grated Parmesan",
+    "salt",
+    "pepper"
+   ],
+   "steps": [
+    "Bring a big pot of salted water to a boil for both 13 oz packs of ravioli.",
+    "In a wide skillet melt 2 Tbsp butter, add 3 sliced garlic cloves and \u00bc tsp red pepper flakes and cook 1 minute. Add 1 jar of the marinara and simmer 5 minutes; stir in \u00bd cup cream.",
+    "Cook the ravioli per the package (about 4 minutes), then lift them straight into the sauce with a splash of pasta water.",
+    "Toss gently, season with pepper and serve with \u00bc cup grated Parmesan on top."
+   ]
+  },
+  {
    "id": "meal-cuban-mojo-pork-black-beans-nov8",
    "kind": "meal",
    "type": "Dinner",
