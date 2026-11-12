@@ -1,5 +1,5 @@
 {
- "updated": 1793876999948,
+ "updated": 1794481664852,
  "events": [
   {
    "name": "Thanksgiving",
@@ -18,42 +18,44 @@
   {
    "id": "amazon",
    "name": "Amazon",
-   "status": "expected",
-   "early": "Not announced yet; signs point to Black Friday week starting around Nov 19",
-   "main": "Expected through Black Friday, with Cyber Monday deals possibly from Nov 28",
+   "status": "confirmed",
+   "early": "Early Black Friday deals already rolling on Amazon ahead of the main event",
+   "main": "Black Friday Week sale Nov 19 (12:01am PT / 3am ET) through Cyber Monday Nov 30; Today's Big Deals drop at midnight and 8am PT on Black Friday and Cyber Monday",
    "ad": "No printed ad",
-   "src": "9to5Toys (Nov 4, 2026)",
-   "srcUrl": "https://9to5toys.com/2026/11/04/black-friday-2026-sale-schedule-key-dates-to-watch-out-for/"
+   "src": "9to5Toys, citing Amazon's announcement (Nov 10, 2026)",
+   "srcUrl": "https://9to5toys.com/2026/11/10/amazon-black-friday-2026-officially-announced/"
   },
   {
    "id": "walmart",
    "name": "Walmart",
-   "status": "confirmed",
-   "early": "Early Black Friday Deals Nov 12–15 (Walmart+ online at 12:01am ET Nov 12; everyone Nov 13; stores 6am Nov 12)",
-   "main": "Black Friday Deals Nov 23–29 (Walmart+ first Nov 23, everyone Nov 24); Cyber Monday deals online Nov 30 – Dec 2",
-   "ad": "Not out yet",
-   "src": "Hip2Save (Oct 26, 2026)",
-   "srcUrl": "https://hip2save.com/deals/walmart-black-friday/"
+   "status": "live",
+   "early": "Early Black Friday Deals live now, Nov 12–15 (Walmart+ hot Deal drops first Nov 12; everyone 12:01am ET Nov 13; stores 6am)",
+   "main": "Black Friday Deals Nov 23–29 (Walmart+ first Nov 23, everyone Nov 24; stores 6am Nov 27, closed Thanksgiving); Cyber Monday online Nov 30 – Dec 2",
+   "ad": "Released Nov 10",
+   "src": "9to5Toys (Nov 11, 2026)",
+   "srcUrl": "https://9to5toys.com/2026/11/11/walmart-announces-2026-black-friday-sale/",
+   "adUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html"
   },
   {
    "id": "target",
    "name": "Target",
    "status": "live",
-   "early": "Deals of the Day and Holiday Price Match Guarantee run through Dec 24",
-   "main": "Early Black Friday sale live Nov 5–7 (up to 40% off decor, lights, toys); new offers start Sunday; Black Friday week details not out yet",
+   "early": "Early Black Friday sale ran Nov 5–7; Deal of the Day runs daily through Dec 24, plus new limited-time offers every weekend",
+   "main": "Black Friday Nov 27; Cyber Monday online deals Nov 30; Black Friday week details not out yet",
    "ad": "Not out yet",
-   "src": "Hip2Save (Nov 5, 2026)",
-   "srcUrl": "https://hip2save.com/deals/target-early-black-friday-savings/"
+   "src": "TODAY, citing Target (Oct 26, 2026)",
+   "srcUrl": "https://www.today.com/shop/target-announces-black-friday-sale-details-2026-rcna604432"
   },
   {
    "id": "best-buy",
    "name": "Best Buy",
-   "status": "confirmed",
-   "early": "DoorBOOsters Oct 30 – Nov 1; Early Black Friday deals + Doorbusters from Nov 6, new deals every Friday",
+   "status": "live",
+   "early": "Early Black Friday deals live now; new deals drop Friday Nov 13",
    "main": "Black Friday Doorbusters & Deals Nov 19–28; Cyber Monday Nov 29–30; Cyber Week Dec 1–6; Last-Minute Save Dec 18–24",
-   "ad": "Not out yet",
-   "src": "9to5Toys, citing Best Buy's announcement (Oct 30, 2026)",
-   "srcUrl": "https://9to5toys.com/2026/10/30/best-buy-announces-2026-black-friday-sale/"
+   "ad": "Released Nov 9",
+   "src": "Yahoo Shopping (Nov 9, 2026)",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html",
+   "adUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
   },
   {
    "id": "home-depot",
@@ -146,50 +148,6 @@
    "expires": 1795323540000
   },
   {
-   "id": "bf-amazon-fire-tv-stick-4k-plus",
-   "item": "Amazon Fire TV Stick 4K Plus",
-   "store": "Amazon",
-   "price": 40,
-   "was": 70,
-   "notes": "Early Black Friday deal.",
-   "at": 1793648520000,
-   "src": "Yahoo Tech",
-   "srcUrl": "https://tech.yahoo.com/deals/breaking-news/article/black-friday-2026-the-best-early-tech-deals-from-apple-amazon-bose-and-more--plus-what-we-know-so-far-about-the-sale-194231571.html"
-  },
-  {
-   "id": "bf-amazon-ring-battery-doorbell-2k",
-   "item": "Ring Battery Doorbell 2K",
-   "store": "Amazon",
-   "price": 40,
-   "was": 99,
-   "notes": "Early Black Friday deal.",
-   "at": 1793648520000,
-   "src": "Yahoo Tech",
-   "srcUrl": "https://tech.yahoo.com/deals/breaking-news/article/black-friday-2026-the-best-early-tech-deals-from-apple-amazon-bose-and-more--plus-what-we-know-so-far-about-the-sale-194231571.html"
-  },
-  {
-   "id": "bf-amazon-bose-quietcomfort-headphones",
-   "item": "Bose QuietComfort Bluetooth Headphones",
-   "store": "Amazon",
-   "price": 169,
-   "was": 359,
-   "notes": "Early Black Friday pick; price may change.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136"
-  },
-  {
-   "id": "bf-amazon-hisense-65-e7-miniled",
-   "item": "Hisense 65\" E7 Cinema Series Mini-LED 4K Fire TV",
-   "store": "Amazon",
-   "price": 549.99,
-   "was": 999.99,
-   "notes": "Early Black Friday pick; price may change.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136"
-  },
-  {
    "id": "bf-samsung-65-s90h-oled",
    "item": "Samsung 65\" S90H OLED 4K TV (2026)",
    "store": "Samsung",
@@ -200,18 +158,6 @@
    "src": "ABC News",
    "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136",
    "expires": 1796273940000
-  },
-  {
-   "id": "bf-kitchenaid-deluxe-stand-mixer",
-   "item": "KitchenAid Deluxe 4.5 Qt Tilt-Head Stand Mixer",
-   "store": "KitchenAid",
-   "price": 299.99,
-   "was": 449.99,
-   "notes": "KitchenAid early holiday deals through Nov 7.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136",
-   "expires": 1794113940000
   },
   {
    "id": "bf-home-depot-ge-24-dishwasher",
@@ -226,73 +172,262 @@
    "expires": 1795669140000
   },
   {
-   "id": "bf-sur-la-table-le-creuset-dutch-oven",
-   "item": "Le Creuset Signature 6.5 Qt Deep Round Dutch Oven",
-   "store": "Sur la Table",
-   "price": 289.96,
-   "was": 459.95,
-   "notes": "Early Black Friday sale; price may change.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136"
+   "id": "bf-walmart-lg-65-c6-oled",
+   "item": "LG 65\" C6 4K OLED TV",
+   "store": "Walmart",
+   "price": 1399.99,
+   "was": 2699.99,
+   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change. Near its lowest price yet.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
+   "expires": 1794805199000
   },
   {
-   "id": "bf-gap-cashsoft-crop-cardigan",
-   "item": "Gap CashSoft Crop Cardigan",
+   "id": "bf-walmart-roborock-qrevo-s5v",
+   "item": "Roborock Qrevo S5V Robot Vacuum and Mop",
+   "store": "Walmart",
+   "price": 499.99,
+   "was": 899.99,
+   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
+   "expires": 1794805199000
+  },
+  {
+   "id": "bf-walmart-roborock-q10-x5",
+   "item": "Roborock Q10 X5+ Robot Vacuum and Mop",
+   "store": "Walmart",
+   "price": 299.99,
+   "was": 499.99,
+   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
+   "expires": 1794805199000
+  },
+  {
+   "id": "bf-walmart-airpods-4",
+   "item": "Apple AirPods 4",
+   "store": "Walmart",
+   "price": 89,
+   "was": 129.99,
+   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
+   "expires": 1794805199000
+  },
+  {
+   "id": "bf-walmart-carote-knife-set",
+   "item": "Carote 14-Piece Knife Set",
+   "store": "Walmart",
+   "price": 42.98,
+   "was": 79.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-best-buy-samsung-65-r84h",
+   "item": "Samsung 65\" R84H Micro RGB 4K TV",
+   "store": "Best Buy",
+   "price": 999.99,
+   "was": 2099.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-lg-55-c6-oled",
+   "item": "LG 55\" C6 OLED evo 4K TV",
+   "store": "Best Buy",
+   "price": 999.99,
+   "was": 1999.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-lg-48-b6-oled",
+   "item": "LG 48\" B6 OLED 4K TV",
+   "store": "Best Buy",
+   "price": 599.99,
+   "was": 1199.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-alienware-16x",
+   "item": "Alienware 16X Aurora 16\" OLED Gaming Laptop",
+   "store": "Best Buy",
+   "price": 1749.99,
+   "was": 2574.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-beats-studio-pro",
+   "item": "Beats Studio Pro Headphones",
+   "store": "Best Buy",
+   "price": 199.99,
+   "was": 299.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-delonghi-magnifica-duo",
+   "item": "De'Longhi Magnifica Duo Espresso Machine",
+   "store": "Best Buy",
+   "price": 699.95,
+   "was": 999.95,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-best-buy-ninja-ultracrush",
+   "item": "Ninja UltraCrush Professional Kitchen System",
+   "store": "Best Buy",
+   "price": 149.99,
+   "was": 219.99,
+   "notes": "Best Buy early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "Yahoo Shopping",
+   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
+  },
+  {
+   "id": "bf-amazon-blink-doorbell-2k",
+   "item": "Blink Video Doorbell 2K+",
+   "store": "Amazon",
+   "price": 35.99,
+   "was": 69.99,
+   "notes": "Early Black Friday deal ahead of Amazon's Nov 19 sale.",
+   "at": 1794481664852,
+   "src": "TechRadar",
+   "srcUrl": "https://www.techradar.com/seasonal-sales/amazon-announces-the-start-date-for-its-massive-black-friday-sale-here-are-the-best-early-deals-and-the-ones-to-watch"
+  },
+  {
+   "id": "bf-amazon-soundcore-p31i",
+   "item": "Soundcore P31i by Anker Earbuds",
+   "store": "Amazon",
+   "price": 32.99,
+   "was": 59.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-amazon-marycele-candle-warmer",
+   "item": "Marycele Candle Warmer Lamp",
+   "store": "Amazon",
+   "price": 19.97,
+   "was": 39.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963"
+  },
+  {
+   "id": "bf-home-depot-ring-starter-set",
+   "item": "Ring Starter Set (Battery Doorbell 2K + Indoor Cam Plus 2K)",
+   "store": "Home Depot",
+   "price": 59.99,
+   "was": 139.99,
+   "notes": "Black Friday Savings Event, through Nov 25.",
+   "at": 1794481664852,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963",
+   "expires": 1795669140000
+  },
+  {
+   "id": "bf-home-depot-milwaukee-tape-2pk",
+   "item": "Milwaukee Tape Measure (2-Pack)",
+   "store": "Home Depot",
+   "price": 19.97,
+   "was": 45.94,
+   "notes": "Black Friday Savings Event; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-target-airtag-4pk",
+   "item": "Apple AirTag (2nd Gen) 4-Pack",
+   "store": "Target",
+   "price": 69.99,
+   "was": 99.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963"
+  },
+  {
+   "id": "bf-target-staub-baking-set",
+   "item": "Staub Ceramic Baking Dish Set (2-Piece)",
+   "store": "Target",
+   "price": 59.95,
+   "was": 142,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-target-vera-bradley-glenna",
+   "item": "Vera Bradley Outlet Ultralight Glenna Satchel",
+   "store": "Target",
+   "price": 54.99,
+   "was": 135,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-target-cuisinart-air-fryer-oven",
+   "item": "Cuisinart Air Fryer Toaster Oven",
+   "store": "Target",
+   "price": 129.99,
+   "was": 229.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "TODAY",
+   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
+  },
+  {
+   "id": "bf-gap-flannel-pj-set",
+   "item": "Gap Softest Flannel PJ Set",
    "store": "Gap",
-   "price": 34,
-   "was": 69.95,
-   "notes": "Gap Holiday Kickoff Event.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136"
+   "price": 49,
+   "was": 89.95,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963"
   },
   {
-   "id": "bf-bear-elite-hybrid-queen",
-   "item": "Bear Elite Hybrid Mattress (Queen)",
-   "store": "Bear",
-   "price": 1670.5,
-   "was": 2570,
-   "notes": "Black Friday early access, 35% off.",
-   "at": 1793823000000,
-   "src": "ABC News",
-   "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136"
-  },
-  {
-   "id": "bf-target-pokemon-holiday-calendar",
-   "item": "Pokémon Battle Figure 24-Pack 2026 Holiday Calendar",
-   "store": "Target",
-   "price": 23.99,
-   "was": 40,
-   "notes": "Target Early Black Friday sale, Nov 5–7.",
-   "at": 1793876999948,
-   "src": "9to5Toys",
-   "srcUrl": "https://9to5toys.com/2026/11/05/target-early-black-friday-sale-live-pokemon/",
-   "expires": 1794113940000
-  },
-  {
-   "id": "bf-target-pikachu-24-plush",
-   "item": "Pokémon 24\" Pikachu with Hat Plush",
-   "store": "Target",
-   "price": 30,
-   "was": 50,
-   "notes": "Target Early Black Friday sale, Nov 5–7.",
-   "at": 1793876999948,
-   "src": "9to5Toys",
-   "srcUrl": "https://9to5toys.com/2026/11/05/target-early-black-friday-sale-live-pokemon/",
-   "expires": 1794113940000
-  },
-  {
-   "id": "bf-target-puppetronic-pikachu",
-   "item": "Puppetronic Pikachu by RealFX",
-   "store": "Target",
-   "price": 48,
-   "was": 80,
-   "notes": "Target Early Black Friday sale, Nov 5–7.",
-   "at": 1793876999948,
-   "src": "9to5Toys",
-   "srcUrl": "https://9to5toys.com/2026/11/05/target-early-black-friday-sale-live-pokemon/",
-   "expires": 1794113940000
+   "id": "bf-ulta-medicube-zero-pore-pads",
+   "item": "Medicube Zero Pore Pads 2.0",
+   "store": "Ulta",
+   "price": 14.7,
+   "was": 21,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1794481664852,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963"
   }
  ]
 }
