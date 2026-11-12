@@ -373,16 +373,16 @@ h1{font-size:clamp(2.6rem,12vw,5.2rem)}
     </a>
   </section>
 
-  <section class="wootbox" aria-label="Search Woot">
+  <section class="wootbox" aria-label="Woot daily deals">
     <a class="wootbar" href="https://www.woot.com/alldeals" target="_blank" rel="noopener">
       <span class="wb-l"><b>Woot daily deals</b><span>Amazon's deal site · a few big markdowns a day, sells out fast</span></span>
       <i aria-hidden="true">↗</i>
     </a>
-    <form class="wsearch" id="wsearch" role="search" action="/woot/" method="get">
+    <form hidden class="wsearch" id="wsearch" role="search" action="/woot/" method="get">
       <input type="search" id="wq" name="q" placeholder="Search Woot: AirPods, vacuum, TV…" aria-label="Search Woot products" autocomplete="off" required>
       <button type="submit">Search Woot</button>
     </form>
-    <p class="wnote">Searches every live Woot deal, sorted by biggest % off. Sold-out items hidden.</p>
+    <p hidden class="wnote">Searches every live Woot deal, sorted by biggest % off. Sold-out items hidden.</p>
   </section>
 
   <section class="more" aria-label="More deals">
