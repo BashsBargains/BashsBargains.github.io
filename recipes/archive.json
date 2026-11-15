@@ -2,6 +2,491 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-honey-garlic-chicken-broccoli-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky honey-garlic chicken and broccoli over rice",
+   "serves": 4,
+   "total": 7,
+   "cal": 640,
+   "protein": 49,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket boneless chicken breast",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "1 bunch green onions"
+    }
+   ],
+   "pantry": [
+    "rice",
+    "garlic",
+    "fresh or ground ginger",
+    "soy sauce",
+    "honey",
+    "rice vinegar",
+    "cornstarch",
+    "sesame oil",
+    "red pepper flakes",
+    "oil"
+   ],
+   "steps": [
+    "Cook 1\u00bd cups rice. Whisk 3 Tbsp soy sauce, 3 Tbsp honey, 1 Tbsp rice vinegar, 1 tsp sesame oil, 4 minced garlic cloves, 1 tsp grated ginger (or \u00bd tsp ground), \u00bd tsp red pepper flakes, 1 Tbsp cornstarch and \u2153 cup water.",
+    "Cut 1\u00bd lb chicken breast into 1-inch pieces and toss with a pinch of salt. Sear in 1 Tbsp oil over high heat, 5\u20136 minutes, until browned and 165\u00b0F; move to a plate.",
+    "Add 1 Tbsp oil and 1\u00bd lb broccoli florets with 3 Tbsp water; cover and steam-fry 3 minutes until bright green and crisp-tender.",
+    "Return the chicken, pour in the sauce and toss 1\u20132 minutes until thick and glossy. Serve over rice with sliced green onions."
+   ]
+  },
+  {
+   "id": "meal-chipotle-chicken-tinga-tostadas-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky chipotle chicken tinga tostadas with avocado-lime crema",
+   "serves": 4,
+   "total": 12,
+   "cal": 600,
+   "protein": 44,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Fresh chicken breasts (Tyson)",
+     "store": "Aldi",
+     "price": 1.69,
+     "unit": "/lb"
+    },
+    {
+     "item": "Avocados",
+     "store": "Aldi",
+     "price": 0.49
+    },
+    {
+     "item": "Campari tomatoes on the vine, 1 lb",
+     "store": "Aldi",
+     "price": 2.49
+    },
+    {
+     "item": "12 tostada shells"
+    },
+    {
+     "item": "1 small can chipotles in adobo"
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "1 bunch cilantro"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "cumin",
+    "dried oregano",
+    "chicken bouillon",
+    "sour cream",
+    "oil",
+    "salt"
+   ],
+   "steps": [
+    "Simmer 1\u00bd lb chicken breasts in salted water with a bouillon cube, covered, 15\u201318 minutes until 165\u00b0F. Shred and save \u00bd cup of the broth.",
+    "Saut\u00e9 1 sliced onion in 1 Tbsp oil 5 minutes; add 3 garlic cloves, 1 tsp cumin and 1 tsp oregano for 30 seconds. Blend or mash 1 lb chopped tomatoes with 2\u20133 chipotles plus 1 Tbsp adobo, add to the pan and simmer 5 minutes.",
+    "Stir in the chicken and reserved broth; simmer 5 minutes until saucy. Season with salt and a squeeze of lime.",
+    "Mash 2 avocados with \u00bd cup sour cream, the juice of 1 lime and a pinch of salt. Pile chicken on tostadas and top with crema and cilantro."
+   ]
+  },
+  {
+   "id": "meal-mustard-pan-sauce-pork-chops-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Brown-butter pork chops with honey-mustard pan sauce and roasted sweet potatoes",
+   "serves": 4,
+   "total": 6,
+   "cal": 630,
+   "protein": 41,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Center-cut pork chops",
+     "store": "ShopRite",
+     "price": 1.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Bowl & Basket sweet potatoes, 3 lb bag",
+     "store": "ShopRite",
+     "price": 1.5
+    },
+    {
+     "item": "Bowl & Basket butter",
+     "store": "ShopRite",
+     "price": 2.49
+    }
+   ],
+   "pantry": [
+    "Dijon or spicy brown mustard",
+    "honey",
+    "garlic",
+    "dried thyme",
+    "smoked paprika",
+    "flour",
+    "chicken broth",
+    "oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Cube 2 lb sweet potatoes, toss with 1 Tbsp oil, \u00bd tsp smoked paprika, salt and pepper, and roast 25\u201330 minutes, flipping once.",
+    "Season 4 center-cut pork chops (about 2 lb) with salt, pepper and \u00bd tsp thyme. Sear in 1 Tbsp oil and 1 Tbsp butter over medium-high, 4\u20135 minutes per side, until 145\u00b0F. Rest on a plate.",
+    "Lower heat; add 2 Tbsp butter and 2 minced garlic cloves, cook until the butter smells nutty, then whisk in 1 Tbsp flour, \u00be cup broth, 2 Tbsp mustard and 1 Tbsp honey. Simmer 2\u20133 minutes until it coats a spoon.",
+    "Spoon the sauce over the chops and serve with the sweet potatoes."
+   ]
+  },
+  {
+   "id": "meal-greek-lemon-salmon-orzo-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Greek lemon-oregano salmon with blistered tomatoes, green beans and feta orzo",
+   "serves": 4,
+   "total": 21,
+   "cal": 720,
+   "protein": 46,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Fresh Atlantic salmon fillet or extra-jumbo raw shrimp",
+     "store": "Acme",
+     "price": 7.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Signature Select snacking tomatoes, 10 oz",
+     "store": "Acme",
+     "price": 2.99
+    },
+    {
+     "item": "Season's Choice frozen extra-fine green beans, 16 oz",
+     "store": "Aldi",
+     "price": 2.49
+    },
+    {
+     "item": "1 cup orzo"
+    },
+    {
+     "item": "4 oz feta"
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "dried oregano",
+    "red pepper flakes",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Cook 1 cup orzo in salted water until tender; drain.",
+    "Whisk 3 Tbsp olive oil, the zest and juice of 1 lemon, 3 minced garlic cloves, 2 tsp oregano, \u00bc tsp red pepper flakes, salt and pepper.",
+    "On a sheet pan, toss 1 lb green beans and 10 oz tomatoes with half the dressing. Nestle in 1\u00bd lb salmon, cut into 4 pieces, and brush with the rest. Roast 12\u201315 minutes, until the salmon flakes and reaches 145\u00b0F.",
+    "Toss the orzo with crumbled feta and any pan juices. Serve with the salmon and vegetables."
+   ]
+  },
+  {
+   "id": "meal-sausage-kale-stuffed-shells-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Spicy sausage and kale stuffed shells in garlicky tomato sauce",
+   "serves": 6,
+   "total": 12,
+   "cal": 780,
+   "protein": 42,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Barilla manicotti, jumbo shells or wavy lasagna",
+     "store": "ShopRite",
+     "price": 1.49
+    },
+    {
+     "item": "Hatfield fresh ground sausage, 16 oz",
+     "store": "Acme",
+     "price": 3.0
+    },
+    {
+     "item": "Acorn, butternut or spaghetti squash, collards or kale",
+     "store": "Acme",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "Galbani fresh mozzarella or ricotta, 8\u201316 oz",
+     "store": "Acme",
+     "price": 3.49
+    },
+    {
+     "item": "Kraft shredded cheese",
+     "store": "ShopRite",
+     "price": 2.0
+    }
+   ],
+   "pantry": [
+    "canned crushed tomatoes (28 oz)",
+    "garlic",
+    "Italian seasoning",
+    "red pepper flakes",
+    "parmesan",
+    "egg",
+    "olive oil",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 375\u00b0F. Boil a 12 oz box of jumbo shells 2 minutes less than the package says; drain.",
+    "Brown 1 lb sausage in 1 Tbsp olive oil, 7\u20138 minutes, until 160\u00b0F. Add 4 minced garlic cloves, \u00bd tsp red pepper flakes and 4 cups chopped kale; cook until wilted. Cool slightly.",
+    "Stir together 15 oz ricotta, 1 egg, \u00bd cup parmesan, 1 cup shredded mozzarella, 1 tsp Italian seasoning and the sausage mixture.",
+    "Simmer the crushed tomatoes with 2 garlic cloves and 1 tsp Italian seasoning 5 minutes; spread half in a 9x13 dish. Fill the shells, set them in, top with the remaining sauce and 1 cup mozzarella. Cover and bake 25 minutes, then uncover 10 minutes until bubbly."
+   ]
+  },
+  {
+   "id": "meal-coconut-curry-squash-chickpea-stew-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Coconut curry butternut squash and chickpea stew (meatless)",
+   "serves": 4,
+   "total": 9,
+   "cal": 720,
+   "protein": 18,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Acorn, butternut or spaghetti squash, collards or kale",
+     "store": "Acme",
+     "price": 0.99,
+     "unit": "/lb"
+    },
+    {
+     "item": "2 cans chickpeas"
+    },
+    {
+     "item": "1 can coconut milk"
+    },
+    {
+     "item": "1 lime"
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "fresh or ground ginger",
+    "curry powder",
+    "cumin",
+    "tomato paste",
+    "vegetable or chicken broth",
+    "rice",
+    "oil",
+    "salt"
+   ],
+   "steps": [
+    "Cook 1 cup rice. Peel and cube a 2\u00bd lb butternut squash.",
+    "Soften 1 diced onion in 2 Tbsp oil, 5 minutes. Add 4 garlic cloves, 1 Tbsp grated ginger (or 1 tsp ground), 2 Tbsp curry powder, 1 tsp cumin and 2 Tbsp tomato paste; stir 1 minute until fragrant.",
+    "Add the squash, drained chickpeas, the coconut milk and 1 cup broth. Simmer, partly covered, 20 minutes until the squash is tender.",
+    "Stir in 2 big handfuls of chopped kale for 3 minutes, then season with salt and lime juice. Serve over rice."
+   ]
+  },
+  {
+   "id": "meal-brown-sugar-ham-cheesy-potatoes-nov15",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Brown sugar\u2013mustard glazed ham with cheesy scalloped potatoes",
+   "serves": 6,
+   "total": 16,
+   "cal": 790,
+   "protein": 53,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Good & Gather uncured ham",
+     "store": "Target",
+     "price": 1.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Organic russet potatoes, 3 lb",
+     "store": "Target",
+     "price": 2.49
+    },
+    {
+     "item": "Kraft shredded cheese",
+     "store": "ShopRite",
+     "price": 2.0
+    }
+   ],
+   "pantry": [
+    "brown sugar",
+    "Dijon or yellow mustard",
+    "cider vinegar",
+    "butter",
+    "flour",
+    "milk",
+    "garlic powder",
+    "onion powder",
+    "smoked paprika",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 350\u00b0F. Set the ham in a foil-lined pan with \u00bd cup water, cover with foil and bake about 12 minutes per lb until it reaches 140\u00b0F (it comes fully cooked).",
+    "Melt 3 Tbsp butter, whisk in 3 Tbsp flour, then 2\u00bd cups milk, \u00bd tsp each garlic powder and onion powder, 1 tsp salt and pepper. Simmer until thick, then stir in 1\u00bd cups shredded cheese.",
+    "Layer 3 lb thinly sliced potatoes in a greased 9x13 dish with the sauce. Cover and bake alongside the ham 45 minutes, then uncover, top with \u00bd cup cheese and bake 20\u201325 minutes until tender and golden.",
+    "For the glaze, mix \u00bd cup brown sugar, 2 Tbsp mustard, 1 Tbsp vinegar, 2 Tbsp melted butter and \u00bd tsp smoked paprika. Brush on the ham for the last 20 minutes, uncovered. Slice and serve, and save the leftovers for sandwiches."
+   ]
+  },
+  {
+   "id": "meal-crab-cake-sliders-remoulade-nov16",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Crab cake sliders with Old Bay remoulade and tangy slaw",
+   "serves": 6,
+   "total": 20,
+   "cal": 800,
+   "protein": 27,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Phillips crab cake minis, 36 ct",
+     "store": "Costco"
+    },
+    {
+     "item": "Old Bay seasoning (if not on hand)"
+    },
+    {
+     "item": "12 slider buns"
+    },
+    {
+     "item": "1 bag coleslaw mix"
+    }
+   ],
+   "pantry": [
+    "mayonnaise",
+    "Dijon mustard",
+    "hot sauce",
+    "pickles or relish",
+    "cider vinegar",
+    "sugar",
+    "lemon juice",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Bake 36 mini crab cakes as the package directs until hot and crisp (165\u00b0F inside).",
+    "Remoulade: stir \u2153 cup mayo, 1 Tbsp Dijon, 1 Tbsp chopped pickles, 1 tsp Old Bay, 1 tsp hot sauce and 1 tsp lemon juice.",
+    "Slaw: toss the coleslaw mix with 2 Tbsp mayo, 1 Tbsp cider vinegar, 1 tsp sugar, \u00bd tsp Old Bay, salt and pepper; rest 10 minutes.",
+    "Toast the buns, then layer each with remoulade, 1\u20132 crab cakes and a spoonful of slaw."
+   ]
+  },
+  {
+   "id": "meal-garlic-chili-tonkotsu-ramen-nov16",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Garlic-chili tonkotsu ramen bowls with crispy pork, corn and soft eggs",
+   "serves": 4,
+   "total": 11,
+   "cal": 780,
+   "protein": 28,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "Nongshim tonkotsu ramen, 6 pack",
+     "store": "Costco"
+    },
+    {
+     "item": "\u00bd lb ground pork"
+    },
+    {
+     "item": "4 eggs"
+    },
+    {
+     "item": "1 cup frozen corn"
+    },
+    {
+     "item": "1 bunch green onions"
+    }
+   ],
+   "pantry": [
+    "garlic",
+    "soy sauce",
+    "sesame oil",
+    "red pepper flakes or chili crisp",
+    "sugar",
+    "oil"
+   ],
+   "steps": [
+    "Boil 4 eggs 6\u00bd minutes, chill in ice water and peel.",
+    "Brown \u00bd lb ground pork in 1 tsp oil until crispy and 160\u00b0F; add 3 minced garlic cloves, 1 Tbsp soy sauce and 1 tsp sugar and cook 1 minute. Push aside and char 1 cup corn for 2 minutes.",
+    "Warm 2 Tbsp oil with 2 sliced garlic cloves and 1 tsp red pepper flakes just until the garlic turns golden; stir in 1 tsp sesame oil.",
+    "Cook 4 packs of ramen with their soup bases as directed. Top each bowl with pork, corn, a halved egg, green onions and a drizzle of the garlic-chili oil."
+   ]
+  },
+  {
+   "id": "meal-pho-soup-dumpling-noodle-bowls-nov16",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Ginger\u2013star anise broth with pho soup dumplings, rice noodles and bok choy",
+   "serves": 4,
+   "total": 22,
+   "cal": 670,
+   "protein": 25,
+   "week": "2026-11-15",
+   "ingredients": [
+    {
+     "item": "bibigo beef pho soup dumplings, 6 x 6 ct",
+     "store": "Costco"
+    },
+    {
+     "item": "8 oz rice noodles"
+    },
+    {
+     "item": "1 lb baby bok choy"
+    },
+    {
+     "item": "1 lime"
+    },
+    {
+     "item": "1 jalape\u00f1o"
+    },
+    {
+     "item": "fresh cilantro or basil"
+    },
+    {
+     "item": "2 star anise (or \u00bc tsp five-spice)"
+    }
+   ],
+   "pantry": [
+    "chicken or beef broth",
+    "onion",
+    "fresh or ground ginger",
+    "garlic",
+    "soy sauce or fish sauce",
+    "brown sugar",
+    "cinnamon stick or ground cinnamon",
+    "sriracha",
+    "hoisin (optional)"
+   ],
+   "steps": [
+    "Char a halved onion and a 2-inch piece of sliced ginger in a dry pot 4 minutes. Add 8 cups broth, 2 star anise, 1 cinnamon stick, 2 smashed garlic cloves, 2 Tbsp soy or fish sauce and 1 tsp brown sugar; simmer 20 minutes, then strain.",
+    "Soak or cook 8 oz rice noodles as the package directs; divide among bowls.",
+    "Bring the broth to a gentle simmer, add halved bok choy for 2 minutes, then steam or microwave the soup dumplings as the package directs (until steaming hot).",
+    "Ladle broth and bok choy over the noodles, add 9 dumplings per bowl and finish with lime, sliced jalape\u00f1o, herbs and sriracha or hoisin."
+   ]
+  },
+  {
    "id": "meal-quesabirria-tacos-consomme-nov11",
    "kind": "meal",
    "type": "Dinner",
