@@ -1,6 +1,65 @@
 {
- "updated": 1794652704406,
+ "updated": 1794739268358,
  "deals": [
+  {
+   "id": "web-parigo-flashlight-gloves-20261114",
+   "item": "Parigo Flashlight Gloves",
+   "store": "Amazon",
+   "price": 6.99,
+   "was": 16.99,
+   "notes": "Enter promo code O6E7WBVV at checkout; some shoppers had to clear the cart and re-apply for the full discount.",
+   "at": 1794711600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/flashlight-gloves/",
+   "url": "https://www.amazon.com/dp/B08CC36KCM"
+  },
+  {
+   "id": "web-pioneer-woman-7qt-dutch-oven-20261114",
+   "item": "The Pioneer Woman 7-Qt Enameled Cast Iron Dutch Oven (Linen)",
+   "store": "Walmart",
+   "price": 37.84,
+   "was": 100,
+   "notes": "Big markdown on the 7-quart enameled cast iron pot with lid. Hand wash only.",
+   "at": 1794696180000,
+   "src": "Slickdeals",
+   "srcUrl": "https://slickdeals.net/f/20310051-the-pioneer-woman-enameled-cast-iron-dutch-oven-7-quart-linen-finish-with-lid-hand-wash-only-37-84"
+  },
+  {
+   "id": "web-tempx-digital-thermometer-20261114",
+   "item": "Tempx Digital Thermometer (White)",
+   "store": "Amazon",
+   "price": 2.99,
+   "was": 9.99,
+   "notes": "Use promo code TJJBW9PG at checkout to drop the $5.99 listing to $2.99.",
+   "at": 1794696000000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/digital-thermometer/",
+   "url": "https://www.amazon.com/dp/B0GHXTY6PZ"
+  },
+  {
+   "id": "web-innoexpo-paddle-board-20261114",
+   "item": "InnoExpo Inflatable Paddle Board Set w/ Accessories (Dark Teal)",
+   "store": "Amazon",
+   "price": 73.99,
+   "was": 159.99,
+   "notes": "Clip the $30 on-page coupon and use code K8WKA3M7 (good through 11/18). Other brands in the same post run $76-$85 with their own codes.",
+   "at": 1794684600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/inflatable-paddle-board/",
+   "url": "https://www.amazon.com/dp/B0DQTK4W5S",
+   "expires": 1795064400000
+  },
+  {
+   "id": "web-aerie-oh-snap-sweatshirt-20261114",
+   "item": "Aerie Oh Snap Sweatshirt (new colors)",
+   "store": "Aerie",
+   "price": 35,
+   "was": 60,
+   "notes": "Popular sweatshirt marked down online; colors are selling out fast.",
+   "at": 1794671400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/aerie-oh-snap-sweatshirt/"
+  },
   {
    "id": "web-target-wildfable-shorts-20261114",
    "item": "Wild Fable Women's Low-Rise Pull-On Shorts (clearance)",
@@ -12,6 +71,28 @@
    "src": "Target.com",
    "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
    "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
+  },
+  {
+   "id": "web-gooloo-ge1500-jump-starter-20261114",
+   "item": "GOOLOO GE1500 1500A Portable Car Jump Starter & 8000mAh Power Bank",
+   "store": "Walmart",
+   "price": 25.15,
+   "was": 77,
+   "notes": "Price needs code 8DMRD4MJ at checkout. Free shipping with Walmart+ or on $35+.",
+   "at": 1794651900000,
+   "src": "Slickdeals",
+   "srcUrl": "https://slickdeals.net/f/20312178-gooloo-ge1500-1500a-12v-portable-car-jump-starter-power-bank-8000mah-25-15-free-shipping-w-walmart-or-on-35"
+  },
+  {
+   "id": "web-gapkids-toddler-bed-20261114",
+   "item": "GapKids Toddler Bed, Greenguard Gold Certified (Grey/White)",
+   "store": "Amazon",
+   "price": 49.22,
+   "was": 130,
+   "notes": "Clip the $10.77 coupon on the product page to get this price. Ships free. Furniture.",
+   "at": 1794638880000,
+   "src": "Slickdeals",
+   "srcUrl": "https://slickdeals.net/f/20311395-gapkids-toddler-bed-greenguard-gold-certified-grey-white-49-22-free-shipping"
   },
   {
    "id": "web-tineco-floor-one-s6-20261114",
@@ -129,204 +210,6 @@
    "at": 1794586200000,
    "src": "Hip2Save",
    "srcUrl": "https://hip2save.com/deals/marvel-spidey-hero-vehicle/"
-  },
-  {
-   "id": "web-skullcandy-hesh-evo-20261113",
-   "item": "Skullcandy Hesh Evo Wireless Over-Ear Headphones",
-   "store": "Sam's Club",
-   "price": 39.88,
-   "was": 89.88,
-   "notes": "Instant savings online and in club (price can vary by club); runs through Nov 30.",
-   "at": 1794546120000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20306652",
-   "expires": 1796101140000
-  },
-  {
-   "id": "web-cook-with-color-bowls-20261112",
-   "item": "Cook With Color 12-Piece Nesting Mixing Bowl Set w/ Lids",
-   "store": "Walmart",
-   "price": 10,
-   "was": 29.99,
-   "notes": "Four colors. Walmart Black Friday price; free shipping with Walmart+ or on $35+.",
-   "at": 1794545700000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/cook-with-color-mixing-bowls/"
-  },
-  {
-   "id": "web-cozy-haven-throw-20261112",
-   "item": "Cozy Haven Plush Throw Blanket (3 colors)",
-   "store": "Walmart",
-   "price": 15,
-   "was": 75,
-   "notes": "Walmart Black Friday price; early access for Walmart+ members. Expected to sell out.",
-   "at": 1794543000000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/cozy-haven-blankets/"
-  },
-  {
-   "id": "web-gaoyitk-bird-feeder-cam-20261112",
-   "item": "GAOYITK Smart Bird Feeder w/ Camera (Blue)",
-   "store": "Amazon",
-   "price": 29.99,
-   "was": 79.99,
-   "notes": "Enter promo code S1Q5US8S at checkout. Code good through Nov 18.",
-   "at": 1794541800000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/smart-bird-feeder/",
-   "url": "https://www.amazon.com/dp/B0DWWJ7PYT",
-   "expires": 1795075140000
-  },
-  {
-   "id": "web-beats-solo4-20261112",
-   "item": "Beats Solo 4 On-Ear Wireless Headphones",
-   "store": "Walmart",
-   "price": 69,
-   "was": 199.99,
-   "notes": "Part of Walmart's Black Friday sale; ships free. Price may vary by area.",
-   "at": 1794540900000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/beats-solo-4-headphones/"
-  },
-  {
-   "id": "web-gentlewarm-blanket-hoodie-20261112",
-   "item": "Gentlewarm Sherpa Wearable Blanket Hoodie",
-   "store": "Amazon",
-   "price": 14.99,
-   "was": 29.99,
-   "notes": "Use promo code SMBICGIO for 50% off; doesn't stack with the on-page coupon. Good through Nov 18.",
-   "at": 1794538500000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/wearable-blanket/",
-   "url": "https://www.amazon.com/dp/B0D5GFHB2M",
-   "expires": 1795075140000
-  },
-  {
-   "id": "web-ninja-crispi-4qt-20261112",
-   "item": "Ninja Crispi Glass 4-Qt Air Fryer",
-   "store": "Walmart",
-   "price": 89,
-   "was": 149.99,
-   "notes": "Ships free. Walmart Black Friday sale.",
-   "at": 1794536400000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/ninja-crispi/"
-  },
-  {
-   "id": "web-ello-30pc-glass-storage-20261112",
-   "item": "Ello Everyday 30-Piece Glass Food Storage Set",
-   "store": "Walmart",
-   "price": 25,
-   "was": 52.99,
-   "notes": "Walmart Black Friday sale price.",
-   "at": 1794534900000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/ello-glass-containers/"
-  },
-  {
-   "id": "web-carote-7pc-bakeware-20261112",
-   "item": "CAROTE 7-Piece Nonstick Carbon Steel Bakeware Set",
-   "store": "Walmart",
-   "price": 20,
-   "was": 39.99,
-   "notes": "Two colors. Walmart Black Friday sale.",
-   "at": 1794531300000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/carote-bakeware/"
-  },
-  {
-   "id": "web-efluky-woven-baskets-20261112",
-   "item": "efluky Woven Storage Baskets 4-Pack",
-   "store": "Amazon",
-   "price": 12.99,
-   "was": 29.99,
-   "notes": "Enter code OLBA90HK at checkout. Good through Nov 30.",
-   "at": 1794531000000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-storage-baskets/",
-   "url": "https://www.amazon.com/dp/B0H5VKC65H",
-   "expires": 1796111940000
-  },
-  {
-   "id": "web-muk-luks-holiday-slippers-20261112",
-   "item": "MUK LUKS Holiday Slippers",
-   "store": "Walmart",
-   "price": 8,
-   "was": 42,
-   "notes": "Walmart Black Friday price; the $42 'was' is Walmart's list price.",
-   "at": 1794529800000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/muk-luks-slippers/"
-  },
-  {
-   "id": "web-kobalt-rolling-miter-stand-20261112",
-   "item": "Kobalt Steel Adjustable Rolling Miter Saw Stand (ST0606LW)",
-   "store": "Lowe's",
-   "price": 99,
-   "was": 199,
-   "notes": "Free shipping. A commenter says the price runs through Jan 5 while stock lasts.",
-   "at": 1794525240000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20298618-lowes-kobalt-steel-adjustable-rolling-miter-saw-stand-st0606lw-99-free-shipping"
-  },
-  {
-   "id": "web-coodoo-magic-water-elf-20261112",
-   "item": "Coodoo Magic Water Elf Craft Kit",
-   "store": "Amazon",
-   "price": 10.87,
-   "was": 19.99,
-   "notes": "Code T5GUCDDA; $10.87 is the Prime price ($12.79 otherwise). Good through Nov 18.",
-   "at": 1794512400000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-magic-water-elf/",
-   "url": "https://www.amazon.com/dp/B0FGQ4GGN9",
-   "expires": 1795075140000
-  },
-  {
-   "id": "web-kokodi-talking-dino-pen-20261112",
-   "item": "KOKODI Talking Dinosaur Pen & Phonics Cards Set",
-   "store": "Amazon",
-   "price": 22.99,
-   "was": 45.99,
-   "notes": "Enter code 9YWL4UH7 at checkout. Good through Nov 16.",
-   "at": 1794510720000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/talking-dinosaur-pen/",
-   "url": "https://www.amazon.com/dp/B0H5VH2V1H",
-   "expires": 1794902340000
-  },
-  {
-   "id": "web-razor-lightup-toddler-scooter-20261112",
-   "item": "Razor Light-Up Toddler Kick Scooter (Blue or Magenta)",
-   "store": "Walmart",
-   "price": 18,
-   "was": 35,
-   "notes": "Walmart Black Friday sale.",
-   "at": 1794507720000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/razor-kick-scooter/"
-  },
-  {
-   "id": "web-reebok-flat-weight-bench-20261112",
-   "item": "Reebok Heavy Duty Flat Weight Bench (600-lb Capacity)",
-   "store": "Walmart",
-   "price": 40.24,
-   "was": 80,
-   "notes": "Half off with free shipping.",
-   "at": 1794506340000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20296530-40-24-reebok-heavy-duty-flat-bench-600-lb-capacity-tip-resistant-portable-weight-bench-at-walmart-com"
-  },
-  {
-   "id": "web-powersmart-2500w-inverter-20261112",
-   "item": "PowerSmart 2500W Portable Inverter Gas Generator",
-   "store": "Walmart",
-   "price": 259.99,
-   "was": 490,
-   "notes": "Free shipping. Read reviews first; some buyers report issues.",
-   "at": 1794501960000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20296239-259-99-fs-wm-powersmart-2500w-portable-inverter-gas-generator-super-quiet-low-oil-shutdown-low-noise-for-camping"
   }
  ]
 }
