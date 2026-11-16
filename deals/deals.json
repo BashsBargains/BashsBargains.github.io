@@ -1,6 +1,30 @@
 {
- "updated": 1794825528826,
+ "updated": 1794825587976,
  "deals": [
+  {
+   "id": "web-solar-street-flood-light-20261116",
+   "item": "Solar Street Light / Dusk-to-Dawn Motion Flood Light w/ Remote",
+   "store": "Walmart",
+   "price": 24.99,
+   "was": 50,
+   "notes": "Listed on Walmart's online clearance page; sold by a marketplace seller.",
+   "at": 1794825587976,
+   "src": "Walmart",
+   "srcUrl": "https://www.walmart.com/shop/deals/clearance",
+   "url": "https://www.walmart.com/ip/15936364385"
+  },
+  {
+   "id": "web-sanmadrola-sofa-cover-20261116",
+   "item": "Sanmadrola Waterproof Non-Slip Sofa Cover (Dark Gray)",
+   "store": "Walmart",
+   "price": 21.39,
+   "was": 44.99,
+   "notes": "Listed on Walmart's online clearance page; machine washable.",
+   "at": 1794825587976,
+   "src": "Walmart",
+   "srcUrl": "https://www.walmart.com/shop/deals/clearance",
+   "url": "https://www.walmart.com/ip/1080807668"
+  },
   {
    "id": "web-fairlife-core-power-12pk-20261115",
    "item": "Fairlife Core Power 26g Protein Shakes 12-Pack (Vanilla)",
