@@ -1,25 +1,6 @@
 {
- "updated": 1794481257412,
+ "updated": 1794827015836,
  "deals": [
-  {
-   "id": "wendys-frosty-day-2026",
-   "chain": "Wendy's",
-   "cat": "Dessert",
-   "offer": "Free small Frosty with any purchase on Frosty Day",
-   "how": "Sunday, Nov 15 only. Redeem the in-app offer with a purchase in the Wendy's app at participating U.S. Wendy's. You need the app and a Wendy's account.",
-   "where": [
-    "App",
-    "Pickup"
-   ],
-   "code": "",
-   "ask": "No code. Redeem the Frosty Day offer in the Wendy's app's Offers tab.",
-   "start": "2026-11-15",
-   "ends": "2026-11-15",
-   "link": "https://www.wendys.com/offers-coupons",
-   "linkText": "See Wendy's deals",
-   "official": true,
-   "checked": "2026-11-12"
-  },
   {
    "id": "taco-bell-gameday-nacho-fries-apple-pay-2026",
    "chain": "Taco Bell",
@@ -38,7 +19,7 @@
    "link": "https://www.tacobell.com/offers-and-deals",
    "linkText": "See Taco Bell deals",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "starbucks-red-cup-day-2026",
@@ -56,9 +37,9 @@
    "link": "https://www.starbucks.com/",
    "linkText": "Go to Starbucks",
    "official": false,
-   "src": "Taste of Home",
-   "srcUrl": "https://www.tasteofhome.com/article/starbucks-red-cup-day-2026/",
-   "checked": "2026-11-12"
+   "src": "Scripps News",
+   "srcUrl": "https://www.scrippsnews.com/life/food-and-drink/starbucks-announces-2026-red-cup-day-heres-when-to-get-a-free-cup",
+   "checked": "2026-11-16"
   },
   {
    "id": "chipotle-brisket-free-delivery-nov-2026",
@@ -77,7 +58,7 @@
    "link": "https://newsroom.chipotle.com/2026-10-26-CHIPOTLE-TO-BRING-BACK-MESQUITE-SMOKED-BRISKET-FOR-THE-HEART-OF-FOOTBALL-SEASON",
    "linkText": "See Chipotle's brisket deal",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "popeyes-monday-free-wings",
@@ -97,30 +78,28 @@
    "link": "https://www.popeyes.com/",
    "linkText": "Go to Popeyes",
    "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-9/",
-   "checked": "2026-11-12"
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
+   "checked": "2026-11-16"
   },
   {
    "id": "mcdonalds-8-qpc-meal-nov-2026",
    "chain": "McDonald's",
    "cat": "Burgers",
    "offer": "$8 Quarter Pounder with Cheese meal",
-   "how": "Starting Nov 2 for a limited time: a Quarter Pounder with Cheese, medium fries and a drink for $8. Not valid on delivery. Price and participation may vary by location.",
+   "how": "Limited time: a Quarter Pounder with Cheese, medium fries and a Coke for $8 in the McDonald's app. Not valid on delivery. Price and participation may vary by location.",
    "where": [
     "In store",
     "Pickup",
     "App"
    ],
    "code": "",
-   "ask": "No code. Just ask for the $8 Quarter Pounder with Cheese meal.",
+   "ask": "No code. Find the $8 Quarter Pounder with Cheese meal in the McDonald's app.",
    "start": "2026-11-02",
-   "link": "https://www.mcdonalds.com/",
-   "linkText": "Go to McDonald's",
-   "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/?p=81139",
-   "checked": "2026-11-12"
+   "link": "https://www.mcdonalds.com/us/en-us/holiday-deals.html",
+   "linkText": "See McDonald's deals",
+   "official": true,
+   "checked": "2026-11-16"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -136,8 +115,10 @@
    "ends": "2026-11-29",
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
-   "official": true,
-   "checked": "2026-11-12"
+   "official": false,
+   "checked": "2026-11-16",
+   "src": "NACS (convenience.org)",
+   "srcUrl": "https://convenience.org/stay-current/news/2026/september/11/wawa-brings-back-pumpkin-and-s%E2%80%99mores-coffee"
   },
   {
    "id": "wendys-wed-nuggets",
@@ -154,7 +135,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -172,7 +153,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "outback-kids-eat-free",
@@ -191,7 +172,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -208,7 +189,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "outback-tuesday-tails",
@@ -225,7 +206,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -244,9 +225,9 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-9/",
-   "checked": "2026-11-12"
+   "src": "The Krazy Coupon Lady",
+   "srcUrl": "https://thekrazycouponlady.com/tips/money/food-promo-codes",
+   "checked": "2026-11-16"
   },
   {
    "id": "shake-shack-chicken-sundays",
@@ -266,7 +247,7 @@
    "link": "https://shakeshack.com/national-regional-offers",
    "linkText": "See Shake Shack's offers",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "shake-shack-shack-sundays-2026",
@@ -286,9 +267,9 @@
    "link": "https://shakeshack.com/national-regional-offers",
    "linkText": "See Shake Shack's offers",
    "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-9/",
-   "checked": "2026-11-12"
+   "src": "Living On The Cheap",
+   "srcUrl": "https://livingonthecheap.com/shake-shack-sundays-free-burger-chicken-sandwich-promo-code/",
+   "checked": "2026-11-16"
   },
   {
    "id": "applebees-nfl-wing-ticket-2026",
@@ -307,7 +288,7 @@
    "link": "https://investors.dinebrands.com/news-releases/news-release-details/applebeesr-introduces-nfl-season-wing-ticket-free-boneless-wings",
    "linkText": "See Applebee's wing deal",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "papa-johns-free-pizza-review-nov-2026",
@@ -329,23 +310,7 @@
    "official": false,
    "src": "Parade",
    "srcUrl": "https://parade.com/food/papa-johns-free-large-pizza-november-2026",
-   "checked": "2026-11-12"
-  },
-  {
-   "id": "papa-johns-899-carryout",
-   "chain": "Papa John's",
-   "cat": "Pizza",
-   "offer": "Large 1-topping pizza from $8.99 for carryout",
-   "how": "Carryout special: a large one-topping pizza starts at $8.99. Prices vary by location and some toppings cost extra. Can't be combined with other coupons.",
-   "where": [
-    "Pickup"
-   ],
-   "code": "",
-   "ask": "No code. Choose the 1-Topping Carryout Special when you order.",
-   "link": "https://www.papajohns.com/specials/",
-   "linkText": "See Papa John's specials",
-   "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
   },
   {
    "id": "wendys-799-daves-single-combo",
@@ -363,7 +328,85 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-12"
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "wendys-fryday-free-fry",
+   "chain": "Wendy's",
+   "cat": "Burgers",
+   "offer": "Free any-size fry with a $5 purchase on Fridays",
+   "how": "Fridays. Wendy's Rewards members can add the Fryday offer from the Offers tab and get any size fry free with a $5+ order in the Wendy's app or online. Participating locations; can't be combined with other offers.",
+   "where": [
+    "App",
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Tap the Fryday offer in the Wendy's app's Offers tab.",
+   "repeat": "Every Friday",
+   "link": "https://www.wendys.com/offers-coupons",
+   "linkText": "See Wendy's deals",
+   "official": true,
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "mcdonalds-free-medium-fries-weekly-2026",
+   "chain": "McDonald's",
+   "cat": "Burgers",
+   "offer": "Free medium fries once a week with a $1 app purchase",
+   "how": "Through Dec 31. Opt in to MyMcDonald's Rewards and get free medium fries with any $1+ purchase in the app, once per week. Not on McDelivery. Participating locations.",
+   "where": [
+    "App",
+    "In store",
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Add the free fries deal in the McDonald's app's Deals section.",
+   "ends": "2026-12-31",
+   "repeat": "Once a week",
+   "link": "https://www.mcdonalds.com/us/en-us/holiday-deals.html",
+   "linkText": "See McDonald's deals",
+   "official": true,
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "dunkin-6-meal-deal-fall-2026",
+   "chain": "Dunkin'",
+   "cat": "Breakfast",
+   "offer": "$6 Meal Deal: bacon, egg & cheese, hash browns and a medium coffee",
+   "how": "For a limited time, get a Bacon, Egg and Cheese sandwich, hash browns and a medium hot or iced coffee for $6 at participating Dunkin' locations.",
+   "where": [
+    "In store",
+    "Pickup",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Just ask for the $6 Meal Deal.",
+   "link": "https://news.dunkindonuts.com/news/spend-your-extra-hour-with-dunkin-novemebr-2026",
+   "linkText": "See Dunkin's deal",
+   "official": true,
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "shake-shack-bogoshack-nov-2026",
+   "chain": "Shake Shack",
+   "cat": "Burgers",
+   "offer": "Buy one Single ShackBurger, get one free",
+   "how": "Through Nov 30. Put two Single ShackBurgers in your cart and use the code at an in-Shack kiosk or in the Shake Shack app or website (pickup or delivery). One free burger per order, max $9.99 off; add-ons like bacon cost extra. Not on third-party delivery apps.",
+   "where": [
+    "In store",
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "BOGOSHACK",
+   "start": "2026-11-12",
+   "ends": "2026-11-30",
+   "link": "https://shakeshack.com/national-regional-offers",
+   "linkText": "See Shake Shack's offers",
+   "official": false,
+   "src": "Living On The Cheap",
+   "srcUrl": "https://livingonthecheap.com/bogo-buy-one-get-one-free-promo-code-shake-shack-november/",
+   "checked": "2026-11-16"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -382,7 +425,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -402,7 +445,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -422,7 +465,7 @@
    "linkText": "See Margaritas' specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -442,7 +485,7 @@
    "linkText": "See KC's Alley's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -462,7 +505,7 @@
    "linkText": "See Drake Tavern's Burger Night",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -482,7 +525,7 @@
    "linkText": "See Drake Tavern's Taco Tuesday",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -502,7 +545,7 @@
    "linkText": "See Kabuto's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -522,7 +565,7 @@
    "linkText": "See Southern Cross Kitchen's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -542,47 +585,7 @@
    "linkText": "See NaBrasa's pricing",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
-   "srcDate": "Oct 2026"
-  },
-  {
-   "id": "buddys-wings-west-chester",
-   "chain": "Buddy's Burgers, Breasts & Fries",
-   "cat": "Wings",
-   "offer": "$1 wings on Sundays",
-   "how": "Wings are $1 each on Sundays. Other weekly deals: $3 Lil' Buddys Monday, $1.50 hot dogs Tuesday, half-price fries Wednesday and $1 off signature burgers Friday. Add-ons like cheese or bacon cost extra.",
-   "where": [
-    "In store"
-   ],
-   "repeat": "Every Sunday",
-   "city": "West Chester",
-   "addr": "11 W Gay Street",
-   "zip": "19380",
-   "link": "https://www.buddysbbf.com/west-chester-menu",
-   "linkText": "See Buddy's West Chester specials",
-   "official": true,
-   "area": "Montco",
-   "checked": "2026-10-26",
-   "srcDate": "Oct 2026"
-  },
-  {
-   "id": "buddys-lil-buddy-exton",
-   "chain": "Buddy's Burgers, Breasts & Fries",
-   "cat": "Burgers",
-   "offer": "$3 Lil' Buddy burgers on Mondays",
-   "how": "Lil' Buddy burgers are $3 each on Mondays. Thursday has a $9.99 chicken sandwich or cheesesteak combo, and Sunday has $1 wings. Add-ons like cheese or bacon cost extra.",
-   "where": [
-    "In store"
-   ],
-   "repeat": "Every Monday",
-   "city": "Exton",
-   "addr": "122 Woodcutter Street",
-   "zip": "19341",
-   "link": "https://www.buddysbbf.com/exton-menu",
-   "linkText": "See Buddy's Exton specials",
-   "official": true,
-   "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -602,7 +605,7 @@
    "linkText": "See Al Pastor's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -622,7 +625,7 @@
    "linkText": "See Appetites on Main's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -630,13 +633,13 @@
    "chain": "The Pizza Stop",
    "cat": "Pizza",
    "offer": "$5 off two large pizzas",
-   "how": "Take $5 off any two large pizzas, Tuesday through Thursday only.",
+   "how": "Take $5 off any two large pizzas, Monday through Thursday only.",
    "where": [
     "In store",
     "Pickup",
     "Delivery"
    ],
-   "repeat": "Every Tuesday–Thursday",
+   "repeat": "Every Monday–Thursday",
    "city": "Collegeville",
    "addr": "222 East Main Street",
    "zip": "19426",
@@ -644,27 +647,7 @@
    "linkText": "See The Pizza Stop's coupons",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
-   "srcDate": "Oct 2026"
-  },
-  {
-   "id": "ember-and-ale-kids-collegeville",
-   "chain": "Ember & Ale",
-   "cat": "Pizza",
-   "offer": "Kids eat free on Wednesdays",
-   "how": "Kids eat free Wednesdays 3–10pm. Their site doesn't list limits, so ask when you order. Tuesdays also have a 2-pizza special, 3–10pm.",
-   "where": [
-    "In store"
-   ],
-   "repeat": "Every Wednesday",
-   "city": "Collegeville",
-   "addr": "99 Market St, Suite 4",
-   "zip": "19426",
-   "link": "https://emberandale.com/events",
-   "linkText": "See Ember & Ale's specials",
-   "official": true,
-   "area": "Montco",
-   "checked": "2026-10-26",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -684,7 +667,7 @@
    "linkText": "See Mike's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -704,7 +687,7 @@
    "linkText": "See Pinocchio's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -725,7 +708,7 @@
    "linkText": "See VIP Pizza's weekly specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -746,7 +729,7 @@
    "linkText": "See Bravo Pizza's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   },
   {
@@ -768,16 +751,12 @@
    "linkText": "See Hog Island's lunch specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-02",
+   "checked": "2026-11-16",
    "srcDate": "Oct 2026"
   }
  ],
  "apps": [],
  "holidays": [
-  {
-   "name": "National Fast Food Day",
-   "date": "2026-11-16"
-  },
   {
    "name": "Thanksgiving",
    "date": "2026-11-26"
@@ -789,6 +768,10 @@
   {
    "name": "National Pastry Day",
    "date": "2026-12-09"
+  },
+  {
+   "name": "National Cocoa Day",
+   "date": "2026-12-13"
   }
  ]
 }
