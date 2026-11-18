@@ -1,6 +1,101 @@
 {
- "updated": 1794911922133,
+ "updated": 1794998257520,
  "deals": [
+  {
+   "id": "web-holiday-living-deer-set-20261118",
+   "item": "Holiday Living 3-Piece Lighted Outdoor Deer Family Decoration",
+   "store": "Lowe's",
+   "price": 79,
+   "was": 129,
+   "notes": "Ships free from Lowes.com; sale runs through 12/13.",
+   "at": 1794972000000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/holiday-living-deer-set/",
+   "expires": 1797224340000
+  },
+  {
+   "id": "web-innoexpo-paddle-board-20261118",
+   "item": "InnoExpo Inflatable Paddle Board Set (Dark Teal)",
+   "store": "Amazon",
+   "price": 73.99,
+   "was": 159.99,
+   "notes": "Clip the $30 on-page coupon and add promo code K8WKA3M7; code ends 11/18.",
+   "at": 1794971400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/inflatable-paddle-board/",
+   "url": "https://www.amazon.com/dp/B0DQTK4W5S",
+   "expires": 1795075140000
+  },
+  {
+   "id": "web-yasonic-shower-caddy-20261118",
+   "item": "Yasonic Adhesive Shower Caddy 6-Pack (Black XL)",
+   "store": "Amazon",
+   "price": 9.99,
+   "was": 25.99,
+   "notes": "Enter promo code 368M25CW at checkout to drop it to $9.99.",
+   "at": 1794966600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/shower-storage-caddy/",
+   "url": "https://www.amazon.com/dp/B0D1BZJSX4"
+  },
+  {
+   "id": "web-tempx-digital-thermometer-20261117",
+   "item": "Tempx Digital Thermometer (White)",
+   "store": "Amazon",
+   "price": 2.99,
+   "was": 9.99,
+   "notes": "Enter promo code TJJBW9PG at checkout.",
+   "at": 1794953400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/digital-thermometer/",
+   "url": "https://www.amazon.com/dp/B0GHXTY6PZ"
+  },
+  {
+   "id": "web-kipswiza-blanket-hoodie-20261117",
+   "item": "Kipswiza Wearable Blanket Hoodie",
+   "store": "Amazon",
+   "price": 12.44,
+   "was": 24.97,
+   "notes": "Promo code YXJLXBRB takes 50% off at checkout (limited time).",
+   "at": 1794953280000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/wearable-blanket/",
+   "url": "https://www.amazon.com/dp/B0B2JM5XY2"
+  },
+  {
+   "id": "web-gmcxax-vibration-plate-20261117",
+   "item": "GMCXAX Vibration Plate Exercise Machine",
+   "store": "Amazon",
+   "price": 35.99,
+   "was": 99.99,
+   "notes": "Use promo code C5KDEI6Q at checkout; ships free.",
+   "at": 1794952500000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/vibration-plate-exercise-machine/",
+   "url": "https://www.amazon.com/dp/B0HPJBP8R9"
+  },
+  {
+   "id": "web-gap-factory-sweatshirts-20261117",
+   "item": "Gap Factory Baby & Toddler Girls Sweatshirts",
+   "store": "Gap Factory",
+   "price": 6,
+   "was": 34.99,
+   "notes": "Code GFCYBER takes an extra 60% off clearance; boys, kids and women's sweatshirts also $6.80–$8. Price varies by color/size.",
+   "at": 1794932700000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/gap-sweatshirt/"
+  },
+  {
+   "id": "web-levis-signature-skinny-jeans-20261117",
+   "item": "Levi Strauss Signature Women's High-Rise Skinny Jeans",
+   "store": "Walmart",
+   "price": 7.95,
+   "was": 26.98,
+   "notes": "Lowest price on select colors/sizes; three inseam lengths.",
+   "at": 1794931620000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/levis-strauss-womens-jeans/"
+  },
   {
    "id": "web-wild-fable-pullon-shorts-20261117",
    "item": "Wild Fable Women's Low-Rise Pull-On Shorts",
@@ -86,6 +181,17 @@
    "expires": 1795075140000
   },
   {
+   "id": "web-muk-luks-holiday-slippers-20261117",
+   "item": "MUK LUKS Holiday Slippers (6 styles)",
+   "store": "Walmart",
+   "price": 8,
+   "was": 42,
+   "notes": "Limited-time price on Walmart.com; several holiday styles.",
+   "at": 1794876600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/muk-luks-slippers/"
+  },
+  {
    "id": "web-vitaup-biotin-20261116",
    "item": "VitaUp Biotin Gummies 60-Count",
    "store": "Amazon",
@@ -107,6 +213,17 @@
    "src": "Slickdeals",
    "srcUrl": "https://slickdeals.net/f/20319651-spacekey-15-in-1-cordless-beard-trimmer-grooming-kit-for-men-ipx7-3-speeds-usb-c-led-display-for-19-99-reg-55-99-free-shipping-w-prime-or-on-35-w-promo-code",
    "expires": 1796025540000
+  },
+  {
+   "id": "web-ninja-crispi-air-fryer-20261116",
+   "item": "Ninja Crispi Glass 4-Quart Air Fryer",
+   "store": "Walmart",
+   "price": 89,
+   "was": 149.99,
+   "notes": "Ships free from Walmart.com.",
+   "at": 1794867000000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/ninja-crispi/"
   },
   {
    "id": "web-voxor-bath-pillow-20261116",
@@ -192,125 +309,6 @@
    "src": "Walmart",
    "srcUrl": "https://www.walmart.com/shop/deals/clearance",
    "url": "https://www.walmart.com/ip/1080807668"
-  },
-  {
-   "id": "web-fairlife-core-power-12pk-20261115",
-   "item": "Fairlife Core Power 26g Protein Shakes 12-Pack (Vanilla)",
-   "store": "Amazon",
-   "price": 18.07,
-   "was": 41.88,
-   "notes": "Clip the 35% off coupon on the product page and check out with Subscribe & Save; some shoppers say the coupon is not showing for them.",
-   "at": 1794801600000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/fairlife-core-power/",
-   "url": "https://www.amazon.com/dp/B07LCZC2C2"
-  },
-  {
-   "id": "web-kids-digital-microscope-20261115",
-   "item": "Vivid Glass Kids Digital Microscope",
-   "store": "Amazon",
-   "price": 13.99,
-   "was": 24.99,
-   "notes": "Enter promo code J1PDZG2H at checkout; final price varies $13.99-$14.69 by color.",
-   "at": 1794795000000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/kids-microscope-set/",
-   "url": "https://www.amazon.com/dp/B0FVMN1TF3"
-  },
-  {
-   "id": "web-puffs-ultra-soft-8-boxes-20261115",
-   "item": "Puffs Ultra Soft Tissues 124-Ct, Two 4-Packs (8 boxes)",
-   "store": "Amazon",
-   "price": 11.88,
-   "was": 21.98,
-   "notes": "Add 2 four-packs to get 25% off one, and check out with Subscribe & Save. About $1.50 a box.",
-   "at": 1794793800000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/puffs-tissues/",
-   "url": "https://www.amazon.com/dp/B0DHHGL8P9"
-  },
-  {
-   "id": "web-fridge-deodorizer-20261115",
-   "item": "Stainless Steel Refrigerator Deodorizer (Light Green)",
-   "store": "Amazon",
-   "price": 13.49,
-   "was": 26.99,
-   "notes": "Use promo code 50E3MRFL at checkout; full half-off works on the light green color. Good through Nov 30.",
-   "at": 1794787500000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/refrigerator-deodorizer/",
-   "url": "https://www.amazon.com/dp/B0H11FN17T",
-   "expires": 1796112000000
-  },
-  {
-   "id": "web-toyk-bean-bag-toss-20261115",
-   "item": "Toyk Animal 3-in-1 Bean Bag Toss Game",
-   "store": "Amazon",
-   "price": 12.49,
-   "was": 24.99,
-   "notes": "Enter promo code O5BLB9JB at checkout. Good through Nov 30.",
-   "at": 1794775200000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/amazon-bean-bag-game/",
-   "url": "https://www.amazon.com/dp/B08V1R43HT",
-   "expires": 1796112000000
-  },
-  {
-   "id": "web-4g-lte-trail-camera-20261115",
-   "item": "4G LTE Trail Camera w/ Solar Panel (White)",
-   "store": "Amazon",
-   "price": 22.79,
-   "was": 59.99,
-   "notes": "Prime members: apply promo code LLOOH015 at checkout. Code listed as good through Nov 30.",
-   "at": 1794773700000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/cellular-trail-camera/",
-   "url": "https://www.amazon.com/dp/B0H6QCFVJS",
-   "expires": 1796112000000
-  },
-  {
-   "id": "web-ninja-possiblecooker-pro-20261115",
-   "item": "Ninja PossibleCooker Pro 8.5-Qt Multi-Slow Cooker (Stone Purple, MC1001PU1)",
-   "store": "Best Buy",
-   "price": 99.99,
-   "was": 199.99,
-   "notes": "Half off with free shipping or store pickup, while supplies last.",
-   "at": 1794754740000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20313939-ninja-possiblecooker-pro-8-5-qt-14-in-1-multi-cooker-stone-purple-99-99-free-shipping"
-  },
-  {
-   "id": "web-avia-bungee-lace-shoes-20261115",
-   "item": "Avia Men's Foam Bungee Lace Walking Shoes",
-   "store": "Walmart",
-   "price": 12.99,
-   "was": 30,
-   "notes": "Four colors; sizes vary. Avia Commend 2 running sneakers are $14.99 too.",
-   "at": 1794754200000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20313636-avia-men-s-foam-bungee-lace-walking-shoes-4-colors-12-99-free-shipping-w-walmart-or-on-35"
-  },
-  {
-   "id": "web-hp-omnibook-x-17-20261115",
-   "item": "HP OmniBook X 17.3\" FHD Touch Laptop (Core Ultra 7 256V, 16GB, 512GB)",
-   "store": "Best Buy",
-   "price": 749.99,
-   "was": 1499.99,
-   "notes": "Half off; model 17-DD0003DX. Free shipping, pickup varies by store.",
-   "at": 1794744480000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20315271-hp-omnibook-x-17-3-fhd-touchscreen-laptop-intel-core-ultra-7-256v-16gb-512gb-749-99-best-buy"
-  },
-  {
-   "id": "web-workpro-mini-tool-box-20261115",
-   "item": "WORKPRO 2-Drawer Mini Metal Tool Box w/ Top Storage",
-   "store": "Walmart",
-   "price": 19.99,
-   "was": 47,
-   "notes": "Five colors. Free shipping with Walmart+ or on $35+.",
-   "at": 1794740940000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20316294-workpro-2-drawer-mini-metal-tool-box-w-top-storage-5-colors-19-99-free-shipping-w-walmart-or-on-35"
   }
  ]
 }
