@@ -1,5 +1,5 @@
 {
- "updated": 1794827015836,
+ "updated": 1795086506790,
  "deals": [
   {
    "id": "taco-bell-gameday-nacho-fries-apple-pay-2026",
@@ -19,46 +19,7 @@
    "link": "https://www.tacobell.com/offers-and-deals",
    "linkText": "See Taco Bell deals",
    "official": true,
-   "checked": "2026-11-16"
-  },
-  {
-   "id": "starbucks-red-cup-day-2026",
-   "chain": "Starbucks",
-   "cat": "Coffee",
-   "offer": "Free reusable red holiday cup with a holiday drink on Red Cup Day",
-   "how": "Tuesday, Nov 17. Order a handcrafted holiday drink at a participating Starbucks and get a collectible reusable red cup free while supplies last. Go early; cups run out.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Order any handcrafted holiday drink on Nov 17.",
-   "start": "2026-11-17",
-   "ends": "2026-11-17",
-   "link": "https://www.starbucks.com/",
-   "linkText": "Go to Starbucks",
-   "official": false,
-   "src": "Scripps News",
-   "srcUrl": "https://www.scrippsnews.com/life/food-and-drink/starbucks-announces-2026-red-cup-day-heres-when-to-get-a-free-cup",
-   "checked": "2026-11-16"
-  },
-  {
-   "id": "chipotle-brisket-free-delivery-nov-2026",
-   "chain": "Chipotle",
-   "cat": "Mexican",
-   "offer": "$0 delivery fee on Smoked Brisket orders of $10+",
-   "how": "Nov 5-18, order delivery on the Chipotle app or chipotle.com with a Smoked Brisket entrée and at least $10 of food (before tax and fees) and the delivery fee is $0. Delivery menu prices are higher and service fees still apply. Not on third-party apps, catering or Burritos by the Box.",
-   "where": [
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Add a Smoked Brisket entrée to a $10+ delivery order in the Chipotle app or website.",
-   "start": "2026-11-05",
-   "ends": "2026-11-18",
-   "link": "https://newsroom.chipotle.com/2026-10-26-CHIPOTLE-TO-BRING-BACK-MESQUITE-SMOKED-BRISKET-FOR-THE-HEART-OF-FOOTBALL-SEASON",
-   "linkText": "See Chipotle's brisket deal",
-   "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "popeyes-monday-free-wings",
@@ -80,7 +41,7 @@
    "official": false,
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "mcdonalds-8-qpc-meal-nov-2026",
@@ -99,7 +60,7 @@
    "link": "https://www.mcdonalds.com/us/en-us/holiday-deals.html",
    "linkText": "See McDonald's deals",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "wawa-fall-iced-espresso-3",
@@ -116,7 +77,7 @@
    "link": "https://www.wawa.com/menu/promotions",
    "linkText": "See Wawa's deals",
    "official": false,
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "src": "NACS (convenience.org)",
    "srcUrl": "https://convenience.org/stay-current/news/2026/september/11/wawa-brings-back-pumpkin-and-s%E2%80%99mores-coffee"
   },
@@ -135,7 +96,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "bertuccis-two-for-tuesday",
@@ -153,7 +114,7 @@
    "link": "https://www.bertuccis.com/specials",
    "linkText": "See Bertucci's specials",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "outback-kids-eat-free",
@@ -172,7 +133,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "outback-walkabout-wednesday",
@@ -189,7 +150,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "outback-tuesday-tails",
@@ -206,7 +167,7 @@
    "link": "https://www.outback.com/offers/weekday-value",
    "linkText": "See Outback specials",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "wendys-half-off-daves-single-foxbignoon",
@@ -227,7 +188,7 @@
    "official": false,
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/money/food-promo-codes",
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "shake-shack-chicken-sundays",
@@ -247,7 +208,7 @@
    "link": "https://shakeshack.com/national-regional-offers",
    "linkText": "See Shake Shack's offers",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "shake-shack-shack-sundays-2026",
@@ -269,7 +230,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/shake-shack-sundays-free-burger-chicken-sandwich-promo-code/",
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "applebees-nfl-wing-ticket-2026",
@@ -288,7 +249,7 @@
    "link": "https://investors.dinebrands.com/news-releases/news-release-details/applebeesr-introduces-nfl-season-wing-ticket-free-boneless-wings",
    "linkText": "See Applebee's wing deal",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "papa-johns-free-pizza-review-nov-2026",
@@ -310,7 +271,7 @@
    "official": false,
    "src": "Parade",
    "srcUrl": "https://parade.com/food/papa-johns-free-large-pizza-november-2026",
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "wendys-799-daves-single-combo",
@@ -328,7 +289,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "wendys-fryday-free-fry",
@@ -346,7 +307,7 @@
    "link": "https://www.wendys.com/offers-coupons",
    "linkText": "See Wendy's deals",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "mcdonalds-free-medium-fries-weekly-2026",
@@ -366,7 +327,7 @@
    "link": "https://www.mcdonalds.com/us/en-us/holiday-deals.html",
    "linkText": "See McDonald's deals",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "dunkin-6-meal-deal-fall-2026",
@@ -384,7 +345,7 @@
    "link": "https://news.dunkindonuts.com/news/spend-your-extra-hour-with-dunkin-novemebr-2026",
    "linkText": "See Dunkin's deal",
    "official": true,
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "shake-shack-bogoshack-nov-2026",
@@ -406,7 +367,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/bogo-buy-one-get-one-free-promo-code-shake-shack-november/",
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -425,7 +386,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -445,7 +406,7 @@
    "linkText": "See Lansdale Tavern's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -465,7 +426,7 @@
    "linkText": "See Margaritas' specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -485,7 +446,7 @@
    "linkText": "See KC's Alley's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -505,7 +466,7 @@
    "linkText": "See Drake Tavern's Burger Night",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -525,7 +486,7 @@
    "linkText": "See Drake Tavern's Taco Tuesday",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -545,7 +506,7 @@
    "linkText": "See Kabuto's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -565,7 +526,7 @@
    "linkText": "See Southern Cross Kitchen's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -581,11 +542,11 @@
    "city": "Horsham",
    "addr": "680 Easton Road",
    "zip": "19044",
-   "link": "https://nabrasa.com/horsham/",
+   "link": "https://nabrasa.com/locations/horsham/",
    "linkText": "See NaBrasa's pricing",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -605,7 +566,7 @@
    "linkText": "See Al Pastor's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -625,7 +586,7 @@
    "linkText": "See Appetites on Main's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -647,7 +608,7 @@
    "linkText": "See The Pizza Stop's coupons",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -667,7 +628,7 @@
    "linkText": "See Mike's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -683,11 +644,11 @@
    "city": "Media",
    "addr": "131 E Baltimore Ave",
    "zip": "19063",
-   "link": "https://pinpizza.com/specials",
+   "link": "https://pinpizza.com/specials.asp",
    "linkText": "See Pinocchio's specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -708,7 +669,7 @@
    "linkText": "See VIP Pizza's weekly specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -729,7 +690,7 @@
    "linkText": "See Bravo Pizza's daily specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
   },
   {
@@ -737,7 +698,7 @@
    "chain": "Hog Island Steaks",
    "cat": "American",
    "offer": "Lunch combos from $6.99",
-   "how": "Daily 11am–3pm: two plain slices and a soda $6.99, six wings with fries and a soda $12.99, cheeseburger with fries and a soda $13.99.",
+   "how": "Daily 11am–3pm: two plain slices and a soda $6.99, six wings with fries and a soda $12.99, cheeseburger with fries and a soda $14.99.",
    "where": [
     "In store",
     "Pickup",
@@ -751,8 +712,46 @@
    "linkText": "See Hog Island's lunch specials",
    "official": true,
    "area": "Montco",
-   "checked": "2026-11-16",
+   "checked": "2026-11-19",
    "srcDate": "Oct 2026"
+  },
+  {
+   "id": "pizza-hut-triple-treat-box-holiday-2026",
+   "chain": "Pizza Hut",
+   "cat": "Pizza",
+   "offer": "Holiday Triple Treat Box from $21.99",
+   "how": "Through Dec 27: two medium 1-topping pizzas, 5 breadsticks with marinara and 10 cinnamon sticks in a holiday box, starting at $21.99. Feeds about 4–6. Price varies by location; crust upgrades, extra toppings and swaps cost more, and delivery fees are extra.",
+   "where": [
+    "Pickup",
+    "Delivery",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Pick the Triple Treat Box on Pizza Hut's website or app, or ask for it in store.",
+   "start": "2026-11-09",
+   "ends": "2026-12-27",
+   "link": "https://www.pizzahut.com/c/content/triple-treat-box",
+   "linkText": "See Pizza Hut's Triple Treat Box",
+   "official": true,
+   "checked": "2026-11-19"
+  },
+  {
+   "id": "chick-fil-a-cow-calendar-2027",
+   "chain": "Chick-fil-A",
+   "cat": "Chicken",
+   "offer": "2027 Cow Calendar with 12 free food rewards",
+   "how": "Buy the 2027 Cow Calendar at a Chick-fil-A or in the app, then scan it to load 12 rewards (one per month, unlocking on the 1st) into your Chick-fil-A One account. Up to 5 per account; while supplies last. Price varies by restaurant.",
+   "where": [
+    "In store",
+    "App"
+   ],
+   "code": "",
+   "ask": "No code. Ask for the Cow Calendar at the counter or add it in the Chick-fil-A app.",
+   "start": "2026-11-16",
+   "link": "https://www.chick-fil-a.com/cow-calendar",
+   "linkText": "See the Cow Calendar",
+   "official": true,
+   "checked": "2026-11-19"
   }
  ],
  "apps": [],
