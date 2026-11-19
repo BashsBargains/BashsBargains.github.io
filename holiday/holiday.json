@@ -1,5 +1,5 @@
 {
- "updated": 1794481664852,
+ "updated": 1795086453091,
  "events": [
   {
    "name": "Thanksgiving",
@@ -18,18 +18,18 @@
   {
    "id": "amazon",
    "name": "Amazon",
-   "status": "confirmed",
-   "early": "Early Black Friday deals already rolling on Amazon ahead of the main event",
-   "main": "Black Friday Week sale Nov 19 (12:01am PT / 3am ET) through Cyber Monday Nov 30; Today's Big Deals drop at midnight and 8am PT on Black Friday and Cyber Monday",
+   "status": "live",
+   "early": "Early Black Friday deals ran ahead of the main sale",
+   "main": "Black Friday Week & Cyber Monday live now, Nov 19–30; 12 days of themed Today's Big Deals drops, with new deals at midnight and 8am PT on Black Friday and Cyber Monday",
    "ad": "No printed ad",
-   "src": "9to5Toys, citing Amazon's announcement (Nov 10, 2026)",
-   "srcUrl": "https://9to5toys.com/2026/11/10/amazon-black-friday-2026-officially-announced/"
+   "src": "Amazon press release (Nov 2026)",
+   "srcUrl": "https://press.aboutamazon.com/2026/11/amazons-black-friday-week-and-cyber-monday-return-november-19-30-with-millions-of-deals-to-deliver-joy-this-holiday-season"
   },
   {
    "id": "walmart",
    "name": "Walmart",
-   "status": "live",
-   "early": "Early Black Friday Deals live now, Nov 12–15 (Walmart+ hot Deal drops first Nov 12; everyone 12:01am ET Nov 13; stores 6am)",
+   "status": "confirmed",
+   "early": "Early Black Friday Deals ran Nov 12–15 (now over)",
    "main": "Black Friday Deals Nov 23–29 (Walmart+ first Nov 23, everyone Nov 24; stores 6am Nov 27, closed Thanksgiving); Cyber Monday online Nov 30 – Dec 2",
    "ad": "Released Nov 10",
    "src": "9to5Toys (Nov 11, 2026)",
@@ -40,21 +40,22 @@
    "id": "target",
    "name": "Target",
    "status": "live",
-   "early": "Early Black Friday sale ran Nov 5–7; Deal of the Day runs daily through Dec 24, plus new limited-time offers every weekend",
-   "main": "Black Friday Nov 27; Cyber Monday online deals Nov 30; Black Friday week details not out yet",
-   "ad": "Not out yet",
-   "src": "TODAY, citing Target (Oct 26, 2026)",
-   "srcUrl": "https://www.today.com/shop/target-announces-black-friday-sale-details-2026-rcna604432"
+   "early": "Deal of the Day runs daily through Dec 24; Holiday Price Match Guarantee through Dec 24",
+   "main": "Black Friday Sale Nov 22–29 (up to 50% off); Circle 360 early access Nov 25 from 2am CT; new weekend deals Nov 26–29; stores closed Thanksgiving, open 6am Black Friday with gift card giveaway",
+   "ad": "Released Nov 17",
+   "src": "Target press release (Nov 17, 2026)",
+   "srcUrl": "https://corporate.target.com/press/release/2026/11/target-announces-black-friday-deals-and-giveaways-to-help-families-save-big-on-gifts-they-ll-love-to",
+   "adUrl": "https://9to5toys.com/2026/11/17/target-official-75-page-black-friday-ad-start-time/"
   },
   {
    "id": "best-buy",
    "name": "Best Buy",
    "status": "live",
-   "early": "Early Black Friday deals live now; new deals drop Friday Nov 13",
-   "main": "Black Friday Doorbusters & Deals Nov 19–28; Cyber Monday Nov 29–30; Cyber Week Dec 1–6; Last-Minute Save Dec 18–24",
+   "early": "Black Friday Doorbusters & deals live now, Nov 19–28; Thanksgiving 24-hour online flash sale Nov 26 (stores closed)",
+   "main": "Stores open 6am Black Friday ($100 gift card for $60 in-store doorbuster for members); Cyber Sunday & Monday Nov 29–30; Cyber Week Dec 1–6",
    "ad": "Released Nov 9",
-   "src": "Yahoo Shopping (Nov 9, 2026)",
-   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html",
+   "src": "Best Buy corporate news (Nov 2026)",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
    "adUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-best-buy-143837448.html"
   },
   {
@@ -81,30 +82,30 @@
   {
    "id": "costco",
    "name": "Costco",
-   "status": "confirmed",
-   "early": "Holiday Savings #1 Oct 30 – Nov 15; #2 Nov 16–30",
+   "status": "live",
+   "early": "Holiday Savings #2 running now through Nov 30",
    "main": "Thanksgiving online-only deals Nov 26 (warehouses closed); Black Friday weekend Nov 27–30; Cyber Monday online Nov 30",
    "ad": "Released Oct 23",
-   "src": "Costco Insider (Oct 23, 2026)",
-   "srcUrl": "https://www.costcoinsider.com/costco-black-friday-2026-ad/",
+   "src": "Hip2Save (Nov 17, 2026)",
+   "srcUrl": "https://hip2save.com/deals/costco-black-friday/",
    "adUrl": "https://www.costcoinsider.com/costco-black-friday-2026-ad/"
   },
   {
    "id": "sams-club",
    "name": "Sam's Club",
    "status": "live",
-   "early": "Instant Savings Oct 28 – Nov 29 (running now); Weekend Doorbusters Nov 6–8",
-   "main": "Countdown to Black Friday Nov 15–25; Black Friday sale Nov 26–29",
+   "early": "Instant Savings through Nov 29; Countdown to Black Friday through Nov 25 (running now)",
+   "main": "Black Friday sale Nov 26–29",
    "ad": "Leaked Oct 21",
-   "src": "Hip2Save (Oct 21, 2026)",
+   "src": "Hip2Save (Nov 17, 2026)",
    "srcUrl": "https://hip2save.com/deals/sams-club-black-friday/",
    "adUrl": "https://hip2save.com/deals/sams-club-black-friday/"
   },
   {
    "id": "kohls",
    "name": "Kohl's",
-   "status": "confirmed",
-   "early": "Black Friday Early Access Nov 6–8 ($15 Kohl's Cash per $50 on Nov 6; $10 per $50 Nov 7–8; extra 20% off coupon)",
+   "status": "live",
+   "early": "Early Access ran Nov 6–8; extra 20% off with code LOVE2SAVE through Nov 21",
    "main": "Black Friday Week Nov 22–28 (doorbusters online from 12:01am CT Nov 26, stores Nov 27–28; stores closed Thanksgiving, open 5am Black Friday); Cyber Deals Nov 29–30",
    "ad": "Not out yet",
    "src": "Kohl's press release (Oct 30, 2026)",
@@ -114,12 +115,12 @@
    "id": "bjs",
    "name": "BJ's",
    "status": "live",
-   "early": "Early Black Friday deals running since Oct 23, in clubs and online (up to 40% off TVs and electronics)",
-   "main": "Main Black Friday dates not announced yet",
-   "ad": "Not out yet",
-   "adUrl": "https://www.bjs.com/BlackFriday",
-   "src": "BJ's newsroom (Oct 15, 2026)",
-   "srcUrl": "https://newsroom.bjs.com/press-releases/news-details/2026/A-Head-Start-on-Holiday-Savings-BJs-Wholesale-Club-Kicks-Off-Early-Black-Friday-on-October-23/default.aspx"
+   "early": "Early Bird deals Nov 16–30, in clubs and online",
+   "main": "Online doorbusters start Thanksgiving Day; clubs closed Thanksgiving, open 7am Black Friday Nov 27",
+   "ad": "Released Nov 13",
+   "adUrl": "https://www.blacknfriday.com/bjs-black-friday-deals/",
+   "src": "BlacknFriday.com (Nov 13, 2026)",
+   "srcUrl": "https://www.blacknfriday.com/bjs-black-friday-deals/"
   }
  ],
  "deals": [
@@ -170,65 +171,6 @@
    "src": "ABC News",
    "srcUrl": "https://abcnews.com/GMA/Shop/black-friday-deals-2026/story?id=137771136",
    "expires": 1795669140000
-  },
-  {
-   "id": "bf-walmart-lg-65-c6-oled",
-   "item": "LG 65\" C6 4K OLED TV",
-   "store": "Walmart",
-   "price": 1399.99,
-   "was": 2699.99,
-   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change. Near its lowest price yet.",
-   "at": 1794481664852,
-   "src": "Yahoo Shopping",
-   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
-   "expires": 1794805199000
-  },
-  {
-   "id": "bf-walmart-roborock-qrevo-s5v",
-   "item": "Roborock Qrevo S5V Robot Vacuum and Mop",
-   "store": "Walmart",
-   "price": 499.99,
-   "was": 899.99,
-   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
-   "at": 1794481664852,
-   "src": "Yahoo Shopping",
-   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
-   "expires": 1794805199000
-  },
-  {
-   "id": "bf-walmart-roborock-q10-x5",
-   "item": "Roborock Q10 X5+ Robot Vacuum and Mop",
-   "store": "Walmart",
-   "price": 299.99,
-   "was": 499.99,
-   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
-   "at": 1794481664852,
-   "src": "Yahoo Shopping",
-   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
-   "expires": 1794805199000
-  },
-  {
-   "id": "bf-walmart-airpods-4",
-   "item": "Apple AirPods 4",
-   "store": "Walmart",
-   "price": 89,
-   "was": 129.99,
-   "notes": "Walmart Early Black Friday Deals (Nov 12–15); price may change.",
-   "at": 1794481664852,
-   "src": "Yahoo Shopping",
-   "srcUrl": "https://shopping.yahoo.com/deals/articles/black-friday-2026-walmart-see-143237796.html",
-   "expires": 1794805199000
-  },
-  {
-   "id": "bf-walmart-carote-knife-set",
-   "item": "Carote 14-Piece Knife Set",
-   "store": "Walmart",
-   "price": 42.98,
-   "was": 79.99,
-   "notes": "Early Black Friday deal; price may change.",
-   "at": 1794481664852,
-   "src": "TODAY",
-   "srcUrl": "https://www.today.com/shop/black-friday-sales-2026-rcna605702"
   },
   {
    "id": "bf-best-buy-samsung-65-r84h",
@@ -428,6 +370,198 @@
    "at": 1794481664852,
    "src": "NBC Select",
    "srcUrl": "https://www.nbcnews.com/select/shopping/early-black-friday-sales-gap-target-ulta-rcna607963"
+  },
+  {
+   "id": "bf-amazon-roborock-q7-m5",
+   "item": "Roborock Q7 M5+ Robot Vacuum and Mop",
+   "store": "Amazon",
+   "price": 199.99,
+   "was": 359.99,
+   "notes": "Lowest price ever, per NBC Select; price may change.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-stanley-quencher-40oz",
+   "item": "Stanley Quencher H2.0 Tumbler (40 oz)",
+   "store": "Amazon",
+   "price": 22.5,
+   "was": 45,
+   "notes": "Lowest price ever, per NBC Select; colors vary.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-waterpik-pulse-3100",
+   "item": "Waterpik Cordless Pulse 3100",
+   "store": "Amazon",
+   "price": 29.99,
+   "was": 49.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-nothing-headphone-a",
+   "item": "Nothing Headphone (a)",
+   "store": "Amazon",
+   "price": 109,
+   "was": 199,
+   "notes": "Lowest price ever; same price at Target and Best Buy.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-delonghi-classic-signature",
+   "item": "De'Longhi Classic Signature Espresso Machine",
+   "store": "Amazon",
+   "price": 149.95,
+   "was": 229.95,
+   "notes": "Same price at Target and Williams-Sonoma.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-kitchenaid-oven-mitts",
+   "item": "KitchenAid Ribbed Silicone Oven Mitt 2-Pack",
+   "store": "Amazon",
+   "price": 10.99,
+   "was": 34.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-shark-vertex-liftaway",
+   "item": "Shark Vertex Lift-Away Upright Vacuum",
+   "store": "Amazon",
+   "price": 269.99,
+   "was": 479.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-amazon-lego-red-fox",
+   "item": "LEGO Creator 3-in-1 Forest Animals: Red Fox",
+   "store": "Amazon",
+   "price": 34.99,
+   "was": 49.99,
+   "notes": "Early Black Friday deal; price may change.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-dicks-hoka-arahi-8",
+   "item": "Hoka Arahi 8 Running Shoes (women's)",
+   "store": "Dick's Sporting Goods",
+   "price": 86.97,
+   "was": 149.99,
+   "notes": "Sizes and colors vary.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-home-depot-ryobi-2-tool-kit",
+   "item": "Ryobi One+ 18V 2-Tool Combo Kit",
+   "store": "Home Depot",
+   "price": 99,
+   "was": 149,
+   "notes": "Same price at Ryobi.",
+   "at": 1795086453091,
+   "src": "NBC Select",
+   "srcUrl": "https://www.nbcnews.com/select/shopping/best-early-black-friday-deals-2026-rcna609512"
+  },
+  {
+   "id": "bf-best-buy-tcl-65-4k",
+   "item": "TCL 65\" 4K TV",
+   "store": "Best Buy",
+   "price": 229.99,
+   "was": 469.99,
+   "notes": "Black Friday Doorbuster, Nov 19–28, while supplies last.",
+   "at": 1795086453091,
+   "src": "Best Buy",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
+   "expires": 1795931999000
+  },
+  {
+   "id": "bf-best-buy-hp-omnibook-5",
+   "item": "HP OmniBook 5 14\" 2K OLED Touchscreen Laptop",
+   "store": "Best Buy",
+   "price": 449.99,
+   "was": 799.99,
+   "notes": "Black Friday Doorbuster, Nov 19–28, while supplies last.",
+   "at": 1795086453091,
+   "src": "Best Buy",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
+   "expires": 1795931999000
+  },
+  {
+   "id": "bf-best-buy-sony-wh1000xm5",
+   "item": "Sony WH-1000XM5 Noise Cancelling Headphones",
+   "store": "Best Buy",
+   "price": 169,
+   "was": 398,
+   "notes": "Black Friday Doorbuster, Nov 19–28, while supplies last.",
+   "at": 1795086453091,
+   "src": "Best Buy",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
+   "expires": 1795931999000
+  },
+  {
+   "id": "bf-best-buy-shark-powerdetect-stick",
+   "item": "Shark PowerDetect Speed Cordless Stick Vacuum",
+   "store": "Best Buy",
+   "price": 199.99,
+   "was": 499.99,
+   "notes": "Black Friday Doorbuster, Nov 19–28, while supplies last.",
+   "at": 1795086453091,
+   "src": "Best Buy",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
+   "expires": 1795931999000
+  },
+  {
+   "id": "bf-best-buy-insignia-fridge",
+   "item": "Insignia 18 cu. ft. Refrigerator (30\" wide)",
+   "store": "Best Buy",
+   "price": 299.99,
+   "was": 749.99,
+   "notes": "Black Friday Doorbuster, Nov 19–28, while supplies last.",
+   "at": 1795086453091,
+   "src": "Best Buy",
+   "srcUrl": "https://corporate.bestbuy.com/2026/black-friday-sale-deals/",
+   "expires": 1795931999000
+  },
+  {
+   "id": "bf-sams-club-bose-qc-headphones",
+   "item": "Bose QuietComfort Wireless Headphones",
+   "store": "Sam's Club",
+   "price": 169,
+   "was": 329,
+   "notes": "Sam's Club membership required; price as posted Nov 17.",
+   "at": 1795086453091,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/sams-club-black-friday/"
+  },
+  {
+   "id": "bf-sams-club-pioneer-karved-speaker",
+   "item": "Pioneer Karved Portable Bluetooth Speaker",
+   "store": "Sam's Club",
+   "price": 49.88,
+   "was": 99.88,
+   "notes": "Sam's Club membership required; price as posted Nov 17.",
+   "at": 1795086453091,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/sams-club-black-friday/"
   }
  ]
 }
