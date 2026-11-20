@@ -1,6 +1,112 @@
 {
- "updated": 1795084638153,
+ "updated": 1795171056994,
  "deals": [
+  {
+   "id": "web-milwaukee-m12-ratchet-20261119",
+   "item": "Milwaukee M12 3/8 in. Cordless Ratchet, Tool Only (2457-20)",
+   "store": "Home Depot",
+   "price": 99,
+   "was": 169,
+   "notes": "Bare tool, no battery included.",
+   "at": 1795158960000,
+   "src": "Slickdeals",
+   "srcUrl": "https://slickdeals.net/f/20350872-milwaukee-m12-12v-lithium-ion-cordless-3-8-in-ratchet-tool-only-99"
+  },
+  {
+   "id": "web-vym-red-light-mask-20261119",
+   "item": "VYM Infrared Red Light Therapy Mask",
+   "store": "Amazon",
+   "price": 41.84,
+   "was": 92.99,
+   "notes": "Price needs promo code JENI48I2 at checkout.",
+   "at": 1795145400000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/vym-red-light-therapy-mask/",
+   "url": "https://www.amazon.com/dp/B0F63SWKBS"
+  },
+  {
+   "id": "web-yoolife-initial-tote-set-20261119",
+   "item": "YOOLIFE Initial Canvas Tote Bag 3-Piece Set",
+   "store": "Amazon",
+   "price": 12.99,
+   "was": 35.99,
+   "notes": "Prime price plus promo code T2LDH5HX.",
+   "at": 1795137300000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/initial-canvas-tote/",
+   "url": "https://www.amazon.com/dp/B0CL73Z3WC"
+  },
+  {
+   "id": "web-barefoot-dreams-throw-20261119",
+   "item": "Barefoot Dreams CozyChic Barefoot in the Wild Throw Blanket (54\"x72\")",
+   "store": "Amazon",
+   "price": 54,
+   "was": 180,
+   "notes": "Black Friday price, ships free. About 70% off list.",
+   "at": 1795136700000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/barefoot-dreams-throw-blankets/",
+   "url": "https://www.amazon.com/dp/B01LY6JN8K"
+  },
+  {
+   "id": "web-longbay-slipper-boots-20261119",
+   "item": "LongBay Women's Slipper Boots",
+   "store": "Amazon",
+   "price": 14.99,
+   "was": 31.95,
+   "notes": "Use code DD9029 on this listing (a second listing works with HMRW028).",
+   "at": 1795132800000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/amazon-slipper-boots/",
+   "url": "https://www.amazon.com/dp/B08C725R8D"
+  },
+  {
+   "id": "web-ancober-bt-speaker-20261119",
+   "item": "ANCOBER Portable Bluetooth Speaker",
+   "store": "Amazon",
+   "price": 19.4,
+   "was": 79.99,
+   "notes": "Enter promo code LOKWW281 at checkout.",
+   "at": 1795131900000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/ancober-portable-bluetooth-speaker/",
+   "url": "https://www.amazon.com/dp/B0HM7R55YZ"
+  },
+  {
+   "id": "web-lunakai-menopause-gummies-20261119",
+   "item": "Lunakai Menopause Relief Gummies 60-Count",
+   "store": "Amazon",
+   "price": 12.96,
+   "was": 27.95,
+   "notes": "Clip the 25% digital coupon and choose Subscribe & Save (10-15% off).",
+   "at": 1795131600000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/lunakai-menopause-support/"
+  },
+  {
+   "id": "web-gumry-tree-trivet-set-20261119",
+   "item": "Gumry Christmas Tree Silicone Trivet 6-Piece Set",
+   "store": "Amazon",
+   "price": 9.95,
+   "was": 29.99,
+   "notes": "Prime price with promo code T4AZ1GXY; runs through Nov 28.",
+   "at": 1795127700000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/christmas-tree-trivet/",
+   "url": "https://www.amazon.com/dp/B0HF3C2XM1",
+   "expires": 1795928400000
+  },
+  {
+   "id": "web-astroai-s8-jump-starter-20261119",
+   "item": "AstroAI S8 1500A Car Jump Starter & Power Bank",
+   "store": "Amazon",
+   "price": 19.34,
+   "was": 60,
+   "notes": "Needs promo code BHXBGG1Z at checkout; one shopper said the code wouldn't apply.",
+   "at": 1795085280000,
+   "src": "Slickdeals",
+   "srcUrl": "https://slickdeals.net/f/20352690-1500a-12v-astroai-s8-portable-car-battery-jump-starter-power-bank-w-led-light-19-34-free-shipping-w-prime-or-on-35"
+  },
   {
    "id": "web-holiday-living-tree-set-20261118",
    "item": "Holiday Living 60\" 3-Piece Lighted Freestanding Christmas Tree Set",
@@ -113,6 +219,17 @@
    "expires": 1795928340000
   },
   {
+   "id": "web-kobalt-20pc-tool-set-20261118",
+   "item": "Kobalt 20-Piece Household Tool Set with Hard Case",
+   "store": "Lowe's",
+   "price": 24.98,
+   "was": 43.98,
+   "notes": "Early Black Friday price, two colors; free shipping for MyLowe's Rewards members.",
+   "at": 1795015500000,
+   "src": "Hip2Save",
+   "srcUrl": "https://hip2save.com/deals/kobalt-tools/"
+  },
+  {
    "id": "web-dewalt-atomic-impact-driver-20261118",
    "item": "DEWALT ATOMIC 20V MAX Brushless 1/4\" Impact Driver Kit (DCF809D1) w/ 2.0Ah Battery & Charger",
    "store": "Home Depot",
@@ -122,112 +239,6 @@
    "at": 1794999780000,
    "src": "Slickdeals",
    "srcUrl": "https://slickdeals.net/f/20338524-dewalt-atomic-20v-max-brushless-cordless-1-4-compact-impact-driver-kit-w-2-0ah-battery-charger-99-free-shipping"
-  },
-  {
-   "id": "web-galaxy-buds3-pro-20261118",
-   "item": "Samsung Galaxy Buds3 Pro Wireless Earbuds",
-   "store": "Amazon",
-   "price": 99.99,
-   "was": 189.99,
-   "notes": "Prime-member exclusive; lowest price yet and includes a 2-year Samsung warranty.",
-   "at": 1794995520000,
-   "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20338209-samsung-galaxy-buds3-pro-ai-true-wireless-bluetooth-earbuds-99-99-was-189-99-lowest-ever-prime-exclusive",
-   "url": "https://www.amazon.com/dp/B0D9YZJ3V7"
-  },
-  {
-   "id": "web-holiday-living-deer-set-20261118",
-   "item": "Holiday Living 3-Piece Lighted Outdoor Deer Family Decoration",
-   "store": "Lowe's",
-   "price": 79,
-   "was": 129,
-   "notes": "Ships free from Lowes.com; sale runs through 12/13.",
-   "at": 1794972000000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/holiday-living-deer-set/",
-   "expires": 1797224340000
-  },
-  {
-   "id": "web-yasonic-shower-caddy-20261118",
-   "item": "Yasonic Adhesive Shower Caddy 6-Pack (Black XL)",
-   "store": "Amazon",
-   "price": 9.99,
-   "was": 25.99,
-   "notes": "Enter promo code 368M25CW at checkout to drop it to $9.99.",
-   "at": 1794966600000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/shower-storage-caddy/",
-   "url": "https://www.amazon.com/dp/B0D1BZJSX4"
-  },
-  {
-   "id": "web-tempx-digital-thermometer-20261117",
-   "item": "Tempx Digital Thermometer (White)",
-   "store": "Amazon",
-   "price": 2.99,
-   "was": 9.99,
-   "notes": "Enter promo code TJJBW9PG at checkout.",
-   "at": 1794953400000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/digital-thermometer/",
-   "url": "https://www.amazon.com/dp/B0GHXTY6PZ"
-  },
-  {
-   "id": "web-kipswiza-blanket-hoodie-20261117",
-   "item": "Kipswiza Wearable Blanket Hoodie",
-   "store": "Amazon",
-   "price": 12.44,
-   "was": 24.97,
-   "notes": "Promo code YXJLXBRB takes 50% off at checkout (limited time).",
-   "at": 1794953280000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/wearable-blanket/",
-   "url": "https://www.amazon.com/dp/B0B2JM5XY2"
-  },
-  {
-   "id": "web-gmcxax-vibration-plate-20261117",
-   "item": "GMCXAX Vibration Plate Exercise Machine",
-   "store": "Amazon",
-   "price": 35.99,
-   "was": 99.99,
-   "notes": "Use promo code C5KDEI6Q at checkout; ships free.",
-   "at": 1794952500000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/vibration-plate-exercise-machine/",
-   "url": "https://www.amazon.com/dp/B0HPJBP8R9"
-  },
-  {
-   "id": "web-gap-factory-sweatshirts-20261117",
-   "item": "Gap Factory Baby & Toddler Girls Sweatshirts",
-   "store": "Gap Factory",
-   "price": 6,
-   "was": 34.99,
-   "notes": "Code GFCYBER takes an extra 60% off clearance; boys, kids and women's sweatshirts also $6.80–$8. Price varies by color/size.",
-   "at": 1794932700000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/gap-sweatshirt/"
-  },
-  {
-   "id": "web-levis-signature-skinny-jeans-20261117",
-   "item": "Levi Strauss Signature Women's High-Rise Skinny Jeans",
-   "store": "Walmart",
-   "price": 7.95,
-   "was": 26.98,
-   "notes": "Lowest price on select colors/sizes; three inseam lengths.",
-   "at": 1794931620000,
-   "src": "Hip2Save",
-   "srcUrl": "https://hip2save.com/deals/levis-strauss-womens-jeans/"
-  },
-  {
-   "id": "web-wild-fable-pullon-shorts-20261117",
-   "item": "Wild Fable Women's Low-Rise Pull-On Shorts",
-   "store": "Target",
-   "price": 6,
-   "was": 12,
-   "notes": "Half-price clearance on Target.com; sizes and colors vary.",
-   "at": 1794911922133,
-   "src": "Target",
-   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
-   "url": "https://www.target.com/p/women-s-low-rise-pull-on-shorts-wild-fable/-/A-94978091"
   }
  ]
 }
