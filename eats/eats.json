@@ -1,26 +1,6 @@
 {
- "updated": 1795086506790,
+ "updated": 1795431254310,
  "deals": [
-  {
-   "id": "taco-bell-gameday-nacho-fries-apple-pay-2026",
-   "chain": "Taco Bell",
-   "cat": "Mexican",
-   "offer": "Free regular Nacho Fries on your next $10+ app order when you pay with Apple Pay",
-   "how": "Saturdays and Sundays through Nov 22. Tap Start on the offer in the Taco Bell app's Rewards tab, pay with Apple Pay, then redeem free Nacho Fries on a later $10+ app order within 90 days. One per account; delivery outside the app doesn't count.",
-   "where": [
-    "App",
-    "Pickup"
-   ],
-   "code": "",
-   "ask": "No code. Activate the Gameday offer in the Taco Bell app's Rewards tab and pay with Apple Pay.",
-   "start": "2026-11-06",
-   "ends": "2026-11-22",
-   "repeat": "Saturdays and Sundays",
-   "link": "https://www.tacobell.com/offers-and-deals",
-   "linkText": "See Taco Bell deals",
-   "official": true,
-   "checked": "2026-11-19"
-  },
   {
    "id": "popeyes-monday-free-wings",
    "chain": "Popeyes",
@@ -41,7 +21,7 @@
    "official": false,
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/money/food-deals-near-me",
-   "checked": "2026-11-19"
+   "checked": "2026-11-23"
   },
   {
    "id": "mcdonalds-8-qpc-meal-nov-2026",
@@ -188,7 +168,7 @@
    "official": false,
    "src": "The Krazy Coupon Lady",
    "srcUrl": "https://thekrazycouponlady.com/tips/money/food-promo-codes",
-   "checked": "2026-11-19"
+   "checked": "2026-11-23"
   },
   {
    "id": "shake-shack-chicken-sundays",
@@ -230,7 +210,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/shake-shack-sundays-free-burger-chicken-sandwich-promo-code/",
-   "checked": "2026-11-19"
+   "checked": "2026-11-23"
   },
   {
    "id": "applebees-nfl-wing-ticket-2026",
@@ -249,28 +229,6 @@
    "link": "https://investors.dinebrands.com/news-releases/news-release-details/applebeesr-introduces-nfl-season-wing-ticket-free-boneless-wings",
    "linkText": "See Applebee's wing deal",
    "official": true,
-   "checked": "2026-11-19"
-  },
-  {
-   "id": "papa-johns-free-pizza-review-nov-2026",
-   "chain": "Papa John's",
-   "cat": "Pizza",
-   "offer": "Free large 1-topping pizza for posting a photo review",
-   "how": "Nov 9–22. Place a $15+ order, then upload an unedited photo of your pizza and an honest review to earn a free large one-topping pizza in Papa Rewards. Use it on a later order of $5+.",
-   "where": [
-    "Pickup",
-    "Delivery",
-    "App"
-   ],
-   "code": "",
-   "ask": "No code. Order as a Papa Rewards member and look for the review prompt.",
-   "start": "2026-11-09",
-   "ends": "2026-11-22",
-   "link": "https://www.papajohns.com/specials/",
-   "linkText": "See Papa John's specials",
-   "official": false,
-   "src": "Parade",
-   "srcUrl": "https://parade.com/food/papa-johns-free-large-pizza-november-2026",
    "checked": "2026-11-19"
   },
   {
@@ -367,7 +325,7 @@
    "official": false,
    "src": "Living On The Cheap",
    "srcUrl": "https://livingonthecheap.com/bogo-buy-one-get-one-free-promo-code-shake-shack-november/",
-   "checked": "2026-11-19"
+   "checked": "2026-11-23"
   },
   {
    "id": "lansdale-tavern-wings-lansdale",
@@ -752,6 +710,105 @@
    "linkText": "See the Cow Calendar",
    "official": true,
    "checked": "2026-11-19"
+  },
+  {
+   "id": "chipotle-thanksgiving-eve-bogo-2026",
+   "chain": "Chipotle",
+   "cat": "Mexican",
+   "offer": "Buy one entrée, get one free on Thanksgiving Eve",
+   "how": "Wednesday, Nov 25, 5–9pm local time at participating restaurants. Chipotle Rewards members order in the restaurant and scan their Rewards code at checkout. The free entrée must cost the same or less; up to five free per check. App, online, delivery and kids' meals don't count.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Scan your Chipotle Rewards code at the register.",
+   "start": "2026-11-25",
+   "ends": "2026-11-25",
+   "link": "https://www.chipotle.com/",
+   "linkText": "Go to Chipotle",
+   "official": false,
+   "src": "Delish (via Yahoo)",
+   "srcUrl": "https://yahoo.com/lifestyle/articles/chipotle-thanksgiving-eve-bogo-making-144007546.html",
+   "checked": "2026-11-23"
+  },
+  {
+   "id": "chipotle-cyber26-free-delivery-2026",
+   "chain": "Chipotle",
+   "cat": "Mexican",
+   "offer": "$0 delivery fee on $10+ orders",
+   "how": "Nov 27–30. Use the code on a delivery order of at least $10 in the Chipotle app or on chipotle.com. Delivery menu prices can be higher and other fees still apply.",
+   "where": [
+    "Delivery",
+    "App"
+   ],
+   "code": "CYBER26",
+   "start": "2026-11-27",
+   "ends": "2026-11-30",
+   "link": "https://www.chipotle.com/",
+   "linkText": "Go to Chipotle",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
+   "checked": "2026-11-23"
+  },
+  {
+   "id": "burger-king-free-chicken-sandwich-royal-perks",
+   "chain": "Burger King",
+   "cat": "Chicken",
+   "offer": "Free Original Chicken Sandwich with a $3 purchase",
+   "how": "Royal Perks members (free to join) get an Original Chicken Sandwich free with any $3+ order on the Burger King app or website. Limited time.",
+   "where": [
+    "App",
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Look for the offer in the Burger King app's Offers section.",
+   "link": "https://www.bk.com/",
+   "linkText": "Go to Burger King",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
+   "checked": "2026-11-23"
+  },
+  {
+   "id": "taco-bell-1-chalupa-supreme-dec-2026",
+   "chain": "Taco Bell",
+   "cat": "Mexican",
+   "offer": "$1 Chalupa Supreme with a $15+ app order",
+   "how": "Through Dec 4. Taco Bell Rewards members can add a Chalupa Supreme for $1 to any app order of $15 or more. One per member.",
+   "where": [
+    "App",
+    "Pickup"
+   ],
+   "code": "",
+   "ask": "No code. Find the offer in the Taco Bell app's Rewards tab.",
+   "ends": "2026-12-04",
+   "link": "https://www.tacobell.com/offers-and-deals",
+   "linkText": "See Taco Bell deals",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
+   "checked": "2026-11-23"
+  },
+  {
+   "id": "panera-free-baguette-nov-2026",
+   "chain": "Panera Bread",
+   "cat": "Bakery",
+   "offer": "Free baguette with any in-café purchase on Nov 25",
+   "how": "Wednesday, Nov 25, starting at 11am local time, while they last. Buy anything in the café to get a free baguette. Select locations only, so call ahead.",
+   "where": [
+    "In store"
+   ],
+   "code": "",
+   "ask": "No code. Just ask for the free baguette when you order.",
+   "start": "2026-11-25",
+   "ends": "2026-11-25",
+   "link": "https://www.panerabread.com/",
+   "linkText": "Go to Panera",
+   "official": false,
+   "src": "Sporked",
+   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
+   "checked": "2026-11-23"
   }
  ],
  "apps": [],
