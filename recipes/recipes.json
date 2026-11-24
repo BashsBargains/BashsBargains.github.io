@@ -1,6 +1,82 @@
 {
  "recipes": [
   {
+   "id": "cajun-butter-turkey-breast-hot-honey-sweet-potatoes",
+   "week": "2026-11-25",
+   "name": "Cajun-butter turkey breast with hot honey sweet potatoes & 10-minute cranberry sauce",
+   "blurb": "A whole Thanksgiving plate without roasting a whole bird. A turkey breast roast gets rubbed in garlicky Cajun butter, then served with sweet potatoes in a sticky hot honey glaze and homemade cranberry sauce that takes 10 minutes. Target's $10.99 Butterball roast keeps it around $2.70 a plate.",
+   "serves": 6,
+   "total": 16,
+   "cal": 750,
+   "protein": 52,
+   "video": null,
+   "ingredients": [
+    {
+     "qty": "3 lb",
+     "item": "Butterball boneless turkey breast roast (thawed; save the gravy packet if it has one)",
+     "store": "Target",
+     "price": 10.99,
+     "note": "$10.99, Target sale thru Nov 28"
+    },
+    {
+     "qty": "3 lb",
+     "item": "sweet potatoes, cut into 1-inch chunks",
+     "store": "Acme",
+     "price": 0.49,
+     "note": "$0.49/lb, Acme sale thru Nov 26"
+    },
+    {
+     "qty": "12 oz bag",
+     "item": "fresh cranberries",
+     "store": "ShopRite",
+     "price": 0.79,
+     "note": "$0.79, ShopRite sale thru Nov 28"
+    },
+    {
+     "qty": "5 tbsp",
+     "item": "butter, softened (split)",
+     "store": "Acme",
+     "price": 1.99,
+     "note": "$1.99/lb, Acme sale thru Nov 26"
+    },
+    {
+     "qty": "1",
+     "item": "orange (juice + zest)"
+    },
+    {
+     "qty": "3 cloves",
+     "item": "garlic, minced"
+    },
+    {
+     "qty": "¾ cup",
+     "item": "sugar"
+    },
+    {
+     "qty": "3 tbsp",
+     "item": "honey"
+    },
+    {
+     "qty": "2 tbsp",
+     "item": "olive oil"
+    },
+    {
+     "qty": "",
+     "item": "seasoning: 2 tsp Cajun seasoning, 1½ tsp smoked paprika (split), ½ tsp dried thyme, ½–1 tsp red pepper flakes or a few dashes of hot sauce, salt and pepper"
+    }
+   ],
+   "steps": [
+    "If your roast is frozen, thaw it in the fridge for 1–2 days. Heat the oven to 375°F.",
+    "Make the Cajun butter: mash 4 tbsp softened butter with the garlic, Cajun seasoning, 1 tsp smoked paprika and the thyme. Pat the turkey dry and rub the butter all over it. Leave the netting on.",
+    "Roast the turkey on a foil-lined sheet pan for 1½–2 hours, spooning the pan juices over it halfway through. It's done when the thickest part reads 165°F. Rest 15 minutes before slicing.",
+    "When the turkey has about 45 minutes left, toss the sweet potatoes with the olive oil, ½ tsp smoked paprika, salt and pepper on a second sheet pan. Roast 35–40 minutes, flipping halfway, until browned and tender.",
+    "While everything roasts, make the cranberry sauce: simmer the cranberries, sugar, juice of the orange plus enough water to make ¾ cup, a little zest and a pinch of salt for about 10 minutes, until the berries pop. It thickens as it cools, and you can make it days ahead.",
+    "Hot honey: warm the honey, the last 1 tbsp butter and the red pepper flakes or hot sauce until melted. Toss with the hot sweet potatoes.",
+    "Slice the turkey, spoon the pan juices over it and serve with the hot honey sweet potatoes and cranberry sauce."
+   ],
+   "type": "Dinner",
+   "season": "Fall"
+  },
+  {
    "id": "cuban-mojo-pork-black-beans",
    "week": "2026-11-11",
    "name": "Cuban mojo pork loin with garlicky black beans & rice",
