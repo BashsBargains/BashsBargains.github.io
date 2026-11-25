@@ -1,128 +1,20 @@
 {
- "updated": 1795344556312,
+ "updated": 1795603994041,
  "stores": [
   {
    "id": "aldi",
    "name": "Aldi",
    "kind": "deals",
-   "adStart": "2026-11-18",
-   "adEnd": "2026-11-24",
-   "adNote": "New ad every Wednesday",
-   "adUrl": "https://www.aldi.us/store/aldi/pages/weekly-specials",
-   "src": "Weekly Ad Hunters & Aldi Reviewer",
-   "srcUrl": "https://weeklyadhunters.com/aldi-weekly-ad/",
-   "checked": "2026-11-18",
-   "deals": [
-    {
-     "id": "aldi-wings-nov18",
-     "item": "Mega pack fresh chicken wings",
-     "price": 1.59,
-     "unit": "/lb",
-     "cat": "Meat"
-    },
-    {
-     "id": "aldi-sausage-roll-nov18",
-     "item": "Appleton Farms Italian or hot pork sausage roll, 16 oz",
-     "price": 2.89,
-     "cat": "Meat"
-    },
-    {
-     "id": "aldi-chicken-sausage-nov18",
-     "item": "Never Any! chicken sausage, 12 oz",
-     "price": 3.49,
-     "cat": "Meat"
-    },
-    {
-     "id": "aldi-butterball-nov18",
-     "item": "Butterball premium whole young turkey",
-     "price": 1.99,
-     "unit": "/lb",
-     "cat": "Meat"
-    },
-    {
-     "id": "aldi-avocados-nov18",
-     "item": "Large avocados",
-     "price": 0.49,
-     "notes": "Each",
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-squash-nov18",
-     "item": "Simply Nature organic squash or sweet potatoes",
-     "price": 2.49,
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-butter-nov18",
-     "item": "Countryside Creamery butter quarters, salted or unsalted, 1 lb",
-     "price": 1.99,
-     "stockup": true,
-     "cat": "Dairy"
-    },
-    {
-     "id": "aldi-cream-nov18",
-     "item": "Friendly Farms heavy whipping cream, 32 oz",
-     "price": 4.59,
-     "cat": "Dairy"
-    },
-    {
-     "id": "aldi-cheddar-nov18",
-     "item": "Emporium Selection aged reserve white cheddar",
-     "price": 2.69,
-     "cat": "Dairy"
-    },
-    {
-     "id": "aldi-hawaiian-rolls-nov18",
-     "item": "L'oven Fresh Hawaiian sweet rolls, 12 ct",
-     "price": 1.99,
-     "cat": "Bakery"
-    },
-    {
-     "id": "aldi-pie-crusts-nov18",
-     "item": "Bake House Creations refrigerated pie crusts, 2 ct",
-     "price": 1.89,
-     "cat": "Bakery"
-    },
-    {
-     "id": "aldi-green-beans-nov18",
-     "item": "Season's Choice frozen extra-fine green beans, 16 oz",
-     "price": 2.49,
-     "cat": "Frozen"
-    },
-    {
-     "id": "aldi-hash-browns-nov18",
-     "item": "Southern-style frozen hash browns, 32 oz",
-     "price": 3.49,
-     "cat": "Frozen"
-    },
-    {
-     "id": "aldi-flounder-nov18",
-     "item": "Specially Selected top-crusted flounder, 12.5 oz",
-     "price": 7.99,
-     "cat": "Frozen"
-    },
-    {
-     "id": "aldi-cream-mushroom-nov18",
-     "item": "Chef's Cupboard condensed cream of mushroom soup",
-     "price": 0.69,
-     "cat": "Pantry"
-    }
-   ]
-  },
-  {
-   "id": "aldi-next",
-   "name": "Aldi",
-   "kind": "deals",
    "adStart": "2026-11-25",
    "adEnd": "2026-12-01",
-   "adNote": "Thanksgiving week ad (preview) \u00b7 new ad every Wednesday",
+   "adNote": "Thanksgiving week ad \u00b7 new ad every Wednesday",
    "adUrl": "https://www.aldi.us/store/aldi/pages/weekly-specials",
    "src": "Weekly Ad Hunters",
    "srcUrl": "https://weeklyadhunters.com/aldi-weekly-ad/",
-   "checked": "2026-11-22",
+   "checked": "2026-11-25",
    "deals": [
     {
-     "id": "aldi-next-wings",
+     "id": "aldi-wings-nov25",
      "item": "Mega pack fresh chicken wings",
      "price": 1.59,
      "unit": "/lb",
@@ -130,92 +22,93 @@
      "cat": "Meat"
     },
     {
-     "id": "aldi-next-pork-belly",
+     "id": "aldi-pork-belly-nov25",
      "item": "Fresh pork belly",
      "price": 1.99,
-     "notes": "Price as listed in the preview; check the shelf tag for weight",
+     "notes": "Check the shelf tag for per-lb pricing",
      "cat": "Meat"
     },
     {
-     "id": "aldi-next-sausage",
+     "id": "aldi-sausage-nov25",
      "item": "Bulk mild Italian sausage",
      "price": 3.29,
      "cat": "Meat"
     },
     {
-     "id": "aldi-next-half-ham",
+     "id": "aldi-half-ham-nov25",
      "item": "Appleton Farms spiral-sliced half ham",
      "price": 2.19,
      "unit": "/lb",
      "cat": "Meat"
     },
     {
-     "id": "aldi-next-turkey",
+     "id": "aldi-turkey-nov25",
      "item": "Frozen whole turkey",
      "price": 1.27,
      "unit": "/lb",
      "cat": "Frozen"
     },
     {
-     "id": "aldi-next-sweet-potatoes",
+     "id": "aldi-sweet-potatoes-nov25",
      "item": "Sweet potatoes",
      "price": 0.65,
+     "notes": "Check whether priced each or per lb",
      "cat": "Produce"
     },
     {
-     "id": "aldi-next-brussels",
+     "id": "aldi-brussels-nov25",
      "item": "Brussels sprouts",
      "price": 1.99,
      "cat": "Produce"
     },
     {
-     "id": "aldi-next-carrots",
+     "id": "aldi-carrots-nov25",
      "item": "Baby peeled carrots",
      "price": 0.89,
      "cat": "Produce"
     },
     {
-     "id": "aldi-next-celery",
-     "item": "Celery",
-     "price": 0.95,
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-next-cranberries",
-     "item": "Fresh cranberries",
-     "price": 0.75,
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-next-green-beans",
-     "item": "French green beans",
-     "price": 2.69,
-     "cat": "Produce"
-    },
-    {
-     "id": "aldi-next-russets",
+     "id": "aldi-russets-nov25",
      "item": "Russet potatoes, bag",
      "price": 3.49,
      "cat": "Produce"
     },
     {
-     "id": "aldi-next-butter",
+     "id": "aldi-butter-nov25",
      "item": "Countryside Creamery butter quarters, 1 lb",
      "price": 1.99,
      "stockup": true,
      "cat": "Dairy"
     },
     {
-     "id": "aldi-next-sour-cream",
+     "id": "aldi-sour-cream-nov25",
      "item": "Friendly Farms sour cream",
      "price": 1.75,
      "cat": "Dairy"
     },
     {
-     "id": "aldi-next-cream",
+     "id": "aldi-cream-nov25",
      "item": "Friendly Farms heavy whipping cream",
      "price": 4.35,
      "cat": "Dairy"
+    },
+    {
+     "id": "aldi-hawaiian-rolls-nov25",
+     "item": "L'oven Fresh Hawaiian sweet rolls, 12 ct",
+     "price": 1.99,
+     "cat": "Bakery"
+    },
+    {
+     "id": "aldi-pumpkin-nov25",
+     "item": "Canned pumpkin",
+     "price": 0.99,
+     "cat": "Pantry"
+    },
+    {
+     "id": "aldi-peas-nov25",
+     "item": "Season's Choice steamable frozen peas",
+     "price": 0.95,
+     "cat": "Frozen"
     }
    ]
   },
@@ -224,12 +117,12 @@
    "name": "Lidl",
    "kind": "deals",
    "adStart": "2026-11-18",
-   "adEnd": "2026-11-24",
-   "adNote": "New ad every Wednesday",
+   "adEnd": "2026-11-25",
+   "adNote": "This ad runs through Wed 11/25; next ad starts Fri 11/27 (Thanksgiving week)",
    "adUrl": "https://www.lidl.com/c/offers-leaflets/s10092873",
    "src": "WeeklyAd.io & Lidl.com",
    "srcUrl": "https://www.weeklyad.io/lidl",
-   "checked": "2026-11-18",
+   "checked": "2026-11-25",
    "deals": [
     {
      "id": "lidl-turkey-nov18",
@@ -919,340 +812,237 @@
  ],
  "meals": [
   {
-   "id": "meal-sticky-soy-ginger-pork-broccoli-nov22",
-   "name": "Sticky soy-ginger pork stir-fry with charred broccoli",
+   "id": "meal-sweet-chili-lime-wings-sesame-carrots-nov25",
+   "name": "Sticky sweet chili-lime wings with sesame-glazed carrots",
+   "serves": 4,
+   "cost": 8,
+   "cal": 800,
+   "protein": 47,
+   "uses": [
+    "aldi-wings-nov25",
+    "aldi-carrots-nov25"
+   ],
+   "pantry": [
+    "honey",
+    "hot sauce or sriracha",
+    "soy sauce",
+    "garlic",
+    "garlic powder",
+    "smoked paprika",
+    "baking powder",
+    "butter",
+    "sesame oil",
+    "salt and pepper",
+    "white rice"
+   ],
+   "buy": [
+    "2 limes",
+    "green onions"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Pat 3 lb wings very dry and toss with 1 Tbsp baking powder, 1 tsp garlic powder, 1 tsp smoked paprika, 1 tsp salt and \u00bd tsp pepper. Bake on a rack over a foil-lined sheet 45\u201350 minutes, flipping halfway, until crisp and 165\u00b0F+. Start 1 cup rice.",
+    "Toss 1 lb baby carrots with 1 tsp sesame oil and a pinch of salt; roast on a second sheet for the last 25 minutes.",
+    "Simmer the glaze 3 minutes in a small pan: \u2153 cup honey, 3 Tbsp hot sauce, 1 Tbsp soy sauce, 2 Tbsp butter, 3 minced garlic cloves, zest and juice of 1 lime.",
+    "Toss the wings in most of the glaze; drizzle the rest over the carrots. Top with sliced green onions and serve with rice and lime wedges."
+   ]
+  },
+  {
+   "id": "meal-creamy-sausage-brussels-pasta-nov25",
+   "name": "Creamy lemon-garlic sausage pasta with crispy Brussels sprouts",
+   "serves": 6,
+   "cost": 15,
+   "cal": 640,
+   "protein": 26,
+   "uses": [
+    "aldi-sausage-nov25",
+    "aldi-brussels-nov25",
+    "aldi-cream-nov25",
+    "target-barilla"
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "red pepper flakes",
+    "Italian seasoning",
+    "chicken broth or bouillon",
+    "salt and pepper"
+   ],
+   "buy": [
+    "small wedge parmesan",
+    "1 lemon"
+   ],
+   "steps": [
+    "Boil 1 lb short pasta (orecchiette or penne) in well-salted water; save 1 cup pasta water before draining.",
+    "Meanwhile brown 1 lb bulk Italian sausage in a large skillet over medium-high, breaking it up, until 160\u00b0F, about 7 minutes. Scoop out, leaving the fat.",
+    "Add 1 Tbsp olive oil and 1 lb Brussels sprouts (trimmed, halved) cut-side down; cook 5\u20136 minutes until deeply browned. Add 4 sliced garlic cloves, \u00bd tsp red pepper flakes and 1 tsp Italian seasoning for 30 seconds.",
+    "Pour in \u00bd cup broth and \u00bd cup heavy cream; simmer 2 minutes. Add the pasta, sausage, \u00bd cup grated parmesan, zest of the lemon and 1 Tbsp juice; loosen with pasta water until glossy. Season with salt and pepper."
+   ]
+  },
+  {
+   "id": "meal-chipotle-chicken-tinga-tacos-nov25",
+   "name": "Smoky chipotle chicken tinga tacos with lime crema",
+   "serves": 4,
+   "cost": 12,
+   "cal": 560,
+   "protein": 59,
+   "uses": [
+    "shoprite-chicken-breast",
+    "aldi-sour-cream-nov25"
+   ],
+   "pantry": [
+    "oil",
+    "onion",
+    "garlic",
+    "canned crushed tomatoes",
+    "cumin",
+    "dried oregano",
+    "chicken bouillon",
+    "brown sugar",
+    "salt"
+   ],
+   "buy": [
+    "small can chipotles in adobo",
+    "12 corn tortillas",
+    "cilantro",
+    "2 limes"
+   ],
+   "steps": [
+    "Simmer 2 lb chicken breasts in salted water with \u00bd onion 15\u201318 minutes, until 165\u00b0F. Shred with two forks; save \u00bd cup of the liquid.",
+    "Heat 1 Tbsp oil in a skillet; cook 1 sliced onion 5 minutes. Add 3 minced garlic cloves, 1 tsp cumin and 1 tsp oregano for 30 seconds.",
+    "Blend or mash 1 can (14 oz) crushed tomatoes, 2\u20133 chipotles plus 1 Tbsp adobo, 1 tsp bouillon and 1 tsp brown sugar; add to the pan with the reserved liquid and simmer 5 minutes. Stir in the chicken and simmer 5 more minutes until saucy.",
+    "Stir \u00bd cup sour cream with the juice of 1 lime and a pinch of salt. Warm the tortillas and fill with tinga, crema and cilantro; serve with lime wedges."
+   ]
+  },
+  {
+   "id": "meal-smoky-chickpea-sweet-potato-sheet-pan-nov25",
+   "name": "Smoky chickpea & sweet potato sheet pan with garlic-lemon crema (meatless)",
+   "serves": 4,
+   "cost": 10,
+   "cal": 590,
+   "protein": 16,
+   "uses": [
+    "aldi-sweet-potatoes-nov25",
+    "aldi-sour-cream-nov25"
+   ],
+   "pantry": [
+    "olive oil",
+    "smoked paprika",
+    "cumin",
+    "garlic powder",
+    "garlic",
+    "honey",
+    "red pepper flakes",
+    "salt and pepper"
+   ],
+   "buy": [
+    "2 cans chickpeas",
+    "1 red onion",
+    "5 oz baby spinach",
+    "1 lemon"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Cut 2 lb sweet potatoes into 1-inch cubes and the red onion into wedges. Drain, rinse and pat dry 2 cans chickpeas.",
+    "Toss everything with 3 Tbsp olive oil, 2 tsp smoked paprika, 1 tsp cumin, 1 tsp garlic powder, \u00bc tsp red pepper flakes and 1 tsp salt. Roast on a large sheet pan 30\u201335 minutes, stirring once, until the potatoes are tender and the chickpeas crisp.",
+    "Drizzle with 1 Tbsp honey and toss the spinach right on the hot pan to wilt.",
+    "Stir \u00be cup sour cream with 1 grated garlic clove, zest and juice of \u00bd lemon and a pinch of salt. Spoon over the pan and serve."
+   ]
+  },
+  {
+   "id": "meal-kung-pao-chicken-broccoli-nov25",
+   "name": "Kung pao-style chicken with broccoli and peanuts",
    "serves": 4,
    "cost": 9,
-   "cal": 690,
-   "protein": 46,
+   "cal": 680,
+   "protein": 52,
    "uses": [
-    "acme-pork-loin",
+    "shoprite-chicken-breast",
     "shoprite-broccoli"
    ],
    "pantry": [
     "soy sauce",
-    "honey",
     "rice vinegar",
-    "sesame oil",
-    "garlic",
+    "honey",
     "cornstarch",
+    "garlic",
     "red pepper flakes",
+    "sesame oil",
     "oil",
     "white rice"
    ],
    "buy": [
-    "small knob fresh ginger",
+    "\u2153 cup roasted peanuts",
     "green onions"
    ],
    "steps": [
-    "Start 1\u00bd cups rice. Slice 1\u00bd lb pork loin into thin strips and toss with 1 Tbsp soy sauce and 1 tsp cornstarch.",
-    "Whisk the sauce: 3 Tbsp soy sauce, 2 Tbsp honey, 1 Tbsp rice vinegar, 1 Tbsp sesame oil, 3 minced garlic cloves, 1 Tbsp grated ginger, \u00bc tsp red pepper flakes and 3 Tbsp water.",
-    "Heat 1 Tbsp oil in a large skillet over high heat. Cook 1\u00bd lb broccoli florets 4\u20135 minutes, until charred in spots and crisp-tender; splash in 2 Tbsp water at the end and transfer to a plate.",
-    "Add 1 Tbsp oil and sear the pork in two batches, 2\u20133 minutes each, until browned and 145\u00b0F. Return everything to the pan, pour in the sauce and toss 1 minute until glossy. Serve over rice with sliced green onions."
+    "Start 1\u00bd cups rice. Cut 1\u00bd lb chicken breast into bite-size pieces; toss with 1 Tbsp soy sauce and 2 tsp cornstarch.",
+    "Whisk the sauce: 3 Tbsp soy sauce, 2 Tbsp rice vinegar, 2 Tbsp honey, 1 tsp sesame oil, 1 tsp cornstarch and \u00bc cup water.",
+    "Heat 1 Tbsp oil in a large skillet over high heat. Cook 1\u00bd lb broccoli florets 4 minutes until charred in spots, adding 2 Tbsp water at the end; set aside.",
+    "Add 1 Tbsp oil and the chicken; cook 5\u20136 minutes until browned and 165\u00b0F. Add 4 minced garlic cloves and \u00bd\u20131 tsp red pepper flakes for 30 seconds, then the broccoli and sauce; toss 1 minute until thick. Top with peanuts and green onions; serve over rice."
    ]
   },
   {
-   "id": "meal-sheet-pan-chicken-fajitas-lime-crema-nov22",
-   "name": "Smoky sheet-pan chicken fajitas with lime crema",
-   "serves": 4,
-   "cost": 11,
-   "cal": 680,
-   "protein": 49,
-   "uses": [
-    "shoprite-chicken-breast",
-    "lidl-red-peppers-nov18",
-    "lidl-onions-nov18"
-   ],
-   "pantry": [
-    "chili powder",
-    "cumin",
-    "smoked paprika",
-    "garlic powder",
-    "dried oregano",
-    "salt and pepper",
-    "oil",
-    "sour cream",
-    "hot sauce"
-   ],
-   "buy": [
-    "8 flour tortillas",
-    "2 limes"
-   ],
-   "steps": [
-    "Heat oven to 425\u00b0F. Slice 1\u00bd lb chicken breast into strips, 3 red bell peppers into strips and 1 large onion into wedges.",
-    "Toss everything with 3 Tbsp oil, 1 Tbsp chili powder, 2 tsp cumin, 1 tsp smoked paprika, 1 tsp garlic powder, \u00bd tsp oregano, 1 tsp salt and \u00bd tsp pepper. Spread on a large sheet pan in one layer.",
-    "Roast 20\u201325 minutes, stirring once, until the vegetables char at the edges and the chicken reaches 165\u00b0F. Squeeze 1 lime over the pan.",
-    "Stir \u00bd cup sour cream with the juice of half a lime, a pinch of salt and a dash of hot sauce. Warm the tortillas and fill with the fajita mix and a spoonful of crema."
-   ]
-  },
-  {
-   "id": "meal-brown-butter-sausage-squash-pasta-nov22",
-   "name": "Brown-butter Italian sausage and butternut squash pasta",
-   "serves": 5,
-   "cost": 7,
-   "cal": 690,
-   "protein": 27,
-   "uses": [
-    "aldi-sausage-roll-nov18",
-    "shoprite-squash",
-    "aldi-butter-nov18"
-   ],
-   "pantry": [
-    "short pasta",
-    "olive oil",
-    "garlic",
-    "dried sage",
-    "red pepper flakes",
-    "grated parmesan",
-    "salt and pepper"
-   ],
-   "buy": [],
-   "steps": [
-    "Heat oven to 425\u00b0F. Toss 1\u00bd lb peeled, cubed butternut squash with 1 Tbsp olive oil, \u00bd tsp salt and \u00bc tsp pepper; roast 25 minutes until browned and tender.",
-    "Meanwhile brown 1 lb Italian sausage in a large skillet over medium-high heat, breaking it up, 8\u201310 minutes until no pink remains (160\u00b0F). Move to a plate.",
-    "Cook 12 oz pasta in salted water; save 1 cup pasta water. In the same skillet melt 3 Tbsp butter over medium heat and cook 2\u20133 minutes until nutty brown. Add 3 sliced garlic cloves, 1\u00bd tsp dried sage and \u00bd tsp red pepper flakes for 30 seconds.",
-    "Add the pasta, sausage, squash, \u00bd cup grated parmesan and splashes of pasta water; toss until saucy. Season with salt and plenty of pepper."
-   ]
-  },
-  {
-   "id": "meal-lemon-oregano-salmon-smoky-sweet-potatoes-nov22",
-   "name": "Lemon-oregano salmon with smoky roasted sweet potatoes",
-   "serves": 4,
-   "cost": 15,
-   "cal": 660,
-   "protein": 38,
-   "uses": [
-    "acme-salmon",
-    "lidl-sweet-potatoes-nov18"
-   ],
-   "pantry": [
-    "olive oil",
-    "smoked paprika",
-    "garlic powder",
-    "dried oregano",
-    "garlic",
-    "butter",
-    "salt and pepper"
-   ],
-   "buy": [
-    "1 lemon"
-   ],
-   "steps": [
-    "Heat oven to 425\u00b0F. Cut 2 lb sweet potatoes into wedges and toss with 2 Tbsp olive oil, 1\u00bd tsp smoked paprika, 1 tsp garlic powder and \u00be tsp salt. Roast 15 minutes.",
-    "Pat 1\u00bd lb salmon dry and cut into 4 pieces. Rub with 1 Tbsp olive oil, 1\u00bd tsp oregano, the zest of the lemon, 2 minced garlic cloves, \u00bd tsp salt and \u00bc tsp pepper.",
-    "Push the potatoes aside, add the salmon to the pan and roast 12\u201314 minutes more, until the salmon flakes and reaches 145\u00b0F and the potatoes are tender.",
-    "Melt 1 Tbsp butter with the lemon juice and a pinch of oregano; spoon over the salmon before serving."
-   ]
-  },
-  {
-   "id": "meal-cajun-shrimp-cheddar-grits-nov22",
-   "name": "Cajun shrimp and peppers over cheddar grits",
-   "serves": 4,
-   "cost": 15,
-   "cal": 620,
-   "protein": 46,
-   "uses": [
-    "lidl-shrimp-nov18",
-    "aldi-cheddar-nov18",
-    "aldi-butter-nov18",
-    "lidl-red-peppers-nov18"
-   ],
-   "pantry": [
-    "milk",
-    "chicken broth",
-    "smoked paprika",
-    "garlic powder",
-    "onion powder",
-    "dried thyme",
-    "cayenne",
-    "garlic",
-    "oil",
-    "hot sauce",
-    "lemon",
-    "salt and pepper"
-   ],
-   "buy": [
-    "quick-cooking grits",
-    "green onions"
-   ],
-   "steps": [
-    "Bring 2 cups milk and 2 cups broth to a simmer. Whisk in 1 cup quick grits and cook, stirring, 5\u20137 minutes until thick. Off the heat stir in 1\u00bd cups (6 oz) shredded sharp cheddar, 1 Tbsp butter, salt and pepper.",
-    "Toss 1\u00bc lb peeled shrimp with 2 tsp smoked paprika, 1 tsp garlic powder, 1 tsp onion powder, \u00bd tsp thyme, \u00bc\u2013\u00bd tsp cayenne and \u00bd tsp salt.",
-    "Heat 1 Tbsp oil in a skillet over medium-high and cook 1 sliced red pepper 3 minutes. Add the shrimp and cook 2 minutes per side until pink and opaque (145\u00b0F).",
-    "Add 2 Tbsp butter, 2 minced garlic cloves, a squeeze of lemon and a few dashes of hot sauce; toss to coat. Spoon over the grits with sliced green onions."
-   ]
-  },
-  {
-   "id": "meal-chipotle-squash-black-bean-tacos-nov22",
-   "name": "Smoky roasted squash and black bean tacos with avocado crema (meatless)",
-   "serves": 4,
-   "cost": 7,
-   "cal": 670,
-   "protein": 18,
-   "uses": [
-    "shoprite-squash",
-    "aldi-avocados-nov18",
-    "lidl-onions-nov18"
-   ],
-   "pantry": [
-    "canned black beans (2 cans)",
-    "olive oil",
-    "chili powder",
-    "smoked paprika",
-    "cumin",
-    "garlic powder",
-    "cayenne",
-    "honey",
-    "cider vinegar",
-    "sugar",
-    "sour cream",
-    "salt"
-   ],
-   "buy": [
-    "12 corn tortillas",
-    "1 lime"
-   ],
-   "steps": [
-    "Thinly slice \u00bd onion and cover with \u00bd cup cider vinegar, \u00bd cup hot water, 1 tsp sugar and \u00bd tsp salt for a quick pickle.",
-    "Heat oven to 425\u00b0F. Toss 2 lb cubed butternut squash with 2 Tbsp oil, 2 tsp chili powder, 1 tsp smoked paprika, 1 tsp cumin, \u00bc tsp cayenne and \u00be tsp salt; roast 25 minutes, then drizzle with 1 Tbsp honey and roast 5 minutes more.",
-    "Warm 2 cans drained black beans in a skillet with 1 Tbsp oil, \u00bd tsp cumin, \u00bd tsp garlic powder and a splash of water; mash lightly.",
-    "Mash 2 avocados with \u00bd cup sour cream, the lime juice and a pinch of salt. Fill warm tortillas with beans, squash, avocado crema and pickled onions."
-   ]
-  },
-  {
-   "id": "meal-honey-chipotle-pulled-pork-sliders-nov22",
-   "name": "Honey-smoked pulled pork sliders with tangy carrot slaw",
+   "id": "meal-cheddar-cottage-pie-nov25",
+   "name": "Beefy cottage pie with garlic-butter mashed potatoes",
    "serves": 6,
-   "cost": 11,
-   "cal": 760,
-   "protein": 40,
+   "cost": 13,
+   "cal": 660,
+   "protein": 32,
    "uses": [
-    "lidl-pork-butt-nov18",
-    "aldi-hawaiian-rolls-nov18",
-    "lidl-carrots-nov18"
+    "shoprite-ground-beef",
+    "aldi-russets-nov25",
+    "aldi-carrots-nov25",
+    "aldi-peas-nov25",
+    "aldi-butter-nov25"
    ],
    "pantry": [
-    "brown sugar",
-    "smoked paprika",
-    "chili powder",
-    "garlic powder",
-    "onion powder",
-    "cumin",
-    "salt and pepper",
-    "ketchup",
-    "cider vinegar",
-    "honey",
-    "yellow mustard",
+    "onion",
+    "garlic",
+    "tomato paste",
+    "flour",
     "Worcestershire sauce",
-    "hot sauce",
-    "mayonnaise",
-    "sugar"
+    "beef bouillon",
+    "dried thyme",
+    "milk",
+    "salt and pepper"
    ],
-   "buy": [
-    "14 oz bag coleslaw mix"
-   ],
+   "buy": [],
    "steps": [
-    "Heat oven to 300\u00b0F. Mix 2 Tbsp brown sugar, 1 Tbsp smoked paprika, 2 tsp chili powder, 2 tsp garlic powder, 1 tsp onion powder, 1 tsp cumin, 2 tsp salt and 1 tsp pepper; rub all over a 3\u00bd lb bone-in pork shoulder.",
-    "Put the pork in a covered Dutch oven with \u00bd cup water and roast 4\u20134\u00bd hours, until it shreds easily (well past the safe 145\u00b0F, about 200\u00b0F). Shred and skim off the fat.",
-    "Simmer \u00bd cup ketchup, \u00bc cup cider vinegar, 3 Tbsp honey, 1 Tbsp mustard, 1 Tbsp Worcestershire and hot sauce to taste for 5 minutes; toss with the pork and \u00bd cup of the pan juices.",
-    "Toss the coleslaw mix and 1 cup shredded baby carrots with \u2153 cup mayo, 1 Tbsp cider vinegar, 1 tsp sugar, salt and pepper. Pile pork and slaw on the split Hawaiian rolls."
+    "Boil 2\u00bd lb peeled, cubed russets in salted water 15 minutes until tender. Drain and mash with 4 Tbsp butter, \u00bd cup warm milk, 2 grated garlic cloves, salt and pepper.",
+    "Brown 2 lb ground beef in a large oven-safe skillet until 160\u00b0F; spoon off extra fat. Add 1 diced onion and 1 cup chopped baby carrots; cook 5 minutes.",
+    "Stir in 2 Tbsp tomato paste, 2 Tbsp flour, 1 tsp dried thyme and 2 minced garlic cloves for 1 minute. Add 1\u00bd cups water with 2 tsp beef bouillon and 1 Tbsp Worcestershire; simmer 8 minutes until thick. Stir in 1 cup frozen peas.",
+    "Heat oven to 400\u00b0F. Spread the mash over the filling, rough it up with a fork and bake 20 minutes; broil 2\u20133 minutes until golden. Rest 5 minutes before serving."
    ]
   },
   {
-   "id": "meal-honey-soy-pork-belly-rice-bowls-nov25",
-   "name": "Crispy honey-soy pork belly rice bowls with quick-pickled carrots",
-   "serves": 4,
-   "cost": 8,
-   "cal": 840,
-   "protein": 23,
+   "id": "meal-smoky-sausage-potato-hash-eggs-nov25",
+   "name": "Smoky sausage, potato & pepper hash with jammy eggs",
+   "serves": 5,
+   "cost": 11,
+   "cal": 710,
+   "protein": 33,
    "uses": [
-    "aldi-next-pork-belly",
-    "aldi-next-carrots"
+    "target-jimmy-dean",
+    "target-potatoes"
    ],
    "pantry": [
-    "white rice",
-    "soy sauce",
-    "honey",
-    "rice vinegar",
-    "sugar",
-    "garlic",
-    "sesame oil",
-    "red pepper flakes",
-    "eggs",
-    "salt"
+    "oil",
+    "onion",
+    "garlic powder",
+    "smoked paprika",
+    "chili powder",
+    "hot sauce",
+    "salt and pepper"
    ],
    "buy": [
+    "1 dozen eggs",
+    "1 bell pepper",
     "green onions"
    ],
    "steps": [
-    "Grate or matchstick 2 cups baby carrots and toss with \u00bc cup rice vinegar, 1 tsp sugar and \u00bd tsp salt; set aside. Start 1\u00bd cups rice.",
-    "Cut 1 lb pork belly into \u00bd-inch pieces. Cook in a dry skillet over medium heat, stirring, 15\u201318 minutes until golden and crisp (well past 145\u00b0F); pour off all but 1 Tbsp fat.",
-    "Add 3 minced garlic cloves for 30 seconds, then 3 Tbsp soy sauce, 2 Tbsp honey, 1 Tbsp rice vinegar and \u00bc tsp red pepper flakes; bubble 1\u20132 minutes until sticky.",
-    "Fry 4 eggs in the second pan. Build bowls with rice, pork belly, pickled carrots and a fried egg; finish with a drizzle of sesame oil and green onions."
-   ]
-  },
-  {
-   "id": "meal-sausage-potato-green-bean-skillet-nov25",
-   "name": "Garlic-herb Italian sausage, potato and green bean skillet",
-   "serves": 4,
-   "cost": 8,
-   "cal": 640,
-   "protein": 24,
-   "uses": [
-    "aldi-next-sausage",
-    "aldi-next-russets",
-    "aldi-next-green-beans",
-    "aldi-next-butter"
-   ],
-   "pantry": [
-    "olive oil",
-    "garlic",
-    "Italian seasoning",
-    "smoked paprika",
-    "red pepper flakes",
-    "grated parmesan",
-    "lemon",
-    "salt and pepper"
-   ],
-   "buy": [],
-   "steps": [
-    "Cut 2 lb russet potatoes into \u00be-inch cubes and microwave in a covered bowl with 2 Tbsp water for 6 minutes to par-cook.",
-    "Brown 1 lb bulk Italian sausage in a large skillet over medium-high heat, breaking it up, until no pink remains and 160\u00b0F, 7\u20138 minutes. Move to a plate.",
-    "Add 1 Tbsp olive oil and the potatoes with 1 tsp smoked paprika and \u00bd tsp salt; cook 8\u201310 minutes, turning, until crisp. Add 12 oz trimmed green beans and 2 Tbsp water, cover and steam 4 minutes.",
-    "Stir in 2 Tbsp butter, 4 minced garlic cloves, 1\u00bd tsp Italian seasoning and \u00bc tsp red pepper flakes for 1 minute; return the sausage, squeeze in lemon and top with \u00bc cup parmesan."
-   ]
-  },
-  {
-   "id": "meal-garlic-parmesan-wings-brussels-nov25",
-   "name": "Garlic-parmesan baked wings with crispy roasted Brussels sprouts",
-   "serves": 4,
-   "cost": 8,
-   "cal": 750,
-   "protein": 50,
-   "uses": [
-    "aldi-next-wings",
-    "aldi-next-brussels",
-    "aldi-next-butter"
-   ],
-   "pantry": [
-    "baking powder",
-    "garlic powder",
-    "onion powder",
-    "smoked paprika",
-    "garlic",
-    "grated parmesan",
-    "dried parsley",
-    "olive oil",
-    "balsamic vinegar",
-    "red pepper flakes",
-    "salt and pepper"
-   ],
-   "buy": [],
-   "steps": [
-    "Heat oven to 425\u00b0F with a rack set on a foil-lined sheet pan. Pat 3 lb wings very dry and toss with 1 Tbsp baking powder, 1 tsp garlic powder, 1 tsp onion powder, 1 tsp smoked paprika, 1\u00bd tsp salt and 1 tsp pepper.",
-    "Bake the wings 25 minutes, flip, and bake 20\u201325 minutes more until crisp and at least 165\u00b0F. On a second pan, roast 1\u00bd lb halved Brussels sprouts with 2 Tbsp olive oil and \u00bd tsp salt for 25 minutes.",
-    "Melt 3 Tbsp butter with 4 minced garlic cloves and \u00bc tsp red pepper flakes for 1 minute. Toss the hot wings with the garlic butter, \u00bd cup grated parmesan and 1 tsp dried parsley.",
-    "Drizzle the sprouts with 1 Tbsp balsamic vinegar and serve alongside the wings."
+    "Dice 2 lb russet potatoes into \u00bd-inch cubes; microwave covered with 2 Tbsp water 5 minutes to par-cook, then pat dry.",
+    "Brown a 1 lb Jimmy Dean sausage roll in a large skillet over medium-high, breaking it up, until 160\u00b0F; scoop out. Add 2 Tbsp oil and the potatoes in a single layer; cook 10\u201312 minutes, turning occasionally, until crisp.",
+    "Add 1 diced onion and the diced bell pepper with 1 tsp smoked paprika, \u00bd tsp chili powder, \u00bd tsp garlic powder and salt; cook 5 minutes. Return the sausage.",
+    "Make 10 wells, crack in the eggs, cover and cook on low 5\u20137 minutes until the whites are set and yolks jammy. Finish with green onions and hot sauce."
    ]
   }
  ]

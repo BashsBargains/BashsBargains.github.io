@@ -2,6 +2,362 @@
  "note": "Every weekly meal idea, kept after its sale week ends. The grocery refresh adds each week's meals here.",
  "recipes": [
   {
+   "id": "meal-sweet-chili-lime-wings-sesame-carrots-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Sticky sweet chili-lime wings with sesame-glazed carrots",
+   "serves": 4,
+   "total": 8,
+   "cal": 800,
+   "protein": 47,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Mega pack fresh chicken wings",
+     "store": "Aldi",
+     "price": 1.59,
+     "unit": "/lb"
+    },
+    {
+     "item": "Baby peeled carrots",
+     "store": "Aldi",
+     "price": 0.89
+    },
+    {
+     "item": "2 limes"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "honey",
+    "hot sauce or sriracha",
+    "soy sauce",
+    "garlic",
+    "garlic powder",
+    "smoked paprika",
+    "baking powder",
+    "butter",
+    "sesame oil",
+    "salt and pepper",
+    "white rice"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Pat 3 lb wings very dry and toss with 1 Tbsp baking powder, 1 tsp garlic powder, 1 tsp smoked paprika, 1 tsp salt and \u00bd tsp pepper. Bake on a rack over a foil-lined sheet 45\u201350 minutes, flipping halfway, until crisp and 165\u00b0F+. Start 1 cup rice.",
+    "Toss 1 lb baby carrots with 1 tsp sesame oil and a pinch of salt; roast on a second sheet for the last 25 minutes.",
+    "Simmer the glaze 3 minutes in a small pan: \u2153 cup honey, 3 Tbsp hot sauce, 1 Tbsp soy sauce, 2 Tbsp butter, 3 minced garlic cloves, zest and juice of 1 lime.",
+    "Toss the wings in most of the glaze; drizzle the rest over the carrots. Top with sliced green onions and serve with rice and lime wedges."
+   ]
+  },
+  {
+   "id": "meal-creamy-sausage-brussels-pasta-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Creamy lemon-garlic sausage pasta with crispy Brussels sprouts",
+   "serves": 6,
+   "total": 15,
+   "cal": 640,
+   "protein": 26,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Bulk mild Italian sausage",
+     "store": "Aldi",
+     "price": 3.29
+    },
+    {
+     "item": "Brussels sprouts",
+     "store": "Aldi",
+     "price": 1.99
+    },
+    {
+     "item": "Friendly Farms heavy whipping cream",
+     "store": "Aldi",
+     "price": 4.35
+    },
+    {
+     "item": "Barilla pasta, 16 oz",
+     "store": "Target",
+     "price": 1.66
+    },
+    {
+     "item": "small wedge parmesan"
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "garlic",
+    "red pepper flakes",
+    "Italian seasoning",
+    "chicken broth or bouillon",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Boil 1 lb short pasta (orecchiette or penne) in well-salted water; save 1 cup pasta water before draining.",
+    "Meanwhile brown 1 lb bulk Italian sausage in a large skillet over medium-high, breaking it up, until 160\u00b0F, about 7 minutes. Scoop out, leaving the fat.",
+    "Add 1 Tbsp olive oil and 1 lb Brussels sprouts (trimmed, halved) cut-side down; cook 5\u20136 minutes until deeply browned. Add 4 sliced garlic cloves, \u00bd tsp red pepper flakes and 1 tsp Italian seasoning for 30 seconds.",
+    "Pour in \u00bd cup broth and \u00bd cup heavy cream; simmer 2 minutes. Add the pasta, sausage, \u00bd cup grated parmesan, zest of the lemon and 1 Tbsp juice; loosen with pasta water until glossy. Season with salt and pepper."
+   ]
+  },
+  {
+   "id": "meal-chipotle-chicken-tinga-tacos-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky chipotle chicken tinga tacos with lime crema",
+   "serves": 4,
+   "total": 12,
+   "cal": 560,
+   "protein": 59,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket boneless chicken breast, value size",
+     "store": "ShopRite",
+     "price": 2.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Friendly Farms sour cream",
+     "store": "Aldi",
+     "price": 1.75
+    },
+    {
+     "item": "small can chipotles in adobo"
+    },
+    {
+     "item": "12 corn tortillas"
+    },
+    {
+     "item": "cilantro"
+    },
+    {
+     "item": "2 limes"
+    }
+   ],
+   "pantry": [
+    "oil",
+    "onion",
+    "garlic",
+    "canned crushed tomatoes",
+    "cumin",
+    "dried oregano",
+    "chicken bouillon",
+    "brown sugar",
+    "salt"
+   ],
+   "steps": [
+    "Simmer 2 lb chicken breasts in salted water with \u00bd onion 15\u201318 minutes, until 165\u00b0F. Shred with two forks; save \u00bd cup of the liquid.",
+    "Heat 1 Tbsp oil in a skillet; cook 1 sliced onion 5 minutes. Add 3 minced garlic cloves, 1 tsp cumin and 1 tsp oregano for 30 seconds.",
+    "Blend or mash 1 can (14 oz) crushed tomatoes, 2\u20133 chipotles plus 1 Tbsp adobo, 1 tsp bouillon and 1 tsp brown sugar; add to the pan with the reserved liquid and simmer 5 minutes. Stir in the chicken and simmer 5 more minutes until saucy.",
+    "Stir \u00bd cup sour cream with the juice of 1 lime and a pinch of salt. Warm the tortillas and fill with tinga, crema and cilantro; serve with lime wedges."
+   ]
+  },
+  {
+   "id": "meal-smoky-chickpea-sweet-potato-sheet-pan-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky chickpea & sweet potato sheet pan with garlic-lemon crema (meatless)",
+   "serves": 4,
+   "total": 10,
+   "cal": 590,
+   "protein": 16,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Sweet potatoes",
+     "store": "Aldi",
+     "price": 0.65
+    },
+    {
+     "item": "Friendly Farms sour cream",
+     "store": "Aldi",
+     "price": 1.75
+    },
+    {
+     "item": "2 cans chickpeas"
+    },
+    {
+     "item": "1 red onion"
+    },
+    {
+     "item": "5 oz baby spinach"
+    },
+    {
+     "item": "1 lemon"
+    }
+   ],
+   "pantry": [
+    "olive oil",
+    "smoked paprika",
+    "cumin",
+    "garlic powder",
+    "garlic",
+    "honey",
+    "red pepper flakes",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Heat oven to 425\u00b0F. Cut 2 lb sweet potatoes into 1-inch cubes and the red onion into wedges. Drain, rinse and pat dry 2 cans chickpeas.",
+    "Toss everything with 3 Tbsp olive oil, 2 tsp smoked paprika, 1 tsp cumin, 1 tsp garlic powder, \u00bc tsp red pepper flakes and 1 tsp salt. Roast on a large sheet pan 30\u201335 minutes, stirring once, until the potatoes are tender and the chickpeas crisp.",
+    "Drizzle with 1 Tbsp honey and toss the spinach right on the hot pan to wilt.",
+    "Stir \u00be cup sour cream with 1 grated garlic clove, zest and juice of \u00bd lemon and a pinch of salt. Spoon over the pan and serve."
+   ]
+  },
+  {
+   "id": "meal-kung-pao-chicken-broccoli-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Kung pao-style chicken with broccoli and peanuts",
+   "serves": 4,
+   "total": 9,
+   "cal": 680,
+   "protein": 52,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Bowl & Basket boneless chicken breast, value size",
+     "store": "ShopRite",
+     "price": 2.49,
+     "unit": "/lb"
+    },
+    {
+     "item": "Broccoli crowns",
+     "store": "ShopRite",
+     "price": 1.69,
+     "unit": "/lb"
+    },
+    {
+     "item": "\u2153 cup roasted peanuts"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "soy sauce",
+    "rice vinegar",
+    "honey",
+    "cornstarch",
+    "garlic",
+    "red pepper flakes",
+    "sesame oil",
+    "oil",
+    "white rice"
+   ],
+   "steps": [
+    "Start 1\u00bd cups rice. Cut 1\u00bd lb chicken breast into bite-size pieces; toss with 1 Tbsp soy sauce and 2 tsp cornstarch.",
+    "Whisk the sauce: 3 Tbsp soy sauce, 2 Tbsp rice vinegar, 2 Tbsp honey, 1 tsp sesame oil, 1 tsp cornstarch and \u00bc cup water.",
+    "Heat 1 Tbsp oil in a large skillet over high heat. Cook 1\u00bd lb broccoli florets 4 minutes until charred in spots, adding 2 Tbsp water at the end; set aside.",
+    "Add 1 Tbsp oil and the chicken; cook 5\u20136 minutes until browned and 165\u00b0F. Add 4 minced garlic cloves and \u00bd\u20131 tsp red pepper flakes for 30 seconds, then the broccoli and sauce; toss 1 minute until thick. Top with peanuts and green onions; serve over rice."
+   ]
+  },
+  {
+   "id": "meal-cheddar-cottage-pie-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Beefy cottage pie with garlic-butter mashed potatoes",
+   "serves": 6,
+   "total": 13,
+   "cal": 660,
+   "protein": 32,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Nature's Reserve 80% lean ground beef, 1 lb",
+     "store": "ShopRite",
+     "price": 2.99
+    },
+    {
+     "item": "Russet potatoes, bag",
+     "store": "Aldi",
+     "price": 3.49
+    },
+    {
+     "item": "Baby peeled carrots",
+     "store": "Aldi",
+     "price": 0.89
+    },
+    {
+     "item": "Season's Choice steamable frozen peas",
+     "store": "Aldi",
+     "price": 0.95
+    },
+    {
+     "item": "Countryside Creamery butter quarters, 1 lb",
+     "store": "Aldi",
+     "price": 1.99
+    }
+   ],
+   "pantry": [
+    "onion",
+    "garlic",
+    "tomato paste",
+    "flour",
+    "Worcestershire sauce",
+    "beef bouillon",
+    "dried thyme",
+    "milk",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Boil 2\u00bd lb peeled, cubed russets in salted water 15 minutes until tender. Drain and mash with 4 Tbsp butter, \u00bd cup warm milk, 2 grated garlic cloves, salt and pepper.",
+    "Brown 2 lb ground beef in a large oven-safe skillet until 160\u00b0F; spoon off extra fat. Add 1 diced onion and 1 cup chopped baby carrots; cook 5 minutes.",
+    "Stir in 2 Tbsp tomato paste, 2 Tbsp flour, 1 tsp dried thyme and 2 minced garlic cloves for 1 minute. Add 1\u00bd cups water with 2 tsp beef bouillon and 1 Tbsp Worcestershire; simmer 8 minutes until thick. Stir in 1 cup frozen peas.",
+    "Heat oven to 400\u00b0F. Spread the mash over the filling, rough it up with a fork and bake 20 minutes; broil 2\u20133 minutes until golden. Rest 5 minutes before serving."
+   ]
+  },
+  {
+   "id": "meal-smoky-sausage-potato-hash-eggs-nov25",
+   "kind": "meal",
+   "type": "Dinner",
+   "name": "Smoky sausage, potato & pepper hash with jammy eggs",
+   "serves": 5,
+   "total": 11,
+   "cal": 710,
+   "protein": 33,
+   "week": "2026-11-25",
+   "ingredients": [
+    {
+     "item": "Jimmy Dean sausage links, rolls or patties",
+     "store": "Target",
+     "price": 3.5
+    },
+    {
+     "item": "Organic russet potatoes, 3 lb",
+     "store": "Target",
+     "price": 2.49
+    },
+    {
+     "item": "1 dozen eggs"
+    },
+    {
+     "item": "1 bell pepper"
+    },
+    {
+     "item": "green onions"
+    }
+   ],
+   "pantry": [
+    "oil",
+    "onion",
+    "garlic powder",
+    "smoked paprika",
+    "chili powder",
+    "hot sauce",
+    "salt and pepper"
+   ],
+   "steps": [
+    "Dice 2 lb russet potatoes into \u00bd-inch cubes; microwave covered with 2 Tbsp water 5 minutes to par-cook, then pat dry.",
+    "Brown a 1 lb Jimmy Dean sausage roll in a large skillet over medium-high, breaking it up, until 160\u00b0F; scoop out. Add 2 Tbsp oil and the potatoes in a single layer; cook 10\u201312 minutes, turning occasionally, until crisp.",
+    "Add 1 diced onion and the diced bell pepper with 1 tsp smoked paprika, \u00bd tsp chili powder, \u00bd tsp garlic powder and salt; cook 5 minutes. Return the sausage.",
+    "Make 10 wells, crack in the eggs, cover and cook on low 5\u20137 minutes until the whites are set and yolks jammy. Finish with green onions and hot sauce."
+   ]
+  },
+  {
    "id": "meal-sticky-soy-ginger-pork-broccoli-nov22",
    "kind": "meal",
    "type": "Dinner",
