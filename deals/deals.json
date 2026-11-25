@@ -1,6 +1,30 @@
 {
- "updated": 1795603144252,
+ "updated": 1795603216082,
  "deals": [
+  {
+   "id": "web-hp67xl-compatible-ink-walmart-20261125",
+   "item": "67XL Compatible Ink Cartridges for HP 67 (Black + Tri-Color High-Yield Combo)",
+   "store": "Walmart",
+   "price": 29.89,
+   "was": 60.89,
+   "notes": "Third-party compatible cartridges, not HP brand. Listed in Walmart clearance.",
+   "at": 1795603216082,
+   "src": "Walmart",
+   "srcUrl": "https://www.walmart.com/shop/deals/clearance",
+   "url": "https://www.walmart.com/ip/67XL-67-Ink-Cartridges-Compatible-for-HP-67-Ink-Cartridge-High-Yield-Combo-Pack-Black-Tri-Color/8814800944"
+  },
+  {
+   "id": "web-sanmadrola-waterproof-sofa-cover-20261125",
+   "item": "Sanmadrola 100% Waterproof Sofa Cover (Dark Gray, Sofa size)",
+   "store": "Walmart",
+   "price": 18.99,
+   "was": 44.99,
+   "notes": "Walmart clearance; some size/color options from $16.99.",
+   "at": 1795603216082,
+   "src": "Walmart",
+   "srcUrl": "https://www.walmart.com/shop/deals/clearance",
+   "url": "https://www.walmart.com/ip/Sanmadrola-100-Waterproof-Sofa-Cover-Non-Slip-Couch-Cover-Machine-Washable-Slipcover-Leakproof-Furniture-Protector-Dogs-Kids-Pets-Dark-Gray-Sofa/1080807668"
+  },
   {
    "id": "web-baleaf-cargo-work-pants-20261125",
    "item": "BALEAF Men's Ripstop Double-Knee Cargo Work Pants (10 pockets)",
