@@ -1,6 +1,90 @@
 {
- "updated": 1795689461157,
+ "updated": 1795689538672,
  "deals": [
+  {
+   "id": "web-beats-solo-4-target-20261126",
+   "item": "Beats Solo 4 Wireless On-Ear Headphones",
+   "store": "Target",
+   "price": 79.99,
+   "was": 199.99,
+   "notes": "On Target clearance from $79.99 (price varies by color, up to $99.99).",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/beats-solo-4-bluetooth-wireless-on-ear-headphones/-/A-91975105"
+  },
+  {
+   "id": "web-beats-pill-target-20261126",
+   "item": "Beats Pill Wireless Bluetooth Speaker",
+   "store": "Target",
+   "price": 69.99,
+   "was": 149.99,
+   "notes": "Clearance from $69.99 depending on color (up to $94.99).",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/beats-pill-wireless-bluetooth-speaker/-/A-92595737"
+  },
+  {
+   "id": "web-alberta-spruce-flocked-tree-target-20261126",
+   "item": "Wondershop 6.5' Alberta Spruce Pre-Lit Flocked Christmas Tree",
+   "store": "Target",
+   "price": 45,
+   "was": 90,
+   "notes": "Half off on clearance; LED bicolor lights with twinkle.",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/6-5-39-alberta-spruce-led-pre-lit-flocked-artificial-christmas-tree-bicolor-lights-with-twinkle-wondershop-8482/-/A-95249211"
+  },
+  {
+   "id": "web-toy-story-rv-friends-6pk-target-20261126",
+   "item": "Disney Pixar Toy Story RV Friends 6-Pack Figure Set (Target Exclusive)",
+   "store": "Target",
+   "price": 29.99,
+   "was": 59.99,
+   "notes": "Half off on clearance.",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/disney-pixar-toy-story-rv-friends-6pk-figures-target-exclusive/-/A-75561753"
+  },
+  {
+   "id": "web-keurig-k-mini-go-target-20261126",
+   "item": "Keurig K-Mini Go Single-Serve Coffee Maker",
+   "store": "Target",
+   "price": 49.99,
+   "was": 88.99,
+   "notes": "Clearance price, about 44% off.",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/keurig-k-mini-go-multicup-reservoir-single-serve-k-cup-pod-coffee-maker-with-strong-brew-button/-/A-91466170"
+  },
+  {
+   "id": "web-wondershop-plaid-pajama-pants-target-20261126",
+   "item": "Wondershop Women's Holiday Plaid Microfleece Pajama Pants (Green)",
+   "store": "Target",
+   "price": 5,
+   "was": 10,
+   "notes": "Half off family matching PJ pants on clearance.",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/women-s-holiday-plaid-fleece-matching-family-pajama-pants-wondershop-green/-/A-1010889356"
+  },
+  {
+   "id": "web-heyday-cordless-touch-lamp-target-20261126",
+   "item": "heyday Cordless Touch Table Lamp",
+   "store": "Target",
+   "price": 7.49,
+   "was": 14.99,
+   "notes": "Half off on clearance.",
+   "at": 1795689538672,
+   "src": "Target.com",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0f2",
+   "url": "https://www.target.com/p/heyday-pat-pat-light/-/A-1015998516"
+  },
   {
    "id": "web-lego-lilo-stitch-43249-kohls-20261126",
    "item": "LEGO Disney Lilo & Stitch 43249 (730 pcs)",
