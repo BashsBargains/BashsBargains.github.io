@@ -1,5 +1,5 @@
 {
- "updated": 1795431254310,
+ "updated": 1795690438320,
  "deals": [
   {
    "id": "popeyes-monday-free-wings",
@@ -712,26 +712,6 @@
    "checked": "2026-11-19"
   },
   {
-   "id": "chipotle-thanksgiving-eve-bogo-2026",
-   "chain": "Chipotle",
-   "cat": "Mexican",
-   "offer": "Buy one entrée, get one free on Thanksgiving Eve",
-   "how": "Wednesday, Nov 25, 5–9pm local time at participating restaurants. Chipotle Rewards members order in the restaurant and scan their Rewards code at checkout. The free entrée must cost the same or less; up to five free per check. App, online, delivery and kids' meals don't count.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Scan your Chipotle Rewards code at the register.",
-   "start": "2026-11-25",
-   "ends": "2026-11-25",
-   "link": "https://www.chipotle.com/",
-   "linkText": "Go to Chipotle",
-   "official": false,
-   "src": "Delish (via Yahoo)",
-   "srcUrl": "https://yahoo.com/lifestyle/articles/chipotle-thanksgiving-eve-bogo-making-144007546.html",
-   "checked": "2026-11-23"
-  },
-  {
    "id": "chipotle-cyber26-free-delivery-2026",
    "chain": "Chipotle",
    "cat": "Mexican",
@@ -789,34 +769,10 @@
    "src": "Sporked",
    "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
    "checked": "2026-11-23"
-  },
-  {
-   "id": "panera-free-baguette-nov-2026",
-   "chain": "Panera Bread",
-   "cat": "Bakery",
-   "offer": "Free baguette with any in-café purchase on Nov 25",
-   "how": "Wednesday, Nov 25, starting at 11am local time, while they last. Buy anything in the café to get a free baguette. Select locations only, so call ahead.",
-   "where": [
-    "In store"
-   ],
-   "code": "",
-   "ask": "No code. Just ask for the free baguette when you order.",
-   "start": "2026-11-25",
-   "ends": "2026-11-25",
-   "link": "https://www.panerabread.com/",
-   "linkText": "Go to Panera",
-   "official": false,
-   "src": "Sporked",
-   "srcUrl": "https://sporked.com/article/every-fast-food-deal-this-week-10/",
-   "checked": "2026-11-23"
   }
  ],
  "apps": [],
  "holidays": [
-  {
-   "name": "Thanksgiving",
-   "date": "2026-11-26"
-  },
   {
    "name": "National Cookie Day",
    "date": "2026-12-04"
@@ -828,6 +784,10 @@
   {
    "name": "National Cocoa Day",
    "date": "2026-12-13"
+  },
+  {
+   "name": "National Cupcake Day",
+   "date": "2026-12-15"
   }
  ]
 }
