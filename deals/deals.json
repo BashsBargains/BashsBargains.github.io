@@ -1,6 +1,30 @@
 {
- "updated": 1795862335268,
+ "updated": 1795862417260,
  "deals": [
+  {
+   "id": "web-marvel-legends-venom-jeff-target-20261128",
+   "item": "Marvel Legends Series Marvel Rivals Venom & Jeff the Land Shark Action Figures",
+   "store": "Target",
+   "price": 42.24,
+   "was": 64.99,
+   "notes": "Online clearance price at Target.",
+   "at": 1795862417260,
+   "src": "Target",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/marvel-legends-series-marvel-rivals-venom-38-jeff-the-land-shark-action-figures/-/A-94977296"
+  },
+  {
+   "id": "web-miniverse-mini-spa-target-20261128",
+   "item": "MGA's Miniverse Make It Mini Spa Accessory Set",
+   "store": "Target",
+   "price": 4.99,
+   "was": 9.99,
+   "notes": "Listed on Target's online clearance page; stock can change quickly.",
+   "at": 1795862417260,
+   "src": "Target",
+   "srcUrl": "https://www.target.com/c/clearance/-/N-5q0ga",
+   "url": "https://www.target.com/p/mga-39-s-miniverse-make-it-mini-hba-figure/-/A-90581917"
+  },
   {
    "id": "web-ember-mug-2-10oz-woot-20261128",
    "item": "Ember Temperature Control Smart Mug 2 (10 oz)",
@@ -45,10 +69,12 @@
    "store": "Best Buy",
    "price": 279.99,
    "was": 549.99,
-   "notes": "Lowest price seen at Best Buy; was $330-$350 last month.",
+   "notes": "Best Buy Deal of the Day (ends tonight). Lowest price seen at Best Buy; was $330-$350 last month.",
    "at": 1795788060000,
    "src": "Slickdeals",
-   "srcUrl": "https://slickdeals.net/f/20425215-65-hisense-qd5-hi-qled-series4k-uhd-smart-roku-tv-2026-280-best-buy"
+   "srcUrl": "https://slickdeals.net/f/20425215-65-hisense-qd5-hi-qled-series4k-uhd-smart-roku-tv-2026-280-best-buy",
+   "url": "https://www.bestbuy.com/product/hisense-65-class-qd5-hi-qled-series4k-uhd-smart-roku-tv-2026/J3Z9Z424VW",
+   "expires": 1795931940000
   },
   {
    "id": "web-frigidaire-ice-maker-walmart-20261128",
